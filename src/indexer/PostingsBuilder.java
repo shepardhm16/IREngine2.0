@@ -5,6 +5,8 @@
 //  IREngine 2.0                                                              //
 ////////////////////////////////////////////////////////////////////////////////
 
+// MUST CHANGE THIS FILE FOR IT TO WORK; OTHERWISE, IT WILL TAKE A WEEK TO RUN
+
 package indexer;
 
 import java.io.BufferedWriter;
@@ -33,6 +35,7 @@ public class PostingsBuilder {
 	BufferedWriter docPtrWriter = null;
 	BufferedWriter metaFileWriter = null;
 	TermTable table = null;
+        
 	public PostingsBuilder() {
 		try {
 			postingsWriter = new DataOutputStream(new FileOutputStream(FileNames.POSTINGS));

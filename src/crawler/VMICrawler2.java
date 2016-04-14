@@ -28,7 +28,7 @@ public class VMICrawler2 {
 	private  static ArrayList<String> allLinks = new ArrayList<String>();
 	
 	public static void main(String[] args) throws IOException {
-		if(addLinksFromFile("./docs/vmi_link_final.txt") == false) {
+		if(addLinksFromFile("./vmi_link_final.txt") == false) {
 			System.out.println("Critical Error: Cannot Open File");
 			System.exit(1);
 		}
@@ -44,18 +44,19 @@ public class VMICrawler2 {
 			url = allLinks.get(i);
 			System.out.println("processing " + i + "th url: " + url);
 			try {
-				doc = Jsoup.connect(url).timeout(2000).	get();
-				/*elements = doc.getAllElements();
+                            doc = Jsoup.connect(url).timeout(20000).get();  // Maybe increase timeout?
+                            /*elements = doc.getAllElements();
 
-				for (Element e : elements) {
-					contents += (e.text().trim() + " ");
-				}*/
-                                contents = doc.outerHtml();
+                            for (Element e : elements) {
+                                    contents += (e.text().trim() + " ");
+                            }*/
+                            contents = doc.outerHtml();
+                           // contents = contents.replaceAll("[^a-zA-Z0-9 ]+"," ");
+                            writeContentsToFile(i, contents);
 			} catch(Exception e) {
-				System.out.println("Error: " + i + ":" + url + "[" + e.getMessage() + "]");
+                            System.out.println("Error: " + i + ":" + url + "[" + e.getMessage() + "]");
 			}
-			contents = contents.replaceAll("[^a-zA-Z0-9 ]+"," ");
-			writeContentsToFile(i, contents);
+			
 			i++;
                         if(i%100 == 0)
                             System.out.println(i + "th documents collected.)");
@@ -89,20 +90,9 @@ public class VMICrawler2 {
 				allLinks.add(line);
 			}*/ //Replaced with the below method
                         
-                        String dir = "./docs"; //might be ../docs
-                        
                         int fileidx = 0;
                         while ((line = bufferedReader.readLine()) != null) {
-                            fileName = dir + "vmifile-" + fileidx;
-                            try {
-                                Document doc = Jsoup.connect(line).timeout(3000).get();
-                                String content = doc.outerHtml();
-                                writeToFile(fileName, content);
-                            } catch (Exception e) {
-                                System.out.println("Error: " + e.getMessage() + " (" + line + ")");
-                                writeToFile("[ERROR]" + fileName, "NO CONTENTS");
-                            }
-                            fileidx++;
+                            allLinks.add(line.trim());
                         }
                         
 			// Always close files.

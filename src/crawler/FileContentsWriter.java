@@ -15,6 +15,7 @@ import utility.FileNames;
  * @author Holden
  */
 public class FileContentsWriter {
+    static BufferedWriter[] writer;
     public static void writeContentsFile(String tag, String cls, String text) {
         for(int i=0; i<FileNames.DIRS.length;i++) {
             if(FileNames.DIRS[i].equalsIgnoreCase(tag) ||
@@ -26,6 +27,7 @@ public class FileContentsWriter {
                 }
         }
         try {
+            
             writer[0].write(text);
         } catch (IOException e) {}
     }
@@ -38,7 +40,7 @@ public class FileContentsWriter {
             writer = new BufferedWriter[FileNames.DIRS.length];
 
             for(int i=0; i<FileNames.DIRS.length;i++) 
-                writer[i] = new BufferedWriter(new     FileWriter("./data/contents/"+FileNames.DIRS[i] +"/doc-"+idx));
+                writer[i] = new BufferedWriter(new FileWriter("./data/contents/"+FileNames.DIRS[i] +"/doc-"+idx));
         } catch(Exception e) {}
     }
 

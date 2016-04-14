@@ -33,13 +33,15 @@ public class Crawler {
 	
 	public static void main(String[] args) throws IOException {
 		// URL url;
-                ArrayList<String> docnames = Utility.getAllDocuments("./docs");
+                ArrayList<String> docnames = Utility.getAllDocuments("./docs"); // file names in the directory
+                
 		Document doc = null;
 		Elements elements = null;
                 
                 File input;
                 for(int i=0; i<docnames.size();i++) {
                     try {
+                        FileContentsWriter.init(i);
                         input = new File(docnames.get(i));
                         doc = Jsoup.parse(input, "UTF-8");
                         elements = doc.getAllElements();
@@ -48,48 +50,13 @@ public class Crawler {
                             String classname = e.className();
                             String text = e.text().replaceAll("[^a-zA-Z0-9 ]+"," ").trim() + " ";
                             FileContentsWriter.writeContentsFile(tagname, classname, text);
+                            
+                            
                         }
 
                     } catch(Exception e) {}
                 }
-            int i = 0;
-            String url;
-                
-                /*
-		while ((line = bufferedReader.readLine()) != null) {
-                    filename = dir + "vmifile-" + fileidx;
-                    try {
-                        doc = Jsoup.connect(line).timeout(3000).get();
-                        content = doc.outerHtml();
-                        writeToFile(filename, content);
-                    } catch (Exception e) {
-                        System.out.println("Error: " + e.getMessage() + " (" + line + ")");
-                        writeToFile("[ERROR]" + filename, "NO CONTENTS");
-                    }
-                    fileidx++;
-                }
-                */
-                
-		while((url = allLinks.get(i++)) != null) {
-
-			//use next line if you want to check your program is alive and works correctly
-			//System.out.println(i + ": " + url);
-			try {
-				doc = Jsoup.connect(url).timeout(2000).	get();
-                            Elements links = doc.select("a[href]");
-
-				for (Element link : links) {
-					addLink(link.attr("abs:href").trim());
-				}
-			} catch(Exception e) {
-				System.out.println("Error: " + e.getMessage() + url);
-				
-			}
-			// use next line for testing. i means number of url to be processed
-			//if(i>3) break;
-
-		}
-		writer.close();
+          
 	}
 
 	private static void setQueries(String link) {
