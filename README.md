@@ -3,7 +3,7 @@ Updated IR Engine Files
 The source code for the CIS-443-01 IREngine project.
 
 Team Members:
-1.)  Holden Shepard \n
+1.)  Holden Shepard <br>
 2.)  Benjamin Chong
 3.)  Zachary Carter
 4.)  John D'Antonio
