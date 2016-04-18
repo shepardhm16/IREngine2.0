@@ -1,0 +1,728 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	Virginia Military Institute - Academic Prizes, Medals and Awards
+</title>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets,liberal arts, lexington, ncaa div. 1, competitive, civilian, commission, barracks, science, co-ed, public, university, ethics, honor, character, responsibility, undergraduate, leaders">
+  <meta name="Description" content="Virginia Military Institute is a small, public, nationally-ranked college committed to leadership development in a military environment in Lexington, Virginia. VMI instills values of honor, discipline, selflessness, commitment, duty, self-reliance, and service. VMI is recognized as one of America’s top colleges for liberal arts and sciences by US News &amp;amp; World Report, The Princeton Review, and Peterson’s Guide to Competitive Colleges. US News ranks VMI’s engineering programs among the twenty best in America. Men and women of VMI are free to choose military or civilian careers.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=10737425036" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCDw8PFgIeB1Zpc2libGVoZGQCEw9kFgYCAQ8PFgIfCGdkZAIDDw8WAh8IaGRkAgUPZBYCAgEPZBYCZg9kFgJmDxYCHwhnFgICAQ8PFgIfAgUzL3VwbG9hZGVkSW1hZ2VzL0ltYWdlcy9IZWFkZXJzL2FjYWRlbWljcy5qcGc/bj05MzcxZGRkvKmd3w7poPOHW6G31cvByH2FgzQK9Gmq4BC7Ma/rlOc="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAQ/S2aNEed6msFD7pH7GoQ4g7Z1sS2zTNHf3/IxWgcxRFSOGbegovGRRqrbhyvyJGWQuO5O7PDGe2zLg4RZuxgsEvnFRVtPIsu02vXvbpAUpdbZPC1rJdgNDYU2EBWpEmg="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a></li>
+        <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+        <li><a href="/Content.aspx?id=4294974195" target="_self">Areas of Study</a></li>
+        <li><a href="/Content.aspx?id=148" target="_self">Course Catalog</a></li>
+        <li><a href="/Content.aspx?id=10737423884" target="_self">Enrichment Programs</a></li>
+        <li><a href="/content.aspx?id=150" target="_self">Services &amp; Support</a></li>
+        <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+        <li><a href="/Content.aspx?id=10737420186" target="_blank">Research at VMI</a></li>
+        <li><a href="/Content.aspx?id=10737424062" target="_self">Scholarships</a></li>
+        <li><a href="/Content.aspx?id=192" target="_self">Office of the Dean</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft112"> 
+        <a title="The Jackson-Hope Fund. Seeing the potential." href="/Content.aspx?id=4294969834"><img src="/uploadedImages/Images/buttons/jackson-hope-fund.png?n=1295" alt="Jackson Hope Fund" title="Jackson Hope Fund"></a> 
+        <address><a href="mailto:Dean@vmi.edu">Dean's Office</a><br><br>P: (540) 464-7212<br>F: (540) 464-7719<br><br>Dean's Office<br>Virginia Military Institute<br>210 Smith Hall<br>Lexington, VA 24450</address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/academics.jpg?n=9371" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Academic Prizes, Medals, and Awards</h1> 
+       <div class="table-responsive">
+        <table class="table table-hover"> 
+         <tbody> 
+          <tr> 
+           <td colspan="1">All Majors</td> 
+           <td colspan="1"><p><strong>Colonel Daniel T. Ingram 1921 - Castle Heights Military Academy Award</strong></p> <p>Award presented to a graduating 1st Classman who is planning a career as a teacher and who demonstrates the high values reflected in Colonel Ingram's life.</p> </td> 
+          </tr> 
+          <tr> 
+           <td>All Majors</td> 
+           <td><p><strong>Colonel Herbert Nash Dillard '34 Award</strong></p> <p>Established in 1977 in memory of Colonel Herbert Nash Dillard '34, senior professor of English, department head for eight years, director of the VMI Glee Club for twenty years, and a member of the VMI faculty for thirty-eight years.&nbsp; The cash award and&nbsp; certificate are to be presented to a member of the graduating class judged by the faculty and staff as the cadet best emulating the scholarship and dedication to a broad liberal arts education which characterized Col. Dillard.&nbsp; Consideration will be given to proficiency in a chosen field of study, leadership in the Corps of Cadets, and outstanding accomplishments in the extracurricular program of the Institute.</p> </td> 
+          </tr> 
+          <tr> 
+           <td><p>All Majors</p> </td> 
+           <td><p><strong>Colonel Sterling&nbsp; Murray Heflin '16 &nbsp;Academic Proficiency Award</strong></p> <p>Established in 1988 as a cash prize awarded to the recipient of the Second Jackson-Hope Medal.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>All Majors</p> </td> 
+           <td><p><strong>Commander Harry Millard Mason Awards&nbsp;&nbsp; </strong></p> <p>Two cash awards established in 1981 in memory of Commander Harry Millard Mason by Mrs. Mason.&nbsp; The Academic&nbsp;Proficiency Award made annually to a graduating member of the first class&nbsp; who stands first academically in his/her class&nbsp;will accompany the First Jackson Hope Medal. The second award is made to the graduating first classman recommended by a review committee as the most&nbsp; militarily proficient cadet.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>All Majors</p> </td> 
+           <td><p><strong>The Company Cup</strong></p> <p>Established in 1970, an award to the company with the highest combined average GPA for the fall and spring semesters upon which their company and year is engraved. </p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>All Majors</p> </td> 
+           <td><p><strong>Francis&nbsp; H. Smith&nbsp; Award&nbsp; </strong></p> <p>A cash award established in 1981 by an anonymous donor as a&nbsp; memorial to Francis&nbsp;&nbsp; H. Smith, VMI's first Superintendent, is made to a rising first classman who has&nbsp; exhibited outstanding academic achievement, extracurricular participation, leadership ability, and demonstrated potential for a professional career. </p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>All Majors</p> </td> 
+           <td><p><strong>George C. Marshall Citizen-Soldier Award</strong></p> <p>The award is given bi-annually to a first classman or rising first classman best modeling the attributes displayed by George C. Marshall as a cadet.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td colspan="1">All Majors&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+           <td colspan="1"><p><strong>Institute Honors Thesis Awards</strong></p> <p>Awarded by the Institute Writing Program to the graduating cadets who present the most outstanding theses in satisfaction of their requirements for the Institute Honors Program.&nbsp; </p> </td> 
+          </tr> 
+          <tr> 
+           <td><p>All Majors</p> </td> 
+           <td><p><strong>Jackson-Hope Medals</strong></p> <p>In 1867 the Honorable A. J. B. Beresford Hope, member of the British Parliament and representative of an association that had presented to the Commonwealth of Virginia a statue of Thomas J. Jackson, sent to Governor James L. Kemper the remainder of the statue fund,&nbsp; requesting that it be used for a further memorial to the great Confederate soldier. The Governor proposed and the Board of Visitors approved the establishment of two "Jackson-Hope Medals" to be presented annually to the two most distinguished graduates of the Institute, and since the first awards in 1877, the Jackson-Hope Medals have been VMI's highest awards for scholastic achievement.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>All Majors</p> </td> 
+           <td><p><strong>Jeff Shaara&nbsp; Scholar-in-Residence Award</strong></p> <p>&nbsp;Established in 1999. Annual award to provide the opportunity to pursue a research topic relating to mid-nineteenth century American history and to serve as a historical interpreter at&nbsp; New Market&nbsp; Battlefield&nbsp; State Historical&nbsp; Park.&nbsp; The Shaara scholar will receive a&nbsp;cash stipend, a ten-week appointment to the New Market Park staff, and summer lodging on the historic Bushong Farm.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>All Majors</p> </td> 
+           <td><p><strong>Lt. Gen.Edward Mallory Almond '15 Award for Academic-Athletic-Military Excellence&nbsp; </strong></p> <p>Established by the General John H. Forney Historical Society of Alabama in 1981 as a memorial to General Almond. Given annually to a graduating cadet who has made outstanding contributions to VMI's intercollegiate athletic program while distinguishing himself through academic achievement and soldierly bearing and aptitude.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>All Majors</p> </td> 
+           <td><p><strong>Richard J. Marshall Award</strong></p> <p>An admiring comrade of Major General Richard J. Marshall during World War II, R. C. Kramer of New York, has established a fund for a cash award to the winner of the Cincinnati Medal.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>All Majors</p> </td> 
+           <td><p><strong>Society of the Cincinnati Medal</strong></p> <p>In 1913 the Society of the Cincinnati in the State of Virginia established a fund to provide annually a medal to be awarded by the faculty to the member of the graduating class most&nbsp; distinguished by efficiency&nbsp; of services and&nbsp; excellence of character throughout his/her cadetship.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>All Majors</p> </td> 
+           <td><p><strong>Sumter&nbsp; L. Lowry Award</strong></p> <p>The first winner of the Cincinnati&nbsp; Medal, Major General Sumter deLeon Lowry, Class of 1914, has donated a sum of money to the VMI Foundation, Inc., for the purpose of providing a further cash prize to the winner of the Cincinnati Medal.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td colspan="1">All Majors&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+           <td colspan="1"><p><strong>United Daughters of the Confederacy Sir Moses Ezekiel Award</strong></p> <p>Given to a cadet who has contributed to the cultural life of the Institute.</p> </td> 
+          </tr> 
+          <tr> 
+           <td colspan="1">All Majors&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+           <td colspan="1"><p><strong>Wilbur S. Hinman, Jr. '26 Research Awards</strong></p> <p>&nbsp;Named for the first president of the VMI Research Laboratories, the Hinman Award was created by the directors of the VMIRL to recognize superior achievement by cadets in the performance of research and to recognize faculty sponsors’ efforts to encourage cadet participation in such research.</p> </td> 
+          </tr> 
+          <tr> 
+           <td><p>Biology</p> </td> 
+           <td><p><strong>Alfred&nbsp; H.&nbsp; Knowles 1933&nbsp; Award</strong></p> <p>Established by H. C. Knowles of Rochester, New York, in memory of his son, a member of the Class of 1933, who died as the result of an accident at home on Christmas furlough during his senior year. This award, based upon class standing, is made to a graduating biology major.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Biology</p> </td> 
+           <td><p><strong>John&nbsp; Randolph Tucker&nbsp;Carmichael Award</strong></p> <p>Established in 1951 by the Class of 1931 as a memorial to their classmate, Dr. John Randolph Tucker Carmichael, who died in 1941. The award, based upon unusual academic achievement and excellence of character, is made to a third class biology major.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Biology</p> </td> 
+           <td><p><strong>Paul R. Meyer Award</strong></p> <p>This award, based upon academic achievement, is given by Dr. Paul R. Meyer, Class of 1924, and is awarded each year to a fourth class biology major.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Biology</p> </td> 
+           <td><p><strong>Philip H. Killey 1941 Award</strong></p> <p>Established in 1943 by the parents of Philip H. Killey, who lost his life in North Africa during World War II. The award, based upon unusual academic achievement and excellence of character, is made to a second class biology major.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Chemistry&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+           <td colspan="1"><p><strong>2010 Biochemistry Award</strong></p> <p>Awarded to a Chemistry major for excellence in the study of Biochemistry</p> </td> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Chemistry&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+           <td colspan="1"><p><strong>ACS Analytical Chemistry Award</strong></p> <p>Awarded to a Chemistry major for excellence in the study of Analytical Chemistry</p> </td> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Chemistry</td> 
+           <td colspan="1"><p><strong>Chemistry Service and Leadership Award</strong></p> <p>Awarded to a Chemistry major for gracious and diligent service and leadership to the department</p> </td> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Chemistry</td> 
+           <td colspan="1"><p><strong>Floyd D. Gottwald, Jr. '43 Award in Chemistry</strong></p> <p>Presented to the top standing chemistry major</p> </td> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Chemistry</td> 
+           <td colspan="1"><p><strong>Gene Wise Award</strong></p> <p>Awarded to a Chemistry major for excellence in the study of Organic Chemistry&nbsp;</p> </td> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Chemistry</td> 
+           <td colspan="1"><p><strong>George Pickral Award</strong></p> <p>Awarded to a Chemistry major for excellence in the study of Inorganic Chemistry or Materials</p> </td> 
+          </tr> 
+          <tr> 
+           <td><p>&nbsp;Chemistry</p> </td> 
+           <td><p><strong>Herbert&nbsp; E. Ritchey&nbsp;First, Second and Third Class Awards</strong></p> <p>Cash prizes to a first, second, and third class chemistry major for excellence in the study of organic chemistry. This award was established in 1973 by an anonymous donor in memory of Colonel Herbert E. Ritchey who served on the faculty for thirty-eight years until his death in 1970.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Chemistry</p> </td> 
+           <td><p><strong>James Lewis Howe&nbsp;Award</strong></p> <p>Awarded to an outstanding Chemistry major</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Chemistry</p> </td> 
+           <td><p><strong>Larry L. Jackson '62 Undergraduate Research in Chemistry Award</strong></p> <p>Established in 1999 by Dr. Larry L. Jackson '62 and his wife, Lindy Lou White Jackson. A cash award presented to an upperclass cadet majoring in chemistry in order to reward past excellent performance in research and to encourage future research endeavors.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Chemistry</p> </td> 
+           <td><p><strong>Leslie&nbsp; German&nbsp; Second Class Award</strong></p> <p>A cash prize to a second class chemistry major for excellence in the study of analytical chemistry. This award was established in 1973 by an anonymous donor in honor of Colonel&nbsp; Leslie German who served on the&nbsp; faculty for thirty-five years until his retirement in 1968. Colonel German was head of the Chemistry Department for twenty-eight years.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Chemistry</p> </td> 
+           <td><p><strong>Ralph Bowen Linville Award</strong></p> <p>Established in 1964 by Mrs. Linville as a memorial to her husband who served on the chemistry faculty from 1947 to 1957. Awarded for excellence to a fourth class cadet majoring in chemistry.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Civil Engineering</p> </td> 
+           <td><p><strong>Alvin F. Meyer Awards</strong></p> <p>For the first classman showing highest proficiency in the sanitary engineering courses, and to the second classman standing first in the civil engineering curriculum.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Civil Engineering</p> </td> 
+           <td><p><strong>Civil Engineering Award</strong></p> <p>A cash award to the graduating civil engineering major who is declared by the department head to hold the highest academic standing at graduation.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Civil Engineering</p> </td> 
+           <td><p><strong>Class of 1941 Award</strong></p> <p>An award to the first-standing second classman majoring in civil engineering, established by Colonel Alvin F. Meyer, '41.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Civil Engineering</p> </td> 
+           <td><p><strong>James Preston Taylor 1945 Award</strong></p> <p>Established in 1959 by Robert L. Wallace, Class of 1924, as a memorial to his nephew who was killed in action on Iwo Jima in World War II while serving in the U.S. Marine Corps. The award is made to a fourth classman majoring in civil engineering.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Civil Engineering</p> </td> 
+           <td><p><strong>John Bowie Gray 1867 Award</strong></p> <p>Established by the late Miss Aylmer Gray as a memorial to her father, a New Market Cadet. It is awarded to a third classman standing first in civil engineering.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Civil Engineering</p> </td> 
+           <td><p><strong>Nathaniel W. Pendleton '22 Award</strong></p> <p>Established by Nathaniel W. Pendleton, Jr. '57, of Wytheville, Virginia, in memory of his father. The award is a cash prize&nbsp; and&nbsp; certificate to the&nbsp; first classman standing first in the&nbsp; civil engineering curriculum during his/her&nbsp;first class year.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Economics &amp; Business</p> </td> 
+           <td><p><strong>James Clifton Wheat, Jr. Medal</strong></p> <p>Established in honor of Mr. Wheat, Class of 1941, to acknowledge his lifelong interest in the economics and business studies at VMI, and his leadership in the VMI Foundation's Economic Fund Drive, 1969-70. The medal recognizes outstanding performance on the Major Field Test-Business by an Economics and Business major in the graduating class.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Economics &amp; Business</p> </td> 
+           <td><p><strong>John Robert Philpott Medal</strong></p> <p>Established in honor of Mr. Philpott, Class of 1935, to acknowledge his efforts as National Chairman of the Economics Fund Drive which resulted in establishment of the Mary Moody Northen Distinguished Scholars Chair in the Arts and Social Sciences.&nbsp;&nbsp; The medal recognizes outstanding performance in research by an Economics and Business major in the graduating class.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Economics &amp; Business&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+           <td colspan="1"><p><strong>John W. and Jane M. Roberts Award</strong></p> <p>Established in honor of John W. and Jane M. Roberts to recognize their lifelong interest in the American free enterprise system and their support for the Department of Economics and Business, this medal recognizes outstanding performance by an economics and business major in the graduating class</p> </td> 
+          </tr> 
+          <tr> 
+           <td><p>Economics &amp; Business</p> </td> 
+           <td><p><strong>Roberts Medal</strong></p> <p>Established in honor of John W. and Jane M. Roberts to recognize their lifelong interest in the American free enterprise system and their unswerving support for the Department of Economics and Business. The medal recognizes outstanding performance by an Economics and Business major in the graduating class.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Electrical Engineering&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+           <td colspan="1"><p><strong>Electrical and Computer Engineering Fourth Class Award</strong></p> <p>&nbsp;Awarded to the top fourth classman, majoring in electrical engineering.</p> </td> 
+          </tr> 
+          <tr> 
+           <td><p>Electrical Engineering</p> </td> 
+           <td><p><strong>Major General&nbsp; Richard&nbsp; C. Coupland '15 Electrical Engineering Awards</strong></p> <p>Established in 1991, and awarded to a second and third classman, majoring in electrical engineering, who have demonstrated academic excellence, outstanding leadership abilities, and high moral standards.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Electrical Engineering</p> </td> 
+           <td><p><strong>Stewart W. Anderson '08 Memorial Award</strong></p> <p>&nbsp;Established in 1977 by gifts of relatives and former students to provide a certificate and cash prize to be presented to the graduate having a superior academic performance in the electrical engineering curriculum. The award is in honor of Brigadier General Stewart Wise Anderson, Class of 1908, to recall his 46 years of devoted service to VMI as a member of the faculty. He was head of the Department of Electrical Engineering for 21 years and Dean of the Faculty for 14 years.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>English</p> </td> 
+           <td><p><strong>&nbsp;Asa S. Dearing Medal</strong></p> <p>Established as a memorial to her son, Asa S. Dearing, Class of 1891, by Mrs. P. M. Dearing, the Dearing Medal is awarded annually to the member of the graduating class who has demonstrated the highest proficiency in the study&nbsp;of English and&nbsp;English literature.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td colspan="1">History</td> 
+           <td colspan="1"><p><strong>Lieutenant Randolph T. Townsend Award</strong></p> <p>In 1951 Mrs. Randolph T. Townsend established the award as a memorial to her son, a member of the Class of 1950, who was killed in action in Korea in 1951. A bronze medal and a cash prize are presented annually to the first standing graduate in the history curriculum.</p> </td> 
+          </tr> 
+          <tr> 
+           <td><p>History</p> </td> 
+           <td><p><strong>Marshall Award in History</strong></p> <p>The George C. Marshall Research Foundation offers outstanding history majors at VMI the opportunity to study and work at the Marshall Library.&nbsp; Marshall scholars, chosen by the Foundation on recommendation of the VMI History and Politics Department, do an honors research paper on a topic related to the holdings of the Marshall Library.&nbsp; They attend seminars, participate in Marshall Foundation conferences, and receive a stipend at the conclusion of their research activities.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>History</p> </td> 
+           <td><p><strong>Richard Driggs LeMay, Jr. Award</strong></p> <p>Established in 1978 as a memorial to Major R. D. LeMay, Jr., '62, helicopter pilot and officer in the Fourth Air Cavalry, First Infantry Division. He was killed in action during his second tour of duty in Vietnam in September 1968. A cash prize is awarded to that cadet deemed most&nbsp; proficient&nbsp;in military history.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td colspan="1">International Studies</td> 
+           <td colspan="1"><p><strong>International Studies Award</strong></p> <p>Presented to the graduating international studies major who best exemplifies integrity, scholarship, and an abiding curiosity of international affairs</p> </td> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Mathematics</td> 
+           <td colspan="1"><p><strong>VMI-SIAM Award in Industrial and Applied Mathematics</strong></p> <p>Awarded annually since 2013 to a first or second classman for outstanding performance and lasting contribution by demonstrating exemplary talent in Industrial or Applied Mathematics through a research, service, or other professional project.&nbsp;</p> </td> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Mathematics</td> 
+           <td colspan="1"><p><strong>Baldwin Alexander and Stephen Taylor Pendleton Scholarship</strong></p> <p>Established in 1971 by Miss Agnes Pendleton in memory of her father Baldwin Alexander Pendleton, and her grandfather Stephen Taylor Pendleton, who was first honor graduate in the Class of 1848 and a school official in Richmond for many years.&nbsp; To be awarded to a cadet, preferably a rising first classman majoring in mathematics, who has demonstrated unusual skill in his subject.</p> </td> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Mathematics</td> 
+           <td colspan="1"><p><strong>Charlotte and James Griffin '63 Applied Mathematics Prizes</strong></p> <p>&nbsp;Awarded annually since 2014 to first, second,&nbsp;third and&nbsp;fourth class cadets who have achieved a cumulative 4.0 GPA within the Applied Mathematics major.</p> </td> 
+          </tr> 
+          <tr> 
+           <td><p>Mathematics</p> </td> 
+           <td><p><strong>Colonel Robert H. Knox Prize</strong></p> <p>Memorial prize established in 1985 by the family of Colonel Robert H. Knox, VMI class of 1924, who taught mathematics at VMI for 42 years until his retirement in 1969. Awarded annually to a member of the third class selected by the faculty of the mathematics department as the most promising mathematics major of that class.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Mathematics</p> </td> 
+           <td><p><strong>Commodore&nbsp; Matthew Fontaine Maury&nbsp; Award</strong></p> <p>Established in 1985 by the Virginia Division of the United Daughters of the Confederacy in memory of the famed oceanographer and meteorologist, and former member of the VMI faculty, from 1868 until 1872. The award will be made annually&nbsp;to the first-ranking graduate in the mathematics curriculum.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Mathematics</p> </td> 
+           <td><p><strong>John&nbsp; H. French&nbsp; Medal</strong></p> <p>Dr. John H. French, of New York, Class of 1879, gave to the Institute a sum of money which provides a medal for the member of the graduating class for highest proficiency in mathematics.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Mechanical Engineering</p> </td> 
+           <td><p><strong>Superintendent William H. Milton, Jr., Class of 1920&nbsp;Award</strong></p> <p>Established by members of General Milton's family and members of the Class of 1920. The award, a cash prize, is presented annually to the first-standing cadet in each class in the mechanical engineering curriculum.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Modern Languages</p> </td> 
+           <td><p><strong>Adolfo&nbsp; Ponzanelli Medal</strong></p> <p>&nbsp;Established in honor of Adolfo Ponzanelli, a native of Mexico, member of the Class of 1932, for outstanding service to and lifelong interest in the Institute. The medal is awarded in recognition of excellence in the study of modern languages by a modern language major in the graduating class. The initial award was made at Finals 1972.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Physics</td> 
+           <td colspan="1"><p><strong>Allan Talbott Gwathmey Scholarship</strong></p> <p>&nbsp;Established in 1971 by Mrs. Robert M. Jeffress in remembrance of her brother, Allan Talbott Gwathmey, Class of 1923, and her grandfather, Allan Talbott, Class of 1863.&nbsp; The scholarship is awarded to a first classman who has demonstrated interest and capability in the physical sciences.</p> </td> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Physics</td> 
+           <td colspan="1"><p><strong>S.M. Heflin Memorial Scholarship Awards</strong></p> <p>Awarded for 3.0 or higher in Overall GPA as well as Physics Major, all classes that qualify</p> </td> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Physics</td> 
+           <td colspan="1"><p><strong>S.M. Heflin Memorial Scholarships</strong></p> <p>Awarded for 2.0 or higher in Overall GPA as well as Physics Major, all classes that qualify</p> </td> 
+          </tr> 
+          <tr> 
+           <td><p>Physics</p> </td> 
+           <td><p><strong>Sauder Physics Award&nbsp; </strong></p> <p>Established in 1999 by the Physics and Astronomy Department as a memorial to William Conrad Sauder, Class of 1955, for his lifelong excellence in teaching and research at the Institute.</p> </td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td><p>Physics</p> </td> 
+           <td><p><strong>United Daughters of the Confederacy Stonewall Jackson Award</strong></p> <p>Established in 1957 by the United Daughters of the Confederacy to honor the great Confederate hero.&nbsp; The prize is presented annually to the first standing graduate in the physics curriculum.</p> </td> 
+          </tr> 
+          <tr> 
+           <td colspan="1">Psychology</td> 
+           <td colspan="1"><p><strong>Bruce C. Gottwald, Jr. '81 Award</strong></p> <p>Presented to the graduating Psychology major who has demonstrated the highest achievement in Scholarship, Service, and Scientific Inquiry.</p> </td> 
+          </tr> 
+         </tbody> 
+        </table> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

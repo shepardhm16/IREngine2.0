@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>Government Publications - Applied Mathematics - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: Applied Mathematics: Government Publications"> 
+  <meta name="DC.Creator" content="Janet Holly"> 
+  <meta name="DC.Subject" content="Applied Mathematics"> 
+  <meta name="DC.Description" content="This guide is designed as a starting point for doing applied mathematics research using Preston Library's resources."> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=36309&amp;p=229588"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Mar 25, 2014"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Mar 25, 2016"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 36309,
+				page_id: 229588,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-229588";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '36309',_st_page_id: '229588'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '36309',_st_page_id: '229588'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Info Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="Applied Mathematics" href="http://libguides.vmi.edu/c.php?g=36309">Applied Mathematics </a> </li> 
+     <li id="s-lib-bc-page" class="active">Government Publications </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="36309"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">Applied Mathematics: Government Publications</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description">This guide is designed as a starting point for doing applied mathematics research using Preston Library's resources.</span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Info Header --> 
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med"> 
+   <div id="s-lg-guide-tabs" class="tabs"> 
+    <ul class="nav nav-tabs split-button-nav"> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36309&amp;p=229585"> <span>Applied Mathematics</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36309&amp;p=229586"> <span>Find Books</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36309&amp;p=229587"> <span>Find Articles</span> </a> </li> 
+     <li role="presentation" class="active"> <a title="" class="active" href="/c.php?g=36309&amp;p=229588"> <span>Government Publications</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36309&amp;p=990122"> <span>Citation Guides</span> </a> </li> 
+     <li role="presentation"> <a title="Return to Preston Library's homepage" class="" href="http://www.vmi.edu/content.aspx?id=312"> <span>Library Homepage</span> </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <!-- BEGIN: Guide Content --> 
+  <div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders"> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-126" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-1" class="col-md-6"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-3495578" class="s-lg-box-wrapper-3495578"> 
+       <div id="s-lg-box-2967077-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-2967077" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Find Government Information </h2> 
+         <div id="s-lg-box-collapse-2967077"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-5538055" class="  clearfix"> 
+            <p><img align="right" alt="fdlp_eagle" border="1" height="73" src="http://www.vmi.edu/assets/0/42/1569/1a6ba986-a6e0-430e-90c1-a92d0a4054d3.gif" title="fdlp_eagle" width="81"> Preston Library has been a depository for U. S. government publications since 1874.&nbsp; You can find print, microfiche, CDROM and DVD, and electronic documents by searching the <a href="http://vmi.worldcat.org/advancedsearch">library catalog</a>.&nbsp; The print documents are located on the 650 level arranged by the Superintendent of Documents Classification; microfiche is located in the microform area on the 500 level.&nbsp; If you need assistance in finding specific information, <a href="http://libanswers.vmi.edu/"><strong>Ask a Librarian</strong></a>.</p> 
+            <p>For documents that you cannot find, search the databases below:</p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-6157971" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268573" class=""> 
+               <a href="http://newfirstsearch.oclc.org/dbname=GPO;done=referer;autho=100118130;FSIP" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268573'});">GPO Monthly Catalog </a> 
+               <div id="s-lg-database-desc-1268573" class="s-lg-database-desc">
+                Indexes print and electronic U. S. Government information resources created and published by Federal agencies. Coverage 1976 to present.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268654" class=""> 
+               <a href="http://monthlycatalog.chadwyck.com/home.do" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268654'});">Monthly Catalog of U. S. Government Publications 1895-1976 </a> 
+               <div id="s-lg-database-desc-1268654" class="s-lg-database-desc">
+                The most comprehensive index to historical information published by the United States federal government. Describing over 1.2 million items published between January 1895 and June 1976, the "Monthly Catalog" helps you identify important and useful information on all subjects.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-2" class="col-md-6"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-772534" class="s-lg-box-wrapper-772534"> 
+       <div id="s-lg-box-678014-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-678014" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Online Government Publications </h2> 
+         <div id="s-lg-box-collapse-678014"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-1268184" class="  clearfix"> 
+            <p>Mathematicians often access the following federal publications:</p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-1389181" class="s-lg-link-list s-lg-link-list-2">
+             <li class=""> 
+              <div id="s-lg-content-1271390" class=""> 
+               <span><a href="http://vmi.worldcat.org/oclc/35019162" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '1271390'});">Code of Federal Regulations</a> <span class="fa fa-lg fa-info-circle" data-toggle="popover" data-trigger="click hover" data-placement="bottom" data-html="true" data-title="Description" data-content="The Code of Federal Regulations (CFR) annual edition is the codification of the general and permanent rules published in the Federal Register by the departments and agencies of the Federal Government. It is divided into 50 titles that represent broad areas subject to Federal regulation. The 50 subject matter titles contain one or more individual volumes, which are updated once each calendar year, on a staggered basis."></span> </span> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1271391" class=""> 
+               <span><a href="http://vmi.worldcat.org/oclc/1768512" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '1271391'});">Federal Register</a> <span class="fa fa-lg fa-info-circle" data-toggle="popover" data-trigger="click hover" data-placement="bottom" data-html="true" data-title="Description" data-content="Published by the Office of the Federal Register, National Archives and Records Administration (NARA), the Federal Register is the official daily publication for rules, proposed rules, and notices of Federal agencies and organizations, as well as executive orders and other presidential documents. It is updated daily by 6 a.m. and is published Monday through Friday, except Federal holidays. Also appearing in the preliminary pages (Contents Section) of each day's Federal Register is a list of..."></span> </span> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-5537858" class=""> 
+               <span><a href="http://vmi.worldcat.org/oclc/844034515" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '5537858'});">United States Code</a> </span>
+               <div id="s-lg-link-desc-5537858" class="s-lg-link-desc">
+                Preface 2012 edition: The United States Code is the official codification of the general and permanent laws of the United States. The Code was first published in 1926, and a new edition of the code has been published every six years since 1934. The 2012 edition of the Code incorporates laws enacted through the One Hundred Twelfth Congress, Second session, the last of which was signed by the President on January 15, 2013.
+               </div> 
+               <div class="s-lg-label-moreinfo"> 
+                <a class="s-lg-label-more" id="s-lg-content-more-5537858" href="javascript:void();" style="display:block; font-style:italic;" onclick="
+								jQuery('#s-lg-content-moreinfo-5537858').toggle();
+								jQuery('#s-lg-content-less-5537858').toggle();
+								jQuery('#s-lg-content-more-5537858').toggle();">more...</a> 
+                <a class="s-lg-label-less" id="s-lg-content-less-5537858" href="javascript:void();" style="display:none; font-style:italic;" onclick="
+								jQuery('#s-lg-content-moreinfo-5537858').toggle();
+								jQuery('#s-lg-content-more-5537858').toggle();
+								jQuery('#s-lg-content-less-5537858').toggle(); ">less...</a> 
+               </div> 
+               <div id="s-lg-content-moreinfo-5537858" class="s-lg-content-moreinfo" style="display:none;">
+                Find online access to the U.S. Code from the library record. It is free full-text access. 
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-127" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+    <li class="previous"> <a href="/c.php?g=36309&amp;p=229587">&lt;&lt; <strong>Previous:</strong> Find Articles</a> </li> 
+    <li class="next"> <a href="/c.php?g=36309&amp;p=990122"><strong>Next:</strong> Citation Guides &gt;&gt;</a> </li> 
+   </ul> 
+  </div> 
+  <!-- END: Guide Content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Mar 25, 2016 12:57 PM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/c.php?g=36309</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D36309%2526p%253D229588&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+     <span class="s-lg-guide-label">Subjects: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/sb.php?subject_id=13173">Applied Mathematics</a></span> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+     <span class="s-lg-guide-label">Tags: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/srch.php?tag=Applied Mathematics&amp;default_lg=1">Applied Mathematics</a>, <a href="http://libguides.vmi.edu/srch.php?tag=mathematics&amp;default_lg=1">mathematics</a></span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

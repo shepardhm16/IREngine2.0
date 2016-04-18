@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta content="charset=utf-8"> 
+  <meta name="description" content="James Squire Student Project"> 
+  <meta name="keywords" content="Tick Rover, RoboTick, Justin Woulfe, Barry Hammond, Dennis Crump, James Squire, Jim Squire, Professor James Squire, VMI, Courses, Teaching, Personal, ECE"> 
+  <title>Tick Rover</title> 
+  <link href="../../../squire.css" rel="stylesheet"> 
+  <link href="../student pages.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <div class="center"> 
+   <h2>Autonomous Tick-Collecting Robot</h2> 
+   <p>by Justin Woulfe, Barry Hammond, and Dennis Crump '06</p> 
+   <p><img src="large.jpg" alt="photo of robot"></p> 
+  </div> 
+  <div class="studentText"> 
+   <p> Ticks are a heath hazard; they infest our pets and vector human diseases such as Rocky Mountain spotted fever and Lyme disease. We propose a robotics-based solution to reduce tick populations. The ecotone, a fifteen-foot wide swath defining the boundary between cultivated lawn and woods, is the ticks' natural habitat. A flexible perforated tube is routed around the ecotone that emits a chemoattractant such as carbon dioxide, drawing ticks from the ecotone into a narrowly-defined path. A robot is programmed to travel around this path collecting and exposing ticks to promethren, a common insecticide. The chemoattractant tube also houses a signal wire that the robot follows using inductive sensors to navigate the path, sweeping the entire ecotone. Sensor information is relayed to a microcontroller which, using a fuzzy logic algorithm, keeps the robot directly over the tube and the attracted ticks. The robot stops every lap in a specially designed shed to be recharged, cleaned, and UV sterilized. If continued for three months, the ticks' life cycle will be broken leaving the protected area tick-free for years. Simple modifications permit the system to target other pests, such as aphids, termites, and cockroaches.</p> 
+   <p>The students earned an undergraduate research grant to fund development, and wrote a paper on the device which won first place in the Virginia Mountain Section of the annual IEEE Student Papers Contest, and then won second place in the IEEE Region 3 contest -- one of the 6 regions in the country. The device was co-advised by James Squire and David Livingston from the Department of Electrical and Computer Engineering at VMI, Jay Sullivan from the Department of Mechanical Engineering at VMI, and Daniel Sonenshine from the Department of Biology at Old Dominion University. The device is patented naming the students and their advisors as inventors, and the intellectual property is currently being marketed.</p> 
+   <p>View videos of it on the Discovery Channel and WSLS by going <a href="../../research.htm">here</a> and choosing "Popular Media/TV/Radio"</p> 
+  </div> 
+  <p class="center"><a href="../student_pages.htm">Back</a></p>  
+ </body>
+</html>

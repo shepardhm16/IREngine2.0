@@ -1,0 +1,869 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>Support Agencies - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/vmi/img/favicon/favicon.ico"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules">
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]--> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript> 
+  <a href="#accesskeys" accesskey="k"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="The page uses Browser Access Keys to help with keyboard navigation. Click to learn more" style="height: 0px"></a>
+  <a href="#acalog-nav" accesskey="n"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a>
+  <a name="accesskeys"></a>
+  <div class="accesskeys"> 
+   <p>Different browsers use different keystrokes to activate accesskey shortcuts. Please reference the following list to use access keys on your system.</p> 
+   <dl> 
+    <dt>
+     Alt and the accesskey, for Internet Explorer on Windows
+    </dt> 
+    <dt>
+     Shift and Alt and the accesskey, for Firefox on Windows
+    </dt> 
+    <dt>
+     Shift and Esc and the accesskey, for Windows or Mac
+    </dt> 
+    <dt>
+     Ctrl and the accesskey, for the following browsers on a Mac: Internet Explorer 5.2, Safari 1.2, Firefox, Mozilla, Netscape 6+.
+    </dt> 
+   </dl> 
+   <p>We use the following access keys on our gateway</p> 
+   <dl> 
+    <dt>
+     n Skip to Navigation
+    </dt> 
+    <dt>
+     k Accesskeys description
+    </dt> 
+    <dt>
+     h Help
+    </dt> 
+   </dl> 
+  </div>
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"><span class="n1_header"> Virginia Military Institute</span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2014-2015 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15">2015-2016 Academic Catalogue</option> <option value="11" selected>2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="11"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=11" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=11" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=323" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=320" class="navbar" tabindex="107">Institute Calendar 2014-2015</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=321" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=322" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=318" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=324" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=325" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=327" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=328" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=329" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=330" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=326" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=333" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=335" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=331" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=394" class="navbar" tabindex="121">Support Agencies</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=334" class="navbar" tabindex="122">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td> 
+                  <div class="help_block" style="float: right">
+                   <a href="help.php?catoid=11" onclick="javascript:acalogPopup('help.php?catoid=11', 'help', 770, 530, 'yes');return false;" class="help" tabindex="203" accesskey="h" target="_blank"><b>HELP</b></a>
+                  </div> <span class="acalog_archived_catalog"><span class="acalog_catalog_name">2014-2015 Academic Catalogue</span></span> <span class="n1_archived acalog-highlight-ignore" style="padding: 0px">[ARCHIVED CATALOG]</span><br> <h1 id="acalog-content"> Support Agencies </h1> 
+                  <div style="float: right">
+                   <a rel="nofollow" href="/content.php?catoid=11&amp;navoid=394&amp;print" onclick="acalogPopup('/content.php?catoid=11&amp;navoid=394&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                  </div>
+                  <div class="acalog-social-media-links" style="float: right;"> 
+                  </div> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <hr> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <table width="100%" cellspacing="0" cellpadding="0" border="0"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="47%"> 
+                      <ul> 
+                       <li><a href="#The_VMI_Alumni_Association__Inc.">The VMI Alumni Association, Inc.</a></li> 
+                       <li><a href="#The_VMI_Development_Board">The VMI Development Board</a></li> 
+                       <li><a href="#The_VMI_Keydet_Club">The VMI Keydet Club</a></li> 
+                       <li><a href="#The_VMI_Foundation__Inc.">The VMI Foundation, Inc.</a></li> 
+                      </ul> </td> 
+                     <td width="52%"> 
+                      <ul> 
+                       <li>&nbsp;<a href="#VMI_Parents_Council">VMI Parents Council</a></li> 
+                       <li><a href="#VMI_Research_Laboratories">VMI Research Laboratories</a></li> 
+                      </ul> </td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h2>&nbsp;<a name="The_VMI_Alumni_Association__Inc."></a>The VMI Alumni Association, Inc.</h2> <p>Founded in 1842 on the day following the graduation of VMI's first graduating class, the VMI Alumni Association includes as members all VMI alumni who left the Institute under honorable circumstances. The current roster numbers more than 21,000 alumni in all 50 states and many parts of the world.</p> <p>The purpose of the Alumni Association is "to organize the alumni in one general body, so as the better to keep alive the memories of Institute life, and by their united efforts the more efficiently to aid in the promotion of the welfare of the Institute, and the successful prosecution of its education purposes in the future."</p> <p>Among its programs, the Alumni Association assists the VMI Admissions Office by encouraging young men and women to apply for admission to the Institute and assists in providing job placement services to alumni. Moody Hall is operated to provide accommodations for alumni when returning to the Institute and for social occasions.</p> <p>The VMI Alumni Review is published quarterly to inform the alumni of the state and progress of the Institute and to provide an archival record of the success of her alumni.</p> <p>The VMI Foundation, Inc., the VMI Development Board, Inc., and the VMI Keydet Club, Inc., are the fund-raising arms of the VMI Alumni Association.</p> <p>Officers are elected by the Board of Directors of the VMI Alumni Association.</p> <h5><strong>Those for 2013-2014 are:</strong></h5> 
+                  <table width="789" cellspacing="0" cellpadding="0" border="0"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="394"><strong>President</strong></td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Robert A. Heely '69</td> 
+                     <td width="389">Norfolk, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">&nbsp;</td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394"><strong>First Vice President</strong></td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Edgar J.T. Perrow, Jr. '96</td> 
+                     <td width="389">Lynchburg, Virgina</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">&nbsp;</td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394"><strong>Second Vice President</strong></td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Robert P. Louthan '82</td> 
+                     <td width="389">Richmond, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">&nbsp;</td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394"><strong>Historian</strong></td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Thomas W. Davis '64</td> 
+                     <td width="389">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">&nbsp;</td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394"><strong>EVP &amp; Chief Operation Officer</strong></td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Adam C. Volant '88</td> 
+                     <td width="389">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">&nbsp;</td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394"><strong>Vice President</strong><strong> - Alumni Activities</strong></td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Carole B. Green</td> 
+                     <td width="389">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">&nbsp;</td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394"><strong>Information Officer</strong></td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Matthew J. Schwarzmann '90</td> 
+                     <td width="389">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">&nbsp;</td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394"><strong>NCR - New Cadet Recruiting Officer</strong></td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Nicole E. Kramer '03</td> 
+                     <td width="389">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">&nbsp;</td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394"><strong>Placement Officer</strong></td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Eric J. Hunter '08</td> 
+                     <td width="389">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">&nbsp;</td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394"><strong>NetCommunity Planner</strong></td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Jennifer M.G. Palmer</td> 
+                     <td width="389">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">&nbsp;</td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394"><strong>Executive Assistant</strong></td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Lisla K. Danas</td> 
+                     <td width="389">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">&nbsp;</td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394"><strong>Alumni Assistant</strong></td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Diane M. Brown</td> 
+                     <td width="389">Lexington, Virginia</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h5><strong>VMI Alumni Review</strong></h5> 
+                  <table width="789" cellspacing="0" cellpadding="0" border="0"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="394"><strong>Editor</strong></td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Hope L. Hennessey</td> 
+                     <td width="389">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">&nbsp;</td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394"><strong>Editorial Assistant</strong></td> 
+                     <td width="389">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="394">Brenda S. Stoner</td> 
+                     <td width="389">&nbsp;</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h2><a name="The_VMI_Development_Board"></a>The VMI Development Board</h2> <p>The VMI Development Board was established in the spring of 1978 and incorporated in 1987 under the auspices of the VMI Alumni Association to implement a comprehensive development program and to coordinate the Institute's various fund raising activities. The composition of the Board of Directors is as follows: The President of the Board of Visitors, the Superintendent of VMI, the President of the VMI Alumni Association, the President of the VMI Foundation, the President of the VMI Keydet Club, and the Executive Director of the Development Board.</p> <h2><a name="The_VMI_Keydet_Club"></a>The VMI Keydet Club</h2> <p>Organized in 1934, the purposes of the Keydet Club are to support, strengthen, and develop the intercollegiate athletic program at VMI. These purposes are advanced by soliciting and receiving monetary gifts to the Keydet Club Scholarship Fund, which helps to finance grants-in-aid for the Institute's Division I athletes, and the Athletic Operations Fund. In return for their gifts, members of the Keydet Club are invited to special events and receive other benefits associated with VMI athletics. Awards to cadets and prospective cadets are made by the coaches on the basis of athletic talent and scholarship aid availability.</p> <p>The Keydet Club also assists the Institute with fundraising for athletic facilities and other capital needs.</p> <p>More information about the VMI Keydet Club is available on the World Wide Web at <a href="http://www.vmikeydetclub.com">www.vmikeydetclub.com</a>.</p> <h5><strong>The 2014-2015 Officers are:</strong></h5> 
+                  <table width="789" cellspacing="0" cellpadding="0" border="0"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="392"><strong>President</strong></td> 
+                     <td width="391">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="392">William A. Paulette '69</td> 
+                     <td width="391">Richmond, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="392">&nbsp;</td> 
+                     <td width="391">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="392"><strong>First Vice President</strong></td> 
+                     <td width="391">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="392">U. "Buzz" Birzenieks '64</td> 
+                     <td width="391">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="392">&nbsp;</td> 
+                     <td width="391">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="392"><strong>Second Vice president</strong></td> 
+                     <td width="391">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="392">Gerald J. Acuff, Jr. '71</td> 
+                     <td width="391">Scottsdale, Arizona</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="392">&nbsp;</td> 
+                     <td width="391">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="392"><strong>Secretary/Treasurer</strong></td> 
+                     <td width="391">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="392">Bland Massie, Jr. '77</td> 
+                     <td width="391">Lynchburg, Virginia</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h5><strong>Keydet Club Executive Staff:</strong></h5> 
+                  <table width="789" cellspacing="0" cellpadding="0" border="0"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="393"><strong>Chief Executive Officer</strong></td> 
+                     <td width="390">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393">Gregory M. Cavallaro '84</td> 
+                     <td width="390">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393">&nbsp;</td> 
+                     <td width="390">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393"><strong>Senior Vice President</strong></td> 
+                     <td width="390">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393">J. Robert Crumpler '07</td> 
+                     <td width="390">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393">&nbsp;</td> 
+                     <td width="390">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393"><strong>Vice President</strong></td> 
+                     <td width="390">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393">Donald S. Ross</td> 
+                     <td width="390">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393">&nbsp;</td> 
+                     <td width="390">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393"><strong>Vice President</strong></td> 
+                     <td width="390">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393">Douglas P. Bartlett</td> 
+                     <td width="390">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393">&nbsp;</td> 
+                     <td width="390">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393"><strong>Development Officer</strong></td> 
+                     <td width="390">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393">Andrew C. Deal '12</td> 
+                     <td width="390">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393">&nbsp;</td> 
+                     <td width="390">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393"><strong>Office &amp; Communications Manager, Executive Assistant</strong></td> 
+                     <td width="390">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="393">Jackie R. Flint</td> 
+                     <td width="390">Fairfield, Virginia</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h2><a name="The_VMI_Foundation__Inc."></a>The VMI Foundation, Inc.</h2> <p>Founded in 1936, the VMI Foundation raises and manages the private financial resources which are necessary to ensure that VMI remains a first-rate academic institution and retains its extraordinary place in the landscape of American higher education. To do so, the Foundation combines vigorous fund-raising, careful stewardship, and prudent management and continually engages all elements of VMI Family. The VMI Foundation also provides the funds necessary for the VMI Alumni Association to continue its work on behalf of the Institute and VMI's steadfastly loyal alumni. The combined development efforts of the VMI Foundation, VMI Keydet Club, and the VMI Development Board annually generate tens of millions of dollars in financial support of the Institute and its Corps of Cadets.</p> <h5><strong>Officers and Primary Staff for 2014-2015 are:</strong></h5> 
+                  <table width="789" cellspacing="0" cellpadding="0" border="0"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="390"><strong>President</strong></td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">Hugh M. Fain III '80</td> 
+                     <td width="393">Richmond, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">&nbsp;</td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390"><strong>Vice President/Administration</strong></td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">Stephen E. Hupp '84</td> 
+                     <td width="393">Midlothian, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">&nbsp;</td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390"><strong>Vice President/Fund Raising</strong></td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">T. Bryan Barton '68</td> 
+                     <td width="393">Oakton, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">&nbsp;</td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390"><strong>Chief Executive Officer</strong></td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">Brian Scott Crockett</td> 
+                     <td width="393">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">&nbsp;</td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390"><strong>Vice President Major Gifts</strong></td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">Warren J. Bryan '71</td> 
+                     <td width="393">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">&nbsp;</td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390"><strong>Vice President and Chief Financial Officer</strong></td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">David L. Prasnicki</td> 
+                     <td width="393">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">&nbsp;</td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390"><strong>Vice President Operations</strong></td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">Jacki Berkshire Bellairs</td> 
+                     <td width="393">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">&nbsp;</td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390"><strong>Vice President Planned Giving</strong></td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">Terrie L. Conrad</td> 
+                     <td width="393">Appomattox, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">&nbsp;</td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390"><strong>Vice President Annual and Reunion Giving</strong></td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">John J. Wranek III '85</td> 
+                     <td width="393">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">&nbsp;</td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390"><strong>Director of Communications</strong></td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">Scott E. Belliveau '83</td> 
+                     <td width="393">Lexington, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">&nbsp;</td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390"><strong>Director of Information Services</strong></td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">Patrick J. Costa</td> 
+                     <td width="393">Fincastle, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">&nbsp;</td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390"><strong>Corporate Secretary</strong></td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">Amy S. Reid</td> 
+                     <td width="393">Fincastle, Virginia</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">&nbsp;</td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390"><strong>Assistant Secretary/Treasurer</strong></td> 
+                     <td width="393">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="390">Crissy Elliott</td> 
+                     <td width="393">Lexington, Virginia</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <p>The VMI Foundation maintains offices in Neikirk Hall at 304 Letcher Avenue. The Foundation's mailing address is: P.O. Box 932, Lexington, Virginia 24450. The telephone number is: 540-464-7287. Please visit the VMI Foundation's website: <a href="http://www.vmifoundation.org">www.vmifoundation.org</a>.</p> <p>The following are but a few of the many programs and activities supported through the funds raised and managed by the VMI Foundation, Inc.</p> 
+                  <table width="789" cellspacing="0" cellpadding="0" border="0"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="391"><strong>CADET</strong></td> 
+                     <td width="392"><strong>ADMINISTRATION</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Merit-Based and Need-Based Scholarships</td> 
+                     <td width="392">Admissions</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Career Development Services</td> 
+                     <td width="392">Public Relations</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Graduate Fellowships</td> 
+                     <td width="392">Capital Improvements</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Internships</td> 
+                     <td width="392">Property Maintenance</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Foreign Study Scholarships</td> 
+                     <td width="392">Debt Services</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Plays, concerts and speakers</td> 
+                     <td width="392">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Chaplain's Office</td> 
+                     <td width="392"><strong>ALUMNI</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Clubs and Club Sports</td> 
+                     <td width="392">VMI Alumni Association Operations</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Rat Challenge</td> 
+                     <td width="392">New Cadet Recruiting</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Cadet Awards</td> 
+                     <td width="392">VMI Alumni Review</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Cadet Investment Group</td> 
+                     <td width="392">Moody Hall</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">&nbsp;</td> 
+                     <td width="392">Class Agents Program</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391"><strong>FACULTY</strong></td> 
+                     <td width="392">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Institute Professorships</td> 
+                     <td width="392"><strong>OTHERS</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Professional Chairs</td> 
+                     <td width="392">VMI Museum</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Visiting Scholars Program</td> 
+                     <td width="392">McKethan Park</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Professional Development</td> 
+                     <td width="392">Preston Library</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Research</td> 
+                     <td width="392">Parents Council</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Salary Supplements</td> 
+                     <td width="392">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Housing Subsidies</td> 
+                     <td width="392">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Teaching and Service Awards</td> 
+                     <td width="392">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Departmental Funds</td> 
+                     <td width="392">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="391">Technology Upgrades</td> 
+                     <td width="392">&nbsp;</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h2><a name="VMI_Parents_Council"></a>VMI Parents Council</h2> <p>The VMI Parents Council was formed in 1957 to provide information and assistance to the parents of cadets attending VMI. Members of the Parents Council are selected from parents of cadets in the upper three classes.</p> <p>The purposes of the Parents Council are to develop closer ties between parents and VMI; to help parents serve as ambassadors for VMI; and to assist the Institute in providing for the welfare and development of cadets.</p> <p>The Council is to be a sounding board to help cadets and their families gain the most from VMI. If the Council can help a parent understand VMI and provide a ready source of information to all cadets and parents, then it has met its challenge.</p> <p>The Parents Council meets formally twice a year at VMI. The fall meeting is held on Parents Weekend. Council representatives regularly attend VMI events to answer questions and act as hosts and hostesses.</p> <h2><a name="VMI_Research_Laboratories"></a>VMI Research Laboratories</h2> <p>VMI Research Laboratories, Inc. was established in 1963 by General George Shell, Superintendent. The mission of VMIRL is to facilitate the pursuit of research by faculty members at VMI through the administration of grants and contracts and sponsorship of research activities. The VMIRL Board of Directors oversees the activities of the labs and meets on an annual basis to review the yearly activities. Day-to-day administration of VMIRL is conducted by the Officers of the Corporation.</p> <p>Since its inception, VMIRL has administered more than 260 grants and contracts totaling nearly $10,000,000. Faculty researchers at VMI have obtained financial support for their projects from federal sources such as NSF, NIH, NEH, Agricultural Research Service of the USDA, DoD, and the Army Research Institute, as well as from state resources, e.g., VDOT, Va. Department of Environmental Quality, Center for Innovative Technology, Va. Department of Health, Va. Department of Information Technology, and Va. Department of Technology Planning, and from private corporations such as Babcock and Wilcox, Jeffress Memorial Trust, Emhart Glass, Research Corp. of America, Ford Motor Corporation, and the Harrington Corporation.</p> <p>Additionally, conferences such as Environment Virginia, COVITS, Virginia Transportation Conference, and Energy Virginia have been made possible in part through VMIRL sponsorship. Additionally, VMIRL administers the Stanley Wetmore Fund which provides monetary support for cadet research. VMIRL also sponsors two awards. The Maury and Hinman awards each recognize outstanding achievement in the area of faculty and cadet research efforts at the Institute.&nbsp;&nbsp;</p> </td> 
+                </tr> 
+               </tbody>
+              </table> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <a rel="nofollow" href="/content.php?catoid=11&amp;navoid=394&amp;print" onclick="acalogPopup('/content.php?catoid=11&amp;navoid=394&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=11" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script>  
+ </body>
+</html>

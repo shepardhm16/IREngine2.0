@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta content="charset=utf-8"> 
+  <meta name="description" content="Robo-Tick"> 
+  <meta name="keywords" content="James Squire, Jim Squire, Professor James Squire, VMI, Courses, Research, Robo-Tick, Tick Rover, Robo-tic"> 
+  <title>Robo-Tick</title> 
+  <link href="../../squire.css" rel="stylesheet"> 
+  <link href="tick_rover.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <table id="outerTable"> 
+   <tbody>
+    <tr> 
+     <td class="titleRow1Col1"></td> 
+     <td class="titleRow1Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow2Col1" style="background-image: url('tick_rover_small.jpg')"> </td> 
+     <td class="titleRow2Col2"> <h1>Robo-Tick</h1> </td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow3Col1"></td> 
+     <td class="titleRow3Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="menu"> <p><a href="../../Default.htm">Home</a></p> <p><a href="../../teaching/teaching.htm">Teaching</a></p> <p><a href="../research.htm">Research</a></p> <p style="font-size:90%"><a href="../Student_Pages/student_pages.htm">Student Pages</a></p> <p><a href="../../personal/personal.htm">Personal</a></p> </td> 
+     <td class="cellHoldingMainTable alignTop mainText" style="padding-left:20px;"> <h2 class="align2Top"> The Problem</h2> <img alt="CDC increase of Lyme Disease rates" src="CDC%20cases.png" style="float:left" class="image"> <p>Lyme disease has been on a steady increase for over a decade. The bacteria responsible for transmitting the disease immunosuppresses the infected tick, causing it to become a potential carrier of other diseases, and a similar rise in tick-vectored illnesses have been reported by the CDC for Rocky Mountain Spotted Fever, Ehrlichiosis, and Babesiosis. </p> <img alt="Tick robot clears ticks of the ecotone" src="overview.png" style="float:right;clear:left"> <p>The most common way to remove ticks from homes is to spray with the insecticide Permethrin. While this is extremely effective, it can also be dangerous. Permethrin is known to be toxic to fish, certain birds, cats, and some other animals. It is illegal in most states to spray it near streams for fear of runoff contaminating the water. A recent study funded by the US Army Medical Research Command shows permethrin is likely implicated in causing Gulf War Syndrome. </p> <p>Ticks are not distributed evenly over their habitat; instead they tend to disproportionately crowd a relatively narrow band at the junction of forest and lawn. This area, called the <i>ecotone</i>, is just roughly 10 feet wide and is the site of most human/tick interactions.<br> </p> <h2 style="clear:right"> A "Robot-tic" Solution</h2> &nbsp;<img alt="Field testing crew" src="Field test.jpg" style="float:right;clear:left;margin-left:10px;"> <p>We developed a method to reduce tick population using robotics. We placed a hollow tube through the ecotone surrounding the property to be protected that emits CO<sub>2</sub> through small holes drilled in its wall. Since the ticks are naturally attracted to CO<sub>2</sub>, the ticks consolidate from the ecotone to within a few inches of the tube. The tube also houses a wire that emits a low-frequency magnetic field. We constructed a robot that is able to track that magnetic field and slowly travels around the tubing, dragging a denim skirt infused with permethrin. The ticks sense the vibration and slightly-elevated, friction-induced temperature of the skirt and attach to it. Although they recognize the skirt has no blood and detach within a few minutes, they will have already absorbed a toxic level of permethrin and will die within a few hours. Virtually no permethrin is left in the environment, except for trace amounts leeched from from the skirt and in the dead tick bodies. The top photo shows some of an eclectic group of people who built the third generation robo-tic, including from left to right, John Ruhl (VMI '13), Andy VanOsten, Stuart Hughes (VMI '13), Jeremy Swiney (VMI '14), Dr. Daniel Sonenshine (ODU), Nathan Howard (VMI'13), Dr. Holly Graaf (ODU), Dr. Jim Squire (VMI), Dr. Jay Sullivan (VMI), and Dr. Dave Livingstone (VMI).</p> <p>We currently are on the third, and last, generation of the Tick Rover.&nbsp; The third generation is a huge improvement; mechanically it is far more robust, can generate three times the torque, and is designed using CNC equipment so it can be mass produced.&nbsp; Electronically it has improved navigation and speed control algorithms, and is simpler to operate since its onboard computer performs calibration functions that previously had to be set manually.&nbsp; A closeup of its penumatic/hydraulic front end is shown below.<br> <img alt="Closeup of hydraulic cylinders" height="600" src="closeup.jpg" width="800"></p> 
+      <hr> <h2 style="clear:both">Publications and Media</h2> Gaff H., White A., Leas K., Kelman P., Squire J.C., Livingston D., Sullivan G., Baker E., and Sonenshine D. <q> <a href="../materials/2014%20Ticks%20and%20Tick-Born%20Diseases.pdf">TickBot: A Novel Robotic Device for Controlling Tick Populations in the Natural Environment.</a></q>. Ticks and Tick-Born Diseases, Accepted for publication 2015. <br><br>Most current media from 2013 experiments are embedded in the media section of the research folder <a href="../research.htm">here</a>. Older media clips are below: <br> <br> <br> <br> 
+      <audio controls> 
+       <source src="2014_NPR_Virginia.mp3" type="audio/mpeg"> 
+       <source src="2014_NPR_Virginia.ogg" type="audio/ogg"> Your browser does not support HTML5 audio playback 
+      </audio> <p class="alignMediaText"> <q>Entomological Inspiration</q> National Public Radio interview by Sarah McConnell on With Good Reason, July 22-28, 2014. Holly Gaff, lead scientist in a laboratory that conducted independent testing of the tick rover during the summer of 2013, discusses its surprising effectiveness in a deep woods environment overrun with Lonestar ticks. We are looking forward to raising the last of the grant money required to complete comprehensive independent laboratory testing in residential environments against Lonestar, Black-Legged (Deer Ticks), and Brown Ticks in the summer of 2015. <br> </p> 
+      <video controls loop poster="../videos/2006 Tick Discovery.png">
+       <source src="../videos/2006%20Tick%20Discovery.webm">
+       <source src="../videos/2006%20Tick%20Discovery.mp4">Your browser does not support HTML5 video playback. 
+      </video> <p class="alignMediaText"> The first generation Robo-tic was shown on the Discovery Channel on their Planet Earth segment in Canada and Europe. It features Dennis Crump, but Barry Hammond, Justin Woulfe, and professors Dave Livingston, Jay Sullivan, and Jim Squire were also involved. It first aired on June 16, 2006. </p> 
+      <video controls loop poster="../videos/2006 Tick Rover Channel 10.png"> 
+       <source src="../videos/2006%20Tick%20Rover%20Channel%2010.webm"> 
+       <source src="../videos/2006%20Tick%20Rover%20Channel%2010.mp4"> Your browser does not support HTML5 video playback. 
+      </video> <p class="alignMediaText"> WSLS News 10 from Roanoke did a segment on the Tick Rover also. Jay Warren interviewed primarily Barry Hammond, but Dennis Crump, Justin Woulfe, and professors Dave Livingston, Jay Sullivan, and Jim Squire were also involved. It first aired on April 12, 2006. </p> 
+      <video controls loop poster="Lab%20test.png"> 
+       <source src="Lab%20test.webm"> 
+       <source src="Lab%20test.mp4"> Your browser does not support HTML5 video playback. 
+      </video> <p class="alignMediaText"> Lab test of the Generation III robot showing it's considerable torque and four-wheel steering. The slight pause you see when it encounters an obstacle is not because it is torque-limited, but rather because it is computing the correct amount of torque to apply to maintain a constant speed. It updates these calculations roughly one hundred times per second. </p> 
+      <video controls loop poster="Field%20test.png"> 
+       <source src="Field%20test.webm"> 
+       <source src="Field%20test.mp4"> Your browser does not support HTML5 video playback. 
+      </video> <p class="alignMediaText"> Here the third generation robot is being demonstrated to the biology researchers at Old Dominion University on May 1, 2013. It is highly water-resistent; rain gave it no trouble. </p> </td> 
+    </tr> 
+   </tbody>
+  </table>  
+ </body>
+</html>

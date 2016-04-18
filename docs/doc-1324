@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>Library Research - Undergraduate Research - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: Undergraduate Research: Library Research"> 
+  <meta name="DC.Creator" content="Janet Holly"> 
+  <meta name="DC.Subject" content=""> 
+  <meta name="DC.Description" content="Undergraduate Research @ VMI - find information about programs, funding and library services Tips for conducting research using library materials and services."> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=232197&amp;p=1551469"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Mar 10, 2015"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Apr 8, 2016"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 232197,
+				page_id: 1551469,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-1551469";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '232197',_st_page_id: '1551469'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '232197',_st_page_id: '1551469'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Info Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="Undergraduate Research" href="http://libguides.vmi.edu/c.php?g=232197">Undergraduate Research </a> </li> 
+     <li id="s-lib-bc-page" class="active">Library Research </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="232197"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">Undergraduate Research: Library Research</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description">Undergraduate Research @ VMI - find information about programs, funding and library services</span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Info Header --> 
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med"> 
+   <div id="s-lg-guide-tabs" class="tabs"> 
+    <ul class="nav nav-tabs split-button-nav"> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=232197&amp;p=1542367"> <span>Welcome</span> </a> </li> 
+     <li role="presentation"> <a title="Virginia Military Institute Center for Undergraduate Research (VCUR) sponsors cadet research projects throughout the year." class="" href="/c.php?g=232197&amp;p=1543960"> <span>VCUR Programs</span> </a> </li> 
+     <li role="presentation"> <a title="Find out what's happening" class="" href="/c.php?g=232197&amp;p=1746268"> <span>SURI 2015</span> </a> </li> 
+     <li role="presentation"> <a title="Find out how to apply for a SURI award" class="" href="/c.php?g=232197&amp;p=2817309"> <span>SURI 2016</span> </a> </li> 
+     <li role="presentation" class="active"> <a title="Tips for conducting research using library materials and services." class="active" href="/c.php?g=232197&amp;p=1551469"> <span>Library Research</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="http://www.vmi.edu/content.aspx?id=312"> <span>Library Homepage</span> </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <!-- BEGIN: Guide Content --> 
+  <div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders"> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-126" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-1" class="col-md-4"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-5557627" class="s-lg-box-wrapper-5557627"> 
+       <div id="s-lg-box-4713836-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4713836" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Find Books </h2> 
+         <div id="s-lg-box-collapse-4713836"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-9746483" class="  clearfix"> 
+            <p>Use the library's catalog to find books, journal articles, CDs, DVDs, Blu-Rays, and other resources at Preston Library, local (WLU) and world-wide libraries.&nbsp; Here is the URL to the Advanced Search page:&nbsp; <a href="http://vmi.worldcat.org/advancedsearch">http://vmi.worldcat.org/advancedsearch</a></p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-10988365" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-4958342" class=""> 
+               <a href="http://vmi.worldcat.org" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '4958342'});">WorldCat Local </a> 
+               <div id="s-lg-database-desc-4958342" class="s-lg-database-desc">
+                Search Preston Library's catalog for your research materials.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-10988381" class="s-lg-link-list s-lg-link-list-2">
+             <li class=""> 
+              <div id="s-lg-content-9758562" class=""> 
+               <span><a href="http://annie.wlu.edu/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '9758562'});">Washington &amp; Lee University Libraries</a> </span>
+               <div id="s-lg-link-desc-9758562" class="s-lg-link-desc">
+                Search the libraries @ WLU.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-5867445" class="s-lg-box-wrapper-5867445"> 
+       <div id="s-lg-box-4973626-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4973626" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Reference Resources </h2> 
+         <div id="s-lg-box-collapse-4973626"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-10975885" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268524" class=""> 
+               <a href="http://www.credoreference.com/advanced.do" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268524'});">Credo Reference </a> 
+               <div id="s-lg-database-desc-1268524" class="s-lg-database-desc">
+                Provides access to 100 reference books. Find information in encyclopedias, dictionaries, factbooks and more.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268676" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://www.oxfordreference.com/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268676'});">Oxford Reference Online </a> 
+               <div id="s-lg-database-desc-1268676" class="s-lg-database-desc">
+                Oxford Reference Online brings together over 100 fully searchable reference works. Frequently updated, all disciplines will find this resource useful.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-5867454" class="s-lg-box-wrapper-5867454"> 
+       <div id="s-lg-box-4973634-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4973634" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Interlibrary Loan Contact Information </h2> 
+         <div id="s-lg-box-collapse-4973634"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-9746683" class="  clearfix"> 
+            <div id="s-lg-box-collapse-3116396"> 
+             <div class="s-lib-box-content"> 
+              <div class="clearfix" id="s-lg-content-5848288"> 
+               <div id="s-lg-box-collapse-2969378"> 
+                <div class="s-lib-box-content"> 
+                 <div class="clearfix" id="s-lg-content-5543329"> 
+                  <div id="s-lg-box-collapse-678078"> 
+                   <div class="s-lib-box-content"> 
+                    <div class="clearfix" id="s-lg-content-1268234"> 
+                     <p><strong>ILL Office Hours:</strong></p> 
+                     <p>Mon-Fri&nbsp; 0800-1630</p> 
+                     <p><strong>Telephone:</strong></p> 
+                     <p>(540) 464-7570</p> 
+                     <p>Logon:&nbsp; <a href="https://illiad.vmi.edu/" title="Login to Interlibrary Loan System"><strong>Interlibrary Loan</strong></a></p> 
+                    </div> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-5867462" class="s-lg-box-wrapper-5867462"> 
+       <div id="s-lg-box-4973639-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4973639" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Interlibrary Loan </h2> 
+         <div id="s-lg-box-collapse-4973639"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-9747582" class="  clearfix"> 
+            <div id="s-lg-box-collapse-677901"> 
+             <div class="s-lib-box-content"> 
+              <div class="clearfix" id="s-lg-content-1268102"> 
+               <p>When an article from a journal, magazine or newspaper is not accessible online or available in print, you can request an Interlibrary Loan.&nbsp; To open an ILL article request form click on this URL: <a href="https://illiad.vmi.edu/">https://illiad.vmi.edu/</a></p> 
+               <p>You must use your VMI username and password.</p> 
+               <p>Usually it takes 48 hours to receive the full-text article, but it could take up to 2 weeks.</p> 
+               <p>If you have any questions, please see a Reference Librarian, or email <a href="mailto:referencedesk@vmi.edu">referencedesk@vmi.edu</a> .</p> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-2" class="col-md-4"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-5557628" class="s-lg-box-wrapper-5557628"> 
+       <div id="s-lg-box-4713837-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4713837" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Find Articles </h2> 
+         <div id="s-lg-box-collapse-4713837"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-9746992" class="  clearfix"> 
+            <p>You have over 200 databases at your fingertips.&nbsp; There are databases for all the disciplines taught at VMI.&nbsp; You can search for articles in scholarly journal articles, popular magazines, national and international newspapers.&nbsp; If you need help identifying the database for your research, consult with <a href="mailto:hollyjs@vmi.edu">Col. Janet Holly</a> and <a href="mailto:mullenam@vmi.edu">Maj. Accacia Mullen</a>, Reference Librarians.</p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-10976587" class="s-lg-link-list s-lg-link-list-2">
+             <li class=""> 
+              <div id="s-lg-content-9747222" class=""> 
+               <span><a href="http://libguides.vmi.edu/az.php" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '9747222'});">Databases A toZ</a> </span>
+               <div id="s-lg-link-desc-9747222" class="s-lg-link-desc">
+                Alphabetical list of the databases @ Preston Library.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-10976680" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268613" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://www.jstor.org/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268613'});">JSTOR </a> 
+               <div id="s-lg-database-desc-1268613" class="s-lg-database-desc">
+                Searchable backfiles of core journals in the humanities, social sciences and sciences. Coverage varies.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-4979429" class=""> 
+               <a href="http://muse.jhu.edu/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '4979429'});">Project Muse </a> 
+               <div id="s-lg-database-desc-4979429" class="s-lg-database-desc">
+                Provides digital humanities and social sciences content; since 1995, its electronic journal collections have supported a wide array of research needs at academic, public, special, and school libraries worldwide.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-5868547" class="s-lg-box-wrapper-5868547"> 
+       <div id="s-lg-box-4974426-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4974426" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Full-text Articles </h2> 
+         <div id="s-lg-box-collapse-4974426"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-9747557" class="  clearfix"> 
+            <div id="s-lg-box-collapse-677902"> 
+             <div class="s-lib-box-content"> 
+              <div class="clearfix" id="s-lg-content-1268103"> 
+               <p>Access to full-text articles will be indicated by html and PDF icons within each bibliographic citation when you use the library databases.</p> 
+               <p>When you see&nbsp; <img alt="" src="//s3.amazonaws.com/libapps/accounts/8880/images/Full_Text_Finder_Ebsco2015.gif" style="width: 82px; height: 82px;">&nbsp; by the bibliographic citation, you may find the full-text article from another library database, or you will be prompted to request an Interlibrary Loan.</p> 
+               <p>If you have any problem accessing full-text articles, see a Reference Librarian.</p> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-5904201" class="s-lg-box-wrapper-5904201"> 
+       <div id="s-lg-box-5000884-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-5000884" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Research Manuals </h2> 
+         <div id="s-lg-box-collapse-5000884"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-11036533" class="s-lg-link-list s-lg-link-list-5">
+             <li class=""> 
+              <div id="s-lg-content-9802747" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-9802747" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/671736391" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '9802747'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9781555707293/LC.GIF&amp;client=springshare" title="The College Student's Research Companion" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/671736391" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '9802747'});"><span id="s-lg-book-title-9802747" class="s-lg-book-title">The College Student's Research Companion</span> by <span id="s-lg-book-author-9802747" class="s-lg-book-author">Arlene Rodda Quaratiello; Jane Devine</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Z 710.Q37 2011
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9781555707293
+                </div>
+                <div id="s-lg-book-desc-9802747" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-9802747" class="s-lg-link-desc">
+                  "Students will learn to select a topic, effectively find and evaluate the best information in both print and electronic formats, and produce accurate and complete citations based on current versions of important styles guides and web resources."
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-9802819" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-9802819" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/867916088" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '9802819'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780226167640/LC.GIF&amp;client=springshare" title="Digital Paper" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/867916088" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '9802819'});"><span id="s-lg-book-title-9802819" class="s-lg-book-title">Digital Paper</span> by <span id="s-lg-book-author-9802819" class="s-lg-book-author">Andrew Delano Abbott</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: LB 1047.3.A22 2014
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780226167640
+                </div>
+                <div id="s-lg-book-desc-9802819" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-9802819" class="s-lg-link-desc">
+                  "A manual for research and writing with library and internet materials."
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-3" class="col-md-4"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-6608591" class="s-lg-box-wrapper-6608591"> 
+       <div id="s-lg-box-5616931-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-5616931" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Ask A Librarian </h2> 
+         <div id="s-lg-box-collapse-5616931"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-11099640" class="  clearfix"> 
+            <p>Need help with your research?&nbsp; Ask a Librarian!&nbsp;</p> 
+            <p>Contact <a href="mailto:hollyjs@vmi.edu">Col. Janet Holly</a> and <a href="mailto:mullenam@vmi.edu">Maj. Accacia Mullen</a>, Reference Librarians.</p> 
+            <p>Email:&nbsp; <a href="mailto:referencedesk@vmi.edu">referencedesk@vmi.edu</a></p> 
+            <p>Telephone:&nbsp; 540-464-7571</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-6588280" class="s-lg-box-wrapper-6588280"> 
+       <div id="s-lg-box-5599080-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-5599080" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Media Services </h2> 
+         <div id="s-lg-box-collapse-5599080"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-11066014" class="  clearfix"> 
+            <p>Media Services is located on the 400 level of Preston Library.&nbsp; Consult with <a href="mailto:bricklerml@vmi.edu">Maj. Michael Brickler</a>.</p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-12473133" class="s-lg-link-list s-lg-link-list-2">
+             <li class=""> 
+              <div id="s-lg-content-11065827" class=""> 
+               <span><a href="http://www.vmi.edu/content.aspx?tid=20389&amp;id=32197" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '11065827'});">Media Services</a> </span>
+               <div id="s-lg-link-desc-11065827" class="s-lg-link-desc">
+                Hours of service: Monday - Friday 0800 - 1630
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-10150756" class="s-lg-box-wrapper-10150756"> 
+       <div id="s-lg-box-8605738-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-8605738" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">The Writing Center </h2> 
+         <div id="s-lg-box-collapse-8605738"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-17358691" class="  clearfix"> 
+            <p>Professional and peer writing consultants work with cadets in one-on-one conferences on every aspect of the writing process, from planning a paper to polishing the final draft.</p> 
+            <p><strong>Contact Information:</strong></p> 
+            <p><a href="mailto:garriottda@vmi.edu">Major Deidre Garriott</a><br> Writing Center&nbsp;Coordinator and Assistant Professor of English, Rhetoric and Humanistic Studies<br> <br> Ph:&nbsp; (540) 464-7483<br> <br> The Writing Center<br> Virginia Military Institute<br> 215 Carroll Hall<br> Lexington, Virginia 24450<br> <br> <a href="mailto:garriottda@vmi.edu">Contact Writing Center</a></p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-127" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+    <li class="previous"> <a href="/c.php?g=232197&amp;p=2817309">&lt;&lt; <strong>Previous:</strong> SURI 2016</a> </li> 
+    <li class="next"> <a href="/c.php?g=232197&amp;p=1551471"><strong>Next:</strong> Library Homepage &gt;&gt;</a> </li> 
+   </ul> 
+  </div> 
+  <!-- END: Guide Content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Apr 7, 2016 8:19 PM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/c.php?g=232197</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D232197%2526p%253D1551469&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

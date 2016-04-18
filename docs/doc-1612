@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <!-- BEGIN: head_admin --> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <title>
+			Janet Holly - LibGuides at Virginia Military Institute
+			</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+					<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+			<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <!-- BEGIN: CUSTOM HEAD JS/CSS --> 
+  <!-- END: CUSTOM HEAD JS/CSS --> 
+  <script src="/web/chosen-1.4/chosen.jquery.min.js"></script>
+  <script src="sa.php?site_id=807"></script> 
+  <script type="text/javascript">
+			//====================================================
+			jQuery(document).ready(function() {
+				
+				jQuery(".chosen-select").chosen({width: "650px"});
+				springSpace.UI.xhrPopover();
+			});	
+			//====================================================
+			setActiveButton=function(id) {
+				jQuery("#s-lg-profile-name-btn").removeClass("active");
+				jQuery("#s-lg-profile-subject-btn").removeClass("active");
+				jQuery(id).addClass("active");	
+			}
+			//====================================================
+			toggleSubjectBoxes=function(subject_id) {
+				var is_subject = (subject_id != 0);
+				
+				jQuery("#s-lg-profile-guides-div").html("");
+				
+				if (is_subject) {
+					xhr = jQuery.ajax({
+						url: "prf_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 531,
+							subject_id: subject_id,
+							key: "auth_key",
+						},
+						success: function(response, textStatus) {
+							if ( response.errCode == 200 ) {
+								jQuery("#s-lg-profile-guides-div").html(response.data.guides);
+							} 
+						},
+						error: function (jqXHR, textStatus, errorThrown) {
+							alert("Oops, sorry! Something unexpected happened: " + errorThrown + " \n\nThat might not mean much to you, but it probably does " + 
+							"to the Springy Techs...you can let them know at support@springshare.com.");
+						}
+					});		
+				}
+
+				jQuery("#s-lg-profile-az-div").toggle(!is_subject);
+				jQuery("#s-lg-profile-help-div").toggle(!is_subject);
+				jQuery("#s-lg-profile-guides-div").toggle(is_subject);
+			}
+			//====================================================
+			loadProfileList=function(subject_id) {
+				jQuery("#s-lg-profile-content").html('<div class="bold s-lib-color-lt-grey pad-top-med text-center">Loading...</div>');
+				
+				//set the active button
+				setActiveButton(subject_id == 0 ? "#s-lg-profile-name-btn" : "#s-lg-profile-subject-btn");
+
+				// toggle the right hand boxes based on if this is a subject or not
+				toggleSubjectBoxes(subject_id);
+				
+				// hide the subject view if needed
+				if (subject_id == 0) { toggleSubjectView(false); }
+
+				// get the data
+				xhr = jQuery.ajax({
+					url: "prf_process.php",
+					type: "POST",
+					dataType: "json",
+					data: {
+						action: 530,
+						subject_id: subject_id,
+						key: "auth_key",
+					},
+					success: function(response, textStatus) {
+						if ( response.errCode == 200 ) {
+							jQuery("#s-lg-profile-content").html(response.data.html);
+						} 
+						else {
+							jQuery("#s-lg-profile-content").html("Something unexpected happened - please try again and if you continue to receive " + 
+							"the error please let us know.<div class=\"s-ghost\" style=\"margin-top:20px;\">" + response.errText + "</div>");
+						}
+					},
+					error: function (jqXHR, textStatus, errorThrown) {
+						alert("Oops, sorry! Something unexpected happened: " + errorThrown + " \n\nThat might not mean much to you, but it probably does " + 
+						"to the Springy Techs...you can let them know at support@springshare.com.");
+					}
+				});	
+			}
+			//====================================================
+			handleSubjectBtnClick=function() {
+				if (!jQuery("#s-lg-profile-subjects").is(":visible")) { 
+					jQuery(".chosen-select").val("").trigger("chosen:updated");
+					jQuery("#s-lg-profile-content").html(""); 
+				}
+				toggleSubjectView(true);	
+			}
+			//====================================================
+			toggleSubjectView=function(visible) {
+				jQuery("#s-lg-profile-subjects").toggle(visible);
+				if (visible) { setActiveButton("#s-lg-profile-subject-btn"); }
+			}
+			//====================================================
+			filterBySubject=function(subject_id) {
+				toggleSubjectView(true);
+				loadProfileList(subject_id);
+			}
+			//====================================================
+			springSpace.springTrack.init({_st_site_id: '807'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '20'});
+			});
+		</script> 
+  <link rel="stylesheet" href="/web/chosen-1.4/chosen.min.css"> 
+  <style>
+			.pad-left-sm { margin-left:10px; }
+			
+			#s-lg-profile-results-title { font-weight:bold; margin:10px 0px; font-size:1.1em; display:none; }
+			.s-lg-profile-result { border-bottom:1px solid #ECECEC; padding:20px 0px; clear:both; }
+			.s-lg-profile-result-title { font-weight:bold; }
+			.s-lg-profile-result-description { font-size:0.9em; line-height:150%; }
+			.s-lib-featured-profile-container { width:170px; margin:0px 10px 20px 10px !important; }
+			.s-lib-profile-container .s-lib-profile-name { display:none; }
+			.s-lib-profile-image { margin-bottom:30px; }
+		</style> 
+  <!-- END: head_admin --> 
+ </head> 
+ <body class="s-lib-public-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lib-public-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Content Header --> 
+  <div id="s-lib-public-header" class="s-lib-header container s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-index"> <a href="/prf.php">Profiles </a> </li> 
+     <li id="s-lib-bc-page" class="active">Janet Holly </li> 
+    </ol> 
+   </div> 
+   <h1 id="s-lib-public-header-title">Janet Holly</h1> 
+   <div id="s-lib-public-header-desc">
+    Reference Librarian
+   </div> 
+  </div> 
+  <!-- END: Content Header --> 
+  <!-- BEGIN: Nav Bar --> 
+  <div id="s-lib-public-nav" class="container s-lib-side-borders"> 
+  </div> 
+  <!-- END: Nav Bar --> 
+  <!-- BEGIN: content --> 
+  <div id="s-lib-public-main" class="s-lib-main container s-lib-side-borders"> 
+   <section> 
+    <div id="s-lg-profile-cols" class="row"> 
+     <div id="col1" class="col-md-3 center"> 
+      <div id="s-lib-profile-6101" class="s-lib-profile-container"> 
+       <div id="s-lib-profile-image-6101" class="s-lib-profile-div s-lib-profile-center s-lib-profile-image"> 
+        <img src="//s3.amazonaws.com/libapps/accounts/8880/profiles/6101/HollyJanet2015__cropped_3_.jpg" alt="Profile Image"> 
+       </div> 
+       <div id="s-lib-profile-name-6101" class="s-lib-profile-div s-lib-profile-center s-lib-profile-name">
+        Janet Holly 
+       </div> 
+       <div id="s-lib-profile-email-6101" class="s-lib-profile-div s-lib-profile-center s-lib-profile-email">
+        <a title="hollyjs@vmi.edu" href="mailto:hollyjs@vmi.edu" class="label label-info" style="font-size:1.6em;">Email Me</a> 
+       </div> 
+       <div id="s-lib-profile-widget-la-6101" class="s-lib-profile-div s-lib-profile-widget-la"> 
+        <div class="s-lib-profile-widget">
+         <div id="libchat_27188c6fafcc49a94e72e09b0306feae"></div>
+         <script src="//v2.libanswers.com/load_chat.php?hash=27188c6fafcc49a94e72e09b0306feae"></script> 
+        </div> 
+       </div> 
+       <div id="s-lib-profile-widget-lc-6101" class="s-lib-profile-div s-lib-profile-widget-lc"> 
+        <div class="s-lib-profile-widget"> 
+        </div> 
+       </div> 
+       <div id="s-lib-profile-widget-other-6101" class="s-lib-profile-div s-lib-profile-widget-other"> 
+        <div class="s-lib-profile-widget"> 
+        </div> 
+       </div> 
+       <div id="s-lib-profile-contact-6101" class="s-lib-profile-div s-lib-profile-contact">
+        <strong>Contact:</strong>
+        <div>
+         Preston Library
+         <br> Virginia Military Institute
+         <br> Lexington, VA 24450
+        </div>
+        <div>
+         540-464-7296
+        </div>
+        <a title="Website / Blog" href="http://www.prestonlibrary.net/blog/"><i class="fa fa-bookmark fa-lg"><span class="sr-only">Website / Blog Page</span></i></a> 
+       </div> 
+       <div id="s-lib-profile-social-6101" class="s-lib-profile-div s-lib-profile-social"> 
+       </div> 
+       <div id="s-lib-profile-subjects-6101" class="s-lib-profile-div s-lib-profile-subjects"> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="col2" class="col-md-6 center"> 
+      <div class="margin-bottom-xlg"> 
+       <div class="s-lib-public-side-header"> 
+        <div class="pad-bottom-sm">
+         My Guides 
+        </div> 
+       </div> 
+       <div class="txt pad-top-sm"> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 25, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 38</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/c.php?g=36309">Applied Mathematics</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="36309" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=36309&amp;key=key" title="Applied Mathematics&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 26</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/bi311">BI 311 Aquatic Ecosystems</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="382213" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=382213&amp;key=key" title="BI 311 Aquatic Ecosystems&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 9</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/BI420W">BI 420W Biology Seminar</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="211149" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=211149&amp;key=key" title="BI 420W Biology Seminar&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 25, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 46</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/c.php?g=36310">Biology</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="36310" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=36310&amp;key=key" title="Biology&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 52</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/CE109">CE 109 Civil Engineering Fundamentals I</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="144577" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=144577&amp;key=key" title="CE 109 Civil Engineering Fundamentals I&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 1</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/CE321">CE 321</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="143784" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=143784&amp;key=key" title="CE 321&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 25, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 15</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/c.php?g=36311">Chemistry</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="36311" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=36311&amp;key=key" title="Chemistry&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 33</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/c.php?g=262281">Civil Engineering</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="262281" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=262281&amp;key=key" title="Civil Engineering&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 25, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 10</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/c.php?g=36313">Computer &amp; Information Sciences</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="36313" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=36313&amp;key=key" title="Computer &amp; Information Sciences&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 25, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 11</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/EC307">EC 307 International Finance</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="36314" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=36314&amp;key=key" title="EC 307 International Finance&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 28, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 0</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/ece">ECE Electrical &amp; Computer Engineering</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="36305" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=36305&amp;key=key" title="ECE Electrical &amp; Computer Engineering&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 16, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 54</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/ERH102">ERH 102 Writing and Rhetoric</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="457263" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=457263&amp;key=key" title="ERH 102 Writing and Rhetoric&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 3</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/ERH203f">ERH 203 - Ways of Reading</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="144904" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=144904&amp;key=key" title="ERH 203 - Ways of Reading&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Apr 4, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 3</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/ERH422">ERH 422W Major Figures - Shakespeare</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="36301" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=36301&amp;key=key" title="ERH 422W Major Figures - Shakespeare&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 8</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/ERH481">ERH 481 Senior Capstone</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="138437" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=138437&amp;key=key" title="ERH 481 Senior Capstone&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 19</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/HI200">HI 200 Historical Methods</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="36307" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=36307&amp;key=key" title="HI 200 Historical Methods&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 12</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/hi373">HI 373 Colonial Latin America</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="383940" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=383940&amp;key=key" title="HI 373 Colonial Latin America&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 28, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 11</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/HI374">HI 374W Modern Latin America</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="36312" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=36312&amp;key=key" title="HI 374W Modern Latin America&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 2</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/HI460">HI 460 Capstone History</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="135408" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=135408&amp;key=key" title="HI 460 Capstone History&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Apr 14, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 1</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/HNL380WX">HNL 380WX</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="240818" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=240818&amp;key=key" title="HNL 380WX&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 243</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/ma330w">MA 330W History of Mathematics</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="36306" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=36306&amp;key=key" title="MA 330W History of Mathematics&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 2</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/ma490">MA 490 Research Practicum in Applied Mathematics</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="157310" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=157310&amp;key=key" title="MA 490 Research Practicum in Applied Mathematics&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 179</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/ME444">ME 444 Mechanical Engineering Design</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="36304" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=36304&amp;key=key" title="ME 444 Mechanical Engineering Design&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 25, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 39</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/c.php?g=395840">Mechanical Engineering</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="395840" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=395840&amp;key=key" title="Mechanical Engineering&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 5</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/c.php?g=36308">Physics</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="36308" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=36308&amp;key=key" title="Physics&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Mar 30, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 22</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/psy">Psychology</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="381389" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=381389&amp;key=key" title="Psychology&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Jan 8, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 34</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/c.php?g=210524">Tax Publication Information</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="210524" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=210524&amp;key=key" title="Tax Publication Information&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Apr 8, 2016</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 5</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/c.php?g=232197">Undergraduate Research</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="232197" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=232197&amp;key=key" title="Undergraduate Research&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="col3" class="col-md-3 center"> 
+      <div class="margin-bottom-xlg"> 
+       <div class="s-lib-public-side-header"> 
+        <div class="pad-bottom-sm">
+         My Subject Specialties 
+        </div> 
+       </div> 
+       <div class="txt pad-top-sm"> 
+        <a href="/Math" style="display:block; font-size:1.3em;">Applied Mathematics </a> 
+        <a href="/Biology" style="display:block; font-size:1.3em;">Biology </a> 
+        <a href="/Chemistry" style="display:block; font-size:1.3em;">Chemistry </a> 
+        <a href="/CIS" style="display:block; font-size:1.3em;">Computer &amp; Information Science </a> 
+        <a href="/Engineering" style="display:block; font-size:1.3em;">Engineering </a> 
+        <a href="sb.php?subject_id=50702" style="display:block; font-size:1.3em;">Government Publications </a> 
+        <a href="/Research" style="display:block; font-size:1.3em;">Library/Research </a> 
+        <a href="/PhysicsAstronomy" style="display:block; font-size:1.3em;">Physics/Astronomy </a> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </section> 
+  </div> 
+  <!-- END: content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div> 
+    <div id="s-lib-footer-brand">
+      Powered by Springshare. 
+    </div> 
+    <div id="s-lib-footer-rights">
+      All rights reserved. 
+    </div> 
+    <div id="s-lib-footer-login-link"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div> 
+    <!--
+					<div id="s-lib-footer-print-link">
+						~[23]~
+					</div>
+					--> 
+    <div id="s-lib-footer-support-link"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <div id="s-lib-popover-title" class="hide"> 
+   <span class="text-info"><strong>title</strong></span> 
+   <button type="button" id="popclose" class="close" onclick="jQuery('.s-lib-popover').popover('hide')">×</button> 
+  </div> 
+  <div id="s-lib-popover-content" class="hide">
+   <i class="fa fa-refresh fa-spin"></i> Loading... 
+   <button class="btn btn-default btn-sm popclose" type="button">Close</button> 
+  </div> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer --> 
+ </body>
+</html>

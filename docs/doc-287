@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>The Academic Program - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/vmi/img/favicon/favicon.ico"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules">
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]--> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript> 
+  <a href="#accesskeys" accesskey="k"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="The page uses Browser Access Keys to help with keyboard navigation. Click to learn more" style="height: 0px"></a>
+  <a href="#acalog-nav" accesskey="n"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a>
+  <a name="accesskeys"></a>
+  <div class="accesskeys"> 
+   <p>Different browsers use different keystrokes to activate accesskey shortcuts. Please reference the following list to use access keys on your system.</p> 
+   <dl> 
+    <dt>
+     Alt and the accesskey, for Internet Explorer on Windows
+    </dt> 
+    <dt>
+     Shift and Alt and the accesskey, for Firefox on Windows
+    </dt> 
+    <dt>
+     Shift and Esc and the accesskey, for Windows or Mac
+    </dt> 
+    <dt>
+     Ctrl and the accesskey, for the following browsers on a Mac: Internet Explorer 5.2, Safari 1.2, Firefox, Mozilla, Netscape 6+.
+    </dt> 
+   </dl> 
+   <p>We use the following access keys on our gateway</p> 
+   <dl> 
+    <dt>
+     n Skip to Navigation
+    </dt> 
+    <dt>
+     k Accesskeys description
+    </dt> 
+    <dt>
+     h Help
+    </dt> 
+   </dl> 
+  </div>
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"><span class="n1_header"> Virginia Military Institute</span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015-2016 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15" selected>2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="15"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=15" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=15" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=438" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=435" class="navbar" tabindex="107">Institute Calendar 2015-2016</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=436" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=437" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=431" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=439" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=440" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=442" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=443" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=444" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=445" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=441" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=448" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=450" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=446" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=433" class="navbar" tabindex="121">Support Agencies</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=449" class="navbar" tabindex="122">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td> 
+                  <div class="help_block" style="float: right">
+                   <a href="help.php?catoid=15" onclick="javascript:acalogPopup('help.php?catoid=15', 'help', 770, 530, 'yes');return false;" class="help" tabindex="203" accesskey="h" target="_blank"><b>HELP</b></a>
+                  </div> <span class="acalog_catalog_name">2015-2016 Academic Catalogue</span> <h1 id="acalog-content"> The Academic Program </h1> 
+                  <div style="float: right">
+                   <a rel="nofollow" href="/content.php?catoid=15&amp;navoid=442&amp;print" onclick="acalogPopup('/content.php?catoid=15&amp;navoid=442&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                  </div>
+                  <div class="acalog-social-media-links" style="float: right;"> 
+                  </div> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <hr> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <table border="0" cellpadding="0" cellspacing="0" class="acalog-export-remove" style="width:100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td style="vertical-align:top; width:50%"> 
+                      <ul> 
+                       <li><a href="#Accreditation">Accreditation</a></li> 
+                       <li><a href="#Academic_Program_Mission_and_Vision">Academic Program Mission and Vision</a></li> 
+                       <li><a href="#Core_Curriculum">Core Curriculum</a></li> 
+                       <li><a href="#The_Academic_Major">The Academic Major</a></li> 
+                       <li><a href="#Academic_Minors_and_Concentrations">Academic Minors and Concentrations</a></li> 
+                      </ul> </td> 
+                     <td style="vertical-align:top; width:50%"> 
+                      <ul> 
+                       <li><a href="#Special_Programs">Special Programs</a></li> 
+                       <li><a href="#Academic_Support">Academic Support</a></li> 
+                       <li><a href="#Academic_Policies">Academic Policies</a></li> 
+                       <li><a href="#Academic_Administration">Academic Administration</a></li> 
+                      </ul> </td> 
+                    </tr> 
+                   </tbody> 
+                  </table> 
+                  <hr> <h2><a name="Accreditation"></a>Accreditation</h2> <p>Virginia Military Institute is accredited by the Southern Association of Colleges and Schools Commission on Colleges to award Bachelor of Arts and Bachelor of Science degrees.&nbsp; Contact the Commission on Colleges at 1866 Southern Lane, Decatur, Georgia&nbsp; 30033-4097 or call 404-679-4500 for questions about the accreditation of VMI.&nbsp;&nbsp;VMI is a member of the American Council on Education, the Association of American Colleges, the College Entrance Examination Board, and the Association of Virginia Colleges. The chemistry curriculum is approved by the American Chemical Society. The civil, electrical and computer, and mechanical engineering curricula are accredited by the Engineering Accreditation Commission of the Accreditation Board for Engineering and Technology (ABET).&nbsp; The Economics and Business curriculum is accredited by AACSB International.</p> <h2><a name="Academic_Program_Mission_and_Vision"></a>Academic Program Mission and Vision</h2> <h3>Mission</h3> <p>The VMI Academic Program educates cadets in a rigorous academic environment that encourages life-long learning and develops citizens of character who anticipate, respond, and lead in a complex and changing world.</p> <h3>Vision</h3> <p>The VMI Academic Program includes:</p> 
+                  <ol start="1"> 
+                   <li><strong>Curriculum</strong><br> VMI offers cadets a challenging four-year core curriculum and fourteen nationally recognized majors in engineering, sciences, and the humanities with an array of enrichment opportunities provided through the Institute Honors Program, undergraduate research, foreign study, internships, and the Institute Writing Program.</li> 
+                   <li><strong>Cadets</strong><br> VMI recruits, develops, and graduates cadets of exceptional talent, intellectual curiosity, and character, who possess a commitment to service and respect for others.</li> 
+                   <li><strong>Faculty</strong> Ninety-eight percent of the VMI faculty hold Ph.D.'s. Our faculty is renowned for teaching excellence, mentorship of students, scholarly engagement, commitment to service, and encouragement of undergraduate research. Small class sizes enable faculty to interact closely with cadets both inside and outside of the classroom.</li> 
+                   <li><strong>Environment</strong><br> The VMI environment includes state-of-the-art facilities, equipment, technologies, and instructional materials, first-class programs of academic support, and an organizational climate characterized by collegiality, cooperation, and respect.</li> 
+                  </ol> <h2><a name="Core_Curriculum"></a>Core Curriculum</h2> <p>The Core Curriculum develops foundational knowledge and skills that are essential to VMI's academic and military missions. Designed thematically as "The Nucleus of Effective Citizenship and Leadership," VMI's Core requirements are organized into four components.</p> 
+                  <ol start="1" style="list-style-type:upper-roman"> 
+                   <li>Key Competencies 
+                    <ol start="1" style="list-style-type:upper-alpha"> 
+                     <li>Written Communication (ERH 101 - ERH 102 ) 6 hours</li> 
+                     <li>Oral Communication (ERH 103 ) 1 hour</li> 
+                     <li>Scientific Analysis (approved BI, CH, or PY sequence) 8 hours</li> 
+                     <li>Mathematical Reasoning (approved MA sequence) 6 hours</li> 
+                     <li>Physical Education (seven semesters) 4 hours</li> 
+                    </ol> </li> 
+                   <li>Foundations of Citizenship and Leadership 
+                    <ol start="1" style="list-style-type:upper-alpha"> 
+                     <li>Reserve Officers Training Corps (ROTC) 8 hours</li> 
+                     <li>PS 344 - Leadership in Organizations 3 hours</li> 
+                    </ol> </li> 
+                   <li>&nbsp;Perspectives on Civilization and Human Achievement 
+                    <ol start="1" style="list-style-type:upper-alpha"> 
+                     <li>World History (HI 103 - HI 104 ) 6 hours&nbsp;</li> 
+                     <li>Civilizations and Cultures (two&nbsp;courses)<sup>2</sup>&nbsp;</li> 
+                    </ol> </li> 
+                   <li>Integrative Experiences 
+                    <ol start="1" style="list-style-type:upper-alpha"> 
+                     <li>Writing-Intensive Courses<sup>&nbsp;</sup>(two courses)<sup>3</sup>&nbsp;</li> 
+                     <li>Capstone Experience variable</li> 
+                    </ol> </li> 
+                  </ol> <p><sup>1</sup>All activity must be passed with a grade of "C" or better.<br> <sup>2</sup>One of these courses may be replaced by a credit-bearing, Institute-approved Study Abroad experience.<br> <sup>3</sup>At least one of these courses must be in the major.</p> <h2><a name="The_Academic_Major"></a>The Academic Major</h2> <p>VMI believes that academic excellence is best maintained at a small college when the number of disciplines offering degrees is restricted. The choice between a course of study leading to a bachelor of arts or a bachelor of science degree is made before the cadet enters VMI. Transfer from one major field of study to another after matriculation is permitted based on the availability of the major and approval of the area department head.</p> <p>A cadet may be awarded the degree of Bachelor of Science with a major in applied mathematics, chemistry, civil engineering, computer and information sciences, electrical and computer engineering, mechanical engineering, physics, physics (nuclear) or psychology; the degree of Bachelor of Arts may be awarded with a major in economics and business, English, history, international studies and political science, or modern languages and cultures. Either a Bachelor of Science degree or a Bachelor of Arts degree may be awarded in biology or chemistry. Detailed description of majors can be found in The Curricula.</p> <p>Cadets may declare a double major if they meet specified academic standards and have the approval of both department heads. Only one bachelor's degree is awarded, but the cadet's academic transcript notes the double major.</p> <p>To be graduated from VMI, a cadet must have a conduct record that is satisfactory to the Superintendent, must be confirmed by the Academic Board, must have completed all requirements for his or her major(s), must have attained a cumulative GPA of at least 2.00 (with no rounding up), must have attained a cumulative major GPA or at least 2.00 (with no rounding up)&nbsp;as determined by courses identified by the major department, and must have been in residence at VMI&nbsp;for a minimum of 4-6 full-time semesters (see Academic Regulations to determine qualifying criteria).</p> <h2><a name="Academic_Minors_and_Concentrations"></a>Academic&nbsp;Minors and Concentrations</h2> <p>Cadets may also declare a minor and/or concentration in certain academic areas. The cadet should declare the minor or&nbsp; concentration as soon as possible and no later than the beginning of the first class year. A permit must be submitted to the Registrar, bearing the approval of the cadet's academic department head and the head of the department that offers the minor or concentration.</p> <p>A 2.0 GPA must be maintained in the required course work and the cadet must meet any other criteria set by the department offering the minor or concentration. Official notice of the completed minor or concentration appears on the academic transcript and the graduation program. A cadet may drop a minor or concentration by submitting a permit with the signatures of the department heads to the Registrar.</p> <p>Minors/concentrations are available in the following areas. Details are available under "The Curricula" in this catalog.&nbsp;</p> <h3>Minors</h3> 
+                  <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td style="width:42%"><strong>Sponsoring Department</strong></td> 
+                     <td style="width:57%"><strong>Area</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">English, Rhetoric, and Humanistic Studies</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=1010">Art History and Visual Culture Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Physics and Astronomy</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=980">Astronomy Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Economics and Business</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=981">Business Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Chemistry</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=982">Chemistry Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Computer and Information Sciences</td> 
+                     <td style="width:57%">
+                      <div style="display: inline">
+                       <a href="preview_program.php?catoid=15&amp;poid=1014" onclick="showCatalogData('15', '1', '1014', 'Computer%20and%20Information%20Sciences%20Minor', this, ''); return false;" target="_blank">Computer and Information Sciences Minor</a>
+                      </div><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Electrical and Computer Engineering</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=983">Computer Engineering Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Economics and Business</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=985">Economics Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Biology / Physical Education</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=1002">Exercise Science Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">History</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=986">History Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">International Studies</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=988">International Studies Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Psychology</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=990">Leadership Studies Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">English, Rhetoric, and Humanistic Studies</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=1012">Literary Studies Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Applied Mathematics</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=991">Mathematics Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">History</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=995">Military History Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Modern Languages and Cultures</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=992">Modern Languages Minor - Arabic, French, German, Spanish, Etc.</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">International Studies</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=997">National Security Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">English, Rhetoric, and Humanistic Studies</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=1006">Philosophy Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Physics</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=999">Physics Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Psychology</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=1001">Psychology Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">English, Rhetoric, and Humanistic Studies</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=1008">Rhetoric and Writing Minor</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h3>Concentrations</h3> 
+                  <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td style="width:42%"><strong>Sponsoring Department</strong></td> 
+                     <td style="width:57%"><strong>Area</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Mechanical Engineering</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=965">Aerospace Engineering Concentration</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">English, Rhetoric, and Humanistic Studies</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=1011">Art History and Visual Culture Concentration</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Biology &amp; Chemistry</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=942">Biochemistry and Molecular Biology (BMB) Concentration </a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Biology&nbsp;</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=943">Ecology, Conservation, and Organismal Sciences Concentration</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Economics and Business&nbsp;</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=957">Financial Management Concentration</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Economics and Business</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=1004">Global Management Concentration</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">International Studies</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=1003">Interdisciplinary Studies in Latin America Concentration</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">English, Rhetoric, and Humanistic Studies</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=1013">Literary Studies Concentration</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">History</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=964">Military History Concentration</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">Mechanical Engineering</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=966">Nuclear Engineering Concentration</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">English, Rhetoric, and Humanistic Studies</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=1007">Philosophy Concentration</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width:42%">English, Rhetoric, and Humanistic Studies</td> 
+                     <td style="width:57%"><a href="preview_program.php?catoid=15&amp;poid=1009">Rhetoric and Writing Concentration</a><span style="display: none !important">&nbsp;</span>&nbsp;</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h2><a name="Special_Programs"></a>Special Programs</h2> <p>VMI offers a number of exciting special programs that enhance the primary academic experiences provided in our majors and minors, demonstrating the Institute's full commitment to educating the whole man and woman. For more information about these and other special programs, please visit our website: <a href="http://www.vmi.edu/specacadprog" target="_blank"><u>http://www.vmi.edu/specacadprog</u></a>.</p> <p><strong>Institute Honors Program. </strong>The Institute Honors Program was developed to enrich the academic experience of VMI's outstanding cadets through activities that encourage an affinity for intellectual inquiry and develop the capacity for sophisticated engagement of issues and problems, whether ethical, civic, or professional. In all of its elements, the program stresses peer leadership, strong oral and written communication skills, and the highest standards of academic integrity and excellence. The Institute Honors Program recognizes a broader range of achievement than honors earned in a particular major. Attainment of Institute Honors is viewed as the highest academic achievement at VMI. The program is open by application to any cadet with a 3.5 or higher GPA. For further information about the program, see the Associate Dean for Academic Affairs, 210 Smith Hall.</p> <p><strong>VMI Center for Undergraduate Research.</strong> The VMI Center for Undergraduate Research (V-CUR) is both a program and a centralized office with the mission of promoting and facilitating faculty-mentored undergraduate research and fostering the development of a culture of undergraduate research at VMI. VCUR operates on the premise that some of the most enduring meaningful academic experiences of college students come through opportunities to be mentored one-on-one by faculty outside the classroom, while also believing in the merit of research and other inquiry-based experiences within a more traditional classroom setting. V-CUR simultaneously nurtures existing mentoring efforts and coordinates new institutional support for joint investigative projects by faculty members and cadets. Programs include an annual undergraduate Research Symposium held on Post; a Summer Undergraduate Research Institute; cadet travel grants to present at professional meetings or conduct research in the field; and Wetmore Fund for supplies for cadet academic year research. For more information, contact the Director Undergraduate Research, 300 Preston Library.</p> <p><strong>Institute Writing Program.</strong> The Institute Writing Program seeks to equip cadets for both academic success and participation in the full range of rhetorical occasions they will encounter in their lives as citizens and professionals. The program links three important components of the VMI curriculum: our rigorous core curriculum sequence in first-year composition (ERH 101 and ERH 102); a thriving Writing Across the Curriculum initiative, which requires cadets to complete two additional "writing-intensive" courses prior to graduation; and an interdisciplinary minor in writing for those who wish to pursue advanced training in rhetoric, technical, professional, or creative writing. Cadets' study in the writing curriculum is enhanced by consultants in the VMI Writing Center, who consult individually with cadets at any stage of a writing project. The program sponsors annual writing contests for cadets, local workshops, a nationally regarded symposium for professors of rhetoric and composition, and several presentations on Post each year featuring writers in all genres. For more information, see the Institute Director of Writing, 232 Scott Shipp Hall.</p> <p><strong>International Programs.</strong> Preparing young men and women for successful service in a world of rapidly integrating cultures and interdependent economies is an inherent component of Virginia Military Institute's mission of educating citizen-soldiers. The VMI Office of International Programs is tasked with the establishment, promotion, and administration of international programs for cadets. Programs offered to cadets fall into a number of categories: international military academy exchange programs, semester abroad programs, summer abroad programs, international internships, and cultural exchanges and study tours. For more information, please contact the Office of International Programs in Old Hospital, Room 101.</p> <p><strong>Internship Program.</strong> VMI works actively to assist cadets in any major who seek internship experiences that will allow them to apply/test career interests and demonstrate their abilities to prospective employers. Internships are available in all geographic areas of the United States and internationally as well. Some are eligible for academic credit, and many of them include stipends for work completed. For more information, contact the Office of Career Services, 311 Carroll Hall.</p> <p><strong>Summer Session.</strong> The VMI Summer Session facilitates cadet progression toward degree completion by offering courses for academic credit during the summer, consistent with the Academic Program Mission. The program is designed to enhance cadet retention, to optimize graduation rates, to provide opportunities for cadets to enrich their education, and to enable cadets to attend the Summer Session and also attend ROTC summer camps, engage in internships, and earn income. It provides the opportunity for cadets to meet curricular, scholarship, athletic, or readmission standards, by enabling them to earn credit for subjects in which they stand deficient or by receiving credit for courses in advance of their class. Summer study allows cadets to broaden their education by earning a double major or minor and facilitates transfer from one curriculum to another. In addition to traditional course offerings the Summer Session also administers the Summer Undergraduate Research Institute, the Summer Study Abroad Program, and the Summer Transition Program. VMI cadets, graduates of accredited secondary schools, and students in good standing at other colleges may attend. High school students who have been promoted to the twelfth grade and have the written approval of their principal are also eligible to attend. For details about scheduling and other admission requirements, please contact the Director of the Summer Session, 306 Shell Hall.</p> <h2><a name="Academic_Support"></a>Academic Support</h2> <p>VMI offers proactive and innovative programs of academic support for cadets at all levels.</p> <p><strong>Advising.</strong> According to the Council for the Advancement of Standards in Higher Education, "Academic advising is an essential element of a student's collegiate experience."</p> <p>The mission of the Institute Academic Advising Program is to guide cadets through the exploration and clarification of their academic, career and life goals to help them develop skills and strategies that will contribute to their academic success and enable them to achieve a balanced engagement in co-curricular and academic activities. Faculty advisors both support and challenge cadets in an effort to increase each cadet's confidence and self-sufficiency until graduation.</p> <p>Upon entry into VMI, each cadet is assigned a faculty advisor who, unless the cadet subsequently changes academic major, will work with the cadet until graduation. During the first year there is extensive contact between the advisor and cadet in order to facilitate the transition into VMI culture, assist in mastering the academic policies and regulations, and assist the cadet in coordinating the demands of a multi-faceted academic and co-curricular experience. Upper class cadets have one mandatory contact with advisors each semester but are strongly encouraged to meet with advisors more often in order to benefit from their field-specific expertise, life experience and curriculum knowledge. VMI also sponsors the Athletic Advising Program to help scholar-athletes keep their focus on academics.</p> <p>For information about the VMI Academic Advising Program, contact the Associate Registrar for Advising Support, Maj. Simone McKelvey, <a href="mailto:mckelveys@vmi.edu">mckelveys@vmi.edu</a>, 301 Shell Hall.</p> <p><strong>Career Services.</strong> The Office of Career Services provides a wide array of career planning, employment, internship and graduate/professional school services. Centralized career planning services include career exploration and decision making, career information, vocational interest assessment and career related programs. Employment services include job search guidance, resume assistance, interview skills training, employer information and recruitment programs. Graduate education support includes information on graduate/professional school admissions testing.</p> <p><strong>Choice of Career.</strong> VMI has been privileged by a solid record as a learning model that prepares leaders of business, education and government. The unique combination of activities in the classroom, co-curricular and barracks life distinguish graduates with the ability to function in a variety of settings and achieve noteworthy results. The concept of citizen-soldier encompasses the ideal that the VMI experience prepares graduates to become useful members of society. In general, VMI's technical curricula teach more immediately employment related skills, whereas the non-technical curricula provide a more broadly-based body of knowledge in the arts and sciences, with emphasis in a particular academic discipline. However, the choosing of a particular major in which to specialize need not exclude a cadet from a particular career, because all curricula provide the basic educational foundation essential for a variety of occupations.</p> <p>Employers, as well as graduate and professional schools, value the individual who uses words with clarity and force, who possesses the capacity to handle abstract and quantitative ideas, who effectively works harmoniously and productively with others, who understands human institutions and the social and economic environment, and who thinks independently. Personal attributes of integrity and dependability are of great worth. Development of such basic abilities is not the monopoly of any course or curriculum, or even of the academic program itself, for at VMI it is the total program of academic, military, and extracurricular activity that fosters such development.</p> <p>If leadership may be defined as the ability to organize and effectively direct one's own time and energies and to aid others to do the same, then the life of a cadet is a real as opposed to an imaginary experience in applied leadership. Accordingly, success within the challenging VMI system requires the development of leadership abilities, qualities that have been most favorably noted by employers of our graduates. Career opportunities are especially open to those who have demonstrated the capacity to work hard to achieve worthy goals. In short, the Virginia Military Institute strives to provide a climate in which a student may become an educated, healthy, whole person.</p> <p><strong>Center for Cadet Counseling</strong>.&nbsp; The Center for Cadet Counseling (CCC) offers a range of services designed to develop awareness, values, knowledge and skills necessary for Cadets to make healthy choices, meet future challenges and lead meaningful lives. Services include educational programming, individual assessment and counseling, psychiatric services, crisis intervention and consultation. Counseling services are confidential and conducted by licensed mental health professionals. A group of upper class cadets, known as Cadet Peer Educators (CPE's), assist the professional staff with health and wellness programs throughout the academic year. Program topics of interest include maintaining emotional wellness, stress management, substance abuse prevention, and healthy relationships. In addition, the Cadet Peer Educators are particularly helpful in guiding RATS as they make the transition to college and the VMI culture. For more information, please call 540-464-7667; 2nd Floor VMI Health Center or visit our website: <a href="http://www.vmi.edu/counseling">www.vmi.edu/counseling</a>.</p> <p><strong>Office of Disabilities Services.&nbsp; </strong> The Office of Disabilities Services (ODS) is committed to meeting the ethical and legal responsibilities to ensure equitable educational access for cadets with documented disabilities. We support cadets' personal growth and development of academic, life and leadership skills in a manner that encourages self-awareness, self-determination, and self-advocacy. ODS also serves as a resource to the VMI community by promoting awareness and understanding regarding disability issues in higher education.</p> <p>Cadets with documented disabilities are encouraged to schedule a meeting with the Director of ODS as early as possible to allow adequate time for review of documentation, to allow for a thorough assessment of academic needs, and to familiarize new cadets with administrative procedures.</p> <p>For more information, please call (540-464-7667); 2nd Floor VMI Health Center or visit our website: <a href="http://www.vmi.edu/ds">www.vmi.edu/ds</a><strong>.</strong></p> <p><strong>Information Technology.</strong> The mission of VMI Information Technology is to serve and support the technology needs of the Institute and facilitate creativity in teaching, learning, and communication for cadets, administration, faculty and staff. VMI IT provides many services for cadets, including computer labs, hardware and software recommendations and installations, and help desk support. VMI IT is responsible for the VMI network, and can provide access upon request. For more information, please contact the VMI IT Help Desk, <a href="mailto:help@vmi.edu"><u>help@vmi.edu</u></a>, 315 Nichols Engineering Building.</p> <p><strong>Mathematics Education Resource Center (MERC). </strong>The primary goals of the MERC are to formulate a comprehensive picture of the mathematical lives of cadets, and then provide the support necessary to reinforce that picture. In this, MERC staff assesses what mathematical skills and experiences a VMI cadet has prior to admission. The MERC staff then strives to understand what expectations military, community, and private businesses have with regards to the mathematical skills and mathematical reasoning of a graduating cadet. Finally, in this knowledge of where a cadet starts and where they will go next, the MERC staff provides every possible means to support that cadet's exciting journey through VMI.</p> <p>The primary resource for service of the cadet corps' mathematical needs is the Open Mathematics Lab (OML). Its design allows cadets to freely seek and find as much help as needed for any of VMI's mathematics core curriculum courses and pre-calculus, differential equations, matrix algebra, and multivariable calculus courses. The model for the lab is one wherein tutors are prepared to help cadets in an open and shared setting, where no appointments are necessary. OML tutors are trained, knowledgeable, and current on the specific techniques and problems taught by VMI mathematics teaching faculty. The OML is meant to complement and support, but not replace, course activities within the VMI mathematics curriculum.</p> <p><strong>Miller Academic Center. </strong>The Miller Academic Center's motto is "Empowering Cadets to be Extraordinary!" Whether a cadet is transitioning from high school to college, finding coursework difficult, or wanting to enhance skills to achieve academic stars, the Miller Academic Center has programs and services to facilitate cadet's achievement of optimal academic success. Time management skills, effective study skills, and strategies to balance the academic, military, athletic, and personal responsibilities are offered by the MAC. Programs include Group Study Sessions, Project Success, and Operation Excel. The MAC collaborates with both faculty and cadets to ensure an accurate and grounded network of programs and services. Cadets may also meet individually with staff to discuss questions or concerns about academic success at VMI.</p> <p>The MAC is located at 202 Carroll Hall. For more information, please visit&nbsp;<a href="http://www.vmi.edu/mac">http://www.vmi.edu/mac</a> or contact us at 540-464-7602 or <a href="mailto:mac@vmi.edu">mac@vmi.edu</a>.</p> <p><strong>Preston Library</strong>. The mission of Preston Library is to provide library materials and services of the highest quality; to teach skills needed for academic inquiry and lifelong learning; to support faculty and undergraduate research; to provide access to and promote the use of Institute historical materials; to support the creation and use of multimedia by cadets and faculty; and to offer library services to the community at large.</p> <p>Named for Colonel J. T. L. Preston, the library was dedicated in 1939, enlarged in 1972, and renovated in 1996. The building is equipped with 32 public-access, networked computers for research use, and a computer instruction lab which enables librarians to offer hands-on training for online resources. Preston Library has 110 individual study carrels that are available on a first come, first serve basis. Carrels are equipped with study lamps, power outlets, and network connections. Six group study rooms are available in addition to many large tables for study and research. Each floor has a gallery area furnished with armchairs and sofas. All areas of the library have wireless access. The library maintains a music collection in the Timmins Music Room.</p> <p>Preston Library's collections include over 300,000 volumes of print materials, over 5,000 non-print items, and more than 200 scientific, literary, and general interest print periodicals. The Library installed an integrated library system in 1991 and upgraded its system in 2004. The online catalog is available at <a href="http://library.vmi.edu">library.vmi.edu</a>. In addition, the library provides access to more than 100 full-text and citation databases and over 100,000 fulltext electronic journals, many available through VIVA (the Virtual Library of Virginia). Preston Library is a selective depository of U.S. government publications, with current holdings of about 200,000 federal and state documents. Interlibrary loan service is available to cadets and faculty free of charge. Preston Library maintains a web presence at&nbsp;<a href="http://www.vmi.edu/library">www.vmi.edu/library</a> and a blog at <a href="http://Prestonlibrary.net/blog">Prestonlibrary.net/blog</a>.</p> <p>Media Services and the VMI Archives are located within the library. Media Services has 18 media carrels, two media creation rooms, and a media projection room for classes to view videos. The Archives contains VMI's historic official records, photographs, manuscripts, and rare materials. It maintains a web presence at <a href="http://www.vmi.edu/blog">www.vmi.edu/blog</a>.</p> <p><strong>Writing Center.</strong> The VMI Writing Center helps cadets with a full range of activities to improve their writing, at any level and in any discipline. Professional and trained peer tutors, work with cadets in one-on-one conferences on every aspect of the writing process, from planning a paper to finishing the final draft. Tutors are available by appointment or on a walk-in basis in Carroll Hall.</p> <h2><a name="Academic_Policies"></a>Academic Policies</h2> <p><strong>Academic Regulations. </strong>The VMI Academic Regulations are maintained by the Office of the Deputy Superintendent and Dean of the Faculty online at <a href="http://www.vmi.edu/AcadRegulations" target="_blank"><u>http://www.vmi.edu/AcadRegulations</u></a>. Among other information, the regulations include current VMI definitions and policies on:</p> <p style="margin-left:40px">Academic Delinquency<br> Academic Probation<br> Academic Recognition<br> Admissions Requirements<br> Advanced Placement Credit<br> Auditing of Courses<br> Change of Grade<br> Change of Major<br> Class Attendance<br> Classification (academic)<br> Course Load<br> Drop-Add Period<br> Final Examinations<br> Grade Reporting<br> Grading System<br> Graduation Requirements<br> Readmission<br> Repeating Courses<br> ROTC<br> Students with Disabilities<br> Substitution of Curricular Requirements<br> Transcripts<br> Transfer Credit<br> Withdrawals<br> Work-for-Grade Policies</p> <p style="margin-left:40px">Please contact the Assistant Dean for Administration and Planning, 210 Smith Hall, if you have questions about the VMI Academic Regulations.</p> <p><strong>Current Academic Requirements. </strong>Annually each fall, the Registrar publishes the current academic requirements, including minimum academic standards. The standards are available online at <a href="http://www.vmi.edu/AcadPolicy" target="_blank"><u>http://www.vmi.edu/AcadPolicy</u></a>.</p> <p><strong>Work for Grade.</strong> Principles of academic integrity in all work for grade are stressed in every course taught at VMI. Cadets and faculty alike are reminded of the institutional statements and definitions regarding work for grade as expressed in the Academic Regulations. Work for grade policies are printed in the syllabus of every course taught at VMI.</p> <p><strong>Written Work.</strong> Every cadet is expected to use the English language clearly, correctly, and thoughtfully. Any cadet who through carelessness, indifference, or lack of preparation submits substandard written work in any course should expect to receive a reduced grade. Extremely poor writing may result in a failing grade. A cadet whose command of English is deemed inadequate may be required by his/her curriculum head to submit additional written work in order to earn a degree from the Virginia Military Institute.</p> <h2><a name="Academic_Administration"></a>Academic Administration</h2> <p>The Academic Program is directed by the Deputy Superintendent for Academics and Dean of the Faculty, whose principal subordinates are the Associate Dean for Academic Affairs; the Assistant Dean for Planning and Administration; the Registrar; the Head Librarian; the Directors of Career Services, Center for Undergraduate Research, Institute Writing Program, International Programs, Math Education and Resources Center, Miller Academic Center, Sponsored Programs and Teacher Education Program, in addition to the heads of the Institute's seventeen academic departments. The Deputy Superintendent for Academics and Dean of the Faculty's Office is located in 210 Smith Hall. For contact information, see <a href="http://www.vmi.ed/Content.aspx?id=192" target="_blank"><u>http://www.vmi.ed/Content.aspx?id=192</u></a>.</p> </td> 
+                </tr> 
+               </tbody>
+              </table> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <a rel="nofollow" href="/content.php?catoid=15&amp;navoid=442&amp;print" onclick="acalogPopup('/content.php?catoid=15&amp;navoid=442&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=15" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script>  
+ </body>
+</html>

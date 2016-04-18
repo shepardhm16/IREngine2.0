@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>The Institute - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/vmi/img/favicon/favicon.ico"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules">
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]--> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript> 
+  <a href="#accesskeys" accesskey="k"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="The page uses Browser Access Keys to help with keyboard navigation. Click to learn more" style="height: 0px"></a>
+  <a href="#acalog-nav" accesskey="n"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a>
+  <a name="accesskeys"></a>
+  <div class="accesskeys"> 
+   <p>Different browsers use different keystrokes to activate accesskey shortcuts. Please reference the following list to use access keys on your system.</p> 
+   <dl> 
+    <dt>
+     Alt and the accesskey, for Internet Explorer on Windows
+    </dt> 
+    <dt>
+     Shift and Alt and the accesskey, for Firefox on Windows
+    </dt> 
+    <dt>
+     Shift and Esc and the accesskey, for Windows or Mac
+    </dt> 
+    <dt>
+     Ctrl and the accesskey, for the following browsers on a Mac: Internet Explorer 5.2, Safari 1.2, Firefox, Mozilla, Netscape 6+.
+    </dt> 
+   </dl> 
+   <p>We use the following access keys on our gateway</p> 
+   <dl> 
+    <dt>
+     n Skip to Navigation
+    </dt> 
+    <dt>
+     k Accesskeys description
+    </dt> 
+    <dt>
+     h Help
+    </dt> 
+   </dl> 
+  </div>
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"><span class="n1_header"> Virginia Military Institute</span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015-2016 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15" selected>2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="15"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=15" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=15" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=438" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=435" class="navbar" tabindex="107">Institute Calendar 2015-2016</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=436" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=437" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=431" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=439" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=440" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=442" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=443" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=444" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=445" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=441" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=448" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=450" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=446" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=433" class="navbar" tabindex="121">Support Agencies</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=449" class="navbar" tabindex="122">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td> 
+                  <div class="help_block" style="float: right">
+                   <a href="help.php?catoid=15" onclick="javascript:acalogPopup('help.php?catoid=15', 'help', 770, 530, 'yes');return false;" class="help" tabindex="203" accesskey="h" target="_blank"><b>HELP</b></a>
+                  </div> <span class="acalog_catalog_name">2015-2016 Academic Catalogue</span> <h1 id="acalog-content"> The Institute </h1> 
+                  <div style="float: right">
+                   <a rel="nofollow" href="/content.php?catoid=15&amp;navoid=437&amp;print" onclick="acalogPopup('/content.php?catoid=15&amp;navoid=437&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                  </div>
+                  <div class="acalog-social-media-links" style="float: right;"> 
+                  </div> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <hr> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <table class="acalog-export-remove" border="0" cellspacing="0" cellpadding="0" width="100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td> 
+                      <ul> 
+                       <li><a href="#An_Education_for_Leadership_in_the_21st_Century">An Education for Leadership in the 21st Century</a></li> 
+                       <li><a href="#Cadet_Development_Goals">Cadet Development Goals</a></li> 
+                       <li><a href="#Historical_Development">Historical Development</a></li> 
+                      </ul> </td> 
+                     <td>&nbsp;</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> 
+                  <hr> <h2><a name="An_Education_for_Leadership_in_the_21st_Century"></a>An&nbsp;Education for Leadership in the 21st Century</h2> <p>Even in a world of change, some things never change. Society will always need educated and honorable men and women. And men and women will always need to lead lives of meaning and usefulness to others.</p> <p>Established in 1839, VMI has shaped leaders, heroes, and individuals whose daily lives reflect the integrity, fairness, and appreciation for the value of work that is instilled here. The sense of mission at VMI is at the foundation of the Institute’s tradition, teaching, and administration. It is alive in each cadet from the youngest Rat to the First Captain. Their pursuits, and now your pursuits, marked by words such as Honor, Character, and Wisdom, may seem romantic, even archaic, but they are, in fact, timeless and never needed more than now.</p> <p>For the individual who wants an undergraduate experience more complete and transformative than an ordinary college or university can provide and more versatile in its applications than a military service academy affords, VMI offers a superb education. Its efficacy is well demonstrated by generations of VMI graduates.</p> <p>Among the alumni of VMI are: a Nobel Prize winner, eleven Rhodes Scholars, seven Medal of Honor recipients, a Pulitzer Prize winner, 39 college presidents and 266 generals and flag officers. VMI Superintendent General J.H. Binford Peay III ’62 attained the rank of four-star general. He served his country as Vice Chief of Staff for the U.S. Army and Commander-in-Chief, United States Central Command. He directed strategic and operational matters in the Persian Gulf, Africa, South Asia and the Middle East. As a commanding general of the 101st Airborne Division, General Peay led the division during operations Desert Shield and Desert Storm. He has won numerous military awards and decorations. General Peay knows as well as anyone that VMI builds leaders. “My father, my two sons and I all graduated from VMI and I feel very strongly about the Institute’s contribution to Virginia and the nation,” said Peay.</p> <p>No other college in America is so attentive to and so proud of its product: citizen-soldiers prepared both for civilian leadership in their professions and for military leadership in times of national need. VMI graduates have made distinguished contributions both in the military and in fields as diverse as business, engineering, international affairs, medicine, and public policy, often at remarkably young ages.</p> <p>VMI’s multi-faceted program is designed to instill in each cadet the lifelong values of integrity, devotion to duty, self-discipline, and self-reliance. Because cadets live and work in close association with fellow cadets, respect for the rights of others becomes their way of life and leads to a strong bond of loyalty.</p> 
+                  <table border="1" cellspacing="0" cellpadding="4" width="100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td bgcolor="#cccccc"> <h2><a name="Cadet_Development_Goals"></a>Cadet Development Goals</h2> <p><strong>Graduates of the Virginia Military Institute will:</strong></p> <p><strong>Understand:</strong></p> 
+                      <ul> 
+                       <li>The responsibilities of the Citizen-Soldier and the application of a broad liberal education in the arts, sciences and engineering to those responsibilities.</li> 
+                       <li>The ideals of the American Constitution and the responsibilities of service to the Nation and its defense.</li> 
+                       <li>The values and ethical standards of commissioned service to the Nation.</li> 
+                      </ul> <strong>Demonstrate: </strong><br> 
+                      <ul> 
+                       <li>The ability to anticipate and respond effectively to the uncertainties of a complex and changing world.</li> 
+                       <li>Intellectual curiosity, imagination, and creativity.</li> 
+                       <li>The ability to recognize moral issues and apply ethical considerations in decision making.</li> 
+                       <li>The ability to act rationally and decisively under pressure.</li> 
+                       <li>Mastery of the basic military skills required for entry into commissioned service.</li> 
+                       <li>A commitment to physical fitness and wellness, including the physical skills required for entry into commissioned service.</li> 
+                       <li>The ability to understand and apply the art and science of leadership to inspire, motivate, and develop subordinates, accomplish organization goals, and lead in a complex and changing world.</li> 
+                      </ul> </td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h2><a name="Historical_Development"></a>Historical Development</h2> <p>Before its formation as an institution of higher education in 1839, VMI’s site was occupied by an arsenal, one of three in the State of Virginia.</p> <p>The arsenal guard of some 20 soldiers, although living a strict military life while on duty, lacked self-discipline, and their leisure-time activities upset the decorum of Lexington. In 1834, several of Lexington’s leading citizens, including attorney John Thomas Lewis Preston, proposed that the arsenal be transformed into a military college so the cadets could pursue educational courses while protecting the stand of arms.</p> <p>The plan led to legislation establishing the Virginia Military Institute. It was Preston, generally credited for conceiving the idea of VMI, and later one of the original members of the faculty, who gave the new institution its name: “Virginia—a State institution, neither sectional nor denominational. Military—its characteristic feature. Institute—something different from either college or university. The three elements thus indicated are the basis of a triangular pyramid, of which the sides will preserve their mutual relation to whatever height the structure may rise.”</p> <p>On November 11, 1839, 23 young Virginians were mustered into the service of the State and, in a falling snow the first cadet sentry, John B. Strange, relieved the old arsenal guard. To this day cadets perform guard duty and serve the State as a military corps, as the first Corps of Cadets did.</p> <p>Professor (later Major General) Francis H. Smith, a graduate of the United States Military Academy, was named the first Superintendent of VMI and presided over the affairs of the Institute for its first half-century. During his 50-year tenure, the Corps increased in size, the curriculum broadened, and the faculty grew. Among them was a moody, eccentric professor of “natural philosophy”—“physics,” it is called today—named Thomas Jonathan Jackson, who joined the faculty in 1851 and served until April, 1861. At the outbreak of the Civil War, he resumed military duty and became a general of the Confederate forces, earning the name “Stonewall” Jackson. He is considered one of the greatest commanders in military history. The first president of the Board of Visitors was Colonel Claudius Crozet, a graduate of Ecole Polytechnique and former faculty member at West Point, who was the State engineer of Virginia at the time of his election to the board.</p> <p>With the outbreak of the war, the Cadet Corps, under command of its professor of physics, Major Jackson, was ordered to train recruits for the Confederate Army in the Richmond area. The Corps was later reconstituted at the Institute to supply officers for the Southern armies. The Cadet Corps was called into active service a number of times in the Valley of Virginia during the next three years.</p> <p>On May 15, 1863, the Corps of Cadets escorted the body of “Stonewall” Jackson to his grave in Lexington, after his death in the battle of Chancellorsville. Just before the battle, Jackson, after surveying the field and seeing so many VMI men around him in key positions, spoke the oft-quoted words: “The Institute will be heard from today.”</p> <p>One year to the day after the funeral of Jackson, the VMI Cadet Corps was engaged as a unit in pitched battle. Called upon to bolster the Southern line against the advance of Union General Franz Sigel, the Corps marched down the valley to New Market and, in the battle fought there, won credit for helping turn the tide in favor of the Confederate forces. Ten cadets were killed and 47 wounded. Six of the dead are buried on the VMI grounds. The Corps of Cadets pays tribute to the courage and valor of the New Market Cadets in formal ceremonies held at the Institute yearly on May 15.</p> <p>The Institute was shelled and burned on June 12, 1864, by Union forces under the command of General David Hunter. The courageous efforts of General Smith and dedicated members of the faculty allowed the Institute to reopen on October 17, 1865.</p> <p>The devoted service of the thirteen Superintendents who have followed General Smith has enabled the Institute to strengthen its position as a uniquely valuable source of honorable and dedicated citizen-soldiers for the Commonwealth and the nation. Among VMI graduates are General of the Army George C. Marshall, Class of 1901, the World War II Army Chief of Staff, architect of the Marshall Plan and Nobel Peace Prize winner, and Jonathan M. Daniels, Class of 1961, murdered during the Civil Rights struggles of the 1960s and named a Lesser Saint of the Episcopal Church for his sacrifice.</p> <p>Early in VMI history, Colonel Preston declared that the Institute’s unique program would produce “fair specimens of citizen-soldiers,” and this observation has been substantiated by the service of VMI graduates in peace and war. Since the Institute was founded, VMI alumni have fought in every war involving the United States, starting with the Mexican War just four years after VMI graduated its first class.</p> <p>VMI alumni continue to serve their nation with 266 having achieved the rank of General or Flag officer in the Armed Forces of the United States and several foreign countries, most notably Thailand and the Republic of China. During World Wars I and II, the Korean War, and the Vietnam War, over 300 alumni gave the ultimate sacrifice in service to their country, and two alumni were killed during Operation Desert Storm. Two VMI alumni were among those killed on September 11, 2001 in the terrorist attacks on America and 14 alumni have been killed in Iraq and Afghanistan.</p> <p>VMI is proud of its uniquely rigorous and constantly evolving system of education, and its earned reputation as one of America’s premier institutions of higher education. Our mission of producing leaders — educated men and women of unimpeachable character and absolute integrity — remains our clear focus today and for the future.</p> </td> 
+                </tr> 
+               </tbody>
+              </table> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <a rel="nofollow" href="/content.php?catoid=15&amp;navoid=437&amp;print" onclick="acalogPopup('/content.php?catoid=15&amp;navoid=437&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=15" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script>  
+ </body>
+</html>

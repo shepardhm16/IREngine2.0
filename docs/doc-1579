@@ -1,0 +1,924 @@
+<!doctype html>
+<html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="Apache Tapestry Framework (version 5.3.6)" name="generator">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="/apple-icon-57x57.png" sizes="57x57" rel="apple-touch-icon">
+  <link href="/apple-icon-60x60.png" sizes="60x60" rel="apple-touch-icon">
+  <link href="/apple-icon-72x72.png" sizes="72x72" rel="apple-touch-icon">
+  <link href="/apple-icon-76x76.png" sizes="76x76" rel="apple-touch-icon">
+  <link href="/apple-icon-114x114.png" sizes="114x114" rel="apple-touch-icon">
+  <link href="/apple-icon-120x120.png" sizes="120x120" rel="apple-touch-icon">
+  <link href="/apple-icon-144x144.png" sizes="144x144" rel="apple-touch-icon">
+  <link href="/apple-icon-152x152.png" sizes="152x152" rel="apple-touch-icon">
+  <link href="/apple-icon-180x180.png" sizes="180x180" rel="apple-touch-icon">
+  <link sizes="32x32" href="/favicon-32x32.png" type="image/png" rel="icon">
+  <link sizes="192x192" href="/android-icon-192x192.png" type="image/png" rel="icon">
+  <link sizes="96x96" href="/favicon-96x96.png" type="image/png" rel="icon">
+  <link sizes="16x16" href="/favicon-16x16.png" type="image/png" rel="icon">
+  <link href="/manifest.json" rel="manifest">
+  <meta content="#ffffff" name="msapplication-TileColor">
+  <meta content="/ms-icon-144x144.png" name="msapplication-TileImage">
+  <meta content="#ffffff" name="theme-color">
+  <script src="/assets/r20161.4.0-6/stack/en/core.js" type="text/javascript"></script>
+  <script src="/assets/r20161.4.0-6/stack/en/pqcore.js" type="text/javascript"></script>
+  <script src="/assets/r20161.4.0-6/stack/en/os-std.js" type="text/javascript"></script>
+  <script src="/assets/r20161.4.0-6/app/components/GoogleAnalytics.js" type="text/javascript"></script>
+  <script src="/assets/r20161.4.0-6/app/components/myresearch/CreateProfileOverlay.js" type="text/javascript"></script>
+  <script src="/assets/r20161.4.0-6/app/validation/usernameValidator.js" type="text/javascript"></script>
+  <script src="/assets/r20161.4.0-6/pqc/mixins/ZoneUpdater.js" type="text/javascript"></script>
+  <script src="/assets/r20161.4.0-6/app/components/DonorBranding.js" type="text/javascript"></script>
+  <script src="/assets/r20161.4.0-6/pqc/javascript/prototip/js/prototip.js" type="text/javascript"></script>
+  <script src="/extras/foresee/foresee-alive.js" type="text/javascript"></script>
+  <script>
+var wtTrack = '';
+var ieMode = 0;
+var dataLayer = [];
+</script>
+  <!--[if IE 7]><script>ieMode = 7</script><![endif]-->
+  <!--[if IE 8]><script>ieMode = 8</script><![endif]-->
+  <!--[if IE 9]><script>ieMode = 9</script><![endif]-->
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="/images/pagelayout/ProQuest_logo.gif" property="og:image">
+  <meta content="CACC32764EBE162CF640759C8FD343FB-m40.t4" name="DCSext.jsessionid">
+  <meta content="CACC32764EBE162CF640759C8FD343FB-m40.t4" name="DCSext.sessionId">
+  <meta content="PDO" name="DCSext.appUIVersion">
+  <!-- Start Visual Website Optimizer Asynchronous Code -->
+  <script type="text/javascript">
+var _vwo_code=(function(){
+var account_id=62881,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&amp;u='+encodeURIComponent(d.URL)+'&amp;r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script>
+  <!-- End Visual Website Optimizer Asynchronous Code -->
+  <title>Home Page - ProQuest SciTech Collection - ProQuest</title>
+  <link type="text/css" rel="stylesheet" href="/assets/r20161.4.0-6/core/default.css">
+  <link type="text/css" rel="stylesheet" href="/assets/r20161.4.0-6/core/tapestry-console.css">
+  <link type="text/css" rel="stylesheet" href="/assets/r20161.4.0-6/core/t5-alerts.css">
+  <link type="text/css" rel="stylesheet" href="/assets/r20161.4.0-6/core/tree.css">
+  <link type="text/css" rel="stylesheet" href="/assets/r20161.4.0-6/pqc/javascript/tinybox2/tinybox.css">
+  <link type="text/css" rel="stylesheet" href="/assets/r20161.4.0-6/pqc/javascript/prototip/css/prototip.css">
+  <link type="text/css" rel="stylesheet" href="/assets/r20161.4.0-6/ctx/styles/PageLayout.css">
+  <link type="text/css" rel="stylesheet" href="/assets/r20161.4.0-6/ctx/styles/ContentLayout.css">
+  <link type="text/css" rel="stylesheet" href="/assets/r20161.4.0-6/ctx/uxframework/css/uxf-1.0.0-teal.min.css">
+  <link type="text/css" rel="stylesheet" href="/assets/r20161.4.0-6/ctx/styles/overRide.css">
+ </head>
+ <body>
+  <!-- Google Tag Manager -->
+  <noscript>
+   <iframe style="display:none;visibility:hidden" width="0" height="0" src="//www.googletagmanager.com/ns.html?id=GTM-TQQMMR"></iframe>
+  </noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TQQMMR');</script>
+  <!-- End Google Tag Manager -->
+  <div tabindex="-1" id="top"></div>
+  <div id="skip">
+   <a accesskey="2" href="#start">Skip over navigation to the main content</a>
+  </div>
+  <div id="wrapper">
+   <div style="position:relative" id="content">
+    <div class="navbar navbar-inverse">
+     <div class="navbar-header">
+      <button type="button" data-toggle="collapse" data-target=".bs-navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <ul class="nav navbar-nav">
+       <li><span class="navbar-brand diagonal-thin"></span></li>
+       <li>
+        <div class="navbar-brand product-name">
+         <div id="imgClassSwitch">
+          <a href="/?accountid=14859"><span class="sr-only">ProQuest</span>
+           <div title="ProQuest" class="pq-logo"></div></a>
+         </div>
+        </div></li>
+      </ul>
+     </div>
+     <nav class="collapse navbar-collapse bs-navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+       <li><a id="gaRecentSearches" title="Recent Searches" onmouseout="clearTimeout(funcDelay)" class="recSec" onmouseover="funcDelay= setTimeout(function(){dataLayer.push({event:'utilityMenuRecentSearchHover'})}, 600);" href="/technologycollection/recentsearches?accountid=14859"><span class="sr-only">Recent Searches</span><span class="uxf-icon uxf-back-in-time"></span></a></li>
+       <li><a id="gaSelectedItems_link" class="wt-selected-items null" href="/technologycollection/selecteditems?accountid=14859"><span class="sr-only">Selected Items</span><span title="Selected Items" class="uxf-icon uxf-folder" onmouseout="clearTimeout(funcDelay)" onmouseover="funcDelay= setTimeout(function(){dataLayer.push({event:'utilityMenuSelectedItemsHover'})}, 600);"></span><span class="" id="selecteditemscount_badge"></span></a>
+        <div style="display:none" id="gaSelectedItems_itemsLink_noItemsOverlay-overlay">
+         <div id="gaSelectedItems_itemsLink_noItemsOverlay">
+          <div class="notSelectedPrompt">
+           <p>Please select one or more items.</p>
+           <div class="clear"></div>
+           <br>
+           <div class="float_right">
+            <a title="Close" onclick="Overlay.box.hideOverlay();" class="btn btn-default" id="button"> Close </a>
+           </div>
+           <div class="clear"></div>
+          </div>
+          <div class="clear"></div>
+          <div id="finalElement">
+           <a onfocus="javascript:setFocusOntoTitle();" id="hiddenAnchorEndEl" href="#"><span class="hiddenText"> OverlayEnd</span></a>
+          </div>
+         </div>
+        </div></li>
+       <li aria-expanded="false" aria-haspopup="true" class="dropdown"><a title="My Research and Language Selection" href="#" data-toggle="dropdown" onmouseout="clearTimeout(funcDelay)" onmouseover="funcDelay= setTimeout(function(){dataLayer.push({event:'utilityMenuMyResearchHover'})}, 600);" class="dropdown-toggle" id="mrDropdown"><span class="sr-only">My Research and Language Selection</span><span class="uxf-icon uxf-user"></span></a>
+        <ul role="menu" class="dropdown-menu">
+         <li><a id="gaMRSignIn" href="/technologycollection/myresearch/signin?accountid=14859"><span class="glyphicon glyphicon-log-in"></span>&nbsp;Sign into My Research</a></li>
+         <li><a data-target="#endsession_confirm" data-toggle="modal" id="exitProQuestLink" href="#"><span class="glyphicon glyphicon-log-out"></span> Exit ProQuest</a></li>
+         <li aria-hidden="true" class="divider"></li>
+         <li><a data-target="#languages" data-toggle="modal" id="gaMRLanguage" href="#"><span class="uxf-icon uxf-globe"></span> English</a></li>
+         <script>
+$j(function(){
+$j('#languages').on('hidden.bs.modal', function(e) { $j('#mrDropdown').focus(); })
+});
+</script>
+        </ul></li>
+       <li aria-expanded="false" aria-haspopup="true" class="dropdown"><a title="Help, Support and What's Changed" href="#" data-toggle="dropdown" onmouseout="clearTimeout(funcDelay)" onmouseover="funcDelay= setTimeout(function(){dataLayer.push({event:'utilityMenuHelpItemsHover'})}, 600);" class="dropdown-toggle"><span class="uxf-icon uxf-help-circle"></span><span class="sr-only">Help, Support and What's Changed</span></a>
+        <ul role="menu" class="dropdown-menu helpMenu">
+         <li role="menuitem"><a onclick="this.blur()" title="ProQuest Help" text="ProQuest Help" class="popUpHelp" accesskey="6" href="JavaScript:newPopup('/help/academic/webframe.html?Help_Overview.html');" id="help">ProQuest Help<span class="hiddenText"> - this link will open in a new window</span></a><span class="dropdownText hidden-xs small">Go directly to information on using the current page.</span></li>
+         <li aria-hidden="true" class="divider hidden-xs"></li>
+         <li role="menuitem"><a target="_new" href="http://www.proquest.com/go/newplatform" id="gaHelpSupportLink">Support Center</a><span class="dropdownText hidden-xs small">Find answers to questions about products, access, use, setup, and administration.</span></li>
+         <li aria-hidden="true" class="divider hidden-xs"></li>
+         <li role="menuitem"><a target="_new" href="http://proquest.libguides.com/proquestplatform" id="gaHelpTrainingLink">Training (LibGuides)</a><span class="dropdownText hidden-xs small">User guides, online and onsite training, webinars, and more.</span></li>
+         <li aria-hidden="true" class="divider hidden-xs"></li>
+         <li role="menuitem"><a title="Contact Us" href="http://www.proquest.com/go/pqissupportcontact" id="gaHelpContactLink">Contact Us</a><span class="dropdownText hidden-xs small">Have a question, idea, or some feedback? We want to hear from you.</span></li>
+         <li aria-hidden="true" class="divider hidden-xs"></li>
+         <li role="menuitem"><a target="_new" href="https://www.proquest.com/trials/requestTrialInput.action" id="gaHelpTrialsLink">Product Trials</a><span class="dropdownText hidden-xs small">Request a free product trial.</span></li>
+        </ul></li>
+      </ul>
+     </nav>
+    </div>
+    <div class="row-fluid">
+     <ol class="breadcrumb">
+      <li><a href="/metaproducts/normal/scitechcollection/index.pagelayout:alldatabases/metaproducts$2fnormal$2fscitechcollection$2fIndex?site=technologycollection&amp;t:ac=science"> All databases </a></li>
+      <li><a href="/metaproducts/normal/scitechcollection/index.pagelayout:opensubjectvertical/metaproducts$2fnormal$2fscitechcollection$2fIndex/science?site=technologycollection&amp;t:ac=science"> Science &amp; Technology databases </a></li>
+      <li class="active">ProQuest SciTech Collection</li>
+      <li id="change-db"><a title="View and change the databases included in your search" class="rightToLeft" id="databasePageLink" href="/databases/index?accountid=14859">Change databases</a></li>
+     </ol>
+    </div>
+    <div class="container landingPadding landingPage clearfix">
+     <h1>ProQuest SciTech Collection</h1>
+     <div class="pull-left">
+      <ul class="horizontal">
+       <li><a class="active" accesskey="1" href="/technologycollection?accountid=14859">Basic Search</a></li>
+       <li><a id="advancedsearch" class="" href="/technologycollection/advanced?accountid=14859">Advanced Search</a></li>
+       <li><a class="" href="/metaproducts/normal/scitechcollection/index.pagelayout:productlevelpub?site=technologycollection&amp;t:ac=science">Publications</a></li>
+      </ul>
+     </div>
+    </div>
+    <div class="container">
+     <div class="hide" id="signInLinkZone">
+      <div class="t-zone" id="linkZone">
+       <a id="signInLink" href="/metaproducts/normal/scitechcollection/index.pagelayout.signinoverlay.actionlink?site=technologycollection&amp;t:ac=science">Sign in</a>
+       <span></span>
+      </div>
+     </div>
+     <div data-backdrop="static" aria-hidden="true" aria-labelledby="signInFormOverlay" role="dialog" tabindex="-1" id="signInFormOverlay" class="modal fade">
+      <div class="modal-dialog">
+       <div class="modal-content">
+        <div class="modal-header">
+         <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+         <h2 id="myModalLabel" class="modal-title">Sign in to My Research</h2>
+        </div>
+        <div class="modal-body clearfix">
+         <div class="commomOverlayContent t-zone" id="overlayZone">
+          <script>
+var msgSignInForPrefs = "<p>Sign in to set your preferences and customize ProQuest for your research.</p>";
+var msgSignInForSaveSearch = "<p>Sign in to save your search(es). You can use My Research in the future to view and rerun your searches.</p>";
+</script>
+          <div id="signInTargetMsg"></div>
+          <p class="col-md-12">Save and organize your research.</p>
+          <form class="dynamicPreview" onsubmit="javascript:return Tapestry.waitForPage(event);" action="/metaproducts/normal/scitechcollection/index.pagelayout.signinoverlay.signinform.signinloginform" method="post" id="signInLoginForm">
+           <div class="t-invisible">
+            <input value="technologycollection" name="site" type="hidden">
+            <input value="science" name="t:ac" type="hidden">
+            <input value="T9BI0hUrU2/iSEYdsBy7UPY1O90=:H4sIAAAAAAAAAL1TTUoDMRR+HSwUKy6E3kBXwowLu1FcFEQolFIoFRFB0szrNJImaV6mPxtP4Bl6AvESXbhz5QU8gODKlQsz7aCCK6F1l3wvL9/3Jd+7f4XiOAEcoGPG6jjljiKl7YDJiLhwyPtcS4ncCa2iuopxcmRYgpJNdepCEokSSo/QeiDf9Xx3voyRnFAs682ayEJV2yRkhvE+hp7R1+20GnJtUYpu2GWEYa3rQcbdmUAZ77bRpWavMy+/VB4/Aig0oMy1clbLJvOiYadxw0YskkwlUdtZoZLjiXFQyQTU1em3gJYX8J9Oa3912rKaI1E77Q4Ekb9o/hAf9t5nTwHAxIyv4HL10lNCq/w70hBuARxskujk0HoJM77ieigMIxprG//w1Mqh9RIuPV3A+copskg4n6kTrgehv3mY+jj5cBn6CpSvGK1QOQoXCXK/8zR73t+42x69BRA0oMSl8KfrC9XZVKH0o6FcM/+cQjZFpSXz9UGGbH0C2G/I9iwEAAA=" name="t:formdata" type="hidden">
+           </div>
+           <div id="signInLoginFormDiv">
+            <input id="signInDestinationPage" name="signInDestinationPage" type="hidden">
+            <div class="col-md-12 loginFormInputFields"></div>
+            <div class="row">
+             <div class="col-md-3">
+              <label for="siUsername" class="control-label">Username:</label>
+             </div>
+             <div class="col-md-9">
+              <input class="form-control" id="siUsername" name="siUsername" type="text">
+             </div>
+            </div>
+            <div class="row">
+             <div class="col-md-3">
+              <label for="siPassword" class="control-label">Password:</label>
+             </div>
+             <div class="col-md-9">
+              <input class="form-control" value="" id="siPassword" name="siPassword" type="password">
+             </div>
+            </div>
+            <div class="row">
+             <div class="col-md-offset-3 col-md-4">
+              <a title="Forgot your password?" id="forgottenAccountInfoLink" onclick="jQuery('button.close').click();" data-target="#forgottenOverlay" data-toggle="modal" href="#">Forgot your password?</a>
+             </div>
+             <div class="col-md-5 hidden-xs">
+              <a id="createProfileLink" onclick="jQuery('button.close').click();" data-target="#createProfileOverlay" data-toggle="modal" class="pull-right" href="#">Create My Research account</a>
+             </div>
+             <div class="col-xs-12 visible-xs">
+              <a id="createProfileLink" onclick="jQuery('button.close').click();" data-target="#createProfileOverlay" data-toggle="modal" class="pull-left" href="#">Create My Research account</a>
+             </div>
+            </div>
+            <div class="clearfix" id="modal-footer-ux">
+             <div class="pull-right">
+              <a href="#" class="btn btn-default" id="submit_0">Sign in</a>
+             </div>
+            </div>
+           </div>
+           <div style="display:none;" class="t-zone" id="signInLoginFormWorking">
+            <img class="t-autoloader-icon" src="/assets/r20161.4.0-6/core/spacer.gif" alt="">
+           </div>
+           <img id="siUsername_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+           <img id="siPassword_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+          </form>
+         </div>
+        </div>
+        <div class="modal-footer"></div>
+       </div>
+      </div>
+     </div>
+     <div data-backdrop="static" aria-hidden="true" aria-labelledby="createProfileOverlay" role="dialog" tabindex="-1" id="createProfileOverlay" class="modal fade">
+      <div class="modal-dialog">
+       <div class="modal-content">
+        <div class="modal-header">
+         <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+         <h2 id="myModalLabel" class="modal-title">Create a My Research account</h2>
+        </div>
+        <div class="modal-body clearfix">
+         <div class="lightviewInnerWrapper float_left">
+          <div class="t-zone" id="profileZoneIdValue">
+           <div class="dynamicPreview">
+            <form onsubmit="javascript:return Tapestry.waitForPage(event);" action="/metaproducts/normal/scitechcollection/index.pagelayout.signinoverlay.createprofile.createprofileform" method="post" id="createProfileForm">
+             <div class="t-invisible">
+              <input value="technologycollection" name="site" type="hidden">
+              <input value="science" name="t:ac" type="hidden">
+              <input value="frQpFGCBj5mCYQiSwhl+F61uRP8=:H4sIAAAAAAAAAL2TzWoUQRDHO8HIhgiCIgi5eEiuMxdz0YuLIC6EsLAYw/pFTXftpE1/jN01++HBq2/hE4Scc8/Bm+/gA3j15MGanZ2ABgQPndMwf5r+1a+r6vSH2JhZcWKRoApe1ZJi7nywYPIoNaE8lt4YlKS9ywdO4fxRBSUaWPiasqhLp52fYuAgkwGBkK+ZaIOZqq21i9XfR+9QqymYGmMQT3woM6hAHmPGXIwUFnuZ9AGNLvhrKz7uKGbPtVLodobBS4xxVBdWx8iVjD8/uDvfPr+5Ltb2xZb0joI3B8AW4s7+e5hCbsCV+YiCduXjeUXiflvOsC1nzPcP1GFTzuyNeJXAvo4YHBfEtnv/tC0gYtYvOARJzzQatTNCqqvdFxdb3+99/XVF8YP4JNYapV7HSK/Q/1+FKx27OFMPJz+/fFsXYl4lKriCGGc+qNg80Q1+oC5IzGtwvZkSRQIGN36ig/1b7fYqH3aG10JvRd+K1wlQzIm0HLeV4uYyaSY+NbHVSjMjBv606jXBQbql7XitE4h3CRhoQRtQKvCGd163lmG/Da+Bm3IUQUpfO9KX27a5SgYqNTHlKAac8BKfXLasx8HLJkjMa53G4igBg8Ap2QltUN+ppylJS5Xf/klHHTQJAAA=" name="t:formdata" type="hidden">
+             </div>
+             <input value="profileZoneIdValue" name="dummmyProfileZoneIdValue" type="hidden">
+             <!-- Username -->
+             <div class="row">
+              <p><strong>All fields are required.</strong></p>
+              <div class="col-md-3">
+               <label for="username">Username</label>
+              </div>
+              <div class="col-md-9">
+               <input class="signintxtField form-control" id="username" name="username" type="text">
+               <p class="small">Used to sign into your account.</p>
+              </div>
+             </div>
+             <!-- Password -->
+             <div class="row">
+              <div class="col-md-3">
+               <label for="password">Password</label>
+              </div>
+              <div class="col-md-9">
+               <input class="signintxtField form-control" id="password" name="password" type="password">
+               <p class="small">Use 8 or more letters and numbers.</p>
+              </div>
+             </div>
+             <div class="row">
+              <div class="col-md-3">
+               <label for="confirmPassword">Retype password</label>
+              </div>
+              <div class="col-md-9">
+               <input class="signintxtField form-control" id="confirmPassword" name="confirmPassword" type="password">
+              </div>
+             </div>
+             <!--  First name -->
+             <div class="row">
+              <div class="col-md-3">
+               <label for="firstName">First name</label>
+              </div>
+              <div class="col-md-9">
+               <input class="signintxtField form-control" id="firstName" name="firstName" type="text">
+               <p class="small">Displays on screen when you are signed in.</p>
+              </div>
+             </div>
+             <!-- Last name -->
+             <div class="row">
+              <div class="col-md-3">
+               <label for="lastName">Last name</label>
+              </div>
+              <div class="col-md-9">
+               <input class="signintxtField form-control" id="lastName" name="lastName" type="text">
+               <p class="small">Displays in emails sent from your account.</p>
+              </div>
+             </div>
+             <!--  Email address -->
+             <div class="row">
+              <div class="col-md-3">
+               <label for="emailAddress">Email address</label>
+              </div>
+              <div class="col-md-9">
+               <input class="signintxtField form-control" id="emailAddress" name="emailAddress" type="text">
+               <p class="small">Used for account confirmation, forgotten password reminders, and alerts.</p>
+              </div>
+             </div>
+             <div style="display:none;" class="row">
+              <div class="col-md-3">
+               <label for="accountId">Account Id</label>
+              </div>
+              <div class="col-md-9">
+               <input class="form-control" id="accountId" name="accountId" type="text">
+               <p class="small">Account Indentifier</p>
+              </div>
+             </div>
+             <div class="clearfix">
+              <img alt="Refworks logo" id="mr-refworks" class="float_left" src="/assets/r20161.4.0-6/pqc/components/images/rw_logo.png">
+              <h3 class="refWorksInstitutionName">Virginia Military Institute</h3>
+             </div>
+             <p class="small">As a member of this institution, you are eligible for a My Research account connected with RefWorks. After you create your account you can manage your research in both ProQuest and <a title="Link to external site, this link will open in a new window" class="icons_base_sprite icon_external" target="_blank" href="http://www.refworks.com">RefWorks</a></p>
+             <div class="row">
+              <div class="email_label">
+                Do you have a RefWorks Account? 
+               <span>(optional) </span>
+               <a title="Learn more" class="popUpHelp noBG" href="JavaScript:newPopup('/help/academic/webframe.html?refworks.html');" id="refworksAndMR">Learn more<span class="hiddenText"> - this link will open in a new window</span></a>
+              </div>
+              <input class="float_left" id="refWorks" name="refWorks" type="checkbox">
+              <label for="refWorks">Yes, I have an existing RefWorks account that I want to link with My Research.</label>
+             </div>
+             <div class="t-invisible" id="refWorksAccount">
+              <input value="47hTDSVk6E0zokpRLDLpyVyoLXs=:H4sIAAAAAAAAAL2SPU4DMRCFTSSqNIDEDaD1NqSBKg0IKUKRIkQ9a89uDF6PmfHmp+EonABxiRR03IED0FJR4EXsASiSbvTeaL73pHn5VPvLStkGE0Qm25okRSBuwBdiXEIzN+Q9muQoFNfB4uo8Qo0e1tQmLa4OLtACOQvaMELCfKZyHjVjtSR+EE+1CwEaFFYj4lpDBDNHnYEoidcjbYjRu1KXIKjHZRbBpEuH3p7MMLXx9HYz/Dh++x6ovYkaGgqJyd/ki0kdTe5hAYWHUBezxC7UF6uY1GGG33XwSQfvVndYcvzfklMmgyKztmycSM6webVn1dfz+0CpVVyiMltMHkEkD1Ye1ZNSSR30xvTP2BG/w2/7FWumNhqy2Jc97J2r3tlVgt+6P/Ch1jZ+AwAA" id="refWorksAccount-hidden" name="t:formdata" type="hidden">
+              <p class="small existingRef float_left">If you have a RefWorks account, save your login details here to keep your My Research citations and folders synchronized with RefWorks. You can add these settings later to the RefWorks Settings page, available from the My Account tab in My Research. <a href="/help/webframe.html?sync_MR_refworks.html" target="_blank">Instructions for Athens and Shibboleth users</a>.</p>
+              <div class="row">
+               <div class="col-md-3">
+                <label for="refWorksLoginName">Log-in name</label>
+               </div>
+               <div class="col-md-9">
+                <input class="signintxtField form-control" id="refWorksLoginName" name="refWorksLoginName" type="text">
+               </div>
+              </div>
+              <div class="row">
+               <div class="col-md-3">
+                <label for="refworksPassword">Password</label>
+               </div>
+               <div class="col-md-9">
+                <input class="signintxtField form-control" id="refworksPassword" name="refworksPassword" type="password">
+               </div>
+              </div>
+              <div class="row">
+               <div class="col-md-3">
+                <label for="refworksGroupcode">Group code</label>
+               </div>
+               <div class="col-md-9">
+                <input class="signintxtField  form-control" id="refworksGroupcode" name="refworksGroupcode" type="text">
+                <p class="small field_note longSmall clear_left">Optional - Enter if your RefWorks account is provided by a different institution</p>
+               </div>
+              </div>
+             </div>
+             <!-- Terms and conditions -->
+             <div class="row">
+              <input id="tAndC" name="tAndC" type="checkbox">
+              <label for="tAndC">I have read and agree to the privacy policy and terms and conditions (linked below).</label>
+              <ul class="horizontal">
+               <li><a target="_blank" href="http://search.proquest.com/info/privacy">Privacy policy</a></li>
+               <li><a target="_blank" href="http://search.proquest.com/info/termsAndConditions">Terms and Conditions</a></li>
+              </ul>
+             </div>
+             <div class="t-zone" style="display: inline;" id="tAndCZone">
+              <div class="clearfix" id="modal-footer-ux">
+               <input value="HXph/DIfSpEiP+4nDk1QLQv9rbw=:H4sIAAAAAAAAACWOQUoEQQxF46ggDIh4BndC9V6ZlauBRoTBA2TSsS2pqtRUUu248QSewRN4HK8heATLnlXI/z/57+sHTl8ZKLJhLjJUMu2SlIihU/LG9EwSApN5Sd06Dby/yThywDep5tSPySeZuDTBUWE0bm+efGCndRu9HbSqXLTAiiS65u8qqznMWR1J4eC3bcYsiZOp28yHVw9FiFXnTbXVf35fn3ycT78LWPRwRsG39HowuOxfcMIuYBq7jRWfxtselhw4tsA9Rt7BOxzts8HFgeluZnpsTP/O8R9Ilw18BAEAAA==" name="t:formdata" type="hidden">
+               <div class="btn_wrapper float_right">
+                <a href="#" class="btn btn-default" id="submitCreateUser">Create account</a>
+                <span class="cancelLink"><a href="#" data-dismiss="modal" id="cancelOverLay">Cancel</a></span>
+               </div>
+              </div>
+             </div>
+             <img id="username_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+             <img id="password_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+             <img id="confirmPassword_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+             <img id="firstName_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+             <img id="lastName_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+             <img id="emailAddress_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+             <img id="accountId_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+             <img id="refWorks_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+             <img id="refWorksLoginName_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+             <img id="refworksPassword_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+             <img id="refworksGroupcode_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+             <img id="tAndC_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+            </form>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="modal-footer"></div>
+       </div>
+      </div>
+     </div>
+     <div data-backdrop="true" aria-hidden="true" aria-labelledby="forgottenOverlay" role="dialog" tabindex="-1" id="forgottenOverlay" class="modal fade">
+      <div class="modal-dialog">
+       <div class="modal-content">
+        <div class="modal-header">
+         <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+         <h2 id="myModalLabel" class="modal-title">Forgot your password?</h2>
+        </div>
+        <div class="modal-body clearfix">
+         <div>
+          <div class="t-zone" id="forgotZone">
+           <div class="dynamicPreview">
+            <p class="passwordMsg" id="importForgottentAccInfoInstr">Enter your My Research email address, and we'll email your username and password.</p>
+            <form class="forgottenAccountForm" onsubmit="javascript:return Tapestry.waitForPage(event);" action="/metaproducts/normal/scitechcollection/index.pagelayout.signinoverlay.forgottenaccountinfo.forgottenaccountform" method="post" id="forgottenAccountForm">
+             <div class="t-invisible">
+              <input value="technologycollection" name="site" type="hidden">
+              <input value="science" name="t:ac" type="hidden">
+              <input value="hk0O6DHTLV6auDvsqSiialkokdU=:H4sIAAAAAAAAAL2Sv0pDMRjF06KlUHFQnFwc6iTkDtpFEewiFooIxcVFc5Ovt5Hc5Db5bv8sri4+Q59AnN07uDn5Aj6A4OTk4Nd2korgUKfAScLvHM65f2PL/ZhdpYAi807lEkNknU+FiYLUCLIjnTEgUTsbNayCwX4mEjBi6HLkQSdWW9cDTwJvO584RLBCSpdb1LbteEcrBTZ4dkS3XGRCdoATDAL6YY1L58HomM40cxYsBn4y/VE9805CCK08TnUIhL+43VofbD6WiqzQZBXpLHpnTgVZZ2vNa9ETkRE2iVrotU0OBhmy0gze77D24gJCKrQRSnkySzFrv8aMRQBej0kUEo81GFVtAebZ9vm48rrx9DmXrctuWGGSZWXKqc84/5qo/tdEc82NH9Re+2P0XGRskC12bmECRXJ9SIvixOjmZJjsZ+GnrU094rzj0cvO0t1q773Iik1WlkbT64aalkH9gIGUhG/9lGfky92JUvkCE5a241gDAAA=" name="t:formdata" type="hidden">
+             </div>
+             <input id="comingFrom" value="" name="hidden" type="hidden">
+             <div id="errorPanel"></div>
+             <div class="row">
+              <div class="col-md-3">
+               <label for="emailAddress_0">Email address: </label>
+              </div>
+              <div class="col-md-9">
+               <input class="signintxtField form-control" id="emailAddress_0" name="emailAddress" type="text">
+              </div>
+             </div>
+             <div class="clearfix" id="modal-footer-ux">
+              <div class="pull-right">
+               <a href="#" class="btn btn-default" id="submit_3">Send</a>
+               <span class="cancelLink"><a data-dismiss="modal" href="#">Cancel</a></span>
+              </div>
+             </div>
+             <img id="emailAddress_0_icon" class="t-error-icon t-invisible" alt="" src="/assets/r20161.4.0-6/core/spacer.gif">
+            </form>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="modal-footer"></div>
+       </div>
+      </div>
+     </div>
+     <div aria-hidden="true" aria-labelledby="languageLabel" role="dialog" tabindex="-1" id="languages" class="modal fade">
+      <div class="modal-dialog">
+       <div class="modal-content">
+        <div class="modal-header">
+         <button data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span><span class="sr-only">[[missing key: buttonClose]]</span></button>
+         <h2 class="modal-title">Select language</h2>
+        </div>
+        <div class="modal-body">
+         <ul>
+          <li><a id="localeSwitcher_ar" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/ar?site=technologycollection&amp;t:ac=science">العربية</a></li>
+          <li><a id="localeSwitcher_in" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/in?site=technologycollection&amp;t:ac=science">Bahasa Indonesia</a></li>
+          <li><a id="localeSwitcher_cs" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/cs?site=technologycollection&amp;t:ac=science">Čeština</a></li>
+          <li><a id="localeSwitcher_de" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/de?site=technologycollection&amp;t:ac=science">Deutsch</a></li>
+          <li><a id="localeSwitcher_es" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/es?site=technologycollection&amp;t:ac=science">Español</a></li>
+          <li><a id="localeSwitcher_fr" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/fr?site=technologycollection&amp;t:ac=science">Français</a></li>
+          <li><a id="localeSwitcher_ko" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/ko?site=technologycollection&amp;t:ac=science">한국어</a></li>
+          <li><a id="localeSwitcher_it" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/it?site=technologycollection&amp;t:ac=science">Italiano</a></li>
+          <li><a id="localeSwitcher_hu" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/hu?site=technologycollection&amp;t:ac=science">Magyar</a></li>
+          <li><a id="localeSwitcher_ja" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/ja?site=technologycollection&amp;t:ac=science">日本語</a></li>
+          <li><a id="localeSwitcher_no" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/no?site=technologycollection&amp;t:ac=science">Norsk</a></li>
+          <li><a id="localeSwitcher_pl" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/pl?site=technologycollection&amp;t:ac=science">Polski</a></li>
+          <li><a id="localeSwitcher_pt" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/pt?site=technologycollection&amp;t:ac=science">Português (Brasil)</a></li>
+          <li><a id="localeSwitcher_pt_PT" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/pt_PT?site=technologycollection&amp;t:ac=science">Português (Portugal)</a></li>
+          <li><a id="localeSwitcher_ru" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/ru?site=technologycollection&amp;t:ac=science">Русский</a></li>
+          <li><a id="localeSwitcher_th" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/th?site=technologycollection&amp;t:ac=science">ไทย</a></li>
+          <li><a id="localeSwitcher_tr" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/tr?site=technologycollection&amp;t:ac=science">Türkçe</a></li>
+          <li><a id="localeSwitcher_zh_CN" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/zh_CN?site=technologycollection&amp;t:ac=science">中文(简体)‎</a></li>
+          <li><a id="localeSwitcher_zh_TW" href="/metaproducts/normal/scitechcollection/index.pagelayout.popuplocaleswitcherlist:changelocale/zh_TW?site=technologycollection&amp;t:ac=science">中文(繁體)‎</a></li>
+         </ul>
+        </div>
+        <div class="modal-footer"></div>
+       </div>
+      </div>
+     </div>
+     <!-- End session confirm popup -->
+     <div data-backdrop="true" aria-hidden="true" aria-labelledby="endsession_confirm" role="dialog" tabindex="-1" id="endsession_confirm" class="modal fade">
+      <div class="modal-dialog">
+       <div class="modal-content">
+        <div class="modal-header">
+         <span class="sr-only" role="alert">Would you like to exit ProQuest or continue working? Tab through to the exit button or continue working link.</span>
+         <a title="Help icon" class="popUpHelpWindow noBG help overlay_header_HelpLink" href="JavaScript:newPopup('/help/academic/webframe.html?End_Session.html');" id="endsessionhelp"><span class="uxf-icon uxf-help-circle"><span class="sr-only">Help icon&gt;</span></span><span class="hiddenText"> - this link will open in a new window</span></a>
+         <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+         <h2 id="myModalLabel" class="modal-title">Exit</h2>
+        </div>
+        <div class="modal-body clearfix">
+         <p class="sessionText">Exit ProQuest, or continue working?</p>
+        </div>
+        <div class="modal-footer">
+         <div class="center-content">
+          <a site="OS" role="button" class="btn btn-default" href="/technologycollection/sessionended/false?accountid=14859">Exit</a>
+          <a data-dismiss="modal" title="Continue working" id="endSessionConfirmCancel" href="#">Continue working</a>
+         </div>
+         <br>
+         <div>
+          <p class="small"><strong>Note:</strong> Items you have selected during your session and your list of recent searches are not saved unless you have signed into your account and added them to My Research.</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clear_left"></div>
+     <a hidden="true" data-target="#endSessionWarning" data-toggle="modal" id="endSessionWarningLink"></a>
+     <!-- End session warning popup -->
+     <div data-backdrop="true" aria-hidden="true" aria-labelledby="endSessionWarning" role="dialog" tabindex="-1" id="endSessionWarning" class="modal fade">
+      <div class="modal-dialog">
+       <div class="modal-content">
+        <div class="modal-header">
+         <span class="sr-only" role="alert">Your session is about to expire. Sessions expire after 30 minutes of inactivity. Tab through the options to the continue working button or end session link.</span>
+         <div class="sr-only">
+          Help icon
+         </div>
+         <span class="sr-only">Close icon</span>
+         <a title="Help icon" class="popUpHelpWindow noBG help overlay_header_HelpLink" href="JavaScript:newPopup('/help/academic/webframe.html?End_Session.html');" id="endsessionhelp_0"><span class="uxf-icon uxf-help-circle"></span><span class="hiddenText"> - this link will open in a new window</span></a>
+         <span class="sr-only">Close icon</span>
+         <a hidden="true" data-dismiss="modal" id="closeWarningModalLink"></a>
+         <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+         <h2 id="myModalLabel" class="modal-title">Your session is about to expire</h2>
+        </div>
+        <div class="modal-body clearfix">
+         <p>Your session will expire in <span id="warnTime"></span>.</p>
+         <p>Sessions expire after 30 minutes of inactivity.</p>
+        </div>
+        <div class="modal-footer">
+         <div class="center-content">
+          <a id="endSessionWarningCarryOn" class="btn btn-default" role="button" data-dismiss="modal" href="/technologycollection/sessionended?accountid=14859">Continue working</a>
+          <a id="endSessionWarningEndSession" title="Exit" role="link" href="/technologycollection/sessionended?accountid=14859">End Session</a>
+         </div>
+         <br>
+         <div>
+          <p class="small"><strong>Note:</strong> Items you have selected during your session and your list of recent searches are not saved unless you have signed into your account and added them to My Research.</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div tabindex="-1" id="start">
+      <div class="row">
+       <div class="col-md-9 col-sm-8" id="mainContentLeft">
+        <div class="paddingLeft" id="centerMainContent">
+         <div class="secProd">
+          <div id="search_panel">
+           <form autocomplete="off" action="/metaproducts/normal/scitechcollection/index.expandedbasicsearchbox.searchform" method="post" id="searchForm">
+            <div class="t-invisible">
+             <input value="technologycollection" name="site" type="hidden">
+             <input value="science" name="t:ac" type="hidden">
+             <input value="2QSfgZMfGmz7nciGbXqFQsYuAR4=:H4sIAAAAAAAAAL2UQWsUMRTHn4uFpcUKghfP7UnIXNyL0kNBhIXRtk57lkzmdTc2k2STzM700mt76KkfoJ+g9Ev00Jsnv0A/QKEnTyK+ybBqEQVh3Vv4zST/30tecnELS/UWvC0xcOtMUYngE21cyVXihQwoxsIohSJIo5OhLrB5iY3lNChy7qXwyJ0Y56Zh3SigK72DgXEjxi0XY2S0MvrgDgdMGIdK5oxmItvMCXIR3khUxVqGobLre1crN0+vv/bgQQorwujgjHrHSQ6epB/5lCeK61GSBSf16FVjAyx3qbuU+j/K2PzXMradEeh9VuWl9J7Cri6LF/tfzj/1ABpbZ7AzB8UZ7ghpbghTMlp0UpEh+Vr/w5G+WKNRB8+iVPhd8fzz84enq9O7HvRS6Asl6e9hMYGjeAqosCTQnkJE7a6vzgyyaNDyfs3hw9y2X0kyRefZfqVUwCZE4NsgCPCopbtE05YuILjNXaoF8PnnWETncCqxvlfi45a/j7wrchHhXZnzuUZK6gMfG4768/Vfr9EvLZrSrD+16ZY8Ofv27FjHx+F+m8aX4GfidyfhHvTVBAAA" name="t:formdata" type="hidden">
+            </div>
+            <a name="search"><label for="searchTerm" class="sr-only">Enter your search terms</label></a>
+            <h1 class="sr-only">Search ProQuest</h1>
+            <div id="basicSearchInput">
+             <div class="input-group col-sm-12 col-md-12 col-lg-12">
+              <textarea class="form-control input-lg" onkeydown="fireTextEntryEvent('basicSearchTextEnterKeyPress');" accesskey="4" rows="1" id="searchTerm" name="searchTerm"></textarea>
+              <img id="searchTerm:loader" alt="" class="t-autoloader-icon t-invisible" src="/assets/r20161.4.0-6/core/spacer.gif">
+              <div style="display:none" class="t-autocomplete-menu" id="searchTerm:menu"></div>
+              <span class="input-group-btn"><a href="#" class="btn btn-default btn-lg" id="expandedSearch"><span class="uxf-icon uxf-search"><span class="sr-only">Search button</span></span></a></span>
+              <span class="hiddenText">Note: You may want to limit your search before running it. Limit options are available immediately after the Search button, which follows this note. Those options are also available on the results page.</span>
+             </div>
+            </div>
+            <div class="row-fluid">
+             <!-- Limiters -->
+             <div class="pull-left">
+              <div class="float_left">
+               <ul class="horizontal searchLimitLabels">
+                <li><input onclick="gaSelectDeselectCheckbox(this, 'fullTextCheckBoxClick')" id="fullTextLimit" name="fullTextLimit" type="checkbox"><label for="fullTextLimit">Full text</label></li>
+                <li><input onclick="gaSelectDeselectCheckbox(this, 'peerReviewCheckBoxClick')" id="peerReviewLimit" name="peerReviewLimit" type="checkbox"><label for="peerReviewLimit">Peer reviewed</label><a data-content="A publication in which articles go through an official editorial process that involves review and approval by the author's peers (people who are experts in the same subject area). <a href=&quot;javascript:newPopup('/help/academic/glossary.html#P')&quot; title=&quot;This link will open in a new window&quot;>More information</a>." data-title="Peer reviewed" data-selector="true" data-toggle="popover" title="Peer reviewed information" onmouseover="gaEventToDataLayer('helpPopupPeerReviewHover');" href="#"><span class="sr-only">Peer reviewed information</span><span class="uxf-icon uxf-info-circle"></span></a></li>
+               </ul>
+              </div>
+              <div class="float_left exclReviewsLOR"></div>
+             </div>
+             <!-- end pull-left -->
+             <div class="pull-right ">
+              <ul class="horizontal">
+               <li class=""><a class="recSec" onclick="javascript:return Tapestry.waitForPage(event);" href="advanced" id="linksubmit">Advanced search</a></li>
+               <li><a title="Search tips" class="popUpHelp noBG" href="JavaScript:newPopup('/help/academic/webframe.html?Search_Tips.html');" id="searchtips">Search tips<span class="hiddenText"> - this link will open in a new window</span></a></li>
+              </ul>
+              <span class="sr-only"> Auto-complete suggestions will show below the text field as you type. To select them and get screen reader software to read them out press down arrow key. </span>
+             </div>
+             <!-- end pull-right -->
+            </div>
+            <!-- end row-fluid -->
+            <div class="pull-left"></div>
+           </form>
+           <div class="clearfix"></div>
+          </div>
+          <div class="clear_left"></div>
+         </div>
+         <div class="row">
+          <div class="col-lg-4 col-md-5 col-sm-5 pull-right hidden-xs prodHP_image">
+           <div id="imageLayout2">
+            <img title="Astronaut servicing Hubble" alt="Astronaut servicing Hubble" src="http://static.search.proquest.com/images/product_images/technologycollection/image_1.jpg">
+            <img title="Red cabbage leaf" alt="Red cabbage leaf" src="http://static.search.proquest.com/images/product_images/technologycollection/image_2.jpg">
+            <img title="Polar bear on ice floe" alt="Polar bear on ice floe" src="http://static.search.proquest.com/images/product_images/technologycollection/image_3.jpg">
+            <img title="Highway junction, Goteborg" alt="Highway junction, Goteborg" src="http://static.search.proquest.com/images/product_images/technologycollection/image_4.jpg">
+            <img title="Solar impulse, first fuel-free aircraft" alt="Solar impulse, first fuel-free aircraft" src="http://static.search.proquest.com/images/product_images/technologycollection/image_5.jpg">
+            <img title="Albert Einstein circa 1939" alt="Albert Einstein circa 1939" src="http://static.search.proquest.com/images/product_images/technologycollection/image_6.jpg">
+           </div>
+          </div>
+          <div class="col-lg-8 col-md-7 col-sm-7 pull-left clearfix" id="SeleniumSiteName">
+           <h3>ProQuest SciTech Collection</h3>
+           <p>This database is the ultimate science and technology research solution, combining full text journals with detailed indexing of global literature on natural sciences, engineering and technology. Areas covered include materials science, aerospace engineering, civil engineering, biology, aquatic sciences, environmental science, computer science and earth sciences in addition to many more. It fully incorporates ProQuest Natural Science Collection and ProQuest Technology Collection.</p>
+           <p></p>
+           <p> Coverage: 1693 - current </p>
+           <span class="readMoreLink"><a class="icons_base_sprite icon_external" title="This link will open in a new window" target="_blank" href="http://tls.search.proquest.com/titlelist/ListForward?format=excel&amp;ft=Y&amp;citAbs=Y&amp;other=Y&amp;issn=Y&amp;peer=Y&amp;pubId=Y&amp;gaps=Y&amp;subject=Y&amp;language=Y&amp;changes=Y&amp;productId=1007450:1007456:1007455:1007845:1007844:1007918:1007849:1007552:1007416:1007418:1007515:1007419:1007551:1007444:1007443:1007856:1008043:1007853:1007404:1007403:1007851:1007852:1007447:1007486:1007488:1007431:1007481:1007536:1007538:1007530:1007531:1007384:1007385:1007389:1007493:1007461:1007422:1007526:1007492:1007423:1007524:1007420:1007160:1007490:1007421:1007529:1006072:1007528:1007527:1007428:1007427:1007393:1007522:1007426:1007396:1007562:1007398&amp;productName=ProQuest+SciTech+Collection&amp;ftDetail=Y&amp;citAbsDetail=Y&amp;otherDetail=Y&amp;accountId=14859">View title list</a></span>
+           <div class="clear"></div>
+           <div class="prodHP_info prod-list-column">
+            <h3>Subject coverage</h3>
+            <ul class="bullet ">
+             <li><span class="subjectCoveredBullet">Biology</span></li>
+             <li><span class="subjectCoveredBullet">Earth sciences</span></li>
+             <li><span class="subjectCoveredBullet">Environmental studies</span></li>
+             <li><span class="subjectCoveredBullet">Medical sciences</span></li>
+             <li><span class="subjectCoveredBullet">Agriculture</span></li>
+             <li><span class="subjectCoveredBullet">Fish and fisheries</span></li>
+             <li><span class="subjectCoveredBullet">Education</span></li>
+             <li><span class="subjectCoveredBullet">Geography</span></li>
+             <li><span class="subjectCoveredBullet">Veterinary science</span></li>
+             <li><span class="subjectCoveredBullet">Food and food industries</span></li>
+            </ul>
+            <span id="showAllKeywordsLink"><a onclick="$('showAllKeywords').toggle(); $('showAllKeywordsLink').toggle(); return false;" href="#" class="arrow indicators_base_sprite indicator_menu_down">Show all</a></span>
+            <div class="t-invisible" id="showAllKeywords">
+             <ul class="bullet ">
+              <li><span class="subjectCoveredBullet">Pharmacy and pharmacology</span></li>
+              <li><span class="subjectCoveredBullet">Meteorology</span></li>
+              <li><span class="subjectCoveredBullet">Public health and safety</span></li>
+              <li><span class="subjectCoveredBullet">Water resources</span></li>
+              <li><span class="subjectCoveredBullet">Conservation</span></li>
+              <li><span class="subjectCoveredBullet">Forests and forestry</span></li>
+              <li><span class="subjectCoveredBullet">Materials science</span></li>
+              <li><span class="subjectCoveredBullet">Engineered materials</span></li>
+              <li><span class="subjectCoveredBullet">Mechanical engineering</span></li>
+              <li><span class="subjectCoveredBullet">Civil engineering</span></li>
+              <li><span class="subjectCoveredBullet">Environmental engineering</span></li>
+              <li><span class="subjectCoveredBullet">Earthquake engineering</span></li>
+              <li><span class="subjectCoveredBullet">New technologies in engineering</span></li>
+              <li><span class="subjectCoveredBullet">Aerospace</span></li>
+              <li><span class="subjectCoveredBullet">Computer and information systems</span></li>
+              <li><span class="subjectCoveredBullet">Telecommunications</span></li>
+              <li><span class="subjectCoveredBullet">Electronics</span></li>
+              <li><span class="subjectCoveredBullet">Physics</span></li>
+             </ul>
+             <span class="showAllSubject"><a onclick="$('showAllKeywords').toggle(); $('showAllKeywordsLink').toggle(); return false;" href="#" class="arrow indicators_base_sprite indicator_menu_up">Show less</a></span>
+            </div>
+           </div>
+           <div class="prod-list-column">
+            <div class="prodHP_info_meta meta_link ">
+             <h3>Included databases</h3>
+             <ul class="bullet ">
+              <li><a href="/hightechcollection?accountid=14859"><span>ProQuest Advanced Technologies &amp; Aerospace Collection</span></a><span><a style="text-decoration:none;" id="databasePreviewTrigger_125_10000045_databasepreview" class="info icons_base_sprite icon_info database_info_icon" href="javascript:void(0);"><span class="hiddenText">information</span>&nbsp; </a>
+                <!-- Start Academic Interface Database Preview item -->
+                <div style="display:none" id="databasePreview_125_10000045_databasepreview"> 
+                 <span class="hiddenText">Press the Escape key to close</span> 
+                 <div class="t-zone" id="infoBubbleZone">
+                  <center>
+                   <img alt="" class="t-autoloader-icon" src="/assets/r20161.4.0-6/core/spacer.gif">
+                  </center>
+                 </div>
+                </div><script type="text/javascript">Tips.images = '/assets/r20161.4.0-6/pqc/javascript/prototip/images/prototip/';</script>
+                <!-- End of academic interface database preview -->
+                <!-- Start professional interface database preview -->
+                <!-- end of professional interface Database Preview item --></span></li>
+              <li><a href="/agriculture?accountid=14859"><span>ProQuest Agricultural Science Collection</span></a><span><a style="text-decoration:none;" id="databasePreviewTrigger_133_10000035_databasepreview" class="info icons_base_sprite icon_info database_info_icon" href="javascript:void(0);"><span class="hiddenText">information</span>&nbsp; </a>
+                <!-- Start Academic Interface Database Preview item -->
+                <div style="display:none" id="databasePreview_133_10000035_databasepreview"> 
+                 <span class="hiddenText">Press the Escape key to close</span> 
+                 <div class="t-zone" id="infoBubbleZone_0">
+                  <center>
+                   <img alt="" class="t-autoloader-icon" src="/assets/r20161.4.0-6/core/spacer.gif">
+                  </center>
+                 </div>
+                </div>
+                <!-- End of academic interface database preview -->
+                <!-- Start professional interface database preview -->
+                <!-- end of professional interface Database Preview item --></span></li>
+              <li><a href="/aquaticscience?accountid=14859"><span>ProQuest Aquatic Science Collection</span></a><span><a style="text-decoration:none;" id="databasePreviewTrigger_136_10000036_databasepreview" class="info icons_base_sprite icon_info database_info_icon" href="javascript:void(0);"><span class="hiddenText">information</span>&nbsp; </a>
+                <!-- Start Academic Interface Database Preview item -->
+                <div style="display:none" id="databasePreview_136_10000036_databasepreview"> 
+                 <span class="hiddenText">Press the Escape key to close</span> 
+                 <div class="t-zone" id="infoBubbleZone_1">
+                  <center>
+                   <img alt="" class="t-autoloader-icon" src="/assets/r20161.4.0-6/core/spacer.gif">
+                  </center>
+                 </div>
+                </div>
+                <!-- End of academic interface database preview -->
+                <!-- Start professional interface database preview -->
+                <!-- end of professional interface Database Preview item --></span></li>
+              <li><a href="/atmoscience?accountid=14859"><span>ProQuest Atmospheric Science Collection</span></a><span><a style="text-decoration:none;" id="databasePreviewTrigger_146_10000037_databasepreview" class="info icons_base_sprite icon_info database_info_icon" href="javascript:void(0);"><span class="hiddenText">information</span>&nbsp; </a>
+                <!-- Start Academic Interface Database Preview item -->
+                <div style="display:none" id="databasePreview_146_10000037_databasepreview"> 
+                 <span class="hiddenText">Press the Escape key to close</span> 
+                 <div class="t-zone" id="infoBubbleZone_2">
+                  <center>
+                   <img alt="" class="t-autoloader-icon" src="/assets/r20161.4.0-6/core/spacer.gif">
+                  </center>
+                 </div>
+                </div>
+                <!-- End of academic interface database preview -->
+                <!-- Start professional interface database preview -->
+                <!-- end of professional interface Database Preview item --></span></li>
+              <li><a href="/biologicalscience?accountid=14859"><span>ProQuest Biological Science Collection</span></a><span><a style="text-decoration:none;" id="databasePreviewTrigger_149_10000038_databasepreview" class="info icons_base_sprite icon_info database_info_icon" href="javascript:void(0);"><span class="hiddenText">information</span>&nbsp; </a>
+                <!-- Start Academic Interface Database Preview item -->
+                <div style="display:none" id="databasePreview_149_10000038_databasepreview"> 
+                 <span class="hiddenText">Press the Escape key to close</span> 
+                 <div class="t-zone" id="infoBubbleZone_3">
+                  <center>
+                   <img alt="" class="t-autoloader-icon" src="/assets/r20161.4.0-6/core/spacer.gif">
+                  </center>
+                 </div>
+                </div>
+                <!-- End of academic interface database preview -->
+                <!-- Start professional interface database preview -->
+                <!-- end of professional interface Database Preview item --></span></li>
+              <li><a href="/computerscience?accountid=14859"><span>ProQuest Computer Science Collection</span></a><span><a style="text-decoration:none;" id="databasePreviewTrigger_180_10000070_databasepreview" class="info icons_base_sprite icon_info database_info_icon" href="javascript:void(0);"><span class="hiddenText">information</span>&nbsp; </a>
+                <!-- Start Academic Interface Database Preview item -->
+                <div style="display:none" id="databasePreview_180_10000070_databasepreview"> 
+                 <span class="hiddenText">Press the Escape key to close</span> 
+                 <div class="t-zone" id="infoBubbleZone_4">
+                  <center>
+                   <img alt="" class="t-autoloader-icon" src="/assets/r20161.4.0-6/core/spacer.gif">
+                  </center>
+                 </div>
+                </div>
+                <!-- End of academic interface database preview -->
+                <!-- Start professional interface database preview -->
+                <!-- end of professional interface Database Preview item --></span></li>
+              <li><a href="/earthscience?accountid=14859"><span>ProQuest Earth Science Collection</span></a><span><a style="text-decoration:none;" id="databasePreviewTrigger_183_10000040_databasepreview" class="info icons_base_sprite icon_info database_info_icon" href="javascript:void(0);"><span class="hiddenText">information</span>&nbsp; </a>
+                <!-- Start Academic Interface Database Preview item -->
+                <div style="display:none" id="databasePreview_183_10000040_databasepreview"> 
+                 <span class="hiddenText">Press the Escape key to close</span> 
+                 <div class="t-zone" id="infoBubbleZone_5">
+                  <center>
+                   <img alt="" class="t-autoloader-icon" src="/assets/r20161.4.0-6/core/spacer.gif">
+                  </center>
+                 </div>
+                </div>
+                <!-- End of academic interface database preview -->
+                <!-- Start professional interface database preview -->
+                <!-- end of professional interface Database Preview item --></span></li>
+             </ul>
+             <ul id="subproducts_124" style="display:none;" class="bullet ">
+              <li><a href="/engineeringcollection?accountid=14859"><span>ProQuest Engineering Collection</span></a><span><a style="text-decoration:none;" id="databasePreviewTrigger_188_10000041_databasepreview" class="info icons_base_sprite icon_info database_info_icon" href="javascript:void(0);"><span class="hiddenText">information</span>&nbsp; </a>
+                <!-- Start Academic Interface Database Preview item -->
+                <div style="display:none" id="databasePreview_188_10000041_databasepreview"> 
+                 <span class="hiddenText">Press the Escape key to close</span> 
+                 <div class="t-zone" id="infoBubbleZone_6">
+                  <center>
+                   <img alt="" class="t-autoloader-icon" src="/assets/r20161.4.0-6/core/spacer.gif">
+                  </center>
+                 </div>
+                </div>
+                <!-- End of academic interface database preview -->
+                <!-- Start professional interface database preview -->
+                <!-- end of professional interface Database Preview item --></span></li>
+              <li><a href="/environmentalscience?accountid=14859"><span>ProQuest Environmental Science Collection</span></a><span><a style="text-decoration:none;" id="databasePreviewTrigger_205_10000043_databasepreview" class="info icons_base_sprite icon_info database_info_icon" href="javascript:void(0);"><span class="hiddenText">information</span>&nbsp; </a>
+                <!-- Start Academic Interface Database Preview item -->
+                <div style="display:none" id="databasePreview_205_10000043_databasepreview"> 
+                 <span class="hiddenText">Press the Escape key to close</span> 
+                 <div class="t-zone" id="infoBubbleZone_7">
+                  <center>
+                   <img alt="" class="t-autoloader-icon" src="/assets/r20161.4.0-6/core/spacer.gif">
+                  </center>
+                 </div>
+                </div>
+                <!-- End of academic interface database preview -->
+                <!-- Start professional interface database preview -->
+                <!-- end of professional interface Database Preview item --></span></li>
+              <li><a href="/materialscollection?accountid=14859"><span>ProQuest Materials Science Collection</span></a><span><a style="text-decoration:none;" id="databasePreviewTrigger_225_10000049_databasepreview" class="info icons_base_sprite icon_info database_info_icon" href="javascript:void(0);"><span class="hiddenText">information</span>&nbsp; </a>
+                <!-- Start Academic Interface Database Preview item -->
+                <div style="display:none" id="databasePreview_225_10000049_databasepreview"> 
+                 <span class="hiddenText">Press the Escape key to close</span> 
+                 <div class="t-zone" id="infoBubbleZone_8">
+                  <center>
+                   <img alt="" class="t-autoloader-icon" src="/assets/r20161.4.0-6/core/spacer.gif">
+                  </center>
+                 </div>
+                </div>
+                <!-- End of academic interface database preview -->
+                <!-- Start professional interface database preview -->
+                <!-- end of professional interface Database Preview item --></span></li>
+             </ul>
+             <span class="float_left"><a onclick="Effect.BlindDown('subproducts_124');$('show_124').toggle();$('hide_124').toggle();Event.stop(event);" title="Show all" href="#" id="show_124" class="arrow indicators_base_sprite indicator_menu_down">Show all</a><a style="display:none;" onclick="Effect.BlindUp('subproducts_124');$('show_124').toggle();$('hide_124').toggle();Event.stop(event);" title="Show less" href="#" id="hide_124" class="arrow indicators_base_sprite indicator_menu_up">Show less</a></span>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="clr"></div>
+       </div>
+       <div class="col-md-3 col-sm-4 col-xs-12" id="side_panel">
+        <div id="institutionalBranding">
+         <div id="HeaderBranding">
+          <div class="NotruncLink brand100">
+           <a target="Y" href="mailto:ReferenceDesk@vmi.edu">Email a Librarian</a>
+          </div>
+          <div class="clearfix"></div>
+         </div>
+         <div class="clear_left"></div>
+        </div>
+        <dl>
+         <dt class="panelFirst ">
+          <h2>Want to Learn More?</h2>
+         </dt>
+         <dd>
+          <div class="option ">
+           <p>Try one of these options:</p>
+           <ul class="bullet ">
+            <li>Find out more about our <a href="http://support.proquest.com/apex/homepage?id=kA140000000GxYRCA0&amp;l=en_US">new design.‎</a></li>
+            <li>Search the online <a title="Search the online Help." class="popUpHelp noBG" href="JavaScript:newPopup('/help/academic/webframe.html?Help_Overview.html');" id="help_0">Help.<span class="hiddenText"> - this link will open in a new window</span></a>‎</li>
+            <li><span class="rightToLeft"><a title="Discover answers to common questions at ProQuest's Product Support Center." class="popUpHelp noBG" href="http://www.proquest.com/go/newplatform"> Discover </a>answers to common questions at ProQuest's Product Support Center.‎</span></li>
+            <li><a title="Contact Support if you need further assistance." class="popUpHelp noBG" href="http://www.proquest.com/go/pqissupportcontact">Contact Support </a>if you need further assistance.‎</li>
+           </ul>
+          </div>
+         </dd>
+        </dl>
+        <dl>
+         <dt class="">
+          <h2>Search tip</h2>
+         </dt>
+         <dd>
+          <p class="">By default, we will look for documents with all the terms entered.</p>
+          <ul class="">
+           <li>Use "quotation marks" to search for exact phrases.</li>
+           <li>Separate terms with OR to find any of the words entered.</li>
+          </ul>
+         </dd>
+        </dl>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- Back to top link -->
+    <span style="display:none;" id="top-link-block"><a href="#" class="well well-sm"><i class="uxf-icon uxf-up-open-large"></i><span class="sr-only">Back to top</span></a></span>
+   </div>
+   <div id="footer-wrapper">
+    <div class="row-fluid quicklinksContainer clearfix">
+     <div class="pull-left col-sm-5 col-md-5 col-xs-12">
+      <ul class="list-inline">
+       <li>Provided by your library: </li>
+       <li>&nbsp;<a data-width="225" data-height="300" class="externalWidget" href="/technologycollection/widget/externalwidgetpage/0?accountid=14859">Ask a Librarian</a></li>
+      </ul>
+     </div>
+     <div class="pull-right col-sm-7 col-md-7 col-xs-12">
+      <div class="pull-right branding-mobile"></div>
+      <div class="pull-right branding-mobile">
+       <ul class="footerBranding">
+        <li><a target="Y" href="mailto:ReferenceDesk@vmi.edu">Email a Librarian</a></li>
+        <li><a href="http://www.vmi.edu/Content.aspx?id=312">Preston Library Home Page</a></li>
+       </ul>
+      </div>
+      <div class="clear_left"></div>
+     </div>
+    </div>
+    <footer id="footer" role="contentinfo" class="clearfix">
+     <div class="row">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+       <div class="row">
+        <div title="ProQuest logo" class="col-xs-4 col-sm-4 col-md-4 logo"></div>
+       </div>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-8">
+       <ul class="quicklinks list-inline">
+        <li><a title="Contact Us" href="http://www.proquest.com/go/pqissupportcontact">Contact Us</a></li>
+        <li><a id="termsConditionsFooterLink" href="/technologycollection/info/termsandconditions?accountid=14859">Terms and Conditions</a></li>
+        <li><a id="accessibilityFooterLink" accesskey="0" href="/technologycollection/info/accessibility?accountid=14859">Accessibility</a></li>
+        <li><a id="privacyPolicyFooterLink" href="/technologycollection/info/privacy?accountid=14859">Privacy Policy</a></li>
+        <li><a href="http://www.proquest.com/go/cookie" id="cookiePolicyFooterLink">Cookie Policy</a></li>
+       </ul>
+       <p class="copyrightlink"><span class="rightToLeft">Copyright © 2016 ProQuest LLC.</span></p>
+      </div>
+     </div>
+    </footer>
+   </div>
+   <script src="/extras/foresee/foresee-trigger.js" type="text/javascript"></script>
+   <script type="text/javascript">
+webtrendsInitializer("wt2.proquest.com", "/extras/webtrends/webtrends10.3.7.js");
+</script>
+  </div>
+  <!-- The script below is being used to push page title data to Google Analytics -->
+  <script>
+$j(window).load(function() {
+pushDataToGoogleAnalytics('Basic Search Product-level');
+});
+</script>
+  <script type="text/javascript">Tapestry.onDOMLoaded(function() {
+Tapestry.init({"formEventManager":[{"formId":"signInLoginForm","validate":{"submit":true,"blur":true}},{"formId":"createProfileForm","validate":{"submit":true,"blur":true}},{"formId":"forgottenAccountForm","validate":{"submit":true,"blur":true}},{"formId":"searchForm","validate":{"submit":false,"blur":false}}]});
+$j('#signInFormOverlay').on('show.bs.modal', function (e) {$j('object, embed').hide();})
+$j('#signInFormOverlay').on('hide.bs.modal', function (e) {$j('object, embed').show();})
+$j('#signInFormOverlay').on('show.bs.modal', function (e) { if (!modalTriggerElement) { modalTriggerElement = document.activeElement; } }); $j('#signInFormOverlay').on('hidden.bs.modal', function(e) { if (modalTriggerElement) { var parent = modalTriggerElement.parentNode; if (parent) { var dropdown = parent.parentNode; if (dropdown && $j(dropdown).hasClass('dropdown-menu')) { modalTriggerElement = dropdown.previousSibling; } modalTriggerElement.focus(); modalTriggerElement = ''; } } });
+submitOnEnter('submit_0','signInLoginForm', true, true, "changeSigninLayer();", "");
+$j('#createProfileOverlay').on('show.bs.modal', function (e) {$j('object, embed').hide();})
+$j('#createProfileOverlay').on('hide.bs.modal', function (e) {$j('object, embed').show();})
+$j('#createProfileOverlay').on('show.bs.modal', function (e) { if (!modalTriggerElement) { modalTriggerElement = document.activeElement; } }); $j('#createProfileOverlay').on('hidden.bs.modal', function(e) { if (modalTriggerElement) { var parent = modalTriggerElement.parentNode; if (parent) { var dropdown = parent.parentNode; if (dropdown && $j(dropdown).hasClass('dropdown-menu')) { modalTriggerElement = dropdown.previousSibling; } modalTriggerElement.focus(); modalTriggerElement = ''; } } });
+new ZoneUpdater('tAndC', $('tAndC'), 'click', '/metaproducts/normal/scitechcollection/index.pagelayout.signinoverlay.createprofile.tandc:setviewforcreateaccount/XXX?site=technologycollection&t:ac=science', 'tAndCZone', 'XXX');
+submitOnEnter('submitCreateUser','createProfileForm', true, true, "", "");
+$j('#forgottenOverlay').on('show.bs.modal', function (e) {$j('object, embed').hide();})
+$j('#forgottenOverlay').on('hide.bs.modal', function (e) {$j('object, embed').show();})
+$j('#forgottenOverlay').on('show.bs.modal', function (e) { if (!modalTriggerElement) { modalTriggerElement = document.activeElement; } }); $j('#forgottenOverlay').on('hidden.bs.modal', function(e) { if (modalTriggerElement) { var parent = modalTriggerElement.parentNode; if (parent) { var dropdown = parent.parentNode; if (dropdown && $j(dropdown).hasClass('dropdown-menu')) { modalTriggerElement = dropdown.previousSibling; } modalTriggerElement.focus(); modalTriggerElement = ''; } } });
+submitOnEnter('submit_3','forgottenAccountForm', true, true, "", "");
+$j('#endsession_confirm').on('show.bs.modal', function (e) {$j('object, embed').hide();})
+$j('#endsession_confirm').on('hide.bs.modal', function (e) {$j('object, embed').show();})
+$j('#endsession_confirm').on('hidden.bs.modal', function(e) { $j('#mrDropdown').focus(); })
+$j('#endSessionWarning').on('show.bs.modal', function (e) {$j('object, embed').hide();})
+$j('#endSessionWarning').on('hide.bs.modal', function (e) {$j('object, embed').show();})
+$j('#endSessionWarning').on('show.bs.modal', function (e) { if (!modalTriggerElement) { modalTriggerElement = document.activeElement; } }); $j('#endSessionWarning').on('hidden.bs.modal', function(e) { if (modalTriggerElement) { var parent = modalTriggerElement.parentNode; if (parent) { var dropdown = parent.parentNode; if (dropdown && $j(dropdown).hasClass('dropdown-menu')) { modalTriggerElement = dropdown.previousSibling; } modalTriggerElement.focus(); modalTriggerElement = ''; } } });
+submitOnEnter('expandedSearch','searchForm', true, false, "", "");
+Tapestry.init({"expandedBasicSearchBox":[{}],"popupWindowLinks":[{}],"signInOverlay":[{"refreshOnSignIn":""}],"formFragment":[{"element":"refWorksAccount"}],"foreseeSurvey":[{"strUsageSessionID":"20160415000501229:182538","strUserIP":"144.75.175.69","strSessionID":"CACC32764EBE162CF640759C8FD343FB-m40.t4"}],"infoBubble":[{"clearTip":false,"disablePrintReadOnly":false,"infoBubbleZoneId":"infoBubbleZone","triggerId":"databasePreviewTrigger_125_10000045_databasepreview","updateURL":"/metaproducts/normal/scitechcollection/index.productindexinfo.metaproductcomponentinfo.databasepreview.databasepreviewbubbleacademic:updateinfobubblezone/10000045/125/$B/Index?site=technologycollection&t:ac=science","loadOnce":true,"contentId":"databasePreview_125_10000045_databasepreview","options":{"viewport":true,"title":"ProQuest Advanced Technologies & Aerospace Collection","style":"default","hideOthers":true,"hideAfter":"0.01","width":500,"radius":4,"showOn":"mousemove","closeButton":true,"stem":"topLeft","delay":0.6,"offset":{"y":0,"x":0},"hideOn":"false"}},{"clearTip":false,"disablePrintReadOnly":false,"infoBubbleZoneId":"infoBubbleZone_0","triggerId":"databasePreviewTrigger_133_10000035_databasepreview","updateURL":"/metaproducts/normal/scitechcollection/index.productindexinfo.metaproductcomponentinfo.databasepreview.databasepreviewbubbleacademic:updateinfobubblezone/10000035/133/$B/Index?site=technologycollection&t:ac=science","loadOnce":true,"contentId":"databasePreview_133_10000035_databasepreview","options":{"viewport":true,"title":"ProQuest Agricultural Science Collection","style":"default","hideOthers":true,"hideAfter":"0.01","width":500,"radius":4,"showOn":"mousemove","closeButton":true,"stem":"topLeft","delay":0.6,"offset":{"y":0,"x":0},"hideOn":"false"}},{"clearTip":false,"disablePrintReadOnly":false,"infoBubbleZoneId":"infoBubbleZone_1","triggerId":"databasePreviewTrigger_136_10000036_databasepreview","updateURL":"/metaproducts/normal/scitechcollection/index.productindexinfo.metaproductcomponentinfo.databasepreview.databasepreviewbubbleacademic:updateinfobubblezone/10000036/136/$B/Index?site=technologycollection&t:ac=science","loadOnce":true,"contentId":"databasePreview_136_10000036_databasepreview","options":{"viewport":true,"title":"ProQuest Aquatic Science Collection","style":"default","hideOthers":true,"hideAfter":"0.01","width":500,"radius":4,"showOn":"mousemove","closeButton":true,"stem":"topLeft","delay":0.6,"offset":{"y":0,"x":0},"hideOn":"false"}},{"clearTip":false,"disablePrintReadOnly":false,"infoBubbleZoneId":"infoBubbleZone_2","triggerId":"databasePreviewTrigger_146_10000037_databasepreview","updateURL":"/metaproducts/normal/scitechcollection/index.productindexinfo.metaproductcomponentinfo.databasepreview.databasepreviewbubbleacademic:updateinfobubblezone/10000037/146/$B/Index?site=technologycollection&t:ac=science","loadOnce":true,"contentId":"databasePreview_146_10000037_databasepreview","options":{"viewport":true,"title":"ProQuest Atmospheric Science Collection","style":"default","hideOthers":true,"hideAfter":"0.01","width":500,"radius":4,"showOn":"mousemove","closeButton":true,"stem":"topLeft","delay":0.6,"offset":{"y":0,"x":0},"hideOn":"false"}},{"clearTip":false,"disablePrintReadOnly":false,"infoBubbleZoneId":"infoBubbleZone_3","triggerId":"databasePreviewTrigger_149_10000038_databasepreview","updateURL":"/metaproducts/normal/scitechcollection/index.productindexinfo.metaproductcomponentinfo.databasepreview.databasepreviewbubbleacademic:updateinfobubblezone/10000038/149/$B/Index?site=technologycollection&t:ac=science","loadOnce":true,"contentId":"databasePreview_149_10000038_databasepreview","options":{"viewport":true,"title":"ProQuest Biological Science Collection","style":"default","hideOthers":true,"hideAfter":"0.01","width":500,"radius":4,"showOn":"mousemove","closeButton":true,"stem":"topLeft","delay":0.6,"offset":{"y":0,"x":0},"hideOn":"false"}},{"clearTip":false,"disablePrintReadOnly":false,"infoBubbleZoneId":"infoBubbleZone_4","triggerId":"databasePreviewTrigger_180_10000070_databasepreview","updateURL":"/metaproducts/normal/scitechcollection/index.productindexinfo.metaproductcomponentinfo.databasepreview.databasepreviewbubbleacademic:updateinfobubblezone/10000070/180/$B/Index?site=technologycollection&t:ac=science","loadOnce":true,"contentId":"databasePreview_180_10000070_databasepreview","options":{"viewport":true,"title":"ProQuest Computer Science Collection","style":"default","hideOthers":true,"hideAfter":"0.01","width":500,"radius":4,"showOn":"mousemove","closeButton":true,"stem":"topLeft","delay":0.6,"offset":{"y":0,"x":0},"hideOn":"false"}},{"clearTip":false,"disablePrintReadOnly":false,"infoBubbleZoneId":"infoBubbleZone_5","triggerId":"databasePreviewTrigger_183_10000040_databasepreview","updateURL":"/metaproducts/normal/scitechcollection/index.productindexinfo.metaproductcomponentinfo.databasepreview.databasepreviewbubbleacademic:updateinfobubblezone/10000040/183/$B/Index?site=technologycollection&t:ac=science","loadOnce":true,"contentId":"databasePreview_183_10000040_databasepreview","options":{"viewport":true,"title":"ProQuest Earth Science Collection","style":"default","hideOthers":true,"hideAfter":"0.01","width":500,"radius":4,"showOn":"mousemove","closeButton":true,"stem":"topLeft","delay":0.6,"offset":{"y":0,"x":0},"hideOn":"false"}},{"clearTip":false,"disablePrintReadOnly":false,"infoBubbleZoneId":"infoBubbleZone_6","triggerId":"databasePreviewTrigger_188_10000041_databasepreview","updateURL":"/metaproducts/normal/scitechcollection/index.productindexinfo.metaproductcomponentinfo.databasepreview.databasepreviewbubbleacademic:updateinfobubblezone/10000041/188/$B/Index?site=technologycollection&t:ac=science","loadOnce":true,"contentId":"databasePreview_188_10000041_databasepreview","options":{"viewport":true,"title":"ProQuest Engineering Collection","style":"default","hideOthers":true,"hideAfter":"0.01","width":500,"radius":4,"showOn":"mousemove","closeButton":true,"stem":"topLeft","delay":0.6,"offset":{"y":0,"x":0},"hideOn":"false"}},{"clearTip":false,"disablePrintReadOnly":false,"infoBubbleZoneId":"infoBubbleZone_7","triggerId":"databasePreviewTrigger_205_10000043_databasepreview","updateURL":"/metaproducts/normal/scitechcollection/index.productindexinfo.metaproductcomponentinfo.databasepreview.databasepreviewbubbleacademic:updateinfobubblezone/10000043/205/$B/Index?site=technologycollection&t:ac=science","loadOnce":true,"contentId":"databasePreview_205_10000043_databasepreview","options":{"viewport":true,"title":"ProQuest Environmental Science Collection","style":"default","hideOthers":true,"hideAfter":"0.01","width":500,"radius":4,"showOn":"mousemove","closeButton":true,"stem":"topLeft","delay":0.6,"offset":{"y":0,"x":0},"hideOn":"false"}},{"clearTip":false,"disablePrintReadOnly":false,"infoBubbleZoneId":"infoBubbleZone_8","triggerId":"databasePreviewTrigger_225_10000049_databasepreview","updateURL":"/metaproducts/normal/scitechcollection/index.productindexinfo.metaproductcomponentinfo.databasepreview.databasepreviewbubbleacademic:updateinfobubblezone/10000049/225/$B/Index?site=technologycollection&t:ac=science","loadOnce":true,"contentId":"databasePreview_225_10000049_databasepreview","options":{"viewport":true,"title":"ProQuest Materials Science Collection","style":"default","hideOthers":true,"hideAfter":"0.01","width":500,"radius":4,"showOn":"mousemove","closeButton":true,"stem":"topLeft","delay":0.6,"offset":{"y":0,"x":0},"hideOn":"false"}}],"selectedItemsCount":[{"itemMsg":"[[missing key: selectedItems.multipleItems.checkbox_badge]]","fullFolder":"folderFull","multipleItemMsg":"%d","emptyFolder":"uxf-icon uxf-folder","singleItemMsg":"1","clientId":"selecteditemscount","folderId":"selecteditemsfolder"}],"validate":[{"lastName":[["maxlength","Last name must be fewer than 25 characters in length.",25]],"siPassword":[["maxlength","Password: must be fewer than 25 characters in length.",25]],"emailAddress_0":[["pqemail","Enter a valid email address."],["maxlength","Email address:  must be fewer than 128 characters in length.",128]],"username":[["regexp","Your username cannot contain punctuation characters.","^[^!\"#$%&'()*+,./:;<=>?@_`{|}~]+$"],["minlength","Username must be 3 characters or more in length.",3],["maxlength","Username must be fewer than 50 characters in length.",50]],"siUsername":[["maxlength","Username: must be fewer than 120 characters in length.",120]],"emailAddress":[["pqemail","Enter a valid email address."],["maxlength","Email address must be fewer than 50 characters in length.",50]],"firstName":[["maxlength","Your first name cannot be longer than 25 characters.",25]],"password":[["regexp","Your password cannot contain punctuation characters.","^[^!\"#$%&'()*+,-./:;<=>?@_`{|}~]+$"],["minlength","Your password must be 8 characters or more in length.",8],["maxlength","Your password must be fewer than 25 characters in length.",25]]}],"CreateProfileOverlay":[{"publicKey":"6LfxwgITAAAAAMH36lxhqCGYN34Z208opz7d4gnK","myResearchLink":"/technologycollection/myresearch/documents?accountid=14859","tAndCId":"tAndC","importToMyResearchLink":"/technologycollection/myresearch/importto?accountid=14859","theme":"clean","preferencesLink":"/technologycollection/myresearch/preferences?accountid=14859","clientId":"createProfile","submitCreateUserId":"submitCreateUser"}],"activate":["searchTerm"],"databasePageLink":[{"linkId":"databasePageLink","linkFormId":"databaseOpenLayer"}],"selectedItemsLink":[{"clientId":"gaSelectedItems","numItems":0}],"usernameValidator":[{"lookupUrl":"/metaproducts/normal/scitechcollection/index.pagelayout.signinoverlay.createprofile:checkusername"}],"overlay":[{"autofocus":true,"clientValid":true,"options":{"title":"<a href=\"#\" id=\"overlayAutofocus-gaSelectedItems_itemsLink_noItemsOverlay\" class=\"overlayAutofocus\"><span class=\"hiddenText\">Display selected items<\/span><\/a><span class=\"overlayTitle\">Display selected items<\/span><span class=\"hiddenText\">Press the Escape key to close<\/span>","afocus":"overlayAutofocus-gaSelectedItems_itemsLink_noItemsOverlay","focusElement":"gaSelectedItems_link","eid":"gaSelectedItems_itemsLink_noItemsOverlay","boxid":"pq_layer"}}],"linkTriggerToFormFragment":[{"invert":false,"fragmentId":"refWorksAccount","triggerId":"refWorks"}],"endSessionWarning":[{"secondsText":"seconds","warntime":300,"endSessionWarningCarryOnId":"endSessionWarningCarryOn","minutesText":"minutes","pingURL":"/metaproducts/normal/scitechcollection/index.pagelayout.endsession:ping","timeout":1800,"hoursText":"hours"}],"autocompleter":[{"elementId":"searchTerm","config":{"disableUrl":"/metaproducts/normal/scitechcollection/index.expandedbasicsearchbox.searchterm:disableautocomplete?site=technologycollection&t:ac=science","minChars":2,"pageName":"metaproducts/normal/scitechcollection/Index","formId":"searchForm","frequency":0.01,"autoExecute":true,"paramName":"t:input","disabled":false,"leftOffset":0},"menuId":"searchTerm:menu","url":"/metaproducts/normal/scitechcollection/index.expandedbasicsearchbox.searchterm:autocomplete?site=technologycollection&t:ac=science"}],"linkSubmit":[{"formId":"searchForm","asAjax":"false","clientId":"linksubmit"}],"zone":[{"update":"show","element":"linkZone","show":"show"},{"update":"highlight","element":"overlayZone","show":"show"},{"update":"highlight","element":"profileZoneIdValue","show":"show"},{"update":"highlight","element":"tAndCZone","show":"show","parameters":{"t:formid":"createProfileForm","t:formcomponentid":"metaproducts/normal/scitechcollection/Index:pagelayout.signinoverlay.createprofile.createprofileform"}},{"update":"highlight","element":"forgotZone","show":"show"},{"update":"highlight","element":"infoBubbleZone","show":"show"},{"update":"highlight","element":"infoBubbleZone_0","show":"show"},{"update":"highlight","element":"infoBubbleZone_1","show":"show"},{"update":"highlight","element":"infoBubbleZone_2","show":"show"},{"update":"highlight","element":"infoBubbleZone_3","show":"show"},{"update":"highlight","element":"infoBubbleZone_4","show":"show"},{"update":"highlight","element":"infoBubbleZone_5","show":"show"},{"update":"highlight","element":"infoBubbleZone_6","show":"show"},{"update":"highlight","element":"infoBubbleZone_7","show":"show"},{"update":"highlight","element":"infoBubbleZone_8","show":"show"}],"linkZone":[{"linkId":"signInLoginForm","url":"/metaproducts/normal/scitechcollection/index.pagelayout.signinoverlay.signinform.signinloginform","zoneId":"overlayZone"},{"linkId":"createProfileForm","url":"/metaproducts/normal/scitechcollection/index.pagelayout.signinoverlay.createprofile.createprofileform","zoneId":"profileZoneIdValue"},{"linkId":"forgottenAccountForm","url":"/metaproducts/normal/scitechcollection/index.pagelayout.signinoverlay.forgottenaccountinfo.forgottenaccountform","zoneId":"forgotZone"}]});
+});
+</script>
+ </body>
+</html>

@@ -1,0 +1,446 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	VMI - CLE - News
+</title>
+  <link rel="shortcut icon" href="../../master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="../../royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="../../royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="../../App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Articles;CLE;Center for Leadership and Ethics;News;VMI;Virginia Military Institute">
+  <meta name="Description" content="News stories featuring Center for Leadership and Ethics programming and events.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/Leadership_and_Ethics/News/" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCDw8PFgIeB1Zpc2libGVoZGQCEw9kFgYCAQ8PFgIfCGdkZAIDDw8WAh8IaGRkAgUPZBYCAgEPZBYCZg9kFgJmDxYCHwhnFgICAQ8PFgIfAgUtL3VwbG9hZGVkSW1hZ2VzL0ltYWdlcy9IZWFkZXJzL2NsZS5qcGc/bj04NTAxZGRkJayLW1lgmNP3+CohLYO6Y3kI5q0pu50rejPMWUj3MEg="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAARQ954mZP5SaK5/kRPv2wLUg7Z1sS2zTNHf3/IxWgcxRFSOGbegovGRRqrbhyvyJGWQuO5O7PDGe2zLg4RZuxgsV7WLA+VrWaj2ezDJ5303aowdiM9j6XJZr+s3DqAarAo="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Leadership_and_Ethics/" target="_self">CLE Home</a></li>
+        <li><a href="/Leadership_and_Ethics/Upcoming_Events/" target="_self">Upcoming Events</a></li>
+        <li><a href="/Leadership_and_Ethics/Cadet_Experience/Cadet_Experience/" target="_self">Cadet Experience</a></li>
+        <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences &amp; Symposia</a></li>
+        <li><a href="/Leadership_and_Ethics/H_B__Johnson,_Jr___26_Distinguished_Lecture_Series/" target="_self">Johnson Lecture Series</a></li>
+        <li><a href="/Leadership_and_Ethics/Marshall_Hall/" target="_self">Marshall Hall</a></li>
+        <li><a href="/Leadership_and_Ethics/Scheduling/" target="_self">Scheduling Events</a></li>
+        <li class="selected"><strong><a href="/Leadership_and_Ethics/News/" target="_self">News</a></strong></li>
+        <li><a href="/Leadership_and_Ethics/CLE_Staff/" target="_self">CLE Staff</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft27795"> 
+        <p><a target="_blank" title="Directions to VMI" href="/Content.aspx?id=7335&amp;libID=7363"><img title="Directions to Lexington, Virginia" alt="Directions to Lexington, Virginia" src="/uploadedImages/Images/buttons/directions-big-lexington.png"></a><br><a target="_blank" title="VMI Post Map" href="/uploadedFiles/VMI/Communications_Marketing/Publications/VMI_Post_Map_small(1).pdf"><img title="VMI Post Map" alt="VMI Post Map" src="/uploadedImages/Images/buttons/post-map-big.png"></a>&nbsp;<br><a target="_blank" title="Facebook" href="http://www.facebook.com/pages/VMI-Center-For-Leadership-and-Ethics/171374962907469"><img border="0" title="facebook" alt="facebook" src="/uploadedImages/Images/icons/facebook.png?n=5181"></a>&nbsp;&nbsp;&nbsp;<a target="_blank" title="Twitter" href="http://twitter.com/#!/vmi_cle"><img border="0" title="twitter" alt="twitter" src="/uploadedImages/Images/icons/twitter.png?n=4382"></a>&nbsp;&nbsp;<a target="_blank" title="Follow on Flickr" href="http://www.flickr.com/photos/vmi-cle/sets/"><img border="0" title="Flicker" alt="Flicker" src="/uploadedImages/Images/icons/flickr-flat.png"></a>&nbsp;<a target="_blank" title="VMI on fora.tv" href="http://fora.tv/partner/Virginia_Military_Institute_Center_for_Leadership_and_Ethics"><img width="37" height="30" title="FORA TV" alt="FORA TV" src="/uploadedImages/Images/buttons/fora.png"></a><br></p> 
+        <address><a href="mailto:dovern@vmi.edu?subject=Website Contact" title="Website Contact">Mrs. Ronda Dove</a><br>Administrative&nbsp;Assistant<br><br>P:&nbsp; (540) 464-7361<br>F:&nbsp;(540) 464-7396 <br><br>Center&nbsp;for Leadership &amp; Ethics<br>VMI, Marshall Hall<br>500 Anderson Drive<br>Lexington, VA&nbsp; 24450</address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/cle.jpg?n=8501" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Center for Leadership &amp; Ethics News</h1> 
+       <h2>2016</h2> 
+       <a target="_blank" title="Former NSA Director, Futurist to Speak at VMI" href="/Leadership_and_Ethics/2016_Leadership_Conference_News_Gazette_Article/">Former NSA Director, Futurist to Speak at VMI</a>
+       <br>
+       <p>Lexington, Va., Feb. 22, 2016 – Retired U.S. Army Gen. Keith Alexander, former director of the National Security Agency, and Dr. Peter Singer, noted strategist, futurist and award-winning author, will speak in Virginia Military Institute’s Cameron Hall March 7 and 8.&nbsp; Both are keynote speakers in the 2016 Leadership Conference, “Ethical Dilemmas in the Digital Age,” sponsored by the VMI Center for Leadership and Ethics. </p> 
+       <h2>&nbsp;2015</h2> 
+       <p><strong><a href="/Leadership_and_Ethics/Ray_Kelly/" title="Former NYPD Commissioner to Speak at VMI ">Former NYPD Commissioner to Speak at VMI </a><br>&nbsp;</strong>LEXINGTON, Va., Oct. 22, 2015 – Former New York Police Department commissioner and leading national security expert Raymond W. Kelly will speak at Virginia Military Institute Monday, Nov. 2.</p> 
+       <p><strong>Leadership Conference Opens with Talk on Motivation</strong><br>LEXINGTON, Va., March 10, 2015 - Dr. E. Scott Geller of Virginia Tech's Center for Applied Behavior opens our 5th Annual Leadership Conference with a talk on bringing out the best in yourself and others. &nbsp;He illustrates the usual tactics and 'old school' techniques used by instructors, parents and coaches and how those practices can actually appear to work well, but in the end turn the person's attitude 'south.' &nbsp;Instead, he advocates we should use uplifting language, note progress and effort in the moment and worry less with overall outcomes but progress toward them. &nbsp;Resources from this talk will be posted on the conference's speaker bios page.</p> 
+       <h2>2014</h2> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737430851" style="font-weight: bold;">From Caterpillar to Butterfly – and Back Again</a><span style="font-weight: bold;">&nbsp;</span><br>LEXINGTON, Va., Oct. 8, 2014 – Biomedical engineer Nicole Hastings began her presentation to the nearly 300 educators gathered at Virginia Military Institute for the 2014 STEM education conference earlier today by showing a metaphor for her professional life -&nbsp;a diagram of a caterpillar on its way to become a butterfly.&nbsp;</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737430837" style="font-weight: bold;">To Teach Science, ‘Candy Coat’ It with Excitement</a><br>LEXINGTON, Va., Oct. 7, 2014 – Television personality and robotics guru Grant Imahara kicked off the 2014 STEM education conference at Virginia Military Institute earlier today with a high-energy presentation designed to show elementary and middle-school teachers how to make science and engineering more appealing to students.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737429752" title="Registration Open for VMI Reagan Conference"><strong>Registration Open for VMI Reagan Conference</strong></a>&nbsp;<br>LEXINGTON, Va., June 17, 2014 – Registration opens today for “The Enduring Legacy: Leadership and National Security Affairs during the Ronald Reagan Era.” To be held Nov. 2-4, the conference is sponsored by VMI’s John A. Adams ’71 Center for Military History &amp; Strategic Analysis and Center for Leadership and Ethics. It will bring together students, scholars and national security professionals to discuss strategy, policy, and leadership during the Reagan administration.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737429577" title="Registration Open for Third VMI STEM Education Conference" style="font-weight: bold;">Registration Open for Third VMI STEM Education Conference</a><br>LEXINGTON, Va., May 30, 2014 – Registration is open for Virginia Military Institute’s third annual Science, Technology, Engineering and Math (STEM) Education Conference to be held Oct. 7 and 8 at the Center for Leadership and Ethics. The conference, themed “Engineering Ingenuity: Math and Science Concepts in Action,” will feature VMI faculty as well as educators from across the region discussing ongoing engineering research, careers for the current and next generations, and engineering programs that engage students beyond the classroom.&nbsp;</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737429082" title="Dominion President Among Closing Speakers At Environment Virginia">Dominion President Among Closing Speakers At Environment Virginia</a></strong><br>LEXINGTON, Va., April 10, 2014 – The 600 attendees of this year’s Environment Virginia Symposium gathered for the last time this morning to hear discussion on the creation of a coherent policy that balances Virginians’ need for energy with the need for wise use of the commonwealth’s natural resources.</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737429057" title="'A Lot of Work to Do': In Environment Virginia Opener, Governor Discusses Climate Change, Jobs in Alternative Energy">'A Lot of Work to Do': In Environment Virginia Opener, Governor Discusses Climate Change, Jobs in Alternative Energy</a></strong><br>LEXINGTON, Va., April 8, 2014 –&nbsp;Addressing environmental concerns will allow Virginia to embrace economic growth from emerging technologies and prepare for the effects of climate change, Gov. Terry McAuliffe told 500 environmental leaders today. </p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737429053" title="Deputy Secretary of Natural Resources Receives Erchul Environmental Leadership Award"><strong>Deputy Secretary of Natural Resources Receives Erchul Environmental Leadership Award</strong></a><br>LEXINGTON, Va., April 8, 2014 – Russ Baxter, Virginia Deputy Secretary of Natural Resources for the Chesapeake Bay, has been awarded the 2014 Erchul Environmental Leadership Award at the annual Environment Virginia Symposium.</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737429032" title="Governor Among 600 to Attend Environment Symposium at VMI">Governor Among 600 to Attend Environment Symposium at VMI</a></strong><br>LEXINGTON, Va., April 4, 2014&nbsp;–&nbsp;Environmental leaders will gather at VMI April 8-10 for the Environment Virginia Symposium.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737428948" title="High School Scientists Compete in Science Fair at VMI"><strong>High School Scientists Compete in Science Fair at VMI</strong></a><br>LEXINGTON, Va., April 1, 2014 – More than 250 high school scientists from 78 schools across the commonwealth competed at the 2014 Virginia State Science and Engineering Fair at VMI’s Cameron Hall last Saturday.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737428780" title="Cadets Visit Europe to Study Politics of Allied Leadership"><strong>Cadets Visit Europe to Study Politics of Allied Leadership</strong></a><br>LEXINGTON, Va., March 31, 2014 – Five cadets representing all four of VMI’s ROTC units spent nine days during last month’s spring furlough in Europe studying allied military leadership.&nbsp;</p> 
+       <p><strong><a href="http://www.vmi.edu/content.aspx?id=6489&amp;libID=6517" title="Cadets Attend Naval Leadership Conference">Cadets Attend Naval Leadership Conference</a></strong><br>LEXINGTON, Va., March 4, 2014 – When more than 100 Naval ROTC midshipmen from across the country converged in South Bend, Ind., the weekend of Feb. 21, two VMI cadets were among those taking part in the 19th annual Notre Dame Naval Leadership Weekend. Built around the theme “Military Leadership and Contemporary Issues,” the weekend provided Cadet Benjamin Field ’15 and Cadet Kelly Mackenzie ’15 the opportunity to interact with peers from around the country as well as to hear from an array of naval leaders.&nbsp;<strong>&nbsp;</strong></p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737427692" title="Preparation, Clear Vision Helped Donohue Face Day of Danger">Preparation, Clear Vision Helped Donohue Face Day of Danger</a></strong><br>LEXINGTON, Va., February 25, 2014 –&nbsp;Dic Donohue closed today's Leadership Conference with a talk on leadership in times of danger.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737427625" title="Behavioral Economist's Talk on Dishonesty Inspires Lively Discussion"><strong>Behavioral Economist's Talk on Dishonesty Inspires Lively Discussion</strong></a><br>LEXINGTON, Va., February 24, 2014 –&nbsp;Dishonesty was behavioral economist Dr. Dan Ariely’s keynote topic at today's Honor Summit.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737427610" title="Leader In Residence Roanoke Entrepreneur Attends Conferences"><strong>Leader In Residence Roanoke Entrepreneur Attends Conferences</strong></a><br>LEXINGTON, Va., February 24, 2014 –&nbsp;Entrepreneur and lawyer Ed Walker, leader in residence, is attending this week's honor and leadership events.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737427598" title="'Never Lose Faith in the United States'"><strong>'Never Lose Faith in the United States'</strong></a><br>LEXINGTON, Va., February 21, 2014 – Author Alvin Townley spoke last night on the“Alcatraz Eleven” POWs in North Vietnam with Rear Admiral Robert Shumaker.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737427090" title="New Director Named for Center for Leadership and Ethics"><strong>New Director Named for Center for Leadership and Ethics</strong></a><br>LEXINGTON, Va., Jan. 31, 2014 – Retired Army Col. David R. Gray has been named director of VMI’s Center of Leadership and Ethics and will report for duty in August.</p> 
+       <h2></h2> 
+       <h2><br>2013</h2> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737425951" title="'I'm Pretty Excited'"><strong>'I'm Pretty Excited'</strong></a><br>LEXINGTON, Va., Oct. 9, 2013 – Teacher, author, toy designer, and television personality Steve Spangler delivered the STEM Education Conference’s keynote address in Cameron Hall earlier today. Highlighting the importance of engagement in America’s classrooms, Spangler entertained and delighted the audience with demonstrations and anecdotes.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737425945" title="The 'Three Pound Universe'"><strong>The 'Three Pound Universe'</strong></a><br>LEXINGTON, Va., Oct. 8, 2013 – More than 250 high school students, faculty, and administrators from across Virginia joined VMI faculty members to hear about cutting-edge research in neuroscience this morning as the 2013 VMI STEM Education Conference kicked off.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737425892" title="'Everyone Has a Front Line'"><strong>'Everyone Has a Front Line'</strong></a><br>LEXINGTON, Va., Oct. 3, 2013 – More than 100 cadets and local community members attended a talk and book signing last month by Eric Greitens, CEO of The Mission Continues and author of <em>The Heart and the Fist: The Education of a Humanitarian, the Making of a Navy SEAL</em>.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737425422" title="Leadership Center Director Leaves VMI for Washington"><strong>Leadership Center Director Leaves VMI for Washington</strong></a><br>LEXINGTON, Va., Sept. 13, 2013 – Retired U.S. Navy Capt. Susan Rabern was sworn in Monday as assistant secretary of the Navy for financial management and comptroller. Rabern was the first director of VMI’s Center for Leadership and Ethics, appointed in 2011 and serving until she took up her new duties this week.</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737424095" title="'Never Let Fear Determine Who You Are'">'Never Let Fear Determine Who You Are'</a></strong><br>LEXINGTON, Va., March 5, 2013 – Dewey Bozella told participants in VMI’s 2013 Honor Conference this morning about the struggles he’s faced in his life and the quality of character that was necessary to overcome them.</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737424091" title="'Frontline' Producer Opens VMI Honor Conference">'Frontline' Producer Opens VMI Honor Conference</a></strong><br>LEXINGTON, Va., March 4, 2013 – <em>Frontline</em> producer Martin Smith opened the 2013 Honor Conference at VMI with a discussion of how truth-seeking journalism can encourage more honorable behavior by public officials.<br>&nbsp;<br><br></p> 
+       <h2>2012</h2> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737422997" title="Washington Post VP Addresses IT Conference"><strong>Washington Post VP Addresses IT Conference</strong></a><br>LEXINGTON, Va., Oct. 9, 2012 –&nbsp;Stacey Halota, vice president of information security and privacy at the Washington Post Co., spoke to information security professionals during the Virginia Alliance for Secure Computing and Networking conference at VMI.&nbsp;</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737422881" title="Curiosity the Endowment of Humanity">Curiosity the Endowment of Humanity</a><br></strong>LEXINGTON, Va., Oct. 4, 2012 – Dr. Neil deGrasse Tyson remained on post after his Wednesday morning plenary talk to have conversations with faculty, cadets, and W&amp;L students.&nbsp;Following a well-attended book signing, Tyson spoke informally with a crowd of STEM students and professors assembled in Gillis Theater, addressing a range of issues based on cadet questions.</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737422825" title="To Lead the World Once More, STEM Literacy a Prerequisite">To Lead the World Once More, STEM Literacy a Prerequisite</a></strong><br>LEXINGTON, Va., Oct. 3, 2012 – VMI’s STEM education conference ended with a bang, as Neil deGrasse Tyson, director of the Hayden Planetarium at the American Museum of Natural History brought conference attendees and cadets to their feet in a passionate round of applause.</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737422806" title="Teaching Math and Science to the World">Teaching Math and Science to the World</a></strong><br>LEXINGTON, Va., Oct. 2, 2012 – Salman&nbsp;Khan, founder of the Khan Academy, spoke to an audience of educators at the 2012 VMI STEM education conference Monday night about how the academy came to be and its possibilities for enhancing education in both the developed and developing worlds.</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737422814" title="Inquiry-Based Learning at VMI">Inquiry-Based Learning at VMI</a></strong><br>LEXINGTON, Va., Oct. 2, 2012 – Dancing cadets on the Gillis Theater stage took the standing-room-only audience by surprise at the beginning of Maj. Randy Cone's plenary talk, Inquiry-Based Learning, earlier today.</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737422800" title="Raise the Floor and Raise the Ceiling">Raise the Floor and Raise the Ceiling</a></strong><br>LEXINGTON, Va., Oct. 2, 2012 – A large audience was ready for participation as Cathy Seeley,&nbsp;author of "Faster Isn’t Smarter: Messages About Math, Teaching, and Learning in the 21st Century," espoused “you-we-I”-oriented teaching yesterday in the first plenary session of VMI's STEM education conference.</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737422796" title="State Secretary of Education Opens VMI STEM Education Conference">State Secretary of Education Opens VMI STEM Education Conference</a></strong><br>LEXINGTON, Va., Oct. 1, 2012 –&nbsp;The goal of VMI’s Science, Technology, Engineering, and Mathematics, or STEM, Education Conference is to solve “America’s toughest math problem.” The opening session defined that problem as the lack of students concentrating their studies in STEM disciplines.</p> 
+       <p>&nbsp;<a href="http://www.vmi.edu/Content.aspx?id=10737421099" title="Symposium Opens with Tribute to Founder"><strong>Symposium Opens with Tribute to Founder</strong></a><br>LEXINGTON, Va., April 10, 2012 – Gen J.H. Binford Peay III ’62, VMI superintendant, introduced the 23rd annual Environment Virginia Symposium by honoring the contributions of the late Capt. Ronald Erchul.</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737420909" title="Medal of Honor Recipient: Do the Hard Right">Medal of Honor Recipient: Do the Hard Right</a></strong><br>LEXINGTON, Va., March 7, 2012 – VMI’s Leadership Conference closed late yesterday afternoon with perhaps the most entertaining talk of all, given by Staff Sgt. Salvatore Giunta, who received the Medal of Honor in November 2010.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737420883" title="Conference Concept Originates with VMI Cadets"><strong>Conference Concept Originates with VMI Cadets</strong></a><br>LEXINGTON, March 6, 2012 – Cadet Quinn Adams ’12, president of the VMI Honor Court, addressed conference participants in Gillis Theater yesterday afternoon, explaining the Honor Court’s involvement in seeking a forum for a nationwide discussion of cheating, lying, and honor.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737420895" title="For Honor to Work, You've Got to Have Buy-In"><strong>For Honor to Work, You've Got to Have Buy-In</strong></a><br>LEXINGTON, Va., March 6, 2012 – Dr. Eric Anderman, professor of education psychology at the Ohio State University, compared cheating to placing a vote: it’s a deliberate choice that individuals make that cannot be revoked.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737420898" title="Raise a Ruckus, Start a Movement"><strong>Raise a Ruckus, Start a Movement</strong></a><br>LEXINGTON, Va., March 6, 2012 – “The front line is here, at schools,” Dr. David Callahan told VMI’s Leadership Conference during one of today’s afternoon sessions. “Turn up the heat.”&nbsp; Callahan took the stage in Cameron Hall to talk about how to create a movement, one starting with this conference.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737420889" title="Endemic Lying and Cheating Lead to 'Jungle' Law"><strong>Endemic Lying and Cheating Lead to 'Jungle' Law</strong></a><br>LEXINGTON, Va., March 6, 2012 – Investigative journalist James B. Stewart and Nassau County, N.Y., District Attorney Kathleen Rice opened the second day of VMI’s Leadership Conference with discussion of lying and cheating on a grand scale.</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737420884" title="Identifying Deception Society's Responsibility">Identifying Deception Society's Responsibility</a></strong><br>LEXINGTON, Va., March 6, 2012--Pamela Meyer, author of "Liespotting: Proven Techniques to Detect Deception," concluded the first day of VMI’s Leadership Conference by describing how falsehoods can be detected through attention to verbal cues, body language, and attitudes indicative of dishonesty.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737420871" title="Doing the Right Thing When No One Is Looking"><strong>Doing the Right Thing When No One Is Looking</strong></a><br>LEXINGTON, Va., March 5, 2012 – The entire VMI Corps of Cadets, and about 500 participants from colleges and high schools around the nation, gathered in Cameron Hall to hear Louis J. Freeh speak on the nature of cheating and dishonesty in America.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737420874" title="Educators, Students Share Cheating Stories"><strong>Educators, Students Share Cheating Stories</strong></a><br>LEXINGTON, Va., March 5, 2012 –Registrants at VMI’s Leadership Conference had the opportunity to share stories during this afternoon’s first session.<br><br><a href="http://www.vmi.edu/Content.aspx?id=10737420861" title="VMI Conference on Cheating the Birth of a Movement"><strong>VMI Conference on Cheating the Birth of a Movement</strong></a><br>LEXINGTON, Va., March 5, 2012 – Dr. Eric M. Anderman and Dr. David Callahan opened VMI’s Leadership Conference, “Cheating, Lying and Honor in America’s High Schools, Colleges and Universities,” with a discussion of who cheats and why.&nbsp;</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737420411" title="Cheating, Lying and Honor">Cheating, Lying and Honor</a></strong><br>LEXINGTON, Va., Jan. 9, 2012 – The VMI Center for Leadership and Ethics, host of the 2012 VMI Leadership Conference, “Cheating, Lying, and Honor in America’s High Schools, Colleges and Universities,” seeks to open a dialogue among educators and students.<br><br></p> 
+       <h2>2011</h2> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737419968" title="Discerning China's Intentions a Challenge for U.S., AFRICOM"><strong>Discerning China's Intentions a Challenge for U.S., AFRICOM</strong></a><br>LEXINGTON, Va., Nov. 4, 2011 – One of the challenges facing U.S. policymakers regarding Africa is that “we don’t really know what Chinese intentions are, what their goals are, and what they hope to achieve,” said Maj. Gen. Donald Christopher Leins, deputy director for politico-military affairs (Africa) at the Office of the Joint Chiefs of Staff.</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737419972" title="U.S., China, Africa an 'Expanding Circle'">U.S., China, Africa an 'Expanding Circle'</a></strong><br>LEXINGTON, Va., Nov. 4, 2011 – Ambassador Johnnie Carson said he doesn’t believe media portrayals of China as some kind of Cold War rival to the United States in Africa.&nbsp;</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737419975" title="United States and China Cooperating, Competing">United States and China Cooperating, Competing</a></strong><br>LEXINGTON, Va., Nov. 4, 2011 – A discussion on the ways that the United States and China are cooperating and competing in Africa took place on Nov. 4, during the sixth panel discussion of “The Eagle and The Dragon in Africa” conference.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737419967" title="Complexity Daunting to Understand and Mitigate Conflict in Africa" style="font-weight: bold;">Complexity Daunting to Understand and Mitigate Conflict in Africa</a><br>LEXINGTON, Va., Nov. 4, 2011 – The subject of the fourth panel in the conference “The Eagle and the Dragon in Africa” touched on two U.S. government strategic goals in Africa, said retired U.S. ambassador to Chad Louis J. Nigro Jr., the panel chair: mitigation of the effects of conflict and prevention of conflict.</p> 
+       <p><strong><a href="http://www.vmi.edu/Content.aspx?id=10737419962" title="People Key to Sustainable Development in Africa">People Key to Sustainable Development in Africa</a></strong><br>LEXINGTON, Va., Nov. 4, 2011 – The third panel session in VMI’s “The Eagle and the Dragon in Africa” conference presented an in-depth presentation on efforts of the United States Agency for International Development and a more discursive discussion of the need to engage with the African peoples, both focused on U.S. approaches to sustainable development in Africa. All four panelists touched on the theme that involvement of the African people is essential.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737419951" title="U.S., Chinese Roles in Africa Offer Danger, Potential"><strong>U.S., Chinese Roles in Africa Offer Danger, Potential</strong></a><br>LEXINGTON, Va., Nov. 3, 2011 – The U.S. and China are like two elephants in the grass when it comes to development in Africa. That was the colorful metaphor employed throughout the first panel discussion of VMI’s “The Eagle and the Dragon in Africa” conference on Nov. 3. The session put questions on the table for the conference participants to consider.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737419949" title="U.S. China, Have Complementary Roles in China"><strong>U.S. China, Have Complementary Roles in China</strong></a><br>LEXINGTON, Va., Nov. 3, 2011 – The view that emerged from opening presentations in the “Eagle and the Dragon in Africa,” an academic conference at Virginia Military Institute’s Center for Leadership and Ethics, was that China is neither a competitor in the arena of security nor a deathly threat in that of economics.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737419589" title="Taps - Capt. Ronald A. Erchul"><strong>Taps - Capt. Ronald A. Erchul</strong></a><br>LEXINGTON, Va., Oct. 10, 2011 – A longtime VMI professor, retired in 2008 and founder of a statewide environmental conference, died Saturday, Oct. 8.</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737419551" title="U.S., China: Competitors or Allies in Africa?"><strong>U.S., China: Competitors or Allies in Africa?</strong></a><br>LEXINGTON, Va., Oct. 7, 2011 – A two-day conference, sponsored by Virginia Military Institute’s Center for Leadership and Ethics in partnership with the VMI Department of International Studies and Political Science, seeks to provide a balanced look at U.S. and Chinese interests in Africa.&nbsp;</p> 
+       <p><a href="http://www.vmi.edu/Content.aspx?id=10737418337" title="Conference to Focus on Serving Student Veterans"><strong>Conference to Focus on Serving Student Veterans</strong></a><br>LEXINGTON, VA, August 1, 2011 – “The student veterans are coming: Are you ready?” This question will be addressed in a one-day conference, “We Are Virginia Veterans on Campus,” for college administrators and the increasing number of student veterans they serve. The conference will run from 9 a.m. to 5 p.m. Aug. 9 at Virginia Military Institute’s Center for Leadership and Ethics, located in Marshall Hall on the VMI post. Registration will begin at 8.&nbsp;</p> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

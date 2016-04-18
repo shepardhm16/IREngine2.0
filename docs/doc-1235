@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>Find Books - HI 460 Capstone History - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: HI 460 Capstone History: Find Books"> 
+  <meta name="DC.Creator" content="Janet Holly"> 
+  <meta name="DC.Subject" content="History"> 
+  <meta name="DC.Description" content=""> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=135408&amp;p=895744"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Sep 4, 2014"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Mar 30, 2016"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 135408,
+				page_id: 895744,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-895744";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '135408',_st_page_id: '895744'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '135408',_st_page_id: '895744'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Info Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="HI 460 Capstone History" href="http://libguides.vmi.edu/HI460">HI 460 Capstone History </a> </li> 
+     <li id="s-lib-bc-page" class="active">Find Books </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="135408"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">HI 460 Capstone History: Find Books</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description"></span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Info Header --> 
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med"> 
+   <div id="s-lg-guide-tabs" class="tabs"> 
+    <ul class="nav nav-tabs split-button-nav"> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=135408&amp;p=887157"> <span>HI 460</span> </a> </li> 
+     <li role="presentation" class="active"> <a title="" class="active" href="/c.php?g=135408&amp;p=895744"> <span>Find Books</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=135408&amp;p=895746"> <span>Find Articles</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=135408&amp;p=895747"> <span>Find Primary Sources</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=135408&amp;p=895734"> <span>Interlibrary Loan</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=135408&amp;p=898548"> <span>Citation Guides</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="http://www.vmi.edu/content.aspx?id=312"> <span>Library Homepage</span> </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <!-- BEGIN: Guide Content --> 
+  <div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders"> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-126" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-1" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-3140433" class="s-lg-box-wrapper-3140433"> 
+       <div id="s-lg-box-2672138-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-2672138" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Reference Databases </h2> 
+         <div id="s-lg-box-collapse-2672138"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-5479837" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268524" class=""> 
+               <a href="http://www.credoreference.com/advanced.do" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268524'});">Credo Reference </a> 
+               <div id="s-lg-database-desc-1268524" class="s-lg-database-desc">
+                Provides access to 100 reference books. Find information in encyclopedias, dictionaries, factbooks and more.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268676" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://www.oxfordreference.com/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268676'});">Oxford Reference Online </a> 
+               <div id="s-lg-database-desc-1268676" class="s-lg-database-desc">
+                Oxford Reference Online brings together over 100 fully searchable reference works. Frequently updated, all disciplines will find this resource useful.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-3453660" class="s-lg-box-wrapper-3453660"> 
+       <div id="s-lg-box-2931972-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-2931972" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Reference Books </h2> 
+         <div id="s-lg-box-collapse-2931972"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-6068514" class="s-lg-link-list s-lg-link-list-5">
+             <li class=""> 
+              <div id="s-lg-content-5461711" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-5461711" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/52121348" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5461711'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=1576070808/LC.GIF&amp;client=springshare" title="American Foreign Relations since 1600" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/52121348" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5461711'});"><span id="s-lg-book-title-5461711" class="s-lg-book-title">American Foreign Relations since 1600</span><span id="s-lg-book-author-5461711" class="s-lg-book-author"></span></a> 
+                <span class="fa fa-lg fa-info-circle" data-toggle="popover" data-trigger="click hover" data-placement="bottom" data-html="true" data-title="Description" data-content="Find annotations of the  most important published and unpublished works in U.S. diplomatic literature."></span>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. E 183.7.U5G84 2003 (2 vol.)
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 1576070808
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-5461732" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-5461732" class="s-lg-book-cover"></div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/49226217" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5461732'});"><span id="s-lg-book-title-5461732" class="s-lg-book-title">Chronological History of U. S. Foreign Relations</span><span id="s-lg-book-author-5461732" class="s-lg-book-author"></span></a> 
+                <span class="fa fa-lg fa-info-circle" data-toggle="popover" data-trigger="click hover" data-placement="bottom" data-html="true" data-title="Description" data-content="This 3-volume set provides clear and comprehensive descriptions of every event concerning U. S. foreign affairs on a year-by-year basis from 1776 through 2000."></span>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. E 183.7.B745 2003
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 0415939143
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-5461803" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-5461803" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/47091909" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5461803'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=1573563064/LC.GIF&amp;client=springshare" title="Encyclopedia of Latin American Politics" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/47091909" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5461803'});"><span id="s-lg-book-title-5461803" class="s-lg-book-title">Encyclopedia of Latin American Politics</span><span id="s-lg-book-author-5461803" class="s-lg-book-author"></span></a> 
+                <span class="fa fa-lg fa-info-circle" data-toggle="popover" data-trigger="click hover" data-placement="bottom" data-html="true" data-title="Description" data-content="Covers the current and past political development of Puerto Rico and the 20 independent republics of Central and South America and the Caribbean. Although the coverage begins with the independence movements of the late 18th century, the book focuses mainly on the 20th century."></span>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. F 1410.E56 2001
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 1573563064
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-5461785" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-5461785" class="s-lg-book-cover"></div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/1789268" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5461785'});"><span id="s-lg-book-title-5461785" class="s-lg-book-title">Latin America</span><span id="s-lg-book-author-5461785" class="s-lg-book-author"></span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. F 1408.L37
+                </div>
+                <div id="s-lg-book-desc-5461785" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-5461785" class="s-lg-link-desc">
+                  Earlier editions located on the 300 level.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-5461757" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-5461757" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/792941532" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5461757'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780199759255/LC.GIF&amp;client=springshare" title="The Oxford Encyclopedia of American Military and Diplomatic History" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/792941532" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5461757'});"><span id="s-lg-book-title-5461757" class="s-lg-book-title">The Oxford Encyclopedia of American Military and Diplomatic History</span><span id="s-lg-book-author-5461757" class="s-lg-book-author"></span></a> 
+                <span class="fa fa-lg fa-info-circle" data-toggle="popover" data-trigger="click hover" data-placement="bottom" data-html="true" data-title="Description" data-content="2-volume set with more than 450 entries; index at end of volume 2"></span>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. E 181.O95 2013
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780199759255
+                </div>
+                <div class="s-lg-book-prop-pubdate">
+                 Publication Date: 2013
+                </div>
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-2" class="col-md-6"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-3140451" class="s-lg-box-wrapper-3140451"> 
+       <div id="s-lg-box-2672152-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-2672152" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">History Books </h2> 
+         <div id="s-lg-box-collapse-2672152"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-5479870" class="s-lg-link-list s-lg-link-list-5">
+             <li class=""> 
+              <div id="s-lg-content-5089952" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-5089952" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/58594937" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5089952'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780313321962/LC.GIF&amp;client=springshare" title="Historical Dictionary of U. S. -Latin American Relations" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/58594937" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5089952'});"><span id="s-lg-book-title-5089952" class="s-lg-book-title">Historical Dictionary of U. S. -Latin American Relations</span> by <span id="s-lg-book-author-5089952" class="s-lg-book-author">David W. Dent</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. F1418 .F457 2005
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780313321962
+                </div>
+                <div id="s-lg-book-desc-5089952" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-5089952" class="s-lg-link-desc">
+                  "Useful for students and researchers of international politics within the Western hemisphere, Dent's historical dictionary covers items ranging from pro-slavery filibusterers adventuring in Central America, dollar diplomacy, Anti-Americanism, banana wars, the Reagan Doctrine, Sandinistas, "friendly" dictators, and Che Guevara, to the impact of the events of September 11, 2001, on Latin America, among many other items." - Book Jacket
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-5090004" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-5090004" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/40267871" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5090004'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780826321183/LC.GIF&amp;client=springshare" title="Tangled Destinies" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/40267871" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5090004'});"><span id="s-lg-book-title-5090004" class="s-lg-book-title">Tangled Destinies</span> by <span id="s-lg-book-author-5090004" class="s-lg-book-author">Don M. Coerver; Linda B. Hall</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: F1418 .C662 1999
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780826321183
+                </div>
+                <div id="s-lg-book-desc-5090004" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-5090004" class="s-lg-link-desc">
+                  Historical overview from both perspectives of the often-troubled and always uneven relationship between the United States and the nations of Latin America.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-5089745" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-5089745" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/190843333" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5089745'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780521717953/LC.GIF&amp;client=springshare" title="The United States and Latin America after the Cold War" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/190843333" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5089745'});"><span id="s-lg-book-title-5089745" class="s-lg-book-title">The United States and Latin America after the Cold War</span> by <span id="s-lg-book-author-5089745" class="s-lg-book-author">Russell Crandall</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: F1418 .C893 2008
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780521717953
+                </div>
+                <div id="s-lg-book-desc-5089745" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-5089745" class="s-lg-link-desc">
+                  "In assessing the relations between the United States and Latin America since the Berlin Wall fell in 1989, Russell Crandall argues that any lasting analysis must be viewed through a fresh framework, one that allows for the often unexpected episodes and outcomes in U.S.-Latin American relations." - Book Jacket
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-3140453" class="s-lg-box-wrapper-3140453"> 
+       <div id="s-lg-box-2672153-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-2672153" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">VMI Library Catalog </h2> 
+         <div id="s-lg-box-collapse-2672153"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-5090086" class="  clearfix"> 
+            <p>Find books by using Preston Library's catalog.&nbsp; The URL is <a href="http://vmi.worldcat.org/">http://vmi.worldcat.org/</a></p> 
+            <p><img alt="" src="data:image/png;base64,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"></p> 
+            <p>Tips for searching are:</p> 
+            <ul> 
+             <li>Keyword</li> 
+             <li>Subject Heading</li> 
+             <li>Limit results by format, author, date, and more</li> 
+            </ul> 
+            <p>For extensive research select Advanced Search:&nbsp; <a href="http://vmi.worldcat.org/advancedsearch">http://vmi.worldcat.org/advancedsearch</a></p> 
+            <p>&nbsp;</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-3140455" class="s-lg-box-wrapper-3140455"> 
+       <div id="s-lg-box-2672154-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-2672154" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">WLU Library Catalog </h2> 
+         <div id="s-lg-box-collapse-2672154"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-5090192" class="  clearfix"> 
+            <p>Find books and other library materials at Washington and Lee University's Leyburn Library by searching @ <a href="http://library.wlu.edu">http://library.wlu.edu/</a></p> 
+            <p>You can go and check out books.&nbsp; If you are unsure about the library's location, ask for a map at the circulation desk.</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-3" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-3255630" class="s-lg-box-wrapper-3255630"> 
+       <div id="s-lg-box-2763754-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-2763754" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">VMI Reference Librarian </h2> 
+         <div id="s-lg-box-collapse-2763754"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lib-profile-6101" class="s-lib-profile-container"> 
+            <div id="s-lib-profile-image-6101" class="s-lib-profile-div s-lib-profile-center s-lib-profile-image">
+             <a href="http://libguides.vmi.edu/prf.php?account_id=8880"> <img src="//s3.amazonaws.com/libapps/accounts/8880/profiles/6101/HollyJanet2015__cropped_3_.jpg" alt="Profile Image"></a> 
+            </div> 
+            <div id="s-lib-profile-name-6101" class="s-lib-profile-div s-lib-profile-center s-lib-profile-name">
+             Janet Holly 
+            </div> 
+            <div id="s-lib-profile-email-6101" class="s-lib-profile-div s-lib-profile-center s-lib-profile-email">
+             <a title="hollyjs@vmi.edu" href="mailto:hollyjs@vmi.edu" class="label label-info" style="font-size:1.6em;">Email Me</a> 
+            </div> 
+            <div id="s-lib-profile-widget-la-6101" class="s-lib-profile-div s-lib-profile-widget-la"> 
+             <div class="s-lib-profile-widget">
+              <div id="libchat_27188c6fafcc49a94e72e09b0306feae"></div>
+              <script src="//v2.libanswers.com/load_chat.php?hash=27188c6fafcc49a94e72e09b0306feae"></script> 
+             </div> 
+            </div> 
+            <div id="s-lib-profile-widget-lc-6101" class="s-lib-profile-div s-lib-profile-widget-lc"> 
+             <div class="s-lib-profile-widget"> 
+             </div> 
+            </div> 
+            <div id="s-lib-profile-widget-other-6101" class="s-lib-profile-div s-lib-profile-widget-other"> 
+             <div class="s-lib-profile-widget"> 
+             </div> 
+            </div> 
+            <div id="s-lib-profile-contact-6101" class="s-lib-profile-div s-lib-profile-contact">
+             <strong>Contact:</strong>
+             <div>
+              Preston Library
+              <br> Virginia Military Institute
+              <br> Lexington, VA 24450
+             </div>
+             <div>
+              540-464-7296
+             </div>
+             <a title="Website / Blog" href="http://www.prestonlibrary.net/blog/"><i class="fa fa-bookmark fa-lg"><span class="sr-only">Website / Blog Page</span></i></a> 
+            </div> 
+            <div id="s-lib-profile-social-6101" class="s-lib-profile-div s-lib-profile-social"> 
+            </div> 
+            <div id="s-lib-profile-subjects-6101" class="s-lib-profile-div s-lib-profile-subjects">
+             <strong>Subjects:</strong>
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=13173">Applied Mathematics</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9748">Biology</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9749">Chemistry</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=13174">Computer &amp; Information Science</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9747">Engineering</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=50702">Government Publications</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9746">Library/Research</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9750">Physics/Astronomy</a> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-127" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+    <li class="previous"> <a href="/c.php?g=135408&amp;p=887157">&lt;&lt; <strong>Previous:</strong> HI 460</a> </li> 
+    <li class="next"> <a href="/c.php?g=135408&amp;p=895746"><strong>Next:</strong> Find Articles &gt;&gt;</a> </li> 
+   </ul> 
+  </div> 
+  <!-- END: Guide Content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Mar 30, 2016 12:19 PM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/HI460</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D135408%2526p%253D895744&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+     <span class="s-lg-guide-label">Subjects: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/sb.php?subject_id=9744">History</a></span> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+     <span class="s-lg-guide-label">Tags: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/srch.php?tag=history&amp;default_lg=1">history</a>, <a href="http://libguides.vmi.edu/srch.php?tag=Latin America&amp;default_lg=1">Latin America</a></span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

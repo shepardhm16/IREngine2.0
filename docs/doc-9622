@@ -1,0 +1,3095 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+  <meta name="GENERATOR" content="Microsoft FrontPage 4.0"> 
+  <meta name="ProgId" content="FrontPage.Editor.Document"> 
+  <title>Colleague Printer Listing</title> 
+ </head> 
+ <body> 
+  <table border="0" cellpadding="2" cellspacing="0" width="100%" style="font-family: Arial; font-size: 10pt; border-collapse: collapse" bordercolor="#111111" height="36"> 
+   <tbody>
+    <tr> 
+     <td bgcolor="#CFCDBA" nowrap colspan="7" align="center" height="67"><b> <font color="#660033" size="5">Colleague Printers</font></b></td> 
+    </tr> 
+    <tr> 
+     <td bgcolor="#660033" nowrap colspan="7" height="18">&nbsp;</td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <center> 
+   <form method="POST" action="printers.asp" webbot-action="--WEBBOT-SELF--"> 
+    <input type="hidden" name="VTI-GROUP" value="0">
+    <p>&nbsp;<b>Limit By Location </b> <select size="1" name="cboLocation"> <option value="All">All Locations</option> <option value="215 Carroll Hall">215 Carroll Hall</option> <option value="241 Cameron Hall">241 Cameron Hall</option> <option value="305 Letcher">305 Letcher</option> <option value="307 Letcher">307 Letcher</option> <option value="309 Letcher">309 Letcher</option> <option value="328 Cocke Hall">328 Cocke Hall</option> <option value="Cameron Hall Room 204">Cameron Hall Room 204</option> <option value="Cameron Hall Room 302">Cameron Hall Room 302</option> <option value="Carroll Hall Room 202">Carroll Hall Room 202</option> <option value="Carroll Hall Room 210C">Carroll Hall Room 210C</option> <option value="Carroll Hall Room 303">Carroll Hall Room 303</option> <option value="Carroll Hall Room 306">Carroll Hall Room 306</option> <option value="Carroll Hall Room 311">Carroll Hall Room 311</option> <option value="Carroll Hall Room 414">Carroll Hall Room 414</option> <option value="Cocke Hall Room 320">Cocke Hall Room 320</option> <option value="Guard Room">Guard Room</option> <option value="Hospital">Hospital</option> <option value="Kilbourne Hall Room 217">Kilbourne Hall Room 217</option> <option value="Kilbourne Hall Room 302">Kilbourne Hall Room 302</option> <option value="Kilbourne Hall Room 317">Kilbourne Hall Room 317</option> <option value="Laundry">Laundry</option> <option value="Lejeune Hall Room 310">Lejeune Hall Room 310</option> <option value="Lejeune Hall Room 408 - 1">Lejeune Hall Room 408 - 1</option> <option value="Mallory Hall Room 351">Mallory Hall Room 351</option> <option value="Mallory Hall Room 353">Mallory Hall Room 353</option> <option value="Moody Hall">Moody Hall</option> <option value="Nichols Engineering IT Dept">Nichols Engineering IT Dept</option> <option value="Nichols Engineering Room 330">Nichols Engineering Room 330</option> <option value="Nichols Engineering Room 448">Nichols Engineering Room 448</option> <option value="Nichols Engineering Room 501">Nichols Engineering Room 501</option> <option value="Nichols Engineering Room 508">Nichols Engineering Room 508</option> <option value="Nichols Engineering Room 609">Nichols Engineering Room 609</option> <option value="Old Barracks Room 131">Old Barracks Room 131</option> <option value="Old Barracks Room 135">Old Barracks Room 135</option> <option value="Physical Plant">Physical Plant</option> <option value="Preston Library">Preston Library</option> <option value="Preston Library Room 401K">Preston Library Room 401K</option> <option value="Richardson Hall Room 401">Richardson Hall Room 401</option> <option value="Science Building Room 203C">Science Building Room 203C</option> <option value="Science Building Room 204">Science Building Room 204</option> <option value="Science Building Room 303C">Science Building Room 303C</option> <option value="Scott Shipp Hall Room 227">Scott Shipp Hall Room 227</option> <option value="Scott Shipp Hall Room 336">Scott Shipp Hall Room 336</option> <option value="Scott Shipp Hall Room 416">Scott Shipp Hall Room 416</option> <option value="Scott Shipp Hall Room 421">Scott Shipp Hall Room 421</option> <option value="Scott Shipp Hall Room 428">Scott Shipp Hall Room 428</option> <option value="Scott Shipp Hall Room 444">Scott Shipp Hall Room 444</option> <option value="Scott Shipp Hall Room 528">Scott Shipp Hall Room 528</option> <option value="Smith Hall Room 101">Smith Hall Room 101</option> <option value="Smith Hall Room 111">Smith Hall Room 111</option> <option value="Smith Hall Room 201">Smith Hall Room 201</option> <option value="Smith Hall Room 210">Smith Hall Room 210</option> <option value="Smith Hall Room 303">Smith Hall Room 303</option> <option value="Smith Hall Room 310">Smith Hall Room 310</option> <option value="Smith Hall Room 310A">Smith Hall Room 310A</option> <option value="Smith Hall Room 311">Smith Hall Room 311</option> <option value="Smith Hall Room 314">Smith Hall Room 314</option> <option value="Smith Hall Room 320">Smith Hall Room 320</option> </select> <b> Department</b> <select size="1" name="cboDepartment"> <option value="All">All Departments</option> <option value="Accounting">Accounting</option> <option value="Admissions">Admissions</option> <option value="Air Force">Air Force</option> <option value="Army">Army</option> <option value="Athletic Advising">Athletic Advising</option> <option value="Athletic Department">Athletic Department</option> <option value="Biology">Biology</option> <option value="Bursar">Bursar</option> <option value="Business Office">Business Office</option> <option value="Cadet Affairs">Cadet Affairs</option> <option value="Career Services">Career Services</option> <option value="Cashier">Cashier</option> <option value="Chemistry">Chemistry</option> <option value="Civil Engineering">Civil Engineering</option> <option value="Commandant">Commandant</option> <option value="Communications &amp; Marketing">Communications &amp; Marketing</option> <option value="Comptroller">Comptroller</option> <option value="Construction">Construction</option> <option value="Counseling">Counseling</option> <option value="Dean's Office">Dean's Office</option> <option value="Deputy Commandant">Deputy Commandant</option> <option value="Economics">Economics</option> <option value="Electrical Engineering">Electrical Engineering</option> <option value="English">English</option> <option value="Financial Aid">Financial Aid</option> <option value="Guard Room">Guard Room</option> <option value="Headquarters">Headquarters</option> <option value="History">History</option> <option value="Hospital">Hospital</option> <option value="Information Technology">Information Technology</option> <option value="Institutional Research">Institutional Research</option> <option value="International Studies">International Studies</option> <option value="Laundry">Laundry</option> <option value="Learning Center">Learning Center</option> <option value="Mechanical Engineering">Mechanical Engineering</option> <option value="Military store">Military store</option> <option value="Modern Languages">Modern Languages</option> <option value="Navy">Navy</option> <option value="Personnel">Personnel</option> <option value="Physical Education">Physical Education</option> <option value="Physical Plant">Physical Plant</option> <option value="Physics">Physics</option> <option value="Preston Library">Preston Library</option> <option value="Psychology">Psychology</option> <option value="Purchasing">Purchasing</option> <option value="Reception Area">Reception Area</option> <option value="Registrar">Registrar</option> <option value="Superintendent's Office">Superintendent's Office</option> </select> <br> <b>Sort by</b> <select size="1" name="cboSortOrder"> <option value="CPI">Font Size</option> <option value="Duplex">Duplex Printing</option> <option value="Default" selected>Department (Default)</option> <option value="Location">Location</option> <option value="Orientation">Orientation</option> </select><br> <input type="submit" value="Submit" name="B1"> </p> 
+   </form> 
+  </center> 
+  <div align="center"> 
+   <center> 
+    <b>Current Selection:</b> All locations and departments and sorted by the default (Department, Printer Name, Form Name). 
+    <table border="0" cellpadding="2" cellspacing="0" width="75%" style="font-family: Arial; font-size: 10pt; border-collapse:collapse" bordercolor="#111111"> 
+     <tbody>
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Accounting </td> 
+       <td nowrap valign="top">LP04</td> 
+       <td nowrap valign="top">Smith Hall Room 320</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">320 Smith Hall - Accounting (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Accounting </td> 
+       <td nowrap valign="top">LPRSH320LJ</td> 
+       <td nowrap valign="top">Smith Hall Room 320</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">320 Smith Hall - Accounting (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Accounting </td> 
+       <td nowrap valign="top">LPRSH320LJ12</td> 
+       <td nowrap valign="top">Smith Hall Room 320</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">320 Smith Hall - Accounting (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Accounting </td> 
+       <td nowrap valign="top">LPRSH320LS</td> 
+       <td nowrap valign="top">Smith Hall Room 320</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">320 Smith Hall - Accounting (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Accounting </td> 
+       <td nowrap valign="top">LPRSH320LSD</td> 
+       <td nowrap valign="top">Smith Hall Room 320</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">320 Smith Hall - Accounting (10 characters per inch in Landscape format Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">LP03</td> 
+       <td nowrap valign="top">309 Letcher</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Admissions 3rd Floor (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">lpram300lj</td> 
+       <td nowrap valign="top">309 Letcher</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Admissions 3rd Floor (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">LPRAM300LJ12</td> 
+       <td nowrap valign="top">309 Letcher</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Admissions 3rd Floor (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">LPRAM300Ls</td> 
+       <td nowrap valign="top">309 Letcher</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Admissions 3rd Floor (12 characters per inch in Landscap format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">lp10</td> 
+       <td nowrap valign="top">309 Letcher</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">309 Letcher - Admissions 2nd Floor (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">LPRAM200LJ</td> 
+       <td nowrap valign="top">309 Letcher</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">309 Letcher - Admissions 2nd Floor (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">LPRAM200LJ12</td> 
+       <td nowrap valign="top">309 Letcher</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">309 Letcher - Admissions 2nd Floor (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">LPRAM200LS</td> 
+       <td nowrap valign="top">309 Letcher</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">309 Letcher - Admissions 2nd Floor (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">lp11</td> 
+       <td nowrap valign="top">309 Letcher</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">309 Letcher - Admissions 1st Floor (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">LPRAM100LJ</td> 
+       <td nowrap valign="top">309 Letcher</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">309 Letcher - Admissions 1st Floor (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">LPRAM100LJ12</td> 
+       <td nowrap valign="top">309 Letcher</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">309 Letcher - Admissions 1st Floor (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">LPRAM100LS</td> 
+       <td nowrap valign="top">309 Letcher</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">309 Letcher - Admissions 1st Floor (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">lp16</td> 
+       <td nowrap valign="top">Moody Hall</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Moody Hall - Admissions (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">LPRMDHADMLJ</td> 
+       <td nowrap valign="top">Moody Hall</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Moody Hall - Admissions (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">LPRMDHADMLJ12</td> 
+       <td nowrap valign="top">Moody Hall</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Moody Hall - Admissions (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Admissions </td> 
+       <td nowrap valign="top">LPRMDHADMLS</td> 
+       <td nowrap valign="top">Moody Hall</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Moody Hall - Admissions (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Air Force </td> 
+       <td nowrap valign="top">LP34</td> 
+       <td nowrap valign="top">Kilbourne Hall Room 317</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">317 Kilbourne Hall - Air Force (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Air Force </td> 
+       <td nowrap valign="top">LPRKH317LJ</td> 
+       <td nowrap valign="top">Kilbourne Hall Room 317</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">317 Kilbourne Hall - Air Force (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Air Force </td> 
+       <td nowrap valign="top">LPRKH317LJ12</td> 
+       <td nowrap valign="top">Kilbourne Hall Room 317</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">317 Kilbourne Hall - Air Force (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Air Force </td> 
+       <td nowrap valign="top">LPRKH317LS</td> 
+       <td nowrap valign="top">Kilbourne Hall Room 317</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">317 Kilbourne Hall - Air Force (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Army </td> 
+       <td nowrap valign="top">LP51</td> 
+       <td nowrap valign="top">Kilbourne Hall Room 217</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">217 Kilbourne Hall - Army (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Army </td> 
+       <td nowrap valign="top">LPRKH217LJ</td> 
+       <td nowrap valign="top">Kilbourne Hall Room 217</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">217 Kilbourne Hall - Army (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Army </td> 
+       <td nowrap valign="top">LPRKH217LJ12</td> 
+       <td nowrap valign="top">Kilbourne Hall Room 217</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">217 Kilbourne Hall - Army (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Army </td> 
+       <td nowrap valign="top">LPRKH217LS</td> 
+       <td nowrap valign="top">Kilbourne Hall Room 217</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">217 Kilbourne Hall - Army (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Advising </td> 
+       <td nowrap valign="top">LP63</td> 
+       <td nowrap valign="top">Carroll Hall Room 210C</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">210C Carroll Hall - Athletic Advising (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Advising </td> 
+       <td nowrap valign="top">LPRCH210CLJ</td> 
+       <td nowrap valign="top">Carroll Hall Room 210C</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">210C Carroll Hall - Athletic Advising (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Advising </td> 
+       <td nowrap valign="top">LPRCH210CLJ12</td> 
+       <td nowrap valign="top">Carroll Hall Room 210C</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">210C Carroll Hall - Athletic Advising (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Advising </td> 
+       <td nowrap valign="top">LPRCH210CLS</td> 
+       <td nowrap valign="top">Carroll Hall Room 210C</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">210C Carroll Hall - Athletic Advising (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Advising </td> 
+       <td nowrap valign="top">LPRCH210CLS17</td> 
+       <td nowrap valign="top">Carroll Hall Room 210C</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">210C Carroll Hall - Athletic Advising (17 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Department </td> 
+       <td nowrap valign="top">LP33</td> 
+       <td nowrap valign="top">Cameron Hall Room 302</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">302 Cameron Hall - Athletic Department (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Department </td> 
+       <td nowrap valign="top">LPRCAMH302LJ</td> 
+       <td nowrap valign="top">Cameron Hall Room 302</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">302 Cameron Hall - Athletic Department (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Department </td> 
+       <td nowrap valign="top">LPRCAMH302LJ12</td> 
+       <td nowrap valign="top">Cameron Hall Room 302</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">302 Cameron Hall - Athletic Department (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Department </td> 
+       <td nowrap valign="top">LPRCAMH302LS</td> 
+       <td nowrap valign="top">Cameron Hall Room 302</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">302 Cameron Hall - Athletic Department (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Department </td> 
+       <td nowrap valign="top">LP46</td> 
+       <td nowrap valign="top">241 Cameron Hall</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">241 Cameron Hall</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Department </td> 
+       <td nowrap valign="top">LPRCAMH241LJ</td> 
+       <td nowrap valign="top">241 Cameron Hall</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">241 Cameron Hall</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Department </td> 
+       <td nowrap valign="top">LPRCAMH241LJ12</td> 
+       <td nowrap valign="top">241 Cameron Hall</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">241 Cameron Hall</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Department </td> 
+       <td nowrap valign="top">LPRCAMH241LS</td> 
+       <td nowrap valign="top">241 Cameron Hall</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">241 Cameron Hall</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Department </td> 
+       <td nowrap valign="top">LP50</td> 
+       <td nowrap valign="top">Cameron Hall Room 204</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">204 Cameron Hall - Basketball (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Department </td> 
+       <td nowrap valign="top">LPRCAMH204LJ</td> 
+       <td nowrap valign="top">Cameron Hall Room 204</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">204 Cameron Hall - Basketball (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Department </td> 
+       <td nowrap valign="top">LPRCAMH204LJ12</td> 
+       <td nowrap valign="top">Cameron Hall Room 204</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">204 Cameron Hall - Basketball (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Athletic Department </td> 
+       <td nowrap valign="top">LPRCAMH204LS</td> 
+       <td nowrap valign="top">Cameron Hall Room 204</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">204 Cameron Hall - Basketball (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Biology </td> 
+       <td nowrap valign="top">LP55</td> 
+       <td nowrap valign="top">Science Building Room 203C</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">203C Science Building - Biology (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Biology </td> 
+       <td nowrap valign="top">LPRSB203CLJ</td> 
+       <td nowrap valign="top">Science Building Room 203C</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">203C Science Building - Biology (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Biology </td> 
+       <td nowrap valign="top">LPRSB203CLJ12</td> 
+       <td nowrap valign="top">Science Building Room 203C</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">203C Science Building - Biology (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Biology </td> 
+       <td nowrap valign="top">LPRSB203CLS</td> 
+       <td nowrap valign="top">Science Building Room 203C</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">203C Science Building - Biology (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Biology </td> 
+       <td nowrap valign="top">LPRSB203CLS17</td> 
+       <td nowrap valign="top">Science Building Room 203C</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">203C Science Building - Biology (17 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Bursar </td> 
+       <td nowrap valign="top">LP48</td> 
+       <td nowrap valign="top">Smith Hall Room 310A</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">310A Smith Hall - Bursar (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Bursar </td> 
+       <td nowrap valign="top">LPRSH310ALJ</td> 
+       <td nowrap valign="top">Smith Hall Room 310A</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">310A Smith Hall - Bursar (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Bursar </td> 
+       <td nowrap valign="top">LPRSH310ALJ12</td> 
+       <td nowrap valign="top">Smith Hall Room 310A</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">310A Smith Hall - Bursar (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Bursar </td> 
+       <td nowrap valign="top">LPRSH310ALS</td> 
+       <td nowrap valign="top">Smith Hall Room 310A</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">310A Smith Hall - Bursar (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Bursar </td> 
+       <td nowrap valign="top">LPRSH310ALSD</td> 
+       <td nowrap valign="top">Smith Hall Room 310A</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">310A Smith Hall - Bursar (12 characters per inch in Landscape format - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Business Office </td> 
+       <td nowrap valign="top">LP62</td> 
+       <td nowrap valign="top">Smith Hall Room 303</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Smith Hall - Business Office (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Business Office </td> 
+       <td nowrap valign="top">LPRSH303LJ</td> 
+       <td nowrap valign="top">Smith Hall Room 303</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Smith Hall - Business Office (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Business Office </td> 
+       <td nowrap valign="top">LPRSH303LJ12</td> 
+       <td nowrap valign="top">Smith Hall Room 303</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Smith Hall - Business Office (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Business Office </td> 
+       <td nowrap valign="top">LPRSH303LS</td> 
+       <td nowrap valign="top">Smith Hall Room 303</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Smith Hall - Business Office (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Cadet Affairs </td> 
+       <td nowrap valign="top">lp19</td> 
+       <td nowrap valign="top">Lejeune Hall Room 310</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">310 Lejeune Hall - Cadet Affairs (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Cadet Affairs </td> 
+       <td nowrap valign="top">LPRLH310LJ</td> 
+       <td nowrap valign="top">Lejeune Hall Room 310</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">310 Lejeune Hall - Cadet Affairs (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Cadet Affairs </td> 
+       <td nowrap valign="top">LPRLH310LJ12</td> 
+       <td nowrap valign="top">Lejeune Hall Room 310</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">310 Lejeune Hall - Cadet Affairs (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Cadet Affairs </td> 
+       <td nowrap valign="top">LPRLH310LS</td> 
+       <td nowrap valign="top">Lejeune Hall Room 310</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">310 Lejeune Hall - Cadet Affairs (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Career Services </td> 
+       <td nowrap valign="top">LP32</td> 
+       <td nowrap valign="top">Carroll Hall Room 311</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">311 Carroll Hall - Career Services (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Career Services </td> 
+       <td nowrap valign="top">LPRCH311LJ</td> 
+       <td nowrap valign="top">Carroll Hall Room 311</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">311 Carroll Hall - Career Services (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Career Services </td> 
+       <td nowrap valign="top">LPRCH311LJ12</td> 
+       <td nowrap valign="top">Carroll Hall Room 311</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">311 Carroll Hall - Career Services (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Career Services </td> 
+       <td nowrap valign="top">LPRCH311LS</td> 
+       <td nowrap valign="top">Carroll Hall Room 311</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">311 Carroll Hall - Career Services (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Cashier </td> 
+       <td nowrap valign="top">LP07</td> 
+       <td nowrap valign="top">Smith Hall Room 310</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">310 Smith Hall - Cashier (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Cashier </td> 
+       <td nowrap valign="top">LPRSH310LJ</td> 
+       <td nowrap valign="top">Smith Hall Room 310</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">310 Smith Hall - Cashier (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Cashier </td> 
+       <td nowrap valign="top">LPRSH310LJ12</td> 
+       <td nowrap valign="top">Smith Hall Room 310</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">310 Smith Hall - Cashier (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Cashier </td> 
+       <td nowrap valign="top">LPRSH310LS</td> 
+       <td nowrap valign="top">Smith Hall Room 310</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">310 Smith Hall - Cashier (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Chemistry </td> 
+       <td nowrap valign="top">LP30</td> 
+       <td nowrap valign="top">Science Building Room 303C</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303C Science Building - Chemistry (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Chemistry </td> 
+       <td nowrap valign="top">LPRSB303CLJ</td> 
+       <td nowrap valign="top">Science Building Room 303C</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303C Science Building - Chemistry (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Chemistry </td> 
+       <td nowrap valign="top">LPRSB303CLJ12</td> 
+       <td nowrap valign="top">Science Building Room 303C</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303C Science Building - Chemistry (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Chemistry </td> 
+       <td nowrap valign="top">LPRSB303CLS</td> 
+       <td nowrap valign="top">Science Building Room 303C</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303C Science Building - Chemistry (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Civil Engineering </td> 
+       <td nowrap valign="top">LP27</td> 
+       <td nowrap valign="top">Nichols Engineering Room 609</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">609 Nichols Engineering - CE (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Civil Engineering </td> 
+       <td nowrap valign="top">LPRNEB609LJ</td> 
+       <td nowrap valign="top">Nichols Engineering Room 609</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">609 Nichols Engineering - CE (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Civil Engineering </td> 
+       <td nowrap valign="top">LPRNEB609LJ12</td> 
+       <td nowrap valign="top">Nichols Engineering Room 609</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">609 Nichols Engineering - CE (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Civil Engineering </td> 
+       <td nowrap valign="top">LPRNEB609LS</td> 
+       <td nowrap valign="top">Nichols Engineering Room 609</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">609 Nichols Engineering - CE (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Commandant </td> 
+       <td nowrap valign="top">LP40</td> 
+       <td nowrap valign="top">Old Barracks Room 131</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">131 Old Barracks - Commandant (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Commandant </td> 
+       <td nowrap valign="top">LPROB131LJ</td> 
+       <td nowrap valign="top">Old Barracks Room 131</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">131 Old Barracks - Commandant (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Commandant </td> 
+       <td nowrap valign="top">LPROB131LJ12</td> 
+       <td nowrap valign="top">Old Barracks Room 131</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">131 Old Barracks - Commandant (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Commandant </td> 
+       <td nowrap valign="top">LPROB131LJ17</td> 
+       <td nowrap valign="top">Old Barracks Room 131</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">131 Old Barracks - Commandant (17 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Commandant </td> 
+       <td nowrap valign="top">LPROB131LS</td> 
+       <td nowrap valign="top">Old Barracks Room 131</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">131 Old Barracks - Commandant (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Commandant </td> 
+       <td nowrap valign="top">LPROB131LS17</td> 
+       <td nowrap valign="top">Old Barracks Room 131</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">131 Old Barracks - Commandant (17 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Communications &amp; Marketing </td> 
+       <td nowrap valign="top">LP52</td> 
+       <td nowrap valign="top">Smith Hall Room 111</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">111 Smith Hall - Communications &amp; Marketing (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Communications &amp; Marketing </td> 
+       <td nowrap valign="top">LPRSH111LJ</td> 
+       <td nowrap valign="top">Smith Hall Room 111</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">111 Smith Hall - Communications &amp; Marketing (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Communications &amp; Marketing </td> 
+       <td nowrap valign="top">LPRSH111LJ12</td> 
+       <td nowrap valign="top">Smith Hall Room 111</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">111 Smith Hall - Communications &amp; Marketing (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Communications &amp; Marketing </td> 
+       <td nowrap valign="top">LPRSH111LS</td> 
+       <td nowrap valign="top">Smith Hall Room 111</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">111 Smith Hall - Communications &amp; Marketing (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Comptroller </td> 
+       <td nowrap valign="top">lp14</td> 
+       <td nowrap valign="top">Smith Hall Room 311</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">311 Smith Hall - Comptroller (2) (HP8000) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Comptroller </td> 
+       <td nowrap valign="top">LPRSH3112LJ</td> 
+       <td nowrap valign="top">Smith Hall Room 311</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">311 Smith Hall - Comptroller (2) (HP8000) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Comptroller </td> 
+       <td nowrap valign="top">LPRSH3112LJ12</td> 
+       <td nowrap valign="top">Smith Hall Room 311</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">311 Smith Hall - Comptroller (2) (HP8000) (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Comptroller </td> 
+       <td nowrap valign="top">LPRSH3112LS</td> 
+       <td nowrap valign="top">Smith Hall Room 311</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">311 Smith Hall - Comptroller (2) (HP8000) (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Comptroller </td> 
+       <td nowrap valign="top">LPRSH3112LSD</td> 
+       <td nowrap valign="top">Smith Hall Room 311</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">311 Smith Hall - Comptroller (2) (HP8000) (12 characters per inch in Landscape Duplex format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Comptroller </td> 
+       <td nowrap valign="top">LP47</td> 
+       <td nowrap valign="top">Smith Hall Room 311</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">311 Smith Hall - Comptroller (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Comptroller </td> 
+       <td nowrap valign="top">LPRSH311LJ</td> 
+       <td nowrap valign="top">Smith Hall Room 311</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">311 Smith Hall - Comptroller (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Comptroller </td> 
+       <td nowrap valign="top">LPRSH311LJ12</td> 
+       <td nowrap valign="top">Smith Hall Room 311</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">311 Smith Hall - Comptroller (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Comptroller </td> 
+       <td nowrap valign="top">LPRSH311LS</td> 
+       <td nowrap valign="top">Smith Hall Room 311</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">311 Smith Hall - Comptroller (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Comptroller </td> 
+       <td nowrap valign="top">LPRSH311LSD</td> 
+       <td nowrap valign="top">Smith Hall Room 311</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">311 Smith Hall - Comptroller (12 characters per inch in Landscape format - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Construction </td> 
+       <td nowrap valign="top">LP65</td> 
+       <td nowrap valign="top">307 Letcher</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">307 Letcher Avenue 2nd Floor - Director of Construction (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Construction </td> 
+       <td nowrap valign="top">LPRDC200LJ</td> 
+       <td nowrap valign="top">307 Letcher</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">307 Letcher Avenue 2nd Floor - Director of Construction (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Construction </td> 
+       <td nowrap valign="top">LPRDC200LJ12</td> 
+       <td nowrap valign="top">307 Letcher</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">307 Letcher Avenue 2nd Floor - Director of Construction (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Construction </td> 
+       <td nowrap valign="top">LPRDC200LS</td> 
+       <td nowrap valign="top">307 Letcher</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">307 Letcher Avenue 2nd Floor - Director of Construction (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Counseling </td> 
+       <td nowrap valign="top">LP05</td> 
+       <td nowrap valign="top">Lejeune Hall Room 408 - 1</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">408 Room 1 Lejeune Hall (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Counseling </td> 
+       <td nowrap valign="top">LPRLH4081LJ</td> 
+       <td nowrap valign="top">Lejeune Hall Room 408 - 1</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">408 Room 1 Lejeune Hall (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Counseling </td> 
+       <td nowrap valign="top">LPRLH4081LJ12</td> 
+       <td nowrap valign="top">Lejeune Hall Room 408 - 1</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">408 Room 1 Lejeune Hall (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Counseling </td> 
+       <td nowrap valign="top">LPRLH4081LS</td> 
+       <td nowrap valign="top">Lejeune Hall Room 408 - 1</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">408 Room 1 Lejeune Hall (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Dean's Office </td> 
+       <td nowrap valign="top">lp18</td> 
+       <td nowrap valign="top">Smith Hall Room 210</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">210 Smith Hall - Dean's Office (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Dean's Office </td> 
+       <td nowrap valign="top">LPRSH210LJ</td> 
+       <td nowrap valign="top">Smith Hall Room 210</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">210 Smith Hall - Dean's Office (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Dean's Office </td> 
+       <td nowrap valign="top">LPRSH210LJ12</td> 
+       <td nowrap valign="top">Smith Hall Room 210</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">210 Smith Hall - Dean's Office (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Dean's Office </td> 
+       <td nowrap valign="top">LPRSH210LS</td> 
+       <td nowrap valign="top">Smith Hall Room 210</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">210 Smith Hall - Dean's Office (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Deputy Commandant </td> 
+       <td nowrap valign="top">LP35</td> 
+       <td nowrap valign="top">Old Barracks Room 135</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">135 Old Barracks - Deputy Commandant (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Deputy Commandant </td> 
+       <td nowrap valign="top">LPROB135LJ</td> 
+       <td nowrap valign="top">Old Barracks Room 135</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">135 Old Barracks - Deputy Commandant (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Deputy Commandant </td> 
+       <td nowrap valign="top">LPROB135LJ12</td> 
+       <td nowrap valign="top">Old Barracks Room 135</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">135 Old Barracks - Deputy Commandant (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Deputy Commandant </td> 
+       <td nowrap valign="top">LPROB135LJ17</td> 
+       <td nowrap valign="top">Old Barracks Room 135</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">135 Old Barracks - Deputy Commandant (17 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Deputy Commandant </td> 
+       <td nowrap valign="top">LPROB135LS</td> 
+       <td nowrap valign="top">Old Barracks Room 135</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">135 Old Barracks - Deputy Commandant (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Deputy Commandant </td> 
+       <td nowrap valign="top">LPROB135LS17</td> 
+       <td nowrap valign="top">Old Barracks Room 135</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">135 Old Barracks - Deputy Commandant (17 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Economics </td> 
+       <td nowrap valign="top">LP36</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 336</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">336 Scott Shipp Hall - Economics (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Economics </td> 
+       <td nowrap valign="top">LPRSS336LJ</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 336</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">336 Scott Shipp Hall - Economics (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Economics </td> 
+       <td nowrap valign="top">LPRSS336LJ12</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 336</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">336 Scott Shipp Hall - Economics (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Economics </td> 
+       <td nowrap valign="top">LPRSS336LS</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 336</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">336 Scott Shipp Hall - Economics (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Electrical Engineering </td> 
+       <td nowrap valign="top">lp09</td> 
+       <td nowrap valign="top">Nichols Engineering Room 508</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">508 Nichols Engineering - EE (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Electrical Engineering </td> 
+       <td nowrap valign="top">LPRNEB508LJ</td> 
+       <td nowrap valign="top">Nichols Engineering Room 508</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">508 Nichols Engineering - EE (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Electrical Engineering </td> 
+       <td nowrap valign="top">LPRNEB508LJ12</td> 
+       <td nowrap valign="top">Nichols Engineering Room 508</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">508 Nichols Engineering - EE (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Electrical Engineering </td> 
+       <td nowrap valign="top">LPRNEB508LS</td> 
+       <td nowrap valign="top">Nichols Engineering Room 508</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">508 Nichols Engineering - EE (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">English </td> 
+       <td nowrap valign="top">LP06</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 227</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">227 Scott Shipp Hall (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">English </td> 
+       <td nowrap valign="top">LPRSS227LJ</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 227</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">227 Scott Shipp Hall (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">English </td> 
+       <td nowrap valign="top">LPRSS227LJ12</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 227</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">227 Scott Shipp Hall (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">English </td> 
+       <td nowrap valign="top">LPRSS227LS</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 227</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">227 Scott Shipp Hall (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Financial Aid </td> 
+       <td nowrap valign="top">lp17</td> 
+       <td nowrap valign="top">Carroll Hall Room 306</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">306 Carroll Hall - Financial Aid (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Financial Aid </td> 
+       <td nowrap valign="top">LPRCH306LJ</td> 
+       <td nowrap valign="top">Carroll Hall Room 306</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">306 Carroll Hall - Financial Aid (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Financial Aid </td> 
+       <td nowrap valign="top">LPRCH306LJ12</td> 
+       <td nowrap valign="top">Carroll Hall Room 306</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">306 Carroll Hall - Financial Aid (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Financial Aid </td> 
+       <td nowrap valign="top">LPRCH306LS</td> 
+       <td nowrap valign="top">Carroll Hall Room 306</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">306 Carroll Hall - Financial Aid (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Financial Aid </td> 
+       <td nowrap valign="top">LP58</td> 
+       <td nowrap valign="top">Carroll Hall Room 306</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">306 Carroll Hall - Financial Aid (2) (HP LJ4600) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Financial Aid </td> 
+       <td nowrap valign="top">LPRCH3062LJ</td> 
+       <td nowrap valign="top">Carroll Hall Room 306</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">306 Carroll Hall - Financial Aid (2) (HP LJ4600) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Financial Aid </td> 
+       <td nowrap valign="top">LPRCH3062LJ12</td> 
+       <td nowrap valign="top">Carroll Hall Room 306</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">306 Carroll Hall - Financial Aid (2) (HP LJ4600) (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Financial Aid </td> 
+       <td nowrap valign="top">LPRCH3062LS</td> 
+       <td nowrap valign="top">Carroll Hall Room 306</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">306 Carroll Hall - Financial Aid (2) (HP LJ4600) (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Guard Room </td> 
+       <td nowrap valign="top">LP22</td> 
+       <td nowrap valign="top">Guard Room</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Guard Room (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Guard Room </td> 
+       <td nowrap valign="top">LPRGUARDLJ</td> 
+       <td nowrap valign="top">Guard Room</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Guard Room (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Guard Room </td> 
+       <td nowrap valign="top">LPRGUARDLJ12</td> 
+       <td nowrap valign="top">Guard Room</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Guard Room (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Guard Room </td> 
+       <td nowrap valign="top">LPRGUARDLJ17</td> 
+       <td nowrap valign="top">Guard Room</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Guard Room (17 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Guard Room </td> 
+       <td nowrap valign="top">LPRGUARDLS</td> 
+       <td nowrap valign="top">Guard Room</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Guard Room (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Headquarters </td> 
+       <td nowrap valign="top">LP28</td> 
+       <td nowrap valign="top">Carroll Hall Room 202</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">202 Carroll Hall - Headquarters (1) (HP4050) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Headquarters </td> 
+       <td nowrap valign="top">LPRCH2021LJ</td> 
+       <td nowrap valign="top">Carroll Hall Room 202</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">202 Carroll Hall - Headquarters (1) (HP4050) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Headquarters </td> 
+       <td nowrap valign="top">LPRCH2021LJ12</td> 
+       <td nowrap valign="top">Carroll Hall Room 202</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">202 Carroll Hall - Headquarters (1) (HP4050) (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Headquarters </td> 
+       <td nowrap valign="top">LPRCH2021LS</td> 
+       <td nowrap valign="top">Carroll Hall Room 202</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">202 Carroll Hall - Headquarters (1) (HP4050) (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Headquarters </td> 
+       <td nowrap valign="top">LPRCH2021LS17</td> 
+       <td nowrap valign="top">Carroll Hall Room 202</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">202 Carroll Hall - Headquarters (1) (HP4050) (17 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Headquarters </td> 
+       <td nowrap valign="top">LP29</td> 
+       <td nowrap valign="top">Carroll Hall Room 202</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">202 Carroll Hall - Headquarters (2) (HPLJ3) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Headquarters </td> 
+       <td nowrap valign="top">LPRCH2022LJ</td> 
+       <td nowrap valign="top">Carroll Hall Room 202</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">202 Carroll Hall - Headquarters (2) (HPLJ3) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Headquarters </td> 
+       <td nowrap valign="top">LPRCH2022LJ12</td> 
+       <td nowrap valign="top">Carroll Hall Room 202</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">202 Carroll Hall - Headquarters (2) (HPLJ3) (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Headquarters </td> 
+       <td nowrap valign="top">LPRCH2022LS</td> 
+       <td nowrap valign="top">Carroll Hall Room 202</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">202 Carroll Hall - Headquarters (2) (HPLJ3) (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">History </td> 
+       <td nowrap valign="top">LP31</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 528</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">528 Scott Shipp Hall - History (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">History </td> 
+       <td nowrap valign="top">LPRSS528LJ</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 528</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">528 Scott Shipp Hall - History (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">History </td> 
+       <td nowrap valign="top">LPRSS528LJ12</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 528</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">528 Scott Shipp Hall - History (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">History </td> 
+       <td nowrap valign="top">LPRSS528LS</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 528</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">528 Scott Shipp Hall - History (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Hospital </td> 
+       <td nowrap valign="top">lp23</td> 
+       <td nowrap valign="top">Hospital</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Hospital Office Area (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Hospital </td> 
+       <td nowrap valign="top">LPRHOOFFLJ</td> 
+       <td nowrap valign="top">Hospital</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Hospital Office Area (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Hospital </td> 
+       <td nowrap valign="top">LPRHOOFFLJ12</td> 
+       <td nowrap valign="top">Hospital</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Hospital Office Area (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Hospital </td> 
+       <td nowrap valign="top">LPRHOOFFLJ17</td> 
+       <td nowrap valign="top">Hospital</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Hospital Office Area (17 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Hospital </td> 
+       <td nowrap valign="top">LPRHOOFFLS</td> 
+       <td nowrap valign="top">Hospital</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Hospital Office Area (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">LP</td> 
+       <td nowrap valign="top">Nichols Engineering IT Dept</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">System Default Printer</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">LP00</td> 
+       <td nowrap valign="top">Nichols Engineering IT Dept</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">System Default Printer</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">lp01</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">330 LaserJet (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">LPRNEB330</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">330 LaserJet (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">LPRNEB33012</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">330 LaserJet (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">LPRNEB33012LS</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">330 LaserJet (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">LPRNEB33017</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">330 LaserJet (17 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">neb330</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">330 LaserJet (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">neb33012</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">330 LaserJet (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEB33012ls</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">330 LaserJet (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEB33014ls</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">14</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">330 LaserJet (14 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">neb33017</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">330 LaserJet (17 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEB33017CR</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">330 LaserJet (17 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEB33017LS</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">330 LaserJet (17 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEB33019LS</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">19</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">300 LaserJet (19 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEB33020LS</td> 
+       <td nowrap valign="top">Nichols Engineering Room 330</td> 
+       <td nowrap valign="top">20</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">330 LaserJet (20 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">LP57</td> 
+       <td nowrap valign="top">Science Building Room 204</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">204 Science Building - IT Computer Lab (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">LPRSB204LJ</td> 
+       <td nowrap valign="top">Science Building Room 204</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">204 Science Building - IT Computer Lab (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">LPRSB204LJ12</td> 
+       <td nowrap valign="top">Science Building Room 204</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">204 Science Building - IT Computer Lab (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">LPRSB204LS</td> 
+       <td nowrap valign="top">Science Building Room 204</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">204 Science Building - IT Computer Lab (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">LP64</td> 
+       <td nowrap valign="top">Nichols Engineering Room 501</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">501 Nichols Engineering - Computer Center (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEBX</td> 
+       <td nowrap valign="top">Nichols Engineering Room 501</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">501 Nichols Engineering - Computer Center (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEBX12</td> 
+       <td nowrap valign="top">Nichols Engineering Room 501</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">501 Nichols Engineering - Computer Center (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEBX12D</td> 
+       <td nowrap valign="top">Nichols Engineering Room 501</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">501 Nichols Engineering - Computer Center (12 characters per inch - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEBX12LS</td> 
+       <td nowrap valign="top">Nichols Engineering Room 501</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">501 Nichols Engineering - Computer Center (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEBX12LSD</td> 
+       <td nowrap valign="top">Nichols Engineering Room 501</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">501 Nichols Engineering - Computer Center (12 characters per inch in Landscape format - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEBX17</td> 
+       <td nowrap valign="top">Nichols Engineering Room 501</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">501 Nichols Engineering - Computer Center (17 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEBX17D</td> 
+       <td nowrap valign="top">Nichols Engineering Room 501</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">501 Nichols Engineering - Computer Center (17 characters per inch - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEBX17H</td> 
+       <td nowrap valign="top">Nichols Engineering Room 501</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">501 Nichols Engineering - Computer Center (17 characters per inch - HOLD)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEBX17LS</td> 
+       <td nowrap valign="top">Nichols Engineering Room 501</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">501 Nichols Engineering - Computer Center (17 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEBX17LSD</td> 
+       <td nowrap valign="top">Nichols Engineering Room 501</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">501 Nichols Engineering - Computer Center (17 characters per inch in Landscape format - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Information Technology </td> 
+       <td nowrap valign="top">NEBX20LS</td> 
+       <td nowrap valign="top">Nichols Engineering Room 501</td> 
+       <td nowrap valign="top">20</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">501 Nichols Engineering - Computer Center (20 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Institutional Research </td> 
+       <td nowrap valign="top">LP61</td> 
+       <td nowrap valign="top">Smith Hall Room 101</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">101 Smith Hall - Institutional Research (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Institutional Research </td> 
+       <td nowrap valign="top">LPRSH101LJ</td> 
+       <td nowrap valign="top">Smith Hall Room 101</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">101 Smith Hall - Institutional Research (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Institutional Research </td> 
+       <td nowrap valign="top">LPRSH101LJ12</td> 
+       <td nowrap valign="top">Smith Hall Room 101</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">101 Smith Hall - Institutional Research (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Institutional Research </td> 
+       <td nowrap valign="top">LPRSH101LS</td> 
+       <td nowrap valign="top">Smith Hall Room 101</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">101 Smith Hall - Institutional Research (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">International Studies </td> 
+       <td nowrap valign="top">LP37</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 444</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">444 Scott Shipp Hall - International Studies (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">International Studies </td> 
+       <td nowrap valign="top">LPRSS444LJ</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 444</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">444 Scott Shipp Hall - International Studies (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">International Studies </td> 
+       <td nowrap valign="top">LPRSS444LJ12</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 444</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">444 Scott Shipp Hall - International Studies (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">International Studies </td> 
+       <td nowrap valign="top">LPRSS444LS</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 444</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">444 Scott Shipp Hall - International Studies (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Laundry </td> 
+       <td nowrap valign="top">LP25</td> 
+       <td nowrap valign="top">Laundry</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Laundry Office (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Laundry </td> 
+       <td nowrap valign="top">LPRLAUND1LJ</td> 
+       <td nowrap valign="top">Laundry</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Laundry Office (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Laundry </td> 
+       <td nowrap valign="top">LPRLAUND1LJ12</td> 
+       <td nowrap valign="top">Laundry</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Laundry Office (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Laundry </td> 
+       <td nowrap valign="top">LPRLAUND1LS</td> 
+       <td nowrap valign="top">Laundry</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Laundry Office (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Learning Center </td> 
+       <td nowrap valign="top">LP66</td> 
+       <td nowrap valign="top">215 Carroll Hall</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">215 Carroll Hall - Learning Center</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Learning Center </td> 
+       <td nowrap valign="top">LPRCH215LJ</td> 
+       <td nowrap valign="top">215 Carroll Hall</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">215 Carroll Hall - Learning Center</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Learning Center </td> 
+       <td nowrap valign="top">LPRCH215LJ12</td> 
+       <td nowrap valign="top">215 Carroll Hall</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">215 Carroll Hall - Learning Center</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Learning Center </td> 
+       <td nowrap valign="top">LPRCH215LS</td> 
+       <td nowrap valign="top">215 Carroll Hall</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">215 Carroll Hall - Learning Center</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Mechanical Engineering </td> 
+       <td nowrap valign="top">LP41</td> 
+       <td nowrap valign="top">Nichols Engineering Room 448</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">709 Nichols Engineering - ME (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Mechanical Engineering </td> 
+       <td nowrap valign="top">LPRNEB709LJ</td> 
+       <td nowrap valign="top">Nichols Engineering Room 448</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">709 Nichols Engineering - ME (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Mechanical Engineering </td> 
+       <td nowrap valign="top">LPRNEB709LJ12</td> 
+       <td nowrap valign="top">Nichols Engineering Room 448</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">709 Nichols Engineering - ME (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Mechanical Engineering </td> 
+       <td nowrap valign="top">LPRNEB709LS</td> 
+       <td nowrap valign="top">Nichols Engineering Room 448</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">709 Nichols Engineering - ME (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Military store </td> 
+       <td nowrap valign="top">LP49</td> 
+       <td nowrap valign="top">Richardson Hall Room 401</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">401 Richardson Hall - Military Store (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Military store </td> 
+       <td nowrap valign="top">LPRRH401LJ</td> 
+       <td nowrap valign="top">Richardson Hall Room 401</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">401 Richardson Hall - Military Store (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Military store </td> 
+       <td nowrap valign="top">LPRRH401LJ12</td> 
+       <td nowrap valign="top">Richardson Hall Room 401</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">401 Richardson Hall - Military Store (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Military store </td> 
+       <td nowrap valign="top">LPRRH401LS</td> 
+       <td nowrap valign="top">Richardson Hall Room 401</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">401 Richardson Hall - Military Store (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Modern Languages </td> 
+       <td nowrap valign="top">LP26</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 421</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">421 Scott Shipp Hall - Modern Languages (1) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Modern Languages </td> 
+       <td nowrap valign="top">LPRSS421LJ</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 421</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">421 Scott Shipp Hall - Modern Languages (1) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Modern Languages </td> 
+       <td nowrap valign="top">LPRSS421LJ12</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 421</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">421 Scott Shipp Hall - Modern Languages (1) (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Modern Languages </td> 
+       <td nowrap valign="top">LPRSS421LS</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 421</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">421 Scott Shipp Hall - Modern Languages (1) (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Modern Languages </td> 
+       <td nowrap valign="top">LP44</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 428</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">428 Scott Shipp Hall - Modern Languages (2) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Modern Languages </td> 
+       <td nowrap valign="top">LPRSS428LJ</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 428</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">428 Scott Shipp Hall - Modern Languages (2) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Modern Languages </td> 
+       <td nowrap valign="top">LPRSS428LJ12</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 428</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">428 Scott Shipp Hall - Modern Languages (2) (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Modern Languages </td> 
+       <td nowrap valign="top">LPRSS428LS</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 428</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">428 Scott Shipp Hall - Modern Languages (2) (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Modern Languages </td> 
+       <td nowrap valign="top">LP54</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 416</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">416 Scott Shipp Hall - Modern Languages (3) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Modern Languages </td> 
+       <td nowrap valign="top">LPRSS416LJ</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 416</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">416 Scott Shipp Hall - Modern Languages (3) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Modern Languages </td> 
+       <td nowrap valign="top">LPRSS416LJ12</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 416</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">416 Scott Shipp Hall - Modern Languages (3) (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Modern Languages </td> 
+       <td nowrap valign="top">LPRSS416LS</td> 
+       <td nowrap valign="top">Scott Shipp Hall Room 416</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">416 Scott Shipp Hall - Modern Languages (3) (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Navy </td> 
+       <td nowrap valign="top">LP56</td> 
+       <td nowrap valign="top">Kilbourne Hall Room 302</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">302 Kilbourne Hall - Navy (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Navy </td> 
+       <td nowrap valign="top">LPRKH302LJ</td> 
+       <td nowrap valign="top">Kilbourne Hall Room 302</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">302 Kilbourne Hall - Navy (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Navy </td> 
+       <td nowrap valign="top">LPRKH302LJ12</td> 
+       <td nowrap valign="top">Kilbourne Hall Room 302</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">302 Kilbourne Hall - Navy (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Navy </td> 
+       <td nowrap valign="top">LPRKH302LS</td> 
+       <td nowrap valign="top">Kilbourne Hall Room 302</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">302 Kilbourne Hall - Navy (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Personnel </td> 
+       <td nowrap valign="top">LP12</td> 
+       <td nowrap valign="top">305 Letcher</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">305 Letcher - Personnel Main Floor (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Personnel </td> 
+       <td nowrap valign="top">LPRPERMAINLJ</td> 
+       <td nowrap valign="top">305 Letcher</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">305 Letcher - Personnel Main Floor (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Personnel </td> 
+       <td nowrap valign="top">LPRPERMAINLJ12</td> 
+       <td nowrap valign="top">305 Letcher</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">305 Letcher - Personnel Main Floor (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Personnel </td> 
+       <td nowrap valign="top">LPRPERMAINLJ17</td> 
+       <td nowrap valign="top">305 Letcher</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">305 Letcher - Personnel Main Floor (17 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Personnel </td> 
+       <td nowrap valign="top">LPRPERMAINLS</td> 
+       <td nowrap valign="top">305 Letcher</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">305 Letcher - Personnel Main Floor (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Personnel </td> 
+       <td nowrap valign="top">lp13</td> 
+       <td nowrap valign="top">305 Letcher</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">305 Letcher - Personnel Upstairs Floor (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Personnel </td> 
+       <td nowrap valign="top">LPRPERUPLJ</td> 
+       <td nowrap valign="top">305 Letcher</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">305 Letcher - Personnel Upstairs Floor (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Personnel </td> 
+       <td nowrap valign="top">LPRPERUPLJ12</td> 
+       <td nowrap valign="top">305 Letcher</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">305 Letcher - Personnel Upstairs Floor (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Personnel </td> 
+       <td nowrap valign="top">LPRPERUPLJ17</td> 
+       <td nowrap valign="top">305 Letcher</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">305 Letcher - Personnel Upstairs Floor (17 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Personnel </td> 
+       <td nowrap valign="top">LPRPERUPLS</td> 
+       <td nowrap valign="top">305 Letcher</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">305 Letcher - Personnel Upstairs Floor (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Education </td> 
+       <td nowrap valign="top">LP43</td> 
+       <td nowrap valign="top">Cocke Hall Room 320</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">320 Cocke Hall - Physical Education (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Education </td> 
+       <td nowrap valign="top">LPRCKH320LJ</td> 
+       <td nowrap valign="top">Cocke Hall Room 320</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">320 Cocke Hall - Physical Education (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Education </td> 
+       <td nowrap valign="top">LPRCKH320LJ12</td> 
+       <td nowrap valign="top">Cocke Hall Room 320</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">320 Cocke Hall - Physical Education (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Education </td> 
+       <td nowrap valign="top">LPRCKH320LS</td> 
+       <td nowrap valign="top">Cocke Hall Room 320</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">320 Cocke Hall - Physical Education (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Education </td> 
+       <td nowrap valign="top">LPRCKH320LS17</td> 
+       <td nowrap valign="top">Cocke Hall Room 320</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">320 Cocke Hall - Physical Education (17 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Education </td> 
+       <td nowrap valign="top">LP67</td> 
+       <td nowrap valign="top">328 Cocke Hall</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">328 Cocke Hall - Physical Education (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Education </td> 
+       <td nowrap valign="top">LPRCCK328LS</td> 
+       <td nowrap valign="top">328 Cocke Hall</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">328 Cocke Hall - Physical Education (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Education </td> 
+       <td nowrap valign="top">LPRCKH328LJ</td> 
+       <td nowrap valign="top">328 Cocke Hall</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">328 Cocke Hall - Physical Education (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Education </td> 
+       <td nowrap valign="top">LPRCKH328LJ12</td> 
+       <td nowrap valign="top">328 Cocke Hall</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">328 Cocke Hall - Physical Education (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Education </td> 
+       <td nowrap valign="top">LPRCKH328LS17</td> 
+       <td nowrap valign="top">328 Cocke Hall</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">328 Cocke Hall - Physical Education (17 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Plant </td> 
+       <td nowrap valign="top">LP24</td> 
+       <td nowrap valign="top">Physical Plant</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Physical Plant (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Plant </td> 
+       <td nowrap valign="top">LPRPPXLJ</td> 
+       <td nowrap valign="top">Physical Plant</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Physical Plant (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Plant </td> 
+       <td nowrap valign="top">LPRPPXLJ12</td> 
+       <td nowrap valign="top">Physical Plant</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Physical Plant (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physical Plant </td> 
+       <td nowrap valign="top">LPRPPXLS</td> 
+       <td nowrap valign="top">Physical Plant</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Physical Plant(12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physics </td> 
+       <td nowrap valign="top">lp02</td> 
+       <td nowrap valign="top">Mallory Hall Room 353</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">353 Mallory Hall Physics LaserJet (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physics </td> 
+       <td nowrap valign="top">Lprmh353lj</td> 
+       <td nowrap valign="top">Mallory Hall Room 353</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">353 Mallory Hall Physics LaserJet (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physics </td> 
+       <td nowrap valign="top">lprmh353lj12</td> 
+       <td nowrap valign="top">Mallory Hall Room 353</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">353 Mallory Hall Physics LaserJet (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physics </td> 
+       <td nowrap valign="top">LPRMH353Ls</td> 
+       <td nowrap valign="top">Mallory Hall Room 353</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">353 Mallory Hall Physics LaserJet (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physics </td> 
+       <td nowrap valign="top">LP38</td> 
+       <td nowrap valign="top">Mallory Hall Room 351</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">351 Mallory Hall - Physics (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physics </td> 
+       <td nowrap valign="top">LPRMH351LJ</td> 
+       <td nowrap valign="top">Mallory Hall Room 351</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">351 Mallory Hall - Physics (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physics </td> 
+       <td nowrap valign="top">LPRMH351LJ12</td> 
+       <td nowrap valign="top">Mallory Hall Room 351</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">351 Mallory Hall - Physics (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Physics </td> 
+       <td nowrap valign="top">LPRMH351LS</td> 
+       <td nowrap valign="top">Mallory Hall Room 351</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">351 Mallory Hall - Physics (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Preston Library </td> 
+       <td nowrap valign="top">lp20</td> 
+       <td nowrap valign="top">Preston Library</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">208 Smith Hall Copy Room (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Preston Library </td> 
+       <td nowrap valign="top">LPRSH208LJ</td> 
+       <td nowrap valign="top">Preston Library</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">208 Smith Hall Copy Room (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Preston Library </td> 
+       <td nowrap valign="top">LPRSH208LJ12</td> 
+       <td nowrap valign="top">Preston Library</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">208 Smith Hall Copy Room (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Preston Library </td> 
+       <td nowrap valign="top">LPRSH208LS</td> 
+       <td nowrap valign="top">Preston Library</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">208 Smith Hall Copy Room (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Preston Library </td> 
+       <td nowrap valign="top">LPRSH208LSD</td> 
+       <td nowrap valign="top">Preston Library</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">208 Smith Hall Copy Room (12 characters per inch in Landscape format duplexed)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Preston Library </td> 
+       <td nowrap valign="top">LP53</td> 
+       <td nowrap valign="top">Preston Library Room 401K</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">401K Preston Library - Technical Services (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Preston Library </td> 
+       <td nowrap valign="top">LPRPL401KLJ</td> 
+       <td nowrap valign="top">Preston Library Room 401K</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">401K Preston Library - Technical Services (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Preston Library </td> 
+       <td nowrap valign="top">LPRPL401KLJ12</td> 
+       <td nowrap valign="top">Preston Library Room 401K</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">401K Preston Library - Technical Services (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Preston Library </td> 
+       <td nowrap valign="top">LPRPL401KLS</td> 
+       <td nowrap valign="top">Preston Library Room 401K</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">401K Preston Library - Technical Services (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Psychology </td> 
+       <td nowrap valign="top">LP42</td> 
+       <td nowrap valign="top">Carroll Hall Room 414</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">414 Carroll Hall - Psychology (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Psychology </td> 
+       <td nowrap valign="top">LPRCH414LJ</td> 
+       <td nowrap valign="top">Carroll Hall Room 414</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">414 Carroll Hall - Psychology (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Psychology </td> 
+       <td nowrap valign="top">LPRCH414LJ12</td> 
+       <td nowrap valign="top">Carroll Hall Room 414</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">414 Carroll Hall - Psychology (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Psychology </td> 
+       <td nowrap valign="top">LPRCH414LS</td> 
+       <td nowrap valign="top">Carroll Hall Room 414</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">414 Carroll Hall - Psychology (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Purchasing </td> 
+       <td nowrap valign="top">LP08</td> 
+       <td nowrap valign="top">Smith Hall Room 314</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">314 Smith Hall - Purchasing (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Purchasing </td> 
+       <td nowrap valign="top">LPRSH314LJ</td> 
+       <td nowrap valign="top">Smith Hall Room 314</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">314 Smith Hall - Purchasing (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Purchasing </td> 
+       <td nowrap valign="top">LPRSH314LJ12</td> 
+       <td nowrap valign="top">Smith Hall Room 314</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">314 Smith Hall - Purchasing (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Purchasing </td> 
+       <td nowrap valign="top">LPRSH314LS</td> 
+       <td nowrap valign="top">Smith Hall Room 314</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">314 Smith Hall - Purchasing (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Reception Area </td> 
+       <td nowrap valign="top">LP21</td> 
+       <td nowrap valign="top">Hospital</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Hospital Reception Area (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Reception Area </td> 
+       <td nowrap valign="top">LPRHORECLJ</td> 
+       <td nowrap valign="top">Hospital</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Hospital Reception Area (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Reception Area </td> 
+       <td nowrap valign="top">LPRHORECLJ12</td> 
+       <td nowrap valign="top">Hospital</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Hospital Reception Area (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Reception Area </td> 
+       <td nowrap valign="top">LPRHORECLS</td> 
+       <td nowrap valign="top">Hospital</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">Hospital Reception Area (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">lp15</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (1) (HP8000) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH303LJ</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (1) (HP8000) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH303LJ12</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (1) (HP8000) (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH303LS</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (1) (HP8000) (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH303LS14</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">14</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (1) (HP8000) (14 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH303LS17</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (1) (HP8000) (17 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH303LS19</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">19</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (1) (HP8000) (19 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH303LS20</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">20</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (1) (HP8000) (20 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LP45</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (2) (HP8000) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3032LJ</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (2) (HP8000) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3032LJ12</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (2) (HP8000) (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3032LJ12D</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (2) (HP8000) (12 characters per inch - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3032LJ17</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (2) (HP8000) (17 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3032LJ17D</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (2) (HP8000) (17 characters per inch - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3032LS</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (2) (HP8000) (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3032LS14</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">14</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (2) (HP8000) (14 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3032LS17</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (2) (HP8000) (17 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3032LS19</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">19</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (2) (HP8000) (19 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3032LS20</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">20</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (2) (HP8000) (20 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3032LSD</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (2) (HP8000) (12 characters per inch in Landscape format - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3032LSD17</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (2) (HP8000) (17 characters per inch in Landscape format - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LP60</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (3) (HP4300) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3033LJ</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (3) (HP4300) (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3033LJ12</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (3) (HP4300) (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3033LJ12D</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (3) (HP4300) (12 characters per inch - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3033LJ17</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (3) (HP4300) (17 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3033LJ17D</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (3) (HP4300) (17 characters per inch - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3033LS</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (3) (HP4300) (12 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Department</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Printer</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Location</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>CPI</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Orientation</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Duplex</b></font></td> 
+       <td bgcolor="#CFCDBA"><font color="#660033"><b>Comments</b></font></td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3033LS14</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">14</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (3) (HP4300) (14 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3033LS17</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (3) (HP4300) (17 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3033LS19</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">19</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (3) (HP4300) (19 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3033LS20</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">20</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (3) (HP4300) (20 characters per inch in Landscape format)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3033LSD</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (3) (HP4300) (12 characters per inch in Landscape format - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Registrar </td> 
+       <td nowrap valign="top">LPRCH3033LSD17</td> 
+       <td nowrap valign="top">Carroll Hall Room 303</td> 
+       <td nowrap valign="top">17</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">Yes</td> 
+       <td nowrap valign="top">303 Carroll Hall - Registrar (3) (HP4300) (17 characters per inch in Landscape format - Duplex)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Superintendent's Office </td> 
+       <td nowrap valign="top">LP39</td> 
+       <td nowrap valign="top">Smith Hall Room 201</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">201 Smith Hall - Superintendent's Office (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Superintendent's Office </td> 
+       <td nowrap valign="top">LPRSH201LJ</td> 
+       <td nowrap valign="top">Smith Hall Room 201</td> 
+       <td nowrap valign="top">10</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">201 Smith Hall - Superintendent's Office (10 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Superintendent's Office </td> 
+       <td nowrap valign="top">LPRSH201LJ12</td> 
+       <td nowrap valign="top">Smith Hall Room 201</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Portrait</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">201 Smith Hall - Superintendent's Office (12 characters per inch)</td> 
+      </tr> 
+      <tr> 
+       <td nowrap valign="top">Superintendent's Office </td> 
+       <td nowrap valign="top">LPRSH201LS</td> 
+       <td nowrap valign="top">Smith Hall Room 201</td> 
+       <td nowrap valign="top">12</td> 
+       <td nowrap valign="top">Landscape</td> 
+       <td nowrap valign="top">&nbsp;</td> 
+       <td nowrap valign="top">201 Smith Hall - Superintendent's Office (12 characters per inch in Landscape format)</td> 
+      </tr> 
+     </tbody>
+    </table> 
+   </center> 
+  </div>   
+ </body>
+</html>

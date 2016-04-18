@@ -1,0 +1,1331 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	Virginia Military Institute - Workshops
+</title>
+  <link rel="shortcut icon" href="../../../master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="../../../royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="../../../royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="../../../App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets,liberal arts, lexington, ncaa div. 1, competitive, civilian, commission, barracks, science, co-ed, public, university, ethics, honor, character, responsibility, undergraduate, leaders">
+  <meta name="Description" content="Virginia Military Institute is a small, public, nationally-ranked college committed to leadership development in a military environment in Lexington, Virginia. VMI instills values of honor, discipline, selflessness, commitment, duty, self-reliance, and service. VMI is recognized as one of America’s top colleges for liberal arts and sciences by US News &amp;amp; World Report, The Princeton Review, and Peterson’s Guide to Competitive Colleges. US News ranks VMI’s engineering programs among the twenty best in America. Men and women of VMI are free to choose military or civilian careers.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/Conferences/STEM/Workshops/" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCDw8PFgIeB1Zpc2libGVoZGQCEw9kFgYCAQ8PFgIfCGdkZAIDDw8WAh8IaGRkAgUPZBYCAgEPZBYCZg9kFgJmDxYCHwhnFgICAQ8PFgIfAgU2L3VwbG9hZGVkSW1hZ2VzL0NvbmZlcmVuY2VzL1NURU0veWVsbG93LXJvYm90LWJsdWUuanBnZGRkJcPOwo5f6DpbmdLsDlEm1K2F1P5qoXAqK7020cV4F00="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAATugCRJzQHNyz31X2TDRGQSg7Z1sS2zTNHf3/IxWgcxRFSOGbegovGRRqrbhyvyJGWQuO5O7PDGe2zLg4RZuxgsnoI26dQnHeDkq1Dm83WEpNi/9mwWePjSkYCF+2UjWDA="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Leadership_and_Ethics/" target="_self">Center for Leadership and Ethics</a></li>
+        <li><a href="/Conferences/STEM/STEM_Education_Conference/" target="_self">STEM Education Conference</a></li>
+        <li><a href="/Conferences/STEM/About/" target="_self">About the Conference</a></li>
+        <li><a href="/Conferences/STEM/Call_for_Presentations/" target="_self">Call for Presentations</a></li>
+        <li><a href="/Conferences/STEM/Registration/" target="_self">Registration</a></li>
+        <li class="selected"><strong><a href="/Conferences/STEM/Workshops/" target="_self">Workshops</a></strong></li>
+        <li><a href="/Conferences/STEM/Program/" target="_self">Program</a></li>
+        <li><a href="/Conferences/STEM/Speakers/" target="_self">Speakers</a></li>
+        <li><a href="/Conferences/STEM/Hotels/" target="_self">Hotel and Area Information</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft27795"> 
+        <p><a target="_blank" title="Directions to VMI" href="/Content.aspx?id=7335&amp;libID=7363"><img title="Directions to Lexington, Virginia" alt="Directions to Lexington, Virginia" src="/uploadedImages/Images/buttons/directions-big-lexington.png"></a><br><a target="_blank" title="VMI Post Map" href="/uploadedFiles/VMI/Communications_Marketing/Publications/VMI_Post_Map_small(1).pdf"><img title="VMI Post Map" alt="VMI Post Map" src="/uploadedImages/Images/buttons/post-map-big.png"></a>&nbsp;<br><a target="_blank" title="Facebook" href="http://www.facebook.com/pages/VMI-Center-For-Leadership-and-Ethics/171374962907469"><img border="0" title="facebook" alt="facebook" src="/uploadedImages/Images/icons/facebook.png?n=5181"></a>&nbsp;&nbsp;&nbsp;<a target="_blank" title="Twitter" href="http://twitter.com/#!/vmi_cle"><img border="0" title="twitter" alt="twitter" src="/uploadedImages/Images/icons/twitter.png?n=4382"></a>&nbsp;&nbsp;<a target="_blank" title="Follow on Flickr" href="http://www.flickr.com/photos/vmi-cle/sets/"><img border="0" title="Flicker" alt="Flicker" src="/uploadedImages/Images/icons/flickr-flat.png"></a>&nbsp;<a target="_blank" title="VMI on fora.tv" href="http://fora.tv/partner/Virginia_Military_Institute_Center_for_Leadership_and_Ethics"><img width="37" height="30" title="FORA TV" alt="FORA TV" src="/uploadedImages/Images/buttons/fora.png"></a><br></p> 
+        <address><a href="mailto:dovern@vmi.edu?subject=Website Contact" title="Website Contact">Mrs. Ronda Dove</a><br>Administrative&nbsp;Assistant<br><br>P:&nbsp; (540) 464-7361<br>F:&nbsp;(540) 464-7396 <br><br>Center&nbsp;for Leadership &amp; Ethics<br>VMI, Marshall Hall<br>500 Anderson Drive<br>Lexington, VA&nbsp; 24450</address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Conferences/STEM/yellow-robot-blue.jpg" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <div class="content1">
+        <p><strong><a href="/uploadedFiles/Conferences/STEM/VMI CLE STEM Program-web.pdf" title="2015 STEM Education Conference Program">2015 VMI STEM EDUCATION CONFERENCE PROGRAM - DOWNLOAD</a></strong></p>
+        <p>2015 STEM Resources are in the process of getting uploaded within each of the workshop descriptions below (expand the workshop name to reveal its description, info about presenters and links to their respective resources).</p>
+        <p>Few of the resources were in PDF format, so as those are converted, they will get uploaded ;).&nbsp; Please check this site often for the updates.</p>
+        <p><em>*A big thank-you to everyone who provided us with a submission - their contributions are a big part of what makes this conference so successful and highly rated!*</em>&nbsp;<br><br>RESOURCES:&nbsp; Due to many files which had formats incompatible to our server for storage, we have provided a dropbox location from where workshop resources may be downloaded.&nbsp; You will need a dropbox account/profile to use this cloud storage site.&nbsp; Please email:&nbsp; roycm@vmi.edu if you have problems.&nbsp; </p>
+        <p><a href="https://www.dropbox.com/sh/3k83pw7dt71vkiw/AAAe_BilAA_df7Rc90BHBzHQa?dl=0" title="https://www.dropbox.com/sh/3k83pw7dt71vkiw/AAAe_BilAA_df7Rc90BHBzHQa?dl=0" target="_blank">2015 STEM Education Conference Dropbox - Workshop Resources</a></p>
+        <p>&nbsp;</p>
+       </div>
+       <div class="accordion">
+        <div>
+         <h2>2015 STEM Workshops</h2>
+         <a href="#" class="readMore">3D Printing in a Middle School Makerspace - Grades 5-8, Administrators</a>
+         <div class="more">
+          <p>3D printing: Moving students from Replicator to Creator/ lecture presentation 3D printers are absolutely mesmerizing. They light up and make wonderful sounds. Students of all ages are drawn to the idea of a 3D printers. They want to try it out but they have no idea how to do it. During this session we will walk you through the hurdles we encountered once we added a 3D printer into our Makerspace. We will share with you how we are slowly moving our students from just printing what someone else made to creating their own original creations to print. We will even show you how to digitize yourself to 3D print.<br><br>This workshop covers technology for teachers and administrators with students in grades 5-8. <br><br>Instructors: <br><br><img align="right" src="/uploadedImages/Conferences/STEM/Susan Jinks_web.jpg?n=8118" alt="2015 Susan Jinks, Ph.D." title="2015 Susan Jinks, Ph.D.">-Susan Jinks, Ph. D., Instructional Technology Specialist, Falls Church City Public School&nbsp;</p>
+          <blockquote>
+           <div>
+            Dr. Susan Jinks is an instructional technology specialist at Mary Ellen Henderson Middle School (MEH) in Falls Church City, VA. Jinks helped her school deploy a 1:1 laptop program during the 2014 school year. In addition, she successfully co-wrote a grant to establish a Makerspace in the school library. She recently became a Google Educator and Google for Education Certified Trainer. Her doctoral work focused on the factors that lead to the perception of learning within a graduate online course.
+           </div>
+          </blockquote>
+          <p>-Lori Fogle, Librarian/Media Specialist, Falls Church City Public School</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Add a New Dimension to Your Students' Learning: 3D Printing in the Elementary Classroom - Grades 3-5</a>
+         <div class="more">
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Karen Heathcock web.jpg?n=5141" alt="Karen Heathcock 2015 STEM" title="Karen Heathcock 2015 STEM">Attendees will experience a variety of web-based software applications that students can use to integrate 3D printing into their learning. Come see how 3D printing can augment instruction and bring learning to life no matter what grade level or content area you teach. We will discuss how to incorporate 3D printing across subjects, troubleshoot common 3D printing issues, and provide practical advice on how to get students independent and productive with 3D printing. Creative ways to fund 3D printers and filament will also be explored.</p>
+          <div>
+           <br>This workshop covers Technology for teachers with students in grades 3-5.
+          </div>
+          <p>Instructor: &nbsp;Karen Heathcock, Gifted Resource Teacher, Albemarle County Public Schools</p>
+          <blockquote>
+           <p>Karen is a Canadian who pursued teaching as a second career. She graduated from the Teacher's College at York University in Toronto, Ontario before moving to the United States in 2001. In addition to being endorsed in elementary education, she is also endorsed in economics, gifted education, and reading. Karen enjoys collaborating with classroom teachers to foster each student's ability to think critically, to problem solve (independently and collaboratively), to question at increasingly higher levels, and to create/make with confidence and flexibility. These are the skills that make kids deeper thinkers, lifelong learners, and more productive, engaged citizens.&nbsp;</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Angling Your Neighborhood - Grades 6-8</a>
+         <div class="more">
+          <p>For middle school mathematics teachers, finding a STEM application for angle relationships can be a struggle. During this workshop, attendees with participate in a lesson called “Angling Your Neighborhood”. This lesson uses inquiry to discover different angle relationships. As attendees discover these relationships, they are challenged to use them to develop a neighborhood roadway system. By mixing inquiry with an engineering task, attendees are able to help their students develop the appropriate mathematics knowledge while applying that knowledge in a creative design and build activity. By participating in this hands-on lesson, attendees will be prepared to take this ready-made activity back to their middle school math classrooms. The activity is designed for the Virginia Math 8 Standards of Learning but can be adapted to the needs of sixth and seventh grade math by changing the criteria of the engineering task. </p>
+          <p>Workshops covers integrated STEM for teachers with students in grades 6-8.</p>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Kristine_Vester.jpg?n=3915" alt="Kristine Vester" title="Kristine Vester">Instructor: &nbsp;Kristine Vester, Educator, MathScience Innovation Center</p>
+          <blockquote>
+           <p>Kristine Vester<strong></strong>is a Mathematics Educator with the MathScience Innovation Center (MSiC) in Richmond, VA. In 2006, Kristine earned her M.Ed. in Curriculum and Instruction, with a focus on mathematics, from VCU. Over a period of 11 years, Kristine has worked in several middle schools, focusing on mathematics and science education. In the Fall of 2008, Kristine joined the MSiC staff. Since then, she has been involved in creating innovative STEM lessons incorporating nanotechnology, engineering and fractals, for the virtual platform and the classroom. She has been a leader in different engineering programs for teachers, such as the VA STEM CoNNECT, as well as developing STEM Career programs for school counselors. Throughout her professional career, Kristine has been involved in developing and presenting professional developments on a local to national level. Her last two presentations were featured at the Regional NCTM Conference and the NSTA STEM Forum.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Astronomical Tools &amp; How to Use Them - Grades 3-8</a>
+         <div class="more">
+          <p>Today there are a number of astronomical tools (telescopes, cameras, software, websites...) available that an educator can use to enhance their student’s learning experience. It can be a daunting task wading through all the options, and choosing the right one is not always easy. Once you have made your choice learning to use the tool can also be a time consuming task; where do you turn to for help? In this workshop we will give you an introduction to what’s available in the way of tools and resources that are suitable for various education levels. From free to pricey we give you a rundown on what’s out there, the “good, the bad, and the ugly”, and where to get help. We will present the basics of how to choose and use binoculars, telescopes, cameras, and software as well as what to look for, and look out for, when it’s time for you to make your choice. Weather permitting there will be an optional observing session in the evening. (See the schedule for details.)&nbsp;</p>
+          <p>This workshop covers technology for educators and administrators with students in grades 3-8.<br><br>Instructors: &nbsp;<br><br><img align="right" title="2015 STEM Gregory Topasna, Ph.D., VMI" alt="2015 STEM Gregory Topasna, Ph.D., VMI" src="/uploadedImages/Conferences/STEM/topasnaga.jpg?n=8743" style="height: 200px;">-Lt. Col. Gregory Topasna, Ph. D., Department of Physics &amp; Astronomy, Virginia Military Institute</p>
+          <blockquote>
+           <p>Dr. Topasna is a Professor of Physics at Virginia Military Institute in Lexington, VA. He is a graduate from VA Tech with a Ph.D. in Physics and a concentration in astronomy. He has been teaching physics and astronomy since joining the VMI faculty in 2000 and conducts astronomical research on the polarization of starlight and the interstellar medium. Additionally, Dr. Topasna works with Dr. Daniela Topasna in the thin films laboratory at VMI where they fabricate and characterize thin film devices as well as Janus particles.&nbsp;</p>
+          </blockquote>
+          <blockquote></blockquote>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Daniela Topasna_web.jpg?n=7775" alt="2015 STEM Daniela Topasna" title="2015 STEM Daniela Topasna">- Lt. Col. Daniela Topasna, Ph. D., Department of Physics &amp; Astronomy, Virginia Military Institute</p>
+          <blockquote>
+           Dr. Topasna is an associate professor in the department of physics and astronomy at Virginia Military Institute. Her research interests include fabrication and characterization of self assembled thin films. She has presented and authored several outreach activities in physics and nanotechnology. &nbsp;
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Blending Art, Language Arts and Linear Equations - Grades 5-8</a>
+         <div class="more">
+          <p><img align="right" title="2015 STEM Tabetha Myers" alt="2015 STEM Tabetha Myers" src="/uploadedImages/Conferences/STEM/Tabetha Myers_web.jpg?n=934">Participants will all be given the same equations and blank paper to graph with NO guidance regarding scale factor. After equations are graphed, instructions will be to create a piece of art that uses color and texture to relate to some aspect of their life. As art is completed, comparisons of the “chevron” that emerges will be relevant to relating the art to the project-based experience. A presentation will follow using students’ work of the “Stained Glass” project. Sixth grade students began with a mini-lesson in art appreciation, followed by graphing the same equations (VDOE) on larger paper. Periodic check-ins using todaysmeet.com were relevant to discuss various problems that students were having while navigating equations. Students gave feedback on each other's art, learning, through the project, slope and y-intercept form and key elements to linear functions from a very elementary understanding (6th – 8th grade curriculum). Students wrote a synopsis of what the artistic elements meant to them and how they chose to use materials and various elements to set the tone of the work of art. Students wrote a paper using google docs relating the art to the mathematics in a formal five-paragraph format. Attendees will take away all handouts/rubrics, etc. Numerous examples of student work will be used to explain the project and extend attendees view of what students can do when given the freedom to think critically and creatively! The session will culminate brainstorming ways that this project can be enhanced or ways students’ work can be published.&nbsp;</p>
+          <p>This workshop covers mathematics for teachers with students in grades 5-8.</p>
+          <p>Instructor: &nbsp;Tabatha Myers, Teacher, Albemarle County Public Schools</p>
+          <blockquote>
+           <p>Tabatha has been teaching mathematics and science for ACPS for 12 years and has an B.S. in Liberal Science, Elementary Ed. from Longwood University. In 2007, she received her Master of Education and Math Specialist Endorsement from the University of Virginia. She has taught sixth grade math her entire career, primarily located at the AVID demo school Jack Jouett Middle. She teaches a wide array of both math and science curriculum including all of middle school mathematics.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Boat Design Challenge - Grades 6-8</a>
+         <div class="more">
+          <p><img align="right" title="2015 STEM Amy Effland" alt="2015 STEM Amy Effland" src="/uploadedImages/Conferences/STEM/Amy Effland web.jpg?n=5480">A. Overview of 3 block lesson - lesson handouts included&nbsp;<br>B. Introduction to CAD software&nbsp;</p>
+          <blockquote>
+           <p>1. pros/cons of a few programs <br>2. Experiment with a few CAD tools (if computers for participants are available) <br>3. See examples of student work and the sample that we will work with today </p>
+          </blockquote>
+          <p>C. Introduction to 3D printing <br>&nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp;1. Types of printers with pros/cons, prices, possible funding sources <br>&nbsp; &nbsp; &nbsp;2. Show how 3D printing supports concept understanding - Demo how changing one dimension affects volume - &nbsp; Print our sample design from the CAD file that participants have seen - See some previously printed examples of student work&nbsp;</p>
+          <div>
+           <br>D. Participants complete calculations on our sample design&nbsp;
+          </div>
+          <div>
+           <br>E. Test calculations in tub of water This workshop covers SOL 6.10.d and 7.5.a-c
+           <br>
+           <p>This workshop covers technology and math for teachers with students in grades 6-8.</p>
+           <p>Instructors: &nbsp;Amy Effland, math/science teacher and Adam Kuchta, CTE teacher, J.T. Henley Middle School</p>
+           <blockquote>
+            <p>Amy Efflandteaches math/science and Adam Kuchta teaches CTE at J.T. Henley Middle School in Crozet, Virginia. Last school year they piloted this lesson in two 6th grade advanced math classes. The lesson was well-received by students, parents and administration. They are excited to share this lesson with you today and look forward to hearing about its implementation in your classroom.</p>
+           </blockquote>
+          </div>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Budgeting with M&amp;Ms - Grades 3-8</a>
+         <div class="more">
+          During this workshop participants will get to experience a hands-on budget lesson that uses multiplication, addition, and subtraction. This lesson will introduce students to budgeting concepts like income and expenses, and the importance of using a budget. During the activity M&amp;Ms are used to represent income and expenses. Students are encouraged to have money left over at the end of the activity. Participants will receive a copy of the lesson plan and a sample package of the budgeting activity that can be reproduced over and over again. This lesson plan can be used for grades 4 and up, and covers Virginia SOLs 4.4b, 5.4, and 6.3.
+          <div>
+           <br>This workshop covers mathematics for teachers with students in grades 3-8.
+          </div>
+          <p>Instructor: &nbsp;Sarah Landram, Community Financial Educator, DuPont Community Credit Union</p>
+          <blockquote>
+           <p>Sarah Landram is the Community Financial Educator at DuPont Community Credit Union. In her role as educator, she works with local schools, and other organizations to bring financial education lessons to much of the Central Shenandoah Valley. In 2012, she became a Certified Financial Counselor through the Credit Union National Association’s FiCep program. She is a 2012 graduate of the Harrisonburg-Rockingham Leadership program and a two time winner of the Desjardin Youth Financial Education Award for the state of Virginia. Sarah is also a certified trainer for the National Endowment for Financial Education. Prior to joining the Financial Education department, Sarah worked for 17 years in the Retail area at DCCU.&nbsp;</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">CAREERS Project-based Learning Program</a>
+         <div class="more">
+          <p>The Creative and Real-World Engaging Experiences Realized this Summer (CAREERS) program was created for at-risk and low performing 7th and 8th grade students as an alternative to a traditional summer school. Furthermore, research has shown that college and career readiness should be started in the middle school to help assess personal interest and future goals through career exploration. The program hired teachers to create project-based learning units that were created around the 16 career clusters. Each project focused on competencies of problem solving, flexibility, collaboration and time management. It also embedded reading and math skills. The culminating project was for students to select one project and create a visual representation of the process of how they worked to create a project to answer a driving question or solve a challenge. In addition, students researched a potential career cluster of interest and presented it to community members. The hands-on presentation will showcase the many projects that included some STEM PBL (MakerSpace, water rocket science, textile engineering), technologically related projects (t-shirt shop) and the culminating project. Participants will examine the projects at different stations and fill out a handout that will prompt them to ask questions, write observations and how it could be used in other schools. After the activity, the presenters will answer questions, discuss the benefits and lessons learned from the program. The attendees will receive ideas and ways to incorporate project-based learning units that include STEM and technology into their curriculum. The SOLSs covered will be non-fiction reading skills, physical science SOLs and various math standards.</p>
+          <p>This workshop covers project based learning for teachers and administrators with students in grades 7-8.</p>
+          <p>Instructors: &nbsp;</p>
+          <p>- Rory Dippold, Ph. D.,&nbsp;CAREERS Coordinator / Civics &amp; Economics Teacher, Falls Church City Schools</p>
+          <blockquote>
+           <p>Dr. Dippold is a Nationally Board Certified Teacher who has taught for twelve years in Falls Church City Schools. He is a Civics &amp; Economics teacher who incorporates project-based learning into his curriculum to create authentic learning experiences. In addition, his dissertation was titled, 'Infusing Self-regulation Learning into Project-based Learning' and he currently serves as an adjunct professor at George Mason University. He was recently honored as a Virginia Lottery “Super Teacher” award winner.</p>
+          </blockquote>
+          <p><img align="right" title="2015 Susan Jinks, Ph.D." alt="2015 Susan Jinks, Ph.D." src="/uploadedImages/Conferences/STEM/Susan Jinks_web.jpg?n=4008">-Susan Jinks, Ph. D.,&nbsp;Technology Instructional Coach, Falls Church City Schools</p>
+          <blockquote>
+           <p>&nbsp;</p>
+           <p>&nbsp;</p>
+           <p>&nbsp;</p>
+           <p>&nbsp;</p>
+           <p>&nbsp;</p>
+           <p>&nbsp;</p>
+          </blockquote>
+          <!--StartFragment-->
+          <!--EndFragment-->
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Celebrating the International Year of Light 2015 - Grades 3-8</a>
+         <div class="more">
+          <p><img align="right" title="2015 STEM Daniela Topasna" alt="2015 STEM Daniela Topasna" src="/uploadedImages/Conferences/STEM/Daniela Topasna_web.jpg?n=9877">This workshop includes hands on optics activities using readily obtainable materials. These activities are meant to explore and enhance knowledge about the nature and properties of light in a fun and educational way. Various teaching resources will be included.</p>
+          <p>This workshop covers science for teachers with students in grades 3-8.</p>
+          <p>Instructor: &nbsp;Lt. Col. Daniela Topasna, Ph. D., Department of Physics &amp; Astronomy, Virginia Military Institute</p>
+          <blockquote>
+           <p>Dr. Topasna is an associate professor in the department of physics and astronomy at Virginia Military Institute. Her research interests include fabrication and characterization of self assembled thin films. She has presented and authored several outreach activities in physics and nanotechnology. </p>
+          </blockquote>
+          <blockquote></blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">The Chesapeake Challenge - Grades 5-8</a>
+         <div class="more">
+          Imagine being stranded in the woods with a nearby stream as your only source of water. Would you drink the water? There are many hidden pollutants in our natural water sources that can have a negative impact on your health. Luckily with the advancement in filtration methods, those pollutants can be removed to create safe drinking water. In this STEM challenge, participants will build their own filter and then test its efficiency at removing pollutants from the water. Based upon their results, participants will redesign to improve their filters. Connections will be made to the importance of the Chesapeake Bay ecosystem and the human impacts within its watershed. SOLs: 6.5, 6.7
+          <div>
+           &nbsp;
+          </div>
+          <div>
+           This workshop covers integrated STEM for teachers with students in grades 5-8.
+          </div>
+          <p>Instructor: &nbsp;Rachel Martin, Educator and Science Department Head,&nbsp;MathScience Innovation Center</p>
+          <blockquote>
+           <p>Rachel Martin is an educator and department chair at the MathScience Innovation Center in Richmond Virginia. Her experiential educational philosophy was created after spending a semester in college studying environmental science in Australia where she swam with sharks on the Great Barrier Reef, ate breakfast with a platypus, and became a host to countless leeches while exploring the rainforests of Australia. Thanks in part to the myriad of phenomenal educators in her life, she pursued her Master of Arts in Education degree from the College of William and Mary to pass on the love of learning. Following her teaching experiences in middle school science, she became a biology, earth science and environmental science educator for the MathScience Innovation Center in 2005. Over the past 10 years, Rachel has been involved with numerous keystone projects including fractal geometry, virtual lessons, nanoscience, environmental sustainability and engineering.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Coding Curiosity - Grades 3-8, Administrators</a>
+         <div class="more">
+          <p><img align="right" title="2015 Susan Jinks, Ph.D." alt="2015 Susan Jinks, Ph.D." src="/uploadedImages/Conferences/STEM/Susan Jinks_web.jpg?n=8254">The concept of elementary and middle school students coding is absolutely amazing! Coding is a skill that teaches students strategy, problem-solving, and breaking down tasks. Teachers are intrigued with coding but are not sure where to start. Through this session we will help you figure out where can you start and where can you go? Participants will learn about apps, websites and toys that will spark the coding curiosity of elementary and middle school students. You will even have a chance to control toys through your own code. We will end the session talking about school-wide programs and parent-involved activities to expand the coding experience in your school. No experience necessary. (Hands-On)</p>
+          <div>
+           <br>This workshop covers computer science for teachers and administrators with students in grades 3-8.
+           <br>
+           <div>
+            <br>&nbsp;Instructor: &nbsp;Susan Jinks, Ph. D., Technology Specialist, Mary Ellen Henderson Middle School
+           </div>
+           <blockquote>
+            <div>
+             Dr. Susan Jinks is an instructional technology specialist at Mary Ellen Henderson Middle School (MEH) in Falls Church City, VA. MEh has just completed its first year as a 1:1 laptop school. After successfully co-writing a grant, Jinks helped to establish a Makerspace in the school library. She recently became a Google Educator and Google for Education Certified Trainer. Her doctoral work focused on the factors that lead to the perception of learning within a graduate online course.
+            </div>
+            <div>
+             <div>
+              &nbsp;
+             </div>
+             <p>&nbsp;</p>
+            </div>
+           </blockquote>&nbsp;
+          </div>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Crack the Code: Learning with Scratch and Arduino - Grades 3-8</a>
+         <div class="more">
+          <p>THIS IS A HANDS-ON WORKSHOP REQUIRING PARTICIPANTS TO BRING THEIR OWN LAPTOP COMPUTERS.</p>
+          <p>If coding is the new literacy, how do we make it relevant within the context of student learning? Join two elementary educators from Albemarle County Public Schools in an experiential investigation of infusing coding and electronics into the curriculum. Participants will explore Arduino micro controllers (http://www.arduino.cc/) and Scratch programming (https://scratch.mit.edu/). Discover how Scratch is useful for making interactive scenes, video games, and more, while Arduino empowers students to add responsive, electronic elements to any item. Both platforms promote problem solving, critical thinking, and logical reasoning while naturally introducing challenges and community investigation along the way. Come to this hands-on session ready to tinker, play, and create your own products. You will learn as a student by writing code, setting up a circuit to make a light blink using Arduino, or animating a figure in Scratch as an introduction, developing your own strategies for problem solving with the challenges presented! Even those with no prior experience will be poised to take these tools into classrooms immediately. Provide your students with yet another set of tools that they can use to solve meaningful problems and make sense of learning in any content area in elementary school and beyond. The possibilities are endless!</p>
+          <p>This workshop covers Technology for teachers with students in grades 3-8.</p>
+          <p>Instructors: &nbsp;</p>
+          <p><img align="right" title="2015 STEM Atkinson" alt="2015 STEM Atkinson" src="http://staging.vmi.edu/uploadedImages/Conferences/STEM/atkinson%20web.jpg?n=8374">-Andrea Atkinson, Library Media Specialist, Lewis Elementary</p>
+          <blockquote>
+           <p>Andrea Atkinson (B.S./M.L.I.S) has over 20 years of pre-school through 12th grade teaching experience in a combination of classroom and library settings. After spending 19 years of her career in Michigan, Andrea relocated to Charlottesville to become the Library Media Specialist at Meriwether Lewis Elementary in Albemarle County. She focuses her efforts on creating a centralized learning place for exploration and discovery by students and teachers. A true lifelong learner herself, Andrea appropriately balances print and electronic resources. </p>
+          </blockquote>
+          <p><img align="right" title="2015 STEM Stephanie Passman - Crack the Code: Learning with Scratch and Arduino" alt="2015 STEM Stephanie Passman - Crack the Code: Learning with Scratch and Arduino" src="/uploadedImages/Conferences/STEM/Stephanie Passman headshot.jpg?n=4075">-Stephanie Passman, Gifted Resource Teacher, Stony Point Elementary</p>
+          <blockquote>
+           <p>Stephanie Passman<strong></strong>is the Gifted Resource Teacher at Albemarle’s Stony Point Elementary School, and has previously been an upper elementary classroom teacher in Charlottesville and Phoenix. She focuses on collaborating with K-5 teachers to create student-centered learning experiences. She also runs the school’s Maker Space to promote creation and innovation. Both educators work to inspire students to take control of their learning and move it to the next level.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Creating a Culture of STEM in Elementary School - Grades 3-6, Administrators</a>
+         <div class="more">
+          <p>Perry Harrison School will share their story of creating a STEM culture in an elementary school. We will share how building a STEM team and incorporating community goals into a successful STEM program. We will share integrating other academic areas into your STEM program.</p>
+          <div>
+           <br>This workshop covers project based learning for teaches and administrators with students in grades 3-6.
+          </div>
+          <p>Instructors:&nbsp;</p>
+          <p><img align="right" title="2015 STEM Freda Hicks" alt="2015 STEM Freda Hicks" src="/uploadedImages/Conferences/STEM/Freda Hicks_web.jpg?n=2252" style="width: 200px;">-Freda Hicks, Principal, Perry Harrison Elementary School</p>
+          <blockquote>
+           <p>Freda Hicks is currently the principal of Perry Harrison Elementary School in Pittsboro, NC. Perry Harrison was recently named a top three STEM elementary school by FETC in Orlando Florida. She has lead Perry Harrison's transformation to a STEM focused school the past three years.</p>
+          </blockquote>
+          <p>-Kimberly Boyer, Teacher,&nbsp;Perry Harrison Elementary School<br>- Elizabeth Sturdivant, Teacher, Perry Harrison Elementary School</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Creating an Elementary MakerSpace - grades 3-6</a>
+         <div class="more">
+          <p>Come hear and see how you can create a MakerSpace in your elementary school! It might have to be a traveling Rubbermaid tub because you are on a bare-bones budget and there aren't any extra classrooms in your building or you might have a designated classroom to fill with materials and are generously funded by grant money. We've done it both ways and will tell you how we did it and what stuff you will need to be ready to engage Kindergartners through 5th graders in making, building, problem-solving, and creating through experiences in science, technology, engineering, and math. PowerPoint lecture with questions/answers/discussion, participants will get handouts listing suggested MakerSpace supplies and sources of these supplies.</p>
+          <p>This workshop covers integrated STEM for teachers with students in grades 3-6.</p>
+          <p>Instructors: &nbsp;</p>
+          <p><img align="right" title="2015 STEM Anne Barrow" alt="2015 STEM Anne Barrow" src="/uploadedImages/Conferences/STEM/Anne Barrow web.jpg?n=4673">-Anne Barrow, Elementary Gifted Education Teacher, Bedford County Public Schools</p>
+          <blockquote>
+           <p>Anne Barrow is a former Camp Director turned Gifted Education Teacher who has implemented school-wide STEM events and created MakerSpaces at both of her elementary schools.</p>
+          </blockquote>
+          <p>-Kelly Steele, Gifted Education Teacher, Bedford County Public School</p>
+          <blockquote>
+           <p>Kelly Steele is a former Chemical Engineer turned Gifted Education Teacher whose MakerSpace experiences and STEM teaching at her schools operate out of traveling Rubbermaid tubs.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Critical/Creative Thinking and Standards of Learning do Mix! Easy recipes to make it work in your classroom - Grades 3-4, 5-6, Administrators</a>
+         <div class="more">
+          <p>Discover how easy it is to integrate STEM and children’s engineering into your existing curriculum. In this interactive session, presenters will demonstrate the use of VA DOE Design Briefs and use children’s literature to encourage critical thinking and problem solving while targeting specific standards. Participants will have access to a repository of design briefs and hands-on activities to enhance their daily instruction.&nbsp;</p>
+          <div>
+           This Workshop Covers: &nbsp;Integrated STEM
+          </div>
+          <p>Instructors:</p>
+          <p>-Terri Vangelos, Gifted Resource Teacher, Montgomery County Public Schools</p>
+          <!--StartFragment-->
+          <!--EndFragment-->
+          <blockquote>
+           <p>An experienced educator with 15+ years in the classroom, who has focused on gifted education by providing extension and challenge for K-5 students and support to their regular ed teachers during the past 6 years, Mrs. Vangelos was named Region IV Gifted Teacher of the Year by the Virginia Association for the Gifted in 2015.&nbsp;</p>
+          </blockquote>
+          <p>-Becca Rainey, Library Media Specialist, MCPS: &nbsp;Belview Elementary School<br>-Diane Naff, Supervisor of Gifted Programs, Montgomery County Public School</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Developing STEM Initiatives in the Rural School District - Grades 3-8, Administrators</a>
+         <div class="more">
+          <p>In order to implement an effective STEM program in a rural school district, one must understand the nature and needs of such unique communities. This session will discuss the five components of developing a high school STEM program. The first component will focus on the use of incorporating data so that the division recognizes the need for STEM initiatives. This may even include assisting in dissolving traditional district boundaries. Component two will focus on identifying stakeholders who would develop a steering committee, community partnerships (community, local industry and post-secondary education) and an advocate for the process. This component will show that a rural community needs to come together with resources to create a lasting and effective STEM education infrastructure. This leads into the third component, Professional development and fourth component, Technology. It is extremely important that educators within the division adopt and are trained in the effective use of technology and distance learning. The final component is the capstone of the program which includes internships and the inclusion of CTE programs.<br><br>This workshop covers integrated STEM for teachers and administrators with students in grades 3-8.</p>
+          <p>Instructors: &nbsp;</p>
+          <p>-Thomas Johnson III,&nbsp;High School Assistant Principal/STEM Program Chair,&nbsp;Accomack County Public Schools</p>
+          <blockquote>
+           <p>Mr. Thomas Johnson III is currently serving as the Assistant Principal for Nandua Middle School in Accomack County. He is the leading advocate and chairperson of the Accomack County Public Schools STEM Academy which is starting the third successful year in operation. Mr. Johnson has earned a Bachelor of Science in Mathematics from Longwood College, a Masters in Education from North Georgia State University and Educational Specialist degree in Educational Leadership from Jones University.</p>
+          </blockquote>
+          <p><img align="right" title="2015 STEM Rebecca Johnson" alt="2015 STEM Rebecca Johnson" src="/uploadedImages/Conferences/STEM/Rebecca Johnson_web.jpg?n=9200">-Rebecca Johnson, Facilitator of Gifted Resources,&nbsp;Accomack County Public Schools</p>
+          <blockquote>
+           <div>
+            <br>
+            <br>
+           </div>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Design on a Plate - Grades 3-4, 5-6</a>
+         <div class="more">
+          <p>This hands-on workshop is designed for teachers in grades 3-6. This specific activity is designed to augment VA Math SOL 3.10, 5.8 and 5.9 in a way that allows both special education and gifted students to participate in the same classroom activity. The attendees will take on the role of student to design a landscape or building plate using graphing paper. They will then transfer their design to a lego building plate using Lego bricks (supplied by presenters). The attendees will then calculate the area and perimeter--with volume and circumference added for the gifted cluster. At the end of the session attendees will have the opportunity to brainstorm and share other activities that could be designed with LEGO building blocks.</p>
+          <div>
+           This workshop covers mathematics for grades 3-6.
+          </div>
+          <p>Instructors:</p>
+          <p>-<img align="right" src="/uploadedImages/Conferences/STEM/Nancy Northcott headshot.jpg?n=2193" alt="Nancy Northcott" title="Nancy Northcott">Nancy Northcott, Seaford Elementary School, York County School Division</p>
+          <blockquote>
+           <p>Mrs. Northcott is a fifth grade teacher at Seaford Elementary School. She is a gifted and inclusion teacher for York County. Mathematics is her specialty area. She is also the co-sponsor of Seaford Elementary's Robotics Team. She is trained in Transformative Project-based Learning and have implemented various projects in their classrooms that encompass more than one content area.&nbsp;</p>
+          </blockquote>
+          <p><img align="right" title="2015 STEM Connie Hayes" alt="2015 STEM Connie Hayes" src="/uploadedImages/Conferences/STEM/Connie Hayes web.jpg?n=3141">-Connie Hayes, 4th Grade Teacher, Seaford Elementary School, York County School Division</p>
+          <blockquote>
+           <div>
+            Mrs. Hayes is a fourth grade teacher at Seaford Elementary School. She is the fourth grade inclusion teacher, as well as a trained autism specialist. She is a math teacher and the co-sponsor of Seaford's Robotics Team. She is trained in Transformative Project-based Learning and have implemented various projects in their classrooms that encompass more than one content area.&nbsp;
+           </div>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Edmodo in the classroom - Grades K-8</a>
+         <div class="more">
+          <p>During the workshop, attendees (who have internet access and device) will see how this FREE web-based platform, Edmodo can be integrated in the classroom. Attendees will be able to see how students are able to communicate with the teacher and their peers, access additional resources, take quizzes/tests and turn in assignments without a single piece of paper! No more taking papers home and loosing them! Attendees will see how this can be used for a variety of ages and subjects, see professional resources available through Edmodo and collaborate with students and colleagues. Attendees will take away how to set up Edmodo at their school, set up classes, join professional communities and work on their own classroom "library". Edmodo will meet digital literacy and many technology standards. Attendees would benefit more with internet access and a device. and this will be a VERY hands-on workshop.</p>
+          <p>This workshop covers Project Based Learning for teachers grades 3-8 and administrators.&nbsp;<br><br><img align="right" title="2015 STEM Kristie Meyers" alt="2015 STEM Kristie Meyers" src="/uploadedImages/Conferences/STEM/Kristie_Meyers_web.jpg?n=541">Instructor: &nbsp;Kristi Meyers, teacher, St. Leo the Great Catholic School</p>
+          <blockquote>
+           <p>Kristi Meyers is a science nerd and student-professed tree hugger. 14 years of combined public and private school teaching experience. BS in Elementary education and MS in curriculum instruction and design. Always looking to integrate technology into the classroom to meet student individual needs and reaching students using 21st century communication skills.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Engineering Design Challenges: Capitalizing on the Expertise of Local Industry - Grades 3-8, Administrators</a>
+         <div class="more">
+          <p>How do I prepare my students to be college, career and citizen ready? Bring your students together to collaborate in rigorous, career-based engineering design challenges (EDC). An EDC breaks down the barriers between the STEM disciplines and exposes students to STEM careers, capitalizing on the expertise of local industry. By partnering with local industry, educators can develop learning experiences that are relevant and require students to apply their knowledge to solve real-world problems. Through these challenges students acquire STEM skills that will prepare them for high-demand, high-wage, and high-skill careers in Virginia. In this hands-on workshop, you will experience two exemplar engineering design challenges by assuming a career and devising a quantifiable solution to a real-world problem. Participants will have an opportunity to develop an individualized action plan and, if desired, continue to network through an online community.</p>
+          <div>
+           This workshop covers integrated STEM for grades 3-8.
+          </div>
+          <p>Instructors:</p>
+          <p>-Jacob Andrus, STEM Instructional Specialist, Newport News Public Schools</p>
+          <blockquote>
+           <p>Jacob Andrus has been actively involved in STEM education for several years and is extremely passionate about ensuring all students participate in engaging and rigorous STEM educational experiences. Jacob is a STEM Instructional Specialist for Newport News Public Schools and has created a pipeline of STEM programming for elementary and middle school students. He has experience in various areas of public education including school leadership, curriculum development, and elementary education. In addition to his work in Newport News Public Schools, Jacob is an adjunct professor at Christopher Newport University in the College of Natural and Behavioral Sciences. Jacob received his Masters in Educational Leadership from Regent University and his Bachelors of Science from Radford University. &nbsp;</p>
+          </blockquote>
+          <p>-Tami Byron, STEM Instructional Specialist, Newport News Public Schools</p>
+          <blockquote>
+           <div>
+            Tami Byron is a STEM Instructional Specialist for Newport News Public Schools. She has 15 years of experience in various areas of education including special education, elementary education, and middle/secondary education. Tami’s current projects include the design and development of elementary integrative STEM curriculum and elementary/middle school division-wide design challenges for Newport News Public Schools. Tami was awarded a Programs that Work award by the Virginia Math and Science Coalition in 2015, for the design and implementation of the iSTEM Innovation Institute teacher professional development program. She desires to expand STEM literacy into the classroom by empowering teachers with the expertise to develop and implement standards-aligned, problem-based, inquiry learning experiences that solve real-world problems with career connections. Tami earned a Bachelor's of Science degree from Liberty University and is currently enrolled in McDaniel College’s graduate STEM certificate program.
+           </div>
+          </blockquote>
+          <blockquote></blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Engineering with Cardboard - Grades 3-8</a>
+         <div class="more">
+          <p>We plan to share strategies, some useful tools, and planning ideas to creating cardboard engineering challenges. We will talk about the Rube Goldberg machines that 4th graders created this spring, as well as some other cardboard engineering projects that 3rd and 2nd graders worked on. This will be a hands-on workshop in which attendees will participate in an engineering challenge that we create for them. Our goal is to have attendees leave ready to try a cardboard engineering challenge with their students. These challenges cover the Force and Motion strand of the science SOLs, as well as Measurement, Data, and Graphing in Math SOLs. Planning and Reflective writing SOLs are also incorporated. <br><br>This workshop covers project based learning for grades 3-8.<br><br><img align="right" src="/uploadedImages/Conferences/STEM/Hellen Miller headshot.jpg?n=6773" alt="2015 STEM Helen Miller" title="2015 STEM Helen Miller">Instructors: <br><br>- Helen Miller, Classroom Teacher, ACPS&nbsp;</p>
+          <blockquote>
+           <div>
+            <br>Helen Miller is a 3rd grade teacher, Brooke Asher is a 4th grade teacher, and Peggy Riso is a 2nd grade teacher at Cale Elementary School in Albemarle County, Virginia. We have collaborated on cross-curricular science, technology, and math. We are leading our school as we pilot an Imagination Foundation chapter www.imagination.is.
+           </div>
+          </blockquote>
+          <p><img align="right" title="2015 STEM Brooke Asher" alt="2015 STEM Brooke Asher" src="/uploadedImages/Conferences/STEM/Brooke Asher headshot.jpg?n=1529">- Brooke Asher, Classroom Teacher, ACPS</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Girl’s Geek Day? What's THAT? - Grades 3-8, Administrators</a>
+         <div class="more">
+          This workshop will cover the basics of starting up a Girl's Geek Day (which can be adapted to just about any audience). We will also share our experiences and ideas for sessions and the organization we use to work with students new to us each time we hold one. Participants will problem solve as they utilize some of our technology tools, brainstorm and use engineering design principles as they work with some of our STEM equipment, and share and collaborate as we work together to craft an entertaining, yet informative 50 minutes.
+          <p>This workshop covers integrated STEM for teachers and administrators of students in grades 3-8.</p>
+          <p>Instructors: &nbsp;</p>
+          <p>-Paula White, Gifted Resources Teacher, Albemarle County Public Schools</p>
+          <blockquote>
+           <p>Paula is a learner first, teacher second. Wait--grandma, reader, camper, and lots of other titles come in there, too. However, one thing is for sure--you'll enjoy hearing the stories and expertise she and her co-presenters have to share from their many varied experiences. Paula has taught full time in five (5) different elementary schools in Albemarle, taught every grade from K-5 and worked with and learned from a multitude of excellent educators from all over the US. Paula is also a consultant, a national presenter, and an international Keynoter.&nbsp;</p>
+          </blockquote>-Barbara Huneycutt, 2nd Grade Teacher, Albemarle County Public Schools
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Hydraulics-Fluid Movement - Grades 3-8</a>
+         <div class="more">
+          Attendees will be able to work through 3 hands on STEM lessons learning simple machines, fluid motion, Newton's Laws, basic robotics, the Engineering Design Process and mechanical advantage. All participants will leave with building kits and all lesson material needed.
+          <div>
+           <br>This workshop covers integrated STEM for teachers in grades 3-6.
+          </div>
+          <p>Instructors: &nbsp;</p>
+          <p>-&nbsp;Elisa Rushing, Teacher- Technology and Engineering Education, Swift Creek Middle School</p>
+          <p>- Cliff Jones, Teacher, Swift Creek Middle School</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">If I can build it I will learn - Grades 3-6</a>
+         <div class="more">
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Terry graff web.jpg?n=2051" alt="Terry Graff 2015 STEM" title="Terry Graff 2015 STEM">3D Printer adds a new dimension to research and learning. -If I can build it I will learn -students design dream house SOL AREA: 3rd grade Geometry SOL &amp; Social Studies contributions of Ancient Civilization LECTURE/PANEL DISCUSSION -Writing, Architecture, and Geometry vocabulary are infused into this unit, The culminating activity is the design of a dream house on the 3D printer using www.tinkercad.com website. A student response journal and outline of activities will be given to attendees. The presenter will share a PowerPoint and 3D examples. Also, there will be a share of Ancient Egypt research groups and incorporation of makerspace (architecture) into this unit. This unit could be used for higher grade levels.</p>
+          <div>
+           This workshop covers technology for grades 3-6.
+          </div>
+          <p>Instructors: &nbsp;</p>
+          <p>-Terry Graff, Teacher, Paul H. Cale El.</p>
+          <blockquote>
+           <p>B.S Biology Virginia Tech -Teacher certification Mary Baldwin College -Elementary teacher for 18 yrs in Albemarle County -2013 National Board Certified Teacher -I have been following the Maker Movement the last 3 years and have become very interested in incorporating it into my curriculum -blog- https://grafftravels.wordpress.com&nbsp;</p>
+          </blockquote>
+          <p>-Peggy Riso, Teacher, Paul H. Cale El.</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Innovations at the National Air and Space Museum - Grades 3-8</a>
+         <div class="more">
+          <p><img align="right" title="2015 STEM Barb Gruber" alt="2015 STEM Barb Gruber" src="/uploadedImages/Conferences/STEM/Barb Gruber_web.jpg?n=1391">Attendees will engage in STEM activities that support instruction on the forces of flight, rocket design, and space exploration. They will connect the concepts learned and how these activities support Virginia and National standards and STEM in the classroom. Teachers will learn how to incorporate artifacts as instructional tools and build instruction around authentic problems. The session will be a mixture of lecture and hands-on activity.</p>
+          <p>This workshop covers integrated STEM curriculum for grades 3-8.</p>
+          <p>Instructor: &nbsp;Dr. Barbara Gruber, Aerospace Educator, National Air and Space Museum</p>
+          <blockquote>
+           <div>
+            Barbara Gruber is the Aerospace Educator at the National Air and Space Museum's Steven F. Udvar-Hazy Center. She is a certified chemistry teacher, administrator, and technology leader and holds a Ph. D. in Education from George Mason University.
+           </div>
+          </blockquote>
+          <div>
+           <p>&nbsp;</p>
+          </div>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Integrated STEM with Children's Engineering - Grades 5-6, Administrators</a>
+         <div class="more">
+          <p>We all know children love to build, create, tear down, start over, and have fun and Goochland County Public Schools has implemented “Children’s Engineering” to give students these experiences. This program engages students in hands-on, problem-based learning where they apply learned knowledge as they “engineer” solutions to challenges their teachers give them. The “challenge” is designed by the teacher and often involves a book the students have read or a unit they are studying. The “challenge” may involve creating, designing, building, or experimenting, while the kids are having fun. Children’s Engineering is not designed to make every child an engineer, but they are “engineering” solutions to challenges. Students are engaged and having so much fun while learning.</p>
+          <p>This workshop covers project based learning for grades 5-6 and administrators.</p>
+          <p>Instructors:</p>
+          <p>-Bruce Watson, Director of Career and Technical Education, Goochland County Public Schools</p>
+          <blockquote>
+           <p>Bruce Watson is a veteran educator with over 40 years of experience in teaching and administration. Currently he serves as the Director of Career and Technical Education and STEM for Goochland County public Schools where he supervises K-12 STEm and Engineering programs. &nbsp;</p>
+          </blockquote>
+          <p>Also:</p>
+          <ul>
+           <li>Lisa Brown, Instructor, Goochland Elementary School</li>
+           <li>Beth Ferguson, Instructor, Randolph Elementary School</li>
+           <li>Katie Hadd, Instructor, Randolph Elementary School</li>
+          </ul>
+          <div>
+           <p>&nbsp;</p>
+          </div>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">An Introduction to Physical Computing and the Arduino - Grades 5-8</a>
+         <div class="more">
+          <p>Physical computing is defined as making things happen in the physical world by running programs on a computer such as a microcontroller. Physical actions can range from the very simple—blinking an LED—to the very complex—a robot exploring its environment. The Arduino is a single-board microcontroller-based system for implementing physical computing systems. It has its own programming language called Wiring which is touted as easy to learn and is well supported on the web. The Arduino has become the “go to” computer of the Maker Movement. In this workshop, participants will learn to develop and program simple interfaces using the Arduino and its integrated development environment (IDE). Classroom applications, such as automated measurements of experiment data, will be discussed.</p>
+          <div>
+           This workshop covers technology for grades 5-8.
+          </div>
+          <p>Instructors:</p>
+          <p><img align="right" title="2015 STEM David Livingston, Ph.D., VMI" alt="2015 STEM David Livingston, Ph.D., VMI" src="/uploadedImages/Conferences/STEM/david_livingston.jpg?n=1384" style="width: 200px;">-Col. Dave Livingston, Ph.D., Department of Electrical and Computer Engineering, Virginia Military Institute</p>
+          <blockquote>
+           <p>Dave Livingston earned the BS, ME, and Ph.D. in electrical engineering from Old Dominion University. He started his career as a computer design engineer at IBM where he participated in the design of two models of the IBM PC. Dave has been a professor for 28 years, teaching at Old Dominion University, Virginia Western Community College, and Virginia Military Institute. COL Livingston is currently a Professor of Electrical and Computer Engineering at VMI where he teaches the robotics segment of the department’s introductory course, circuits, applications of analog and digital electronics, and microcontrollers. His research interests are in robotics, machine intelligence, including artificial neural networks, fuzzy logic, and evolutionary computing, and embedded systems. He is also a co-inventor on three patents. Dave has been a mentor and coach for FIRST Robotics teams and a participant in the Roanoke Robotics and Makers Club. COL Livingston is a Senior Member of the Institute of Electrical and Electronics Engineers (IEEE), and is a member the American Society for Engineering Education, and of the Eta Kappa Nu, Tau Beta Pi, and Phi Kappa Phi honor societies.&nbsp;</p>
+          </blockquote>
+          <p><img align="right" title="2015 STEM Mac Baker, Ph.D., VMI" alt="2015 STEM Mac Baker, Ph.D., VMI" src="/uploadedImages/Conferences/STEM/BakerJM.jpg?n=6696" style="width: 200px;">-Col. Mac Baker, Ph.D., Department of Electrical and Computer Engineering, Virginia Military Institute</p>
+          <blockquote>
+           <div>
+            &nbsp;
+           </div>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Introduction to Robots - Grades 3-8, Administrators</a>
+         <div class="more">
+          <p>This workshop will define the term “robot” and explore the components that make up a robot: sensors (senses), computer (brain), actuators (arms and legs), chassis (body), and power supply (digestive system). Examples of how robots can be used in the classroom to reinforce mathematics and physical principles will be discussed. The experiences of coaching a FIRST Lego League (FLL) robotics team will also be presented. To get hands-on experience, workshop participants will program a Lego Mindstorms robot to perform simple actions.</p>
+          <p>This workshop covers technology for grades 3-8 and administrators.</p>
+          <p><u>Instructors</u>:</p>
+          <p><img align="right" title="2015 STEM David Livingston, Ph.D., VMI" alt="2015 STEM David Livingston, Ph.D., VMI" src="/uploadedImages/Conferences/STEM/david_livingston.jpg?n=7978" style="width: 200px;">-Col. Dave Livingston, Ph.D., Department of Electrical and Computer Engineering, Virginia Military Institute</p>
+          <blockquote>
+           <p>Dave Livingston earned the BS, ME, and Ph.D. in electrical engineering from Old Dominion University. He started his career as a computer design engineer at IBM where he participated in the design of two models of the IBM PC. Dave has been a professor for 28 years, teaching at Old Dominion University, Virginia Western Community College, and Virginia Military Institute.<br><br>COL Livingston is currently a Professor of Electrical and Computer Engineering at VMI where he teaches the robotics segment of the department’s introductory course, circuits, applications of analog and digital electronics, and microcontrollers. His research interests are in robotics, machine intelligence, including artificial neural networks, fuzzy logic, and evolutionary computing, and embedded systems. He is also a co-inventor on three patents.</p>
+          </blockquote>
+          <blockquote>
+           <p>Dave has been a mentor and coach for FIRST Robotics teams and a participant in the Roanoke Robotics and Makers Club.<br><br>COL Livingston is a Senior Member of the Institute of Electrical and Electronics Engineers (IEEE), and is a member the American Society for Engineering Education, and of the Eta Kappa Nu, Tau Beta Pi, and Phi Kappa Phi honor societies.</p>
+          </blockquote>
+          <p>-Mrs. Barbara Livingston, Teacher, Buchanan Elementary School</p>
+          <blockquote>
+           <p>Barbara Livingston has been an educator for over 24 years. She earned her BA degree from SUNY Cortland and her MS in Early Childhood Education from Old Dominion University.<br><br>Barbara Livingston currently teaches second grade at Buchanan Elementary School, Botetourt County Public Schools. She has also taught 5th grade Math &amp; Language Arts, 1st grade, Reading Recovery, Math 7, 8, 9, and Pre-Algebra. In addition, Mrs. Livingston has been coaching the FLL Lego Team at Buchanan Elementary School for 7 years. The team has been recognized at the regional level for robot design, and the research project, and has been invited to participate in the Virginia State FLL Tournament at James Madison University twice.<br><br>Mrs. Livingston is a member of Phi Kappa Phi, the Roanoke Valley Reading Council &amp; Virginia State Reading Association, National Education Association, and Botetourt County Education Association.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Inventions &amp; Simple Machines: Fun Facts and Easy Demonstrations - Grades 3-4</a>
+         <div class="more">
+          <p>Inventions and Simple Machines are not just two Virginia 3rd grade SOL requirements – they are an opportunity to let students be creative and have fun with hands-on opportunities. In this workshop we will investigate several low-cost or free simple machine demonstrations, some ideas for inexpensive student-centered experiments, facts about inventions interesting to third-graders, and ideas for creative art/writing assignments. All plans and printable handouts are open-source and will be posted to the conference website’s file sharing manager.</p>
+          <div>
+           This workshop covers Engineering for teachers of grades 3-4.
+           <br>
+           <div>
+            <br>Instructors:&nbsp;
+           </div>
+           <p><img align="right" title="2015 STEM James Squire, Ph.D. VMI" alt="2015 STEM James Squire, Ph.D. VMI" src="/uploadedImages/Conferences/STEM/jim_squire.jpg?n=7902" style="width: 200px;">-Col. James Squire, P.E., Ph.D., Department of Electrical and Computer Engineering, Virginia Military Institute</p>
+           <blockquote>
+            <p>Jim Squire is a teacher and inventor. He first knew he wanted to teach while helping his classmates at the U.S. Military Academy at West Point, and after being awarded a Bronze Star for service in the Gulf War became a high school teacher in Asbury Park, NJ. He later earned his doctorate in electrical engineering at the Massachusetts Institute of Technology, and joined the Virginia Military Institute as a professor of engineering. His classroom techniques led the Virginia State Council of Higher Education to name him an Outstanding Professor of the Year. He has eight patents, an active consulting practice in patent litigation, and is co-owner of three technology start-up companies, but remains proudest of his wife and two boys.&nbsp;</p>
+           </blockquote>-Laura Squire, Teacher, Lexington City Schools&nbsp;
+          </div>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Language Dissection: Teaching The Writing of Science - Grades 3-4</a>
+         <div class="more">
+          <p>One of the challenges of teaching writing in third and fourth grade science classroom contexts is that students are increasingly transitioning from learning to read to reading to learn. In this presentation, participants will be introduced to a methodology for understanding specific linguistic challenges of scientific writing from a functional linguistics perspective. From this perspective, the presenter will aid participants in developing their own analytical skills to inform their pedagogical practices, ultimately resulting in tools for explicit language instruction in target genres for young science writers in grades 3 and 4.&nbsp; </p>
+          <p>This workshop covers science for teachers of grades 3-4.</p>
+          <p><img align="right" style="width: 200px;" src="/uploadedImages/Conferences/STEM/Josh Iddings.jpg?n=6638" alt="2015 STEM Josh Iddings - Language Dissection" title="2015 STEM Josh Iddings - Language Dissection">Instructor: &nbsp;Maj. Josh Iddings, Ph. D., Department of English, Rhetoric and Humanistic Studies, Virginia Military Institute</p>
+          <blockquote>
+           <p>Josh Iddings currently teaches courses in Writing &amp; Rhetoric, Language &amp; Style, and Appalachian Culture, and Prison Writing. His research interests include Systemic Functional Linguistics, Rhetoric and Composition, and Appalachian Studies. Josh recently published an edited volume entitled Genre Pedagogy Across the Curriculum: Theory and Application in U.S. Classrooms and Contexts with Dr. Luciana C. de Oliveira. Josh has presented research at local, state, national and international conferences in countries like Australia, South Korea, Canada, Germany, and Portugal. Aside from his teaching and research interests, Josh is developing projects to help VMI cadets engage with children in local schools, specifically the development of early literacy skills.</p>
+          </blockquote>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">M-cubed, An Algebra Readiness Initiative - Grades 5-8, Administrators</a>
+         <div class="more">
+          <div>
+           <u>Description</u>
+           <strong>:<br><br></strong>&nbsp;This workshop will address the social, academic and behavior implications of designing an accelerated math program of middle school age African American males. Emphasis is placed on understanding the impact of teaching and learning preferences associated with the cultures of African American learners. The presenters will share the program design, examples of effective practices and allow time for group interaction.
+          </div>
+          <p>This workshop covers mathematics, mentoring and problem based learning for grades 5-8 and administrators.</p>
+          <p><u>About the partnership and program</u>:&nbsp;</p>
+          <p>The 2009 partnership with the Albemarle County Public Schools and the 100 Black Men of Central Virginia is a recent and notable school and community educational reform initiative. Dr. Hairston serves as the founding president of this mentoring organization to address the achievement gap of African American males. He is an advocate for increasing the knowledge base of teachers around culturally responsive research based teaching practices that’s inclusive of valuing the importance of getting to know students around their culture, teaching to backgrounds and experiences and involving the home in the learning process. He has taught on the middle school and college levels and served as a middle school and high school principal in the public sector.&nbsp;<br><br>Albemarle County Public Schools (ACPS) addresses the needs of all students. Division data suggests that African American males are underachieving in the classrooms. In response the Superintendent of Schools and the School Board collaborated with the division’s Office of Community Engagement to establish partnerships with State Farm Insurance (funding); the University of Virginia’s School of Education (research and development support); and the 100 Black Men of Central Virginia (mentoring support) to assist in eliminating this achievement gap.<br><br>Through this partnership the M-Cubed program was created in 2009 and has flourished. M-Cubed stands for Math-Men-Mission and its goal is to produce an increase in the enrollment of African American young men in upper level course work, growth in personal expectations, and the development of grounded family and civic minded young men. By creating an atmosphere of successful academic experiences, rigorous pre-algebra curriculum and the establishment of a systemic support system; success was achieved.</p>
+          <p>Albemarle County Public Schools was honored as the grand prize winner in the 5,000 to 20,000 enrollment category for M-cubed: Math, Men and Mission, a program developed to improve the academic achievement of African-American male students and encourage them to enroll in higher level math classes. The program starts with a two-week summer academy for upper elementary and middle school students and extends throughout the year with mentoring and academic support from the 100 Black Men of Central Virginia; a community group. </p>
+          <div>
+           <div>
+            <u>Instructors</u>: &nbsp;
+           </div>
+           <p><img align="right" src="/uploadedImages/Conferences/STEM/Bernard Hairston web.jpg?n=5498" alt="2015 STEM Bernard Hairston" title="2015 STEM Bernard Hairston">-Bernard Hairston, Ph.D., Executive Director, Albemarle County Schools &amp; 100 Black Men of Central Virginia&nbsp;</p>
+           <blockquote>
+            <p>L. Bernard Hairston is the Executive Director of Community Engagement with the Albemarle County Public Schools (ACPS) located in Charlottesville, Virginia. His work involves creating opportunities that engage community stakeholders with the vision, mission and goals of the school system.&nbsp;</p>
+           </blockquote>
+           <img align="right" src="/uploadedImages/Conferences/STEM/Rickey White_web.jpg?n=7990" alt="2015 STEM Rickey White" title="2015 STEM Rickey White">-Rickey White, Ph.D., Teacher &amp; Mentor, 100 Black Men of Central Virginia
+           <br>
+           <p>&nbsp;</p>
+          </div>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Making Waves - Grades 7-8</a>
+         <div class="more">
+          <p>This workshop will entail a combination of demonstrations and hands on activities that illustrate various aspects of the physics of waves.&nbsp; Most of the demonstrations will relate to sound waves.&nbsp; Some key concepts highlighted in the workshop will be the production, interference, and technology of waves.</p>
+          <p>This workshop covers science for teachers of grades 7-8.</p>
+          <p><img align="right" style="width: 200px;" src="/uploadedImages/Conferences/STEM/thompsonjr.jpg?n=5331" alt="2015 STEM John Thompson, Ph.D., VMI" title="2015 STEM John Thompson, Ph.D., VMI">Instructor: &nbsp;Col. John Thompson, Department of Physics &amp; Astronomy, Virginia Military Institute</p>
+          <blockquote>
+           <p>John Thompson has taught a wide range of physics courses including introductory survey courses in general physics for scientists and engineers, topical courses for non-science majors in areas such as weather and climate, and advanced courses in laser physics and fiber optics.&nbsp; His research centers on laser physics and nonlinear optics in optical fiber.&nbsp; He enjoys doing experiments that illustrate physical phenomena first-hand and performing numerical simulations to help visualize and understand physical phenomena.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Map Your Schoolyard! - Grades 3-8</a>
+         <div class="more">
+          <p>This workshop will offer attenders ideas and tips for using their schoolyards as outdoor learning labs, with special emphasis on engaging students in science-related mapping activities. Mapping as an activity is easily adaptable for a range of ages, topics, and on-the-ground realities. Well-designed, the process engages students in measurement, symbolic thinking, data-collection, problem-solving, collaboration and more. Data from a student-led mapping activity can also be the springboard into related service or action projects involving students across the disciplines. During this lecture/slide/discussion session, we will share case studies of inquiry-driving schoolyard mapping projects undertaken by gr. 3 - 7 science/math instructions in our local area. Projects include those that address soil erosion, bird behavior, habitat, impervious run-off, and water flow. The goal of the presentation is to inspire attenders with possibilities as well equip them with some strategies for success.</p>
+          <div>
+           <span style="line-height: 0;"><br></span>This workshop covers Project Based Learning for teachers of students in grades 3-8.
+           <br>
+           <div>
+            <br>
+            <img align="right" style="height: 200px;" src="/uploadedImages/Conferences/STEM/Elise Sheffield web.jpg?n=1887" alt="2015 STEM Elise Sheffield" title="2015 STEM Elise Sheffield">Instructor:&nbsp; Elise Sheffield, Education Director, Boxerwood Nature Center
+           </div>
+           <blockquote>
+            <p>As director of education at Boxerwood Nature Center (Lexington), Elise Sheffield spearheads local initiatives in field-based learning for local K-8 students. As part of this work she helps teachers design and implement data-rich student investigations using their own schoolyards. A certified gr. 6 - 12 educator, Ms. Sheffield is currently pursuing a masters in science education through Miami University (Ohio) with emphasis on field-based inquiry as method for student learning and empowerment.</p>
+           </blockquote>&nbsp;
+          </div>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Martinsville City's STEM Pipeline - Grades </a>
+         <div class="more">
+          Come create with us! Born out of a commitment to the economic turnaround of our community through education, Martinsville City Public Schools is meeting its mission of "Bringing Life to Learning" with the MCPS STEM Pipeline. The MCPS STEM Pipeline has been recognized as an “Innovative Program” by the VDOE, as a 2014-2015 "Program That Works" by the Virginia Mathematics and Science Coalition, and as an "Elite STEM-H Education and Business Partnership" by The Institute of Advanced Learning and Research. Through the MCPS STEM Pipeline students have the opportunity to:&nbsp;
+          <br>
+          <br>
+          <div>
+           • improve understanding of math and science through application of skills and concepts;&nbsp;
+          </div>
+          <div>
+           • develop critical thinking, problem-solving, communication, and collaboration skills with a focus on college-and-career readiness; and&nbsp;
+          </div>
+          <div>
+           • develop interest in STEM fields, especially for traditionally under-represented populations.&nbsp;
+          </div>
+          <div></div>
+          <div>
+           These outcomes are accomplished through a comprehensive pre-K through 12th grade STEM program for all students. Through the integration of activities with LEGO's and project based learning to STEM classes focused on Children's Engineering, LEGOs, and robotics; we work with all students to cultivate STEM skills throughout their pre-elementary, elementary, and secondary education. Our partnerships with higher education institutions, area STEM businesses, the Chamber of Commerce, and the MHC Economic Development Corporation afford our students opportunities to interact with STEM-H professionals through mentorships, internships, site-visits, and school visits. We will have educators from elementary schools through high school demonstrating how they are "Bringing Life to Learning" through STEM education. This workshop is hands on, so come prepared to build!
+          </div>
+          <div>
+           <br>This workshop covers project based learning for teachers with students in grades 3-8.
+          </div>
+          <div>
+           <br>Instructors:&nbsp;
+          </div>
+          <p>-Angilee Downing,&nbsp;<span style="line-height: 0;">&nbsp;</span>Assistant Superintendent of Instruction, Martinsville City Public Schools</p>
+          <blockquote>
+           <div>
+            Angilee Downing has a Bachelor of Arts in English from James Madison University, a Masters of Education as a Reading Specialist from Averett University, and a Masters of Science in Educational Leadership from Radford University. She is certified in the areas of Prek-12 Gifted Education, Theatre Arts, English, Reading Specialist, Administration and Supervision, as well as having her Division Superintendent’s License. She has enjoyed twenty-two years of experience in education and has taught at the elementary, middle, junior high, and high school levels. Thirteen years of her experience are in the in the classroom and nine years are in administration. Angilee currently serves as the Assistant Superintendent of Instruction for Martinsville City Public Schools.
+           </div>
+          </blockquote>-Kathy Campbell, STEM Teacher, Martinsville City Public Schools
+          <br>
+          <blockquote>
+           <div>
+            After graduating as a RN in the mid-seventies and working for many years in the medical ﬁeld, Kathy returned to school and completed the requirements to be a licensed, early- education, teacher through Averett University. Since 1993, Kathy has worked as a part- time reading enrichment teacher, taught both second and third grades, worked with the identiﬁed gifted students at two elementary schools and presently is the STEM and gifted teacher at Albert Harris Elementary School which is located in Martinsville, Virginia.
+            <br>
+            <br>Kathy Campbell has found her niche in teaching STEM or STREAM which includes the arts and reading along with science, technology, engineering, and math. It is exciting for Kathy to provide children with the experiences to practice the life skills of collaboration, creativity, communication, and critical thinking as they solve problems. Kathy Campbell loves her current position and it is her belief that she can help young students become productive, caring, citizens of this world through STEM.
+           </div>
+          </blockquote>-Joy Johnston, Instructor for NASA SEMAA program, Martinsville City Public Schools
+          <br>
+          <blockquote>
+           <div>
+            Joy Johnston is entering her fifth year as the instructor of our NASA SEMAA (Science, Engineering, Mathematics, Aerospace Academy) program. A graduate of Martinsville High School, she received her Bachelors of Science degree in Interdisciplinary Studies with concentrations in Computer Information Systems and Education from Liberty University. With an extensive background in computer programming and manufacturing, teaching STEM education was the perfect place to merge her experiences with her desire to help children realize their full potential with hands-on learning lessons and through the use of Lego Robotics.
+           </div>
+          </blockquote>-Todd Cassell,&nbsp;Technology and Engineering Education, Martinsville High School
+          <br>
+          <blockquote>
+           <div>
+            Todd Cassell joined the Martinsville City Public Schools in 2013 where he currently serves as the Technology and Engineering Education teacher at Martinsville High School. He also coaches and mentors the school’s FIRST Robotics team and is the lead advisor for the Technology Student Association (TSA).
+           </div>
+           <div>
+            <br>A native of Martinsville, Virginia, Cassell holds a Bachelor’s degree in Technology Education with an emphasis in Secondary STEM Education from Valley City State University in North Dakota. He also completed a certification in Secondary STEM Education and currently working on a Master’s in Education from VCSU.
+            <br>
+            <br>Before his career in education, Cassell served in the U.S. Navy for over 20 years where he participated in many operations including Desert Storm, Enduring Freedom, and the Global War on Terrorism. Cassell retired from active duty in 2011.
+           </div>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Motion Mania with Vernier and LEGO Robotics - Grades 3-8</a>
+         <div class="more">
+          <p>Participants will use a Vernier Motion Detector to collect and analyze data while investigating and producing graphs of their own motion. A computer generated graph will be given and participants will be challenged to interpret and attempt to match the graph with their own motions. To incorporate LEGO robotics, participants will be challenged to program the LEGO NXT Robot to match computer generated graphs. SOLs 4.1, 4.2, 5.1, PS.1, PS.10 can be enriched with this activity that promotes critical thinking. Participants will leave with knowledge of using Motion Detectors as an avenue to interpreting graphs and to programming robots.</p>
+          <div>
+           <br>This workshop covers Integrated STEM for teachers with students in grades 3-8.
+          </div>
+          <p>Instructors:&nbsp;</p>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/EVANS_web.jpg?n=6712" alt="2015 STEM Evans" title="2015 STEM Evans">-Tommie Evans, STEM Instructor, STEM Academy, Pittsylvania County Schools</p>
+          <blockquote>
+           <p>The three presenters are all instructors at the STEM Academy in Pittsylvania County Schools. Tommie Evans is a 35 year teaching veteran with experience in teaching elementary school; middle school science; and Physics, Earth Science, and Physical Science at the high school level. She has an undergraduate degree from UNC-CH, a master's degree from UNC-G, and is national board certified.&nbsp;</p>
+          </blockquote>
+          <p>-Jacob Taylor, STEM Instructor, STEM Academy, Pittsylvania County Schools&nbsp;</p>
+          <blockquote>
+           <p>Jacob Taylor has been teaching for 6 years and is an alumni of Bridgewater College with a degree in Physics. He has taught physics, calculus, and various math levels.&nbsp;</p>
+          </blockquote>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/COLLINS web.jpg?n=9105" alt="2015 STEM Collins" title="2015 STEM Collins">-Jill Collins, STEM Instructor, &nbsp;STEM Academy, Pittsylvania County Schools</p>
+          <blockquote>
+           <p>Mrs. Collins has taught for 20 years with experience in middle school science, Life Science, and STEM summer camps. She is a graduate of Averett University with a Bachelor’s Degree in Physical Education and a Master’s Degree in Education with a Biology Concentration. &nbsp;</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">NASA Ignite! in the Classroom - Grades 3-8</a>
+         <div class="more">
+          <p>Using the <em>NASA Ignite!</em> website, attendees will receive a hands-on approach to teaching about our Universe. Attendees will be given the website and a short tutorial on how to access it. Attendees will then be able to participate in a lesson from the site. Attendees will see how everyday resources can be integrated into their curriculum, and that it doesn't take a lot of prep work on the classroom teacher's part. This meets several Language, Mathematics, Social Studies and Sciences SOL's.</p>
+          <div>
+           <br>This workshop covers integrated STEM for teachers and administrators with students in grades 3-8.
+          </div>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Kristie_Meyers_web.jpg?n=9589" alt="2015 STEM Kristie Meyers" title="2015 STEM Kristie Meyers">Instructor: &nbsp;Kristie Meyers, Teacher, St. Leo The Great Catholic School</p>
+          <blockquote>
+           <p>Science nerd and student-professed tree hugger. 14 years of combined public and private school teaching experience. BS in Elementary education and MS in curriculum instruction and design, NASA Ignite! Certified Educator. Always looking to integrate a love of science and STEM into classrooms in order to spark student interests and prepare them with real life skills and a love of science.</p>
+          </blockquote>
+          <!--StartFragment-->
+          <!--EndFragment-->
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Niche Bots - Grades 3-4</a>
+         <div class="more">
+          In this hand's-on workshop, participants will construct a Niche-bot that contains a working circuit. The bot must represent its niche, have adaptations for its habitat, and characteristics of its animal type. The bot must include a working pager motor and move independently. Participants will create a unique name for each Niche-bot and design a trading card using appropriate iPad apps. As a group, we will use the trading cards to discuss each Niche-bot’s role in the food web. Target Virginia SOL Standards: Science 3.4, 3.5, 3.6, 4.5, 4.3; English 3.9, 3.10, 3.12, 4.7, 4.8; Math 3.9, 4.6, 4.7; C/T 3-5.2; C/T 3-5.10; C/T 3-5.11 Supporting Virginia SOL Standards: C/T 3-5.
+          <div>
+           &nbsp;
+          </div>
+          <div>
+           This workshop covers science for teachers with students in grades 3-4.
+          </div>
+          <p>Instructors: &nbsp;</p>
+          <p>-Meg Swecker,&nbsp;Instructional Technology Resource Teacher, Roanoke County Public Schools</p>
+          <blockquote>
+           <p>Meg Swecker is the Coordinator of Technology Integration and an ITRT for Roanoke County Public Schools. She collaborates with K-8 teachers in the use of instructional technology, STEM, Children's Engineering, and Project-Based Learning.</p>
+          </blockquote>-James Decker, 4th Grade Teacher, Green Valley Elementary School
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Not all about the trifold board: Building grit and curiosity through engineering design - Grades 5-8, Administrators</a>
+         <div class="more">
+          <p>It takes more than the traditional science fair to ensure that your students develop the digital age skills and habits of mind to make them great innovators and problem solvers. Learn how to overcome three critical barriers to student-centered learning using free resources from the Army Educational Outreach Program. This workshop is hands-on make-it take it, and teachers leave with ideas they can use Monday morning.</p>
+          <div>
+           <br>This workshop covers integrated stem for teachers and administrators with students in grades 5-8.
+          </div>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/jill latchana_web.jpg?n=8422" alt="2015 STEM Jill Latchana" title="2015 STEM Jill Latchana">Instructor: &nbsp;Jill Latchana, Assistant Program Manager, National Science Teachers Association</p>
+          <blockquote>
+           <p>Jill Latchana is a former middle school science teacher livin' the dream at the National Science Teachers Association. Utilizing her 15 years of experience in professional development working at Apple and Discovery, she currently is on the management team for the eCybermission contest. In her spare time, she likes to Macgyver, tinker, and explore.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Our Town: Combine STEM, Project-based Learning &amp; Community Service - Grades 3-8, Administrators</a>
+         <div class="more">
+          <p>Our workshop will be a combination of presentation and hands-on. Participants will hear our story of how we turned a grade-level IMPACT community service project (I'm Making a Planned Act of Compassion Today) into a multi-year STEM integrated project that includes collaboration with local community leaders. Participants will learn how to use Google Maps to identify community challenges and receive information about the Roots and Shoots Foundation, the youth-led community action and learning program of the Jane Goodall Institute. This approach includes technology integration of grade level SOL in Math, Science, Virginia Studies, Reading, and Writing.&nbsp;</p>
+          <p>This workshops covers project based learning for teachers of grades 3-8 and administrators.</p>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Betsy_Agee_Headshot_200x200.jpg?n=2565" alt="2015 STEM Betsy Agee" title="2015 STEM Betsy Agee">Instructor: &nbsp;Betsy Agee, 5th Grade Teacher, Crozet Elementary</p>
+          <blockquote>
+           <p>Betsy Agee is a 5th grade teacher at Crozet Elementary. An avid Hokie, Betsy and her family live in the Shenandoah Valley. Betsy has worked in classrooms at all levels K-8 and has both building and district administrative experience. She and her presentation team were honored this spring as VIP attendees of Jane Goodall's Washington D.C address through the Roots and Shoots Foundation and Betsy has an accreditation thought the organization in Google Mapping. Crozet Elementary received national recognition this year as a U.S. Department of Education Green Ribbon School. &nbsp;</p>
+          </blockquote>
+          <p><img align="right" title="2015 STEM Brandy Garbaccio" alt="2015 STEM Brandy Garbaccio" src="/uploadedImages/Conferences/STEM/Brandy Garbaccio-OurTown_web.jpg?n=4929">-Brandy Garbaccio, Teacher, Crozet Elementary<br>&nbsp;-Justin Stauffer, Teacher, Crozet Elementary (not pictured)</p>
+          <blockquote></blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Overcoming Obstacles to Learning by Using Robotics - Grades 5-8</a>
+         <div class="more">
+          This workshop will have you complete a simple obstacle course using the LEGO Education EV3 Robot. Attendees will program their robot to complete the course while using math, logical thinking, trial and error, perseverance, collaboration, and communication skills. See how your students can overcome barriers to learning through total engagement with robotics.
+          <div>
+           <br>This workshop covers mathematics for teachers and administrators with students in grades 5-8.
+          </div>
+          <div></div>Instructor: &nbsp;Stephen Shumaker, Education Consultant, LEGO Education
+          <br>
+          <blockquote>
+           <p>Stephen has a passion for learning and believes in the strength of knowledge gained and retained through Hands-On applied learning. He enjoys construction, history and the outdoors. As time permits he takes the family on nature walks and outdoor excursions. He also enjoys hunting with his daughter for arrowheads and wild game.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">The Power of Digital Storytelling in Facilitating Lifelong Learning - Grades 7-8</a>
+         <div class="more">
+          <p>The targeted SOL for this workshop is digital literacy as it applies to instruction and assessment across the curriculum. By the end of this workshop, attendees will be able to: explain the role of technology is creating digital stories, use a list of topic ideas generated in the session to create a digital story project <br><br>INTO Activity: "Corners" (Kagan). A different symbol will be posted in each corner of the room. Participants will choose the symbol that best represents their “self as educator” and go to that corner. In each corner, participants will talk about their choice. 1 person from each group will share the responses with the whole group. Once seated, they will use a digital story storyboard template to identify images and/or videos, sounds, music, and white screens to tell their “I/educator” story. <br><br>THROUGH: Cadets will talk about creating their digital stories of “Spanish-speaking self,” “dramatic questions,” and talk about the technology with which they availed themselves to tell their stories. Transitioning to the "how" of digital storytelling, participants will brainstorm suitable "dramatic questions" for their levels and disciplines. <br><br>BEYOND: After a group share, we will generate prompts for digital storytelling about self as learner at different levels of instruction. Handouts will include a list of links to the best teacher sites for digital storytelling, open source storytelling software, and open-source media.</p>
+          <div>
+           <br>This workshop covers Project Based Learning for teachers with students in grades 7-8.
+           <br>
+           <br>Instructors:&nbsp;
+          </div>
+          <p>-Col. Mary Ann Dellinger, Professor of Spanish Language &amp; Cultures, Virginia Military Institute</p>
+          <blockquote>
+           <p><img align="right" src="/uploadedImages/Conferences/STEM/Dellinger web.jpg?n=6090" alt="Mary Ann Dellinger 2015 STEM" title="Mary Ann Dellinger 2015 STEM">Dr. Dellinger is a former 7-12 teacher and instructor in teacher education (K-12 bilingual, ESL, multicultural education and secondary education). Currently Professor of Spanish at VMI, she teaches all levels of Spanish language as well as upper-level courses in 20th century Spanish (Peninsular) cultural studies, film, and Spanish for Business. She is the co-author of Sendas literarias (2nd, 3rd editions, Pearson School), Vistas. Introducción a la lengua española (1st ed., VHL HE), and Ventanas . Curso intermedio de lengua española(1st ed., VHL HE), and over 15 essay publications. In their course evaluations, cadets consistently cite the incorporation of instructional technology as “particularly effective about this instructor’s teaching” and project-based assessment (ePortfolios, digital storytelling, problem-solving) as the “course activity [. . .] that provided the most intellectual stimulation.” A practitioner of ePortfolio assessment since 2005, Professor Dellinger served as the Institute’s first director of the VMI ePortfolio Initiative.&nbsp;</p>
+          </blockquote>
+          <ul>
+           <li>Cadets W. Schafer Wymond '16 and Max Groene '16</li>
+          </ul>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Power your Classroom with Renewable Energy - Grades 3-8, Administrators</a>
+         <div class="more">
+          During this workshop participants will learn about the potential and logistics of installing a wind turbine and/or solar panels at their school. We will discuss the new Virginia Wind for Schools Program and work with hands on wind and solar energy curricula that can be used to integrate the renewable energy technology into the classroom. Lastly we will discuss other opportunities for students to apply energy concepts through engineering design challenges.
+          <p>This workshop covers technology for teachers and administrators with students in grades 3-8.</p>Instructor: &nbsp;Cindy Kleveckis, Center for Wind Energy, James Madison University
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Putting the "T" in STEM Learning - Grades 3-8</a>
+         <div class="more">
+          <blockquote></blockquote>
+          <p>Are you overwhelmed with the idea of integrating STEM tools in the classroom? Do you need help determining what tool would be the best fit for you and your students? Is cost the factor? Grade appropriateness? Subject area? Or maybe you need ideas on how integrate tools into your curriculum needs? Come learn and experience 5 STEM learning tools and how they can facilitate interdisciplinary classroom experiences including a hands-on showcase of Squishy Circuits, Makey Makey, Finch Robot, Hummingbird Robotics, and LilyPad Arduino. The presenters will share these tools and the research gained from using them in the classroom, as well as share some of the challenges and successes with implementations. Attendees will get the opportunity to see example projects, learn about ways they have been integrated into multiple subject areas and SOLs, and ignite an interest in utilizing these tools into their own classrooms. In addition to the showcasing of 5 STEM learning tools, the presenters will share additional STEM tools that could be used in the classroom. Although part of the workshop will be lecture, there will be time to explore the tools and projects, ask questions, and brainstorm with the other attendees.<br><br>This workshop covers technology for teachers with students in grades 3-8.</p>
+          <blockquote></blockquote>
+          <blockquote></blockquote>
+          <p>Instructors:</p>
+          <blockquote></blockquote>
+          <blockquote></blockquote>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Paula Leach_web.jpg?n=3267" alt="2015 STEM Paula Leach" title="2015 STEM Paula Leach">-Paula Leach, Ph.D., Director, Longwood University - Institute for Teaching through Technology and Innovative Practices</p>
+          <blockquote>
+           <br>Dr. Paula Klonowski Leach is the director of Longwood University’s Institute for Teaching through Technology and Innovative Practices (ITTIP). Dr. Leach previously was a STEM learning specialist at ITTIP, an educational outreach of Longwood that helps teachers incorporate technology into the classroom and disseminates research-based best practices in schools. She provides professional development to K-12 teachers, focusing on using emerging technologies in mathematics and science. Dr. Leach was also the state science coordinator for the Virginia Department of Education for eight years. She has also filled the role of division science coordinator, as well as a middle-school science and special education teacher, for the Powhatan County schools. A native of Lower Burrell, Pa., near Pittsburgh, Leach is a graduate of Slippery Rock University and has her master’s and doctoral degrees from Virginia Commonwealth University.
+          </blockquote>
+          <p><br><img align="right" style="width: 150px;" src="/uploadedImages/Conferences/STEM/Stephanie Playton_web.jpg?n=7772" alt="2015 STEM Stephanie Playton - Putting the 'T' in STEM Learning" title="2015 STEM Stephanie Playton - Putting the 'T' in STEM Learning">-Stephanie Playton, STEM Learning Specialist, Longwood University - Institute for Teaching through Technology and Innovative Practices</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">(Real) STEM in the Early Grades - Grades 3-4</a>
+         <div class="more">
+          <p>We reference SOL's from mathematics, physical science, biological science, language, music and graphic arts as sources for problems in which quantitative (including geometric) motifs can prove useful. As time permits, we will discuss a study of shadows, a study of vocal pitch, a study of flag construction and a study of nutcrackers. Participants will be asked to sing the national anthem and, perhaps, measure some fence shadows.</p>
+          <div>
+           <br>This workshop will cover integrated STEM for teachers with students in grades 3-4.
+          </div>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/george Rublein_web.jpg?n=8839" alt="2015 STEM George Rublein Ph.D." title="2015 STEM George Rublein Ph.D.">Instructor: &nbsp;George Rublein, Ph.D., Associate Professor of Mathematics, College of William and Mary</p>
+          <blockquote>
+           <p>The presenter has recently published work on the stability of boats, an exercise in which high-school mathematics plays a decisive role in the resolution of a physical problem. He is presently engaged in a Virginia DOE MSP project in which a similar approach will be employed in grades 1-5.&nbsp;</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">The Rockbridge Educational Technology Leadership Academy - Administrators</a>
+         <div class="more">
+          <p>A recent Verizon Foundation grant helped Washington and Lee Teacher Education implement programs to provide more technology experiences for students. I will share a few of those experiences. Primarily, however, I will explain how we see a component of our program as training and professional development for the K-12 clinical faculty mentors mentoring our undergraduate students. This proposal offers an overview of a year-long technology professional development for local educators. As part of our commitment to the local K-12 schools, we offered a year-long professional development called the Educational Technology Leadership Academy. The model was that one teacher representing each elementary, middle, and high school in the three community school systems (Buena Vista, Lexington, and Rockbridge) was invited to attend this workshop. Participants were expected to attend the summer academy and attend six afterschool follow-up sessions over the following year. (Three Fall, Three Spring) Participants received free tuition for the one-credit summer course and renewal credits for all follow-up meetings. As part of this conference presentation I would share: • How we partnered with Educational Technology Leaders across three school systems • How we chose teacher leaders to attend the workshop • The content we shared during our week-long academy and follow-up meetings • How we offered renewal credits for teachers for self-designed PD • What we learned as part of year-long process This presentation would be a PPT with time for a Q&amp;A. This would be of particular interest to K-12 administrators as a model of professional development.</p>
+          <p>This workshop covers community technology programs for administrators. &nbsp;</p>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Haley Sigler_web.jpg?n=8213" alt="2015 STEM Haley Sigler Ph.D." title="2015 STEM Haley Sigler Ph.D.">Instructor: &nbsp;Haley Sigler, Ph. D., Assistant Director, Teacher Education, Washington and Lee University</p>
+          <blockquote>
+           <p>Haley Sigler is a former elementary school teacher who taught in Arlington, Virginia and most recently in the Lexington City Schools. In 2008 she completed her Ph.D. in Curriculum and Instruction from the Curry School of Education at UVA. Her research focus is writing workshop in the elementary school. She is the current Assistant Director of Teacher Education at Washington and Lee University, part of the Rockbridge Teacher Education Consortium.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Roller Coasters, Balloon Rockets and Straw Structures - Grades 3-8, Administrators</a>
+         <div class="more">
+          <p>During the presentation attendees will participate in one of three hands on STEM activities - Refrigerator Tube Roller Coasters, Balloon Rockets or Straw Structures. The group will be divided into three teams. Each team will learn a mini STEM lesson for their activity and then will perform the activity. At the end, they will discuss the results and compare them to their hypotheses. Participants will report out to the group summarizing the activity and what STEM lessons they learned. Then we will allow a brief time for participants to ask us questions about how we organized our STEM Club. SOLs included: Science 3.1, 4.1, 5.1, 6.1, LS.1, ES.1, PS.1, 4.2, PS.6, PS.10; Math 3.9, 4.7, 5.8, 6.9</p>
+          <div>
+           This workshop covers integrated STEM for teachers with students in grades 3-8 and administrators.
+          </div>
+          <p><u>Instructors</u>: &nbsp;</p>
+          <p><img align="right" style="width: 200px;" src="/uploadedImages/Conferences/STEM/Rebecah Smith headshot-web.jpg?n=1196" alt="2015 STEM Rebecah Smith" title="2015 STEM Rebecah Smith">-Rebecah Smith, Principal, Pulaski Elementary</p>
+          <blockquote>
+           <p>Rebecah Smith is the principal of Pulaski Elementary in Pulaski, VA. She started there in July of 2014. She began her career in 1995 as a Social Studies teacher at Pulaski Middle School. She then served as an Administrator in Roanoke City for 11 years. Mrs. Smith attended Virginia Commonwealth University from 1990-1992 and completed her Bachelor’s Degree in History and Teacher Preparation at Old Dominion University in 1995. She then went onto complete her Master’s Degree in Educational Leadership at Radford University in 2002. This past year she was a facilitator for her school's first afterschool STEM Club. The purpose of the STEM Club is to inspire elementary students towards a future career in one of the STEM related fields. &nbsp;</p>
+          </blockquote>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Kim Sink_web.jpg?n=3802" alt="2015 STEM Kim Sink" title="2015 STEM Kim Sink">-Kim Sink, Assistant Principal, Pulaski Elementary</p>
+          <blockquote>
+           <p>Kim Sink is the Assistant Principal of Pulaski Elementary. She has been in that position for the past 2 years. Prior to this position she served as the School Improvement Coach for Pulaski Elementary for 4 years. Mrs. Sink began her career as a teacher in Grayson County in 2002 and then became a teacher Pulaski in 2004. She received her Bachelor’s Degree in Elementary Education from Radford University in 2002. She later completed her Master’s Degree in Instructional Technology from VA Tech in 2011 and then went onto complete her Educational Specialist Degree in Educational Leadership also from VA Tech in 2013. She also served as a facilitator for the PES STEM Club this past year.&nbsp;</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Roman Catapult - Grades 7-8</a>
+         <div class="more">
+          <div>
+           The presentation will entail a quick overview, using PowerPoint, of the historical context of a 4th century CE Roman catapult and its legacy into the middle ages. The geometry, construction and operation of the catapult will be discussed. Two small, model versions (Roman and medieval) of the catapult will be demonstrated by throwing marshmallows.
+          </div>
+          <p>This workshop covers history of engineering for teachers of students in grades 7-8.</p>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/wayne Neel_web.jpg?n=4956" alt="2015 STEM Wayne Neel - Roman Catapult" title="2015 STEM Wayne Neel - Roman Catapult">Instructor: &nbsp;Col.Wayne Neel, Ph. D., Department of Mechanical Engineering, Virginia Military Institute</p>
+          <blockquote>
+           <p>Willard Wayne Neel, Ph.D., PE, Professor in the Mechanical Engineering Department at the Virginia Military Institute. He has degrees in physics and mechanical engineering from the University of South Florida and N.C. State University, respectively. Besides teaching for the past forty six years he is interested in ancient and medieval technology.&nbsp;</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Shoelace Factory - Grades 3-6</a>
+         <div class="more">
+          <p>Participants will learn how students can design, plan and implement a system to create products for consumers. As attendees learn about economics they will work cooperatively to improve an assembly line that produces the maximum number of shoelaces within the time limit given. The shoelaces produced must meet quality control standards. This unit teaches and reinforces the concepts and skills for elapsed time, measurement, and sequencing.</p>
+          <p>This workshop covers Integrated STEM for teachers with students in grades 3-6.</p>
+          <p>Instructors:</p>
+          <p>-Joan Harper-Neely, Children's Engineering &amp; Technology teacher, Cooper Elementary Magnet School for Technology</p>
+          <blockquote>
+           <p>Joan Harper-Neely creates lessons to integrate all content areas as well as teach about the different fields of engineering and the design problem solving loop. As the school's technology teacher, she provides training to help teachers use technology related resources to increase their productivity and prepare students with 21st century skills. She earned a Masters of Education from Regent University. Joan Harper-Neely is a master teacher for pre-service teachers enrolled in a two-year project funded by the NASA Space Grant College and Fellowship Program and led by the Virginia Space Grant Consortium. This program teaches college students how to plan and delivery STEM integrated lessons.</p>
+          </blockquote>
+          <p>-Leslie Strachan-Williams, Teacher, Hampton City Schools</p>
+          <blockquote>
+           <p>Leslie Strachan-Williams&nbsp;is an Elementary Mathematics Teacher Specialist in Hampton City Schools, Hampton, VA and supports administrators and teachers of children in Kindergarten through grade five. Her work with teachers focuses on building conceptual understanding with manipulatives, differentiating instruction for a range of learners, and providing students with a variety of problem solving resources and opportunities. Prior to becoming a mathematics teacher specialist, Leslie was an elementary Title I math teacher and a classroom teacher. She has earned degrees from the University of Virginia (BA), Norfolk State University (MA), and Old Dominion University (MS), and&nbsp; has presented at national, regional, and local conferences. Her passion for the work that she does is fueled by her belief that teachers need to experience the same powerful mathematics moments in professional development that they want to create for the children in their classrooms.</p>
+          </blockquote>-Lynette Mouton, Teacher, Cooper Elementary Magnet School for Technology
+          <br>
+          <blockquote>
+           <p>&nbsp;Lynette Mouton&nbsp;is a teacher at Cooper Elementary Magnet School for Technology in Hampton, VA. Her current assignment is 4th Grade math and writing. She enjoys teaching her students to fall in love with math through many avenues including the use of fun strategies, such as song writing and movement, technology, and real world problem solving opportunities.&nbsp; These components coupled with cross curricular STEM engineering design challenges help facilitate her greatest joy, which is showing her students and their families how math is not just for the classroom but for life.&nbsp; As an added bonus Lynette integrates character education into her daily lessons in an attempt to inspire her students to greatness. She completed her undergraduate studies at The King's College, NY and her Masters in Education at Regent University.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">STEM &amp; Social Studies (or English): Merging subjects for the modern age - Grades 3-8</a>
+         <div class="more">
+          <p>Too often educators cannot connect the concepts they are teaching to STEM fields or believe their subjects have nothing to do with STEM. This presentation will present how to integrate SOLs from multiple courses in a practical integration to help students learn multiple objectives from different academic disciplines. Attendees will learn curriculum mapping skills that can help align multiple SOLs in any course combination. Attendees will also cover different examples of lesson plans that infused 6th grade math SOLs with 6th grade US History, as well as lessons combining 8th grade science SOLs with World Geography SOLs. Group discussion will allow for participants to share questions and concerns, which will then be used to drive our conversation. Groups will then work together to develop their own lesson plans that integrate and assess at least 3 SOLs from at least two courses. Advanced integration will be touched on (the merging of three or more core subjects with as many SOLs at the same time). This topic is becoming more important as additional importance and resources are spent on STEM education.</p>
+          <p>This workshop covers Integrated STEM for teachers with students in grades 3-8.</p>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Tim Burrows web.jpg?n=6714" alt="2015 STEM MAJ Burrows" title="2015 STEM MAJ Burrows">Instructor: &nbsp;Col. Tim Burrows, Assessment and Research Analyst, Virginia Military Institute</p>
+          <blockquote>
+           <p>Tim Burrows is VMI's Assessment and Research Analyst. Tim earned his Ph. D. in Educational Research and Evaluation from Virginia Tech in 2013 and was previously a middle and high school social studies, math, and science teacher. Tim has over nine years of experience in the education field with research interests in the areas of mixed methods research, evaluation and assessment, and pedagogy. Outside of work and research, Tim enjoys rehabilitating abandoned sloths, but unfortunately no sloths have been abandoned to date.&nbsp;</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">STEM and Sustainability Through Aquaponics - Grades 3-8, Administrators</a>
+         <div class="more">
+          <p>The Aquaponics Discovery Lab at Potomac Middle School continues to be the first middle school lab in Northern Virginia to focus on aquaponics and sustainable urban farming. Our lab is at the forefront of the Potomac Middle School S.T.E.M. initiative, which aims to further evolve ours and similar programs to the entirety of our student body. In our Aquaponics Discovery Lab we focus on real world applications that are relevant to our students’ needs. As our school is located in the center of a FDA defined food desert, our students directly benefit from learning how to grow their own produce in a sustainable manner. Through the integrated use of Science: concepts for growing produce and maintaining aquariums; Technology: monitoring of nutrient levels and soil/water quality via Vernier probes and handheld devices; Engineering: for designing and implementing continuing expansions and modifications to our aquaponics system; and Math: by requiring students to complete calculations, collect and graph data, while working to expand to our own business practices. To date, students have built four different types of aquaponics systems, monitored the growth of multiple varieties of herbs and vegetables, presented their program in front of the School Board, and hosted a presentation for our first annual Science Day. These accomplishments were all secondary to the benefits of learning focused on sustainable living and urban farming practices. In this workshop, we will introduce our methods and share our successes with integrated S.T.E.M. learning. Primary SOLs 6.1/7.1/8.1.</p>
+          <p>This workshop covers Integrated STEM for teachers with students in grades 3-8 and administrators.</p>
+          <p>Instructor: &nbsp;Greg Donovan, Sustainability Coordinator and Chair of the Science Department, Potomac Middle School</p>
+          <blockquote>
+           <p>Greg Donovan<strong></strong>is the Sustainability Coordinator and Chair of the Science Department of Potomac Middle School in Prince William County, VA. Greg teaches Physical Science and leads the Ecology and Urban Agriculture clubs while actively developing an aquaponics discovery lab program. Greg has a Bachelor’s degree in Bioinformatics and Molecular Biology from Rensselaer Polytechnic Institute and a Master’s degree in Genetics from the University of Rochester School of Medicine and Dentistry. He uses his prior laboratory experience to help encourage and inspire middle school students to strive for a career in the sciences. Through his work with the Ecology and Urban Agriculture programs, he has helped students create a soil garden and an indoor Aquaponics system at Potomac Middle School. Greg hopes to continue expanding the program to reach as many students as possible teaching the students and community of Potomac Middle School the importance of sustainable living.&nbsp; </p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">STEM Labs are Elementary - Grades 3-6, Administrators</a>
+         <div class="more">
+          Participants will learn appropriate implementation of a STEM Lab from basic development and planning stages, to scheduling, to types of activities that were implemented. There will be an interactive activity demonstration during the presentation.
+          <p>This workshop will cover integrated STEM for teachers and administrators with students in grades 3-6.</p>
+          <p>Instructors: &nbsp;</p>
+          <p>-Kimberly Candler, Principal, Rockfish River Elementary School</p>
+          <blockquote>
+           <p>Kim Candler has worked as a school administrator for 10 years and as a public school educator for 20 years. In Nelson County Public Schools, she has worked with a fellow administrator and a current ITRT, Greg Hill. Their focus has been on strengthening instruction and student leadership opportunities through hands on learning opportunities and mist currently through STEM education. This past year, our school implemented a STEM Lab that was part of ouR daily resource schedule and allowed for student exposure to STEM based project learning in a collaborative setting. It was a smooth transition to STEM based units in the school for all teachers and students.</p>
+          </blockquote>
+          <p>-Greg Hill, ITRT, Rockfish River Elementary School</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Strange New Planet: Using Technology to Learn About Space - Grades 5-6</a>
+         <div class="more">
+          <p>In this workshop teachers will create and interpret a timeline highlighting the major advancements in solar system exploration over the past half century. As an extension of the 6.8 SOL standard, teachers will learn how to engage their students in a hands-on activity that enables students to create technology to explore the different phases of planetary exploration. Using common household items or supplies found around the classroom, teachers will model the student process of discovering new outer planets, simulating NASA’s fly-by, orbit, lander, rover, and sample return missions. This activity demonstrates how scientists discover planetary features, question the formation of the features, and research the features more carefully using remote sensing techniques from telescopes to robotic missions. Each participant will receive a sample of NASA curriculum and other valuable educational resources for classroom implementation.</p>
+          <div>
+           <br>This workshop covers Integrated STEM for teachers with students in grades 5-6.
+          </div>
+          <p>Instructors:</p>
+          <p>-<img align="right" src="/uploadedImages/Conferences/STEM/HollyMiddaugh_web.jpg?n=2716" alt="Holly Middaugh" title="Holly Middaugh">Holly Middaugh, NASA Langley Office of Education Intern, Virginia Space Grant Consortium</p>
+          <blockquote>
+           <p>Holly Middaugh is an intern at NASA Langley Research Center in the Office of Education. As an intern, she has worked with the NASA Internships, Fellowships, and Scholarships (NIFS) team as well as contributed to Langley educational outreach programs with additional experience presenting in the Digital Learning Network. She is a recipient of the Virginia Space Grant Consortium Integrated STEM for Pre-Service Teachers Scholarship, a program that merges best practices in methodologies, pedagogy, and content to prepare teachers to bring integrative STEM education into diverse classrooms. She is currently a senior at Virginia Tech pursuing a degree in Human Development where she serves on the executive board of the Xi Zeta Chapter of Kappa Delta Pi, International Honor Society in Education. Upon graduation in the spring she plans on working towards a master’s degree in elementary education.&nbsp;</p>
+          </blockquote>
+          <p>-Sarah Wagner, inSTEP Pre-service Teacher, NASA Space Grant and Christopher Newport University</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Teaching Programming Without Writing Code - Grades 3-8</a>
+         <div class="more">
+          <p>It is a common misconception that an introduction to computer programming should start in front of a computer writing code. There are many barriers that one must address when teaching this information, and the unfortunate reality is that the most common strategy used in classrooms across America only works for a small percentage of learners, and it can be detrimental to someone developing a knowledge and passion for writing code. In this workshop, we will learn to address these issues by going on a journey looking at methodologies that I have used to help ease students into computer programming along with gaining insight into adjusted curriculum that took students from falling asleep at the site of code and morphed them into actively engaged learners. This workshop will be specifically tailored for Arduino microcontroller programming, but all methods are applicable no matter what language or technology someone is teaching. No experience in programming required. Prepare for an energy packed presentation that will help catalyze your student’s learning.</p>
+          <p>This workshop covers computer science for teachers with students in grades 3-8. &nbsp;</p>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Cody Short Headshot.png?n=131" alt="2015 STEM Cody Short" title="2015 STEM Cody Short">Instructor: &nbsp;Cody Short, University Student/Software Engineer, Step into STEM</p>
+          <blockquote>
+           <p>Cody Short is a student at Virginia Tech currently pursuing a degree in Mathematics with aspirations to go into education. His passion for STEM education was developed at a young age. In sixth grade, Cody’s first encounter with material outside of the SOLs came from the Digispired program facilitated by ITTIP which focused on enticing kids to learn computer programming by making video games. This program peaked his interest and help develop his knowledge in computer programming over the years. Cody continued into several other STEM programs throughout high school career including the Joint Science and Technology Institute through the Department of Defense where he is now a recurring resident teacher and the Virginia Aerospace Science and Technology Scholars. In 2015, Cody was the recipient of the Virginia Tech Student Entrepreneur of the Year award., His passion lies in building a bridge between the workforce and industry by inspiring the next generation of STEM innovators.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Technology, Energy, and Efficiency for Your "Home" - Grades 5-8</a>
+         <div class="more">
+          <p>Who can design and engineer a home that is the most energy efficient? What technologies are available to improve the efficiency of my home? This workshop is designed to give teachers a take home activity that integrates science, technology, mathematics, engineering, and problem solving skills in an exciting, relevant competition among students. Using inexpensive materials, discarded clothing, newspapers, and other donated materials, teachers will insulate their “home” to be the most energy efficient. This activity is an excellent end of unit project for problem based studies as well as project based learning experiences for students who are studying energy resources and technological advancements for reducing human impact on the Earth. The lesson can be easily adapted to various grade levels and learner abilities.&nbsp;</p>
+          <p>This workshop covers integrated STEM for teachers with students in grades 5-8.</p>
+          <p><img align="right" style="width: 200px;" src="/uploadedImages/Conferences/STEM/gunn.jpg?n=6217" alt="Brianne Gunn" title="Brianne Gunn">Instructor:&nbsp; Brianne Gunn, Science 6 Teacher, Chesterfield County Public Schools &nbsp;</p>
+          <blockquote>
+           <p>Mrs. Brianne Gunn, Chesterfield County's Middle School Teacher of the Year for 2015-2016, teaches sixth grade science at Falling Creek Middle School. Mrs. Gunn works with various levels of classes including special education inclusion groups and honors courses. She is passionate about making connections with her students and their community through service learning and outreach activities. Mrs. Gunn regularly seeks to further her students understanding of their world through hands-on, problem-based experiences and adventures into the great outdoors.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Technology Petting Zoo - Grades 3-8, Administrators</a>
+         <div class="more">
+          <p>Want to touch or otherwise 'pet' many of the technologies available to K-12 students and teachers? <br><br>Be sure to stop by the Technology Petting Zoo sponsored by Albemarle County Public Schools as one of your workshop sessions or anytime on Tuesday, October 6th. Experience the student-centered master image and talk with members of the EdTech team about how we maximize student ownership of technology in order to maximize learning. You will be able to pet a variety of computers, tablets, and peripherals available throughout our school district.</p>
+          <div>
+           &nbsp;
+          </div>
+          <div>
+           This workshop is open to all conference participants and will feature a variety of technology products.
+           <br>
+           <p>Instructors: &nbsp;</p>
+           <p>- Becky Fisher, Director of End User Experience, Albemarle County Public Schools</p>
+           <p>Becky received a BA and MAT in Physics from the University of Virginia while working as a FORTRAN programmer for the University's Institute of Nuclear and Particle Physics. After assisting in an NSF-funded summer institute for Physics teachers, she committed to a career in public education. Over two decades later, she has been a classroom teacher, instructional technology specialist, and central office leader working diligently to change the landscape of public education by ensuring choices are made as close to the learner as possible!&nbsp;</p>
+           <p>Also:</p>
+           <p>-Bert Jacoby, Albemarle County Public Schools<br>-Becky Ellis, Albemarle County Public Schools<br>-Gene Osborn, Albemarle County Public Schools&nbsp; </p>
+          </div>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Tell Me a Story - Digital Storytelling in the Classroom - Grades 3-8</a>
+         <div class="more">
+          <p>Digital storytelling is simply using digital tools to tell stories in all subject areas. Digital stories mix together text, graphics, audio, video, and more to create powerful presentations. The presentation will be lecture/hands on. Information will be presented, attendees may follow along, and have the final time to create their own stories.</p>
+          <p>This workshop covers technology for teachers with students in grades 3-8.</p>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Erin Hagedorn_web.jpg?n=4954" alt="2015 STEM Erin Hagedorn" title="2015 STEM Erin Hagedorn">Instructor: &nbsp;Erin Ruxer Hagedorn, Teacher, Kate Collins Middle School</p>
+          <blockquote>
+           <p>Erin Ruxer Hagedorn, from Greenwood, Virginia. She received a BA from UVA in History and Government, a MA from. VT In Instructional Technology in Graphic Design and a MA from EMU in Curriculum and Instruction. Mrs. Hagedorn has been teaching history and language arts for the past ten years, and infuses technology into her classroom daily. She has been a part of her school and district technology committee, workshops, and website design.</p>
+          </blockquote>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Think Outside, Survive Inside the Box - Grades 5-8</a>
+         <div class="more">
+          <p>Can your team survive in the wilderness? Randomly picking a location (biome) and other challenges, teams develop the “Ultimate Survival Box” that will help them conquer the elements. With dozens of scenario combinations, each team will research, design, and develop the tools they can take with them, while meeting set parameters and constraints. Along with applying the Engineering Design Process, the challenge also integrates STEM through research, the study of biomes, technology integration, packaging engineering, and mathematical components. Come join this interactive atmosphere and participate in the Ultimate Survivor Challenge. Educators will leave the session with resources to create individual versions of this hands-on lesson. <br><br>Strands: Through the implementation of STEM projects, teachers establish rigorous and relevant activities that support students in building cooperation, communication, and community. Attending this workshop will support teachers in meeting the needs of diverse learners through collaborative instruction and sustained technological leadership with creative out-of-the-box instructional units. (ITEEA, Strand 2) In-class design challenges, student research presentations, cooperative groups, and/or transitional work teams that increase STEM learning in the classroom are strategies that are also supported in this session (ITEEA, Strand 3).</p>
+          <div>
+           <br>This workshop covers integrated STEM for teachers with students in grades 5-8.
+          </div>
+          <p>Instructors:&nbsp;</p>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Anne Moore web.jpg?n=3754" alt="2015 STEM Anne Moore" title="2015 STEM Anne Moore">-Anne Moore, Teacher, Goochland Middle School</p>
+          <blockquote>
+           <p>Anne Moore teaches sixth and seventh grade Technology and STEM at Goochland Middle School. Colleagues refer to her classroom as “serious fun” as she integrates STEM activities that keep students engaged and excited to learn. Anne is a recent recipient of the Presidential Award for Excellence in Mathematics and Science Teaching and the 2015 Presidential Innovation Award for Environmental Educators. In 2012, Anne traveled to New Zealand through a Fund for Teachers grant to study bio-diversity, sustainability, and to work with Ornithology Experts.</p>
+          </blockquote>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Lisa Brown_web.jpg?n=6119" alt="2015 STEM Lisa Brown" title="2015 STEM Lisa Brown">-Lisa Brown, Gifted Resource Teacher, Goochland Elementary School</p>
+          <blockquote>
+           <p>Lisa Brown is a gifted resource teacher and STEM advocate at Goochland Elementary School. At her school, Lisa has conceived and brought to fruition an annual Full STEAM Ahead Day, STEAM gardens, and is instrumental in planning the countywide STEM Camp each summer. She has been a past presenter at Virginia Association of the Gifted conference and Virginia Children’s Engineering Conferences.&nbsp;</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Think, Sketch, Print - 3D Printing in Algebra and Geometry - Grades 7-8</a>
+         <div class="more">
+          <p>Capture the excitement of Algebra and Geometry and make connections by using 3D printing in the classroom. Engage students in problem-based challenges that develop an in-depth understanding of geometric relationships while building STEM interest. Project ideas and software options will be presented.</p>
+          <p>This workshop covers mathematics for teachers with students in grades 7-8.</p>
+          <p>Instructors:</p>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Tiffany Sakaguchi_web.jpg?n=3318" alt="2015 STEM Tiffany Sakaguchi" title="2015 STEM Tiffany Sakaguchi">-Tiffany Sakaguchi, Teacher, Roanoke County Public Schools</p>
+          <blockquote>
+           <p>Tiffany Sakaguchi previously was a mathematics teacher for Roanoke County Public Schools where she taught Math 8, Algebra, and Geometry. Currently, she is a Math Editor for TenMarks, which provides personalized online math practice and enrichment programs for first through twelfth graders. She earned a Bachelor of Science degree in Mathematics from James Madison University, Master of Arts degree in Curriculum and Instruction from Virginia Tech. Tiffany enjoys exploring various technology in the classroom and has experience teaching robotics and video game design to middle school students. During the summer of 2014, Tiffany participated in research experience for teachers in innovation-based manufacturing at Virginia Tech sponsored by NSF. As part of her experience, she received a 3D printer for her classroom and developed inquiry-based lessons in math.</p>
+          </blockquote>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Jennifer Sprouse_web.jpg?n=9914" alt="2015 STEM Jennifer Sprouse" title="2015 STEM Jennifer Sprouse">-Jennifer Sprouse, Teacher, Cave Spring Middle School</p>
+          <blockquote>
+           <p>Jennifer Sprouse is teacher at Cave Spring Middle School in Roanoke County, Roanoke, VA. I have been teaching for 8 years ranging from grades 7 through 12 and subjects from Math 8 to Trigonometry. Last summer I participated in a Research Experience for Teachers (RET) program at Virginia Tech sponsored by NSF. This program was focused on 3D printing and inquiry in the classroom. Over the last year, I have been writing curriculum to incorporate the 3D printer into the math classroom to enhance learning.</p>
+          </blockquote>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Tuva: Making Data Visual - Grades 3-8</a>
+         <div class="more">
+          <p>Looking for an engaging way to encourage data literacy in your classroom? Try Tuva! <br><br>Tuva is a free tool that allows you and your students to use real data to understand the world through a process of discovery, analysis, and drawing evidence based conclusions. Users can easily manipulate datasets to explore multiple attributes and create graphs. In this session, participants will learn how to set up a class in Tuva, find pre-made activities for students, and create new lessons specific to your needs. Cross-curricular applications will be presented for both upper elementary and middle school students. Tuva applies to all Scientific Investigation, Reasoning, and Logic SOLs (3.1, 4.1, 5.1, etc.) as it gives students an opportunity to analyze data and draw conclusions. Tuva is also a great tool for teachers to use when teaching the Statistics SOLs specific to each grade in math (4.14, 5.16, 6.15 etc.). Finally, Tuva has datasets related history, economics, and culture that could be used to draw connections with the humanities.</p>
+          <div>
+           This workshop covers Technology for teachers in grades 3-8.
+          </div>
+          <p>Instructors:</p>
+          <p>-<img align="right" src="/uploadedImages/Conferences/STEM/terry proffitt web.jpg?n=3733" alt="Tracy Proffitt 2015 STEM" title="Tracy Proffitt 2015 STEM">Tracy Proffitt, Fourth Grade Gifted Teacher, R.S. Payne Elementary, Lynchburg City Schools</p>
+          <blockquote>
+           <p>Tracy Proffitt teaches fourth grade math and science at Lynchburg City Schools' Gifted Opportunities Center. She has also taught both fourth and fifth grade inclusion classes. When she's not planning math lessons or searching for new science experiments, Tracy enjoys running, writing, hiking, and spending time with her husband, daughter (7), and son (3).&nbsp;</p>
+          </blockquote>
+          <p><img align="right" src="/uploadedImages/Conferences/STEM/Ruth Erquiaga_web.jpg?n=2849" alt="2015 STEM Ruth Erquiaga" title="2015 STEM Ruth Erquiaga">-Ruth Erquiaga, Sixth Grade Math Teacher, Liberty Christian Academy</p>
+         </div>
+        </div>
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

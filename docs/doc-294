@@ -1,0 +1,779 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>Courses of Instruction - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/vmi/img/favicon/favicon.ico"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules">
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]--> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript> 
+  <a href="#accesskeys" accesskey="k"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="The page uses Browser Access Keys to help with keyboard navigation. Click to learn more" style="height: 0px"></a>
+  <a href="#acalog-nav" accesskey="n"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a>
+  <a name="accesskeys"></a>
+  <div class="accesskeys"> 
+   <p>Different browsers use different keystrokes to activate accesskey shortcuts. Please reference the following list to use access keys on your system.</p> 
+   <dl> 
+    <dt>
+     Alt and the accesskey, for Internet Explorer on Windows
+    </dt> 
+    <dt>
+     Shift and Alt and the accesskey, for Firefox on Windows
+    </dt> 
+    <dt>
+     Shift and Esc and the accesskey, for Windows or Mac
+    </dt> 
+    <dt>
+     Ctrl and the accesskey, for the following browsers on a Mac: Internet Explorer 5.2, Safari 1.2, Firefox, Mozilla, Netscape 6+.
+    </dt> 
+   </dl> 
+   <p>We use the following access keys on our gateway</p> 
+   <dl> 
+    <dt>
+     n Skip to Navigation
+    </dt> 
+    <dt>
+     k Accesskeys description
+    </dt> 
+    <dt>
+     h Help
+    </dt> 
+   </dl> 
+  </div>
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"><span class="n1_header"> Virginia Military Institute</span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015-2016 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15" selected>2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="15"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=15" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=15" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=438" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=435" class="navbar" tabindex="107">Institute Calendar 2015-2016</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=436" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=437" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=431" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=439" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=440" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=442" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=443" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=444" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=445" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=441" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=448" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=450" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=446" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=433" class="navbar" tabindex="121">Support Agencies</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=449" class="navbar" tabindex="122">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td> 
+                  <div class="help_block" style="float: right">
+                   <a href="help.php?catoid=15" onclick="javascript:acalogPopup('help.php?catoid=15', 'help', 770, 530, 'yes');return false;" class="help" tabindex="203" accesskey="h" target="_blank"><b>HELP</b></a>
+                  </div> <span class="acalog_catalog_name">2015-2016 Academic Catalogue</span> <h1 id="acalog-content"> Courses of Instruction </h1> 
+                  <div style="float: right">
+                   <a rel="nofollow" href="/content.php?catoid=15&amp;navoid=450&amp;print" onclick="acalogPopup('/content.php?catoid=15&amp;navoid=450&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                  </div>
+                  <div class="acalog-social-media-links" style="float: right;"> 
+                  </div> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <hr> </td> 
+                </tr> 
+                <tr> 
+                 <td> <p><strong>Course Numbering System.</strong> Each subject is identified by a symbol made up of two parts. The first part is an abbreviation denoting the field of study. The second part is a number denoting the particular subject. The first digit indicates the year in which the course is taken and, therefore, the level of instruction.</p> <p><strong>Credit.</strong> The unit of academic credit used at the Virginia Military Institute is the semester hour.&nbsp;A semester hour represents one hour of classroom work (lecture or recitation) or one period (two or three hours) of laboratory or supervised research or field work per week during a single semester. Thus a course that meets for three class hours and one laboratory period each week during one semester usually carries credit for four semester hours.</p> <p>In the following course descriptions the figures on the title lines indicate, in order, the class hours per week, the laboratory or field work hours per week, and the semester hours credit. For example, the figures “3—2—4” mean that the class meets three times a week for one-hour classroom sessions and has two hours of laboratory, supervised research, or field work each week, and that the course carries four semester hours of credit.</p> </td> 
+                </tr> 
+               </tbody>
+              </table> 
+              <!-- Begin advanced search filter. --> <a name="acalog_template_course_filter"></a> 
+              <form action="/content.php?catoid=15&amp;navoid=450#acalog_template_course_filter" method="get" name="course_search" id="course_search" class="acalog-highlight-ignore"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <th class="th_lt" colspan="4">Course Filter</th> 
+                  <th class="th_rt">&nbsp;</th> 
+                 </tr> 
+                 <tr valign="top"> 
+                  <td colspan="5" class="td_dark">Filter this list of courses using course prefix, course code, keywords or any combination. </td> 
+                 </tr> 
+                 <tr valign="top"> 
+                  <td class="td_light">Prefix:</td> 
+                  <td class="td_light">Code or Number:</td> 
+                  <td class="td_light">Type</td> 
+                  <td nowrap class="td_light">Keyword or Phrase:</td> 
+                  <td nowrap class="td_light">&nbsp;</td> 
+                 </tr> 
+                 <tr valign="top"> 
+                  <td class="td_light"> <select name="filter[27]" tabindex="1" title="Choose a Course Prefix"> <option value="-1">All prefixes...</option> <option value="AR">AR</option> <option value="AS">AS</option> <option value="AT">AT</option> <option value="BI">BI</option> <option value="BU">BU</option> <option value="CE">CE</option> <option value="CH">CH</option> <option value="CHI">CHI</option> <option value="CIS">CIS</option> <option value="EC">EC</option> <option value="ECE">ECE</option> <option value="ED">ED</option> <option value="EE">EE</option> <option value="ELEC">ELEC</option> <option value="ERH">ERH</option> <option value="FR">FR</option> <option value="GE">GE</option> <option value="GR">GR</option> <option value="HI">HI</option> <option value="HN">HN</option> <option value="HNL">HNL</option> <option value="HNS">HNS</option> <option value="IS">IS</option> <option value="LS">LS</option> <option value="MA">MA</option> <option value="ME">ME</option> <option value="ML">ML</option> <option value="MS">MS</option> <option value="NS">NS</option> <option value="PE">PE</option> <option value="PS">PS</option> <option value="PY">PY</option> <option value="ROTC">ROTC</option> <option value="Science">Science</option> <option value="SP">SP</option> </select> </td> 
+                  <td class="td_light"><input type="text" title="Course Number" style="width: 80px;" name="filter[29]" value="" tabindex="2"></td> 
+                  <td class="td_light"> <select name="filter[course_type]" style="width: 100px;" tabindex="3" title="Choose a Course Type"> <option value="-1">All types...</option> <option value="676">AEROSPACE STUDIES</option> <option value="695">APPLIED MATHEMATICS</option> <option value="675">ARABIC</option> <option value="677">ASTRONOMY</option> <option value="678">BIOLOGY</option> <option value="679">BUSINESS</option> <option value="680">CHEMISTRY</option> <option value="708">CHINESE</option> <option value="681">CIVIL AND ENVIRONMENTAL ENGINEERING</option> <option value="682">COMPUTER AND INFORMATION SCIENCES</option> <option value="683">ECONOMICS</option> <option value="707">EDUCATION</option> <option value="684">ELECTRICAL AND COMPUTER ENGINEERING</option> <option value="685">ENGLISH, RHETORIC, AND HUMANISTIC STUDIES</option> <option value="687">FRENCH</option> <option value="688">GEOLOGY</option> <option value="689">GERMAN</option> <option value="690">HISTORY</option> <option value="691">HONORS PROGRAM</option> <option value="692">INTERNATIONAL STUDIES AND POLITICAL SCIENCE</option> <option value="694">LEADERSHIP STUDIES AND CAREER DEVELOPMENT</option> <option value="696">MECHANICAL ENGINEERING</option> <option value="697">MODERN LANGUAGES INTERNSHIP (FOR ALL LANGUAGES)</option> <option value="698">MILITARY SCIENCE</option> <option value="699">NAVAL SCIENCE</option> <option value="700">PHYSICAL EDUCATION</option> <option value="702">PSYCHOLOGY</option> <option value="703">PHYSICS</option> <option value="705">SPANISH</option> <option value="709">CATALOG ELECTIVES</option> </select> </td> 
+                  <td nowrap class="td_light"><input type="text" title="Keyword" name="filter[keyword]" size="30" maxlength="150" value="" style="width: 200px;" tabindex="4"></td> 
+                  <td nowrap class="td_light"> <input type="hidden" title="Course Type" name="filter[32]" value="1"> <input type="hidden" title="cpage" name="filter[cpage]" id="cpage" value="1"> <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="15"> <input type="hidden" title="Expand" name="expand" id="expand" value=""> <input type="hidden" title="navoid" name="navoid" id="navoid" value="450"> <input type="submit" title="Search Database" name="search_database" onclick="reset_search();" value="Filter" tabindex="12"> </td> 
+                 </tr> 
+                 <tr> 
+                  <td class="td_light" colspan="5"> <input type="checkbox" title="Exact Match" name="filter[exact_match]" id="exact_match" value="1" tabindex="11"> <label for="exact_match">Find whole word or phrase only.</label> </td> 
+                 </tr> 
+                 <tr valign="top"> 
+                  <td class="td_light" colspan="5">&nbsp;</td> 
+                 </tr> 
+                 <tr> 
+                  <td class="td_lb" colspan="4"><img src="/img/spacer.gif" width="3" height="3" alt="spacer"></td> 
+                  <td class="td_rb"><img src="/img/spacer.gif" width="3" height="3" alt="spacer"></td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> 
+              <!-- End advanced search filter. --> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td colspan="2">&nbsp;</td> 
+                </tr> 
+                <tr> 
+                 <td colspan="2"><br><p><b>AEROSPACE STUDIES</b></p><p></p><p>Department of Aerospace Studies<br> Department Head: Colonel Lee</p> <p>Curriculum is delivered in accordance with applicable service regulation and instruction.</p><p></p><p></p></td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12510" target="_blank" onclick="showCourse('15', '12510',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 103&nbsp;-&nbsp;The Air Force Today I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12511" target="_blank" onclick="showCourse('15', '12511',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 104&nbsp;-&nbsp;The Air Force Today II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13399" target="_blank" onclick="showCourse('15', '13399',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 113&nbsp;-&nbsp;Leadership Lab for AS 103 </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13400" target="_blank" onclick="showCourse('15', '13400',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 114&nbsp;-&nbsp;Leadership Lab for AS 104 </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12512" target="_blank" onclick="showCourse('15', '12512',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 203&nbsp;-&nbsp;Evolution of USAF Air and Space Power I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12513" target="_blank" onclick="showCourse('15', '12513',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 204&nbsp;-&nbsp;Evolution of USAF Air and Space Power II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12514" target="_blank" onclick="showCourse('15', '12514',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 213&nbsp;-&nbsp;Leadership Lab for AS 203 </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12515" target="_blank" onclick="showCourse('15', '12515',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 214&nbsp;-&nbsp;Leadership Lab for AS 204 </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12516" target="_blank" onclick="showCourse('15', '12516',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 303&nbsp;-&nbsp;Air Force Leadership and Management I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12517" target="_blank" onclick="showCourse('15', '12517',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 304&nbsp;-&nbsp;Air Force Leadership and Management II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12518" target="_blank" onclick="showCourse('15', '12518',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 313&nbsp;-&nbsp;Leadership Lab for AS 303 </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12519" target="_blank" onclick="showCourse('15', '12519',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 314&nbsp;-&nbsp;Leadership Lab for AS 304 </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12520" target="_blank" onclick="showCourse('15', '12520',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 403&nbsp;-&nbsp;National Security Affairs and Preparation for Active Duty I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12521" target="_blank" onclick="showCourse('15', '12521',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 404&nbsp;-&nbsp;National Security Affairs and Preparation for Active Duty II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12522" target="_blank" onclick="showCourse('15', '12522',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 413&nbsp;-&nbsp;Leadership Lab for AS 403 </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12523" target="_blank" onclick="showCourse('15', '12523',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AS 414&nbsp;-&nbsp;Leadership Lab for AS 404 </a> </td> 
+                </tr> 
+                <tr> 
+                 <td colspan="2"><br><p><b>APPLIED MATHEMATICS</b></p><p></p><p>Department of Applied Mathematics<br> Department Head: Colonel Siemers</p> <p>Requirements for a major in applied mathematics are specified in <a href="preview_entity.php?catoid=15&amp;ent_oid=353">Applied Mathematics</a><span style="display: none !important">&nbsp;</span>.</p> <p><strong>Note: </strong>All cadets must have at least six hours of mathematics. MA 114 does not fulfill a mathematics requirement and cannot be used as elective credit.</p><p></p><p></p></td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13058" target="_blank" onclick="showCourse('15', '13058',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 103&nbsp;-&nbsp;Matrix Algebra </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13059" target="_blank" onclick="showCourse('15', '13059',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 105&nbsp;-&nbsp;Introduction to Probability and Statistics I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13060" target="_blank" onclick="showCourse('15', '13060',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 106&nbsp;-&nbsp;Introduction to Probability and Statistics II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13061" target="_blank" onclick="showCourse('15', '13061',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 108&nbsp;-&nbsp;Introduction to Probability &amp; Statistics </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13062" target="_blank" onclick="showCourse('15', '13062',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 110&nbsp;-&nbsp;Mathematical Software </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13063" target="_blank" onclick="showCourse('15', '13063',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 114&nbsp;-&nbsp;Pre-Calculus Mathematics </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13064" target="_blank" onclick="showCourse('15', '13064',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 123&nbsp;-&nbsp;Calculus &amp; Analytic Geometry I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13065" target="_blank" onclick="showCourse('15', '13065',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 124&nbsp;-&nbsp;Calculus &amp; Analytic Geometry II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13066" target="_blank" onclick="showCourse('15', '13066',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 125&nbsp;-&nbsp;Quantitative Methods I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13067" target="_blank" onclick="showCourse('15', '13067',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 126&nbsp;-&nbsp;Quantitative Methods II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13068" target="_blank" onclick="showCourse('15', '13068',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 133&nbsp;-&nbsp;Mathematical Modeling I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13069" target="_blank" onclick="showCourse('15', '13069',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 134&nbsp;-&nbsp;Mathematical Modeling II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13070" target="_blank" onclick="showCourse('15', '13070',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 215&nbsp;-&nbsp;Calculus With Analytic Geometry III </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13071" target="_blank" onclick="showCourse('15', '13071',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 220&nbsp;-&nbsp;Probability &amp; Statistics for Engineers &amp; Scientists </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13072" target="_blank" onclick="showCourse('15', '13072',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 301&nbsp;-&nbsp;Higher Mathematics for Engineers and Scientists </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13073" target="_blank" onclick="showCourse('15', '13073',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 303&nbsp;-&nbsp;Advanced Calculus I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13074" target="_blank" onclick="showCourse('15', '13074',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 304&nbsp;-&nbsp;Advanced Calculus II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13075" target="_blank" onclick="showCourse('15', '13075',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 305&nbsp;-&nbsp;Elementary Linear Algebra </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13076" target="_blank" onclick="showCourse('15', '13076',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 306&nbsp;-&nbsp;Elementary Number Theory </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13077" target="_blank" onclick="showCourse('15', '13077',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 307&nbsp;-&nbsp;Applied Statistics for the Social Sciences </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13078" target="_blank" onclick="showCourse('15', '13078',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 310&nbsp;-&nbsp;Matlab Programming </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13079" target="_blank" onclick="showCourse('15', '13079',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 311&nbsp;-&nbsp;Elementary Differential Equations </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13080" target="_blank" onclick="showCourse('15', '13080',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 319&nbsp;-&nbsp;Mathematical Methods of Operations Research </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=15107" target="_blank" onclick="showCourse('15', '15107',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 320&nbsp;-&nbsp;Mathematical Modeling </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13081" target="_blank" onclick="showCourse('15', '13081',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 326&nbsp;-&nbsp;Probability and Statistics </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13082" target="_blank" onclick="showCourse('15', '13082',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 330WX&nbsp;-&nbsp;History of Mathematics </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13513" target="_blank" onclick="showCourse('15', '13513',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 331X&nbsp;-&nbsp;History of Mathematics II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13083" target="_blank" onclick="showCourse('15', '13083',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 401&nbsp;-&nbsp;Modern Algebra </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13084" target="_blank" onclick="showCourse('15', '13084',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 405&nbsp;-&nbsp;Statistics </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13085" target="_blank" onclick="showCourse('15', '13085',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 407&nbsp;-&nbsp;Complex Variables </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=15108" target="_blank" onclick="showCourse('15', '15108',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 415&nbsp;-&nbsp;Chaos and Nonlinear Dynamics </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13403" target="_blank" onclick="showCourse('15', '13403',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 419&nbsp;-&nbsp;Intro to Non-Linear Optimization </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13404" target="_blank" onclick="showCourse('15', '13404',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 426&nbsp;-&nbsp;Intro to Stochastic Process </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13086" target="_blank" onclick="showCourse('15', '13086',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 432&nbsp;-&nbsp;Numerical Analysis </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13087" target="_blank" onclick="showCourse('15', '13087',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 433&nbsp;-&nbsp;Numerical Solutions of Differential Equations </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13088" target="_blank" onclick="showCourse('15', '13088',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 451&nbsp;-&nbsp;Independent Study </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13089" target="_blank" onclick="showCourse('15', '13089',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 459&nbsp;-&nbsp;Independent Study </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13091" target="_blank" onclick="showCourse('15', '13091',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 471&nbsp;-&nbsp;Topics in Mathematics </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13090" target="_blank" onclick="showCourse('15', '13090',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 490W&nbsp;-&nbsp;Research Practicum in Applied Mathematics </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13425" target="_blank" onclick="showCourse('15', '13425',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">MA 495&nbsp;-&nbsp;Advanced Research Projects in Applied Mathematics </a> </td> 
+                </tr> 
+                <tr> 
+                 <td colspan="2"><br><p><b>ARABIC</b></p><p></p><p>Department of Modern Languages and Cultures<br> Department Head: Colonel Bulger-Barnett</p> 
+                  <ol> 
+                   <li>All cadets who enter with two or more entrance units in a modern foreign language are given placement tests and are placed in appropriate courses on the basis of the test results, their previous high school language coursework, and after consultation with the department head of modern languages.</li> 
+                   <li>A single year of a foreign language shall count toward meeting graduation requirements only when the cadet is studying a second language or is taking a language as an elective.</li> 
+                   <li>Classroom work is supplemented with computer-aided language instruction in a wellequipped Language Learning Center. Prerequisites: Cadets must demonstrate proficiency in ML 101 in order to be admitted into ML 102. They must, similarly, demonstrate proficiency in ML 102 before enrolling in ML 201, and in ML 201 before enrolling in ML 202/204. Proficiency in ML 202/204 is a prerequisite for admission to 300-level courses. Completion of two 300-level courses or their equivalent is expected before enrollment in any 400 -level course. Once a cadet has completed work at the 202/204 level, he/she may not return to the elementary level course for credit.</li> 
+                  </ol> <p>Cadets who present three or more years of a high school language or demonstrate native or near-native language abilities may not enroll at the elementary level of that language. Such students will have the choice of enrolling either in the first semester intermediate level of that language or in the first semester elementary course of a different language.</p><p></p><p></p></td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12524" target="_blank" onclick="showCourse('15', '12524',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 101&nbsp;-&nbsp;Elementary Arabic I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12525" target="_blank" onclick="showCourse('15', '12525',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 102&nbsp;-&nbsp;Elementary Arabic II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12526" target="_blank" onclick="showCourse('15', '12526',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 201&nbsp;-&nbsp;Intermediate Arabic I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12527" target="_blank" onclick="showCourse('15', '12527',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 202&nbsp;-&nbsp;Intermediate Arabic II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12528" target="_blank" onclick="showCourse('15', '12528',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 301W&nbsp;-&nbsp;Arabic Composition and Conversation I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12529" target="_blank" onclick="showCourse('15', '12529',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 302W&nbsp;-&nbsp;Arabic Composition and Conversation II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12530" target="_blank" onclick="showCourse('15', '12530',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 314&nbsp;-&nbsp;Arabic Civilizations and Cultures </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12531" target="_blank" onclick="showCourse('15', '12531',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 315&nbsp;-&nbsp;Arabic for the Media </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12532" target="_blank" onclick="showCourse('15', '12532',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 316&nbsp;-&nbsp;Topics in Arabic </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12533" target="_blank" onclick="showCourse('15', '12533',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 405&nbsp;-&nbsp;Independent Readings </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12534" target="_blank" onclick="showCourse('15', '12534',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 407&nbsp;-&nbsp;Advanced Arabic Grammar and Syntax </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12535" target="_blank" onclick="showCourse('15', '12535',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 408&nbsp;-&nbsp;Arabic Literature of the 19th Century </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12536" target="_blank" onclick="showCourse('15', '12536',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 409&nbsp;-&nbsp;Arabic Literature of the 20th Century </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12537" target="_blank" onclick="showCourse('15', '12537',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 410&nbsp;-&nbsp;Advanced Arabic </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12538" target="_blank" onclick="showCourse('15', '12538',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 418&nbsp;-&nbsp;Arabic for Business </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12539" target="_blank" onclick="showCourse('15', '12539',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 420&nbsp;-&nbsp;Arabic Poetry </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12540" target="_blank" onclick="showCourse('15', '12540',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 450&nbsp;-&nbsp;Modern Language Capstone Course </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12541" target="_blank" onclick="showCourse('15', '12541',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 470&nbsp;-&nbsp;Special Topics in Arabic </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12542" target="_blank" onclick="showCourse('15', '12542',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AR 481&nbsp;-&nbsp;Survey of Moroccan Culture and Society </a> </td> 
+                </tr> 
+                <tr> 
+                 <td colspan="2"><br><p><b>ASTRONOMY</b></p><p></p><p>Department of Physics and Astronomy<br> Department Head: Colonel Hodges</p> <p>Requirements for a major in physics are specified in <a href="preview_entity.php?catoid=15&amp;ent_oid=359">Physics and Astronomy</a><span style="display: none !important">&nbsp;</span>.</p><p></p><p></p></td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13417" target="_blank" onclick="showCourse('15', '13417',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AT 170&nbsp;-&nbsp;The Universe </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12543" target="_blank" onclick="showCourse('15', '12543',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AT 201&nbsp;-&nbsp;Introductory Astronomy I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13418" target="_blank" onclick="showCourse('15', '13418',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AT 202&nbsp;-&nbsp;Introductory Astronomy II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12545" target="_blank" onclick="showCourse('15', '12545',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AT 301&nbsp;-&nbsp;Observational Techniques </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12546" target="_blank" onclick="showCourse('15', '12546',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">AT 306&nbsp;-&nbsp;Introductory Astrophysics </a> </td> 
+                </tr> 
+                <tr> 
+                 <td colspan="2"><br><p><b>BIOLOGY</b></p><p></p><p>Department of Biology<br> Department Head: Colonel Turner</p> <p>Requirements for major in biology are specified in <a href="preview_entity.php?catoid=15&amp;ent_oid=347">Biology</a><span style="display: none !important">&nbsp;</span>.</p><p></p><p></p></td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12547" target="_blank" onclick="showCourse('15', '12547',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 101&nbsp;-&nbsp;General Biology I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12548" target="_blank" onclick="showCourse('15', '12548',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 102&nbsp;-&nbsp;General Biology II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12549" target="_blank" onclick="showCourse('15', '12549',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 103&nbsp;-&nbsp;Biological Diversity and Systematics I </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12550" target="_blank" onclick="showCourse('15', '12550',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 104&nbsp;-&nbsp;Biological Diversity and Systematics II </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12551" target="_blank" onclick="showCourse('15', '12551',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 192&nbsp;-&nbsp;Independent Research </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12552" target="_blank" onclick="showCourse('15', '12552',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 193&nbsp;-&nbsp;Independent Research </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12554" target="_blank" onclick="showCourse('15', '12554',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 204&nbsp;-&nbsp;Physiology </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12555" target="_blank" onclick="showCourse('15', '12555',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 205&nbsp;-&nbsp;Genetics </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12556" target="_blank" onclick="showCourse('15', '12556',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 215&nbsp;-&nbsp;Nutrition </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12557" target="_blank" onclick="showCourse('15', '12557',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 216&nbsp;-&nbsp;Animal Behavior </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12558" target="_blank" onclick="showCourse('15', '12558',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 217&nbsp;-&nbsp;General Botany </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12559" target="_blank" onclick="showCourse('15', '12559',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 218X&nbsp;-&nbsp;Biology of Gender </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12560" target="_blank" onclick="showCourse('15', '12560',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 219&nbsp;-&nbsp;Conservation Biology </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=13426" target="_blank" onclick="showCourse('15', '13426',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 222&nbsp;-&nbsp;Environmental Science </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12561" target="_blank" onclick="showCourse('15', '12561',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 240&nbsp;-&nbsp;Biological Agents in Warfare and Terrorism </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12562" target="_blank" onclick="showCourse('15', '12562',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 245X&nbsp;-&nbsp;Epidemics and Society </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12563" target="_blank" onclick="showCourse('15', '12563',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 290/290W&nbsp;-&nbsp;Independent Research </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12564" target="_blank" onclick="showCourse('15', '12564',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 291/291W&nbsp;-&nbsp;Independent Research </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12565" target="_blank" onclick="showCourse('15', '12565',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 292&nbsp;-&nbsp;Independent Research </a> </td> 
+                </tr> 
+                <tr> 
+                 <td width="15">&nbsp;&nbsp;</td> 
+                 <td width="100%">•&nbsp; <a href="preview_course_nopop.php?catoid=15&amp;coid=12566" target="_blank" onclick="showCourse('15', '12566',this, 'a:2:{s:8:~location~;s:8:~template~;s:28:~course_program_display_field~;N;}'); return false;">BI 293&nbsp;-&nbsp;Independent Research </a> </td> 
+                </tr> 
+                <tr> 
+                 <td colspan="2">&nbsp;</td> 
+                </tr> 
+                <tr>
+                 <td colspan="2"><br>Page: <strong>1</strong> | <a href="/content.php?catoid=15&amp;catoid=15&amp;navoid=450&amp;filter%5Bitem_type%5D=3&amp;filter%5Bonly_active%5D=1&amp;filter%5B3%5D=1&amp;filter%5Bcpage%5D=2#acalog_template_course_filter">2</a> | <a href="/content.php?catoid=15&amp;catoid=15&amp;navoid=450&amp;filter%5Bitem_type%5D=3&amp;filter%5Bonly_active%5D=1&amp;filter%5B3%5D=1&amp;filter%5Bcpage%5D=3#acalog_template_course_filter">3</a> | <a href="/content.php?catoid=15&amp;catoid=15&amp;navoid=450&amp;filter%5Bitem_type%5D=3&amp;filter%5Bonly_active%5D=1&amp;filter%5B3%5D=1&amp;filter%5Bcpage%5D=4#acalog_template_course_filter">4</a> | <a href="/content.php?catoid=15&amp;catoid=15&amp;navoid=450&amp;filter%5Bitem_type%5D=3&amp;filter%5Bonly_active%5D=1&amp;filter%5B3%5D=1&amp;filter%5Bcpage%5D=5#acalog_template_course_filter">5</a> | <a href="/content.php?catoid=15&amp;catoid=15&amp;navoid=450&amp;filter%5Bitem_type%5D=3&amp;filter%5Bonly_active%5D=1&amp;filter%5B3%5D=1&amp;filter%5Bcpage%5D=6#acalog_template_course_filter">6</a> | <a href="/content.php?catoid=15&amp;catoid=15&amp;navoid=450&amp;filter%5Bitem_type%5D=3&amp;filter%5Bonly_active%5D=1&amp;filter%5B3%5D=1&amp;filter%5Bcpage%5D=7#acalog_template_course_filter">7</a> | <a href="/content.php?catoid=15&amp;catoid=15&amp;navoid=450&amp;filter%5Bitem_type%5D=3&amp;filter%5Bonly_active%5D=1&amp;filter%5B3%5D=1&amp;filter%5Bcpage%5D=8#acalog_template_course_filter">8</a> | <a href="/content.php?catoid=15&amp;catoid=15&amp;navoid=450&amp;filter%5Bitem_type%5D=3&amp;filter%5Bonly_active%5D=1&amp;filter%5B3%5D=1&amp;filter%5Bcpage%5D=9#acalog_template_course_filter">9</a> | <a href="/content.php?catoid=15&amp;catoid=15&amp;navoid=450&amp;filter%5Bitem_type%5D=3&amp;filter%5Bonly_active%5D=1&amp;filter%5B3%5D=1&amp;filter%5Bcpage%5D=10#acalog_template_course_filter">10</a> -&gt; <a href="/content.php?catoid=15&amp;catoid=15&amp;navoid=450&amp;filter%5Bitem_type%5D=3&amp;filter%5Bonly_active%5D=1&amp;filter%5B3%5D=1&amp;filter%5Bcpage%5D=10#acalog_template_course_filter">10</a></td>
+                </tr> 
+               </tbody>
+              </table> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <a rel="nofollow" href="/content.php?catoid=15&amp;navoid=450&amp;print" onclick="acalogPopup('/content.php?catoid=15&amp;navoid=450&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=15" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script>  
+ </body>
+</html>

@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>VMI Summer Session Honor System Standard Operations Procedure - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/vmi/img/favicon/favicon.ico"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules">
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]--> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript> 
+  <a href="#accesskeys" accesskey="k"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="The page uses Browser Access Keys to help with keyboard navigation. Click to learn more" style="height: 0px"></a>
+  <a href="#acalog-nav" accesskey="n"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a>
+  <a name="accesskeys"></a>
+  <div class="accesskeys"> 
+   <p>Different browsers use different keystrokes to activate accesskey shortcuts. Please reference the following list to use access keys on your system.</p> 
+   <dl> 
+    <dt>
+     Alt and the accesskey, for Internet Explorer on Windows
+    </dt> 
+    <dt>
+     Shift and Alt and the accesskey, for Firefox on Windows
+    </dt> 
+    <dt>
+     Shift and Esc and the accesskey, for Windows or Mac
+    </dt> 
+    <dt>
+     Ctrl and the accesskey, for the following browsers on a Mac: Internet Explorer 5.2, Safari 1.2, Firefox, Mozilla, Netscape 6+.
+    </dt> 
+   </dl> 
+   <p>We use the following access keys on our gateway</p> 
+   <dl> 
+    <dt>
+     n Skip to Navigation
+    </dt> 
+    <dt>
+     k Accesskeys description
+    </dt> 
+    <dt>
+     h Help
+    </dt> 
+   </dl> 
+  </div>
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"><span class="n1_header"> Virginia Military Institute</span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015 Summer Session Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15">2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17" selected>2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="17"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=17" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=17" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=17&amp;navoid=498" class="navbar" tabindex="106">Calendar</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=17&amp;navoid=497" class="navbar" tabindex="107">VMI Summer Session Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=17&amp;navoid=506" class="navbar" tabindex="108">Registration Requirements</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=17&amp;navoid=496" class="navbar" tabindex="109">Cancellation Policies</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=17&amp;navoid=494" class="navbar" tabindex="110">Tuition and Fees</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=17&amp;navoid=492" class="navbar" tabindex="111">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=17&amp;navoid=504" class="navbar" tabindex="112">Summer Session I - 2015 (May 19 - June 19, 2015)</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=17&amp;navoid=507" class="navbar" tabindex="113">Summer Session II - 2015 (June 22 - July 22, 2015)</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=17&amp;navoid=505" class="navbar" tabindex="114">Summer Study Abroad: 2015</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=17&amp;navoid=493" class="navbar" tabindex="115">Appendix</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=17&amp;navoid=495" class="navbar" tabindex="116">VMI Summer Session Honor System Standard Operations Procedure</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/mime/media/view/17/508/2014SummerCover.jpg" onclick="acalogPopup('/mime/media/view/17/508/2014SummerCover.jpg', 'media_file', 770, 530, 'yes');return false;" target="false" class="navbar" tabindex="117">Memorial Gardens</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td> 
+                  <div class="help_block" style="float: right">
+                   <a href="help.php?catoid=17" onclick="javascript:acalogPopup('help.php?catoid=17', 'help', 770, 530, 'yes');return false;" class="help" tabindex="203" accesskey="h" target="_blank"><b>HELP</b></a>
+                  </div> <span class="acalog_archived_catalog"><span class="acalog_catalog_name">2015 Summer Session Catalogue</span></span> <span class="n1_archived acalog-highlight-ignore" style="padding: 0px">[ARCHIVED CATALOG]</span><br> <h1 id="acalog-content"> VMI Summer Session Honor System Standard Operations Procedure </h1> 
+                  <div style="float: right">
+                   <a rel="nofollow" href="/content.php?catoid=17&amp;navoid=495&amp;print" onclick="acalogPopup('/content.php?catoid=17&amp;navoid=495&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                  </div>
+                  <div class="acalog-social-media-links" style="float: right;"> 
+                  </div> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <hr> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <table border="0" cellpadding="0" cellspacing="0" class="acalog-export-remove" style="width:100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td> 
+                      <ul> 
+                       <li><a href="#The_VMI_Honor_Code">The VMI Honor Code</a></li> 
+                       <li><a href="#Work_for_Grade_Policy">Work for Grade Policy</a></li> 
+                       <li><a href="#Procedures:_Special_Board_of_Inquiry">Procedures: Special Board of Inquiry</a></li> 
+                      </ul> </td> 
+                     <td>&nbsp;</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> 
+                  <hr> <p>The purpose of this document is to set forth the procedures for the administration of the VMI Honor System during the VMI Summer Session.</p> <h2><a name="The_VMI_Honor_Code"></a>The VMI Honor Code</h2> <p>The Honor Code is the daily application of the principles of ethics, honesty, and personal integrity by each student (cadet) to the problems with which he/she is confronted. It pervades every activity of life—personal, academic, athletic, and military—and presents a rigid standard by which all students (cadets) must live. Because the Code is such an integral part of the life of each student (cadet), its very existence depends on the vigilance of every student (cadet) at VMI. Therefore, every reasonable suspicion of a violation of the Code must be reported immediately. <strong>A student who has knowledge of a breach of the Honor Code, and who does not report the same, is himself/herself guilty of a violation of the Honor Code.</strong></p> <p><u><strong>Reporting breaches of the Code: </strong></u>The keystone of the VMI Honor Code is the fact that each student (cadet) is honor-bound to report to the Honor Court any breach or reasonable suspicion of a breach of the Honor Code that comes under his/her observation or is in any way brought to his/her attention. <strong>Breaches involving students (cadets) taking summer courses at VMI must be reported to the Director of the Summer Session and to no other person. Breaches involving students (cadets) taking courses in Foreign Study Programs sponsored by the Summer Session must be reported to the Resident Program Director and to no other person.</strong></p> <p>Administration of the Honor Code: it is inconsistent with a code of personal honor for there to be exhaustive written rules as the sole basis of determining honorable conduct. Hence, there are but few absolute rules for the administration of the Honor System.</p> <p>Definition of the terms<strong> "Certified" </strong>and<strong> "Official Statement" </strong></p> <p style="margin-left: 40px;"><u><strong>Certified.</strong> </u>When applicable to a student's (cadet's) act or written or oral statement or report, the term "certified" means that his/her statement is true to the best of his/her information and belief in every significant particular.</p> <p style="margin-left: 40px;"><u><strong>Official Statement.</strong></u> Means a written or oral statement made by a student (cadet) to another student (cadet) or an officer of the Institute who receives the statement in the course of acting in an official capacity. All official statements are certified.</p> <h2><a name="Work_for_Grade_Policy"></a>Work for Grade Policy</h2> <p>Development of the spirit as well as the skills of academic inquiry is central to the mission of VMI's Academic Program. As a community of scholars, posing questions and seeking answers, we invariably consult and build upon the ideas, discoveries, and products of other who have wrestled with related issues and problems before us. We are obligated ethically and in many instances legally to acknowledge the sources of borrowed material that we use in our own work. This is the case whether we find that material in conventional resources, such as the library or cyberspace, or discover it in other places like conversations with our peers.</p> <p>Academic integrity requires the full and proper documentation of any material that is not original with us. It is therefore a matter of honor. To misrepresent someone else's works, ideas, images, data, or other intellectual property as one's own is stealing lying, and cheating all at once.</p> <p>Because the offense of improper or incomplete documentation is so serious, and the consequences so potentially grave, the following policies regarding work for grade have been adopted as a guide to students (cadets) and faculty in upholding the Honor Code under which all students (cadets) live.</p> <p><u><strong>Work for Grade.</strong></u> The term "work for grade" is defined as any work presented to an instructor for a formal grade or undertaken in satisfaction of a requirement for successful completion of a course or degree requirement.</p> <p><u><strong>Student's (Cadet's) Own Work.</strong></u> The term "student's (cadet's) own work" means that the student has composed the work from his/her general accumulation of knowledge and skill except as clearly and fully documented and that it has been composed especially for the current assignment. No work previously submitted in any course at VMI or elsewhere will be resubmitted or reformatted for submission in a current course without the specific approval of the instructor.</p> <p>In all work for grade, failure to distinguish between the student's (cadet's) own work and ideas and the work and ideas of others is known as <strong>plagiarism</strong>. Proper documentation clearly and fully identifies the sources of all borrowed ideas, quotations, or other assistance. The student (cadet) is referred to the VMI-authorized handbook for rules concerning quotations, paraphrases, and documents.</p> <p>In all written work for grade, the student (cadet) must include the words "<strong>HELP RECEIVED</strong>" conspicuously on the document, and he or she must then do one of two things: (1) state "none," meaning that no help was received except as documented in the work; or (2) explain in detail the nature of the help received. In oral work for grade, the student (cadet) must make the same declaration before beginning the presentation. Admission of help received may result in a lower grade, but will not result in prosecution for an honor violation.</p> <p>Students (cadets) are prohibited from discussing the contents of a quiz/exam until it is returned to them or final grades are posted. This enjoinder does not imply that any inadvertent expression or behavior that might indicate an individual's feeling about the test should be considered a breach of the certification. The real issue is whether students (cadets) received information, not available to everyone else in the class, which would give them an unfair advantage. If an individual inadvertently gives or receives information, the incident must be reported to the class instructor and to the Director of the Summer Session.</p> <p>Every student (cadet) bears the responsibility for familiarizing himself/herself thoroughly with the policies stated in this section, with any supplementary statement posted by the academic department offering a course he or she taking, and with any special conditions provided in writing by the professor for a given assignment. If there is any doubt or uncertainty about the correct interpretation of a policy, the student (cadet) should consult the instructor of the course. There should be no confusion, however, on the basic principle that it is never acceptable to submit someone else's work, written or otherwise, formally graded or not, as one's own.</p> <p>The violation by a student (cadet) of any of these policies will, if he he/she is found guilty, result in his/her being dismissed from VMI. Neither ignorance nor professed confusion about the correct interpretation of these policies is an excuse.</p> <h2><a name="Procedures:_Special_Board_of_Inquiry"></a>Procedures: Special Board of Inquiry</h2> 
+                  <ol start="1"> 
+                   <li>A faculty member who discovers an apparent violation of the honor code will report the violation to their department head. The department head will decide whether the collected evidence justifies referral to the Director of the Summer Session. If the department head decides that the evidence does not justify referral, then he or she will conclude the investigation. Otherwise, the department head will submit a written report to the Director of the Summer Session. The report must contain both a recommendation for action and all relevant documents, including a statement signed by the faculty member who reported the violation. If the department head is absent, the faculty member should report directly to the Director of the Summer Session. Students should report all suspected honor violations to the Director of the VMI Summer Session or, in the case of students studying abroad to the Resident Program Director.</li> 
+                   <li><a name="Paragraph_2"></a>The Director of the VMI Summer Session or Resident Program Director, with assistance as necessary, conducts a preliminary investigation and reports his preliminary findings in writing through the Dean to the Superintendent. The report to the Superintendent will have the evidence attached. If a Special Board of Inquiry is recommended, proposed charge(s) and specification(s) are included in the report.</li> 
+                   <li><a name="Paragraph_3"></a>If the Superintendent believes that the matter should go forward, then he or his representative will have a charge sheet prepared, setting forth the charge(s) and specification(s) and listing the witnesses against the accused. Appended to the charge sheet will be a copy of all available evidence including written statements of the faculty member or student who discovered the apparent violation and the report of the Director of the VMI Summer Session or Resident Program Director.</li> 
+                   <li>The accused, along with a member of the faculty or staff (preferably his/her academic advisor) is brought before the Superintendent or his representative to be officially charged with a violation of the VMI Honor Code. At this time the accused is informed of his/her rights and presented with charge(s) and specification(s), the list of witnesses, and a copy of all available evidence. The accused is encouraged to contact his/her parents or guardian in the presence of his/her faculty or staff advocate. After reviewing the evidence and conferring with parents and the advisor, the accused must inform the Superintendent or his representative of his/her intent to have the case heard or admit guilt. If a hearing is requested, the date for the hearing is established at this time.</li> 
+                   <li>An admission of guilt results in immediate dismissal from VMI.</li> 
+                   <li>If the accused decides to have the case heard, the Superintendent appoints a Special Board of Inquiry by special order. In selecting members of the Board, the Superintendent or his representative uses a list of available faculty and staff members submitted to him by the Director of the Summer Session. No member of a department in which an alleged violation occurred is eligible. Student members are selected from the current Summer Session roster at random.</li> 
+                   <li>The Board of Inquiry consists of 3 faculty/staff members, one of whom is appointed President of the Board, 2 cadets, a faculty/staff prosecutor, and a recorder from the faculty or staff who has no vote. The purpose of the Board is to determine the true facts and report findings and recommendations to the Superintendent. Questions related to procedural issues or admissibility of evidence should be directed to the Superintendent's Representative to the Honor Court.</li> 
+                   <li>The accused and his/her counsel are given sufficient time to prepare a defense.</li> 
+                   <li>The Board of Inquiry is convened. Using the Board of Inquiry Hearing Procedures as a guide, the President of the Board conducts the proceedings in which all facts are presented to and explored by the Board. Witnesses are presented by the Prosecution and by the Defense for questioning. These witnesses may attest to the character of the accused or they may have knowledge of the event or of the circumstances surrounding it. The Board is under no restriction as to who may appear before it. The sequence for the hearing follows: 
+                    <ol start="1" style="list-style-type: lower-alpha;"> 
+                     <li>The case against the student (Prosecution)</li> 
+                     <li>The case for the student (Defense)</li> 
+                     <li>Any additional questions (Rebuttal and Board Questions)</li> 
+                     <li>Review of important points pro and con (closing arguments and deliberations)</li> 
+                    </ol> </li> 
+                   <li>After closing arguments, the Board begins deliberations. When each Board member has come to a decision as to the guilt or innocence of the accused, a vote is taken on each specification. Two not guilty votes result in an acquittal.</li> 
+                   <li>Upon completion of the Board's proceedings, a written report containing the essential facts in the case, together with all evidence and the recommendation of the Board, will be sent to the Superintendent for action. At the request of the Superintendent, the Prosecutor and President are present to discuss the outcome of the Special Board of Inquiry during the Superintendent's review process. The Superintendent informs the accused of his final decision upon completion of his review.</li> 
+                  </ol> <p><u><strong>Foreign Study Programs.</strong></u> Cadets/students involved in foreign study programs sponsored by the VMI Summer Session are subject to the VMI Honor Code. Suspected violations should be reported to the Resident Program Director. The Resident Program Director conducts an investigation and forwards all evidence to the Superintendent through the Director of the VMI Summer Session in accordance with the procedures found in <a href="#Paragraph_2">paragraph 2 above</a>. If the Superintendent believes that the matter should go forward, then a charge sheet will be prepared in accordance with the procedures found in <a href="#Paragraph_3">paragraph 3 above</a> and the accused is brought before the Resident Program Director to be officially charged with a violation of the VMI Honor Code in accordance with the procedures found in paragraph 4 above. The accused cadet/student will be permitted to remain in the program, but a grade of "I" will be assigned for all of his/her courses. A Board of Inquiry will be convened upon the accused cadet's/student's return to VMI. If acquitted, the cadet/student will receive a grade and credit for the course. If convicted, he/she will not receive credit for the course and, in the case of a VMI cadet, will be dismissed from VMI.</p> </td> 
+                </tr> 
+               </tbody>
+              </table> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <a rel="nofollow" href="/content.php?catoid=17&amp;navoid=495&amp;print" onclick="acalogPopup('/content.php?catoid=17&amp;navoid=495&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=17" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script>  
+ </body>
+</html>

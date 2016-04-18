@@ -1,0 +1,741 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+  <meta http-equiv="Content-Language" content="en-us"> 
+  <title>ECBU Survey of Exiting Seniors</title> 
+  <link rel="stylesheet" type="text/css" href="inc/style.css"> 
+ </head> 
+ <body> 
+  <div id="pagecontainer"> 
+   <div id="pagecontent"> 
+    <div id="SearchBannerContainer"> 
+     <div id="LogoContainer"> 
+      <img border="0" src="images/SearchBannerLogo.gif" alt="Virginia Military Institute: The Nation's First State Military College" title="Virginia Military Institute: The Nation's First State Military College" width="336" height="51"> 
+     </div> 
+    </div> 
+    <div id="NavBar"></div> 
+    <script language="JavaScript" type="text/javascript"><!--
+function FrontPage_Form1_Validator(theForm)
+{
+
+  if (theForm.Classof.selectedIndex < 0)
+  {
+    alert("Please select one of the \"Classof\" options.");
+    theForm.Classof.focus();
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.Econ.length;  i++)
+  {
+    if (theForm.Econ[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Econ\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.Mgmt.length;  i++)
+  {
+    if (theForm.Mgmt[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Mgmt\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.Fin.length;  i++)
+  {
+    if (theForm.Fin[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Fin\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.Acct.length;  i++)
+  {
+    if (theForm.Acct[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Acct\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.Mktg.length;  i++)
+  {
+    if (theForm.Mktg[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Mktg\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.Quant.length;  i++)
+  {
+    if (theForm.Quant[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Quant\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.Global.length;  i++)
+  {
+    if (theForm.Global[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Global\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.Legal.length;  i++)
+  {
+    if (theForm.Legal[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Legal\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.Moral.length;  i++)
+  {
+    if (theForm.Moral[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Moral\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.MIS.length;  i++)
+  {
+    if (theForm.MIS[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"MIS\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.CritThink.length;  i++)
+  {
+    if (theForm.CritThink[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"CritThink\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.Probsolving.length;  i++)
+  {
+    if (theForm.Probsolving[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Probsolving\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.TeamWork.length;  i++)
+  {
+    if (theForm.TeamWork[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"TeamWork\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.ConflictRes.length;  i++)
+  {
+    if (theForm.ConflictRes[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"ConflictRes\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.Tolerance.length;  i++)
+  {
+    if (theForm.Tolerance[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Tolerance\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.AuthorityRespect.length;  i++)
+  {
+    if (theForm.AuthorityRespect[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"AuthorityRespect\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.SubordConcern.length;  i++)
+  {
+    if (theForm.SubordConcern[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"SubordConcern\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.OralComm.length;  i++)
+  {
+    if (theForm.OralComm[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"OralComm\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.WritComm.length;  i++)
+  {
+    if (theForm.WritComm[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"WritComm\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.InfoTech.length;  i++)
+  {
+    if (theForm.InfoTech[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"InfoTech\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.CommTech.length;  i++)
+  {
+    if (theForm.CommTech[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"CommTech\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.QualFaculty.length;  i++)
+  {
+    if (theForm.QualFaculty[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"QualFaculty\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.AvailFaculty.length;  i++)
+  {
+    if (theForm.AvailFaculty[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"AvailFaculty\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.Advising.length;  i++)
+  {
+    if (theForm.Advising[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Advising\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.AtmosphereDept.length;  i++)
+  {
+    if (theForm.AtmosphereDept[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"AtmosphereDept\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.PhysicalFac.length;  i++)
+  {
+    if (theForm.PhysicalFac[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"PhysicalFac\" options.");
+    return (false);
+  }
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.ComputerFac.length;  i++)
+  {
+    if (theForm.ComputerFac[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"ComputerFac\" options.");
+    return (false);
+  }
+  return (true);
+}
+//--></script>
+    <form method="post" action="/econsurveys/ExitSurvey.asp" onsubmit="return FrontPage_Form1_Validator(this)" name="FrontPage_Form1" language="JavaScript"> 
+     <table border="0" cellpadding="3" id="table7" bordercolor="#111111" cellspacing="0" style="border-collapse:collapse"> 
+      <!-- fpstyle: 24,111111100 --> 
+      <tbody>
+       <tr> 
+        <td colspan="8"> The views of our current students are a very important component of the EC-BU Department's on-going program of assessment.&nbsp; Please take a few minutes to complete the survey below, in a serious and candid manner.<p>&nbsp;</p></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> <p align="center"> <font size="5">Department of Economics and Business Survey of Graduates</font></p> <p> </p></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> <p> <em><font color="#FF0000">&nbsp;</font></em><i>Select your Class </i>&nbsp;&nbsp;&nbsp; <select size="1" name="Classof" style="width: 63px"> <option value="2011">2011</option> <option value="2012">2012</option> <option value="2013">2013</option> <option value="2014">2014</option> <option value="2015">2015</option> <option value="2016" selected>2016</option> <option value="2017">2017</option> <option value="2018">2018</option> </select> </p> </td> 
+       </tr> 
+       <tr> 
+        <td colspan="8" class="ms-list1-tl" style="border-style: none; border-width: medium; background-color: #FFFFFF; "> 
+         <hr></td> 
+       </tr> 
+       <tr> 
+        <td colspan="8" class="ms-list1-tl" style="border-style: none; border-width: medium; background-color: #FFFFFF; "> <p align="left"> <font size="5"><b><span style="background-color: #FFFFFF">Part I:&nbsp;&nbsp; </span> </b></font><b><i><font size="5"><span style="background-color: #FFFFFF"> Areas of Study</span></font></i></b></p> <p><font color="#800000"><i> <span style="background-color: #FFFFFF; font-weight:700">Please indicate the level of expertise you feel the EC-BU curriculum has helped you to develop in the following areas:&nbsp;&nbsp;</span></i></font></p></td> 
+       </tr> 
+       <tr> 
+        <td style="width: 200px"></td> 
+        <td align="center" style="width: 90px"> <b> <font color="#800000">Very High</font></b></td> 
+        <td align="center" style="width: 90px"> <b> <font color="#800000">High</font></b></td> 
+        <td align="center" style="width: 90px"> <b> <font color="#800000">Med. High</font></b></td> 
+        <td align="center" style="width: 90px"> <b> <font color="#800000">Medium</font></b></td> 
+        <td align="center" style="width: 90px"> <b> <font color="#800000">Med. Low</font></b></td> 
+        <td align="center" style="width: 90px"> <b> <font color="#800000">Low</font></b></td> 
+        <td align="center" style="width: 90px"> <b> <font color="#800000">Very Low</font></b></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 200px;"> Economics</td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="Econ"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="Econ"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="Econ"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="Econ"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="Econ"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="Econ"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="Econ"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;"> Management</td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="Mgmt"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="Mgmt"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="Mgmt"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="Mgmt"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="Mgmt"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="Mgmt"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="Mgmt"></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 200px;"> Finance</td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="Fin"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="Fin"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="Fin"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="Fin"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="Fin"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="Fin"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="Fin"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;"> Accounting</td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="Acct"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="Acct"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="Acct"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="Acct"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="Acct"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="Acct"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="Acct"></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 200px;"> Marketing</td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="Mktg"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="Mktg"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="Mktg"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="Mktg"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="Mktg"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="Mktg"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="Mktg"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;"> Quantitative Analysis</td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="Quant"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="Quant"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="Quant"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="Quant"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="Quant"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="Quant"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="Quant"></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 200px;"> Global Business</td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="Global"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="Global"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="Global"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="Global"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="Global"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="Global"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="Global"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;"> Legal Environment</td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="Legal"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="Legal"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="Legal"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="Legal"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="Legal"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="Legal"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="Legal"></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 200px;"> Moral &amp; Ethical Issues</td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="Moral"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="Moral"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="Moral"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="Moral"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="Moral"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="Moral"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="Moral"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;"> Management Info. Systems</td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="MIS" value="7"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="MIS" value="6"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="MIS" value="5"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="MIS" value="4"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="MIS" value="3"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="MIS" value="2"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="MIS" value="1"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium" colspan="8"> 
+         <hr></td> 
+       </tr> 
+       <tr> 
+        <td colspan="8" class="ms-list1-tl" style="border-style: none; border-width: medium; background-color: #FFFFFF"> <p><font size="5"><b>Part II:&nbsp;&nbsp; <i>Workplace Skills</i></b></font></p> <p><i> <font color="#800000"><b>Please indicate the <u>l</u>evel of proficiency you feel you currently possess in the following workplace skills:&nbsp;</b></font>&nbsp;</i></p></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;" valign="top"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>Very High</b></font></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>High</b></font></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>Med. High</b></font></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>Medium</b></font></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>Med. Low</b></font></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>Low</b></font></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>Very Low</b></font></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 200px;" valign="top"> Critical Thinking</td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="CritThink"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="CritThink"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="CritThink"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="CritThink"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="CritThink"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="CritThink"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="CritThink"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;" valign="top"> Solving Complex Problems</td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="Probsolving" value="7"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="Probsolving" value="6"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="Probsolving" value="5"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="Probsolving" value="4"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="Probsolving" value="3"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="Probsolving" value="2"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="Probsolving" value="1"></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 200px;" valign="top"> <p align="left">Working as a Team</p></td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="TeamWork" value="7"></td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="TeamWork" value="6"></td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="TeamWork" value="5"></td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="TeamWork" value="4"></td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="TeamWork" value="3"></td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="TeamWork" value="2"></td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="TeamWork" value="1"></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 200px;" valign="top">Conflict Resolution/Avoidance</td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="ConflictRes" value="7"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="ConflictRes" value="6"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="ConflictRes" value="5"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="ConflictRes" value="4"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="ConflictRes" value="3"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="ConflictRes" value="2"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="ConflictRes" value="1"></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 200px;" valign="top">Tolerance of Human Differences</td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="Tolerance" value="7"></td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="Tolerance" value="6"></td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="Tolerance" value="5"></td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="Tolerance" value="4"></td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="Tolerance" value="3"></td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="Tolerance" value="2"></td> 
+        <td bgcolor="#C0C0C0" class="ms-list1-even" style="border-style: none; border-width: medium; background-color: #C0C0C0; width: 90px;" align="center"> <input type="radio" name="Tolerance" value="1"></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 200px;" valign="top">Respect for Authority</td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="AuthorityRespect" value="7"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="AuthorityRespect" value="6"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="AuthorityRespect" value="5"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="AuthorityRespect" value="4"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="AuthorityRespect" value="3"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="AuthorityRespect" value="2"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; background-color: #FFFFFF; width: 90px;" align="center"> <input type="radio" name="AuthorityRespect" value="1"></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 200px;" valign="top">Concern for Subordinates</td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; width: 90px;" align="center" bgcolor="#C0C0C0"> <input type="radio" name="SubordConcern" value="7"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; width: 90px;" align="center" bgcolor="#C0C0C0"> <input type="radio" name="SubordConcern" value="6"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; width: 90px;" align="center" bgcolor="#C0C0C0"> <input type="radio" name="SubordConcern" value="5"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; width: 90px;" align="center" bgcolor="#C0C0C0"> <input type="radio" name="SubordConcern" value="4"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; width: 90px;" align="center" bgcolor="#C0C0C0"> <input type="radio" name="SubordConcern" value="3"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; width: 90px;" align="center" bgcolor="#C0C0C0"> <input type="radio" name="SubordConcern" value="2"></td> 
+        <td class="ms-list1-odd" style="border-style: none; border-width: medium; width: 90px;" align="center" bgcolor="#C0C0C0"> <input type="radio" name="SubordConcern" value="1"></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 200px;" valign="top"> Oral Communication</td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="OralComm" value="7"></td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="OralComm" value="6"></td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="OralComm" value="5"></td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="OralComm" value="4"></td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="OralComm" value="3"></td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="OralComm" value="2"></td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="OralComm" value="1"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;" bgcolor="#C0C0C0" valign="top"> Written Communication</td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="WritComm" value="7"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="WritComm" value="6"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="WritComm" value="5"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="WritComm" value="4"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="WritComm" value="3"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="WritComm" value="2"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="WritComm" value="1"></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 200px;" valign="top"> Information Technology (e.g., database management, spreadsheets, Internet)</td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="InfoTech" value="7"></td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="InfoTech" value="6"></td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="InfoTech" value="5"></td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="InfoTech" value="4"></td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="InfoTech" value="3"></td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="InfoTech" value="2"></td> 
+        <td align="center" bgcolor="#FFFFFF" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" name="InfoTech" value="1"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;" bgcolor="#C0C0C0" valign="top"> Communication Technology (e.g., cellphones, pda's, email, word processing, Web creation)</td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="CommTech" value="7"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="CommTech" value="6"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="CommTech" value="5"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="CommTech" value="4"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="CommTech" value="3"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="CommTech" value="2"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" name="CommTech" value="1"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium" colspan="8"> 
+         <hr> </td> 
+       </tr> 
+       <tr> 
+        <td width="803" style="border-style: none; border-width: medium" colspan="8"> <b> <font size="5">Part III:</font><font size="5" color="#800000">&nbsp;&nbsp; </font> </b> <p><b><font color="#800000"><i>Please rate your satisfaction with the following aspects:</i></font></b></p></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>Very High</b></font></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>High</b></font></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>Med. High</b></font></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>Medium</b></font></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>Med. Low</b></font></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>Low</b></font></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <font color="#800000"><b>Very Low</b></font></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 200px;"> Qualified Faculty</td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="QualFaculty"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="QualFaculty"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="QualFaculty"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="QualFaculty"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="QualFaculty"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="QualFaculty"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="QualFaculty"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;"> Availability of Faculty</td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="AvailFaculty"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="AvailFaculty"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="AvailFaculty"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="AvailFaculty"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="AvailFaculty"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="AvailFaculty"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="AvailFaculty"></td> 
+       </tr> 
+       <tr> 
+        <td bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 200px;"> Advising Support</td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="Advising"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="Advising"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="Advising"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="Advising"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="Advising"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="Advising"></td> 
+        <td align="center" bgcolor="#C0C0C0" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="Advising"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;" align="right"> <p align="left">Academic Atmosphere</p></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="AtmosphereDept"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="AtmosphereDept"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="AtmosphereDept"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="AtmosphereDept"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="AtmosphereDept"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="AtmosphereDept"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="AtmosphereDept"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;" bgcolor="#C0C0C0"> Quality of Physical Facilities</td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" value="7" name="PhysicalFac"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" value="6" name="PhysicalFac"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" value="5" name="PhysicalFac"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" value="4" name="PhysicalFac"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" value="3" name="PhysicalFac"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" value="2" name="PhysicalFac"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;" bgcolor="#C0C0C0"> <input type="radio" value="1" name="PhysicalFac"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; width: 200px;"> Quality of Computer Facilities</td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="7" name="ComputerFac"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="6" name="ComputerFac"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="5" name="ComputerFac"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="4" name="ComputerFac"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="3" name="ComputerFac"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="2" name="ComputerFac"></td> 
+        <td align="center" style="border-style: none; border-width: medium; width: 90px;"> <input type="radio" value="1" name="ComputerFac"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> 
+         <hr></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> <i><b><font color="#800000">Explain what you consider to be the strongest feature(s) of the EC-BU curriculum.</font></b></i> <p>&nbsp;<textarea rows="8" name="Strengths" cols="110"></textarea></p></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> 
+         <hr></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> <i><b><font color="#800000">Explain what you consider to be the weakest feature(s) of the EC-BU curriculum.</font></b></i><p>&nbsp;<textarea rows="8" name="Weaknesses" cols="110"></textarea>&nbsp;</p></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> 
+         <hr></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> <i><b><font color="#800000">Do you have any additional comments about the EC-BU curriculum or the manner in which it is administered?</font></b></i><p><a name="Comments"> <textarea rows="8" name="Comments" cols="110"></textarea></a></p></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> 
+         <hr></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> <p><font size="4" color="#800000"><b><i>Thank you for taking the time to complete this survey.&nbsp; <br> All of us in the Department of Economics and Business wish you the best!</i></b></font></p></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> 
+         <hr></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> <a name="Submit Button"> <input type="submit" value="Submit Form" name="formAction"></a>&nbsp;&nbsp; <input type="reset" value="Reset Form" name="Reset"></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> 
+         <hr></td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> &nbsp;</td> 
+       </tr> 
+       <tr> 
+        <td style="border-style: none; border-width: medium; " colspan="8"> <h5>Maintained by <a href="mailto:westct@vmi.edu"> COL West</a><br>Copyright © 2007 [VMI Department of Economics and Business]. All rights reserved. <br> Revised: May 03, 2011</h5> </td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <input type="hidden" name="Remote_computer_name" value="172.16.3.81"> 
+     <input type="hidden" name="Browser_type" value="Java/1.8.0_25"> 
+    </form> 
+   </div> 
+  </div>   
+ </body>
+</html>

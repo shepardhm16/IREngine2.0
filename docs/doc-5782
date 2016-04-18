@@ -1,0 +1,576 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	VMI Comptroller - Cash Receipt Operations
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="../../../../../master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="../../../../../royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="../../../../../royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="../../../../../App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="../../../../../App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets">
+  <meta name="Description" content="Building leaders. Leaders in industry, leaders in government, leaders in the military, leaders in life. Virginia Military Institute is the nation&amp;#39;s oldest state-supported military college. Great Challenge. Lifetime Reward.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/Administration/Finance_Administration_Support/Comptrollers_Office/Colleague_Manual/Cash_Receipt_Operations/" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCDw8PFgIeB1Zpc2libGVoZGQCEw9kFgYCAQ8PFgIfCGdkZAIDDw8WAh8IaGRkAgUPZBYCAgEPZBYCZg9kFgJmDxYCHwhnFgICAQ8PFgIfAgU1L3VwbG9hZGVkSW1hZ2VzL0ltYWdlcy9IZWFkZXJzL2NvbXB0cm9sbGVyLmpwZz9uPTIxNDJkZGThPVHgpXDotM4gYufyLeFV7Bhi31yIyrfhCozmFdDsgg=="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAASF8CcSjYhkgHWfugfswW1xtVqhg79+cCaf2Muxgy28w6Ld5e0tb35jjra3L8Dofk5aGpeLsHyujys0vCNqhELeLH6NvOSyl1w9rOeEJ/it2cnAq/zLKvas1lRs0qZiL8Y="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Administration/Finance_Administration_Support/Deputy_Supt__for_Finance,_Administration___Support/" target="_self">Finance Administration Home</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Comptroller_s_Office/" target="_self">Comptroller's Home</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Colleague_Finance_Departmental_Manual/" target="_self">Colleague Dept Manual</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Forms_Directory/" target="_self">Forms Directory</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Financial_Statements/" target="_self">Financial Statements</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Quarterly_Newsletter/" target="_self">Newsletter</a></li>
+        <li><a href="/content.aspx?id=1196" target="_self">Our Offices</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Comptroller_s_Staff/" target="_self">Staff</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft786"> 
+        <address><a href="mailto:ryanka@vmi.edu">Lt. Col. Kevin A. Ryan</a><br>Comptroller<br><br>Ph: (540) 464-7270<br>Fax: (540) 464-7794<br><br>Smith Hall, 3rd Floor<br>Virginia Military Institute<br>Lexington, Virginia 24450<br><br><a href="mailto:comptroller@vmi.edu">Contact Comptrollers Office</a><br><br></address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/comptroller.jpg?n=2142" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Cash Receipt Operations</h1> 
+       <p><span class="infomsg">NOTICE TO READER:</span>&nbsp;&nbsp;</p> 
+       <p>Segments of this document in bold, italic print represent policy which can be changed only by authorization of the VMI Board of Visitors.&nbsp; All other segments represent procedures which may be changed by authorization of the Superintendent.</p> 
+       <h3>Section 30000</h3> 
+       <p>TABLE OF CONTENTS</p> 
+       <p align="left"><strong>30100&nbsp;&nbsp;&nbsp;&nbsp;</strong><strong>Cash Receipt Policies</strong></p> 
+       <div dir="ltr">
+        <ul class="checklist"> 
+         <li>
+          <div align="left">
+           <strong>30110&nbsp;&nbsp;&nbsp;</strong>
+           <a title="Deposits" href="#30110"><strong>Deposits</strong></a>
+          </div> </li> 
+         <li>
+          <div align="left">
+           <strong>30120&nbsp;&nbsp;&nbsp;<a title="Approval of Fees" href="#30120">Approval of Fees</a></strong>
+          </div> </li> 
+         <li>
+          <div align="left">
+           <strong>30130&nbsp;&nbsp;&nbsp;<a title="Collection of Fees" href="#30130">Collection of Fees</a></strong>
+          </div> </li> 
+         <li>
+          <div align="left">
+           <strong>30140&nbsp;&nbsp;&nbsp;<a title="Change Funds" href="#30140">Change Funds</a></strong>
+          </div> </li> 
+         <li>
+          <div align="left">
+           <strong>30150&nbsp;&nbsp;&nbsp;<a title="Bank Deposits" href="#30150">Bank Accounts</a></strong>
+          </div> </li> 
+         <li>
+          <div align="left">
+           <strong>30160&nbsp;&nbsp;&nbsp;<a title="Accountability of Funds" href="#30160">Accountability of Funds</a></strong>
+          </div> </li> 
+         <li>
+          <div align="left">
+           <strong>30170&nbsp;&nbsp;&nbsp;<a title="State Treasurer’s Cash Requirements" href="#30170">State Treasurer’s Cash Requirements</a></strong>
+          </div> </li> 
+        </ul> &nbsp;
+       </div> 
+       <p align="left"><strong>30200&nbsp;&nbsp;&nbsp;&nbsp;</strong><strong>Cash Receipt Procedures</strong></p> 
+       <div dir="ltr">
+        <ul class="checklist"> 
+         <li>
+          <div align="left">
+           <strong>30210&nbsp;&nbsp;&nbsp;</strong>
+           <a title="Collecting Cash" href="#30210"><strong>Collecting Cash</strong></a>
+          </div> </li> 
+         <li>
+          <div align="left">
+           <strong>30220&nbsp;&nbsp;&nbsp;<a title="Custody and Safekeeping of Cash" href="#30220">Custody and Safekeeping of Cash</a></strong>
+          </div> </li> 
+         <li>
+          <div align="left">
+           <strong>30230&nbsp;&nbsp;&nbsp;<a title="End of Year Collections" href="#30230">End of Year Collections</a></strong>
+          </div> </li> 
+         <li>
+          <div align="left">
+           <strong>30240&nbsp;&nbsp;&nbsp;<a title="Theft or Burglary" href="#30240">Theft or Burglary</a></strong>
+          </div> </li> 
+         <li>
+          <div align="left">
+           <strong>30250&nbsp;&nbsp; <a title="Bad Check Collection" href="#30250">Bad Check Collection</a></strong>
+          </div> </li> 
+         <li>
+          <div align="left">
+           <strong>30260&nbsp;&nbsp; <a title="Bad Check Collection" href="#30260">Counterfeit Currency</a></strong>&nbsp;&nbsp;&nbsp;
+          </div> </li> 
+        </ul> &nbsp;
+       </div> 
+       <p><strong>30300&nbsp;&nbsp;&nbsp;&nbsp; Payment Cards</strong></p> 
+       <ul class="checklist"> 
+        <li><strong>30310</strong>&nbsp;&nbsp;<strong>&nbsp;</strong><a href="#30310"><strong>General Information</strong></a></li> 
+        <li><strong>30320</strong>&nbsp;&nbsp;&nbsp;<a href="#30320"><strong>Responsibilities</strong></a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>30321</strong>&nbsp;&nbsp;&nbsp;<a href="#30321"><strong>Departmental</strong></a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>30322</strong>&nbsp;&nbsp;<strong>&nbsp;</strong><a href="#30322"><strong>Comptroller’s Office</strong></a></li> 
+        <li><strong>30330</strong>&nbsp;&nbsp;&nbsp;<a href="#30330"><strong>Processing Procedures for Departments</strong></a></li> 
+       </ul> 
+       <hr> 
+       <p><strong><a name="30110" title="30110" class="bookmark" id="30110"></a></strong><strong>30110&nbsp;&nbsp;&nbsp;&nbsp; Deposits&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><strong><em>All departments and individuals receiving cash or cash equivalents from Institute activities shall deposit the same with the VMI Cashier; there are no exceptions to this policy.&nbsp;&nbsp;All departments shall restrictively endorse checks upon receipt.&nbsp;</em></strong> Departments may request endorsement stamps from the cashier.&nbsp; <strong><em>No one shall make any expenditures directly from collections.&nbsp; Departments shall never cash checks from temporarily held collections.</em></strong>&nbsp; The frequency of deposits varies by department.&nbsp; The departments currently collecting funds are the Athletic Department, the VMI Theater, the VMI Museum, the Military Store, the New Market Battlefield&nbsp;State Historical Park, the Admission’s Office, the Library, the VMI Summer School, Cadet Life, Registrar’s Office and the Chaplain’s Office.&nbsp; Individual department procedures are listed below.</p> 
+       <p><strong><em>Departments not listed below shall adhere to the following:</em></strong></p> 
+       <p><strong><em>The department shall receive approval from the VMI Comptroller to collect funds.&nbsp;&nbsp;&nbsp;No department shall collect funds without this approval. Departments shall deposit daily with the VMI Cashier those funds it receives in excess of $200; said deposit shall include a signed copy of the Cash Receipt Transmittal Form.&nbsp; Collections under $200 shall be deposited weekly.&nbsp; Funds not deposited with the cashier shall be kept in a secure place until such time as a deposit is made.&nbsp; Do not place in the VMI Post mail those deposits that include cash. You shall only use the VMI Post mail for those deposits comprised entirely of checks.</em></strong> The VMI Cashier will return the receipt to the department. The depositing department shall retain the receipt in the department for audit purposes.</p> 
+       <p><strong>Athletic Department</strong><strong><br><em>The Athletic Department will record all ticket sale receipts in their ticket software system.&nbsp;&nbsp;Bank deposits will be made daily by the ticket manager during football, basketball and baseball&nbsp;season.</em></strong></p> 
+       <p><strong><em>During the football season, on game day, the Post Police will take the deposit to the bank and deposit it in the night depository.</em></strong>&nbsp;&nbsp;The Athletic Department shall send to the VMI Cashier an Athletic Department Daily Cash Settlement sheet &nbsp;for recording all deposits in Colleague.</p> 
+       <p><strong><em>The Athletic Department shall deposit all non-ticket sales as needed (at least twice weekly) with the VMI Cashier via an Athletic Cash Report.&nbsp;&nbsp;Those funds that are not deposited with the Cashier shall be kept in a secure place.&nbsp; The Athletic Department shall mail these reports to the Cashier unless there is cash in the deposit.&nbsp; When the deposit contains cash, an Athletic Department representative shall personally deliver the deposit to the Cashier.</em></strong>&nbsp; The VMI Cashier will mail the receipt &nbsp;to the Athletic Department.</p> 
+       <p>The Athletic Department personnel shall compare all copies of the receipts&nbsp;with Colleague reports.</p> 
+       <p><strong>The VMI Theater<br><br><em>The Theater representative shall make deposits no later than the Tuesday after weekend performances via the&nbsp;Cash Receipt Transmittal Form.</em></strong>&nbsp; The VMI Cashier shall prepare a cash receipt and give a receipt to the Theater representative.</p> 
+       <p><strong>The VMI Museum and Military Store<br><br><em>The VMI Museum and the Military Store shall record all sales (cash, check and credit card) on their respective cash registers.&nbsp;&nbsp;Personnel of these two departments shall record the sales on the VMI Museum Daily Transaction Report and the Military Store Daily Sales Report respectively, and deposit all sales receipts with the VMI Cashier daily.&nbsp; The VMI Museum personnel shall deposit weekly the proceeds from the donation box at the VMI Museum.</em></strong>&nbsp; The Post Police shall deliver the Museum deposit to the VMI Cashier.&nbsp; The VMI Cashier shall mail the &nbsp;receipt &nbsp;to the VMI Museum.&nbsp; The VMI Museum personnel will compare the receipt to the transmittal forms and Colleague reports.&nbsp; The Post Police will deliver the Military Store deposit.&nbsp; The receipt will be mailed to the military storekeeper who will verify the receipt with copies of the cash report and Colleague reports.&nbsp; The Storekeeper will retain these &nbsp;receipts.</p> 
+       <p><strong>New Market&nbsp;Battlefield State Historical&nbsp;Park<br><br><em>The New Market Battlefield&nbsp;State Historical Park personnel (NMBSHP personnel) shall record all receipts in the cash register.&nbsp;&nbsp;NMBSHP personnel shall enter the receipts in Colleague on a daily basis and an e-mail will be generated by the system when the session is reconciled.&nbsp; From this message, the VMI Cashier will know to&nbsp;include the session in the daily general ledger deposit.&nbsp; NMBSHP personnel shall daily deposit the receipts at the bank in New Market.</em></strong>&nbsp;&nbsp; The NMBSHP personnel shall verify deposit information with Colleague reports.</p> 
+       <p><strong>Admission’s Office<br><br><em>The Admission’s Office shall record all checks on a log&nbsp;and mail them to the VMI Cashier daily.&nbsp;&nbsp;The VMI Cashier shall mail the receipt &nbsp;to the Admission’s Office.&nbsp; The Admission's personnel shall compare this information to the log retained by that office.</em></strong>&nbsp; The Admissions Office shall keep these receipts and log for audit purposes.</p> 
+       <p><strong>Preston&nbsp;Library<br><br></strong>Preston Library generates revenue from copiers and microfiche printers.<strong><em>&nbsp;&nbsp;The Library shall collect these funds from the machines and lock them in a secure place.&nbsp; The Library shall deliver their bank deposit&nbsp;bags and the original Cash Receipt Transmittal Forms &nbsp;to the VMI Cashier weekly.&nbsp; The VMI Cashier then enters the receipt &nbsp;into Colleague.&nbsp; The VMI Cashier shall send, via the VMI Post Mail, the receipt to Preston Library.&nbsp; The Library personnel shall compare these receipts to the copy of the transmittal forms that were retained in the Library.</em></strong></p> 
+       <p>The Library also receives funds from payments for lost books.<strong><em>&nbsp;&nbsp;When payment is received from a library patron for a lost book, Library personnel will&nbsp;write a receipt from a pre-numbered receipt book.&nbsp;&nbsp; Library personnel shall submit these payments to the VMI Cashier along with the original cash receipt Transmittal Forms.</em></strong>&nbsp; The VMI Cashier then enters the receipt &nbsp;into Colleague.&nbsp; The VMI Cashier shall send, via the VMI Post mail, the receipt &nbsp;to the Library.&nbsp; The Library personnel shall compare the receipt &nbsp;and transmittal forms that were retained in the Library.</p> 
+       <p><strong>VMI Summer School<br><br></strong>Summer School payments are all made on-line or sent directly to the Student Accounting Office.</p> 
+       <p><strong>Cadet Life<br><br><em>Cadet organizations collecting funds, shall take their deposits to the Cadet Life Office where Cadet Life personnel shall recount the deposit and prepare a Cadet Activity Transmittal Form. The Cadet Life office shall send these deposits and forms to&nbsp;the VMI Cashier on the same day that Cadet Life receives them.&nbsp;&nbsp;</em></strong>The VMI Cashier shall write a receipt &nbsp;and mail the same to Cadet Life.</p> 
+       <p><strong>Chaplain’s Office<br><br><em>Two individuals, one of which is typically the Chaplain,&nbsp;collects and counts each Sunday’s offering immediately following that day’s religious service.&nbsp;&nbsp;The Chaplain completes a Cadet Chapel Service Offering Record and takes it and the funds collected to the secretary in the Chaplain’s Office on Monday.&nbsp; The secretary recounts the funds and signs the form.&nbsp; The Chaplain's Office then takes the deposits to the VMI Cashier.&nbsp; The secretary maintains a notebook listing all monies collected in the Chaplain’s Office including offerings and donations that came in at any time during the fiscal year.&nbsp; This notebook lists whom the donation is from, and&nbsp;the date received.&nbsp; The secretary will prepare a transmittal form and send it to the VMI Cashier at least weekly.&nbsp; If donations exceed $50, then the Chaplain's Office shall make the deposit on the day it is received.&nbsp; The Chaplain's Office shall keep all cash and currency in a safe and secure location until the deposit is made.</em></strong>&nbsp; The VMI Cashier shall send the Chaplain's Office a &nbsp;receipt .&nbsp; The Chaplain’s Office shall compare the transmittal forms and Colleague reports and retain the receipts in the Chaplain’s Office.</p> 
+       <p><strong>Registrar’s Office<br><br></strong>The Registrar’s Office generates revenue from transcripts.&nbsp;&nbsp;They may receive transcript requests in person, via fax, through the mail, or e-mail.&nbsp; Payment may be received in the form of cash, check or credit card.&nbsp; <strong><em>When payment is made in person, the Registrar must prepare a written receipt from a pre-numbered receipt book issued by the cashier.&nbsp; The white copy of the receipt is given to the individual requesting the transcript.&nbsp; The Registrar personnel shall run credit card receipts through their credit card reader.&nbsp; Once they close out their reader the&nbsp;information is forwarded to the Cashier.&nbsp; Regardless of how the transcript requested is received, all payments must be recorded in a log.&nbsp; This log, as well as all payments, the yellow copy of the receipt and any credit card information will be delivered to the Cashier’s Office on a daily basis.</em></strong>&nbsp; The cashier will process a receipt and return it to the Registrar’s Office.&nbsp; The Registrar will match these receipts to the logs and maintain the information for audit purposes.</p> 
+       <p><strong>&nbsp;</strong></p> 
+       <p><a name="30120" title="30120" class="bookmark" id="30120"></a><strong>30120&nbsp;&nbsp;&nbsp;&nbsp; Approval of Fees&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><strong><em>State law requires the Board of Visitors to establish and approve all tuition and fees.&nbsp;&nbsp;No member of the Institute community can establish charges without&nbsp; authorization from the Board of Visitors.</em></strong></p> 
+       <p>&nbsp;</p> 
+       <p><a name="30130" title="30130" class="bookmark" id="30130"></a><strong>30130&nbsp;&nbsp;&nbsp;&nbsp; Collection of Fees&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><strong><em>The Comptroller is responsible for the collection of all tuition and fees.&nbsp;&nbsp;No faculty or staff member shall collect tuition, fees, or other revenue without prior approval from the Comptroller.</em></strong></p> 
+       <p>&nbsp;</p> 
+       <p><a name="30140" title="30140" class="bookmark" id="30140"></a><strong>30140&nbsp;&nbsp;&nbsp;&nbsp; Change Funds&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>A change fund is established by means of a cash advance from the Comptroller’s Office.&nbsp;&nbsp;This is an advance to the department for the purpose of making change.&nbsp; Such advances must be made to the individual that will serve as the custodian of departmental advances and will be personally liable for the safekeeping of those funds.&nbsp; <strong><em>It is VMI's policy not to allow expenditures and check cashing from the change fund; therefore, the amount of the change fund shall remain constant.&nbsp; The department is responsible for the change funds at all times.&nbsp; The loss of these funds through neglect or lack of security becomes the responsibility of the custodian receiving the change fund.</em></strong> &nbsp;Section 45300 of this manual deals with change funds in more detail.</p> 
+       <p>&nbsp;</p> 
+       <p><a name="30150" title="30150" class="bookmark" id="30150"></a><strong>30150&nbsp;&nbsp;&nbsp;&nbsp; Bank Accounts</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><strong><em>No department or office is authorized to establish a bank account.&nbsp;&nbsp;The VMI Treasurer shall have custody of all Institute funds.</em></strong></p> 
+       <p><strong><em>&nbsp;</em></strong></p> 
+       <p><a name="30160" title="30160" class="bookmark" id="30160"></a><strong>30160&nbsp;&nbsp;&nbsp;&nbsp; Accountability of Funds</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><strong><em>All State and Local funds shall be maintained separately to ensure proper accountability</em></strong>.</p> 
+       <p><strong>&nbsp;</strong></p> 
+       <p><a name="30170" title="30170" class="bookmark" id="30170"></a><strong>30170&nbsp;&nbsp;&nbsp;&nbsp; State Treasurer’s Cash Requirements</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><strong><em>The Treasurer of the Commonwealth of Virginia requires VMI to deposit daily all state monies that it collects.</em></strong></p> 
+       <p><strong>&nbsp;</strong></p> 
+       <p><a name="30210" title="30210" class="bookmark" id="30210"></a><strong>30210&nbsp;&nbsp;&nbsp;&nbsp; Collecting Cash</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><strong><em>Checks payable to the Institute shall be made payable to “VMI” or "VMI Treasurer".&nbsp;&nbsp;Checks collected that are not made payable to VMI shall be endorsed over to VMI by the individual to whom the check was written.&nbsp; This endorsement shall appear on the reverse side of the check and read “Pay to VMI” and be signed by that individual.</em></strong></p> 
+       <p>&nbsp;</p> 
+       <p><a name="30215" title="30215" class="bookmark" id="30215"></a><strong>30215&nbsp;&nbsp;&nbsp;&nbsp; Check Cashing</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><strong><em>The Bursar’s Office cashes checks for cadets, faculty and staff, with proper identification (driver’s license or other photo identification).&nbsp;&nbsp;All checks must be made payable to the individual and endorsed on the back.&nbsp; VMI will not cash checks payable to Virginia Military Institute.</em></strong></p> 
+       <p><strong>&nbsp;</strong></p> 
+       <p><a name="30220" title="30220" class="bookmark" id="30220"></a><strong>30220&nbsp;&nbsp;&nbsp;&nbsp; Custody and Safekeeping of Cash</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><strong><em>Department heads shall ensure that proper safeguards are taken to protect the Institute’s funds until they are transmitted to the VMI Cashier.&nbsp;&nbsp;The following policies apply:</em></strong></p> 
+       <ul class="checklist"> 
+        <li><strong><em>Currency or coin shall never be transmitted through post mail.&nbsp;</em></strong></li> 
+        <li><strong><em>Only one person shall have access to monies handled by a department or activity.&nbsp;</em></strong></li> 
+        <li><strong><em>If large sums of money are on hand, then the person handling the money shall make arrangements for a Post Police officer to accompany the transmittal of the collections to the VMI Cashier’s Office.</em></strong></li> 
+        <li><strong><em>If monies are required to be held overnight by the department, then departmental personnel shall provide a secure storage facility for those funds.</em></strong></li> 
+       </ul> 
+       <p><strong><em>&nbsp;</em></strong></p> 
+       <p><a name="30230" title="30230" class="bookmark" id="30230"></a><strong>30230&nbsp;&nbsp;&nbsp;&nbsp; End of Year Collections</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><strong><em>In order for the Comptroller to report revenue collections in the appropriate fiscal year, all departments shall promptly deposit cash collections from all Institute activities with the VMI Cashier at the end of the fiscal year, by 30 June (or the previous working day if 30 June falls on a weekend).</em></strong></p> 
+       <p><strong><em>&nbsp;</em></strong></p> 
+       <p><a name="30240" title="30240" class="bookmark" id="30240"></a><strong>30240&nbsp;&nbsp;&nbsp;&nbsp; Theft or Burglary</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><strong><em>If any VMI personnel discovers a theft or burglary, or even suspects that one has been attempted, then you must follow the procedures below:</em></strong></p> 
+       <ul class="checklist"> 
+        <li><strong><em>Do not touch anything in the area.&nbsp;</em></strong></li> 
+        <li><strong><em>Seal off the area.&nbsp;</em></strong></li> 
+        <li><strong><em>Notify the Post Security Police, the Cashier, the Bursar and your supervisor.&nbsp;</em></strong></li> 
+        <li><strong><em>Do not disturb or examine any part of your office.&nbsp; You might destroy clues or significant evidence such as fingerprints or footprints.</em></strong></li> 
+       </ul> 
+       <p>&nbsp;</p> 
+       <p><a name="30250" title="30250" class="bookmark" id="30250"></a><strong>30250&nbsp;&nbsp;&nbsp;&nbsp; Bad Check Collection</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>VMI accepts checks subject to acceptance by the maker’s bank.<strong><em>&nbsp;&nbsp;It is the responsibility of the department receiving a “bad” check to collect the amount due from the maker. For any check that is returned to the VMI Cashier by the bank as uncollectible, the Comptroller shall charge the amount of the check to the department accepting said check.</em></strong></p> 
+       <p>&nbsp;</p> 
+       <p><strong><a name="30260" title="30260" id="30260"><br></a>30260&nbsp;&nbsp;&nbsp;&nbsp; Counterfeit Currency&nbsp; </strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>It is recommended that key cash collection points designated by the Comptroller’s Office undertake the following steps in order to reduce the risk of accepting counterfeit currency.&nbsp; <i>VMI employee and volunteer safety is the utmost priority and steps should be altered or avoided as necessary in support of staff security</i>.&nbsp;&nbsp;&nbsp;</p> 
+       <ul> 
+        <li>DO NOT put yourself in danger. &nbsp;</li> 
+        <li>Utilize counterfeit pens to review large ($50+) and/or suspicious bills. &nbsp;</li> 
+        <li>Retain any bills that do not pass the pen test (<i>unless the passer becomes aggressive and/or demands the note back</i>). &nbsp;</li> 
+        <li>Contact law enforcement.*&nbsp; Note the individual’s description, vehicle, license plate number and direction of travel as able. &nbsp;</li> 
+        <li>Limit handling of retained currency and place in envelope if possible.&nbsp; Provide to police upon arrival and notify the Bursar’s Office.&nbsp;&nbsp;&nbsp; <p>&nbsp;</p> </li> 
+       </ul> 
+       <p> &nbsp;*&nbsp; VMI Police will respond if on Post or at the Stonewall Jackson House.&nbsp; The New Market Battlefield is to notify local law enforcement.&nbsp; </p> 
+       <p>&nbsp;</p> 
+       <p><strong>30310&nbsp;&nbsp; Payment Card General Information&nbsp;</strong><a href="#Top">[Return to top]</a>&nbsp; </p> 
+       <p>The Payment Card Industry Data Security Standards (PCI-DSS) were established by the Security Standards Council and must be followed by all entities that accept payment cards, debit or credit, as a method of payment. The policies and procedures outlined below are provided to assure VMI complies with these standards.</p> 
+       <p>&nbsp;</p> 
+       <p><strong><a name="30320" title="30320" class="bookmark" id="30320"></a>30320&nbsp;&nbsp; Payment Card Responsibilities&nbsp;</strong><a href="#Top">[Return to top]</a></p> 
+       <p>&nbsp;</p> 
+       <p><strong>30<a name="30321" title="30321" class="bookmark" id="30321"></a>321 Payment Card Departmental Responsibilities&nbsp;</strong><a href="#Top">[Return to top]</a>&nbsp;&nbsp;&nbsp;</p> 
+       <ul class="checklist"> 
+        <li>All locations accepting payment cards must obtain written authorization from the Comptroller prior to implementing a payment card payment option.</li> 
+        <li>The Department Head must review, sign and return the completed <a title="Comptroller Cash Receipt VMI Merchant Agreement" href="/WorkArea/DownloadAsset.aspx?id=4294967488">VMI Merchant Agreement</a> (annual process) to the Comptroller’s Office.</li> 
+        <li>All departmental personnel involved in processing payment cards must complete the Payment Card Acceptance Training on an annual basis.</li> 
+        <li>Departmental personnel responsibilities must be clearly defined and documented within each authorized payment collection location, from the time of receipt to the time of deposit.</li> 
+        <li>Only a minimum number of employees should handle payments from receipt to deposit.</li> 
+        <li>All payment card receipts must be deposited on the day received or no later than the next business day, regardless of amount.</li> 
+        <li>Prepare the appropriate deposit forms and send to the Cashier daily.&nbsp; The Athletic department will prepare its own deposit for the bank and forward the appropriate forms for entry in Colleague.</li> 
+        <li>Never send unencrypted Payment Account Numbers (PAN) over the internet using end-user messaging technologies (for Example, Email, instant messaging, chat).</li> 
+        <li>Note:&nbsp; All payment handling procedures are subject to the review and/or audit by Comptroller’s Office staff or the Auditor of Public Accounts.</li> 
+       </ul> 
+       <p>&nbsp;</p> 
+       <p><strong>30322&nbsp;&nbsp;&nbsp; Paym<a name="30322" title="30322" class="bookmark" id="30322"></a><a name="30330" title="30330" class="bookmark" id="30330"></a>ent Card Comptroller’s Office Responsibilities&nbsp;</strong><a href="#Top">[Return to top]</a></p> 
+       <ul class="checklist"> 
+        <li>Authorize departmental acceptance of payment cards as a method of payment.</li> 
+        <li>Provide departments with forms and instructions for the daily deposit of receipts.</li> 
+        <li>Schedule payment card acceptance training to VMI employees.</li> 
+        <li>Provide departments with the payment card invoice to verify and return to the Comptroller’s Office for payment.&nbsp;&nbsp;&nbsp;&nbsp;</li> 
+       </ul> 
+       <p><br><br><strong>30330&nbsp;&nbsp; Payment Card Processing Procedures for Departments</strong>&nbsp;&nbsp;<a href="#Top">[Return to top]</a></p> 
+       <ul class="checklist"> 
+        <li>Complete and return the&nbsp;<a title="Comptroller Cash Receipt VMI Merchant Agreement" href="/WorkArea/DownloadAsset.aspx?id=10737423194">VMI Merchant Agreement</a>&nbsp;(annually) to the Comptroller’s Office.</li> 
+        <li>Ensures appropriate security controls are in place related to payment card transactions: 
+         <ul> 
+          <li>All employees with access to payment card information have completed payment card acceptance training and&nbsp;<a title="Comptroller Cash Receipt VMI CC  Staff terms_of_agreement" href="/WorkArea/DownloadAsset.aspx?id=10737423192">VMI Payment Card Merchant Staff Terms of Agreement</a>.</li> 
+          <li>No customer payment card or personal information is stored on VMI Server or workstation hard drives.</li> 
+          <li>All hard copy payment card information is stored in a secure location with a minimum number of employees having access.</li> 
+          <li>All customer receipts show only truncated card numbers – the last four digits.</li> 
+         </ul> &nbsp;</li> 
+        <li>Receives and secures monies from customers.</li> 
+        <li>Prepares and retains documentation supporting receipts and deposits.</li> 
+        <li>Deposits receipts daily using the appropriate deposit transmittal form to the VMI Cashier for input into the Colleague system.</li> 
+       </ul> 
+       <a name="30310" title="30310" class="bookmark" id="30310"></a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

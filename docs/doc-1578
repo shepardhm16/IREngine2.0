@@ -1,0 +1,1966 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=1440"> 
+  <title>Intellect</title> 
+  <link rel="icon" type="image/png" href="http://www.mergentintellect.com/assets/images/favicon.png"> 
+  <link href="http://www.mergentintellect.com/assets/css/main.css" rel="stylesheet" type="text/css"> 
+  <link href="http://www.mergentintellect.com/assets/css/global.css" rel="stylesheet" type="text/css"> 
+  <link href="http://www.mergentintellect.com/assets/css/lookup.css" rel="stylesheet" type="text/css"> 
+  <link href="http://www.mergentintellect.com/assets/css/ui.dynatree.css" rel="stylesheet" type="text/css"> 
+  <link href="http://www.mergentintellect.com/assets/css/jquery-ui-1.8.18.custom.css" rel="stylesheet" type="text/css"> 
+  <link href="http://www.mergentintellect.com/assets/css/accordian.css" rel="stylesheet" type="text/css"> 
+  <link href="http://www.mergentintellect.com/assets/css/developer.css" rel="stylesheet" type="text/css"> 
+  <link href="http://www.mergentintellect.com/assets/css/jquery.autocomplete.css" rel="stylesheet" type="text/css"> 
+  <link href="http://www.mergentintellect.com/assets/css/jquery.cluetip.css" rel="stylesheet" type="text/css"> 
+  <link href="http://www.mergentintellect.com/assets/css/zoom.css" rel="stylesheet" type="text/css"> 
+  <link href="http://www.mergentintellect.com/assets/css/jBox.css" rel="stylesheet"> 
+  <link href="http://www.mergentintellect.com/assets/css/TooltipDark.css" rel="stylesheet"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+  <script type="text/javascript">
+            var jQuery_1_11 = $.noConflict();
+        </script> 
+  <script src="http://www.mergentintellect.com/assets/js/jBox.js"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/jquery-1.7.1.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/jquery-ui-1.8.18.custom.min.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/jquery.autocomplete.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/jquery.cluetip.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/jquery-ui.custom.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/jquery.dynatree.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/jquery.validate.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/jquery.blockUI.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/accordion.js" type="text/javascript" charset="utf-8"></script> 
+  <!--<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>--> 
+  <script src="http://www.mergentintellect.com/assets/js/highcharts.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/funnel.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/exporting.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/map.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/us-all.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/us-small.js" type="text/javascript" charset="utf-8"></script> 
+  <script src="http://www.mergentintellect.com/assets/js/jquery.Upload.js" type="text/javascript"></script> 
+  <!-- SOC: Including CSS and JS required for Chat application --> 
+  <!-- EOC: Including CSS and JS required for Chat application --> 
+  <script defer type="text/javascript">
+            var baseUrl = "http://www.mergentintellect.com/";
+            function printThis(winName, winSpec, title, cssArray, data, autoload) {
+                var mywindow = window.open('', winName, 'scrollbars=yes,'+winSpec);
+                mywindow.document.write('<html><head><title>'+title+'</title>');	
+                var cssLength = cssArray.length;
+                for (var i = 0; i < cssLength; i++) {
+                    mywindow.document.write('<link rel="stylesheet" href="'+cssArray[i]+'" type="text/css" />');
+                }
+                mywindow.document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript" charset="utf-8"><\/script>');
+				
+
+                if(autoload != "off"){
+					mywindow.document.write('</head><body onload="printMe();">');
+				}else{
+					mywindow.document.write('</head><body>');
+				}
+				
+                mywindow.document.write(data);
+                mywindow.document.write('<script>');
+
+
+				if(autoload != "off"){
+					mywindow.document.write('function printMe() {');
+				}
+				
+                mywindow.document.write('var iframe = document.getElementsByTagName(\'\iframe\'\);');
+                mywindow.document.write('if(iframe.length>0) {');
+                mywindow.document.write('setTimeout(function() {');
+                mywindow.document.write('window.print();');
+                mywindow.document.write('}, 6000);');
+                mywindow.document.write('}else{');
+//                 mywindow.document.write('window.print()');              
+                mywindow.document.write('setTimeout(function() {');
+                mywindow.document.write('window.print();');
+                mywindow.document.write('}, 1500);');
+                
+                if(autoload != "off"){
+                	mywindow.document.write('}');
+				}
+                mywindow.document.write('}');
+                mywindow.document.write('<\/script>');
+                mywindow.document.write('</body></html>'); 
+                mywindow.document.close(); 
+                mywindow.focus();  
+                return true;
+            }
+
+            function PrintingElem(elem)
+            {
+                var cssArray = [
+                    "http://www.mergentintellect.com/assets/css/global.css", 
+                    "http://www.mergentintellect.com/assets/css/developer.css",
+                    "http://www.mergentintellect.com/assets/css/keyexecutives.css",
+                    "http://www.mergentintellect.com/assets/css/print.css"];
+
+                var data = $(elem).html();
+                var disclaimer = $('#print_disclaimer').html();
+                if (disclaimer !== null) {
+                    data += '<br clear="all" /><div class="disclaimer">'+disclaimer+'</div>';
+                }
+                
+                var autoload = 'on';
+                
+                if ( data.indexOf('googleMapPinScript') !== -1 ) {
+//                 	data = data.replace('<script src="http://maps.gstatic.com/maps-api-v3/api/js/20/11c/main.js"><\/script>','');
+
+                	var startPos = data.indexOf('<script src="http://maps.gstatic.com');
+                	var endPos = data.indexOf('main.js"><\/script>');
+
+                	endPos = endPos + 19;
+                	
+                	var stringToRemove = data.substring(startPos, endPos);
+
+                	data = data.replace(stringToRemove,'');
+                	
+                	autoload = 'off';      
+                }
+
+                printThis('print', 'height=800,width=956', 'Company Details', cssArray, data, autoload);
+            }
+
+            function printScreen(elem)
+            {   
+                var cssArray = ["http://www.mergentintellect.com/assets/css/print.css"];
+                printThis('print', 'height=500,width=700', 'Company Details', cssArray, $("#"+elem).html());
+            }
+
+            function changeaction(link, recordperpage, delimiter)
+            {
+                newpage = document.pager.page.value;
+                newurl = "http://www.mergentintellect.com/"+link+delimiter+"start="+newpage+"&perpage="+recordperpage;
+                document.pager.action = newurl;
+                document.pager.submit();
+            }
+
+            function openNAICCodes() {
+                $("#lightboxprofile, #lightbox-SIC").fadeOut(300);
+                $("#lightboxprofile, #lightbox-NAIC").fadeIn(300);
+            }
+            function openSICCodes() {
+                $("#lightboxprofile, #lightbox-NAIC").fadeOut(300);
+                $("#lightboxprofile, #lightbox-SIC").fadeIn(300);
+            }
+
+            function closeNAICCodes() {
+                $("#lightboxprofile, #lightbox-NAIC").fadeOut(300);
+            }
+            function closeSICCodes() {
+                $("#lightboxprofile, #lightbox-SIC").fadeOut(300);
+            }
+
+            function redirectPage(state) {
+                window.location.href= baseUrl+'index.php/search/quick?state='+state;
+            }
+
+            // adding sort features
+            function addSorting(elem) {
+                var curr_sort_field = "";
+                var curr_sort_type = "";
+                $(elem).find('th.sorttable').each(function(index, el) {
+                    var title = '<div style="display: inline-block;">'+$(el).html()+'</div>';
+                    var paging = '<div class="sorting" style="display: inline-block; width: 12px; padding-left: 5px; height: 10px;"><div style="padding: 1px;" class="arrow_up_active"></div><div style="clear:both;"></div><div style="padding: 1px;" class="arrow_down_active"></div></div>';
+                    if (typeof $(el).attr('sorttype') !== "undefined" && $(el).attr('sorttype') != "") {
+                        curr_sort_type = $(el).attr('sorttype');
+                        curr_sort_field = $(el).attr('sortfield');
+
+                        if ($(el).attr('sorttype') == 'ASC') {
+                            paging = '<div class="sorting" style="display: inline-block; width: 12px; padding-left: 5px; height: 10px;"><div style="padding: 1px; margin-top: 20%;" class="arrow_up_active"></div></div>';
+                        }
+                        else {
+                            paging = '<div class="sorting" style="display: inline-block; width: 12px; padding-left: 5px; height: 10px;"><div style="padding: 1px; margin-top: 20%;" class="arrow_down_active"></div></div>';
+                        }
+                    }
+                    $(el).html(title+paging).css({cursor: 'pointer'}).click(function(){
+                        sort_field = $(el).attr('sortfield');
+                        sort_type = 'ASC';
+                        if (typeof $(el).attr('sorttype') !== "undefined" && $(el).attr('sorttype') != "") {
+                            if ($(el).attr('sorttype') == 'ASC') {
+                                sort_type = "DESC";
+                            }
+                        }
+
+                        param = '';
+                        url = document.URL;
+                        if (url.charAt(url.length - 1) == '#') {
+                            url = url.substr(0, url.length - 1);
+                        }
+                        url = url.split('?');
+                        if (url.length > 1) {
+                            // param = org_url.split('?')[1];
+                            param_obj = url[1].split('&')
+                            for (i in param_obj) {
+                                tmp_obj = param_obj[i].split("=");
+                                if (tmp_obj[0] == "rpp" || tmp_obj[0] == "start") {                                    
+                                    param+= '&' + param_obj[i];
+                                }
+                            };
+                            url = url[0];
+                        }
+                        else {
+                            url = url[0];
+                        }
+                        url+= '?sorttype='+sort_type+'&sortfield='+sort_field+param;
+                        // console.log(url);
+                        window.location = url;
+                    });
+                });
+
+                if (curr_sort_field != "") {
+                    $("#frmSelectdownloadviewresults").append('<input type="hidden" name="sorttype" value="'+curr_sort_type+'" /><input type="hidden" name="sortfield" value="'+curr_sort_field+'" />')
+                }
+            }
+
+            //add dropdown sort
+            function customSortDropdown(dropdownId){
+                var ddlWrapId = '#'+dropdownId+'_wrap';
+                var dropdownId = '#'+dropdownId;
+
+                $(document).on("click",ddlWrapId,function(){
+                    $(dropdownId).slideToggle();
+                });
+                
+                $(document).on("click",ddlWrapId+" ul li",function(){
+                    sort_field = $(this).attr('sortfield');
+                    sort_type = $(this).attr('sorttype');
+
+                    param = '';
+                    url = document.URL;
+                    if (url.charAt(url.length - 1) == '#') {
+                        url = url.substr(0, url.length - 1);
+                    }
+                    url = url.split('?');
+                    if (url.length > 1) {
+                        // param = org_url.split('?')[1];
+                        param_obj = url[1].split('&')
+                        for (i in param_obj) {
+                            tmp_obj = param_obj[i].split("=");
+                            if (tmp_obj[0] == "rpp" || tmp_obj[0] == "start") {                                    
+                                param+= '&' + param_obj[i];
+                            }
+                        };
+                        url = url[0];
+                    }
+                    else {
+                        url = url[0];
+                    }
+                    url+= '?sorttype='+sort_type+'&sortfield='+sort_field+param;
+                    // console.log(url);
+                    window.location = url;
+                });
+
+                $('body').click(function(e){
+                    var clickedOn = $(e.target);
+                    if (!clickedOn.parents().andSelf().is(ddlWrapId)){
+                        $(dropdownId).hide('200');
+                    }
+                });
+            }
+
+            // adding zoom css fix
+            function addCSSStyle(style) {
+                var styleEl = document.getElementsByTagName('style'), styleSheet;
+                if (styleEl.length == 0) {
+                    var styleEl = document.createElement('style');
+                    styleEl.title = "zoommediafix";
+                    document.head.appendChild(styleEl);                                    
+                    styleSheet = styleEl.sheet;
+                }
+                else {
+                    for (var i = 0; i < styleEl.length; i++) {
+                        if (styleEl[i].title == "zoommediafix") {
+                            styleSheet = styleEl[i].sheet;
+                        }
+                    }
+                }
+
+                if (typeof styleSheet != "undefined") {
+                    // CSS to fix change company live search
+                    if (styleSheet.cssRules.length > 0) {
+                        for (var i = 0; i < styleSheet.cssRules.length; i++) {
+                            styleSheet.deleteRule(i);
+                        }
+                    }
+
+                    for (var i = 0; i < style.length; i++) {
+                        styleSheet.insertRule(style[i], i);
+                    }
+                }
+            }
+
+            // zoom the screen
+            function zoomScreen(zoomType, zoomOpt) {
+                if (zoomType != "") {
+                    $small.removeClass('font_icon_small_active');
+                    $normal.removeClass('font_icon_medium_active');            
+                    $large.removeClass('font_icon_large_active');
+                    $container = $(".nxmaincontainer");
+                    if (zoomType == "reduce") {                            
+                        $container.removeClass('reduce enlarge').addClass(zoomType);                            
+                        $small.addClass("font_icon_small_active");
+                    } else if (zoomType == "normal") {
+                        $container.removeClass('reduce enlarge');
+                        $normal.addClass("font_icon_medium_active");
+                    } else {
+                        $container.removeClass('reduce enlarge').addClass(zoomType);                            
+                        $large.addClass("font_icon_large_active");
+                    }
+                }                    
+            }
+
+      $(document).on("click",".company_details_header_wrap[name='expandable'], .job_header_wrap, .expandable_header_wrap",function(){
+          if($(this).children('div:first').hasClass("sec_arrow_up")){
+              $(this).children('div:first').removeClass("sec_arrow_up");
+                $(this).children('div:first').addClass("sec_arrow_down");
+                $(this).children('div:first').prev('span').removeClass("focus");
+                $(this).children('div:first').prev('span').addClass("unfocus");
+                $(this).children('div:first').prev('span').find('span').removeClass("focus");
+                $(this).children('div:first').prev('span').find('span').addClass("unfocus");
+            }else{
+                $(this).children('div:first').removeClass("sec_arrow_down");
+                $(this).children('div:first').addClass("sec_arrow_up");
+                $(this).children('div:first').prev('span').removeClass("unfocus");
+                $(this).children('div:first').prev('span').addClass("focus");
+                $(this).children('div:first').prev('span').find('span').removeClass("unfocus");
+                $(this).children('div:first').prev('span').find('span').addClass("focus");
+            }
+            
+            $(this).next('div').slideToggle();
+          });
+              
+            $(document).ready(function(){
+                jQuery_1_11('.tooltip').jBox('Tooltip', {
+                    position: {
+                        x: 'center',
+                        y: 'bottom'
+                    },
+                    theme: 'TooltipDark',
+                    maxWidth: 720
+                });
+
+                $sorttable = $("#sorttable");
+                if ($sorttable.length > 0) {
+                    addSorting($sorttable);
+                }
+
+                // Zoom binding zoom action
+                $small = $("#font_icon1");
+                if ($small.length == 1) {                        
+                    var zoomOpt = 'company';
+                                        var zoomType = '';
+                                        
+
+                    $normal = $("#font_icon2");
+                    $large = $("#font_icon3");
+                    $small.on('click', function(event) {
+                        $.get("http://www.mergentintellect.com/index.php/search/setZoomType/"+zoomOpt+"/reduce");
+                        $small.addClass("font_icon_small_active");
+                        $normal.removeClass('font_icon_medium_active');
+                        $large.removeClass('font_icon_large_active');
+                        zoomScreen('reduce', zoomOpt);
+                        event.preventDefault();
+                    });
+
+                    if ($normal.length == 1) {
+                        $normal.on('click', function(event) {
+                            $.get("http://www.mergentintellect.com/index.php/search/setZoomType/"+zoomOpt+"/normal");
+                            $normal.addClass("font_icon_medium_active");
+                            $small.removeClass('font_icon_small_active');
+                            $large.removeClass('font_icon_large_active');
+                            zoomScreen('normal', zoomOpt);
+                            event.preventDefault();
+                        });
+                    }
+
+                    if ($large.length == 1) {
+                        $large.on('click', function(event) {
+                            $.get("http://www.mergentintellect.com/index.php/search/setZoomType/"+zoomOpt+"/enlarge");
+                            $large.addClass("font_icon_large_active");
+                            $small.removeClass('font_icon_small_active');
+                            $normal.removeClass('font_icon_medium_active');
+                            zoomScreen('enlarge');
+                            event.preventDefault();
+                        });
+                    }
+
+                    zoomScreen(zoomType, zoomOpt);
+                }
+
+
+                $("input[name=sicnaic]:radio").click(function(){
+                    $('.sicnaiccode').val('');
+                    $('.sicnaiccode').focus();
+
+                    $('#sicKeywordcodes_display').hide('');
+                    $('#naicKeywordcodes_display').hide('');
+                    $('#sicKeywordcodes').val('');
+                    $('#naicKeywordcodes').val('');
+                    $('#siccode_keyword').val('');
+                    $('#naiccode_keyword').val('');
+
+                    var sicnaic = $("input[name='sicnaic']:radio:checked").val();
+                    //alert(sicnaic);
+                    if(sicnaic == "naic"){
+                        $('#browsesic').hide();
+                        $('#browsenaic').show();
+
+                        $('#naic_searchtype').show();
+                        $('#sic_searchtype').hide();
+
+                        $('#naictype:first').attr('checked', true);
+                        $('#hiddenid').val('sicnaiccode');
+
+                        $('#sicnaiccode_inputdiv').show();
+                        $('#sicKeyword_inputdiv').hide();
+                        $('#naicKeyword_inputdiv').hide();
+                    } else {
+                        $('#browsenaic').hide();
+                        $('#browsesic').show();
+
+                        $('#sic_searchtype').show();
+                        $('#naic_searchtype').hide();
+
+                        $('#sictype:first').attr('checked', true);
+                        $('#hiddenid').val('sicnaiccode');
+
+                        $('#sicnaiccode_inputdiv').show();
+                        $('#sicKeyword_inputdiv').hide();
+                        $('#naicKeyword_inputdiv').hide();
+                    }
+                    var data = 'sicnaic=' + sicnaic;
+                    $.ajax({
+                        type: 'POST',
+                        url: 'http://www.mergentintellect.com/index.php/search/setRadioOptionSic',
+                        dataType: 'json',
+                        data: data,
+                        success: function(data) {
+                        }
+                    });
+                });
+
+                $.validator.addMethod("alphabets", function(value, element) {
+                    return this.optional(element) || /^[a-z0-9\_,() ]+$/i.test(value);
+                }, "");
+
+                $('#closeRef1').click(function(){
+                    alert('test');
+                    $("#lightboxprofile, #lightbox-NAIC").fadeOut(300);
+                });
+
+                $('#closeRef2').click(function(){
+                    $("#lightboxprofile, #lightbox-SIC").fadeOut(300);
+                });
+
+                $("#txtcity, #txtpeoplecity").autocomplete("http://www.mergentintellect.com/index.php/search/autocompleteCity", {
+                    width: 260,
+                    matchContains: false,
+                    selectFirst: false,
+                    minChars:3,
+                    autoFill:false,
+                    mustMatch:false,
+                    cacheLength:10,
+                    max:10,
+                    multiple:true
+                });
+
+                $('#location').click(function(){
+                    var callAjax = $('#locationHTML').is(":empty");
+                    if(callAjax){
+                        $('#locationHTML').html("<div id='filter'><img src='http://www.mergentintellect.com/assets/images/loading.gif' />Loading...</div>");
+                        $.ajax({
+                            type: 'POST',
+                            url: 'http://www.mergentintellect.com/index.php/search/getStateFilter',
+                            data: 'location',
+                            success: function(message) {
+                                $('#locationHTML').html('');
+                                $('#locationHTML').html(message);
+                            }
+                        });
+                    } else {
+                        return true;
+                    }
+                });
+
+                $('#salesFilter').click(function(){
+                    var callAjaxSales = $('#salesfilterHTML').is(":empty");
+                    if(callAjaxSales){
+                        $('#salesfilterHTML').html("<div id='filter'><img src='http://www.mergentintellect.com/assets/images/loading.gif' />Loading...</div>");
+                        $.ajax({
+                            type: 'POST',
+                            url: 'http://www.mergentintellect.com/index.php/search/getSalesFilter',
+                            data: 'sales',
+                            success: function(message) {
+                                $('#salesfilterHTML').html('');
+                                $('#salesfilterHTML').html(message);
+                            }
+                        });
+                    } else {
+                        return true;
+                    }
+                });
+
+                $('#employeesFilter').click(function(){
+                    var callAjaxSales = $('#employeesFilterHTML').is(":empty");
+                    if(callAjaxSales){
+                        $('#employeesFilterHTML').html("<div id='filter'><img src='http://www.mergentintellect.com/assets/images/loading.gif' />Loading...</div>");
+                        $.ajax({
+                            type: 'POST',
+                            url: 'http://www.mergentintellect.com/index.php/search/getEmployeeFilter',
+                            data: 'employees',
+                            success: function(message) {
+                                $('#employeesFilterHTML').html('');
+                                $('#employeesFilterHTML').html(message);
+                            }
+                        });
+                    } else {
+                        return true;
+                    }
+                });
+
+                $('#ownershipFilter').click(function(){
+                    var callAjaxSales = $('#ownershipFilterHTML').is(":empty");
+                    if(callAjaxSales){
+                        $('#ownershipFilterHTML').html("<div id='filter'><img src='http://www.mergentintellect.com/assets/images/loading.gif' />Loading...</div>");
+                        $.ajax({
+                            type: 'POST',
+                            url: 'http://www.mergentintellect.com/index.php/search/getOwnershipFilter',
+                            data: 'ownership',
+                            success: function(message) {
+                                $('#ownershipFilterHTML').html('');
+                                $('#ownershipFilterHTML').html(message);
+                            }
+                        });
+                    } else {
+                        return true;
+                    }
+                });
+
+                $('#locationFilter').click(function(){
+                    var callAjaxSales = $('#locationFilterHTML').is(":empty");
+                    if(callAjaxSales){
+                        $('#locationFilterHTML').html("<div id='filter'><img src='http://www.mergentintellect.com/assets/images/loading.gif' />Loading...</div>");
+                        $.ajax({
+                            type: 'POST',
+                            url: 'http://www.mergentintellect.com/index.php/search/getLocationFilter',
+                            data: 'ownership',
+                            success: function(message) {
+                                $('#locationFilterHTML').html('');
+                                $('#locationFilterHTML').html(message);
+                            }
+                        });
+                    } else {
+                        return true;
+                    }
+                });
+
+                $('#industryFilter').click(function(){
+                    var callAjaxSales = $('#industryFilterHTML').is(":empty");
+                    $('#industrylist').html("<div id='filter'><img src='http://www.mergentintellect.com/assets/images/loading.gif' />Loading...</div>");
+                    if(callAjaxSales){
+                        $.ajax({
+                            type: 'POST',
+                            url: 'http://www.mergentintellect.com/index.php/search/getIndustryFilter',
+                            data: 'ownership',
+                            success: function(message) {
+                                $('#industrylist').show();
+                                var defaultHTML = "<ul><li><a href='#'><input type='radio' name='refine_industry' value='NAICS Codes' onclick='openNAICCodes();' />NAICS Codes</a></li><li><a href='#'><input type='radio' name='refine_industry' value='SIC Codes' onclick='openSICCodes();' />SIC Codes</a></li></ul>";
+                                $('#industrylist').html(defaultHTML);
+                                $('#industryFilterHTML').html('');
+                                $('#industryFilterHTML').html(message);
+                            }
+                        });
+                    } else {
+                        return true;
+                    }
+                });
+
+                $('#jobtitleFilter').click(function(){
+                    var callAjaxjob = $('#jobtitleFilterHTML').is(":empty");
+                    if(callAjaxjob){
+                        $('#jobtitleFilterHTML').html("<div id='filter'><img src='http://www.mergentintellect.com/assets/images/loading.gif' />Loading...</div>");
+                        $.ajax({
+                            type: 'POST',
+                            url: 'http://www.mergentintellect.com/index.php/search/getjobtitleFilter',
+                            data: 'jobtitle',
+                            success: function(message) {
+                                $('#jobtitleFilterHTML').html('');
+                                $('#jobtitleFilterHTML').html(message);
+                            }
+                        });
+                    } else {
+                        return true;
+                    }
+                });
+
+                $(".trigger").toggleClass("active");
+
+                $(".trigger").click(function(){
+                    $(".panel").toggle("fast");
+                    $(".panel_button").toggle("fast");
+                    $(this).toggleClass("active");
+                    return false;
+                });
+
+                $('form').bind('submit', function() {
+                    //$.blockUI();
+                    //$('#processing-image').show()
+                });
+
+
+                $("#company-email").click(function() {
+                    $("#lightboxcompany, #lightbox-company").fadeIn(300);
+                });
+                $("a#closeRefCom").click(function(){
+                    $("#lightboxcompany, #lightbox-company").fadeOut(300);
+                });
+
+                $("#saveCompany").click(function() {
+                    $("#lightboxsave, #lightbox-save").fadeIn(300);
+                });
+                $("a#closeRefSave").click(function(){
+                    $("#lightboxsave, #lightbox-save").fadeOut(300);
+                });
+
+                $("#saveCompanyEmailSubmit").click(function(){
+                    var validator = $('#saveCompanyEmail').valid();
+                    if(validator != true) {
+                        return false;
+                    }
+                    var dataString = $("#saveCompanyEmail").serialize();;
+                    $.ajax({
+                        type: 'POST',
+                        url: 'http://www.mergentintellect.com/index.php/search/addCompanyToList',
+                        data: dataString,
+                        success: function(message) {
+                            $("#lightboxsave, #lightbox-save").fadeOut(300);
+                            alert(message);
+                        }
+                    });
+                });
+
+
+                $("#companySubmit").click(function(){
+                    var validator = $('#companyEmail').valid();
+                    if(validator != true) {
+                        return false;
+                    }
+                    var hooverid = $("#companyEmail").serialize();
+                    $.ajax({
+                        type: 'POST',
+                        url: 'http://www.mergentintellect.com/index.php/export/emailCompanyDetails',
+                        data: hooverid,
+                        success: function(message) {
+                            $("#lightboxcompany, #lightbox-company").fadeOut(300);
+                            alert(message);
+                        }
+                    });
+                });
+
+            });
+
+
+// JS from menu.php
+    $(document).ready(function() {
+        if ($("#buildfilesfor").val() == "search") {
+            $('#checkeddunsid').val("");    
+        } else if ($("#buildfilesfor").val() == "advancesearch") {
+            $('#checkeddunsid').val("");
+        } else if ($("#buildfilesfor").val() == "jobsearch") {
+            $('#checkeddunsid').val("");
+        } else if ($("#buildfilesfor").val() == "jobsearch_employer") {
+            $('#checkeddunsid').val("");
+        } else {
+            $('#checkeddunsid').val("");
+        }
+        $.validator.addMethod("compRange", mycompRangeOnlyValidation, "To Records Should be Greater than From Records.");
+        $.validator.addMethod("compRangeDiff", mycompRangeDiffValidation, "Difference should be lesser than 2000.");
+        
+        $.validator.addMethod("numbercommatxtarea", function(value, element)
+        {
+            return this.optional(element) || /^[0-9]+(,[0-9]+)*,?$/i.test(value.replace(/\s/g, ''));
+        }, "Please enter a valid email address.");
+        
+        $("input[name='newlisting_status']:radio").click(function(){
+            if ($("input[name='newlisting_status']:checked").val() == 'between') {
+                $("#newlisting_enddate").show();
+            } else {
+                $("#newlisting_enddate").hide(); 
+            }
+        });
+        $("input[name='yearestablished_status']:radio").click(function(){
+            if ($("input[name='yearestablished_status']:checked").val() == 'between') {
+                $("#yearestablished_enddate").show();
+            } else {
+                $("#yearestablished_enddate").hide(); 
+            }
+        });
+        $("input[name='employee_status']:radio").click(function(){
+            if ($("input[name='employee_status']:checked").val() == 'between') {
+                $("#employees_endnumber").show();
+                customTextBox('employees_endnumber');
+            } else {
+                $("#employees_endnumber").hide().find('input').removeClass('invalid'); 
+            }
+        });
+        $("input[name='sales_status']:radio").click(function(){
+            if ($("input[name='sales_status']:checked").val() == 'between') {
+                $("#sales_endnumber").show();
+                customTextBox('sales_endnumber');
+            } else {
+                $("#sales_endnumber").hide().find('input').removeClass('invalid'); 
+            }
+        });    
+        $("input[name='employeetrend_status']:radio").click(function(){
+            if ($("input[name='employeetrend_status']:checked").val() == 'between') {
+                $("#employeestrend_end").show();
+                customTextBox('employeestrend_end');
+            } else {
+                $("#employeestrend_end").hide().find('input').removeClass('invalid'); 
+            }
+        });
+        $("input[name='salespercent_status']:radio").click(function(){
+            if ($("input[name='salespercent_status']:checked").val() == 'between') {
+                $("#salespercent_end").show();
+                customTextBox('salespercent_end');
+            } else {
+                $("#salespercent_end").hide().find('input').removeClass('invalid');  
+            }
+        });
+        $("input[name='plant_status']:radio").click(function(){
+            if ($("input[name='plant_status']:checked").val() == 'between') {
+                $("#plant_end").show();
+                customTextBox('plant_end');
+            } else {
+                $("#plant_end").hide().find('input').removeClass('invalid'); 
+            }
+        });
+        $("input[name='student_status']:radio").click(function(){
+            if ($("input[name='student_status']:checked").val() == 'between') {
+                $("#student_end").show();
+            } else {
+                $("#student_end").hide(); 
+            }
+        });
+        
+        $("input[name='netincomeusd_status']:radio").click(function(){
+            if ($("input[name='netincomeusd_status']:checked").val() == 'between') {
+                $("#netincomeusd_end").show();
+                customTextBox('netincomeusd_end');
+            } else {
+                $("#netincomeusd_end").hide().find('input').removeClass('invalid');  
+            }
+        });
+        $("input[name='netincomegrowth_status']:radio").click(function(){
+            if ($("input[name='netincomegrowth_status']:checked").val() == 'between') {
+                $("#netincomegrowth_end").show();
+                customTextBox('netincomegrowth_end');
+            } else {
+                $("#netincomegrowth_end").hide().find('input').removeClass('invalid');  
+            }
+        }); 
+        
+        $("input[name='ipooffer_status']:radio").click(function(){
+            if ($("input[name='ipooffer_status']:checked").val() == 'between') {
+                $("#ipooffer_end").show();
+            } else {
+                $("#ipooffer_end").hide(); 
+            }
+        });  
+        
+        $("input[name='ipoprice_status']:radio").click(function(){
+            if ($("input[name='ipoprice_status']:checked").val() == 'between') {
+                $("#ipoprice_end").show();
+            } else {
+                $("#ipoprice_end").hide(); 
+            }
+        });  
+        
+        $("input[name='ipodate_status']:radio").click(function(){
+            if ($("input[name='ipodate_status']:checked").val() == 'between') {
+                $("#ipodate_end").show();
+            } else {
+                $("#ipodate_end").hide(); 
+            }
+        });
+        
+        $("input[name='assets_status']:radio").click(function(){
+            if ($("input[name='assets_status']:checked").val() == 'between') {
+                $("#assets_end").show();
+            } else {
+                $("#assets_end").hide(); 
+            }
+        });
+        
+        $("input[name='salary_status']:radio").click(function(){
+            if ($("input[name='salary_status']:checked").val() == 'between') {
+                $("#salary_end").show();
+            } else {
+                $("#salary_end").hide(); 
+            }
+        });  
+        
+        $("input[name='bonus_status']:radio").click(function(){
+            if ($("input[name='bonus_status']:checked").val() == 'between') {
+                $("#bonus_end").show();
+            } else {
+                $("#bonus_end").hide(); 
+            }
+        }); 
+        
+        $("input[name='totalcompensation_status']:radio").click(function(){
+            if ($("input[name='totalcompensation_status']:checked").val() == 'between') {
+                $("#totalcompensation_end").show();
+            } else {
+                $("#totalcompensation_end").hide(); 
+            }
+        });
+        
+        $("input[name='age_status']:radio").click(function(){
+            if ($("input[name='age_status']:checked").val() == 'between') {
+                $("#age_end").show();
+            } else {
+                $("#age_end").hide(); 
+            }
+        });  
+        
+        $('#viewcensus').click(function() {
+            $("#lightboxprofile, #lightbox-censuschart").fadeIn(300);
+        });
+        
+        $('a#closecensusRef').click(function() {
+            $("#lightboxprofile, #lightbox-censuschart").fadeOut(300);
+        });
+        
+        $('a#closeRef').click(function() {
+            $("#lightbox-profile, #lightbox-profile").fadeOut(300);
+        });
+        
+        $('a#closeRef0').click(function() {
+            $("#lightboxprofile, #lightbox-hoover").fadeOut(300);
+        });
+        $('a#closeRef1').click(function() {
+            $("#lightboxprofile, #lightbox-NAIC").fadeOut(300);
+        });
+        $('a#closeRef2').click(function() {
+            $("#lightboxprofile, #lightbox-SIC").fadeOut(300);
+        });
+        $('a#closeexportRef').click(function() {
+            $("#lightbox-exportresult, #lightbox-exportresult").fadeOut(300);
+        });
+        $('a#closeexportRef_recentcomp').click(function() {
+            $("#lightbox-exportresult, #lightbox-exportresult").fadeOut(300);
+        });
+        $('a#closeexportRef_executive').click(function() {
+            $("#lightbox-export_executive_result, #lightbox-export_executive_result").fadeOut(300);
+        });
+        
+        // search Siccode Autosearch options starts New Code
+                     
+        $("#sicKeyword_search").autocomplete("http://www.mergentintellect.com/index.php/advancesearch/autocompleteSickeyword", {
+            width: 260,
+            matchContains: true,
+            selectFirst: true,
+            minChars:2, 
+            autoFill:false,
+            mustMatch:false,
+            cacheLength:10,
+            max:10
+        });
+        
+
+        
+        $('#sicKeyword_search').result(function (event, data, formatted) {
+            var sichtml = '';
+            var siccode_keyword = new Array();
+            sichtml = '<br /><table cellspacing=0 cellpadding=0 border=1 class=data_grid width=100%>';
+            sichtml += '<tr><th>SIC Description</th><th>Action</th></tr>';
+      
+            $('#sicKeyword_search').val(''); 
+            var sicKeywordcodes= $('#sicKeywordcodes').val();
+            if(sicKeywordcodes == '') {
+                $('#sicKeywordcodes').val(data);
+            } else if(sicKeywordcodes != '') {
+                var sicKeywordcodesoldval = $('#sicKeywordcodes').val();
+                var sicKeywordcodesnewval = sicKeywordcodesoldval +"#"+data;
+                $('#sicKeywordcodes').val(sicKeywordcodesnewval);
+            }
+            var sicKeywordcodesnew= $('#sicKeywordcodes').val();
+            var sicKeywordcodesnew_val = sicKeywordcodesnew.split("#");
+            for(var i=0;i< sicKeywordcodesnew_val.length;i++){
+                var sicKeywordcodesnew_value = sicKeywordcodesnew_val[i].split("  ");
+                //alert(sicKeywordcodesnew_value[1]);
+                siccode_keyword[i] = sicKeywordcodesnew_value[0];
+                sichtml += "<tr><td>"+sicKeywordcodesnew_value[1]+ "-"+sicKeywordcodesnew_value[0]+"</td><td><a href='#' onclick='removeSiccodes_basicsearch("+i+")'>Delete</a></td></tr>";
+            }
+                        
+            sichtml += '</table>'
+            var siccode_keyword_final = siccode_keyword.join();
+            $('#sicKeywordcodes_display').show();
+            $('#sicKeywordcodes_display').html(sichtml);
+            $('#siccode_keyword').val(siccode_keyword_final);
+           
+        });
+        
+
+                    
+        // search Siccode Autosearch options starts New Code
+        //Advance search Siccode Autosearch options starts
+                    
+        $("#sicKeyword").autocomplete("http://www.mergentintellect.com/index.php/advancesearch/autocompleteSickeyword", {
+            width: 272,
+            matchContains: true,
+            selectFirst: false,
+            minChars:2, 
+            autoFill:false,
+            mustMatch:false,
+            cacheLength:0,
+            max:10,
+            extraParams:{starts_contains: function() { return $("#starts_contains").val(); }}
+        });
+
+        $("#peoplesicKeyword").autocomplete("http://www.mergentintellect.com/index.php/advancesearch/autocompleteSickeyword", {
+            width: 272,
+            matchContains: true,
+            selectFirst: false,
+            minChars:2, 
+            autoFill:false,
+            mustMatch:false,
+            cacheLength:0,
+            max:10,
+            extraParams:{starts_contains: function() { return $("#peoplestarts_contains").val(); }}
+        });
+        
+        $("#hicKeyword").autocomplete("http://www.mergentintellect.com/index.php/advancesearch/autocompleteHickeyword", {
+            width: 272,
+            matchContains: true,
+            selectFirst: false,
+            minChars:2, 
+            autoFill:false,
+            mustMatch:false,
+            cacheLength:10,
+            max:10
+        });
+                    
+        $('#sicKeyword,#peoplesicKeyword').result(function (event, data, formatted) {
+            var currentid = event.target.id;
+            var sichtml = '';
+            sichtml = '<table cellspacing=0 cellpadding=0 border=0 class=data_grid_criteria width=100% style="margin:30px 0px;">';
+            sichtml += '<tr><th align="center">SIC Code</th><th align="center">SIC Description</th><th align="center">Action</th></tr>';
+      
+            $('#'+currentid).val(''); 
+            var sicKeywordcodes= $('#'+currentid+'codes').val();
+            if(sicKeywordcodes == '') {
+                $('#'+currentid+'codes').val(data).trigger('change');
+            } else if(sicKeywordcodes != '') {
+                var sicKeywordcodesoldval = $('#'+currentid+'codes').val();
+                var sicKeywordcodesnewval = sicKeywordcodesoldval +"#"+data;
+                $('#'+currentid+'codes').val(sicKeywordcodesnewval).trigger('change');
+            }
+            var sicKeywordcodesnew= $('#'+currentid+'codes').val();
+            var sicKeywordcodesnew_val = sicKeywordcodesnew.split("#");
+            for(var i=0;i< sicKeywordcodesnew_val.length;i++){
+                if(i%2==0){ var colorBg = '#f5f5f5'; } else { var colorBg = '';}
+                var sicKeywordcodesnew_value = sicKeywordcodesnew_val[i].split("  ");
+                //alert(sicKeywordcodesnew_value[1]);
+                sichtml += "<tr style='background-color:"+colorBg+";'><td align='center' >"+sicKeywordcodesnew_value[0]+ "</td><td align='center'>"+sicKeywordcodesnew_value[1]+ "</td><td align='center'><a style='top:0px;left:0px;' href='#' onclick='removeSiccodes("+i+",\""+currentid+"\")'>Delete</a></td></tr>";
+            }
+                        
+            sichtml += '</table>'
+            $('#'+currentid+'codes_display').html(sichtml);
+            
+        });
+        
+        $('#hicKeyword').result(function (event, data, formatted) {
+            var hichtml = '';
+            hichtml = '<table cellspacing=0 cellpadding=0 border=0 class=data_grid width=100% style="margin:30px 0px;">';
+            hichtml += '<tr><th align="center">HIC Code</th><th align="center">HIC Name</th><th align="center">Action</th></tr>';
+      
+            $('#hicKeyword').val(''); 
+            var hicKeywordcodes= $('#hicKeywordcodes').val();
+            if(hicKeywordcodes == '') {
+                $('#hicKeywordcodes').val(data).trigger('change');
+            } else if(hicKeywordcodes != '') {
+                var hicKeywordcodesoldval = $('#hicKeywordcodes').val();
+                var hicKeywordcodesnewval = hicKeywordcodesoldval +"#"+data;
+                $('#hicKeywordcodes').val(hicKeywordcodesnewval).trigger('change');
+            }
+            var hicKeywordcodesnew= $('#hicKeywordcodes').val();
+            var hicKeywordcodesnew_val = hicKeywordcodesnew.split("#");
+            for(var i=0;i< hicKeywordcodesnew_val.length;i++){
+                if(i%2==0){ var colorBg = '#f5f5f5'; } else { var colorBg = '';}
+                var hicKeywordcodesnew_value = hicKeywordcodesnew_val[i].split("  ");
+                //alert(sicKeywordcodesnew_value[1]);
+                hichtml += "<tr style='background-color:"+colorBg+";'><td align='center'>"+hicKeywordcodesnew_value[0]+ "</td><td align='center'>"+hicKeywordcodesnew_value[1]+ "</td><td align='center'><a style='top:0px;left:0px;' href='#' onclick='removeHiccodes("+i+")'>Delete</a></td></tr>";
+            }
+                        
+            hichtml += '</table>'
+            $('#hicKeywordcodes_display').html(hichtml);
+            
+        });
+        
+        //Advance search Siccode Autosearch options Ends
+        // search Naiccode Autosearch options Starts Old Code
+                    
+
+        // search Naiccode Autosearch options Ends  Old Code
+       
+       // search Naiccode Autosearch options Starts New Code
+                   
+        $("#naicKeyword_search").autocomplete("http://www.mergentintellect.com/index.php/advancesearch/autocompleteNaickeyword", {
+            width: 260,
+            matchContains: false,
+            selectFirst: true,
+            minChars:2, 
+            autoFill:false,
+            mustMatch:false,
+            cacheLength:10,
+            max:10
+        });
+        
+                      
+        $('#naicKeyword_search').result(function (event, data, formatted) {
+            var naichtml;
+            var naiccode_keyword = new Array();
+            naichtml = '<br><table cellspacing=0 cellpadding=0 border=1 class=data_grid width=100%>';
+            naichtml += '<tr><th>NAICS Description</th><th>Action</th></tr>';
+            $('#naicKeyword_search').val(''); 
+            var naicKeywordcodes= $('#naicKeywordcodes').val();
+            if(naicKeywordcodes == '') {
+                $('#naicKeywordcodes').val(data).trigger('change');
+            } else if(naicKeywordcodes != '') {
+                var naicKeywordcodesoldval = $('#naicKeywordcodes').val();
+                var naicKeywordcodesnewval = naicKeywordcodesoldval +"#"+data;
+                $('#naicKeywordcodes').val(naicKeywordcodesnewval).trigger('change');
+            }
+            var naicKeywordcodesnew= $('#naicKeywordcodes').val();
+            var naicKeywordcodesnew_val = naicKeywordcodesnew.split("#");
+            for(var i=0;i< naicKeywordcodesnew_val.length;i++){
+                //alert(sicKeywordcodesnew_val[i]);
+                var naicKeywordcodesnew_value = naicKeywordcodesnew_val[i].split("  ");
+                naiccode_keyword[i] = naicKeywordcodesnew_value[0];
+                naichtml += "<tr><td>"+naicKeywordcodesnew_value[1]+ "-"+naicKeywordcodesnew_value[0]+"</td><td><a href='#' onclick='removeNaiccodes_basicsearch("+i+")'>Delete</a></td></tr>";
+            }
+            naichtml += '</table>'
+            
+            var naiccode_keyword_final = naiccode_keyword.join();
+            $('#naicKeywordcodes_display').show();
+            $('#naicKeywordcodes_display').html(naichtml);
+            $('#naiccode_keyword').val(naiccode_keyword_final);
+                        
+        });
+       // search Naiccode Autosearch options Starts New Code
+       
+        //Advance search Naiccode Autosearch options Starts
+                    
+        $("#naicKeyword").autocomplete("http://www.mergentintellect.com/index.php/advancesearch/autocompleteNaickeyword", {
+            width: 272,
+            matchContains: true,
+            selectFirst: true,
+            minChars:2, 
+            autoFill:false,
+            mustMatch:false,
+            cacheLength:0,
+            max:10,
+            extraParams:{starts_contains: function() { return $("#naicKeyword_starts_contains").val(); }}
+        });
+
+        $("#peoplenaicKeyword").autocomplete("http://www.mergentintellect.com/index.php/advancesearch/autocompleteNaickeyword", {
+            width: 272,
+            matchContains: true,
+            selectFirst: false,
+            minChars:2, 
+            autoFill:false,
+            mustMatch:false,
+            cacheLength:0,
+            max:10,
+            extraParams:{starts_contains: function() { return $("#peoplenaicKeyword_starts_contains").val(); }}
+        });
+                    
+        $('#naicKeyword,#peoplenaicKeyword').result(function (event, data, formatted) {
+            var currentid = event.target.id;
+            var naichtml;
+            naichtml = '<table cellspacing=0 cellpadding=0 border=0 class=data_grid_criteria width=100% style="margin:30px 0px;">';
+            naichtml += '<tr><th align="center">NAICS Code</th><th align="center">NAICS Description</th><th align="center">Action</th></tr>';
+            $('#'+currentid).val(''); 
+            var naicKeywordcodes= $('#'+currentid+'codes').val();
+            if(naicKeywordcodes == '') {
+                $('#'+currentid+'codes').val(data).trigger('change');
+            } else if(naicKeywordcodes != '') {
+                var naicKeywordcodesoldval = $('#'+currentid+'codes').val();
+                var naicKeywordcodesnewval = naicKeywordcodesoldval +"#"+data;
+                $('#'+currentid+'codes').val(naicKeywordcodesnewval).trigger('change');
+            }
+            var naicKeywordcodesnew= $('#'+currentid+'codes').val();
+            var naicKeywordcodesnew_val = naicKeywordcodesnew.split("#");
+            for(var i=0;i< naicKeywordcodesnew_val.length;i++){
+                if(i%2==0){ var colorBg = '#f5f5f5'; } else { var colorBg = '';}
+                var naicKeywordcodesnew_value = naicKeywordcodesnew_val[i].split("  ");
+                naichtml += "<tr style='background-color:"+colorBg+";'><td align='center'>"+naicKeywordcodesnew_value[0]+ "</td><td align='center'>"+naicKeywordcodesnew_value[1]+ "</td><td align='center'><a style='top:0px;left:0px;' href='#' onclick='removeNaiccodes("+i+",\""+currentid+"\")'>Delete</a></td></tr>";
+            }
+            naichtml += '</table>'
+            $('#'+currentid+'codes_display').html(naichtml);
+                        
+        });
+        //Advance search Naiccode Autosearch options Ends
+        $("#changeAdvancesearchSetting").click(function(){
+            var templateid = 'templateid=' + $("input[id='templateid']:checked").val();
+            $.ajax({
+                type: 'POST',
+                url: 'http://www.mergentintellect.com/index.php/advancesearch/changeAdvancesearch',
+                dataType: 'json',
+                data: templateid,
+                success: function(data) {
+                    $("#changecriteriaMsg").html('<font color="green"><b>Advance Search Criterias Changed for Current search Successfully</b></font>');
+                    $("#changecriteriaMsg").fadeIn(300);
+                    $("#changecriteriaMsg").fadeOut(5000); 
+                }
+            });
+        });
+        
+        // Pre-select any previously checked records on Search Results page
+        var checkedrecords = $("#checkeddunsid").val();
+        if(typeof checkedrecords != 'undefined' && checkedrecords != '') {
+            var checkedrecordsSplit = checkedrecords.split(",");
+            $("#checkedcount").html(checkedrecordsSplit.length);
+            $.each(checkedrecordsSplit, function(index, value) {
+                $("#chk"+ value).attr('checked','checked');
+            }); 
+        } else { 
+            $("#checkedcount").html("0");
+        }
+        if($('#dbdunsid').length){
+            var dbdunsid = $('#dbdunsid').val().split(",");
+            var allchkstatus = new Array();
+            for(i=0;i<dbdunsid.length;i++) {
+                if ($('#chk'+dbdunsid[i]).attr('checked')) {
+                    allchkstatus[i] = 1;
+                } else {
+                    allchkstatus[i] = 0; 
+                }
+            }
+            var checkvalue = include(allchkstatus, 0);
+            if(checkvalue == undefined) {
+                $("#toggleChecked").attr('checked','checked');
+            } else {
+                $("#toggleChecked").attr('checked',false);
+            }  
+        }
+        $('.search_results input:checkbox.hideInput').each(function() {
+            customCheckbox($(this).attr('name'));
+        })
+        // Pre-select any previously checked records on Search Results page
+    });
+    
+    function viewcensus_companydetail(census_type,census_value,census_value_wihoutencode){
+        if(census_type == "zipcode"){
+            var census_type_text = "Zip code";
+        } else if(census_type == "msacode"){
+            var census_type_text = "MSA code";
+        }
+        $("#lightboxprofile, #lightbox-censuschart").fadeIn(300);
+        $.blockUI();
+        $.ajax({
+            type: 'POST',
+            url: 'http://www.mergentintellect.com/index.php/advancesearch/getCensusdatabytype/'+census_type+'/'+census_value,
+            dataType: 'json',
+            success: function(data) {
+                $.unblockUI(); 
+                //alert(data['POPULATION']);
+           if(data['POPULATION'] != '' && data['POPULATION'] != null){
+          //Funnel Chart Code Starts Here
+                        var chart = new Highcharts.Chart({
+                            chart: {
+                                renderTo: 'census',
+                                backgroundColor: '#FFFFFF',
+                                type: 'bar'
+                            },
+                            title: {
+                                text: '2010 Census data for '+census_type_text+' ('+census_value_wihoutencode+')'
+                            },
+                            subtitle: {
+                                text: 'Population and Household'
+                            },
+                            xAxis: {
+                                categories: ['Population','Male', 'Female', 'White', 'Black', 'Hispanic', 'Asian', 'Hawaiian', 'Indian','Others','','Tot House','Person/House','Income/House'],
+                                title: {
+                                    text: null
+                                }
+                            },
+                            yAxis: {
+                                min: 0,
+                                title: {
+                                    text: 'Population and Household (Thousands)',
+                                    align: 'high'
+                                },
+                                labels: {
+                                    overflow: 'justify'
+                                }
+                            },
+                            tooltip: {
+                                enabled: true
+                                //valueSuffix: 'millions'
+                            },
+                            plotOptions: {
+                                bar: {
+                                    dataLabels: {
+                                        enabled: true
+                                    }
+                                }
+                            },
+                            legend: {
+                                layout: 'vertical',
+                                enabled: false,
+                                align: 'right',
+                                verticalAlign: 'top',
+                                x: -100,
+                                y: 100,
+                                floating: true,
+                                borderWidth: 1,
+                                backgroundColor: '#FFFFFF',
+                                shadow: true
+                            },
+                            credits: {
+                                enabled: false
+                            },
+                            series: [{
+                                name: 'census',
+                                data: [parseInt(data['POPULATION']),parseInt(data['MALEPOPULATION']),parseInt(data['FEMALEPOPULATION']),parseInt(data['WHITEPOPULATION']),parseInt(data['BLACKPOPULATION']),parseInt(data['HISPANICPOPULATION']),parseInt(data['ASIANPOPULATION']),parseInt(data['HAWAIIANPOPULATION']),parseInt(data['INDIANPOPULATION']),parseInt(data['OTHERPOPULATION']),'',parseInt(data['HOUSEHOLDSPERZIPCODE']),parseInt(data['PERSONSPERHOUSEHOLD']),parseInt(data['INCOMEPERHOUSEHOLD'])]
+                            }]
+                        });
+          
+                //Funnel Chart Code Ends Here
+           } else {
+               $("#census").html('<font color="Red"><b>Census Data Not Found</b></font>');
+           }       
+                    }
+        });
+    }
+    
+    function removeSiccodes_basicsearch(sicarrval){
+        //var sicKeywordcodesnew= $('#sicKeywordcodes').val();
+        var sichtml;
+        var siccode_keyword_delete = new Array();
+        sicval_new = new Array();
+        //sicval_new = '';
+        sichtml = '<br><table cellspacing=0 cellpadding=0 border=1 class=data_grid width=100%>';
+        sichtml += '<tr><th>SIC Description</th><th>Action</th></tr>';
+        //alert(sicKeywordcodesnew);
+        //alert(sicarrval);
+        var sicKeywordcodesnew= $('#sicKeywordcodes').val();
+        var sicKeywordcodesnew_val = sicKeywordcodesnew.split("#");
+        //alert(sicKeywordcodesnew_val.length);
+        if(sicKeywordcodesnew_val.length > 1){
+            var j=0;
+            for(var i=0;i< sicKeywordcodesnew_val.length;i++){
+                        if(parseInt(i) != parseInt(sicarrval)) {
+                        //alert(sicKeywordcodesnew_val[i]);
+                        sicval_new[j] = sicKeywordcodesnew_val[i];
+                        
+                        var sicKeywordcodesnew_value = sicKeywordcodesnew_val[i].split("  ");
+                        siccode_keyword_delete[j] = sicKeywordcodesnew_value[0];
+                        sichtml += "<tr><td>"+sicKeywordcodesnew_value[1]+"-"+sicKeywordcodesnew_value[0]+ "</td><td><a href='#' onclick='removeSiccodes_basicsearch("+j+")'>Delete</a></td></tr>";
+                        j++;
+                    }
+            }
+             var siccodeval_new = sicval_new.join("#");
+             $('#sicKeywordcodes').val(siccodeval_new);
+        } else {
+            sichtml = '';
+            $('#sicKeywordcodes').val('');
+        }
+        sichtml += '</table>'
+        
+        var siccode_keyword_final = siccode_keyword_delete.join();
+        $('#sicKeywordcodes_display').show();
+        $('#sicKeywordcodes_display').html(sichtml);
+        $('#siccode_keyword').val(siccode_keyword_final);
+  
+    }  
+    
+    function removeNaiccodes_basicsearch(naicarrval){
+        //var sicKeywordcodesnew= $('#sicKeywordcodes').val();
+        var naichtml;
+        var naiccode_keyword_delete = new Array();
+        naicval_new = new Array();
+        //sicval_new = '';
+        naichtml = '<br><table cellspacing=0 cellpadding=0 border=1 class=data_grid width=100%>';
+        naichtml += '<tr><th>NAICS Description</th><th>Action</th></tr>';
+        //alert(sicKeywordcodesnew);
+        //alert(sicarrval);
+        var naicKeywordcodesnew= $('#naicKeywordcodes').val();
+        var naicKeywordcodesnew_val = naicKeywordcodesnew.split("#");
+        //alert(sicKeywordcodesnew_val.length);
+        if(naicKeywordcodesnew_val.length > 1){
+            var j=0;
+            for(var i=0;i< naicKeywordcodesnew_val.length;i++){
+                        if(parseInt(i) != parseInt(naicarrval)) {
+                        //alert(sicKeywordcodesnew_val[i]);
+                        naicval_new[j] = naicKeywordcodesnew_val[i];
+                        var naicKeywordcodesnew_value = naicKeywordcodesnew_val[i].split("  ");
+                        naiccode_keyword_delete[j] = naicKeywordcodesnew_value[0];
+                        naichtml += "<tr><td>"+naicKeywordcodesnew_value[1]+"-"+naicKeywordcodesnew_value[0]+ "</td><td><a href='#' onclick='removeNaiccodes_basicsearch("+j+")'>Delete</a></td></tr>";
+                        j++;
+                    }
+            }
+             var naiccodeval_new = naicval_new.join("#");
+             $('#naicKeywordcodes').val(naiccodeval_new);
+        } else {
+            naichtml = '';
+            $('#naicKeywordcodes').val('');
+        }
+        naichtml += '</table>'
+        var naiccode_keyword_final = naiccode_keyword_delete.join();
+        $('#naicKeywordcodes_display').show();
+        $('#naicKeywordcodes_display').html(naichtml);
+        $('#naiccode_keyword').val(naiccode_keyword_final);
+  
+    }
+    
+    function storeCheckedvalues_advancesearch(dunsid,status) {
+        var searchtype = $("#buildfilesfor").val();
+        if (typeof searchtype == undefined) {
+            searchtype = "";
+        }
+        //alert(dunsid);
+        //alert(status);
+        jQuery('#loading-image').show();
+        var dunsid_count = $('#checkeddunsid').val().split(",");
+        var rangeRecordsConfig = "2000";
+        
+        var dunsid_count_final = parseInt(dunsid_count.length);
+        
+         var maxRecordslimit = "";
+                if(parseInt(maxRecordslimit) < parseInt(rangeRecordsConfig)){
+                    var rangeRecordsConfig_final = maxRecordslimit;
+                    var recordlimit_max = 1;
+                } else {
+                    var rangeRecordsConfig_final = rangeRecordsConfig;
+                    var recordlimit_max = 2;
+                }
+        //alert(rangeRecordsConfig_final);
+        
+        if((parseInt(dunsid_count_final) < parseInt(rangeRecordsConfig_final)) || status == false){
+            var checkedrecords;
+            $.ajax({
+                type: 'POST',
+                url: 'http://www.mergentintellect.com/index.php/advancesearch/saveCheckboxvalues/'+dunsid+'/'+status+'/'+searchtype,
+                dataType: 'json',
+                //data: templateid,
+                success: function(data) {
+                    jQuery('#loading-image').hide();
+
+                    //alert(data['status']);
+                    //alert(data['checkedrecords']);
+                    //code for Al select checkbox checked status Starts
+                    var dbdunsid = $('#dbdunsid').val().split(",");
+                    var allchkstatus = new Array();
+                    for(i=0;i<dbdunsid.length;i++) {
+                        if ($('#chk'+dbdunsid[i]).attr('checked')) {
+                            allchkstatus[i] = 1;
+                        } else {
+                            allchkstatus[i] = 0; 
+                        }
+                    }
+                    var checkvalue = include(allchkstatus, 0);
+                    if(checkvalue == undefined) {
+                        setCustomCheckbox($("#toggleChecked"), true);
+                    } else {
+                        setCustomCheckbox($("#toggleChecked"), false);
+                    }  
+                    //code for Al select checkbox checked status Ends
+                    $("#checkeddunsid").val(data['checkedrecords']);
+                    if($("#checkeddunsid").val() == '') {
+                        checkedrecords = ""; 
+                    } else {
+                        checkedrecords = $("#checkeddunsid").val();
+                    }
+
+                    if(checkedrecords != '') {
+                        var checkedrecordsSplit = checkedrecords.split(",");
+                        $("#checkedcount").html(checkedrecordsSplit.length);
+                    } else {
+                        $("#checkedcount").html("0"); 
+                    }
+                }
+            });
+        } else {
+            if(recordlimit_max == 2){
+                alert("The maximum no Records in a single Download should be less than or equal to "+rangeRecordsConfig_final);
+            } else {
+                alert("The maximum no Records should be less than or equal to "+rangeRecordsConfig_final);    
+            }
+            setCustomCheckbox($("#chk"+dunsid), false);
+        }
+    }
+    
+    function include(arr, obj) {
+        for(var i=0; i<arr.length; i++) {
+            if (arr[i] == obj) return true;
+        }
+    }
+    
+    function buildFilesRange() {
+        $("#lightboxprofile, #lightbox-profile").fadeIn(300); 
+    }
+    
+    function exportResults(searchpage) {
+        $("#searchpage").val(searchpage)
+        $("#lightboxprofile, #lightbox-exportresult").fadeIn(300); 
+    }
+    
+    function exportResults_recentcompanies() {
+        $("#lightboxprofile, #lightbox-exportresult").fadeIn(300); 
+    }
+    
+    function buildFilesrangeForm(){
+        var validator = $('#frmSelectdownloadrecordtypes').validate({
+            errorPlacement: function(error, element) {
+                if (element.attr("name") == "rangefrom") {
+                  error.appendTo("#fromrangeMessage");
+                } else {
+                  error.appendTo("#torangeMessage");
+                }
+            },
+            errorClass: "errors2"
+        });
+        if(validator == false){
+            return false;
+        } 
+    }
+    
+    function exportViewResultForm(cmpeople){
+        if(cmpeople == "People"){
+            var companyname_arr  = $('#companyname_arr').val();
+            var name_arr  = $('#name_arr').val();
+            var title_arr  = $('#title_arr').val();
+            var gender_arr  = $('#gender_arr').val();
+            var ceo_arr  = $('#ceo_arr').val();
+            
+            $('#export_companyname_arr').val(companyname_arr);
+            $('#export_name_arr').val(name_arr);
+            $('#export_title_arr').val(title_arr);
+            $('#export_gender_arr').val(gender_arr);
+            $('#export_ceo_arr').val(ceo_arr);
+        } else {
+            var dunsid  = $('#dbdunsid').val();
+            $('#exportdunsid').val(dunsid);
+        }
+        $("#lightboxprofile, #lightbox-exportresult").fadeOut(300);
+    }
+    
+    function mycompRangeOnlyValidation(){
+       
+        if(parseInt($('#fromrange').val()) >= parseInt($('#torange').val()) ){
+            //alert("To Records Should be Greater than From Records");
+            return false;
+        } else {
+            return true;
+        }
+    } 
+    
+    function mycompRangeDiffValidation(){
+        var rangeRecordsConfig = "2000";
+        var maxRecordslimit = "";
+        //var rangediff = (parseInt($('#torange').val()) - parseInt($('#fromrange').val()));
+        var rangediff = (parseInt($('#torange').val()) - parseInt($('#fromrange').val()))+1;
+        if(parseInt(maxRecordslimit) < parseInt(rangeRecordsConfig)){
+            var rangeRecordsConfig_final = maxRecordslimit;
+        } else {
+            var rangeRecordsConfig_final = rangeRecordsConfig;
+        }
+        if(parseInt(rangediff) > parseInt(rangeRecordsConfig_final) ){
+            //alert("To Records Should be Greater than From Records");
+            return false;
+        } else {
+            return true;
+        }
+    } 
+    
+        
+    function getSelections() {
+        var checkedrecords;
+        if($("#checkeddunsid").val() == '') {
+            checkedrecords = ""; 
+        } else {
+            checkedrecords = $("#checkeddunsid").val();
+        }
+        var allVals = [];
+        $("input[type=checkbox]:checked").each(function() {
+            allVals.push($(this).val());
+        });
+        //var checkedRecord = $("input[type=checkbox]:checked").length;
+        var build_type = $("input[name='download_records_type']:radio:checked").val();
+        //if(checkedRecord == 0 && build_type == "checked_records") {
+        if(build_type == "range_records") {
+            $("#lightboxprofile, #lightbox-profile").fadeIn(300);
+            return false;
+        }
+        else if(checkedrecords == '' && build_type == "checked_records") {
+            alert("Select at least 1 company to Build Files");
+            return false;
+        } else {
+            var duns_ids = allVals.join(',');
+            $('#duns_ids').val(duns_ids);
+            //window.document.frmSelectdownloadrecordtype.submit();
+            if(build_type == "all_records"){
+                
+                var rangeRecordsConfig = "2000";
+
+                var allrecords = "";
+                var maxRecordslimit = "";
+                //alert(maxRecordslimit);
+                //alert(rangeRecordsConfig);
+                if(parseInt(maxRecordslimit) < parseInt(rangeRecordsConfig)){
+                    var rangeRecordsConfig_final = maxRecordslimit;
+                    var recordlimit_max = 1;
+                } else {
+                    var rangeRecordsConfig_final = rangeRecordsConfig;
+                    var recordlimit_max = 2;
+                }
+                if(parseInt(allrecords) > parseInt(rangeRecordsConfig_final)){
+                    if(recordlimit_max == 2){
+                        var retVal = confirm("Your Download Limit in single Download is "+rangeRecordsConfig_final+" Records,Do you want to continue ?");
+                    } else {
+                        var retVal = confirm("Your Download Limit is "+rangeRecordsConfig_final+" Records,Do you want to continue ?");   
+                    }
+                    
+                    if( retVal == true ){
+                        return true;
+                    }else{
+                        return false;
+                    }
+                } else {
+                    window.document.frmSelectdownloadrecordtype.submit(); 
+                }
+            } else {
+                window.document.frmSelectdownloadrecordtype.submit();
+            }
+        }
+    }
+    
+    //Code for Build Files Ends
+    
+    //Chart Functions Starts Here
+    function Chartareasales(refineval){
+        Chartareamultiple('Sales', "/advancesearch/generatechartsales/", refineval, 'Sales');
+    }
+  
+    function Chartareaemployees(refineval){
+        Chartareamultiple('Employees', "/advancesearch/generatechartEmployees/", refineval, 'Employees Type');
+    }
+    
+    function Chartarealocation(refineval){
+        Chartareamultiple('Location', "/advancesearch/generatechartlocation/", refineval, 'Location');
+    }
+    
+    function Chartareaownership(refineval){
+        Chartareamultiple('Ownership', "/advancesearch/generatechartownership/", refineval, 'Ownership Type');
+    }  
+    
+    function Chartareamultiple(title, path, refineval, chartTitle){
+        if (typeof chartTitle == undefined) {
+            chartTitle = title;
+        }
+        $.blockUI();
+        $.ajax({
+            type: 'POST',
+            url: 'http://www.mergentintellect.com/index.php'+path+refineval,
+            dataType: 'json',
+            success: function(data) {
+                $elem = $('#'+title);
+                $elem.parent().parent().find('li').each(function(index, el) {
+                    $(el).removeAttr('class').children('a').removeAttr('class');
+                });
+                $elem.attr('class', 'active').parent().attr('class', 'active');
+
+                $("#salesfiltergraphHTML").html(data['html']);
+                $.unblockUI(); 
+                drawChart(chartTitle, data['chart_values']);
+            }
+        });
+    }
+
+    function Chartareacountry(refineval){
+        Chartareamultiple('Country', "/advancesearch/generatechartcountry/", refineval, 'Country');
+    }
+
+    function Chartareaindustry(module,refine){
+        Chartareamultiple('Industry', "/advancesearch/generatechartindustry/", module+'/'+refine, 'Industry');
+    }
+    
+    function Chartareacensus(refineval){
+        
+                     
+                //Funnel Chart Code Starts Here
+                        var chart = new Highcharts.Chart({
+                            chart: {
+                                renderTo: 'census',
+                                backgroundColor: '#FFFFFF',
+                                type: 'bar'
+                            },
+                            title: {
+                                text: '2010 Census data for ZIP Code 85015'
+                            },
+                            subtitle: {
+                                text: 'Population and Household'
+                            },
+                            xAxis: {
+                                categories: ['Population','Male', 'Female', 'White', 'Black', 'Hispanic', 'Asian', 'Hawaiian', 'Indian','Others','','Tot House','Person/House','Income/House'],
+                                title: {
+                                    text: null
+                                }
+                            },
+                            yAxis: {
+                                min: 0,
+                                title: {
+                                    text: 'Population and Household (Thousands)',
+                                    align: 'high'
+                                },
+                                labels: {
+                                    overflow: 'justify'
+                                }
+                            },
+                            tooltip: {
+                                enabled: true
+                                //valueSuffix: 'millions'
+                            },
+                            plotOptions: {
+                                bar: {
+                                    dataLabels: {
+                                        enabled: true
+                                    }
+                                }
+                            },
+                            legend: {
+                                layout: 'vertical',
+                                enabled: false,
+                                align: 'right',
+                                verticalAlign: 'top',
+                                x: -100,
+                                y: 100,
+                                floating: true,
+                                borderWidth: 1,
+                                backgroundColor: '#FFFFFF',
+                                shadow: true
+                            },
+                            credits: {
+                                enabled: false
+                            },
+                            series: [{
+                                name: 'census',
+                                data: [,, , , , , , , ,,'',,,]
+                            }]
+                        });
+          
+                //Funnel Chart Code Ends Here
+
+    }
+    //Chart Functions Ends Here
+            
+    function gotopage_form_submit(){
+      var validator = $('#gotopage_forms').valid();
+      if(validator == true){
+        document.forms['gotopage_form'].submit();
+      }
+    }
+
+    $(document).on("mouseover","#jobsearch_tab",function(){
+        $(this).closest("li").children("ul").find('li').show();
+    });
+    $(document).on("mouseout","#jobsearch_tab",function(){
+        $(this).closest("li").children("ul").find('li').hide();
+    });
+
+    function customCheckboxByID(id){
+        customCheckbox('#'+id);
+    }
+
+    function customCheckbox(checkboxName){
+        // check if the passed in param is ID or NAME
+        if (checkboxName.indexOf('#') == 0) {
+            var checkBox = $(checkboxName);
+        } else {
+            var checkBox = $('input[name="'+ checkboxName +'"]');
+        }
+        $(checkBox).each(function(){
+            if($(this).parent().attr("class") != 'custom-checkbox'){
+                $(this).wrap( "<span class='custom-checkbox'></span>" );
+                if($(this).is(':checked')){
+                    $(this).parent().addClass("selected");
+                    $(this).parent().next('label').addClass("selected");
+                }
+            }
+        });
+
+        $(checkBox).click(function(){
+            if(!$(this).parent().hasClass('disabled')){
+                $(this).parent().toggleClass("selected");
+                $(this).parent().next('label').toggleClass("selected");
+            }
+        });
+    }
+
+    function setCustomCheckbox(element, status) {
+        element.attr("checked",status);
+        if (status == true) {
+            element.parent().addClass("selected");
+            element.parent().next('label').addClass("selected");
+        } else {
+            element.parent().removeClass("selected");
+            element.parent().next('label').removeClass("selected");
+        }
+    }
+
+    function customRadio(radioName){
+        var radio = $('input[name="'+ radioName +'"]');
+        $(radio).each(function(){
+            $(this).wrap( "<span class='custom-radio'></span>" );
+            if($(this).is(':checked')){
+                $(this).parent().addClass("selected");
+                $(this).parent().next('label').addClass("selected");
+            }
+        });
+
+        $(radio).click(function(){
+            $(radio).each(function(){
+                if($(this).is(':checked')){
+                    $(this).parent().addClass("selected");
+                    $(this).parent().next('label').addClass("selected");
+                } else {
+                    $(this).parent().removeClass("selected");
+                    $(this).parent().next('label').removeClass("selected");
+                }
+            });
+        });
+    }
+
+    function setCustomRadio(element, status) {
+        setCustomCheckbox(element, status);
+    }
+
+    function customTextBox2(textBoxName){
+        //get default value
+        var textBoxValue = $("input[name='"+textBoxName+"']").val();
+       
+       if($("input[name='"+textBoxName+"']").css("display") != 'none'){
+            $("input[name='"+textBoxName+"']").addClass("invalid");
+        }
+        
+        //set input text empty on focus
+        $(document).on("focus","input[name='"+textBoxName+"']",function(){
+            if(this.value == textBoxValue){
+                $(this).val('');
+                $(this).css("color","#333");
+                $(this).removeClass("invalid");
+            }
+        });
+        // var buttonClicked = false;//check if button Add to Criteria is clicked
+        // $("div[name='button']").hover(
+        //     function () { buttonClicked = true; },
+        //     function () { buttonClicked = false; }
+        // );
+        //restore input text with default value on focusout if no new value entered
+        $(document).on("focusout","input[name='"+textBoxName+"']",function(){
+            // if($(this).val() == '' && !buttonClicked){
+            if($(this).val() == ''){    
+                $(this).val(textBoxValue);
+                $(this).css("color","#bfbfbf");
+                $(this).addClass("invalid");
+            }
+        });
+    }
+
+    function customDropdown(dropdownId){
+        //alert($('#ddl_states_county').height());
+        var ddlWrapId = '#'+dropdownId+'_wrap';
+        var dropdownId = '#'+dropdownId;
+        var selectedInputId = '';
+        var selectedTextId = '';
+
+        $(document).on("click",ddlWrapId,function(){
+            selectedInputId = '#'+$(ddlWrapId).find('input').attr('id');
+            selectedTextId = '#'+$(ddlWrapId).find('span').attr('id');
+            if($(dropdownId).height() == 800){
+               $(dropdownId).css("top","-580px"); 
+            } else if($(dropdownId).height() < 800 && $(dropdownId).height() > 600){
+                $(dropdownId).css("top","-400px");
+            } else if($(dropdownId).height() < 600 && $(dropdownId).height() > 400){
+                $(dropdownId).css("top","-200px");
+            } else if($(dropdownId).height() < 400 && $(dropdownId).height() > 200){
+                $(dropdownId).css("top","-100px");
+            }
+            $(dropdownId).slideToggle();
+        });
+        
+        $(document).on("click",ddlWrapId+" ul li",function(){
+            if($(this).find('input').attr('name') === $(ddlWrapId).find('ul li input').attr('name')){
+                $(selectedInputId).val($(this).find('input').val());
+                var stateCounty = $(selectedInputId).val().split('#');
+                $(selectedTextId).text(stateCounty[0]);
+                $(selectedTextId).css("color","#333");
+                $(this).parent().find('li.selected').removeClass('selected');
+                $(this).addClass('selected');
+            }
+        });
+
+        $('body').click(function(e){
+            var clickedOn = $(e.target);
+            if (!clickedOn.parents().andSelf().is(ddlWrapId)){
+                $(dropdownId).hide('200');
+            }
+         });
+    }
+
+    function customSubTab(tabName){
+        var tab = $('div[name="'+ tabName +'"]');
+        $(tab).each(function(){
+            if($(this).find('input').is(':checked')){
+                $(this).addClass("sub_tab_active");
+            }
+        });
+
+        $(tab).click(function(){
+           $(tab).each(function(){
+                if($(this).find('input').is(':checked')){
+                    $(this).addClass("sub_tab_active");
+                } else {
+                    $(this).removeClass("sub_tab_active");
+                }
+            });
+        });
+    }
+
+    function setDefaultCustomSubTab(tabName){
+       var tab = $('div[name="'+ tabName +'"]'); 
+       $("div[name='"+ tabName +"'] input:first").attr('checked', 'checked');  
+       $(tab).each(function(){
+            if($(this).find('input').is(':checked')){
+                $(this).addClass("sub_tab_active");
+                chooseDunsnosearch($(this).find('input:checked').val());
+                chooseSicsearch($(this).find('input:checked').val());
+                chooseNaicsearch($(this).find('input:checked').val());
+                chooseHicsearch($(this).find('input:checked').val());
+            } else {
+                $(this).removeClass("sub_tab_active");
+            }
+        });
+    }
+
+    function customTreeCheckbox(checkboxName){
+        var checkBox = $('input[name="'+ checkboxName +'"]');
+        $(checkBox).each(function(){
+            if($(this).parent().attr("class") != 'custom-checkbox' && $(this).parent().attr("class") != 'custom-checkbox selected'){
+                $(this).wrap( "<span class='custom-checkbox'></span>" );
+                if($(this).is(':checked')){
+                    $(this).parent().addClass("selected");
+                    $(this).parent().next('label').addClass("selected");
+                }
+            }
+        });
+
+    }
+
+    function customTextBox(textBoxName){
+        //get default value
+        var textBoxValue = $("input[name='"+textBoxName+"']").val();
+       
+        $("input[name='"+textBoxName+"']").addClass("invalid");
+        
+        //set input text empty on focus
+        $(document).on("focus","input[name='"+textBoxName+"']",function(){
+                if(this.value == textBoxValue){
+                    $(this).val('');
+                    $(this).css("color","#333");
+                }
+                $(this).removeClass("invalid");
+        });
+        var buttonClicked = false;//check if button Add to Criteria is clicked
+        $("div[name='button']").hover(
+            function () { buttonClicked = true; },
+            function () { buttonClicked = false; }
+        );
+        //restore input text with default value on focusout if no new value entered
+        $(document).on("focusout","input[name='"+textBoxName+"']",function(){
+            if($(this).val() == ''){
+                $(this).val(textBoxValue);
+                $(this).css("color","#bfbfbf");
+                $(this).addClass("invalid");
+            }
+        });
+
+        $(document).on("click","#clearSearch,div[name='button']",function(){
+            $("input[name='"+textBoxName+"']").val(textBoxValue);
+            $("input[name='"+textBoxName+"']").css("color","#bfbfbf");
+            //$("input[name='"+textBoxName+"']").addClass("invalid");
+        });
+    }
+
+    function customTextArea(textAreaId){
+        var textAreaValue = $("#"+textAreaId).val();
+        $(document).on("focus","#"+textAreaId,function(){
+            if(this.value == textAreaValue){
+                $(this).css("color","#525453");
+                $(this).val('');
+            }
+        });
+        $(document).on("focusout","#"+textAreaId,function(){
+            if(this.value == ''){
+                $(this).css("color","#AAAAAA");
+                $(this).val(textAreaValue);
+            }
+        });
+    }
+
+    $(document).on("mouseover",".icon_jobOpenings, .icon_url, .active_radius, .inactive_radius, .icon_compareZipcode",function(){
+        var tooltipWidth = $(this).find('div .tool-tip, .slideIn, .bottom').width();
+        $(this).find('div .tool-tip, .slideIn, .bottom').css("margin-left","-"+(tooltipWidth/2+5)+"px");
+    });
+// JS from menu.php - end    
+        
+        </script> 
+  <!--[if lt IE 7]>
+        <style type="text/css">
+        body {
+        behavior:url(csshover3.htc); /* or equivalent */
+        }
+        #nav li {
+        display:inline;
+        }
+        #nav ul a {
+        width:8em; /* resize as appropriate */
+        }
+        </style>
+        <![endif]--> 
+  <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+              
+            ga('create', 'UA-67450410-1', 'auto');
+            ga('send', 'pageview');
+        </script> 
+ </head> 
+ <body> 
+  <div class="nxmaincontainer">
+   <div class="main_wrap_content"> 
+    <div class="content_wrap"> 
+     <div class="content_wrap_top"></div> 
+     <div class="content_wrap_mid"> 
+      <div class="error_block"> 
+       <h2>Session expired.</h2> 
+       <p>Please <a href="http://www.mergentintellect.com/index.php/login">Click Here</a> to login</p> 
+       <p>If you have not registered with Mergent Intellect, Please contact our sales representative </p> 
+       <p style="color:#990000;"><b><a href="http://www.mergentintellect.com/index.php/contactus/index">Contact Us</a></b></p> 
+      </div> 
+     </div> 
+     <div class="content_wrap_btm"></div> 
+    </div> 
+   </div> 
+  </div>   
+ </body>
+</html>

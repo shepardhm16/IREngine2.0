@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>VCUR Programs - Undergraduate Research - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: Undergraduate Research: VCUR Programs"> 
+  <meta name="DC.Creator" content="Janet Holly"> 
+  <meta name="DC.Subject" content=""> 
+  <meta name="DC.Description" content="Undergraduate Research @ VMI - find information about programs, funding and library services Virginia Military Institute Center for Undergraduate Research (VCUR) sponsors cadet research projects throughout the year."> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=232197&amp;p=1543960"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Mar 10, 2015"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Apr 8, 2016"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 232197,
+				page_id: 1543960,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-1543960";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '232197',_st_page_id: '1543960'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '232197',_st_page_id: '1543960'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Info Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="Undergraduate Research" href="http://libguides.vmi.edu/c.php?g=232197">Undergraduate Research </a> </li> 
+     <li id="s-lib-bc-page" class="active">VCUR Programs </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="232197"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">Undergraduate Research: VCUR Programs</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description">Undergraduate Research @ VMI - find information about programs, funding and library services</span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Info Header --> 
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med"> 
+   <div id="s-lg-guide-tabs" class="tabs"> 
+    <ul class="nav nav-tabs split-button-nav"> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=232197&amp;p=1542367"> <span>Welcome</span> </a> </li> 
+     <li role="presentation" class="active"> <a title="Virginia Military Institute Center for Undergraduate Research (VCUR) sponsors cadet research projects throughout the year." class="active" href="/c.php?g=232197&amp;p=1543960"> <span>VCUR Programs</span> </a> </li> 
+     <li role="presentation"> <a title="Find out what's happening" class="" href="/c.php?g=232197&amp;p=1746268"> <span>SURI 2015</span> </a> </li> 
+     <li role="presentation"> <a title="Find out how to apply for a SURI award" class="" href="/c.php?g=232197&amp;p=2817309"> <span>SURI 2016</span> </a> </li> 
+     <li role="presentation"> <a title="Tips for conducting research using library materials and services." class="" href="/c.php?g=232197&amp;p=1551469"> <span>Library Research</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="http://www.vmi.edu/content.aspx?id=312"> <span>Library Homepage</span> </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <!-- BEGIN: Guide Content --> 
+  <div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders"> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-126" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-1" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-5526591" class="s-lg-box-wrapper-5526591"> 
+       <div id="s-lg-box-4688625-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4688625" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">URS Poster &amp; Oral Presentations </h2> 
+         <div id="s-lg-box-collapse-4688625"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-9111877" class="  clearfix"> 
+            <p><img alt="Undergraduate Research Initiative
+April 22, 2014 &amp;#8212; Cadets presented research spanning a range of academic disciplines during poster sessions and presentations today. &amp;#8212; VMI Photos by John Robertson IV." class="better-photo lightbox" data-1280h="853" data-1280u="http://40.media.tumblr.com/46cb1500bbfed5ebb3c92f23bd137234/tumblr_n4g7kbYbyM1sb25zto9_1280.jpg" data-1280w="1280" data-250h="167" data-250w="250" data-400h="267" data-400u="http://41.media.tumblr.com/46cb1500bbfed5ebb3c92f23bd137234/tumblr_n4g7kbYbyM1sb25zto9_400.jpg" data-400w="400" data-500h="333" data-500u="http://41.media.tumblr.com/46cb1500bbfed5ebb3c92f23bd137234/tumblr_n4g7kbYbyM1sb25zto9_500.jpg" data-500w="500" data-cap="" data-fix="true" data-gal="83543524623" data-lbox="http://40.media.tumblr.com/46cb1500bbfed5ebb3c92f23bd137234/tumblr_n4g7kbYbyM1sb25zto9_1280.jpg" data-set="true" src="http://41.media.tumblr.com/46cb1500bbfed5ebb3c92f23bd137234/tumblr_n4g7kbYbyM1sb25zto9_500.jpg" style="width: 400px; opacity: 1;" width="400"></p> 
+            <p>Spring VMI Undergraduate Research Symposium poster sessions take place in the Turman Room of Preston Library on 22 April 2014.&nbsp; Photo by John Robertson IV.</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-2" class="col-md-6"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-5526672" class="s-lg-box-wrapper-5526672"> 
+       <div id="s-lg-box-4688703-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4688703" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Undergraduate Research Symposium (URS) </h2> 
+         <div id="s-lg-box-collapse-4688703"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-9112035" class="  clearfix"> 
+            <p>Undergraduate Research is embedded in the VMI academic life.&nbsp; Cadets have the opportunity to present the results of their research during&nbsp; fall and spring Undergraduate Research Symposiums (URS) at oral presentations or poster sessions.&nbsp; Both are open to cadets, faculty, staff and general public.</p> 
+            <p>On 8 October 2015, VCUR's fall symposium presented a showcase of undergraduate research, <em>experiential</em> or service learning, and creative work.</p> 
+            <p>The 2016 Spring Symposium is scheduled for Thursday, April 21, 1016.</p> 
+            <p>These symposiums are supported in part by the <a href="http://www.vmi.edu/content.aspx?tid=35861&amp;id=4294969834"><em>Jackson-Hope Fund</em></a>.</p> 
+            <p>&nbsp;</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-5526673" class="s-lg-box-wrapper-5526673"> 
+       <div id="s-lg-box-4688704-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4688704" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">SURI </h2> 
+         <div id="s-lg-box-collapse-4688704"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-9112049" class="  clearfix"> 
+            <p>The&nbsp;<a href="http://www.vmi.edu/show.aspx?tid=36689&amp;id=10189" title="Summer Undergraduate Research Institute (SURI)">Summer Undergraduate Research Institute (SURI)</a> supports VCUR's goals by providing a structured program and financial support for research projects conducted during the summer at VMI.&nbsp; Cadets&nbsp;engage in in-depth research with their faculty mentor while receiving course credit.&nbsp; It is a competitive application process.</p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-10270784" class="s-lg-link-list s-lg-link-list-2">
+             <li class=""> 
+              <div id="s-lg-content-9112258" class=""> 
+               <span><a href="http://www.vmi.edu/Content.aspx?id=10189" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '9112258'});">SURI</a> </span>
+               <div id="s-lg-link-desc-9112258" class="s-lg-link-desc">
+                Find out more about SURI.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-3" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-6439432" class="s-lg-box-wrapper-6439432"> 
+       <div id="s-lg-box-5471299-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-5471299" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Additional Funding - Research Supplies </h2> 
+         <div id="s-lg-box-collapse-5471299"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-10793233" class="  clearfix"> 
+            <p>Do you need additional funds for research supplies?&nbsp; Submit an application.</p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-12175968" class="s-lg-link-list s-lg-link-list-2">
+             <li class=""> 
+              <div id="s-lg-content-10793266" class=""> 
+               <span><a href="http://www.vmi.edu/Content.aspx?id=4294968191" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '10793266'});">Apply for Funding</a> </span>
+               <div id="s-lg-link-desc-10793266" class="s-lg-link-desc">
+                The Wetmore Fund provides funds, up to a maximum of $300.00, for procuring supplies to initiate research projects.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-5526962" class="s-lg-box-wrapper-5526962"> 
+       <div id="s-lg-box-4688954-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4688954" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Additional Funding - Travel </h2> 
+         <div id="s-lg-box-collapse-4688954"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-9112727" class="  clearfix"> 
+            <p>Do you want to present your research at a local, national or international conference? &nbsp;VCUR can assist in travel funds.&nbsp; Submit an application.</p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-10271206" class="s-lg-link-list s-lg-link-list-2">
+             <li class=""> 
+              <div id="s-lg-content-9112766" class=""> 
+               <span><a href="http://www.vmi.edu/Content.aspx?id=4294968191" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '9112766'});">Apply for Funding</a> </span>
+               <div id="s-lg-link-desc-9112766" class="s-lg-link-desc">
+                VCUR provides funds to cadets for research-related travel during the academic year and during the summer. Preference will be given to cadets who will be presenting their research at a conference.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-127" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+    <li class="previous"> <a href="/c.php?g=232197&amp;p=1542367">&lt;&lt; <strong>Previous:</strong> Welcome</a> </li> 
+    <li class="next"> <a href="/c.php?g=232197&amp;p=1746268"><strong>Next:</strong> SURI 2015 &gt;&gt;</a> </li> 
+   </ul> 
+  </div> 
+  <!-- END: Guide Content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Apr 7, 2016 8:19 PM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/c.php?g=232197</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D232197%2526p%253D1543960&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

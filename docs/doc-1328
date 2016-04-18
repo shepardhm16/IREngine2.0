@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>HNL 380WX / ERH 321WX - HNL 380WX - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: HNL 380WX: HNL 380WX / ERH 321WX"> 
+  <meta name="DC.Creator" content="Janet Holly"> 
+  <meta name="DC.Subject" content=""> 
+  <meta name="DC.Description" content="British Literature in Cultural Context: Power and Politics in Shakespeare"> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=240818&amp;p=1601334"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Apr 1, 2015"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Apr 14, 2016"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 240818,
+				page_id: 1601334,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-1601334";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '240818',_st_page_id: '1601334'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '240818',_st_page_id: '1601334'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Info Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="HNL 380WX" href="http://libguides.vmi.edu/HNL380WX">HNL 380WX </a> </li> 
+     <li id="s-lib-bc-page" class="active">HNL 380WX / ERH 321WX </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="240818"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">HNL 380WX: HNL 380WX / ERH 321WX</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description">British Literature in Cultural Context: Power and Politics in Shakespeare</span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Info Header --> 
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med"> 
+   <div id="s-lg-guide-tabs" class="tabs"> 
+    <ul class="nav nav-tabs split-button-nav"> 
+     <li role="presentation" class="active"> <a title="" class="active" href="/c.php?g=240818&amp;p=1601334"> <span>HNL 380WX / ERH 321WX</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=240818&amp;p=1601384"> <span>Find Books</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=240818&amp;p=1601386"> <span>Find Articles</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=240818&amp;p=1601387"> <span>Interlibrary Loan</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="http://www.prestonlibrary.net/blog/miller-emily-p-erh-422w/"> <span>Course Reserves</span> </a> </li> 
+     <li role="presentation"> <a title="Find resources that help you create bibliographic citations." class="" href="/c.php?g=240818&amp;p=1611440"> <span>Citation Guides</span> </a> </li> 
+     <li role="presentation"> <a title="Return to Preston Library's Homepage" class="" href="http://www.vmi.edu/content.aspx?id=312"> <span>Library Homepage</span> </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <!-- BEGIN: Guide Content --> 
+  <div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders"> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-126" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-1" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-5739772" class="s-lg-box-wrapper-5739772"> 
+       <div id="s-lg-box-4870764-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4870764" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">William Shakespeare </h2> 
+         <div id="s-lg-box-collapse-4870764"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-9511636" class="  clearfix"> 
+            <p><img alt="" height="188" src="data:image/png;base64,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" width="111"></p> 
+            <p>&nbsp;&nbsp;&nbsp; 1564-1616</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-2" class="col-md-6"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-5739778" class="s-lg-box-wrapper-5739778"> 
+       <div id="s-lg-box-4870770-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4870770" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Welcome </h2> 
+         <div id="s-lg-box-collapse-4870770"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-9511848" class="  clearfix"> 
+            <p>Students will explore what some of Shakespeare’s most interesting plays suggest about the nature of power: how both heroes and villains establish and use their authority, how they shape their own identities and destinies, and how they serve and/or undermine justice. We will also read other works that will contextualize our understanding of Shakespeare’s portrayal of power by deepening our appreciation of the culture of this period.&nbsp;</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-11863814" class="s-lg-box-wrapper-11863814"> 
+       <div id="s-lg-box-10066615-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-10066615" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Required Texts </h2> 
+         <div id="s-lg-box-collapse-10066615"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-20675664" class="  clearfix"> 
+            <p>The books listed below are required reading for <em><strong>HNL 380WX/ERH 321WX</strong></em> and you can ask for them at the circulation desk because they are on reserve for your class.&nbsp; For a complete listing of course reserves select the above <span style="color:#0000FF;">blue tab</span> labeled "Course Reserves."</p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-23260029" class="s-lg-link-list s-lg-link-list-5">
+             <li class=""> 
+              <div id="s-lg-content-20675476" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-20675476" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/37451948" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '20675476'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780333690987/LC.GIF&amp;client=springshare" title="The First Part of King Henry the Fourth: Texts and Contexts" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/37451948" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '20675476'});"><span id="s-lg-book-title-20675476" class="s-lg-book-title">The First Part of King Henry the Fourth: Texts and Contexts</span> by <span id="s-lg-book-author-20675476" class="s-lg-book-author">Shakespeare, Henry</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: PR2810.A2 H58 1997 c.2 (On Reserve - c. 1)
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780333690987
+                </div>
+                <div id="s-lg-book-desc-20675476" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-20675476" class="s-lg-link-desc">
+                  Barbara Hodgdon, editor, offers students a range of contextual detail against which to read the text of the play. Documents included cover issues of historiography, performance and sources, especially sources for the classic figure of Falstaff.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-20709111" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-20709111" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/57544606" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '20709111'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780321317292/LC.GIF&amp;client=springshare" title="Hamlet" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/57544606" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '20709111'});"><span id="s-lg-book-title-20709111" class="s-lg-book-title">Hamlet</span> by <span id="s-lg-book-author-20709111" class="s-lg-book-author">William Shakespeare; Constance Jordan</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: On Reserve
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780321317292
+                </div>
+                <div class="s-lg-book-prop-pubdate">
+                 Publication Date: 2004
+                </div>
+                <div id="s-lg-book-desc-20709111" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-20709111" class="s-lg-link-desc">
+                  "Elaborating upon the historical setting and the cultural ideas that helped shape Hamlet, Constance Jordan summons the issues and anxieties of the early sixteenth century to show why the play, and especially its hero, speaks so powerfully and so vitally to our own time. This second edition of Hamlet: A Longman Cultural Edition has been completely redesigned and the play reformatted for easier reading."--Jacket.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-20709003" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-20709003" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/919120807" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '20709003'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780140714586/LC.GIF&amp;client=springshare" title="Henry V" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/919120807" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '20709003'});"><span id="s-lg-book-title-20709003" class="s-lg-book-title">Henry V</span> by <span id="s-lg-book-author-20709003" class="s-lg-book-author">Claire McEachern (Editor, Introduction by); William Shakespeare; Frances E. Dolan (Editor); A. R. Braunmuller (Editor); Stephen Orgel (Editor)</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: On Reserve
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780140714586
+                </div>
+                <div class="s-lg-book-prop-pubdate">
+                 Publication Date: 1999
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-20675586" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-20675586" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/55675166" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '20675586'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780312395063/LC.GIF&amp;client=springshare" title="Measure for Measure" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/55675166" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '20675586'});"><span id="s-lg-book-title-20675586" class="s-lg-book-title">Measure for Measure</span> by <span id="s-lg-book-author-20675586" class="s-lg-book-author">Ivo Kamps (Editor); Karen Raber (Editor); William Shakespeare</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: On Reserve
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780312395063
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-20709023" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-20709023" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/49733666" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '20709023'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780312294335/LC.GIF&amp;client=springshare" title="The Merchant of Venice" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/49733666" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '20709023'});"><span id="s-lg-book-title-20709023" class="s-lg-book-title">The Merchant of Venice</span> by <span id="s-lg-book-author-20709023" class="s-lg-book-author">M. Lindsay Kaplan (Editor); William Shakespeare</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: On Reserve
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780312294335
+                </div>
+                <div class="s-lg-book-prop-pubdate">
+                 Publication Date: 2002
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-20709049" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-20709049" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/82672921" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '20709049'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780312398989/LC.GIF&amp;client=springshare" title="Othello: Texts and Contexts" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/82672921" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '20709049'});"><span id="s-lg-book-title-20709049" class="s-lg-book-title">Othello: Texts and Contexts</span> by <span id="s-lg-book-author-20709049" class="s-lg-book-author">William Shakespeare; Kim Hall (Editor)</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: On Reserve
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780312398989
+                </div>
+                <div class="s-lg-book-prop-pubdate">
+                 Publication Date: 2006
+                </div>
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-3" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-5739714" class="s-lg-box-wrapper-5739714"> 
+       <div id="s-lg-box-4870722-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4870722" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">VMI Reference Librarian </h2> 
+         <div id="s-lg-box-collapse-4870722"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lib-profile-6101" class="s-lib-profile-container"> 
+            <div id="s-lib-profile-image-6101" class="s-lib-profile-div s-lib-profile-center s-lib-profile-image">
+             <a href="http://libguides.vmi.edu/prf.php?account_id=8880"> <img src="//s3.amazonaws.com/libapps/accounts/8880/profiles/6101/HollyJanet2015__cropped_3_.jpg" alt="Profile Image"></a> 
+            </div> 
+            <div id="s-lib-profile-name-6101" class="s-lib-profile-div s-lib-profile-center s-lib-profile-name">
+             Janet Holly 
+            </div> 
+            <div id="s-lib-profile-email-6101" class="s-lib-profile-div s-lib-profile-center s-lib-profile-email">
+             <a title="hollyjs@vmi.edu" href="mailto:hollyjs@vmi.edu" class="label label-info" style="font-size:1.6em;">Email Me</a> 
+            </div> 
+            <div id="s-lib-profile-widget-la-6101" class="s-lib-profile-div s-lib-profile-widget-la"> 
+             <div class="s-lib-profile-widget">
+              <div id="libchat_27188c6fafcc49a94e72e09b0306feae"></div>
+              <script src="//v2.libanswers.com/load_chat.php?hash=27188c6fafcc49a94e72e09b0306feae"></script> 
+             </div> 
+            </div> 
+            <div id="s-lib-profile-widget-lc-6101" class="s-lib-profile-div s-lib-profile-widget-lc"> 
+             <div class="s-lib-profile-widget"> 
+             </div> 
+            </div> 
+            <div id="s-lib-profile-widget-other-6101" class="s-lib-profile-div s-lib-profile-widget-other"> 
+             <div class="s-lib-profile-widget"> 
+             </div> 
+            </div> 
+            <div id="s-lib-profile-contact-6101" class="s-lib-profile-div s-lib-profile-contact">
+             <strong>Contact:</strong>
+             <div>
+              Preston Library
+              <br> Virginia Military Institute
+              <br> Lexington, VA 24450
+             </div>
+             <div>
+              540-464-7296
+             </div>
+             <a title="Website / Blog" href="http://www.prestonlibrary.net/blog/"><i class="fa fa-bookmark fa-lg"><span class="sr-only">Website / Blog Page</span></i></a> 
+            </div> 
+            <div id="s-lib-profile-social-6101" class="s-lib-profile-div s-lib-profile-social"> 
+            </div> 
+            <div id="s-lib-profile-subjects-6101" class="s-lib-profile-div s-lib-profile-subjects">
+             <strong>Subjects:</strong>
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=13173">Applied Mathematics</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9748">Biology</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9749">Chemistry</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=13174">Computer &amp; Information Science</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9747">Engineering</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=50702">Government Publications</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9746">Library/Research</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9750">Physics/Astronomy</a> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-5783637" class="s-lg-box-wrapper-5783637"> 
+       <div id="s-lg-box-4901648-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4901648" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Reference Librarian </h2> 
+         <div id="s-lg-box-collapse-4901648"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lib-profile-1895" class="s-lib-profile-container"> 
+            <div id="s-lib-profile-image-1895" class="s-lib-profile-div s-lib-profile-center s-lib-profile-image">
+             <a href="http://libguides.vmi.edu/prf.php?account_id=1984"> <img src="//s3.amazonaws.com/libapps/accounts/1984/profiles/1895/Mullen_am_headshot.jpg" alt="Profile Image"></a> 
+            </div> 
+            <div id="s-lib-profile-name-1895" class="s-lib-profile-div s-lib-profile-center s-lib-profile-name">
+             Accacia Mullen 
+            </div> 
+            <div id="s-lib-profile-email-1895" class="s-lib-profile-div s-lib-profile-center s-lib-profile-email">
+             <a title="mullenam@vmi.edu" href="mailto:mullenam@vmi.edu" class="label label-info" style="font-size:1.6em;">Email Me</a> 
+            </div> 
+            <div id="s-lib-profile-widget-la-1895" class="s-lib-profile-div s-lib-profile-widget-la"> 
+             <div class="s-lib-profile-widget">
+              <div id="libchat_ece3ee091502b8e32f1993b4fed8b96b"></div>
+              <script type="text/javascript" src="//v2.libanswers.com/load_chat.php?hash=ece3ee091502b8e32f1993b4fed8b96b"></script> 
+             </div> 
+            </div> 
+            <div id="s-lib-profile-widget-lc-1895" class="s-lib-profile-div s-lib-profile-widget-lc"> 
+             <div class="s-lib-profile-widget"> 
+             </div> 
+            </div> 
+            <div id="s-lib-profile-widget-other-1895" class="s-lib-profile-div s-lib-profile-widget-other"> 
+             <div class="s-lib-profile-widget"> 
+             </div> 
+            </div> 
+            <div id="s-lib-profile-contact-1895" class="s-lib-profile-div s-lib-profile-contact">
+             <strong>Contact:</strong>
+             <div>
+              5th floor, Preston Library
+             </div>
+             <div>
+              (540) 464-7250
+             </div> 
+            </div> 
+            <div id="s-lib-profile-social-1895" class="s-lib-profile-div s-lib-profile-social">
+             <strong>Social:</strong>
+             <a title="Facebook" href="https://www.facebook.com/pages/Preston-Library-at-Virginia-Military-Institute/110429642345519?ref=hl#!/pages/Preston-Library-at-Virginia-Military-Institute/110429642345519"><i class="fa fa-facebook fa-lg"><span class="sr-only">Facebook Page</span></i></a> 
+            </div> 
+            <div id="s-lib-profile-subjects-1895" class="s-lib-profile-div s-lib-profile-subjects">
+             <strong>Subjects:</strong>
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=13183">Chinese</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=13185">Economics &amp; Business - EC BU</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9743">English/Rhetoric/Humanistic Studies - ERH</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=13181">French</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9744">History</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=13171">International Studies (IS)</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9746">Library/Research</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9751">Psychology</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=13182">Spanish</a> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-127" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+    <li class="previous"> </li> 
+    <li class="next"> <a href="/c.php?g=240818&amp;p=1601384"><strong>Next:</strong> Find Books &gt;&gt;</a> </li> 
+   </ul> 
+  </div> 
+  <!-- END: Guide Content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Apr 14, 2016 9:11 AM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/HNL380WX</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D240818%2526p%253D1601334&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+     <span class="s-lg-guide-label">Tags: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/srch.php?tag=shakespeare&amp;default_lg=1">shakespeare</a></span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

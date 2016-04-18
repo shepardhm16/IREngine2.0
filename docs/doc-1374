@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>Canvas - Media Services - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: Media Services: Canvas"> 
+  <meta name="DC.Creator" content="Michael Brickler"> 
+  <meta name="DC.Subject" content="Library/Research"> 
+  <meta name="DC.Description" content="Media Services at Preston Library, VMI"> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=36293&amp;p=1547441"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Nov 1, 2013"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Dec 2, 2015"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 36293,
+				page_id: 1547441,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-1547441";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '36293',_st_page_id: '1547441'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '36293',_st_page_id: '1547441'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Info Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="Media Services" href="http://libguides.vmi.edu/c.php?g=36293">Media Services </a> </li> 
+     <li id="s-lib-bc-page" class="active">Canvas </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="36293"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">Media Services: Canvas</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description">Media Services at Preston Library, VMI</span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Info Header --> 
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med"> 
+   <div id="s-lg-guide-tabs" class="tabs"> 
+    <ul class="nav nav-tabs split-button-nav"> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36293&amp;p=229527"> <span>Home</span> </a> </li> 
+     <li role="presentation" class="active"> <a title="" class="active" href="/c.php?g=36293&amp;p=1547441"> <span>Canvas</span> </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <!-- BEGIN: Guide Content --> 
+  <div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders"> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-126" class="col-md-12"> 
+     <div class="s-lg-col-boxes s-lg-box-special"> 
+      <div id="s-lg-box-wrapper-5540704" class="s-lg-box-wrapper-5540704"> 
+       <div id="s-lg-box-4700055-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4700055" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Canvas Help for Faculty </h2> 
+         <div id="s-lg-box-collapse-4700055"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-9139379" class="  clearfix"> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: large;" style="font-size: large;"><br> <span data-mce-style="font-size: small;" style="font-size: small;">Below are text versions of all the VMI Canvas FAQs (Frequently Asked Questions). &nbsp;Below each text section is a link for a video. &nbsp;Clicking on the Title/link should bring you to a more graphic/picture oriented response page. &nbsp;These same pages are listed on the left along with an index.</span></span></p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: large;" style="font-size: large;"><strong>How do I upload course material?</strong></span></p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">Before uploading material it is advisable to consider how you want organize your course or how you want your students to access the materials.&nbsp;Simply uploading files will leave them unorganized and without instructions on their use. &nbsp;To organize your materials, Canvas has Modules to divide your course materials into (say for different weeks or units) or Pages (a way to allows you to use a simple built-in text-editor program to create web pages).</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">Modules or Pages can hold links to any uploaded files, assignments, and/or any necessary instructions. &nbsp;Modules are simpler in look and use. &nbsp;Pages are more flexible and versatile. &nbsp;You may also have Modules of Pages or Pages of Modules. &nbsp;You may also simply organize your course by putting links to all materials in your Syllabus page.</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">After you have organized your course, there are several ways to upload files to the course listed below.</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I upload file(s) into the course file section for later use:</strong></span></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>click on files</li> 
+             <li>click on Add Files and navigate to the file or drag the file into the file area on the screen.</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/120182061" href="https://vimeo.com/120182061" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">File Upload</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I open &nbsp;a page for editing?</strong></span></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>Click on Pages</li> 
+             <li>then the [View All Pages] button</li> 
+             <li>Choose the page you want to edit (or use [+Page] for a new page - see&nbsp;<a class="external" data-mce-href="https://vimeo.com/119975211" href="https://vimeo.com/119975211" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">New Page</a>&nbsp;Video)</li> 
+             <li>this will put you in the Canvas Page editor.</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/120079976" href="https://vimeo.com/120079976" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Open Page</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I Add content to or Edit a page</strong></span></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>Once in the Canvas Page editor (see above) Click the "Edit" button in the upper right</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/120079976" href="https://vimeo.com/120079976" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Open Page</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I add content to a page?</strong></span></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>From the Page editor (see above "How do I Open a Page" above) go the far right (3rd) column</li> 
+             <li>Choose the tab for the type of content you wish to add</li> 
+             <li>Click the item you wish to add</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/119968377" href="https://vimeo.com/119968377" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Add Text to Page</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/120073996" href="https://vimeo.com/120073996" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Enhance Text and Embed Image</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I upload a file into a page?</strong></span></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>&nbsp;From the Page editor (see above)</li> 
+             <li>There is an &nbsp;"<strong>Upload a new file</strong>" link at the bottom of the files tab and a similar one for Images.</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/119975214" href="https://vimeo.com/119975214" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Add File to Page</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">(also see Link Canvas Items Into Page video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>What are Modules?</strong></span></p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">Modules are a way of organizing the way cadets view your course content (say as weeks or units of content)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I Create a module?</strong></span></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>Click on Modules (if grayed out, it has no content but it still&nbsp;<strong>can</strong>&nbsp;be used)</li> 
+             <li>left-click the [+Module] button in the upper right</li> 
+             <li>type in a name (such as "Week 1" or "Unit 1")</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/119975393" href="https://vimeo.com/119975393" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Create Module</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><strong>note</strong>&nbsp;options boxes for:</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">"&nbsp;Lock module until a given date" and</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">"Students must move through requirements in this module in sequential order"</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I add items to a modules</strong></span></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>Find Module you want to add files to (Notice plus and gear to far right of Module)</li> 
+             <li>Click plus to add content (Use the Add drop-down to choose the type of content you wish to add)</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/119968375" href="https://vimeo.com/119968375" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Add Content to Module</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: large;" style="font-size: large;"><strong>Why can't students see course items?</strong></span></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>Go to the Home screen for the course</li> 
+             <li>Make sure (click) the Publish button is green with a check-marked white cloud icon.</li> 
+             <li>Go to where the course item is located in Canvas.</li> 
+             <li>Click the cloud (publish) icon to the far right, until it is green with a white check mark.</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/120079980" href="https://vimeo.com/120079980" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Item Visibility</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><strong><span data-mce-style="font-size: large;" style="font-size: large;">How do I View my course as if I were a Student?</span></strong></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>Click the Settings link in the left menu</li> 
+             <li>Click the [Student View] button at the top of the far right (3rd) column</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">(Note: [Leave Student View] button in the lower right corner)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/120079981" href="https://vimeo.com/120079981" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Student View</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I change a courses Home or Opening Page?</strong></span></p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">The Home Page is what cadets see when they first open your course in Canvas.</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">To change or set the Home Page,</p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>Click the Home link on the left menu</li> 
+             <li>Click "Choose Home Page" in&nbsp;the far right (3rd) column</li> 
+             <li>The following options appear:</li> 
+            </ol> 
+            <p data-mce-style="padding-left: 30px;" style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; padding-left: 30px;">"Course Activity Stream" is the default (showing recent course activity)</p> 
+            <p data-mce-style="padding-left: 30px;" style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; padding-left: 30px;">"Pages" defaults to the "Front Page" as your "Home Page" (click change to choose another page)</p> 
+            <p data-mce-style="padding-left: 30px;" style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; padding-left: 30px;">"Course Modules"</p> 
+            <p data-mce-style="padding-left: 30px;" style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; padding-left: 30px;">"Assignments List"</p> 
+            <p data-mce-style="padding-left: 30px;" style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; padding-left: 30px;">or "Syllabus"</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/119975212" href="https://vimeo.com/119975212" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Change Home Page</a>&nbsp;video)</p> 
+            <p data-mce-style="padding-left: 30px;" style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; padding-left: 30px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I add a Syllabus to my course?</strong></span></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>Choose Syllabus from the left menu (The syllabus is an editable web page with the course calendar underneath -- see below to add a separate document as a syllabus )</li> 
+             <li>In the Upper Right column, click the [Edit Syllabus Description] button</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">At this point Canvas opens a page editor so that you may edit the syllabus like any other page. &nbsp;You may add links to Canvas content by from the far right column</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">(see the edit page tutorials for more information on editing a page)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/120079983" href="https://vimeo.com/120079983" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Upload Syllabus</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I put in a document as a Syllabus (such as a Word document or PDF)?</strong></span></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>Edit the Syllabus as above.</li> 
+             <li>While in the edit mode (you can leave the document blank), Click on the Files tab in the far right column.</li> 
+             <li>click on "Upload a new file" (if you haven't already uploaded the file)</li> 
+             <li>click "Choose File", navigate to your file</li> 
+             <li>and click "Upload"</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/120079983" href="https://vimeo.com/120079983" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Syllabus</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I setup Assignments and make assignments a percentage of grade?</strong></span></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>Click the &nbsp;"Assignments" link from the left menu</li> 
+             <li>Click the [+ Group] button to add a groups or types of assignment (like Quizes)</li> 
+             <li>To make assignment a percentage of Total grades</li> 
+             <li>click the gear at the top right</li> 
+             <li>check "Weight&nbsp;final grade based on assignment groups" if desired</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/121074604" href="https://vimeo.com/121074604" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Assignment Setup</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I add/Create an assignment?</strong></span></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>From the Assignments menu link</li> 
+             <li>Click the upper right [+Assignment] button to create an assignment (or click [+] button to the far right of the assignment group name)</li> 
+             <li>Click [more options] to make drop boxes (file upload section)</li> 
+             <li>Use the gear to the far right of the group name to edit delete or move the group</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/119968370" href="https://vimeo.com/119968370" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Add Assignment</a>&nbsp;or&nbsp;<a class="external" data-mce-href="https://vimeo.com/119968372" href="https://vimeo.com/119968372" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Add Assignment By Group</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><strong><span data-mce-style="font-size: medium;" style="font-size: medium;">How do I Create A Dropbox (file upload area) for an assignment?</span></strong></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>Go to the assignment group you want to add the dropbox to</li> 
+             <li>Click the [+] button (next to a [*] gear button)&nbsp;to the far right of the title heading</li> 
+             <li>At the "Add Assignment to YourGroup" popup, click the [More Options] button in the lower left.</li> 
+             <li>At the &nbsp;"Submission Type" &nbsp;option menu, select "Online"</li> 
+             <li>You should see a checkbox for "File Uploads" (if you do not see a "File Uploads" checkbox, change the "Submission Type" to "No Submission" and change it back to "Online" to activate the Online Submission Type)</li> 
+             <li>check "File Uploads"</li> 
+             <li>check "Restrict Upload File Types" if you want to limit the file types by extension (e.g. .docx)</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/119968372" href="https://vimeo.com/119968372" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Add Assignment By Group</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I change or edit an assignment?</strong></span></p> 
+            <ol style="padding-right: 0px; padding-left: 0px; margin: 0px 0px 10px 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"> 
+             <li>Click the left menu Assignments link</li> 
+             <li>Click on the gear to the far left of the assignment or assignment group</li> 
+            </ol> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/119975215" href="https://vimeo.com/119975215" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Edit Assignment</a>&nbsp;video)</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">&nbsp;</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;"><span data-mce-style="font-size: medium;" style="font-size: medium;"><strong>How do I Enter Grades?&nbsp;</strong></span></p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">The Grades left menu link will show the Gradebook with all assignment groups and published assignments. &nbsp;Here you can enter grades for each assignment for each student, by clicking in the corresponding area.</p> 
+            <p style="margin: 0px 0px 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">(see&nbsp;<a class="external" data-mce-href="https://vimeo.com/120073991" href="https://vimeo.com/120073991" style="color: rgb(0, 136, 199); text-decoration: none;" target="_blank">Gradebook</a>&nbsp;video)</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-1" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-2" class="col-md-6"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-3" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-127" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+    <li class="previous"> <a href="/c.php?g=36293&amp;p=229527">&lt;&lt; <strong>Previous:</strong> Home</a> </li> 
+    <li class="next"> </li> 
+   </ul> 
+  </div> 
+  <!-- END: Guide Content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Dec 2, 2015 2:35 AM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/c.php?g=36293</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D36293%2526p%253D1547441&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+     <span class="s-lg-guide-label">Subjects: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/sb.php?subject_id=9746">Library/Research</a></span> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

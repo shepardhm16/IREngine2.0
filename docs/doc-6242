@@ -1,0 +1,560 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	Stonewall Jackson Genealogy - Ancestors.
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="../../../master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="../../../royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="../../../royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="../../../App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="../../../App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Stonewall Jackson, genealogy, ancestors, family, relatives, grandparents">
+  <meta name="Description" content="Stonewall Jackson Genealogy - Ancestors.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/Archives/Jackson/Stonewall_Jackson_Genealogy-Ancestors/" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYGHwAFD1NlYXJjaCBBcmNoaXZlcx4IQ3NzQ2xhc3MFDHNlYXJjaC1pbnB1dB4EXyFTQgICFgQeB29uRm9jdXMFhwFpZih0aGlzLnZhbHVlPT0nU2VhcmNoIEFyY2hpdmVzJyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVSaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J1NlYXJjaCBBcmNoaXZlcycpe3RoaXMudmFsdWU9J1NlYXJjaCBBcmNoaXZlcyc7fWQCAw8QZBAVAw9BbGwgQ29sbGVjdGlvbnMbTGltaXQgdG8gSGlzdG9yaWNhbCBSb3N0ZXJzFExpbWl0IHRvIFBob3RvZ3JhcGhzFQMIQXJjaGl2ZXMRSGlzdG9yaWNhbFJvc3RlcnMGUGhvdG9zFCsDA2dnZ2RkAg8PDxYCHgdWaXNpYmxlaGRkAhMPZBYEAgEPDxYCHwdnZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfB2cWAgIBDw8WAh8CBSsvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvYXJjaGl2ZXMuanBnZGRkhw0XX0+UPnvROBOfMjI9m0fw2D6YvgdngsXw+d2sow0="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B5C8BA68"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAY+vUjr1j0AS+RmKNe5dMMGtVqhg79+cCaf2Muxgy28w6wMjdzoH2mFn5U3q/4SBTQsdsny2l8+u+IRofGRns+zZyuT5vD0HGwUqcGq4GmYhFoal4uwfK6PKzS8I2qEQt4YSZmeWiCoA37jwGzCpuStQoWMOsJUaMGqf+a8vfAofw=="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="Search Archives" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='Search Archives'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='Search Archives'){this.value='Search Archives';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter"> <option value="Archives">All Collections</option> <option value="HistoricalRosters">Limit to Historical Rosters</option> <option value="Photos">Limit to Photographs</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+        <li><a href="/Archives/Digital_Collections_Site_Related/Digital_Collections_Overview/" target="_self">Digital Collections</a></li>
+        <li><a href="http://archivesspace.vmi.edu/" target="_blank">Archives Online Catalog</a></li>
+        <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">Quick Info: FAQs</a></li>
+        <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+        <li><a href="/Archives/Jackson/Stonewall_Jackson_Home/" target="_self">Stonewall Jackson</a></li>
+        <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+        <li><a href="/Archives/Images/Photos___Portraits_Home/" target="_self">Photos &amp; Portraits</a></li>
+        <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Letters, Diaries, Manuscripts</a></li>
+        <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Digital Exhibits Home</a></li>
+        <li><a href="http://digitalcollections.vmi.edu/cdm/landingpage/collection/p15821coll13" target="_blank">Military Oral History</a></li>
+        <li><a href="/Archives/Records/Official_Institute_Records_Home/" target="_self">VMI Records</a></li>
+        <li><a href="/Archives/Records/Records_Management/Records_Management/" target="_self">Records Management</a></li>
+        <li><a href="/Archives/About_the_VMI_Archives/About_the_VMI_Archives/" target="_self">About the Archives</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft3715">
+         Mary Laura Kludy
+        <br>Archives Assistant
+        <br>Ph: (540) 464-7516
+        <br>Fax: (540) 464-7089
+        <br>
+        <a title="archives@vmi.edu" href="mailto:archives@vmi.edu">archives@vmi.edu</a>
+        <br>Preston Library
+        <br>Lexington, Virginia 24450
+        <br>
+        <a title="Hours &amp; Visitor Info" href="/Archives/About_the_VMI_Archives/Hours___Visitor_Info/">Hours &amp; Visitor Info</a> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/archives/home/" title="">Archives</a> &gt; <a target="_self" href="/Archives/Jackson/Stonewall_Jackson_Home/" title="">Jackson</a> &gt; Stonewall Jackson Genealogy-Ancestors</span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner"> 
+       <div id="sectionBranding"> 
+        <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/archives.jpg" style="width:700px;"> 
+        <hr> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column"> 
+       <h1>Stonewall Jackson Ancestors</h1> 
+       <p><a title="Stonewall Jackson Genealogy" href="/archives.aspx?id=4927">Jackson genealogy top level</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title="Stonewall Jackson Home" href="/archives.aspx?id=3747">Stonewall Jackson Top Level</a>&nbsp;<br><br><em>Note: Jackson's ancestors lived in areas that are now part of West Virginia, once part of Virginia.&nbsp; The modern designation (WV) is used in the following genealogy.&nbsp;&nbsp;West Virginia did not become a separate state until 1863.<br><br></em><strong>Generation No. 1&nbsp;&nbsp;(Stonewall Jackson's Paternal great-grandparents)</strong>&nbsp;<br><br><b>1.&nbsp;&nbsp;JOHN JACKSON</b>&nbsp;(Stonewall Jackson's great-grandfather) was born about 1716 in Coleraine, Londonderry,&nbsp;Ireland; he moved to London, England&nbsp;at age 10;&nbsp;and died 25 September 1801 in Clarksburg, Harrison Co., WV. <b>He married ELIZABETH CUMMINS 04 July 1755</b> in Cecil Co., Maryland. She was born 08 January 1719/20 in London, England, and died 1825 in Clarksburg, Harrison Co., WV. They are buried at Jackson Cemetery, E. Pike St., Clarksburg, WV&nbsp;&nbsp;</p> 
+       <ul> 
+        <li style="list-style-type: none;"><b>Children of JOHN JACKSON and ELIZABETH CUMMINS are:</b></li> 
+        <li>i.&nbsp;&nbsp;GEORGE JACKSON, b. 09 January 1757, Cecil Co., MD; d. 17 May 1831, Zanesville, Muskingum Co., OH; m. (1) ELIZABETH BRAKE, 13 November 1776; b. 22 February 1757, prob. Frederick Co., VA; d. 22 March 1812, Muskingum Co., OH; m. (2) MRS. NANCY RICHARDSON ADAMS, 06 November 1814, Muskingum Co., OH; b. 18 April 1780; d. 11 October 1841.</li> 
+        <li><b>2.</b>&nbsp;&nbsp;ii.&nbsp;&nbsp;COL. EDWARD JACKSON, (Stonewall Jackson's grandfather) b. 01 March 1759, Near Moorefield, Hampshire (now Hardy) Co., WV; d. 25 December 1828, Jackson's Mill, Lewis Co.,WV.</li> 
+        <li>iii.&nbsp;&nbsp;JOHN JACKSON, JR., b. 1760, prob. Moorefield, Hampshire (now Hardy) Co., WV; d. May 1821, On route from New Orleans; m. (1) REBECCA HADDAN, 10 April 1786; d. Bef. July 1797; m. (2) ELIZABETH COZAD, 02 July 1797; b. 1779; d. 1845.</li> 
+        <li>iv.&nbsp;&nbsp;ELIZABETH JACKSON, b. Bet. 1762 - 1767, Howard's Lick, Hampshire (now Hardy) Co., WV; d. Abt. 1862, Green Co., OH; m. ABRAHAM BRAKE; b. Abt. 1763, Hampshire (now Hardy) Co., WV; d. 20 August 1842, Harrison Co., West Virginia.</li> 
+        <li>v.&nbsp;&nbsp;SOPHIA JACKSON, b. 11 September 1763, Howard's Lick, Hampshire (now Hardy) Co., WV; d. 10 March 1836, Lewis (now Upshur) Co., WV; m. JOSIAH DAVIS, Abt. 1784; b. 09 May 1767; d. 08 October 1832.</li> 
+        <li>vi.&nbsp;&nbsp;MARY SARAH JACKSON, b. 1768, Howard's Lick, Hampshire (now Hardy) Co., WV; d. Abt. 1791; m. PHILIP REGER; b. 1767, Hampshire (now Hardy) Co., WV; d. 16 July 1846.</li> 
+        <li>vii.&nbsp;&nbsp;SAMUEL JACKSON, b. 10 December 1772, Howard's Lick, Hampshire (now Hardy) Co., WV; d. 1842, Terre Haute, IN; m. BARBARY REGER; b. 10 December 1775, Hampshire (now Hardy) Co., WV; d. 28 October 1838, Terre Haute, IN.</li> 
+        <li>viii.&nbsp;&nbsp;HENRY JACKSON, b. 10 July 1774, Upshur Co., WV; d. 24 February 1852, Upshur Co., WV; m. (1) MARY ELIZABETH HYRE, 20 May 1800; d. Bef. 1836; m. (2) ELIZABETH SHREVE, 24 April 1836; b. 10 December 1813; d. 11 April 1887.</li> 
+        <br>
+        <b>Generation No. 2&nbsp;&nbsp;(Stonewall Jackson's Paternal Grandparents)</b>&nbsp;
+        <br>
+        <br>
+        <b>2.</b>&nbsp;&nbsp;
+        <b>COL. EDWARD JACKSON</b>&nbsp;(Stonewall Jackson's grandfather) was born 01 March 1759 in Near Moorefield, Hampshire (now Hardy) Co., WV, and died 25 December 1828 in Jackson's Mill, Lewis Co.,WV. He married (1) MARY HADDAN (Stonewall Jackson's grandmother) 13 October 1783. She was born 15 May 1764 in possibly New Jersey, and died 17 April 1796 in Near Buckhannon, WVA. He married (2) ELIZABETH WEATHERHOLT BRAKE 13 October 1799. She was born 11 January 1778 in prob. Hardy Co., WV, and died 19 August 1835 in Jackson's Mill, Lewis Co.,WV. 
+        <br>&nbsp;
+        <li style="list-style-type: none;"><b>Children of EDWARD JACKSON and MARY HADDAN are:</b></li> 
+        <li><b>3.</b>&nbsp;&nbsp;i.&nbsp;&nbsp;GEORGE EDWARD JACKSON, b. 23 December 1786, prob. nr. Buckhannon, WV; d. 26 March 1831, St. Genevieve Co., MO.</li> 
+        <li><b>4.</b>&nbsp;&nbsp;ii.&nbsp;&nbsp;DAVID EDWARD JACKSON, b. 30 October 1788, Buckhannon, Upshur Co., WV; d. 24 December 1837, Paris, TN.</li> 
+        <li><b>5.</b>&nbsp;&nbsp;iii.&nbsp;&nbsp;JONATHAN JACKSON, (Stonewall Jackson's father) b. 25 September 1790, Randolph County, WV; d. 26 March 1826, Clarksburg, Harrison Co., WV.</li> 
+        <li><b>6.</b>&nbsp;&nbsp;iv.&nbsp;&nbsp;RACHEL JACKSON, b. 08 July 1792, Randolph (now Upshur) Co., WV; d. 28 November 1835, Lewis (now Upshur) Co., WV.</li> 
+        <li><b>7.</b>&nbsp;&nbsp;v.&nbsp;&nbsp;MARY HADDAN "POLLY" JACKSON, b. 19 February 1794, prob. Harrison (now Upshur) Co., WV; d. 30 August 1840, Lewis (now Upshur) Co., WV.</li> 
+        <li><b>8.</b>&nbsp;&nbsp;vi.&nbsp;&nbsp;REBECCA JACKSON, b. 15 September 1795, Harrison Co., West Virginia; d. 18 July 1889.</li> 
+        <br>
+        <li style="list-style-type: none;"><b>Children of EDWARD JACKSON and ELIZABETH BRAKE are:</b></li> 
+        <li><b>9.</b>&nbsp;&nbsp;vii.&nbsp;&nbsp;CATHERINE "KATY" JACKSON, b. 25 July 1800, Harrison Co., West Virginia; d. 03 December 1876, Lewis Co., WV.</li> 
+        <li><b>10.&nbsp;&nbsp;</b>viii.&nbsp;&nbsp;CUMMINS EDWARD JACKSON, b. 25 July 1802, prob. Harrison (now Upshur) Co., WV; d. 03 December 1849, Shasta Co., CA.</li> 
+        <li><b>11.</b>&nbsp;&nbsp;ix.&nbsp;&nbsp;JAMES MADISON JACKSON, b. 03 April 1805, Jackson's Mill, Lewis Co.,WV; d. 27 October 1872, West Fork, Lewis Co., WV.</li> 
+        <li><b>12.</b>&nbsp;&nbsp;x.&nbsp;&nbsp;ELIZABETH "ELIZA" JACKSON, b. 06 April 1807, Harrison Co. (now Lewis Co.), WV; d. 22 February 1849, Mt. Vernon, Marshall Co., IN.</li> 
+        <li><b>13.</b>&nbsp;&nbsp;xi.&nbsp;&nbsp;JOHN E. JACKSON, b. 22 January 1810, Jackson's Mill, Lewis Co.,WV; d. Unknown.</li> 
+        <li><b>14.</b>&nbsp;&nbsp;xii.&nbsp;&nbsp;MARGARET "PEGGY" JACKSON, b. 02 February 1812; d. Abt. 1841, prob. Jackson's Mill, WV.</li> 
+        <li>xiii.&nbsp;&nbsp;RETURN MIEGS JACKSON, b. 15 May 1814, prob. Jackson's Mill, Lewis Co., WV; d. July 1835, Nr. St. Genevieve, MO.</li> 
+        <li>xiv.&nbsp;&nbsp;EDWARD J. JACKSON, b. 29 October 1817, prob. Jackson's Mill, Lewis Co., WV; d. 1848, Jackson's Mill, Lewis Co.,WV.</li> 
+        <li><b>15.</b>&nbsp;&nbsp;xv.&nbsp;&nbsp;ANDREW M. JACKSON, b. 16 March 1821; d. 31 August 1867, Hughes River, Ritchie Co., WV.</li> 
+        <br>
+        <br>
+        <b>Generation No. 3 (Stonewall Jackson's father/paternal aunts &amp; uncles)</b>&nbsp;
+        <br>
+        <br>
+        <b>3.</b>&nbsp;&nbsp; 
+        <b>GEORGE EDWARD JACKSON</b>, was born 23 December 1786 in prob. nr. Buckhannon, WV, and died 26 March 1831 in St. Genevieve Co., MO. He married CATHERINE MCCLANAHAN before 1817. She died 26 January 1837 in Lawrence, St. Genevieve CO., MO. 
+        <br>&nbsp;
+        <li style="list-style-type: none;"><b>Children of GEORGE JACKSON and CATHERINE MCCLANAHAN are:</b></li> 
+        <li>i.&nbsp;&nbsp;HELEN MCGIGEORY OR MCGREGOR JACKSON, b. 26 October 1817, St. Genevieve, Co., MO; d. 03 March 1913, Farmington, MO.</li> 
+        <li>ii.&nbsp;&nbsp;EDWARD G. JACKSON, b. 15 September 1819.</li> 
+        <li>iii.&nbsp;&nbsp;LYDIA ANN JACKSON, b. Abt. 1822.</li> 
+        <li>iv.&nbsp;&nbsp;MARY VIRGINIA JACKSON, b. Abt. 1830.</li> 
+       </ul> 
+       <p><br><b>4.</b>&nbsp;&nbsp;<b>DAVID EDWARD JACKSON</b> was born 30 October 1788 in Buckhannon, Upshur Co., WV, and died 24 December 1837 in Paris, TN. He married JULIET T. NORRIS 02 November 1809. She was born 22 December 1783 in Fauquier Co. VA, and died 16 March 1865 in Lewis Co., WV.&nbsp;</p> 
+       <ul> 
+        <li style="list-style-type: none;"><b>Children of DAVID JACKSON and JULIET NORRIS are:</b></li> 
+        <li>i.&nbsp;&nbsp;EDWARD JOHN JACKSON, b. 31 July 1810; d. 08 December 1896.</li> 
+        <li>ii.&nbsp;&nbsp;WILLIAM PITT JACKSON, b. 05 January 1812; d. 30 March 1837.</li> 
+        <li>iii.&nbsp;&nbsp;NANCY NORRIS (TWIN) JACKSON, b. 12 October 1815; d. 1891; m. MINOR CARR HALL, 28 October 1855; b. 03 December 1815; d. 19 May 1885.</li> 
+        <li>iv.&nbsp;&nbsp;MARY JONES (TWIN) JACKSON, b. 12 October 1815; d. 11 July 1900; m. JOHN HENDERSON HAYS.</li> 
+       </ul> 
+       <p><br><b>5.</b>&nbsp;&nbsp;<b>JONATHAN JACKSON</b> (Stonewall Jackson's father) was born 25 September 1790 in Randolph County, WV, and died 26 March 1826 in Clarksburg, Harrison Co., WV. He married JUDITH "JULIA" BECKWITH NEALE (Stonewall Jackson's mother) 28 September 1817. She was born 28 February 1798 near Aldie, Loudoun Co., VA, and died 03 December 1831 in Fayette Co., West Virginia.<br>&nbsp;<b>More About JUDITH "JULIA" BECKWITH NEALE:</b><br>Judith "Julia" Beckwith Neale was the daughter of Thomas Neale and Margaret Winn. Four years after the death Jonathan Jackson, she married Blake Baker Woodson (b. 1783 d. 1833 m. 1830). Julia and Blake had one child, <b>William Wirt Woodson (known as Wirt; b. 1831 d. 1875), who was Stonewall Jackson's half-brother.)</b> Julia died less than 2 months after giving birth to Wirt.<br></p> 
+       <ul> 
+        <li style="list-style-type: none;"><b>Children of JONATHAN JACKSON and JUDITH "JULIA" NEALE are:</b></li> 
+        <li>i.&nbsp;&nbsp;ELIZABETH JACKSON, b. 1819, prob. Clarksburg, Harrison Co., West Virginia; d. 05 March 1826, Harrison Co., West Virginia.</li> 
+        <li>ii.&nbsp;&nbsp;WARREN J. JACKSON, b. January 1821, prob. Clarksburg, Harrison Co., West Virginia; d. November 1841, Turkey Run, Upshur Co., West Virginia. Burial: Brake/Jackson Cemetery, Turkey Run, Upshur Co. WV. Cause of Death: tuberculosis. <b>Unmarried, no issue</b>.</li> 
+        <li>iii.&nbsp;&nbsp;<a title="Stonewall Jackson Home" href="/WorkArea/linkit.aspx?LinkIdentifier=id&amp;ItemID=3747">THOMAS JONATHAN (Stonewall) JACKSON,</a>&nbsp;b. 21 January 1824, Clarksburg, West Virginia; d. 10 May 1863, Near Guiney's Station, Virginia.</li> 
+        <li>iv.&nbsp;&nbsp;<b>LAURA ANN JACKSON,</b> b. 27 March 1826, prob. Clarksburg, Harrison Co., West Virginia; d. 24 September 1911, Buckhannon, Upshur Co., WV.</li> 
+       </ul> 
+       <p><br><b>6.&nbsp;&nbsp;RACHEL JACKSON</b> was born 08 July 1792 in Randolph (now Upshur) Co., WV, and died 28 November 1835 in Lewis (now Upshur) Co., WV. She married JACOB B. BRAKE 10 September 1815. He was born 01 August 1785 in prob. Hardy Co., WV, and died 10 July 1869 in Upshur Co., WV. <br></p> 
+       <ul> 
+        <li style="list-style-type: none;"><b>Children of RACHEL JACKSON and JACOB BRAKE are:</b></li> 
+        <li>i.&nbsp;&nbsp;EDWARD HADDEN BRAKE, b. 11 August 1816.</li> 
+        <li>ii.&nbsp;&nbsp;LEONARD J. BRAKE, b. 08 December 1817.</li> 
+        <li>iii.&nbsp;&nbsp;MARY BRAKE, b. 17 December 1819.</li> 
+        <li>iv.&nbsp;&nbsp;GEORGE WASHINGTON BRAKE, b. 13 March 1822.</li> 
+        <li>v.&nbsp;&nbsp;RACHEL BRAKE, b. 26 March 1824.</li> 
+        <li>vi.&nbsp;&nbsp;JACOB LORENZO DOW BRAKE, b. 25 July 1826.</li> 
+        <li>vii.&nbsp;&nbsp;CATHERINE ELIZABETH BRAKE, b. 18 May 1828.</li> 
+        <li>viii.&nbsp;&nbsp;REBECCA BRAKE, b. 16 May 1829.</li> 
+        <li>ix.&nbsp;&nbsp;DAVID J. BRAKE, b. 21 February 1832.</li> 
+        <li>x.&nbsp;&nbsp;ELIZA BRAKE, b. 24 May 1834.</li> 
+       </ul> 
+       <p><br><b>7.</b>&nbsp;&nbsp; <b>MARY HADDAN "POLLY" JACKSON</b> was born 19 February 1794 prob. in Harrison (now Upshur) Co., WV, and died 30 August 1840 in Lewis (now Upshur) Co., WV. She married ISAAC BRAKE 30 November 1820. He was born about 15 November 1797 in prob. Hardy Co., WV, and died 17 January 1885 in Near Buckhannon, WVA. <br></p> 
+       <ul> 
+        <li style="list-style-type: none;"><b>Children of MARY JACKSON and ISAAC BRAKE are:</b></li> 
+        <li>i.&nbsp;&nbsp;RACHEL ELIZABETH BRAKE, b. 04 January 1822.</li> 
+        <li>ii.&nbsp;&nbsp;EDWARD STALNAKER BRAKE, b. 20 February 1823.</li> 
+        <li>iii.&nbsp;&nbsp;JACOB BRAKE, b. 10 October 1824.</li> 
+        <li>iv.&nbsp;&nbsp;MELVILLE SHOOK BRAKE, b. 05 August 1826.</li> 
+        <li>v.&nbsp;&nbsp;DIADEMA BRAKE, b. 20 July 1828.</li> 
+        <li>vi.&nbsp;&nbsp;OLIVE BRAKE, b. 07 September 1830.</li> 
+        <li>vii.&nbsp;&nbsp;MARY VIRGINIA BRAKE, b. 05 October 1837.</li> 
+        <li>viii.&nbsp;&nbsp;ISAAC NEWTON BRAKE, b. 30 August 1840.</li> 
+       </ul> 
+       <p><br><b>8.</b>&nbsp;&nbsp;<b>REBECCA JACKSON</b> was born 15 September 1795 in Harrison Co., West Virginia, and died 18 July 1889. She married GEORGE BEAVER WHITE 19 December 1811. He was born 13 October 1788 in prob. Sussex Co. , NJ, and died 01 October 1858 in Wood Co., WV. <br></p> 
+       <ul> 
+        <li style="list-style-type: none;"><b>Children of REBECCA JACKSON and GEORGE WHITE are:</b></li> 
+        <li>i.&nbsp;&nbsp;EDWARD WHITE, b. 23 August 1812.</li> 
+        <li>ii.&nbsp;&nbsp;PRUDENCE WHITE, b. 22 October 1814.</li> 
+        <li>iii.&nbsp;&nbsp;CUMMINGS JACKSON WHITE, b. 02 January 1818.</li> 
+        <li>iv.&nbsp;&nbsp;MARY CATHERINE WHITE, b. 11 April 1819.</li> 
+        <li>v.&nbsp;&nbsp;ISABELLE WHITE, b. 24 February 1822.</li> 
+        <li>vi.&nbsp;&nbsp;RACHEL WHITE, b. 01 September 1824.</li> 
+        <li>vii.&nbsp;&nbsp;ELIZA CERENA WHITE, b. 23 January 1827.</li> 
+        <li>viii.&nbsp;&nbsp;ALEXANDER WHITE, b. 12 November 1829.</li> 
+        <li>ix.&nbsp;&nbsp;OLIVE WHITE, b. 22 March 1835.</li> 
+        <li>x.&nbsp;&nbsp;DAVID JACKSON WHITE, b. 16 May 1832.</li> 
+        <li>xi.&nbsp;&nbsp;THOMAS BENTON WHITE, b. 01 September 1838.</li> 
+        <li>xii.&nbsp;&nbsp;GEORGE WHITE, b. Abt. 1842.</li> 
+        <li>xiii.&nbsp;&nbsp;AURILLA WHITE, b. Abt. 1845.</li> 
+       </ul> 
+       <p><br><b>9.</b>&nbsp;<b>CATHERINE "KATY" JACKSON</b> was born 25 July 1800 in Harrison Co., West Virginia, and died 03 December 1876 in Lewis Co., WV. She married JOHN WHITE 25 April 1824. He was born 02 May 1794 in Hardy Co., WV, and died 30 April 1875 in Lewis Co., WV. <br></p> 
+       <ul> 
+        <li style="list-style-type: none;"><b>Children of CATHERINE JACKSON and JOHN WHITE are:</b></li> 
+        <li>i.&nbsp;&nbsp;FORTUNATUS WHITE, b. 02 November 1824.</li> 
+        <li>ii.&nbsp;&nbsp;SYLVANUS WHITE, b. 15 January 1827.</li> 
+        <li>iii.&nbsp;&nbsp;MARCELLUS WHITE, b. 17 March 1829.</li> 
+        <li>iv.&nbsp;&nbsp;GEORGE EDWARD WHITE, b. 17 August 1831.</li> 
+        <li>v.&nbsp;&nbsp;MARELLA KATHERINE WHITE, b. 01 February 1834.</li> 
+        <li>vi.&nbsp;&nbsp;WILLIAM PITT WHITE, b. 15 August 1836.</li> 
+        <li>vii.&nbsp;&nbsp;ALEXANDER PERRY WHITE, b. 13 October 1838.</li> 
+        <li>viii.&nbsp;&nbsp;JOHN MCDOWELL WHITE, b. 18 February 1841.</li> 
+        <li>ix.&nbsp;&nbsp;CUMMINS WHITE, b. 1844.</li> 
+       </ul> 
+       <p><br><b>10.&nbsp;&nbsp; CUMMINS EDWARD JACKSON</b> was born 25 July 1802 in prob. Harrison (now Upshur) Co., WV, and died 03 December 1849 in Shasta Co., CA.<br></p> 
+       <ul> 
+        <li style="list-style-type: none;"><b>Child of CUMMINS EDWARD JACKSON is:</b></li> 
+        <li>i.&nbsp;&nbsp;CUMMINS NORRIS JACKSON, b. Abt. 1847.</li> 
+       </ul> 
+       <p><br><b>11.&nbsp;&nbsp;JAMES MADISON JACKSON</b> was born 03 April 1805 in Jackson's Mill, Lewis Co.,WV, and died 27 October 1872 in West Fork, Lewis Co., WV. He married EMMA ELEANOR LAW 04 December 1836. She was born 11 November 1806 in Lewis Co., WV, and died 17 December 1850 in Lewis Co., WV. <br></p> 
+       <ul> 
+        <li style="list-style-type: none;"><b>Children of JAMES JACKSON and EMMA LAW are:</b></li> 
+        <li>i.&nbsp;&nbsp;INFANT SON JACKSON.</li> 
+        <li>ii.&nbsp;&nbsp;STOKELY RUSMISEL JACKSON, b. 08 January 1839.</li> 
+        <li>iii.&nbsp;&nbsp;MARGARET EUPHEMIA JACKSON, b. 03 September 1841.</li> 
+        <li>iv.&nbsp;&nbsp;NANCY ELIZABETH JACKSON, b. 15 July 1843.</li> 
+        <li>v.&nbsp;&nbsp;MARY ELEANOR JACKSON, b. 21 September 1845.</li> 
+        <li>vi.&nbsp;&nbsp;EDWARD THOMAS JACKSON, b. 03 August 1848.</li> 
+       </ul> 
+       <p><br><b>12.&nbsp;&nbsp;ELIZABETH "ELIZA" JACKSON</b> was born 06 April 1807 in Harrison Co. (now Lewis Co.), WV, and died 22 February 1849 in Mt. Vernon, Marshall Co., IN. She married NICHOLAS L. CARPENTER July 1829. He was born 1803, and died 05 February 1872 in Green Township, Marshall Co., IN.<br></p> 
+       <ul> 
+        <li style="list-style-type: none;"><b>Children of ELIZABETH JACKSON and NICHOLAS CARPENTER are:</b></li> 
+        <li>i.&nbsp;&nbsp;DAVID M. CARPENTER, b. 06 May 1830.</li> 
+        <li>ii.&nbsp;&nbsp;EDWARD JACKSON CARPENTER, b. 25 November 1831.</li> 
+        <li>iii.&nbsp;&nbsp;CAROLINE CARPENTER, b. 24 October 1833.</li> 
+        <li>iv.&nbsp;&nbsp;JOHN CARPENTER, b. 1836.</li> 
+        <li>v.&nbsp;&nbsp;ALBERT H. CARPENTER, b. 15 September 1838.</li> 
+        <li>vi.&nbsp;&nbsp;ELIZABETH "ELIZA" CARPENTER, b. 15 March 1841.</li> 
+        <li>vii.&nbsp;&nbsp;MARY E. CARPENTER, b. 11 October 1843.</li> 
+        <li>viii.&nbsp;&nbsp;RACHEL CARPENTER, b. January 1849.</li> 
+       </ul> 
+       <p><br><b>13.&nbsp;&nbsp;JOHN E. JACKSON</b> was born 22 January 1810 in Jackson's Mill, Lewis Co.,WV, and died Unknown. He married MARY SARAH BURNS 11 October 1836. <br></p> 
+       <ul> 
+        <li style="list-style-type: none;"><b>Child of JOHN JACKSON and MARY BURNS is:</b></li> 
+        <li>i.&nbsp;&nbsp;CYRUS JACKSON.</li> 
+       </ul> 
+       <p><br><b>14.&nbsp;&nbsp;MARGARET "PEGGY" JACKSON</b> was born 02 February 1812, and died Abt. 1841 in prob. Jackson's Mill, WV. She married JONATHAN THOMPSON HALL 07 March 1833. He was born 04 December 1810 in prob. Harrison CO., WV, and died 1845. <br></p> 
+       <ul> 
+        <li style="list-style-type: none;"><b>Children of MARGARET JACKSON and JONATHAN HALL are:</b></li> 
+        <li>i.&nbsp;&nbsp;JULIA ANN HALL, b. 01 August 1834.</li> 
+        <li>ii.&nbsp;&nbsp;WILLIAM DEXTER HALL, b. 27 September 1836.</li> 
+        <li>iii.&nbsp;&nbsp;MARY E. HALL, b. 1839.</li> 
+        <li>iv.&nbsp;&nbsp; EDWARD H. HALL, b. 13 May 1841.</li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

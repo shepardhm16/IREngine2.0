@@ -1,0 +1,428 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	Virginia Military Institute - Birds of Rockbridge County
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets,liberal arts, lexington, ncaa div. 1, competitive, civilian, commission, barracks, science, co-ed, public, university, ethics, honor, character, responsibility, undergraduate, leaders">
+  <meta name="Description" content="Virginia Military Institute is a small, public, nationally-ranked college committed to leadership development in a military environment in Lexington, Virginia. VMI instills values of honor, discipline, selflessness, commitment, duty, self-reliance, and service. VMI is recognized as one of America’s top colleges for liberal arts and sciences by US News &amp;amp; World Report, The Princeton Review, and Peterson’s Guide to Competitive Colleges. US News ranks VMI’s engineering programs among the twenty best in America. Men and women of VMI are free to choose military or civilian careers.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=10737428051" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BQx0aHJlZS1jb2x1bW5kAgkPDxYCHgtOYXZpZ2F0ZVVybAUBL2QWAmYPDxYCHghJbWFnZVVybAUdL2NvcmUvaW1hZ2VzL2NvbnRlbnQvbG9nby5qcGdkZAILD2QWAmYPZBYCZg9kFgQCAQ8PFgQeCENzc0NsYXNzBQxzZWFyY2gtaW5wdXQeBF8hU0ICAhYEHgdvbkZvY3VzBYYBaWYodGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVQaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7dGhpcy52YWx1ZT0nc2VhcmNoIHZtaS5lZHUnO31kAgMPEA9kFgIeBXN0eWxlBQxkaXNwbGF5Om5vbmUQFQEDVk1JFQEDVk1JFCsDAWdkZAIPDw8WAh4HVmlzaWJsZWhkZAITD2QWBgIBDw8WAh8IZ2RkAgUPZBYCAgEPZBYCZg9kFgJmDxYCHwhnFgICAQ8PFgIfAgUqL3VwbG9hZGVkSW1hZ2VzL0ltYWdlcy9IZWFkZXJzL2Jpb2xvZ3kuanBnZGQCCQ8PFgIfCGdkZGSQEY95bd/OZ8do5MXcQVHeXNP3wny//yIsEU59DLZotQ=="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAASorkH01XLg2s9jgfg2FFjDtVqhg79+cCaf2Muxgy28w6Ld5e0tb35jjra3L8Dofk5aGpeLsHyujys0vCNqhELeUFTIbZmEpucE0d5qybOmvTphAmciw8J1NdB5dm2VfmM="> 
+   </div> 
+   <div id="container" class="three-column"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+        <li><a href="/Content.aspx?id=10737425148" target="_self">Biology Home</a></li>
+        <li><a href="/content.aspx?id=17319" target="_self">Degrees &amp; Programs</a></li>
+        <li><a href="http://vmi.catalog.acalog.com/preview_entity.php?catoid=15&amp;ent_oid=347&amp;returnto=448" target="_blank">Courses</a></li>
+        <li><a href="/Content.aspx?id=10737420406" target="_self">Scholarships and Awards</a></li>
+        <li><a href="/Content.aspx?id=10737420405" target="_self">Frequently Asked Questions</a></li>
+        <li><a href="/Content.aspx?id=10737420403" target="_self">Department Activities</a></li>
+        <li><a href="/Content.aspx?id=10737420124" target="_self">Alumni &amp; Friends</a></li>
+        <li><a href="/Content.aspx?id=2110" target="_self">Carroll Fund</a></li>
+        <li><a href="/Content.aspx?id=4294974297" target="_self">Faculty</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft1566"> 
+        <object height="170" width="220"><param name="allowfullscreen" value="true"><param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=124984"><param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2Fvmibio%2Fshow%2Fwith%2F8204027947%2F&amp;page_show_back_url=%2Fphotos%2Fvmibio%2Fwith%2F8204027947%2F&amp;user_id=71455913@N07&amp;jump_to=8204027947"><embed height="170" width="220" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2Fvmibio%2Fshow%2Fwith%2F8204027947%2F&amp;page_show_back_url=%2Fphotos%2Fvmibio%2Fwith%2F8204027947%2F&amp;user_id=71455913@N07&amp;jump_to=8204027947" allowfullscreen="true" src="http://www.flickr.com/apps/slideshow/show.swf?v=124984" type="application/x-shockwave-flash"></object>
+        <address><p><a href="https://www.facebook.com/VmiBiologyDepartment" title="temporary space, click here to type" target="_blank"><img border="0" src="/uploadedImages/Images/icons/facebook.png?n=7536" alt="facebook" title="facebook"></a> &nbsp;&nbsp; <a target="_blank" title="biology on flickr" href="http://www.flickr.com/photos/vmibio/8033747684/"><img border="0" src="/uploadedImages/Images/buttons/flickr2.png" alt="flickr" title="flickr"></a> &nbsp;</p> <p>Karen Fredenburg<br>Executive Secretary<br><br>P:&nbsp; (540) 464-7247<br>F:&nbsp; (540) 464-7761<br><br>203 Maury-Brooke Hall<br>Virginia Military Institute<br>Lexington, VA&nbsp; 24450</p> <p><a href="mailto:biology@vmi.edu">biology@vmi.edu</a><br><a href="mailto:lilleyel10@vmi.edu">Email Webmaster</a></p> </address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/" title="">Home</a> &gt; <a target="_self" href="/Content.aspx?id=54" title="">Academics</a> &gt; <a target="_self" href="/content.aspx?id=64" title="">Areas of Study</a> &gt; <a target="_self" href="/content.aspx?id=80" title="">Natural Science &amp; Mathematics</a> &gt; <a target="_self" href="/content.aspx?id=102" title="">Biology</a> &gt; Birds of Rockbridge County</span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/biology.jpg" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>The Birds of The Greater Rockbridge County, Virginia, Area</h1> 
+       <p>The Birds of the Greater Rockbridge County, Virginia, area represents a compilation of data from a number of different sources.&nbsp; In 1957, J.J. Murray, former pastor of Lexington Presbyterian Church and one of the founding members of the Virginia Society of Ornithology, published the Birds of Rockbridge County, Virginia as the first publication of Virginia Avifauna, VSO.&nbsp; His book presented species accounts or records for 245 species of birds.&nbsp;&nbsp; Of the 245 species, Murray noted that three were probable; he had no confirmation of their presence in the county.&nbsp; His data included personal observations, data from the Lexington Area Christmas Bird Count, and observations or evidence presented to him from other individuals.&nbsp; It is clear from Murray's work that Rockbridge County has a rich avifauna even though the county lacked marsh land and large bodies of water.&nbsp; Since the publication of Murray's book, there have been a number of changes in the area.&nbsp; Most notably, Lake Merriweather, Lake Robertson, and Willow Lake were created; the Interstate system was created; Cameron's Pond drained; and the amount of acreage being farmed has decreased while the amount of residential land has increased.&nbsp; The Birds of the Greater Rockbridge County Area represents an up-date of Murray's book.&nbsp; To date, a total of 268 species have been recorded in the county (two of these species are listed as probable by Murray).&nbsp; It is worth noting that since the publication of Murray's book, Bewick's Wrens are no longer found in the area, House Finches are present, and there are confirmed records for Red-throated Loon, Snow Bunting, Red-necked Grebe, Barnacle Goose, Ross' Goose, Northern Goshawk, Wood Stork, Glossy Ibis, Fork-tailed Flycatcher, Clay-colored Sparrow, Brewster's Warbler, Orange-crowned Warbler, White Ibis, Rufous Hummingbird, Mute Swan, Willow Flycatcher, Dickcissel, Sandhill Crane, Surf Scoter, White-winged Crossbill, Cackling Goose, Northern Shrike, and Cattle Egret.&nbsp; The information presented in the Birds of the Greater Rockbridge County Area is drawn from the current database of observations, a summary of the Christmas Bird Count data, and Murray's book.&nbsp;&nbsp; The current database includes observations from a number of local birders: Alex Merritt, George Tolley, Bob Paxton, Wendy Richards, Steve Richards, Kieran Kilday, Lucy Rowe, Dick Rowe, Barbara Rowe, Paul Cabe, Laura Neale, Chip Coalter, Barbara Coalter, John Burleson, Sarah Burleson, Barry Kinzie, John Pancake, Allen Larner and others.&nbsp; As a group we have been able to cover most of the county on a regular basis and thus provided nearly 15 years of reliable data.&nbsp; My work on the project was supported through the VMI Faculty Developmental Leave Program and the Jackson-Hope Fund.<br> <br>Up-dates - to see recent changes to the Birds of Rockbridge County or the Photo Gallery: Up-dates&nbsp; <br> <br>Photography:&nbsp; All photographs included in the book were taken by Dick Rowe, unless otherwise noted.&nbsp; Nearly all of the photographs were taken within the Greater Rockbridge County area.&nbsp; The photographs serve as documentation for a particular species in the area, and in addition, they are representative of the plumage or coloration that would be expected for a specific species in the county.&nbsp; The photo galleries are in flickr.&nbsp; To see the complete photo gallery for the Birds of the Greater Rockbridge County, Virginia, Area follow the link below.<br> <br><a title="Flickr Photo Gallery:&nbsp; Birds of Rockbridge County. " href="http://www.flickr.com/photos/vmibiology/collections/72157625985785907/" target="_blank">Flickr Photo Gallery:&nbsp; Birds of Rockbridge County. </a></p> 
+       <p>The following link will take you to a spreadsheet that provides Christmas Bird Count data for the Lexington Area CBC.</p> 
+       <p><a title="CBC up to 2010" href="/WorkArea/DownloadAsset.aspx?id=10737428054">Lexington Area Christmas Bird Count</a> (count data through the 2012 CBC) </p> 
+       <p>A complete version of <a title="Complete Manuscript" href="/WorkArea/DownloadAsset.aspx?id=10737428049">The Birds of the Greater Rockbridge County, Virginia</a>, Area is available as a .pdf download.</p> 
+       <p>The following chapters present the information in the complete version.</p> 
+       <ul class="checklist"> 
+        <li><a title="Geese, Swans, and Ducks" href="/WorkArea/DownloadAsset.aspx?id=10737431268">Geese, Swans, and Ducks</a></li> 
+        <li><a title="Gallinaceous w links" href="/WorkArea/DownloadAsset.aspx?id=10737428060">Quail, Pheasants, Grouse, and Turkeys</a>&nbsp;&nbsp;</li> 
+        <li><a title="Loons and grebes w links" href="/WorkArea/DownloadAsset.aspx?id=10737428062">Loons and Grebes</a></li> 
+        <li><a title="Storks, cormorants, bitterns, herons, egrets, ibis w links" href="/WorkArea/DownloadAsset.aspx?id=10737428071">Storks, Cormorants, Bitterns, Herons, Egrets, and Ibis</a>&nbsp;&nbsp;&nbsp;</li> 
+        <li><a title="Vultures, kites, eagles, hawks, falcons w links" href="/WorkArea/DownloadAsset.aspx?id=10737428075">Vultures, Kites, Eagles, Hawks, and Falcons</a>&nbsp;&nbsp;</li> 
+        <li><a title="Rails, gallinules, moorhens, coots, and cranes w links" href="/WorkArea/DownloadAsset.aspx?id=10737428067">Rails, Gallinules, Moorhens, Coots, and Cranes</a>&nbsp;&nbsp;</li> 
+        <li><a title="Charadriiformes w links" href="/WorkArea/DownloadAsset.aspx?id=10737428056">Plovers, Killdeer, Sandpipers, Snipe, Woodcocks, Phalaropes, and Gulls</a>&nbsp;&nbsp;&nbsp;</li> 
+        <li><a title="Pigeon, dove, cuckoos w links" href="/WorkArea/DownloadAsset.aspx?id=10737428065">Pigeons, Doves, and Cuckoos</a>&nbsp;&nbsp;</li> 
+        <li><a title="Owls w links" href="/WorkArea/DownloadAsset.aspx?id=10737428064">Owls</a>&nbsp;&nbsp;</li> 
+        <li><a title="Nighthawks, whip-poor-wills, swifts, hummingbirds, kingfisher w links" href="/WorkArea/DownloadAsset.aspx?id=10737428063">Nighthawks, Whip-poor-wills, Swifts, Hummingbirds, and Kingfishers</a>&nbsp;&nbsp;</li> 
+        <li><a title="Woodpeckers w links" href="/WorkArea/DownloadAsset.aspx?id=10737428077">Woodpeckers</a>&nbsp;&nbsp;</li> 
+        <li><a title="Flycatchers w links" href="/WorkArea/DownloadAsset.aspx?id=10737428059">Flycatchers</a>&nbsp;&nbsp;</li> 
+        <li><a title="Shrikes, vireos, jays, crows, ravens w links" href="/WorkArea/DownloadAsset.aspx?id=10737428070">Shrikes, Vireos, Jays, Crows, and Ravens</a>&nbsp;&nbsp;</li> 
+        <li><a title="Larks, martins, swallows w links" href="/WorkArea/DownloadAsset.aspx?id=10737428061">Larks, Martins, and Swallows</a>&nbsp;&nbsp;</li> 
+        <li><a title="Chickadees, nuthatches, titmice, kinglets, gnatcatchers w links" href="/WorkArea/DownloadAsset.aspx?id=10737428057">Chickadees, Titmice, Nuthatches, Creepers, Wrens, Gnatcatchers, and Kinglets</a>&nbsp;&nbsp;</li> 
+        <li><a title="Thrushes, waxwings, pipits, bunting,starling w links" href="/WorkArea/DownloadAsset.aspx?id=10737428073">Thrushes, Robins, Catbirds, Mockingbirds, Thrashers, Starlings, Pipits, Waxwings, and Snow Buntings</a>&nbsp;&nbsp;</li> 
+        <li><a title="Warblers w links" href="/WorkArea/DownloadAsset.aspx?id=10737428076">Warblers</a>&nbsp;&nbsp;</li> 
+        <li><a title="Towhee, sparrows, junco w links" href="/WorkArea/DownloadAsset.aspx?id=10737428074">Towhees, Sparrows, and Juncos</a></li> 
+        <li><a title="Tanagers, grosbeaks, cardinals w links" href="/WorkArea/DownloadAsset.aspx?id=10737428072">Tanagers, Cardinals, Grosbeaks, and Indigo Buntings</a>&nbsp;&nbsp;&nbsp;</li> 
+        <li><a title="Finches w links" href="/WorkArea/DownloadAsset.aspx?id=10737428058">Finches and House Sparrows</a>&nbsp;&nbsp;</li> 
+       </ul> 
+      </div> 
+      <div id="ctl00_pageContent_rightColumn"> 
+       <div id="content-2" class="column last"> 
+        <div id="ctl00_pageContent_relatedRight10737428042" class="mod"> 
+         <p><strong>Col. Richard Rowe</strong></p> 
+         <ul class="arrowlist"> 
+          <li><a title="Richard A. Rowe, Ph.D." href="/Content.aspx?id=10737428043">Home</a></li> 
+          <li><a title="Courses" href="/Content.aspx?id=10737428079">Courses</a></li> 
+          <li><a title="Research" href="/Content.aspx?id=10737428046">Research</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

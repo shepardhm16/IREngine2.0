@@ -1,0 +1,661 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	VMI Foundation
+</title>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/foundation/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="foundation, giving, staff, team, professionals">
+  <meta name="Description" content="The men and women who make up the staff of the VMI Foundation are committed professionals who bring a wide variety of talent, training, education, and experience to their work. Through their dedicated efforts, the VMI Foundation is able to continue its mission to foster excellence in every aspect of VMI’s extraordinary education and its work on behalf of the VMI Alumni Association, the VMI Keydet Club, and the George C. Marshall Foundation. This page contains a list of all the people who work at the VMI Foundation, a description of their duties, and some contact information.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=10737430778" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWDgIFDxYCHgRUZXh0BQx0aHJlZS1jb2x1bW5kAgkPDxYCHgtOYXZpZ2F0ZVVybAUML0ZvdW5kYXRpb24vZBYCZg8PFgIeCEltYWdlVXJsBScvY29yZS9pbWFnZXMvY29udGVudC9mb3VuZGF0aW9ubG9nby5qcGdkZAILD2QWAmYPZBYCZg9kFgQCAQ8PFgQeCENzc0NsYXNzBQxzZWFyY2gtaW5wdXQeBF8hU0ICAhYEHgdvbkZvY3VzBYYBaWYodGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVQaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7dGhpcy52YWx1ZT0nc2VhcmNoIHZtaS5lZHUnO31kAgMPEA9kFgIeBXN0eWxlBQxkaXNwbGF5Om5vbmUQFQEDVk1JFQEDVk1JFCsDAWdkZAIPDw8WAh4HVmlzaWJsZWhkZAITD2QWBgIBDw8WAh8IZ2RkAgUPZBYCAgEPZBYCZg9kFgJmDxYCHwhnFgICAQ8PFgIfAgVEL3VwbG9hZGVkSW1hZ2VzL0FkbWluaXN0cmF0aW9uL19Gb3VuZGF0aW9uL3ZtaS1mb3VuZGF0aW9uLmpwZz9uPTEzNzdkZAIJDw8WAh8IZ2RkAhcPDxYGHgVUaXRsZQUVSG9tZXBhZ2UgRm9vdGVyIFJpZ2h0HhNDYXRhbG9nSWNvbkltYWdlVXJsBS4vV29ya0FyZWEvaW1hZ2VzL2FwcGxpY2F0aW9uL2ljb25fZG9jdW1lbnQuZ2lmHhFUaXRsZUljb25JbWFnZVVybGVkZAIZDw8WBh8JBRRIb21lcGFnZSBGb290ZXIgTGVmdB8KBS4vV29ya0FyZWEvaW1hZ2VzL2FwcGxpY2F0aW9uL2ljb25fZG9jdW1lbnQuZ2lmHwtlZGRkeDL+ibRM8ND3ejUmTfQqLAoCaVmtBJZVgy714uzN+tQ="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAR0MAsfhnjsQxdV+LbQSYZjg7Z1sS2zTNHf3/IxWgcxRFSOGbegovGRRqrbhyvyJGWQuO5O7PDGe2zLg4RZuxgspf7GLx3RO8kl7tHoF342UAHmIQ/gyBgbbN5OQE11RXo="> 
+   </div> 
+   <div id="container" class="three-column"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/Foundation/"><img id="ctl00_imgLogo" src="/core/images/content/foundationlogo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="http://www.vmi.edu" target="_blank" class="first">VMI</a></li>
+         <li><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+         <li class="last"><a href="/keydetclub/" target="_self">Keydet Club</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2106/" target="_blank">Webcams</a></li>
+         <li><a href="/Content.aspx?id=322" target="_blank">Directories</a></li>
+         <li class="last"><a href="https://www.vmialumni.org/sslpage.aspx?pid=603" target="_blank">Login</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/Content.aspx?id=10737426423" target="_self">About Us</a></li>
+        <li><a href="/Content.aspx?id=10737430227" target="_self">Priorities</a></li>
+        <li><a href="/Content.aspx?id=10737430228" target="_self">About Giving</a></li>
+        <li><a href="/Content.aspx?id=10737426733" target="_self">Thanks &amp; Recognition</a></li>
+        <li><a href="/Content.aspx?id=10737426538" target="_self">Stewardship</a></li>
+        <li class="rt"><a href="/Content.aspx?id=10737431140" target="_self">Videos</a></li>
+        <li class="rt last"><a href="http://www.vmi.edu/campaign" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Content.aspx?id=10737426423" target="_self">About Us</a></li>
+        <li><a href="/Content.aspx?id=10737430227" target="_self">Priorities</a></li>
+        <li><a href="/Content.aspx?id=10737430228" target="_self">About Giving</a></li>
+        <li><a href="/Content.aspx?id=10737426733" target="_self">Thanks &amp; Recognition</a></li>
+        <li><a href="/Content.aspx?id=10737426538" target="_self">Stewardship</a></li>
+        <li><a href="/Content.aspx?id=10737431140" target="_self">Videos</a></li>
+        <li><a href="http://www.vmi.edu/campaign" target="_blank">Give</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft10737426391"> 
+        <p align="center"><a target="_blank" title="VMI Campaign" href="/Campaign/10737427179/"><img border="0" src="/uploadedImages/Foundation/button.png" alt="VMI Campaign" title="VMI Campaign"></a></p> 
+        <address><strong>VMI FOUNDATION</strong><br><p>Neikirk Hall | 304 Letcher Avenue<br> P.O. Box 932 | Lexington, VA 24450</p> <p>P: 800-444-1839 | 540-464-7328<br> F: 540-464-4545<br><a href="mailto:give@vmiaa.org">give@vmiaa.org</a><br>&nbsp;<br></p> </address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/Content.aspx?id=10737426716" title="">Home</a> &gt; <a target="_self" href="/Content.aspx?id=10737426423" title="">About</a> &gt; All Foundation Staff</span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Administration/_Foundation/vmi-foundation.jpg?n=1377" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <div class="content1">
+        <h1>Dedication &amp; Experience</h1>
+        <p>The men and women who make up the staff of the VMI Foundation are committed professionals who bring an impressive&nbsp;variety of talent, training, education, and experience to their work. Thanks to their&nbsp;dedicated efforts, the VMI Foundation is able to continue its mission of&nbsp;fostering excellence in every aspect of the Institute’s extraordinary education and supporting the important&nbsp;work&nbsp;of the VMI Alumni Association, the VMI Keydet Club, and the George C. Marshall Foundation.&nbsp;This page&nbsp;lists&nbsp;the people who work at the VMI Foundation and includes&nbsp;a description of their duties and&nbsp;contact information.</p>
+       </div>
+       <div class="accordion">
+        <div>
+         <a href="#" class="readMore">Tracy Akers</a>
+         <div class="more">
+          <p><strong><img align="right" title="Tracy Akers" alt="Tracy Akers" src="/uploadedImages/Foundation/About/Tracy_Akers.jpg?n=7753">Data Processing Supervisor </strong><br>Supervises the data entry department, answers general questions, and reviews problems with data entry procedures and gift processing. </p>
+          <p>Also, provides the VMI Alumni Agencies staffs’ with training and support with Raisers Edge Software as well as compiling complex queries and reports for the staffs as needed.</p>
+          <p>Email: <a href="mailto:takers@vmiaa.org">takers@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 219</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Scott Belliveau '83</a>
+         <div class="more">
+          <p><br><img align="right" title="Scott Belliveau" alt="Scott Belliveau" src="/uploadedImages/Foundation/About/Scott_Belliveau.jpg?n=2835"><strong>Director of Communications</strong><br>Responsible for VMI Foundation’s communications efforts, including the VMI Alumni Agencies Report and the VMI Foundation’s website.</p>
+          <p>Email:&nbsp;<a href="mailto:scottb@vmiaa.org">scottb@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 242</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Jacki G. Berkshire</a>
+         <div class="more">
+          <p><strong><img align="right" title="Jacki Berkshires" alt="Jacki Berkshires" src="/uploadedImages/Foundation/About/jacki-bellairs.jpg?n=7588">Vice President Operations and Chief of Staff</strong>&nbsp;Responsible for coordinating the day-to-day operations of the VMI Foundation in support of its overall mission.</p>
+          <p>Oversees programs related to donor relations and stewardship. Serves as Chief of Staff to the Chief Executive Officer.&nbsp; </p>
+          <p>Email: <a href="mailto:jberkshire@vmiaa.org">jberkshire@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 270</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Vickie Black</a>
+         <div class="more">
+          <p><strong>Director of Development Research<img src="/uploadedImages/Foundation/About/vicki_black.jpg?n=9832" alt="Black, Vicki" title="Black, Vicki" align="right" style="margin-left: 10px; margin-right: 10px;"></strong><br>Responsible for supporting the Vice President for Annual and Reunion Giving and the Chief Executive Officer in the execution of the VMI Foundation’s programs. </p>
+          <p>Responsible for the overall coordination and production of information on the prospects and donors to the Alumni Agencies and VMI for tracking cultivation, solicitation progress, and prospect identification.&nbsp;</p>
+          <p>Email:&nbsp;<a href="mailto:vblack@vmiaa.org">vblack@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 255</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Rita Blackwell</a>
+         <div class="more">
+          <p><strong><img align="right" title="Rita Blackwell" alt="Rita Blackwell" src="/uploadedImages/Foundation/About/Rita_Blackwell.jpg?n=5861">Executive Assistant</strong><br>Provides administrative support for the Vice President of Planned Giving and the Director of Corporate and Foundation Relations.</p>
+          <p>Email:&nbsp;<a href="mailto:rita@vmiaa.org">rita@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 234</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Cathy Blalock</a>
+         <div class="more">
+          <p><strong><img align="right" title="cathy_blalock" alt="cathy_blalock" src="/uploadedImages/Foundation/About/Cathy_Blalockweb.jpg?n=1986">Accounting Specialist</strong><br>Processes invoices and miscellaneous receipts and performs some general ledger functions such as posting Raisers Edge gifts and reconciling trust accounts and stockbroker statements.&nbsp;</p>
+          <p>Email:&nbsp;<a href="mailto:cblalock@vmiaa.org">cblalock@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 218</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Diane Brown</a>
+         <div class="more">
+          <p><strong>Executive Assistant<img src="/uploadedImages/Foundation/About/Brown,Diane2014.jpg?n=5843" alt="Brown, Diane" title="Brown, Diane" align="right" style="margin-left: 10px; margin-right: 10px;"><br></strong>Responsible for supporting the Vice President, Major Gifts. Responsibilities include scheduling of activities and donor management.</p>
+          <p>Email: <a href="mailto:dbrown@vmiaa.org">dbrown@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 245</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Warren "Buddy" Bryan '71</a>
+         <div class="more">
+          <p><strong><img align="right" title="Buddy Bryan" alt="Buddy Bryan" src="/uploadedImages/Foundation/About/buddy_brian.jpg?n=4399">Vice President Major Gifts</strong><br>Responsible for managing relationships with major donor prospects determined to have the ability to make gifts at or above $25,000 (to include pledges of up to five years) and for the supervision of the Foundation’s Major Gift Officers. </p>
+          <p>Also charged with developing and implementing strategies for securing financial support from a portfolio of donor prospects including identifying, qualifying, cultivating, soliciting, and stewarding major gifts for VMI from alumni, parents, and friends.&nbsp;</p>
+          <p>Email:&nbsp;<a href="mailto:bbryan@vmiaa.org">bbryan@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 236</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Becky Clemmer</a>
+         <div class="more">
+          <p><strong><img align="right" title="Becky Clemmer" alt="Becky Clemmer" src="/uploadedImages/Foundation/About/Becky_Clemmer.jpg?n=9250">Receptionist/Switchboard Operator</strong><br>Answers incoming for VMI Alumni Agencies and the George C. Marshall Foundation.&nbsp;</p>
+          <p>Email:&nbsp;<a href="mailto:bclemmer@vmiaa.org">bclemmer@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 200</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Terrie Conrad</a>
+         <div class="more">
+          <p><strong><img align="right" title="Terri Conrad" alt="Terri Conrad" src="/uploadedImages/Foundation/About/Terri_Conrad.jpg?n=1730">Vice President Planned Giving</strong><br>Responsible for VMI Foundation’s successful planned giving program. </p>
+          <p>Develops and executes strategies to mesh donors’ intentions and financial situations with the Institute’s on-going needs.</p>
+          <p>Email:&nbsp;<a href="mailto:tconrad@vmiaa.org">tconrad@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 238</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Pat Costa</a>
+         <div class="more">
+          <p><img align="right" title="Pat Costa" alt="Pat Costa" src="/uploadedImages/Foundation/About/pat_costa.jpg?n=5044"><strong>Director of Information Services</strong><br>Manages Information Technology Services and programs in support of the VMI Associated Agencies. </p>
+          <p>Identifies, qualifies, and captures new IT Services opportunities and thereby expands the business in support of corporate goals and objectives. Directs all aspects of information services functions.</p>
+          <p>Email:&nbsp;<a href="mailto:pcosta@vmiaa.org">pcosta@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 222</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Brian Crockett, CEO</a>
+         <div class="more">
+          <p><strong><img align="right" title="Brian Crockett" alt="Brian Crockett" src="/uploadedImages/Foundation/About/brian_crockett.jpg?n=1003">Chief Executive Officer</strong><br>Responsible for day-to-day leadership of the VMI Foundation. </p>
+          <p>Provides strategic vision for the organization. Dedicated to enhancing the VMI Foundation’s ability to match the Institute’s needs to the interests and passions of current and potential donors.</p>
+          <p>Email:&nbsp;<a href="mailto:briancrockett@vmiaa.org">briancrockett@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 241</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Crissy Elliott</a>
+         <div class="more">
+          <p><strong>Assistant Secretary-Treasurer<img src="/uploadedImages/Foundation/About/christi_elliot.jpg?n=2081" alt="Elliot, Christi" title="Elliot, Christi" align="right" style="margin-left: 10px; margin-right: 10px;"></strong><br>Plans, coordinates, controls, supervises, and participates in the provision of activities and services relating to accounting, finance, and administration. </p>
+          <p>Serves as Secretary of the VMI Investment Holdings, LLC.</p>
+          <p>Email:&nbsp;<a href="mailto:celliott@vmiaa.org">celliott@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 252</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Jane Gray</a>
+         <div class="more">
+          <p><strong><img align="right" src="/uploadedImages/Foundation/About/Jane_Greyweb.jpg?n=8201" alt="Jane Gray" title="Jane Gray">Payroll Clerk</strong><br>Prepares each monthly payroll and files all reports associated with payroll. </p>
+          <p>Also enrolls and maintains each employee’s participation in elective deductions including health and dental benefits, retirement benefits, flexible spending plan benefits, and other elections as sponsored by the VMI Alumni Agencies.&nbsp;</p>
+          <p>Email:&nbsp;<a href="mailto:jgray@vmiaa.org">jgray@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 225</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Christina C. Hatcher</a>
+         <div class="more">
+          <p><strong>Donor Relations Coordinator<img src="/uploadedImages/Foundation/About/Hatcher,Christina2014.jpg?n=7551" alt="Hatcher, Christina" title="Hatcher, Christina" align="right" style="margin-left: 10px; margin-right: 10px;"></strong><br>Responsible for the efforts related to donor relations and recognition, including the annual Institute Society Dinner and the Stewardship Luncheon, as well as scholarship recognition.<br><br>Email: <a href="mailto:chatcher@vmiaa.org">chatcher@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 254</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Brandy Hulvey</a>
+         <div class="more">
+          <p><strong><img align="right" src="/uploadedImages/Foundation/About/Brandy_Hulveyweb.jpg?n=2841" alt="brandy_hulvey" title="brandy_hulvey">Systems Operator</strong><br>Handles the processing of all donations, biographical changes, and matching gift information.</p>
+          <p>Email:&nbsp;<a href="mailto:brandy@vmiaa.org">brandy@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 267</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Donna Johnson</a>
+         <div class="more">
+          <p><strong><img align="right" src="/uploadedImages/Foundation/About/Donna_Johnson.jpg?n=5300" alt="Donna Johnson" title="Donna Johnson">Mail Room Manager</strong><br>Performs mailings for the VMI Alumni Agencies, orders supplies for the mailroom, take care of the equipment, put postage on mail, pick up the mail from the post office and sort according to departments and deliver, take the mail to the post office after work, backup for the switchboard.</p>
+          <p>Email:&nbsp;<a href="mailto:djohnson@vmiaa.org">djohnson@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 217</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Meade B. King '85</a>
+         <div class="more">
+          <p><strong>Major Gifts Officer<img src="/uploadedImages/Foundation/About/King,Meade2014.jpg?n=4163" alt="King, Meade" title="King, Meade" align="right" style="margin-left: 10px; margin-right: 10px;"></strong></p>
+          <p>Responsible for managing long-term relationships with current and potential major donors.<br><br></p>
+          <p>Email: <a href="mailto:mking@vmiaa.org">mking@vmiaa.org </a><br>Phone: 540-464-7287 Ext. 235</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Denise Koch</a>
+         <div class="more">
+          <p><strong>Call Center Coordinator<img src="/uploadedImages/Foundation/About/Koch,Denise2014.jpg?n=115" alt="Koch, Denise" title="Koch, Denise" align="right" style="margin-left: 10px; margin-right: 10px;"></strong><br>Responsible for operations of VMI Call Center.<br><br>Email: <a href="mailto:dkoch@vmiaa.org">dkoch@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 239</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Megan Newman</a>
+         <div class="more">
+          <p><strong>Director of Corporate and Foundation Relations<img src="/uploadedImages/Foundation/About/Newman-MeganWeb.jpg?n=2838" alt="Newman_Megan" title="Newman_Megan" align="right"></strong><br>Responsible for forming partnerships with corporations and foundations in support of the Institute. <br><br>Email: <a href="mailto:mnewman@vmiaa.org">mnewman@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 270</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Jennifer M.G. Palmer</a>
+         <div class="more">
+          <p><strong>IT Specialist <img src="/uploadedImages/Foundation/About/Palmer,Jennifer2014.jpg?n=1463" alt="Palmer, Jennifer" title="Palmer, Jennifer" align="right"></strong><br>Responsible for managing web-based services.</p>
+          <p>Email: <a href="mailto:jpalmer@vmiaa.org">jpalmer@vmiaa.org</a></p>
+          <p>Phone: 540-464-7287 Ext. 231</p>
+          <p>&nbsp;</p>
+          <div>
+           &nbsp;
+          </div>
+          <div>
+           &nbsp;
+          </div>
+          <div>
+           &nbsp;
+          </div>
+          <div>
+           &nbsp;
+          </div>
+          <div>
+           &nbsp;
+          </div>
+          <div>
+           &nbsp;
+          </div>
+          <div>
+           &nbsp;
+          </div>
+          <div>
+           &nbsp;
+          </div>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">David Prasnicki</a>
+         <div class="more">
+          <p><strong><img align="right" src="/uploadedImages/Administration/_Foundation/About/david_prasnicki.jpg?n=6546" alt="David Prasnicki" title="David Prasnicki">Vice President and Chief Financial Officer</strong><br>Responsible for all support operations for VMI Alumni Agencies, including accounting and information technology. Coordinates activities of VMI Investments, LLC.</p>
+          <p>Email:&nbsp;<a href="mailto:dpras@vmiaa.org">dpras@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 223</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Amy Reid</a>
+         <div class="more">
+          <p><img align="right" src="/uploadedImages/Foundation/About/Amy.jpg?n=1717" alt="Amy" title="Amy"><strong>Executive Assistant to the CEO and Corporate Secretary</strong><br>Provides administrative support to the Chief Executive Officer and serves as Corporate Secretary for the VMI Foundation, providing support to the Foundation's officers and Board of Trustees.</p>
+          <p>Email:&nbsp;<a href="mailto:areid@vmiaa.org">areid@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 245</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Norma Robinson</a>
+         <div class="more">
+          <p><img align="right" src="/uploadedImages/Foundation/About/Norma.jpg?n=8401" alt="Norma" title="Norma"><strong>Executive Assistant and Office Manager</strong><br>Responsible for supporting the Vice President of Annual and Reunion Giving. Responsibilities include management of the Class Agent program and recognition programs such as the Brick Program. </p>
+          <p>Also participates in the solicitation efforts of the Annual and Reunion Giving Program.<br><br>E-mail: <a href="mailto:nrobinson@vmiaa.org">nrobinson@vmiaa.org</a><br>Telephone: 540-464-7287 Ext. 243</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Sam Sorrells</a>
+         <div class="more">
+          <p><img align="right" src="/uploadedImages/Foundation/About/sam_sorrells.jpg?n=2267" alt="Sam Sorrells" title="Sam Sorrells"><strong>Associate Director of Alumni &amp; Reunion Giving</strong>&nbsp;<br>Manages the 25th and 50th Reunion Campaigns and the Society of VMI Family &amp; Friends. Oversees matching gift and pledge management. </p>
+          <p>Whenever necessary, he represents the Vice President. </p>
+          <p>Email:&nbsp;<a href="mailto:ssorrells@vmiaa.org">ssorrells@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 250</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Wanda Sorrells</a>
+         <div class="more">
+          <p><img align="right" src="/uploadedImages/Foundation/About/Wanda_Sorrells.jpg?n=8701" alt="Wanda Sorrells" title="Wanda Sorrells"><strong>Systems Operator</strong><br>Handles the processing of all donations, biographical changes and matching gift information.</p>
+          <p>Email:&nbsp;<a href="mailto:wsorrells@vmiaa.org">wsorrells@vmiaa.org</a><br>Phone: 540-464-7287 Ext. 224</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">D. Ramon Williams ’90 </a>
+         <div class="more">
+          <p><strong>Major Gifts Officer<img src="/uploadedImages/Foundation/About/Williams,Ramon2014.jpg?n=3101" alt="Williams, Ramon" title="Williams, Ramon" align="right" style="margin-left: 10px; margin-right: 10px;"></strong><br>Description: Responsible for managing long-term relationships with current and potential major donors.<br><br>Email: <a href="mailto:rwilliams@vmiaa.org ">rwilliams@vmiaa.org </a><br>Phone: 540-464-7287 Ext. 257</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">John J. Wranek III '85</a>
+         <div class="more">
+          <p><strong>Vice President Alumni and Reunion Giving<img src="/uploadedImages/Foundation/About/john_wranek.jpg?n=6952" alt="Wranek III '85, John" title="Wranek III '85, John" align="right" style="margin-left: 10px; margin-right: 10px;"></strong><br>Responsible for management of Alumni and Reunion Giving efforts, to include 10th, 25th, and 50th Reunion Campaigns as well as annual Foundation Fund effort. Coordinates solicitations with VMI Keydet Club, oversees the Barracks Program, and manages donor acknowledgement programs.</p>
+          <p>Email: <a href="mailto:jwranek@vmiaa.org">jwranek@vmiaa.org</a>&nbsp;<br>Phone: 540-464-7287 Ext. 244</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+       </div> 
+      </div> 
+      <div id="ctl00_pageContent_rightColumn"> 
+       <div id="content-2" class="column last"> 
+        <div id="ctl00_pageContent_relatedRight10737431355" class="mod"> 
+         <h3>About The Foundation</h3> 
+         <ul class="arrowlist"> 
+          <li><a href="/Content.aspx?id=10737426423" title="About Us">Our Mission</a> &nbsp;</li> 
+          <li><a href="http://staging.vmi.edu/Content.aspx?id=10737426418" title="President's Message">President's Message</a> &nbsp;</li> 
+          <li><a href="http://staging.vmi.edu/Content.aspx?id=10737426448" title="Message from the CEO">Message from the CEO</a> &nbsp;</li> 
+          <li><a href="http://staging.vmi.edu/Content.aspx?id=10737426419" title="Board of Trustees">Board of Trustees</a> &nbsp;</li> 
+          <li><a href="http://staging.vmi.edu/Content.aspx?id=10737426420" title="Executing our Mission">Executing our Mission</a> &nbsp;</li> 
+          <li><a href="/Content.aspx?id=10737426421" title="History">History</a></li> 
+          <li><a href="/Content.aspx?id=10737430778" title="All Foundation Staff">All Foundation Staff</a> &nbsp;</li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;"><strong>UNCOMMON PURPOSE</strong> &nbsp;</p> 
+      <p align="right">In 1839, VMI set an uncommon course: to prepare young people for lives of service, leadership, and character. VMI cadets learn – through a rigorous military system, a demanding academic curriculum, and a robust athletic program. They leave VMI prepared to lead lives of strength, honor, and integrity – to serve their country and their communities as citizen-soldiers, in times of peace and in times of deepest peril.<br></p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <strong>THE VMI FOUNDATION</strong>
+      <br>
+      <p align="left">Neikirk Hall | 304 Letcher Avenue | Lexington, VA 24450<br></p> 
+      <p align="left">P.O. Box 932 | Lexington, VA 24450</p> 
+      <p align="left">P: 800-444-1839 | 540-464-7328<br> F: 540-463-2695<br><a href="mailto:give@vmiaa.org">give@vmiaa.org</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/fvw3put.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

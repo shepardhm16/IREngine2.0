@@ -1,0 +1,449 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	Virginia Military Institute - Military History Manuscripts
+</title>
+  <link rel="shortcut icon" href="../../../master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="../../../royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="../../../royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="../../../App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets,liberal arts, lexington, ncaa div. 1, competitive, civilian, commission, barracks, science, co-ed, public, university, ethics, honor, character, responsibility, undergraduate, leaders">
+  <meta name="Description" content="Virginia Military Institute is a small, public, nationally-ranked college committed to leadership development in a military environment in Lexington, Virginia. VMI instills values of honor, discipline, selflessness, commitment, duty, self-reliance, and service. VMI is recognized as one of America’s top colleges for liberal arts and sciences by US News &amp;amp; World Report, The Princeton Review, and Peterson’s Guide to Competitive Colleges. US News ranks VMI’s engineering programs among the twenty best in America. Men and women of VMI are free to choose military or civilian careers.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/Archives/Manuscripts/Military_History_Manuscripts/" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYGHwAFD1NlYXJjaCBBcmNoaXZlcx4IQ3NzQ2xhc3MFDHNlYXJjaC1pbnB1dB4EXyFTQgICFgQeB29uRm9jdXMFhwFpZih0aGlzLnZhbHVlPT0nU2VhcmNoIEFyY2hpdmVzJyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVSaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J1NlYXJjaCBBcmNoaXZlcycpe3RoaXMudmFsdWU9J1NlYXJjaCBBcmNoaXZlcyc7fWQCAw8QZBAVAw9BbGwgQ29sbGVjdGlvbnMbTGltaXQgdG8gSGlzdG9yaWNhbCBSb3N0ZXJzFExpbWl0IHRvIFBob3RvZ3JhcGhzFQMIQXJjaGl2ZXMRSGlzdG9yaWNhbFJvc3RlcnMGUGhvdG9zFCsDA2dnZ2RkAg8PDxYCHgdWaXNpYmxlaGRkAhMPZBYEAgEPDxYCHwdnZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfB2cWAgIBDw8WAh8CBSsvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvYXJjaGl2ZXMuanBnZGRkl6xaGCOksFh7O1bjzEd/TppXZe9bSxLJPYJ2y4Hri70="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B5C8BA68"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAZG77Sam4BVkFAG+6XTvMwTg7Z1sS2zTNHf3/IxWgcxRNK/Bb7dRnXMHcV4KdvAwZlzhGcTY0LytLiH7YGMBTTk6fQpseJW4epV6INC3gARyZC47k7s8MZ7bMuDhFm7GCxTw1QTL4f5dUwnNE/qkAIr12IktdTW8cYQG7oMUeKXJQ=="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="Search Archives" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='Search Archives'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='Search Archives'){this.value='Search Archives';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter"> <option value="Archives">All Collections</option> <option value="HistoricalRosters">Limit to Historical Rosters</option> <option value="Photos">Limit to Photographs</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+        <li><a href="/Archives/Digital_Collections_Site_Related/Digital_Collections_Overview/" target="_self">Digital Collections</a></li>
+        <li><a href="http://archivesspace.vmi.edu/" target="_blank">Archives Online Catalog</a></li>
+        <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">Quick Info: FAQs</a></li>
+        <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+        <li><a href="/Archives/Jackson/Stonewall_Jackson_Home/" target="_self">Stonewall Jackson</a></li>
+        <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+        <li><a href="/Archives/Images/Photos___Portraits_Home/" target="_self">Photos &amp; Portraits</a></li>
+        <li class="selected"><strong><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Letters, Diaries, Manuscripts</a></strong>
+         <ul>
+          <li><a href="/Archives/Manuscripts/VMI_History___Cadet_Life/" target="_self">VMI History &amp; Cadet Life</a></li>
+          <li><a href="/Archives/Manuscripts/Civil_War_Manuscripts/" target="_self">Civil War Manuscripts</a></li>
+          <li class="selected"><strong><a href="/Archives/Manuscripts/Military_History_Manuscripts/" target="_self">Military History Manuscripts</a></strong></li>
+          <li><a href="/Archives/Manuscripts/Local_History_Manuscripts/" target="_self">Local History Manuscripts</a></li>
+          <li><a href="/Archives/Manuscripts/Faculty___Alumni_Papers/" target="_self">Faculty &amp; Alumni Papers</a></li>
+         </ul></li>
+        <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Digital Exhibits Home</a></li>
+        <li><a href="http://digitalcollections.vmi.edu/cdm/landingpage/collection/p15821coll13" target="_blank">Military Oral History</a></li>
+        <li><a href="/Archives/Records/Official_Institute_Records_Home/" target="_self">VMI Records</a></li>
+        <li><a href="/Archives/Records/Records_Management/Records_Management/" target="_self">Records Management</a></li>
+        <li><a href="/Archives/About_the_VMI_Archives/About_the_VMI_Archives/" target="_self">About the Archives</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft3715">
+         Mary Laura Kludy
+        <br>Archives Assistant
+        <br>Ph: (540) 464-7516
+        <br>Fax: (540) 464-7089
+        <br>
+        <a title="archives@vmi.edu" href="mailto:archives@vmi.edu">archives@vmi.edu</a>
+        <br>Preston Library
+        <br>Lexington, Virginia 24450
+        <br>
+        <a title="Hours &amp; Visitor Info" href="/Archives/About_the_VMI_Archives/Hours___Visitor_Info/">Hours &amp; Visitor Info</a> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/archives/home/" title="">Archives</a> &gt; <a target="_self" href="/Archives/Manuscripts/Manuscripts_Home/" title="">Manuscripts</a> &gt; Military History Manuscripts</span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner"> 
+       <div id="sectionBranding"> 
+        <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/archives.jpg" style="width:700px;"> 
+        <hr> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column"> 
+       <h1>Military History<br>Letters, Diaries, Manuscripts</h1> 
+       <p>Other Sections of the Guide:&nbsp;<a title="Manuscripts Home" href="/archives.aspx?id=3723">Letters, Diaries, &amp; Manuscripts Home</a> &nbsp;</p> 
+       <p><em>Our <a title="Civil War Manuscripts" href="/archives.aspx?id=3945"><strong>Civil War collections</strong></a> are listed in a separate section of the guide. This section covers all other eras of military history.</em></p> 
+       <h3>&nbsp;See the <a title="VMI Archives Catalog " href="http://archivesspace.vmi.edu" target="_blank">VMI Archives Catalog </a>for detailed&nbsp;information about all manuscript holdings&nbsp;&nbsp;&nbsp;</h3> 
+       <ul class="arrowlist"> 
+        <li>&nbsp;<strong><a title="Military Oral History Home" href="http://digitalcollections.vmi.edu/cdm/landingpage/collection/p15821coll13" target="_blank">Military Oral History Collection</a></strong>&nbsp; <font color="#ff0000">Online Access</font></li> 
+        <li><strong><a title="Almond, Edward Mallory,&nbsp;Collection" href="http://archivesspace.vmi.edu/repositories/3/resources/172" target="_blank">Almond, Edward Mallory,&nbsp;Collection</a>. (MS 0089)</strong><br>Virginia Military Institute, Class of 1915; Lt. Gen., United States Army; member VMI Board of Visitors; d. 1979, San Antonio, Texas; buried Arlington National Cemetery. <em>Descriptive note:</em> The collection (ca. 21 items) includes transcripts of two oral history interviews.&nbsp; Other items include photographs (16 items), 1950-1951; misc. documents.</li> 
+        <li><a title="Anderson,&nbsp;Marvin J.,&nbsp;papers" href="http://archivesspace.vmi.edu/repositories/3/resources/542" target="_blank"><strong>Anderson,&nbsp;Marvin J.,&nbsp;papers</strong></a><strong>&nbsp;&nbsp;(MS 0472).&nbsp;&nbsp;</strong><font color="#ff0000">Online Access </font><font color="#ff0000">(selected)</font><strong>&nbsp;</strong><br>Marvin J. Anderson, Jr. (VMI Class of 1943) was serving as a Lieutenant in the U. S. Army Air Force when he was killed in action in Tunisia,&nbsp; North Africa on 24 February 1943.&nbsp; He was a crew member on a B-26 bomber. The bulk of the papers relate to Anderson's army career. They include flight training documents, photographs, misc. other army records, and a file of documents pertaining to his death and burial.</li> 
+        <li><strong><a title="Arnold, Thomas St. J., papers" href="http://archivesspace.vmi.edu/repositories/3/resources/389" target="_blank">Arnold, Thomas St. J., papers</a>&nbsp;&nbsp;(MS 0309)</strong><br>VMI Class of 1935; United States Army Officer, 1936-1967. Papers from&nbsp;his military career; most items date from World War II. Includes operational reports of the 92nd Infantry Division; misc. maps; photographs; correspondence.</li> 
+        <li><strong><a title="Bachtell, Linford B.,&nbsp;Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/537" target="_blank">Bachtell, Linford B.,&nbsp;Papers</a> (MS 0457)</strong><br>The papers consists primarily of items dating from the U. S. Air Force career of LTC Bachtell.&nbsp; Included are flight records, log books, and miscellaneous certificates and military orders. Bachtell served as a pilot with the Military Air Transport and during the Vietnam War he piloted supplies to South Vietnam from Taiwan.</li> 
+        <li><a title="Barksdale, Alfred D.,&nbsp;Papers " href="http://archivesspace.vmi.edu/repositories/3/resources/545"><strong>Barksdale, Alfred D.,&nbsp;Papers </strong></a><strong>(MS 0465)&nbsp;</strong><font color="#ff0000">Online Access<strong> </strong>(selected)</font><br>The papers consist of 9 items documenting the World War I U. S. Army career of Alfred Dickinson Barksdale (VMI Class of 1911).&nbsp; Barksdale served in France in the 116th Infantry, 29th Division, from 1917-1919.&nbsp; Included is a letter from Barksdale to his sister, dated August 20, 1918, written shortly after his arrival in France.</li> 
+        <li><strong><a title="Britt, Albert S., Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/132" target="_blank">Britt, Albert S., Papers</a>. (MS 0048)</strong><br>Papers (1930-1962) of Army officer Albert Sidney Britt, VMI Class of 1930. Includes correspondence, reports, and other documents from Britt's military career. One scrapbook dates from his cadetship at VMI, 1926-1930. Size: 3 linear feet.</li> 
+        <li><strong><a title="Byrd, J. Claiborn,&nbsp;Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/540">Byrd, J. Claiborn,&nbsp;Papers</a>&nbsp;&nbsp;(MS 0460)</strong><br><em>Descriptive note:</em>&nbsp;&nbsp; World War II papers of Lt. Col. J. Claiborn Byrd, who served with the 100th Infantry Division. The papers consist primarily of stateside training materials dating from his attendance at the Infantry School (Ft. Benning, GA, 1942) and the Command &amp; General Staff College course (1943). A few miscellaneous documents date from the 100th Division's service in the European Theater. Byrd (b. 1908 d. 2000) was a businessman from Durham, NC</li> 
+        <li><strong><a title="Burress, Withers A.,&nbsp;Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/142" target="_blank">Burress, Withers A.,&nbsp;Papers</a>. (MS 0058)</strong><br>Papers of General Withers A, Burress, VMI Class of 1914 and career Army officer. The papers cover the period 1942-1954. Included are photographs; subject file about the 100th Infantry Division; scrapbooks, miscellaneous correspondence, military orders and memoranda. Size: 1 linear foot.</li> 
+        <li><strong><a title="Cooper, George L. H.,&nbsp;Memoirs" href="http://archivesspace.vmi.edu/repositories/3/resources/283">Cooper, George L. H.,&nbsp;Memoirs</a>. (MS 0197)</strong><br>Typescript memoirs,&nbsp;detailing Cooper's Marine Corps Service in the Pacific Theater during World War II.&nbsp; He served with the 2d Engineer battalion, 2d Marine Division.</li> 
+        <li><strong>Couper, John L.,&nbsp;Papers&nbsp;&nbsp;(MS #0486).&nbsp;&nbsp;<a title="John L. Couper World War II Papers" href="/Archives/Manuscripts/00486CouperJL/John_L__Couper_World_War_II_Papers/">Online Photographs Exhibit &amp; Selected Full Text</a>&nbsp;</strong><br>World War II correspondence of Dr. John L. Couper (VMI Class of 1937), concerning his service&nbsp;in Europe with the U. S. Army Medical Corps.</li> 
+        <li><strong><a title="&nbsp;Dabney, William H. (COL), Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/732" target="_blank">Dabney, William H. (COL), Papers</a>. (MS 0508) </strong><br>An infantry officer, Colonel Dabney served 37 years in the Marine Corps, including two tours in Vietnam. While in Vietnam, he commanded India Company, 3rd Battalion, 26th Marines, on Hill 881S during the Battle of Khe Sanh, for which he was awarded the Navy Cross in 2005. The papers consist of oral history interviews; printed material; articles and clippings; citations for military awards, photographs; military papers; incoming correspondence</li> 
+        <li><strong><a title="Douglas, Wallace S., Collection" href="http://archivesspace.vmi.edu/repositories/3/resources/562" target="_blank">Douglas, Wallace S., Collection</a>&nbsp;&nbsp;(MS 0486).&nbsp;&nbsp;&nbsp;</strong><br>World War II photos and documents concerning Dr. Douglas's (Class of 1922) service as a physician with the U. S. Army Medical Corps stationed in New Caledonia.</li> 
+        <li><strong><a title="Downer, John W.&nbsp;collection." href="http://archivesspace.vmi.edu/repositories/3/resources/509" target="_blank">Downer, John W.&nbsp;collection.</a>&nbsp;&nbsp;(MS 0430)</strong><br>Colonel John W. Downer (VMI Class of 1902), served in the United States Army from 1901-1943. He was also a member of the U. S. Riding Team at the Seventh Olympic Games in 1920 and served as an American representative on the U. S. Olympic Committee. The collection&nbsp;includes scrapbook&nbsp;containing documents and photographs from his military career; and&nbsp;"Report of the American Olympic Committee, Seventh Olympic Games, Antwerp, Belgium, 1920."</li> 
+        <li><strong><a title="Gerow, Lee S.,&nbsp;Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/313" target="_blank">Gerow, Lee S.,&nbsp;Papers</a>.&nbsp;&nbsp; (MS 0228)</strong><br>Misc. documents from the career of Brig. General Lee S. Gerow (b. 1891 d. 1982), VMI Class of 1913. Includes diplomas, citations, certificates of promotion, photographs, 14 page typescript autobiography (1979), misc. correspondence. Size: 1 lf.</li> 
+        <li><a title="Gerow, Leonard T.,&nbsp;Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/592"><strong>Gerow, Leonard T.,&nbsp;Papers</strong></a><strong>. (MS 0100)&nbsp;&nbsp;&nbsp;&nbsp;</strong><font color="#ff0000">Online Access<strong> </strong>(Eisenhower correspondence)</font><br>Documents and photographs (ca. 120 items) from the military career of U.S. Army General Leonard Townsend Gerow (b. 1888 d.1972). Includes correspondence (ca. 25 items, 1940--1945) to and from General Dwight D. Eisenhower; autobiographical material; speeches (1945-1948); photographs. Size: .50 linear feet.</li> 
+        <li><strong><a title="Graham, C. Barrett, &nbsp;letters" href="http://archivesspace.vmi.edu/repositories/3/resources/497">Graham, C. Barrett, &nbsp;letters</a>. &nbsp;(MS 0418)</strong><br>[Access restricted] Letters (34 items) of Marine Corps Lieutenant Charles Barrett Graham (VMI Class of 1967). The letters were written to his parents and other family members, primarily during his tour of duty in Vietnam, 1968-1969. Graham served as a rifle platoon commander based at An Hoa (Fox Company, 2nd Battalion, 5th Marines) and subsequently was stationed at supply headquarters in Da Nang. Topics include patrols, general descriptions of countryside and villagers, destroying North Vietnamese food supplies. </li> 
+        <li><strong><a title="Hubbard, Mont.,&nbsp;Collection" href="http://archivesspace.vmi.edu/repositories/3/resources/524" target="_blank">Hubbard, Mont.,&nbsp;Collection</a>&nbsp;&nbsp;(MS 0327)</strong><br><em>Biographical note:</em>&nbsp;&nbsp; Mont Hubbard, b. 1910, Chatham, VA; VMI Class of 1932; businessman; Col., Artillery, United States Army, 1940-1946; d. 1968, Altavista, VA.&nbsp;&nbsp;<em>Descriptive note:</em>&nbsp;&nbsp;The collection consists of two annotated maps used by Col. Mont Hubbard during World War II. A map of France &amp; Germany, 1943, approximate size 48 inches x 36 inches; map, "Operation Highlights of the Third Armored Division, 23 June 1944 - 25 April 1945," approximate 29 inches x 22 inches (2 copies).</li> 
+        <li><strong><a title="Kibler, A. Franklin,&nbsp;Papers&nbsp;&nbsp;" href="http://archivesspace.vmi.edu/repositories/3/resources/534" target="_blank">Kibler, A. Franklin,&nbsp;Papers</a>&nbsp; (MS 0454)&nbsp;</strong>&nbsp;<br>During World War II Kibler served under General Omar Bradley as Assistant Chief of Staff for Operations, 12th Army Group, European Theater. Included are memoranda to and from Kibler and other senior officers (1943-1945); HQ 12th Army Group Commanding General's briefings (1944-1945); reports, including "Reports of the General Board, United States Forces, European Theater" (G-3 Section); photographs, and organizational charts.</li> 
+        <li><a title="Lee, Robert E. Mexican War Map collection" href="http://archivesspace.vmi.edu/repositories/3/resources/359" target="_blank">Lee, Robert E. Mexican War Map collection</a><strong> (MS 0277) </strong><font color="#ff0000">Online Access</font><br>A collection of 30 original military maps used by Robert E. Lee during the Mexican War, 1846-1848. Lee was at that time a Captain in the U.S. Army Engineers Corps. Two of the maps bear his signature. </li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/607" title="Lexington Arsenal and Virginia Militia Records" target="_blank">Lexington Arsenal and Virginia Militia Records</a> (MS 0244)&nbsp;</strong><span style="color: rgb(255, 0, 0);">Online Access</span><br>An arsenal was completed at Lexington, Virginia in 1818 and some weapons and gunpowder were transferred there from the armory in Richmond. After the Virginia Military Institute was opened on the site of the arsenal in November 1839, the cadets served as guards for the arsenal, and regular troops were no longer stationed there. This collection contains 47 items, 1702-1839, concerning the operation of the Lexington Arsenal, various regiments of the Virginia Militia stationed in Lexington, and some militia records that pre-date the establishment of the arsenal. Documents include regimental returns, a register of the guard, garrison orders, accounts and payrolls, and appointment documents.</li> 
+        <li><strong><a title="Lillard, John M., collection" href="http://archivesspace.vmi.edu/repositories/3/resources/492" target="_blank">Lillard, John M., collection</a>. &nbsp;&nbsp;(MS 0413)</strong><br>The collection (18 items) consists of material dating from Lillard's service as a U.S. Navy pilot stationed in the Persian Gulf area. Included are tactical pilotage and jet navigation charts that he used during Operation Desert Storm and Operation Desert Shield in 1991; Joint Overhead Graphic of Lebanon (1983) used during operations in support of the Multinational Peacekeeping Force occupation of Beirut International Airport; photographs of U.S. Navy F-14s and the USS Abraham Lincoln; letter detailing his experience during the Persian Gulf War; and program from a memorial service held aboard the USS Theodore Roosevelt for three men killed in action in Feb. 1991. Lillard is a member of the Virginia Military Institute Class of 1980. Inventory available.</li> 
+        <li><a title="Moss, James B., Jr. Diary" href="http://archivesspace.vmi.edu/repositories/3/resources/522" target="_blank"><strong>Moss, James B., Jr. Diary</strong></a><strong>. (MS 0452)&nbsp;&nbsp;&nbsp;</strong><font color="#ff0000">Online Access</font><br>World War II diary (1943-1944) of James B. Moss, Jr., VMI Class of 1946. Moss served with the 15th Field Artillery Observation Battalion at Anzio, Italy.</li> 
+        <li><strong><a title="Nelson, John C., Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/739" target="_blank">Nelson, John C., Papers</a> (MS 0502)</strong><br>Misc. Papers and photographs dating from his service with as First Lieutenant, 119th Infantry, 30th Division, A.E.F. (approx. 25 items). He was in the Class of 1918.</li> 
+        <li><strong>Peay, J. H. Binford III, Interview (MS 5002)</strong> <br>Oral history interview transcript. &nbsp;This interview was conducted in August 2009 by Dr. Lewis Sorley for the U. S. Army Military History Institute Senior Officers Oral History Program. GEN Peay had a distinguished U. S. Army career before his service as VMI's 14th Superintendent.&nbsp; See also: <a title="J. H. Binford Peay III Interview" href="http://digitalcollections.vmi.edu/cdm/ref/collection/p15821coll13/id/413" target="_blank">additional interviews </a>conducted by VMI cadets, which are available online.&nbsp;</li> 
+        <li><a title="Perkinson, T. Randolph, Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/553" target="_blank"><strong>Perkinson, T. Randolph, Papers</strong></a><strong>. (MS 0473)&nbsp; </strong><font color="#ff0000">Online Access<strong> </strong>(selected)</font><br>The bulk of the papers consists of miscellaneous items dating from Perkinson's the World War I service with the HQ, 30th Division, as an aide-de-camp to General S. L. Faison.</li> 
+        <li><strong><a title="Randolph, John H., Jr., Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/521" target="_blank">Randolph, John H., Jr., Papers</a> (MS 0441)</strong><br>John H. Randolph, Jr., (VMI Class of 1942) served as a pilot in the United States Army Air Corps during World War II. Randolph saw action in the Pacific Theater and was awarded the Distinguished Flying Cross and the Air Medal. The collection includes military orders, misc. documents relating to bombing missions, misc. other military records, and five photographs.</li> 
+        <li><strong>&nbsp;<a title="Richards, Gates T., Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/49" target="_blank">Richards, Gates T., Papers</a>.&nbsp;&nbsp; (MS 0505)</strong><br>The collection consists of slides, photographs, printed material, leaflets and propaganda material, and miscellaneous documents dating from Richards' (Class of 1961)&nbsp;service in a Psychological Operations unit during the Vietnam War, 1966-1967</li> 
+        <li><a title="Rockenbach, Samuel Dickerson, Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/581" target="_blank"><strong>Rockenbach, Samuel Dickerson, Papers</strong></a><strong>. (MS 0001)&nbsp;</strong>&nbsp;<font color="#ff0000">Online Exhibit</font><br>Military career papers (1889-1945)of army officer Samuel Dickerson Rockenbach (b. 1869 d. 1952), VMI Class of 1889. Rockenbach was notable for his role in the establishment of the U.S. Army Tank Corps during World War I and his postwar work in the development of tank warfare. Size: 2 linear feet.</li> 
+        <li><strong><a title="Ruffner, David L., papers" href="http://archivesspace.vmi.edu/repositories/3/resources/418" target="_blank">Ruffner, David L., papers</a>&nbsp;&nbsp;(MS 0338)</strong><br><em>Biographical note:</em>&nbsp;&nbsp; David Lewis Ruffner, b. 1896, Charleston, West Virginia; VMI Class of 1917; United States Army officer, 1917-1953, retiring with the rank of Major General; d. 1973, Metarie, Louisiana.&nbsp;&nbsp;<em>Descriptive note:</em>&nbsp;&nbsp; Miscellaneous personal papers, 1940-1953, of General David L. Ruffner. The collection includes photographs, scrapbooks, and certificates. Medals and other artifacts are located in the VMI Museum.</li> 
+        <li><strong><a title="Shepherd, Lemuel C., Jr. Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/602" target="_blank">Shepherd, Lemuel C., Jr. Papers</a>. (MS 0006)&nbsp;</strong>&nbsp;&nbsp;<br>Misc. papers (1896-1990) of Marine Corps General Lemuel C. Shepherd, Jr., VMI Class of 1917. Shepherd served in World Wars I, II, Korea, and as Marine Corps Commandant. The collection consists primarily of scrapbooks and photographs that document Shepherd's cadetship (1914-1917), his military career, and his post-Marine Corps service as Chairman of the Inter-American Defense Board. Includes miscellaneous personal correspondence and military orders; however these items are not a significant portion of the collection. Size: ca. 5 linear feet.</li> 
+        <li><strong><a title="Smith, Robert N., Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/738">Smith, Robert N., Papers</a> (MS 0501).</strong><br>Misc. papers (ca. 10 items) dating from Smith's (Class of 1947) service with the 255th Infantry, Company M, 63rd Division in Germany, 1945.</li> 
+        <li><strong><a title="Talbott, Samuel G., Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/183" target="_blank">Talbott, Samuel G., Papers</a>. (MS 0101)</strong><br>Samuel Greaner Talbott, b. 1877 Richmond, Virginia; VMI Class of 1899; United States Army officer, 1902-1945; died 1965, Virginia. <em>Descriptive note:</em> Papers (ca. 25 items) documenting Talbott's cadetship and part of his army career. Includes diary and miscellaneous items dating from his service with the 28th Infantry Regiment in the Philippines, 1901-1903.</li> 
+        <li><strong><a title="Tobey, Nelson W.,&nbsp;collection" href="http://archivesspace.vmi.edu/repositories/3/resources/426" target="_blank">Tobey, Nelson W.,&nbsp;collection</a>&nbsp;&nbsp;(MS 0346)</strong><br>One typescript publication (196 pp.), "History of the 7th Field Artillery battalion, WWII," by Nelson W. Tobey, VMI Class of 1939.</li> 
+        <li><a title="Tompkins, George J., Jr.,&nbsp;Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/547" target="_blank"><strong>Tompkins, George J., Jr. Papers</strong></a><strong> (MS 0467) </strong><font color="#ff0000">Online Access</font><strong>&nbsp;</strong><br>Miscellaneous World War II papers documenting the army service of George J. Tompkins, Jr.&nbsp;&nbsp; Included are Gen. Eisenhower's letter to the troops about to participate in the D-Day invasion, June 1944, and a similar item from President Roosevelt.&nbsp; Tompkins is a member of the VMI Class of 1944.&nbsp; See Also:&nbsp; <a title="Tompkins Oral History Interview" href="http://digitalcollections.vmi.edu/cdm/ref/collection/p15821coll13/id/531" target="_blank"><strong>Tompkins Oral History Interview</strong></a></li> 
+        <li><strong><a title="Townes, John E.,&nbsp;Collection" href="http://archivesspace.vmi.edu/repositories/3/resources/567" target="_blank">Townes, John E.,&nbsp;Collection</a> (MS 0487)&nbsp;</strong>A portion of the papers includes photographs concerning Townes's service with the U S. Army Coast Artillery Corps, 1908-1920.</li> 
+        <li><a title="Upshur, William P.,&nbsp;collection" href="http://archivesspace.vmi.edu/repositories/3/resources/155" target="_blank"><strong>Upshur, William P.,&nbsp;collection</strong></a><strong>. (MS 0082)&nbsp; </strong><font color="#ff0000">Online Access</font><strong>&nbsp;</strong><br> VMI Class of 1902; Major General, United States Marine Corps; Commanding General, Department of the Pacific during World War II; died 1943 in plane crash near Sitka, Alaska.&nbsp; The collection consists of two inspection trip scrapbooks, May 1942 and 1943 documenting General Upshur's visits to various Pacific islands. </li> 
+        <li><strong><a title="Vivian, William R., Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/574" target="_blank">Vivian, William R., Papers</a> (MS 0494)<br>&nbsp;</strong>A portion of the papers includes information about the&nbsp;698th Field Artillery Battalion during World War II.</li> 
+        <li><strong><a title="Whittle, William M., Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/698" target="_blank">Whittle, William M., Papers</a> (MS 0098)</strong><br>Military papers (approx. 21 items)&nbsp;of Captain William M. Whittle, VMI Class of 1917. Whittle served in World War I with the 314th Machine Gun Battalion and was sent to France in May 1918. </li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

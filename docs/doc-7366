@@ -1,0 +1,671 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	Virginia Military Institute - Economics Newsletter Spring 2014
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets,liberal arts, lexington, ncaa div. 1, competitive, civilian, commission, barracks, science, co-ed, public, university, ethics, honor, character, responsibility, undergraduate, leaders">
+  <meta name="Description" content="Virginia Military Institute is a small, public, nationally-ranked college committed to leadership development in a military environment in Lexington, Virginia. VMI instills values of honor, discipline, selflessness, commitment, duty, self-reliance, and service. VMI is recognized as one of America’s top colleges for liberal arts and sciences by US News &amp;amp; World Report, The Princeton Review, and Peterson’s Guide to Competitive Colleges. US News ranks VMI’s engineering programs among the twenty best in America. Men and women of VMI are free to choose military or civilian careers.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=10737429558" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCDw8PFgIeB1Zpc2libGVoZGQCEw9kFgYCAQ8PFgIfCGdkZAIDDw8WAh8IaGRkAgUPZBYCAgEPZBYCZg9kFgJmDxYCHwhnFgICAQ8PFgIfAgUnL3VwbG9hZGVkSW1hZ2VzL0ltYWdlcy9IZWFkZXJzL2VjYnUuanBnZGRkHWtlnzttVo01yKZTvrPaK2aCNnjf8UCqVXIrlKEkqIQ="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAQwU4zhz6YOeV8R1Zjfax6/tVqhg79+cCaf2Muxgy28w6Ld5e0tb35jjra3L8Dofk5aGpeLsHyujys0vCNqhELerKCjPxpoK4sqjObEX05m6lmZH6lrLDb/yu5mJOpcS4w="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+        <li><a href="/Content.aspx?id=10737429947" target="_self">Economics &amp; Business Home</a></li>
+        <li><a href="/content.aspx?id=17219" target="_self">Degrees &amp; Programs</a></li>
+        <li><a href="http://vmi.catalog.acalog.com/preview_entity.php?catoid=15&amp;ent_oid=344&amp;returnto=448" target="_blank">Courses</a></li>
+        <li class="selected"><strong><a href="/Content.aspx?id=10737432611" target="_self">Economics Newsletter</a></strong>
+         <ul>
+          <li><a href="/Content.aspx?id=10737432611" target="_self">Spring 2015</a></li>
+          <li class="selected"><strong><a href="/Content.aspx?id=10737429558" target="_self">Spring 2014</a></strong></li>
+          <li><a href="/Content.aspx?id=10737424990" target="_self">Spring 2013</a></li>
+          <li><a href="/Content.aspx?id=10737421601" target="_self">Spring 2012</a></li>
+          <li><a href="/Content.aspx?id=4294974074" target="_self">Spring 2011</a></li>
+          <li><a href="/Content.aspx?id=4294970486" target="_self">Spring 2010</a></li>
+          <li><a href="/Content.aspx?id=39125" target="_self">Spring 2009</a></li>
+          <li><a href="/Content.aspx?id=21561" target="_self">Spring 2008</a></li>
+          <li><a href="/Content.aspx?id=20077" target="_self">Spring 2007</a></li>
+         </ul></li>
+        <li><a href="/content.aspx?id=1472" target="_self">Departmental Activities</a></li>
+        <li><a href="/Content.aspx?id=1524" target="_self">Policies &amp; Forms</a></li>
+        <li><a href="/Content.aspx?id=10737429961" target="_self">About ECBU</a></li>
+        <li><a href="/Content.aspx?id=4294974315" target="_self">Faculty</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft1546"> 
+        <p><a href="/WorkArea/DownloadAsset.aspx?id=10737433777" class="btn btn-info" title="Open House Presentation">Open House Presentation</a></p> 
+        <p><a title="Senior Exit Survey 2013" class="btn btn-primary" href="http://www2.vmi.edu/econsurveys/ExitSurvey.asp" target="_blank">Senior Exit Survey</a></p> 
+        <p><a title="Attention Alumni: Classes of 1997 and 2007, please click here to complete survey." class="btn btn-success" href="http://www2.vmi.edu/econsurveys/ECBUSurvey.asp" target="_blank">Alumni '97 &amp; '07 survey</a></p> 
+        <address><p><strong>Donna Potter</strong><br> Executive Secretary <br><br> P:&nbsp; (540) 464-7234<br> F:&nbsp; (540) 464-7005<br><br> Virginia Military Institute<br> 345 Scott Shipp Hall<br> Lexington, VA&nbsp; 24450</p> <p><a href="mailto:economics@vmi.edu">Contact ECBU</a></p> </address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/ecbu.jpg" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <div class="content1">
+        <h1>Economics Newsletter Spring 2014</h1>
+        <p>On behalf of the ECBU faculty and staff, welcome to the 8th edition of the department’s newsletter.<br><br>Academic year 2013-2014 was particularly busy. In addition to the many activities and events highlighted in each section below, the faculty was active gearing up for our upcoming “Maintenance of Accreditation” visit from representatives of the Association for the Advancement of Collegiate Schools of Business (AACSB International). Accreditation review and re-affirmation is required every five years. Initial accreditation occurred in late fall of 2009; so, in October of this year, our “peer review team” (PRT) will visit. The faculty has worked diligently the past several years to maintain AACSB International standards in all four domains: strategic management, student participation, faculty participation, and assurance of learning (assessment).<br><br>With great regret we learned in fall 2013 that this year would be Col. Barry Cobb’s last at VMI. Barry and his family are moving to Missouri to be nearer to family. Barry has been a truly outstanding colleague the past nine years and while we wish him well, he will be sorely missed. We collectively feel very fortunate to have found and hired Benjamin Grannan, who will join the department full-time in August 2014 (after teaching here in the first summer session). Ben is completing his Ph.D. in operations management at Virginia Commonwealth University.<br><br>We hope you will enjoy reading about the many exciting activities and accomplishments of the past academic year. Just click on the topic heading for the full story.<br><br>Best Regard,<br><br>Col. Bob Moreschi<br>Department Head</p>
+       </div>
+       <div class="accordion">
+        <div>
+         <h2>The Roberts Free Enterprise Center</h2>
+         <a href="#" class="readMore">This year our department Established the Roberts Free Enterprise Center.</a>
+         <div class="more">
+          This year our department established the Roberts Free Enterprise Center. This center, funded partly through the generosity of John and Jane W. Roberts, is dedicated to support the free enterprise component of VMI’s mission “to produce educated, honorable men and women, prepared for the varied work of civil life, imbued with love of learning, confident in the functions and attitudes of leadership, possessing a high sense of public service, advocates of the American democracy and free enterprise system, and ready as citizen-soldiers to defend their country in time of national peril.” The Center sponsored a number of activities this year to get off to a flying start.
+          <br>
+          <br>The Roberts Free Enterprise Center invited Dr. David Chu as this year’s Roberts Free Enterprise speaker. He addressed EC/BU majors on “Can Defense Benefit from Market Principles?” Dr. Chu is currently the president of the Institute of Defense Analysis (IDA). Dr. Chu has also served in the Department of Defense as Under Secretary of Defense for Personnel and Readiness from 2001-2009, and earlier as Assistant Secretary of Defense and Director for Program Analysis and Evaluation from 1981-1993. He has a Ph.D. in economics from Yale. Dr. Chu has also graciously agreed to help interested cadets pursue internships/job opportunities at IDA that involve the application of market principles to national security issues.
+          <br>
+          <br>The Center, along with funding from the Charles Koch foundation, sponsored a panel discussion on the ethics of free markets and a presentation on the “Overlooked Costs of the War Economy.” Cadets also participated in a “free market party” organized by ODE (the Honor Society in Economics) in collaboration with the Center and the Free To Choose Network. The party centered around a movie presentation: “
+          <a title="Economic Freedom in Action: Changing Lives" href="http://freetochoosenetwork.org/broadcasts/" target="_blank">Economic Freedom in Action: Changing Lives</a>.” Faculty met with members of ODE over lunch, which was sponsored by the Charles Koch Foundation, to discuss the institutional approach to free markets as a follow up to the movie presentation. The Roberts Free Enterprise Center has also created and will maintain (during the regular semesters) an online blog on the role of free markets in society with a particular focus on how free markets promote peace: 
+          <a title="http://politicaleconomyofconflictdiscussiongroup.wordpress.com/category/free-markets/" href="http://politicaleconomyofconflictdiscussiongroup.wordpress.com/category/free-markets/" target="_blank">http://politicaleconomyofconflictdiscussiongroup.wordpress.com/category/free-markets/</a>.
+          <br>
+          <br>The Roberts Free Enterprise Center is also spearheading a number of student and faculty development efforts. The Roberts Fellow program was initiated in spring 2014. Cadets appointed as a Robert’s Fellow help faculty as research assistants and gain research, analysis, and writing experience in the analysis of free markets. The Center also established the Roberts Research Workshop series in fall 2013. This program helps faculty members improve their scholarship through active peer feedback, with the goal of enhancing the impact of VMI EC/BU scholarship in free enterprise economics by helping place work at quality journals.
+          <br>
+          <br>The Center is also actively involved in promoting interdisciplinary research emphasizing free markets with undergraduates with help from the Charles Koch Foundation. Cadet Chap Michie (Applied Mathematics) presented a paper co-authored with COL Atin Basuchoudhary (ECBU) and MAJ John David (Applied Mathematics) at the US Public Choice meetings. This paper explored how psychological markers of capitalism (patience) are associated with the evolution of good institutions.
+         </div>
+        </div>
+        <div>
+         <h2>Faculty Activity</h2>
+         <a href="#" class="readMore">Our faculty has been hard at work publishing research in academic journals as well as presenting their research at various conference around the country and the world.</a>
+         <div class="more">
+          <p><a title="Lt. Col. Sam Allen" href="/Content.aspx?id=10737428579" target="_blank"><strong>Lt. Col. Sam Allen</strong></a><br>Presentations</p>
+          <ul class="checklist">
+           <li>“Fertility and Public Housing," (with Katie Shester) 2014 Virginia Association of Economists.</li>
+           <li>“College Major Choice &amp; Public Policy," (with Gregory Lilly) 2014 International Atlantic Economics Association.</li>
+           <li>“Progressive Era Laws and Manufacturing Outcomes," (with Price Fishback) 2013 Economic History Association.</li>
+          </ul>
+          <p>Other Activity</p>
+          <ul class="checklist">
+           <li>Appointed President of the Virginia Association of Economists.</li>
+           <li>Serving as the Class Advisor for the Class of 2017.</li>
+          </ul>
+          <p><a title="Col.&nbsp;Atin Basu" href="/Content.aspx?id=10737428583" target="_blank"><strong>Col.&nbsp;Atin Basu</strong></a></p>
+          <p>Publications</p>
+          <ul class="checklist">
+           <li>“Brinkmanship – Threatening War in the Presence of Asymmetric Information about Iranian WMD Resolve,” (with Rich Meredith, US Dept. of State). <em>Virginia Economic Journal</em>.&nbsp;</li>
+           <li>“Cultural Assimilation: The Political Economy of Psychology as an Evolutionary Game Theoretic Dynamic,” Co-author: (with Col. Dave Cotting, Psychology). <em>Evolutionary and Behavioral Sciences</em>.</li>
+          </ul>
+          <p>Other Publication</p>
+          <ul class="checklist">
+           <li>Book Review (2014): Acemoglu and Robinson. <em>Why Nations Fail. The Origins of Power, Prosperity, and Poverty</em>. Crown Publishing Group for Public Choice.</li>
+          </ul>
+          <p>Conference Presentations</p>
+          <ul class="checklist">
+           <li>“The Evolution of Civil Conflict and State Power.” (with Ghislain Dutheil de la Rochere), 2014 European Public Choice Society Meetings.</li>
+           <li>“Patience and “good” Institutions: Predicting Real Interest Rates and Institutional Quality,” (with Maj. John David, Applied Mathematics and Cadet Chap Michie), 2014 US Public Choice Society Meetings.</li>
+           <li>“When Good Little Debts Went Bad: An Empirical Study of Small Claims Litigation in Augusta County, Virginia, 1746-1755,” (with Col. Tinni Sen, ECBU and Col. Turk McCleskey, History), 2013 Southern Economic Association Meetings.</li>
+          </ul>
+          <p>SURI Mentor</p>
+          <ul class="checklist">
+           <li>Mentored Cadet Chap Michie “Patience and “good” Institutions: Predicting Real Interest Rates and Institutional Quality” (with Maj. John David, Applied Mathematics).</li>
+          </ul>
+          <p><a title="Dr. Jiang Bing" href="/Content.aspx?id=10737428788" target="_blank"><strong>Dr. Jiang Bing</strong></a></p>
+          <p>Publication</p>
+          <ul class="checklist">
+           <li>“Can Personality Type Explain Heterogeneity in Probability Distortions?” (with C. M. Capra, J. Engelmann, and G. Berns) <em>Journal of Neuroscience, Psychology and Economics</em>.&nbsp;</li>
+          </ul>
+          <p>Presentations</p>
+          <ul class="checklist">
+           <li>“Understanding the Entrepreneurial Personality,” International Academy of Business and Economics Winter Conference.</li>
+           <li>Dr. Bing Jiang, “What is Behind Risk Preference Instability?” (with C. M. Capra), 83rd Southern Economic Association Annual Meetings.</li>
+          </ul>
+          <p><a title="Col. Francis Bush" href="/Content.aspx?id=10737428589" target="_blank"><strong>Col. Francis Bush</strong></a></p>
+          <p>He stepped down after serving for 7 years on the Board of Directors of the Virginia Association of Economists, serving one year each as the Program Chair, the President and the Chair of the Nominating Committee.&nbsp;&nbsp;</p>
+          <p>Col. Bush has also been extremely active in cadet development efforts, including serving as adviser to both the Ballroom Dance Club and Men-in-Grey, as a defense advocate for the Honor Court, and as the adviser to the Class of 2017.&nbsp;&nbsp;</p>
+          <p>However, Col. Bush’s biggest events have occurred outside of his normal activities on Post.&nbsp; After seven years of traveling and running, Col. Bush finished his last state (Wisconsin) in his effort to complete a marathon in all fifty states and DC. Accompanying on his run was his daughter, Adina.&nbsp; At the time of the race she was three months pregnant.&nbsp; Jack arrived on 9 April.&nbsp;</p>
+          <p><img title="Francis-Bush" alt="Francis-Bush" src="/assets/0/16/48/10737424454/76/2195/10737424424/10737424425/4844268a-cbae-4dc4-9243-f24e690c27cb.jpg?n=5553"></p>
+          <p>Col. Bush participated in his fraternity’s service learning project in Jamaica.&nbsp; Just before classes began in January, he spent four days doing manual labor on a construction project at Cove Elementary School.&nbsp; The program also provided two days to simply tour and interact with the people of Jamaica.&nbsp; The opportunity provided Col. Bush a chance to understand more about global poverty.<br><br><a title="Col.&nbsp;Barry Cobb" href="/Content.aspx?id=10737428611" target="_blank"><strong>Col.&nbsp;Barry Cobb</strong></a></p>
+          <p>Publications</p>
+          <ul class="checklist">
+           <li>“Finding mixed strategy Nash equilibria with decision trees” (with COL Tinni Sen, ECBU), <em>International Review of Economics Education</em>.</li>
+           <li>“A note on supply chain coordination with joint determination of order quantity and reorder point using a credit option” (with A.W. Johnson), <em>European Journal of Operational Research</em>.</li>
+          </ul>
+          <p>Summer Internship</p>
+          <ul class="checklist">
+           <li>Cadets Andrew Marcotte and Logan Staib worked on research funded by a grant from the United States Department of Defense through the Naval Postgraduate School.&nbsp; The project is entitled “Modeling Uncertainty in Military Supply Chain Management Decisions” and the project director is COL Barry Cobb.&nbsp; The cadets worked to analyze inventory data from the Air Force Standard Base Supply System on parts used for F-15 and F-16 aircraft to determine how best to incorporate uncertain demand and desired readiness into decisions regarding the purchase and storage of these items in inventory.<br>The project is ongoing and COL Cobb will make a presentation on the results at the Naval Postgraduate School’s Defense Acquisition Symposium in Monterey, CA in May.</li>
+          </ul>
+          <p><a title="Maj.&nbsp;Valentina Dimitrova-Grajzl" href="/Content.aspx?id=10737428753" target="_blank"><strong>Maj.&nbsp;Valentina Dimitrova-Grajzl</strong></a></p>
+          <p>Publication</p>
+          <ul class="checklist">
+           <li>"Jurisdiction, Crime and Development: The Impact of Public Law 280 in Indian Country" (with Peter Grajzl and Joseph Guse), <em>Law and Society Review</em>.</li>
+          </ul>
+          <p>Conference Presentations&nbsp;</p>
+          <ul class="checklist">
+           <li>"Jurisdiction, Crime and Development: The Impact of Public Law 280 in Indian Country", Southern Economic Association.</li>
+           <li>"Understanding Modes of Civil Case Disposition: Evidence from Slovenian Courts", Southern Economic Association.</li>
+          </ul>
+          <p>Grant</p>
+          <ul class="checklist">
+           <li>American Sociological Association, Fund for the Advancement of the Discipline Award, $5400, Project Title: "Tracing the Global Spread of National Identity: A Pilot Study" joint with Jonathan Eastwood, Peter Grajzl and Nicolas Prevelakis, Fall 2013.</li>
+          </ul>
+          <p>Other</p>
+          <ul class="checklist">
+           <li>Awarded Faculty Development Leave for Fall 2014.</li>
+          </ul>
+          <p><a title="Maj.&nbsp;Jennifer Gerow" href="/Content.aspx?id=10737428762" target="_blank"><strong>Maj.&nbsp;Jennifer Gerow</strong></a></p>
+          <p>Publications</p>
+          <ul class="checklist">
+           <li>"Six Types of IT-Business Strategic Alignment: An Investigation of the Constructs and Their Measurement" (with J. B. Thatcher and V. Grover), <em>European Journal of Information Systems</em>.</li>
+           <li>"When It Comes to Facebook There May be More to Bad Memory than Just Multitasking" (with LTC Scott Frein, Psychology and S. Jones), <em>Computers in Human Behavior</em>.</li>
+           <li>"Can we have fun @ work? The role of intrinsic motivation for utilitarian systems," (with R. Ayyagari, J.B. Thatcher and P.L. Roth), <em>European Journal of Information Systems</em>.</li>
+           <li>"Is Cloud Computing All That It’s Cracked Up to Be? Why Ambivalent Users May Avoid Adopting: Research-in-Progress" (with MAJ Patrick Rhamey, International Studies), Poster Session at Americas Conference on Information Systems 2014 in Savannah, GA.</li>
+          </ul>
+          <p><a title="Col.&nbsp;Robert Moreschi" href="/Content.aspx?id=10737428576" target="_blank"><strong>Col.&nbsp;Robert Moreschi</strong></a></p>
+          <p>Presentations</p>
+          <ul class="checklist">
+           <li>“Self Assessment of Risk Tolerance” Academy of Financial Services Annual Conference.</li>
+           <li>“A Case Study of Employee Benefit Plan Fees” Financial Education Association Annual Conference.</li>
+          </ul>
+          <p>Consulting&nbsp;</p>
+          <ul class="checklist">
+           <li>Managing Principal with Eastern Point Securities, Inc., an institutional financial services firm. </li>
+          </ul>
+          <p>Editorial</p>
+          <ul class="checklist">
+           <li>Associate Editor of the <em>Academy of Economics and Finance Journal</em>.&nbsp;</li>
+           <li>Editorial Board Member of the <em>Journal of Personal Finance</em>.&nbsp;</li>
+           <li>Director on the Board of the Academy of Financial Services. </li>
+          </ul>
+          <p><a title="Col.&nbsp;Tinni Sen" href="/Content.aspx?id=10737428798" target="_blank"><strong>Col.&nbsp;Tinni Sen</strong></a></p>
+          <p>Publication</p>
+          <ul class="checklist">
+           <li>“Finding mixed strategy Nash equilibria with decision trees” (with Col.&nbsp;B. Cobb, ECBU), <em>International Review of Economics Education</em>.</li>
+          </ul>
+          <p>Presentation</p>
+          <ul class="checklist">
+           <li>“When Good Little Debts Went Bad: An Empirical Study of Small Claims Litigation in Augusta County, Virginia, 1746-1755,” (with Col. Atin Basu, ECBU and Col. Turk McCleskey, History), 2013 Southern Economic Association Meetings.</li>
+          </ul>
+          <p>Other:</p>
+          <ul class="checklist">
+           <li>Was appointed Secretary of the VMI chapter of Phi Kappa Phi</li>
+           <li>Awarded an undergraduate grant for newly structured writing intensive class International Finance. This is featured in page 12 of the <a title="Institute Report " href="http://www.vmi.edu/WorkArea/DownloadAsset.aspx?id=10737426360">Institute Report </a></li>
+          </ul>
+          <p><a title="Lt. Col.&nbsp;Jeff Smith" href="/Content.aspx?id=10737428814" target="_blank"><strong>Lt. Col.&nbsp;Jeff Smith</strong></a></p>
+          <p>Presentation</p>
+          <ul class="checklist">
+           <li>“The Effect of Conflict on Investment in Africa,” (with Mike Hicks, Ball State University), <br> Eastern Economic Association, Boston, MA, 2014</li>
+          </ul>
+         </div>
+        </div>
+        <div>
+         <h2>New Faculty</h2>
+         <a href="#" class="readMore">We are fortunate to have one new faculty member joining our department.</a>
+         <div class="more">
+          We are very fortunate to have one new faculty member joining our department. Ben Grannan received his Ph.D. in Systems Modeling &amp; Analysis with a concentration in Operations Research from Virginia Commonwealth University (2014).&nbsp; He also received his M.S. degree in Mathematics from Virginia Commonwealth University (2009) and his B.S. degree in Mathematics with a minor in Secondary Education from Lynchburg College (2006).&nbsp; Ben’s teaching interests are in Operations Management, especially spreadsheet modeling and decision analysis.&nbsp; Ben’s current research examines the discrete optimization of military aeromedical evacuation systems to increase the survivability of combat casualties.&nbsp; Ben and his wife Whitney are expecting their first child in July 2014 and are very excited to join the VMI family.
+         </div>
+        </div>
+        <div>
+         <h2>The Cadet Investment Group</h2>
+         <a href="#" class="readMore">The VMI Foundation established the Cadet Investment Group (CIG) in 1986. The group's mission is to learn about investing. To do this, members serve as investment analysts and portfolio managers. </a>
+         <div class="more">
+          <p>The VMI Foundation founded and funded the Cadet Investment Group (CIG) beginning in 1986. The group’s mission is to learn about investing and the stock market. To do this, members serve as officers, managing directors covering the major industry sectors, and as investment analysts. In fall 2013, the group expanded from two teams to three. Team A focuses on large capitalization stocks (more than $10 billion in market value), Team B invests in middle capitalization stocks (from $1 billion to $10 billion in market value), while Team C invests in small capitalization stocks (market value between $500 million and $1 billion). Each team is structured similarly, with a president and vice president, managing directors and investment analysts. The expansion increased the group from 31 members to 43, including an increase in officers from five to seven. CIG is open to all 1st, 2nd and 3rd class cadets, without regard to major. The groups are managed by a Chairman, who is responsible for all administrative activities. One member served in the capacity of Vice Chair of Education. Faculty advisors to the CIG are Col. Cliff West and Col. Bob Moreschi. </p>
+          <p>The groups use their own specific screening criteria, focusing on financial strength with a “value” approach. Firms on the screening list are then further analyzed, both on fundamental and technical variable. Sector analysis with a “top down” investment style is also incorporated. Members are divided into four-person sector teams, tasked with analyzing their sector and making recommendations on the amount of dollars to invest in each sector. These teams also are the primary source for information about stock positions to sell and new stocks to purchase, relative to the respective groups.</p>
+          <p>At the beginning of the year, the combined assets of the three groups were $311,000. By late April 2014, the market value of the combined portfolios was in excess of $315,000.</p>
+          <p>The group took two trips this year to visit investment firms.&nbsp; In October twelve members and the advisors (Col. West and Col. Moreschi) traveled to NYC and spent time meeting with executives of J.P. Morgan, TM Capital, Wilkinson O'Grady &amp; Col, Inc., and Bloomberg LP.&nbsp; In addition, the group was hosted to dinner with many of the NYC VMI alumni.&nbsp; In March a larger group traveled to Richmond to meet with investment analysts and traders from Scott &amp; Stringfellow and the BB&amp;T Capital Markets Group.<br><br>Officers in 2013-2014 are:<br>Chairman: Will Dodson (History)<br>President Group A (large cap): Matthew Reardon (Civil Engineering)<br>Vice President Group A (large cap): Edward Chu (Economics and Business)<br>President Group B (mid cap): Chap Michie (Applied Math)<br>Vice President Group B (mid cap): Conrad Wharton (Psychology)<br>President Group C (small cap): Samuel Elliott (Economics and Business)<br>Vice President Group C (small cap): Daniel Miller (Economics and Business)<br><br>Officers in 2014-2015 are:<br>Chairman: Chap Michie (Applied Math)<br>Vice Chair for Education: Samuel Trumps (Economics and Business)<br><br>President Group A (large cap): Ricky Siewers (Economics and Business)<br>Vice President Group A (large cap): Gary LeClair (Economics and Business)<br>President Group B (mid cap): Alex Lin (Applied Math)<br>Vice President Group B (mid cap): Jack Zippel (Applied Math)<br>President Group C (small cap): Clark Chen (Economics and Business)<br>Vice President Group C (small cap): Peter Fisher (Economics and Business)<br><img title="CIG-14" alt="CIG-14" src="/assets/0/16/48/10737424454/76/2195/10737424424/10737424425/719f3e9d-7bc6-42e5-b37d-3d7596dd8b30.jpg?n=135"></p>
+         </div>
+        </div>
+        <div>
+         <h2>Cadet Internships</h2>
+         <a href="#" class="readMore">In the summer of 2014, sixteen cadets will be participating in internships at various businesses across the country. Some of these cadets are also doing the associated academic work required to earn business or economic elective credits for their internships.</a>
+         <div class="more">
+          <p>At least 16 Economics and Business majors will be performing summer internships in the summer of 2014. Good internships are hard to find these days, although the situation is improving as both the national mood and the economy improves. A major factor is competition from students at other colleges. Success often depends on cadets pursuing internships opportunities with energy and imagination. Utilizing the VMI alumni network is one way; another is thinking outside the box by looking for opportunities in less obvious places.&nbsp; Cadets are fortunate to have several networking opportunities open to them by the Alumni Associations and Career Services, as well as inside our own department. Sometimes alumni are willing to mentor cadets, but this usually requires a personal relationship to happen. All of these efforts, in combination or singly, occur each year. Some of the companies who will have cadet interns this summer include:</p>
+          <ul class="checklist">
+           <li>Northwestern Mutual, Virginia Beach</li>
+           <li>Target Stores, Stuarts Draft, Virginia</li>
+           <li>Recommended Media, Hollywood, California</li>
+           <li>Hireprobability.com, Boston, Massachusetts</li>
+           <li>Bloomberg LP in Princeton, New Jersey</li>
+           <li>Barney and Barney, San Diego, California</li>
+           <li>Florida Investors Center of America, in Tampa, Florida</li>
+           <li>Virginia Amateur Sports, Inc. in Roanoke, Virginia</li>
+           <li>Bank of America, New York</li>
+           <li>Sports marketing Company in Rockaway, New Jersey</li>
+           <li>Smith Mountain Lake State Park, Virginia (Assistant Manager)</li>
+           <li>Merger Market, New York</li>
+           <li>Steve Goddard Investment Company, Goochland, Virginia</li>
+           <li>Captiva Spine, Inc., Jupiter, Florida</li>
+           <li>Mid-Atlantic Commercial Real Estate, Newport News, Virginia</li>
+           <li>Minnesota Appraisal Services, Minneapolis, Minnesota</li>
+          </ul>
+          <p>At least 6 of these 16 cadets&nbsp;will also be earning academic credit for their internship; some will be paid. These cadets have academic requirements including setting learning objectives and weekly logs during the summer, and then writing a paper and giving a presentation to EC/BU faculty when they return in the fall. It’s a win/win situation for those cadets who are often earning salaries and also earning economic or business elective credits. </p>
+          <p>If you are willing to mentor a cadet who is looking for an internship next summer, or if you know of any internship opportunities, please contact Bruce Macdonald, Internship Coordinator for the Department of Economics and Business, at <a href="mailto:macdonaldbn10@vmi.edu">macdonaldbn10@vmi.edu</a>, or (540) 464-7451.</p>
+         </div>
+        </div>
+        <div>
+         <h2>Honor Societies</h2>
+         <a href="#" class="readMore">Sigma Beta Delta, the Honor Society for Business, and Omicron Delta Epsilon, the Economics Honor Society, were quite active this past year, thanks to cadet leadership.</a>
+         <div class="more">
+          <p>Beta Gamma Sigma, the business honor society, welcomed six new members at the departmental awards ceremony in April.&nbsp; Beta Gamma Sigma is the most prestigious business honor society and membership is only available to colleges with the AACSB accreditation.&nbsp; To be eligible for induction, a student must have obtained junior status and be in the top 10% of their cohort class. The inductees are Wesley Jacobs, Gary LeClair, Gianluca Mangiapane, Henry Meredith, Renee Reives, and Zachary Wilkinson. </p>
+          <p><img title="BGS-14" alt="BGS-14" src="/assets/0/16/48/10737424454/76/2195/10737424424/10737424425/af9e0d69-4bec-4cc5-ada5-71da9db9ccb9.jpg?n=3866"></p>
+          <p>At the same ceremony, the economics honor society, Omicron Delta Epsilon (ODE), inducted 12 new members. To be inducted into ODE, a cadet must have at least a 3.0 gpa overall, a 3.0 gpa in economics coursework and at least 12 hours of economics coursework. The 2014 inductees are Richard Gleason, '14, Andrew Marcotte, '14, John Sullivan, '14, Nicholas Boline, '15, Benjamin Field, '15, Eric Groleau, '15, Travis Hawkins, '15, Gary LeClair, '15, Gianluca Mangiapane, '15, Henry Meredith, '15, Renee Reives, '15, and Richard Siewers, '15.</p>
+          <p><img title="ODE-14" alt="ODE-14" src="/assets/0/16/48/10737424454/76/2195/10737424424/10737424425/924762d1-f393-454c-80f1-f5e50f8cec4e.jpg?n=5506"></p>
+          <p>The VMI Chapter of ODE visited Washington DC to meet with alumni during the spring semester. They discussed strategies for job search. Between meetings they visited museums at the National Mall. </p>
+          <p><img title="ODE_DC-14" alt="ODE_DC-14" src="/assets/0/16/48/10737424454/76/2195/10737424424/10737424425/5d88d475-fdf8-48e5-a483-843bdc3439c5.jpg?n=927"></p>
+          <p>ODE also sponsored a film in conjunction with the Roberts Free Enterprise Center and the Charles Koch Foundation on the value of economic freedom for economic growth and development. Following the screening of the film, ECBU faculty and ODE members had a lunch discussion of the film. </p>
+          <p><img title="movie-14" alt="movie-14" src="/assets/0/16/48/10737424454/76/2195/10737424424/10737424425/01953693-8749-45fe-9da4-e7d951d6a903.jpg?n=458"></p>
+         </div>
+        </div>
+        <div>
+         <h2>Cadet Awards</h2>
+         <a href="#" class="readMore">The Annual Honors Banquet to recognize our top cadets was held on 2 April.</a>
+         <div class="more">
+          <p>The ECBU department held its annual awards ceremony 2 April to recognize the top achieving cadets in departmental courses.&nbsp; In addition to academic excellence awards being given for top cadets among all four class years, the department gave out the Roberts and Wheat medals and held the honor society (ODE and BGS) inductions. </p>
+          <p>The Roberts Medal, which recognizes the top standing by&nbsp;economics and business major in the graduating class, was awarded to Chih-Yuan Chen, ‘14.&nbsp;<br><img title="Chen-14" alt="Chen-14" src="/assets/0/16/48/10737424454/76/2195/10737424424/10737424425/7e9caca2-9c7e-4019-a5dc-8e4c8cf24a8e.jpg?n=7007"></p>
+          <p>William Breakell, ’14, was awarded the Wheat Medal for top performance on the Major Field Test—Business by an economics and business major in the graduating class.</p>
+          <p><img title="Breakell-14" alt="Breakell-14" src="/assets/0/16/48/10737424454/76/2195/10737424424/10737424425/42091e67-3cf8-4178-ad74-c6196e0e12c3.jpg?n=8757"></p>
+          <p>Also recognized for their outstanding performance on the Major Field Test – Business were Chih-Yuan Chen, Robert Demson, Jacob Grier, William Holzapfel, Conner Mays, Joseph Pinotti, Luke Snead and Zach Wilkinson.</p>
+          <p><img title="MFT-14" alt="MFT-14" src="/assets/0/16/48/10737424454/76/2195/10737424424/10737424425/e29ede90-f7d9-4ca1-bcfe-4eb93358cebe.jpg?n=2512"></p>
+          <p>Academic Excellence awards are given to those who achieve a 3.0 cumulative GPA or better.&nbsp;&nbsp; <br>For the Class of 2014, the awardees are William Breakell, Chih-Yuan Chen, Tsung-Han Chu, John Clauff, Robert Demson, Richard Gleason, Jacob Grier, Michael Hagan, Andrew Marcotte, Conner Mays, Collin Newcomb, Alexander Ortwine, Joseph Pinotti, Luke Snead, John Sullivan, Matthew Thompson, Andrew Ukrop, and Zachary Wilkinson.</p>
+          <p><img title="Excellence-14" alt="Excellence-14" src="/assets/0/16/48/10737424454/76/2195/10737424424/10737424425/50dc9d86-2537-422d-8b04-9cec4a251865.jpg?n=1054"></p>
+          <p>For the Class of 2015, the awardees are Clark Chen, Robert Davison, Benjamin Field, Eric Groleau, Travis Hawkins, Wesley Jacobs, Gary LeClair, Gianluca Mangiapane, Henry Meredith, Tyler Prasnicki, Renee Reives, Richard Siewers, and Samuel Trumps.</p>
+          <p><img title="Excellence-15" alt="Excellence-15" src="/assets/0/16/48/10737424454/76/2195/10737424424/10737424425/1dfe4451-af4a-4ec8-907a-6d75c8785428.jpg?n=5909"></p>
+          <p>For the Class of 2016, the awardees are Anthony Bianchi, Thomas Borne, David Burke, John Burton, Davis Chandler, Andy Choi, Paul Copley, Michael Coppolino, Daniel de Nijs, Benjamin Eberhardt, Austin Eden, Jacob Goult, Patrick Hine, Austin Holmes, Isaac Lewis, Ryan Loe, Kevin Marshall, Connor Morgan, Jacob Norris, Trey Rose, Paige Taylor, and Townsend Williams.</p>
+          <p><img title="Excellence-16" alt="Excellence-16" src="/assets/0/16/48/10737424454/76/2195/10737424424/10737424425/354f4adb-1cea-43c3-bf6c-f2035ec9453b.jpg?n=7448"></p>
+          <p>For the Class of 2017, the awardees are Cannon Clark, Stephen Eller, Madison Eure, Vahan Gleason, Jacob Goulet, William Hubbard, Chadwick Jacob, Holmes Laughon, Eric Maudhuit, Nathan Miller, Bradford Nardella, William Nunn, Andrew Scroggins, Jae Song, Erik Stein, Ryan Swingle, William Warren, Ryan Wilson, and Mark Wood.</p>
+          <p><img title="Excellence-17" alt="Excellence-17" src="/assets/0/16/48/10737424454/76/2195/10737424424/10737424425/dfba67c8-a36a-4ebe-9987-15d492faecdf.jpg?n=3066"></p>
+          <p>At the Institute Awards Ceremony held 14 May, Wesley Jacobs '15 was awarded the Faculty Scholarship for Merit. This award “recognize[s] superior academic performance by rising 1st Class or 2nd Class cadets.”<br><br>Finally, on graduation day, several graduating cadets were recognized.<br><br>Distinguished Graduates (cumulative GPA above 3.5)</p>
+          <ul class="starlist">
+           <li>Chih-Yuan Chen</li>
+           <li>Robert Demson</li>
+           <li>Jacob Grier</li>
+           <li>Andrew Ukrop</li>
+          </ul>
+          <p>With Distinction (cumulative GPA between 3.0 and 3.499)</p>
+          <ul class="starlist">
+           <li>Samuel Elliot</li>
+           <li>Richard Gleason</li>
+           <li>Michael Hagan</li>
+           <li>Collin Newcomb</li>
+           <li>Luke Snead</li>
+           <li>John Sullivan</li>
+           <li>Matthew Thompson</li>
+           <li>Zachary Wilkinson&nbsp;</li>
+          </ul>
+         </div>
+        </div>
+        <div>
+         <h2>Federal Reserve Field Trip</h2>
+         <a href="#" class="readMore">On 3 December, Lt. Col. Allen traveled with more than a dozen cadets to Richmond to tour the Federal Reserve Bank.</a>
+         <div class="more">
+          On Tuesday, 3 December 2013, more than a dozen EC/BU cadets enrolled in the Money &amp; Banking course travelled to the Federal Reserve Bank of Richmond for an insider’s view of the “Fed’s” operations.&nbsp; The visit was arranged and graciously hosted by VMI Alums, including JM Nemish and Andy McAllister.&nbsp; Cadets viewed the cash sorting operation and tested the feel of counterfeit currency.&nbsp; Following lunch on the twenty-third floor, the students heard several presentations on current economic challenges, Fed policies, recent additions to the conventional tools of monetary policy, and other aspects of the Fed’s outreach.
+         </div>
+        </div>
+        <div>
+         <h2>Memorandum of Understanding</h2>
+         <a href="#" class="readMore">VMI has established memorandum of understanding (MOU) agreements with six graduate schools in business.</a>
+         <div class="more">
+          VMI has agreed to partnerships with the graduate programs in economics and business at four universities: the Darden School at the University of Virginia, Virginia Tech University, Virginia Commonwealth University, William &amp; Mary’s Mason School, and Florida State University.&nbsp; These agreements provide recognition for the leadership qualities of VMI graduates and in specific cases allow VMI alumni guaranteed interviews and/or admissions fee waivers.&nbsp; Alumni with questions about these agreements can contact Col. Atin Basuchoudhary at 
+          <a href="mailto:basuchoudharya@vmi.edu">basuchoudharya@vmi.edu</a>.
+         </div>
+        </div>
+        <div>
+         <h2>Alumni Survey</h2>
+         <a href="#" class="readMore">Calling all members of the Classes of 1999 and 2009!</a>
+         <div class="more">
+          Time again for this year’s alumni survey.&nbsp; Share your thoughts and help to make us a better program by going to 
+          <a title="http://www.vmi.edu/ECBUSurvey" href="http://www.vmi.edu/ECBUSurvey" target="_blank"><strong>http://www.vmi.edu/ECBUSurvey</strong></a>
+          <strong></strong>
+         </div>
+        </div>
+        <div>
+         <h2>Stay Connected to ECBU</h2>
+         <a href="#" class="readMore">Please let us know what you've been up to by emailing us or look us up on Facebook. </a>
+         <div class="more">
+          Please let us know what you've been up to by emailing us at 
+          <a href="mailto:ECBUnewsletter@vmi.edu">ECBUnewsletter@vmi.edu</a> or look us up on Facebook (search for “VMI Economics and Business”). If you are interested in hosting a field trip, accepting an intern, speaking to our cadets or helping out in any way at all, just let us know. Even if you have nothing to report, send an email to let us know that you want to be on our email list.
+         </div>
+        </div>
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

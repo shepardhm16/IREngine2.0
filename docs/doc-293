@@ -1,0 +1,1226 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>Statistics - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/vmi/img/favicon/favicon.ico"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules">
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]--> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript> 
+  <a href="#accesskeys" accesskey="k"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="The page uses Browser Access Keys to help with keyboard navigation. Click to learn more" style="height: 0px"></a>
+  <a href="#acalog-nav" accesskey="n"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a>
+  <a name="accesskeys"></a>
+  <div class="accesskeys"> 
+   <p>Different browsers use different keystrokes to activate accesskey shortcuts. Please reference the following list to use access keys on your system.</p> 
+   <dl> 
+    <dt>
+     Alt and the accesskey, for Internet Explorer on Windows
+    </dt> 
+    <dt>
+     Shift and Alt and the accesskey, for Firefox on Windows
+    </dt> 
+    <dt>
+     Shift and Esc and the accesskey, for Windows or Mac
+    </dt> 
+    <dt>
+     Ctrl and the accesskey, for the following browsers on a Mac: Internet Explorer 5.2, Safari 1.2, Firefox, Mozilla, Netscape 6+.
+    </dt> 
+   </dl> 
+   <p>We use the following access keys on our gateway</p> 
+   <dl> 
+    <dt>
+     n Skip to Navigation
+    </dt> 
+    <dt>
+     k Accesskeys description
+    </dt> 
+    <dt>
+     h Help
+    </dt> 
+   </dl> 
+  </div>
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"><span class="n1_header"> Virginia Military Institute</span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015-2016 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15" selected>2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="15"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=15" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=15" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=438" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=435" class="navbar" tabindex="107">Institute Calendar 2015-2016</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=436" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=437" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=431" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=439" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=440" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=442" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=443" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=444" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=445" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=441" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=448" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=450" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=446" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=433" class="navbar" tabindex="121">Support Agencies</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=449" class="navbar" tabindex="122">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td> 
+                  <div class="help_block" style="float: right">
+                   <a href="help.php?catoid=15" onclick="javascript:acalogPopup('help.php?catoid=15', 'help', 770, 530, 'yes');return false;" class="help" tabindex="203" accesskey="h" target="_blank"><b>HELP</b></a>
+                  </div> <span class="acalog_catalog_name">2015-2016 Academic Catalogue</span> <h1 id="acalog-content"> Statistics </h1> 
+                  <div style="float: right">
+                   <a rel="nofollow" href="/content.php?catoid=15&amp;navoid=449&amp;print" onclick="acalogPopup('/content.php?catoid=15&amp;navoid=449&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                  </div>
+                  <div class="acalog-social-media-links" style="float: right;"> 
+                  </div> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <hr> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <table border="0" cellpadding="0" cellspacing="0" class="acalog-export-remove" style="width:100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td style="width: 50%; vertical-align: top;"> 
+                      <ul> 
+                       <li><a href="#May_2011_Graduates_by_Curriculum">May 2015 Graduates by Curriculum</a></li> 
+                       <li><a href="#Recapitulation_of_Graduates">Recapitulation of Graduates</a></li> 
+                      </ul> </td> 
+                     <td style="width: 50%; vertical-align: top;"> 
+                      <ul> 
+                       <li>Enrollment Summary Fall 2014</li> 
+                       <li><a href="#Geographical_Distribution">Geographical Distribution</a></li> 
+                      </ul> </td> 
+                    </tr> 
+                   </tbody> 
+                  </table> 
+                  <hr> <h2><a name="May_2011_Graduates_by_Curriculum"></a>May 2015 Graduates by Curriculum</h2> 
+                  <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td style="width: 29%; text-align: center;"><strong>Number Graduates</strong></td> 
+                     <td style="width: 24%; text-align: center;"><strong>Distinguished Graduates </strong></td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>Applied Mathematics</td> 
+                     <td style="width: 29%; text-align: center;">6</td> 
+                     <td style="width: 24%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>Biology</td> 
+                     <td style="width: 29%; text-align: center;">37</td> 
+                     <td style="width: 24%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>Chemistry</td> 
+                     <td style="width: 29%; text-align: center;">7</td> 
+                     <td style="width: 24%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>Civil Engineering</td> 
+                     <td style="width: 29%; text-align: center;">52</td> 
+                     <td style="width: 24%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>Computer Science</td> 
+                     <td style="width: 29%; text-align: center;">9</td> 
+                     <td style="width: 24%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>Economics-Business</td> 
+                     <td style="width: 29%; text-align: center;">36</td> 
+                     <td style="width: 24%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>Electrical Engineering</td> 
+                     <td style="width: 29%; text-align: center;">11</td> 
+                     <td style="width: 24%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>English</td> 
+                     <td style="width: 29%; text-align: center;">9</td> 
+                     <td style="width: 24%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>History</td> 
+                     <td style="width: 29%; text-align: center;">37</td> 
+                     <td style="width: 24%; text-align: center;">5</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>International Studies</td> 
+                     <td style="width: 29%; text-align: center;">42</td> 
+                     <td style="width: 24%; text-align: center;">5</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>Mechanical Engineering</td> 
+                     <td style="width: 29%; text-align: center;">17</td> 
+                     <td style="width: 24%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>Modern Languages &amp; Cultures</td> 
+                     <td style="width: 29%; text-align: center;">12</td> 
+                     <td style="width: 24%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>Physics</td> 
+                     <td style="width: 29%; text-align: center;">9</td> 
+                     <td style="width: 24%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>Psychology</td> 
+                     <td style="width: 29%; text-align: center;">33</td> 
+                     <td style="width: 24%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td>Total</td> 
+                     <td style="width: 29%; text-align: center;">317</td> 
+                     <td style="width: 24%; text-align: center;">43</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h2><a name="Recapitulation_of_Graduates"></a>Recapitulation of Graduates</h2> 
+                  <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td colspan="2"><strong>Total to May 16, 2014</strong></td> 
+                     <td style="width: 20%; text-align: right;"><strong>21,932</strong></td> 
+                     <td style="width: 20%; text-align: right;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 4%;">&nbsp;</td> 
+                     <td>September, 2014</td> 
+                     <td style="width: 20%; text-align: right;">29</td> 
+                     <td style="width: 20%; text-align: right;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 4%;">&nbsp;</td> 
+                     <td>December, 2014</td> 
+                     <td style="width: 20%; text-align: right;">28</td> 
+                     <td style="width: 20%; text-align: right;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 4%;">&nbsp;</td> 
+                     <td>January, 2015</td> 
+                     <td style="width: 20%; text-align: right;">1</td> 
+                     <td style="width: 20%; text-align: right;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 4%;">&nbsp;</td> 
+                     <td>May, 2015</td> 
+                     <td style="width: 20%; text-align: right;">317</td> 
+                     <td style="width: 20%; text-align: right;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 4%;">&nbsp;</td> 
+                     <td><strong>Total Graduated&nbsp;September 2014&nbsp;- May 2015</strong></td> 
+                     <td style="width: 20%; text-align: right;">375</td> 
+                     <td style="width: 20%; text-align: right;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td colspan="2"><strong>Total to May 16, 2015</strong></td> 
+                     <td style="width: 20%; text-align: right;">22307</td> 
+                     <td style="width: 20%; text-align: right;">&nbsp;</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h2><a name="Enrollment%20Summary%20Fall%202013"></a>Enrollment Summary Fall 2014</h2> <p>Opening enrollment for the 2014-2015 session included matriculation of&nbsp;486 new cadets and registration of 1214 old cadets. Under guidelines of the State Council of Higher Education for Virginia, the figures below represent Corps strength (1700) as of the drop-add census date, September 10, 2014.</p> 
+                  <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td style="width: 50%; background-color: rgb(204, 204, 204);"><strong>CLASS&nbsp;OF</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>2015</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>2016</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>2017</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>2018</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>TOTAL</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Old Female Cadets</td> 
+                     <td style="width: 10%; text-align: center;">43</td> 
+                     <td style="width: 10%; text-align: center;">31</td> 
+                     <td style="width: 10%; text-align: center;">44</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">118</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Old Male Cadets</td> 
+                     <td style="width: 10%; text-align: center;">356</td> 
+                     <td style="width: 10%; text-align: center;">367</td> 
+                     <td style="width: 10%; text-align: center;">373</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1096</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">New Female Cadets</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">70</td> 
+                     <td style="width: 10%; text-align: center;">70</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">New Male Cadets</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">416</td> 
+                     <td style="width: 10%; text-align: center;">416</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Total Female Cadets</td> 
+                     <td style="width: 10%; text-align: center;">43</td> 
+                     <td style="width: 10%; text-align: center;">31</td> 
+                     <td style="width: 10%; text-align: center;">44</td> 
+                     <td style="width: 10%; text-align: center;">70</td> 
+                     <td style="width: 10%; text-align: center;">188</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Total Male Cadets</td> 
+                     <td style="width: 10%; text-align: center;">356</td> 
+                     <td style="width: 10%; text-align: center;">367</td> 
+                     <td style="width: 10%; text-align: center;">373</td> 
+                     <td style="width: 10%; text-align: center;">416</td> 
+                     <td style="width: 10%; text-align: center;">1512</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                     <td style="width: 10%; text-align: center;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%; background-color: rgb(204, 204, 204);"><strong>Total&nbsp;Cadets</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>399</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>398</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>417</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>486</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>1700</strong></td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <p>&nbsp;</p> 
+                  <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td style="width: 50%; background-color: rgb(204, 204, 204);"><strong>CLASS OF</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>2015</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>2016</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>2017</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>2018</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>TOTAL</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Applied Mathematics</td> 
+                     <td style="width: 10%; text-align: center;">10</td> 
+                     <td style="width: 10%; text-align: center;">8</td> 
+                     <td style="width: 10%; text-align: center;">9</td> 
+                     <td style="width: 10%; text-align: center;">11</td> 
+                     <td style="width: 10%; text-align: center;">38</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Biology</td> 
+                     <td style="width: 10%; text-align: center;">45</td> 
+                     <td style="width: 10%; text-align: center;">29</td> 
+                     <td style="width: 10%; text-align: center;">43</td> 
+                     <td style="width: 10%; text-align: center;">49</td> 
+                     <td style="width: 10%; text-align: center;">166</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Chemistry</td> 
+                     <td style="width: 10%; text-align: center;">7</td> 
+                     <td style="width: 10%; text-align: center;">11</td> 
+                     <td style="width: 10%; text-align: center;">15</td> 
+                     <td style="width: 10%; text-align: center;">15</td> 
+                     <td style="width: 10%; text-align: center;">48</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Civil Engineering</td> 
+                     <td style="width: 10%; text-align: center;">71</td> 
+                     <td style="width: 10%; text-align: center;">65</td> 
+                     <td style="width: 10%; text-align: center;">53</td> 
+                     <td style="width: 10%; text-align: center;">58</td> 
+                     <td style="width: 10%; text-align: center;">247</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Computer Science</td> 
+                     <td style="width: 10%; text-align: center;">13</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">15</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Computer Information Sciences</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">12</td> 
+                     <td style="width: 10%; text-align: center;">18</td> 
+                     <td style="width: 10%; text-align: center;">25</td> 
+                     <td style="width: 10%; text-align: center;">55</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Economics / Business</td> 
+                     <td style="width: 10%; text-align: center;">51</td> 
+                     <td style="width: 10%; text-align: center;">62</td> 
+                     <td style="width: 10%; text-align: center;">78</td> 
+                     <td style="width: 10%; text-align: center;">56</td> 
+                     <td style="width: 10%; text-align: center;">247</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Electrical/Comp&nbsp;Engineering</td> 
+                     <td style="width: 10%; text-align: center;">14</td> 
+                     <td style="width: 10%; text-align: center;">5</td> 
+                     <td style="width: 10%; text-align: center;">12</td> 
+                     <td style="width: 10%; text-align: center;">20</td> 
+                     <td style="width: 10%; text-align: center;">51</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">English</td> 
+                     <td style="width: 10%; text-align: center;">13</td> 
+                     <td style="width: 10%; text-align: center;">14</td> 
+                     <td style="width: 10%; text-align: center;">11</td> 
+                     <td style="width: 10%; text-align: center;">10</td> 
+                     <td style="width: 10%; text-align: center;">48</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">History</td> 
+                     <td style="width: 10%; text-align: center;">49</td> 
+                     <td style="width: 10%; text-align: center;">37</td> 
+                     <td style="width: 10%; text-align: center;">31</td> 
+                     <td style="width: 10%; text-align: center;">31</td> 
+                     <td style="width: 10%; text-align: center;">148</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">International&nbsp;Studies</td> 
+                     <td style="width: 10%; text-align: center;">42</td> 
+                     <td style="width: 10%; text-align: center;">78</td> 
+                     <td style="width: 10%; text-align: center;">66</td> 
+                     <td style="width: 10%; text-align: center;">94</td> 
+                     <td style="width: 10%; text-align: center;">280</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Mechanical&nbsp;Engineering</td> 
+                     <td style="width: 10%; text-align: center;">20</td> 
+                     <td style="width: 10%; text-align: center;">32</td> 
+                     <td style="width: 10%; text-align: center;">41</td> 
+                     <td style="width: 10%; text-align: center;">82</td> 
+                     <td style="width: 10%; text-align: center;">175</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Modern&nbsp;Languages &amp;&nbsp;Cultures</td> 
+                     <td style="width: 10%; text-align: center;">14</td> 
+                     <td style="width: 10%; text-align: center;">12</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">9</td> 
+                     <td style="width: 10%; text-align: center;">39</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Physics</td> 
+                     <td style="width: 10%; text-align: center;">8</td> 
+                     <td style="width: 10%; text-align: center;">6</td> 
+                     <td style="width: 10%; text-align: center;">6</td> 
+                     <td style="width: 10%; text-align: center;">8</td> 
+                     <td style="width: 10%; text-align: center;">28</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Physics with Nuclear Interests</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Psychology</td> 
+                     <td style="width: 10%; text-align: center;">42</td> 
+                     <td style="width: 10%; text-align: center;">24</td> 
+                     <td style="width: 10%; text-align: center;">30</td> 
+                     <td style="width: 10%; text-align: center;">18</td> 
+                     <td style="width: 10%; text-align: center;">114</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">&nbsp;</td> 
+                     <td>&nbsp;</td> 
+                     <td>&nbsp;</td> 
+                     <td>&nbsp;</td> 
+                     <td>&nbsp;</td> 
+                     <td>&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%; text-align: left; background-color: rgb(204, 204, 204);"><strong>Total</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>399</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>398</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>417</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>486</strong></td> 
+                     <td style="width: 10%; text-align: center; background-color: rgb(204, 204, 204);"><strong>1700</strong></td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h2><a name="Geographical_Distribution"></a>Geographical Distribution</h2> <h3>CORPS OF CADETS – FALL 2014 (Based on state/nation of legal residence)</h3> <h4>U.S.&nbsp;Cadets</h4> 
+                  <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td style="width: 50%;"><strong>Legal&nbsp;Residence</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>2015</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>2016</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>2017</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>2018</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>Total</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td colspan="6"> 
+                      <hr></td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Alabama</td> 
+                     <td style="width: 10%; text-align: center;">6</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">13</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Alaska</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Arizona</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">5</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">California</td> 
+                     <td style="width: 10%; text-align: center;">12</td> 
+                     <td style="width: 10%; text-align: center;">10</td> 
+                     <td style="width: 10%; text-align: center;">14</td> 
+                     <td style="width: 10%; text-align: center;">12</td> 
+                     <td style="width: 10%; text-align: center;">48</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Colorado</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">12</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Connecticut</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">11</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Delaware</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">5</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">District of Columbia</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Florida</td> 
+                     <td style="width: 10%; text-align: center;">10</td> 
+                     <td style="width: 10%; text-align: center;">8</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">6</td> 
+                     <td style="width: 10%; text-align: center;">25</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Georgia</td> 
+                     <td style="width: 10%; text-align: center;">5</td> 
+                     <td style="width: 10%; text-align: center;">6</td> 
+                     <td style="width: 10%; text-align: center;">6</td> 
+                     <td style="width: 10%; text-align: center;">7</td> 
+                     <td style="width: 10%; text-align: center;">24</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Hawaii</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Idaho</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Illinois</td> 
+                     <td style="width: 10%; text-align: center;">5</td> 
+                     <td style="width: 10%; text-align: center;">5</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">7</td> 
+                     <td style="width: 10%; text-align: center;">21</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Indiana</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">7</td> 
+                     <td style="width: 10%; text-align: center;">5</td> 
+                     <td style="width: 10%; text-align: center;">19</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Iowa</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Kansas</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Kentucky</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">14</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Louisiana</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Maine</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Maryland</td> 
+                     <td style="width: 10%; text-align: center;">10</td> 
+                     <td style="width: 10%; text-align: center;">12</td> 
+                     <td style="width: 10%; text-align: center;">14</td> 
+                     <td style="width: 10%; text-align: center;">19</td> 
+                     <td style="width: 10%; text-align: center;">55</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Massachusetts</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">6</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">5</td> 
+                     <td style="width: 10%; text-align: center;">18</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Michigan</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">7</td> 
+                     <td style="width: 10%; text-align: center;">14</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Minnesota</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">8</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Mississippi</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Missouri</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">5</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Montana</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Nevada</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">New Hampshire</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">5</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">New Jersey</td> 
+                     <td style="width: 10%; text-align: center;">17</td> 
+                     <td style="width: 10%; text-align: center;">6</td> 
+                     <td style="width: 10%; text-align: center;">8</td> 
+                     <td style="width: 10%; text-align: center;">11</td> 
+                     <td style="width: 10%; text-align: center;">42</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">New York</td> 
+                     <td style="width: 10%; text-align: center;">11</td> 
+                     <td style="width: 10%; text-align: center;">13</td> 
+                     <td style="width: 10%; text-align: center;">19</td> 
+                     <td style="width: 10%; text-align: center;">11</td> 
+                     <td style="width: 10%; text-align: center;">54</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">North&nbsp;Carolina</td> 
+                     <td style="width: 10%; text-align: center;">17</td> 
+                     <td style="width: 10%; text-align: center;">14</td> 
+                     <td style="width: 10%; text-align: center;">23</td> 
+                     <td style="width: 10%; text-align: center;">11</td> 
+                     <td style="width: 10%; text-align: center;">65</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Ohio</td> 
+                     <td style="width: 10%; text-align: center;">5</td> 
+                     <td style="width: 10%; text-align: center;">5</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">7</td> 
+                     <td style="width: 10%; text-align: center;">19</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Oklahoma</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Oregon</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Pennsylvania</td> 
+                     <td style="width: 10%; text-align: center;">13</td> 
+                     <td style="width: 10%; text-align: center;">18</td> 
+                     <td style="width: 10%; text-align: center;">22</td> 
+                     <td style="width: 10%; text-align: center;">24</td> 
+                     <td style="width: 10%; text-align: center;">77</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Rhode Island</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">South Carolina</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">7</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Tennessee</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">8</td> 
+                     <td style="width: 10%; text-align: center;">8</td> 
+                     <td style="width: 10%; text-align: center;">7</td> 
+                     <td style="width: 10%; text-align: center;">26</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Texas</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">12</td> 
+                     <td style="width: 10%; text-align: center;">11</td> 
+                     <td style="width: 10%; text-align: center;">11</td> 
+                     <td style="width: 10%; text-align: center;">37</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Utah</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Vermont</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Virginia</td> 
+                     <td style="width: 10%; text-align: center;">235</td> 
+                     <td style="width: 10%; text-align: center;">223</td> 
+                     <td style="width: 10%; text-align: center;">231</td> 
+                     <td style="width: 10%; text-align: center;">286</td> 
+                     <td style="width: 10%; text-align: center;">975</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Washington</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">6</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">10</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">West Virginia</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">10</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Wisconsin</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                    </tr> 
+                    <tr> 
+                     <td colspan="6">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;"><strong>TOTAL</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>392</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>388</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>410</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>480</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>1670</strong></td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h4>Foreign Cadets</h4> 
+                  <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td style="width: 50%;"><strong>Legal&nbsp;Residence</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>2015</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>2016</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>2017</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>2018</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>Total</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td colspan="6" style="width: 45%;"> 
+                      <hr></td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">China</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">3</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Germany</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Hondoras</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Italy</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Kenya</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Malaysia</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Taiwan</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">5</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">4</td> 
+                     <td style="width: 10%; text-align: center;">17</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">Thailand</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">1</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;">United Kingdom</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">0</td> 
+                     <td style="width: 10%; text-align: center;">2</td> 
+                    </tr> 
+                    <tr> 
+                     <td colspan="6" style="width: 45%;">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;"><strong>TOTAL</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>7</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>10</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>7</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>6</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>30</strong></td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <h4>All Cadets</h4> 
+                  <table border="0" cellpadding="0" cellspacing="0" style="width:100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td style="width: 50%;"><strong>Legal&nbsp;Residence</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>2015</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>2016</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>2017</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>2018</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>Total</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td colspan="6" style="width: 12%;"> 
+                      <hr></td> 
+                    </tr> 
+                    <tr> 
+                     <td style="width: 50%;"><strong>TOTAL:</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>399</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>398</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>417</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>486</strong></td> 
+                     <td style="width: 10%; text-align: center;"><strong>1700</strong></td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <p>&nbsp;</p> </td> 
+                </tr> 
+               </tbody>
+              </table> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <a rel="nofollow" href="/content.php?catoid=15&amp;navoid=449&amp;print" onclick="acalogPopup('/content.php?catoid=15&amp;navoid=449&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=15" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script>  
+ </body>
+</html>

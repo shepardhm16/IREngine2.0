@@ -1,0 +1,372 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	Bushong Farm and Homestead
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="../../../master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="../../../royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="../../../royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="../../../App_Themes/museumsystem/default.1.css" type="text/css" rel="stylesheet">
+  <link href="../../../App_Themes/museumsystem/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="bushong farm, new market,">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/vmcw/Explore/10737422098/" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWDgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFDi9NdXNldW1TeXN0ZW0vZBYCZg8PFgIeCEltYWdlVXJsBSkvY29yZS9pbWFnZXMvY29udGVudC9tdXNldW1zeXN0ZW1sb2dvLnBuZ2RkAgsPZBYCZg9kFgJmD2QWBAIBDw8WBB4IQ3NzQ2xhc3MFDHNlYXJjaC1pbnB1dB4EXyFTQgICFgQeB29uRm9jdXMFhgFpZih0aGlzLnZhbHVlPT0nc2VhcmNoIHZtaS5lZHUnKXsgdGhpcy52YWx1ZT0nJzt0aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQnKTt9dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0ICcpOx4Gb25CbHVyBVBpZih0aGlzLnZhbHVlPT0nJyB8fCB0aGlzLnZhbHVlPT0nc2VhcmNoIHZtaS5lZHUnKXt0aGlzLnZhbHVlPSdzZWFyY2ggdm1pLmVkdSc7fWQCAw8QD2QWAh4Fc3R5bGUFDGRpc3BsYXk6bm9uZRAVAQNWTUkVAQNWTUkUKwMBZ2RkAg8PDxYCHgdWaXNpYmxlaGRkAhMPZBYGAgEPDxYCHwhnZGQCAw8PFgIfCGhkZAIFD2QWAgIBD2QWAmYPZBYCZg8WAh8IZxYCAgEPDxYCHwIFVS91cGxvYWRlZEltYWdlcy9fVk1JX011c2V1bV9TeXN0ZW0vVmFfTXVzZXVtX29mX3RoZV9DaXZpbF9XYXIvZXh0ZXJpb3ItbmV3LmpwZz9uPTQzOTNkZAIXDw8WBh4FVGl0bGUFFUhvbWVwYWdlIEZvb3RlciBSaWdodB4TQ2F0YWxvZ0ljb25JbWFnZVVybAUuL1dvcmtBcmVhL2ltYWdlcy9hcHBsaWNhdGlvbi9pY29uX2RvY3VtZW50LmdpZh4RVGl0bGVJY29uSW1hZ2VVcmxlZGQCGQ8PFgYfCQUUSG9tZXBhZ2UgRm9vdGVyIExlZnQfCgUuL1dvcmtBcmVhL2ltYWdlcy9hcHBsaWNhdGlvbi9pY29uX2RvY3VtZW50LmdpZh8LZWRkZA0hIp8yIz2GcsS6nuiCwvN/D15JPfUPniqAgUs3BdFd"> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAATyUPyd2emGi99K0MuSufHig7Z1sS2zTNHf3/IxWgcxRFSOGbegovGRRqrbhyvyJGWQuO5O7PDGe2zLg4RZuxgsChOuVZrvnE2ZMXZuFFgwCIFJUw2DLTNMGCTOxz8GN2I="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/MuseumSystem/"><img id="ctl00_imgLogo" src="/core/images/content/museumsystemlogo.png" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/keydetclub/" target="_self" class="first">Keydet Club</a></li>
+         <li><a href="http://www.vmialumni.org/" target="_self">Alumni</a></li>
+         <li class="last"><a href="http://www.vmi.edu" target="_self">Virginia Military Institute</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/MuseumSystem/" target="_self">Home</a></li>
+        <li><a href="/VMI_Museum/" target="_self">VMI Museum</a></li>
+        <li><a href="/vmcw/" target="_self">Virginia Museum of the Civil War</a></li>
+        <li class="rt"><a href="http://www.stonewalljackson.org/" target="_blank">Stonewall Jackson House</a></li>
+        <li class="rt last"><a href="https://www.vmialumni.org/donate" target="_blank">Donate</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/vmcw/" target="_self">Va Museum of the Civil War</a></li>
+        <li><a href="/vmcw/Things_to_See_and_Do/10737422077/" target="_self">Plan Your Visit</a></li>
+        <li><a href="/vmcw/Things_to_See_and_Do/10737428711/" target="_self">Event Calendar</a></li>
+        <li><a href="/vmcw/Reenactment/10737428563/" target="_self">Annual Reenactment</a></li>
+        <li class="selected"><strong><a href="/vmcw/Explore/10737428893/" target="_self">Museums &amp; Grounds</a></strong>
+         <ul>
+          <li><a href="/vmcw/Explore/10737428988/" target="_self">Virginia Museum of the Civil War</a></li>
+          <li class="selected"><strong><a href="/vmcw/Explore/10737422098/" target="_self">The Bushong Farm</a></strong></li>
+         </ul></li>
+        <li><a href="/vmcw/10737421807/" target="_self">For Teachers</a></li>
+        <li><a href="/vmcw/10737428608/" target="_self">Shaara Scholar Internship</a></li>
+        <li><a href="/vmcw/Researchers/10737422094/" target="_self">Researchers &amp; Historians</a></li>
+        <li><a href="/vmcw/10737421803/" target="_self">Official State Shenandoah Valley Tourist Info Center</a></li>
+        <li><a href="/vmcw/10737428380/" target="_self">Staff</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft10737421795"> 
+        <address><p align="right"><a href="https://www.facebook.com/pages/New-Market-Battlefield-State-Historical-Park/111502458874136" title="facebook" target="_blank"><img border="0" src="/uploadedImages/Images/icons/facebook.png?n=4804" alt="facebook" title="facebook"></a>&nbsp; <a target="_blank" title="youtube" href="https://www.youtube.com/watch?v=NL-HKeFjt58&amp;feature=youtube_gdata_player"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=1800" alt="youtube" title="youtube"></a>&nbsp; <a href="http://nmbshpvolunteers.blogspot.com" title="Blogger" target="_blank"><img border="0" src="/uploadedImages/Images/icons/blogger.png?n=3509" alt="Blogger" title="Blogger"></a> &nbsp;</p> <p align="right">New Market Battlefield State Historical Park<br>8895 George Collins Pkwy<br>PO Box 1864 <br>New Market, Va 22844</p> <p align="right">(866) 515-1864<br><a href="mailto:nmbshp@vmi.edu">nmbshp@vmi.edu</a></p> <p align="right">Open daily year-round 9 a.m. to 5 p.m., except New Year's Day, Thanksgiving Day, Christmas Eve and day.</p> </address>
+        <div align="center">
+         <br>&nbsp;&nbsp;
+         <a href="/vmcw/10737422550/" title="Virginia Museum of the Civil War Home"><img src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/vmcw-small.png" alt="vmcw-small logo" title="vmcw-small logo"></a>
+         <a href="/vmcw/10737421803/" title="Shenandoah Valley Tourist Information Center"><img src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/svtc-small.png" alt="svtc-small" title="svtc-small" class="design_selected_field"></a>
+         <br>
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/exterior-new.jpg?n=4393" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <div class="content1">
+        <h1>Explore the Bushong Farm and Homestead</h1>
+        <div>
+         <h3>"Though I am not of wealth, I have a treasury of love for you..."</h3>These are the words Jacob Bushong wrote to his sweetheart, Sarah Strickler, early in the year 1814. Four years later on March 5, 1818, they married. Jacob built a small log cabin for his bride (today the 1818 House). Soon, the growing family needed more space and the larger home was constructed.
+         <br>
+         <br>Of their six children, only four lived to adulthood: Harrison, a mechanic and builder who died before he was forty; Elizabeth, a talented needleworker with a keen mind; Anderson, a farmer like his father and the first to marry and bring the joy of grandchildren to the farm; and Franklin, an artistic fellow who settled in the West before Civil War gripped the nation.
+         <br>
+         <br>In 1864 the Bushong’s fertile fields of wheat became a battleground. Three generations of the family took shelter in the basement of their home. After the battle, they continued to live in the basement as their home became a hospital. Determined and strong, they rebuilt in the aftermath of war. The family continued to grow and continued to farm the land.
+         <br>Not until 1942 did the property pass out of their hands. By 1944 it was owned by George Collins, VMI Class of 1911, and was on its way to becoming a permanent memorial to those participating in the Battle of New Market.
+         <br>
+         <br>
+        </div>
+       </div>
+       <div class="accordion">
+        <div>
+         <a href="#" class="readMore">The 1825 House</a>
+         <div class="more">
+          <p><img align="right" style="margin-left: 10px; margin-right: 10px;" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/bh.jpeg" alt="1825 House" title="1825 House"> Reflecting their growing prosperity, Jacob and Sarah built a larger home in 1825. Their new home would face south toward the town of New Market, one mile away. As their family continued to grow, the Bushong family added onto this house, and by about 1850 it appeared as it does today. By 1864, this house was the home of three generations of the family. <br><br>The house reflects the Federal architectural style (1810-1830) with symmetrical three-bay front, pediment portico and vertical lines. Wooden clapboard construction with limestone foundation and a wooden shingle roof are common elements of Valley homes.<br><br>During the battle seven members of the family took refuge in the cellar. Jacob, Sarah, Anderson, his wife Elizabeth, Willie, Carrie and Elizabeth. Throughout the long Sunday they could hear cannon, musketry and shouts of the soldiers fighting around their home. Miraculously the house received little damage.</p>
+          <p><img src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/basement.jpeg" alt="cellar" title="cellar"><img src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/Parlor.jpeg" alt="Parlor" title="Parlor"></p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">The Barn</a>
+         <div class="more">
+          <p>After the battle, the barn became a field hospital for both Union and Confederate soldiers. Remarkably Jacob Bushong’s barn was not “Sheridanized” or burned during the Shenandoah Campaign of 1864.<br><br>In a family letter written 4-23-1865 the fate of the barn is described “…Providence will still provide for us, we have never suffered for anything in the eating line notwithstanding all the barns were burned last fall and nearly everything else in the eating line destroyed[.] Your father’s barn was not burned…”<br><br>The original structure, shown in the 1899 image to the right, was struck by lightning and burned about 1:00 P.M. on Wednesday, July 6, 1939. It was rebuilt on the original foundation in 1942. It was fairly common for a farmer to have to replace a barn once or twice during his life because of fire.</p>
+          <p><img src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/Barn-5.jpeg" alt="Barn " title="Barn ">&nbsp;&nbsp; <img src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/barn-1899.jpeg" alt="barn 1899" title="barn 1899"></p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">1818 House</a>
+         <div class="more">
+          <p><img align="right" style="margin-left: 10px; margin-right: 10px;" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/1818-house.jpeg?n=2344" alt="1818 House" title="1818 House">When Jacob Bushong and Sarah Strickler were married on March 5, 1818, they first built a two story log cabin facing east along the Valley Pike. For the first 7 years the young family would live here. The house was soon refined by the addition of clapboard siding. </p>
+          <p>The needs of a growing family required more space and a new, larger home was completed in 1825. When their son Anderson married, he and his new bride Elizabeth Swartz moved into the 1818 house. </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Blacksmith Shop</a>
+         <div class="more">
+          <p>The Bushongs operated complete blacksmith and wheelwright shops which provided supplemental income for the family. Jacob’s son Harrison was known for his skill with tools and would have been called a mechanic. Farmers from the neighborhood such as Mr. Strayer or Mr. Hupp could bring their tools in for repair. The 1850 Census listed Harrison as a “machine maker” but his brother Anderson only as a “farmer” like their father.<br><br>In the 1840’s Harrison designed and built an early wheat threshing machine in these shops. He subsequently submitted a model to the US Patent Office but never received a patent for his invention.</p>
+          <p><img src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/black.jpeg" alt="Blacksmith Shop" title="Blacksmith Shop">&nbsp; <img src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/blackin.jpeg" alt="Inside Blacksmith Shop" title="Inside Blacksmith Shop"></p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">The Hen House</a>
+         <div class="more">
+          <p>Farmyard fowl and eggs were important elements of family meals. The daily chore of gathering eggs was shared by the Bushong children, William, age four and Sarah, age six. Chickens and roosters usually roamed the yard during the day, but could be found on roosts or perches and in nests at night.</p>
+          <p><img title="Hen House" alt="Hen House" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/chik.jpeg">&nbsp;&nbsp; <img title="Inside Hen House" alt="Inside Hen House" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/chicin.jpeg"></p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Loom and Meat storage</a>
+         <div class="more">
+          <p>By the 1840’s Mrs. Bushong was buying her cloth from local dry goods merchants like J.R. Strayer &amp; Co and making clothing for the family. During the Civil War, commercially made cloth became very expensive and scarce. Many southern families brought ancient looms out and began to make homespun cloth. For many women in the south homespun cloth became a symbol of both patriotism and perseverance. Mrs. Bushong originally set up their loom in the front room (frame section) and stored their meat in the back room (log section).<br><br>In a letter written 4-23-1865 to son Frank Bushong, the state of the family’s clothing is clearly stated “…they still have enough to eat and to wear. Tho as to the wearing we have to make out with things we would scarcely thought fit to be seen in , now we patch and fix up the old clothes until we make ourselves believe we look right.”</p>
+          <p><img title="Hams" alt="Hams" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/hams.jpeg">&nbsp;&nbsp; <img title="Loom House" alt="Loom House" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/loom-house.jpeg">&nbsp; <img title="Loom" alt="Loom" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/loom.jpeg"></p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Bake Oven</a>
+         <div class="more">
+          <p><img align="right" style="margin-left: 10px; margin-right: 10px;" title="bake oven" alt="bake oven" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/Tools.jpeg">Many families constructed free-standing bake ovens to avoid the heat and smell associated with the daily chore of baking. The fire was built in the oven itself. Once the brick was thoroughly heated, the ashes were removed and the items to be baked were placed in tin pans. </p>
+          <p>Tools such as paddle-like peel for moving the pans, the swab for cooling the baking surface and the hoe for ash removal were vital to the operation.</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Field of Lost Shoes</a>
+         <div class="more">
+          <p><img align="right" style="margin-left: 10px; margin-right: 10px;" title="Field of Lost Shoes" alt="Field of Lost Shoes" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/field.jpeg">During the battle, this field, just north of the Bushong House, was planted in spring wheat. It would become the site of the fiercest fighting. Five days of rain had made the field a quagmire. </p>
+          <p>As the Federal and Confederate infantry pushed back and forth through the foot tall wheat, shoes and socks were sucked from their feet by the clinging mud leaving one soldier to name this place “The Field of Lost Shoes”.</p>
+          <p></p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Ice House and Dairy</a>
+         <div class="more">
+          <p>Like many families, Mr. Bushong harvested blocks of ice from small ponds during the winter. The ice was packed in sawdust and straw and was stored in the back of this limestone structure. Run off from the melting ice came through a pipe and filled a stone trough in the front part of the building called the dairy. The ice house and dairy was constructed in the fall of 1871.<br><br>A family letter from Anderson to his brother Frank written January 28, 1872 tells how it was built. “…Frank we had some very cold weather and very dry (.) It pleased me very well I filled my ice house that I built last faul. I built it out of rock 12 feet in the clear dairy for milk 12 feet by 7. I set it between the pump and hen house.”<br><br>In a letter written on December 18, 1873, Anderson told his brother Frank “…I had my ice house full and plenty of ice left for outher people. Frank I would not do without my ice house for one thousand dollars. You don’t believe how I enjoy the good cold ice water on a hot summers day and the best of all is the good cold milk and hard butter at mele. We made 200 l/bs butter last summer and 200 l/bs this summer, that makes 400 l/bs.”</p>
+          <p><img title="Ice House" alt="Ice House" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/ice-house.jpeg">&nbsp; <img title="Dairy" alt="Dairy" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/Dairy.jpeg"></p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Orchard</a>
+         <div class="more">
+          <p><img align="right" title="orchard" alt="orchard" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/orchard.jpeg" style="margin-left: 10px; margin-right: 10px;">The family maintained an orchard planted with several varieties of apples, peaches, pears and quince. Jacob took great pride in his yearly fruit harvest and the lucrative products such as cider and apple butter. The orchard was delineated by a rail fence described by VMI Cadet John Howard as “ordinary” and “about four feet high”.<br><br>The blossoms had just fallen from the trees on May 15, 1864 when the Confederate infantry stalled along the rail fence separating the orchard from Mr. Bushong’s wheat field. Around 2:00 P.M. Federal artillery and musketry fire punched a hole in the Confederate line here. It was at this moment that the VMI Cadets moved into the breech and the entire Confederate line charged across the “Field of Lost Shoes”.<br><br>The present day orchard was replanted with heirloom variety fruit trees as part of the Bushong Farm restoration in the 1960’s.</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Summer Kitchen</a>
+         <div class="more">
+          <p>For most of the year food preparation was done here to keep food smells and dangerous heat away from the main house. The arduous process of keeping the family fed was one of the main duties for Mrs. Bushong, her daughter Elizabeth, also called Betsy and daughter-in-law Elizabeth. The family did own slaves which helped to offset the division of labor on the farm.<br><br> The earliest documentation for slaves is in the 1820 Census showing one female slave under fourteen years of age. The 1857 Birth Record for Shenandoah County showed that Jacob Bushong had one female slave named Mary who gave birth to a son named Israel. The 1860 Census showed three slaves working on the property, a 27 year old male, a 24 year old female (Mary) and a 3 year old boy (Israel). This family most likely lived in the loft above the kitchen.</p>
+          <p><img title="Summer Kitchen Inside" alt="Summer Kitchen Inside" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/summer-Kitchen-Still-Life.jpeg">&nbsp; <img title="Summer Kitchen" alt="Summer Kitchen" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/wash.jpeg">&nbsp; <img title="Slave Quarters" alt="Slave Quarters" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/slave.jpeg"></p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Wheelwright Shop</a>
+         <div class="more">
+          <p>Transportation was important to the farmer. The wheelwright shop was the place to make and repair wheels for wagons and buggies. It was also a general carpentry shop for the farm. To be a mechanic in this trade required a high degree of math and geometry. The hub had to be bored just right and the spokes must be mounted with just the right angle or the wheel collapses. Not every farm could boast of a blacksmith and a wheelwright shop. Farmers in the neighborhood could bring their broken wheels to Harrison Bushong to repair. This building houses a collection of woodworking tools and period farm implements.<br><br> Harrison received a letter written by a friend February 24, 1851 regarding his love of the shops “…I hope this reaches you you may again be restored to your usual health again and find you engaged in the shop the place where you so much delight to occupy.”</p>
+          <p><img title="Wheelright Shop" alt="Wheelright Shop" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/wheel.jpeg">&nbsp; <img title="wheelright shop interior" alt="wheelright shop interior" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/whein2.jpeg">&nbsp; <img title="wheelright shop interior 2" alt="wheelright shop interior 2" src="/uploadedImages/_VMI_Museum_System/Va_Museum_of_the_Civil_War/Explore/whelin.jpeg"></p>
+         </div>
+        </div>
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>VMI MUSEUMS</strong>&nbsp; </p> 
+      <p align="right"><a href="/VMI_Museum/12469/" title="VMI Museum">VMI Museum</a> | <a href="/vmcw/10737422550/" title="Virginia Museum of the Civil War">Virginia Museum of the Civil War</a> | <a href="http://www.stonewalljackson.org/" title="Stonewall Jackson House" target="_blank">Stonewall Jackson House</a></p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/tpu1wxe.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

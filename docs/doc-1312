@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>What is Open Access? - ScholarShare - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noindex,nofollow,noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: ScholarShare: What is Open Access?"> 
+  <meta name="DC.Creator" content="Accacia Mullen"> 
+  <meta name="DC.Subject" content=""> 
+  <meta name="DC.Description" content="Resources for anyone working on, or learning about, ScholarShare, the open-access institutional repository at Preston Library, Virginia Military Institute."> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=216797&amp;p=1431684"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Feb 4, 2015"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Oct 21, 2015"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px;
+                                -moz-border-radius: 4px;
+                                border-radius: 4px;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px;
+                                -moz-border-radius: 4px;
+                                border-radius: 4px;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px;
+                                -moz-border-radius: 4px;
+                                border-radius: 4px;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px;
+                                -moz-border-radius: 4px;
+                                border-radius: 4px;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 4px 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 4px 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 4px 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 4px 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 216797,
+				page_id: 1431684,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-1431684";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '216797',_st_page_id: '1431684'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '216797',_st_page_id: '1431684'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <!-- SIDE NAV --> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="ScholarShare" href="http://libguides.vmi.edu/ScholarShare">ScholarShare </a> </li> 
+     <li id="s-lib-bc-page" class="active">What is Open Access? </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="216797"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">ScholarShare</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description">Resources for anyone working on, or learning about, ScholarShare, the open-access institutional repository at Preston Library, Virginia Military Institute.</span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Header --> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <div id="s-lg-side-nav-content" class="container s-lib-side-borders pad-top-med"> 
+   <div class="row"> 
+    <div class="col-md-3 s-lg-tabs-side pad-bottom-med"> 
+     <div id="s-lg-tabs-container"> 
+      <div id="s-lg-guide-tabs"> 
+       <ul class="nav nav-pills nav-stacked split-button-nav"> 
+        <li role="presentation"> <a title="" class="" href="/c.php?g=216797&amp;p=1431682"> <span>Home</span> </a> </li> 
+        <li role="presentation"> <a title="" class="" href="/c.php?g=216797&amp;p=1431683"> <span>What is an Institutional Repository?</span> </a> </li> 
+        <li role="presentation" class="active"> <a title="" class="active" href="/c.php?g=216797&amp;p=1431684"> <span>What is Open Access?</span> </a> </li> 
+        <li role="presentation"> <a title="" class="" href="/c.php?g=216797&amp;p=1431691"> <span>Author's Rights</span> </a> </li> 
+        <li role="presentation"> <a title="" class="" href="/c.php?g=216797&amp;p=1444621"> <span>Federally Funded Research</span> </a> </li>
+       </ul> 
+       <div class="s-lg-row margin-top-med"> 
+        <div id="s-lg-col-0"> 
+         <div class="s-lg-col-boxes"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="col-md-9"> 
+     <div class="s-lg-tab-content"> 
+      <div id="s-lg-guide-main" class="tab-pane active"> 
+       <div class="row s-lg-row"> 
+        <div id="s-lg-col-1" class="col-md-12"> 
+         <div class="s-lg-col-boxes"> 
+          <div id="s-lg-box-wrapper-5140543" class="s-lg-box-wrapper-5140543"> 
+           <div id="s-lg-box-4363697-container" class="s-lib-box-container"> 
+            <div id="s-lg-box-4363697" class="s-lib-box s-lib-box-std"> 
+             <h2 class="s-lib-box-title">What is open access? </h2> 
+             <div id="s-lg-box-collapse-4363697"> 
+              <div class="s-lib-box-content"> 
+               <div id="s-lg-content-8895310" class="  clearfix"> 
+                <p><span style="color: rgb(0, 0, 0); font-family: 'Trebuchet MS', Arial, Helvetica, 'Sans serif'; font-size: small; line-height: normal;">Open-access (OA) literature is digital, online, free of charge, and free of most copyright and licensing restrictions. What makes it possible is the internet and the consent of the author or copyright-holder. - <a href="http://cyber.law.harvard.edu/~psuber/wiki/Peter_Suber">Peter Suber</a></span></p> 
+               </div>
+               <div class=""> 
+                <ul id="s-lg-link-list-10019791" class="s-lg-link-list s-lg-link-list-2">
+                 <li class=""> 
+                  <div id="s-lg-content-8895382" class=""> 
+                   <span><a href="http://archivesspace.vmi.edu:9000/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '8895382'});">Virginia Scholarly Open Access Repositories</a> </span>
+                   <div id="s-lg-link-desc-8895382" class="s-lg-link-desc">
+                    Created by Rachel Maderik of Preston Library, a directory of open access repositories in Virginia
+                   </div> 
+                  </div></li> 
+                 <li class=""> 
+                  <div id="s-lg-content-8895466" class=""> 
+                   <span><a href="http://www.sparc.arl.org/sites/default/files/Open%20Access%20Fact%20Sheet.pdf" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '8895466'});">Open Access Fact Sheet</a> </span>
+                   <div id="s-lg-link-desc-8895466" class="s-lg-link-desc">
+                    From SPARC, the Scholarly Publishing and Academic Resources Coalition
+                   </div> 
+                  </div></li> 
+                 <li class=""> 
+                  <div id="s-lg-content-8895350" class=""> 
+                   <span><a href="http://legacy.earlham.edu/~peters/fos/brief.htm" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '8895350'});">Peter Suber's Very Brief Introduction to OA</a> </span> 
+                  </div></li> 
+                 <li class=""> 
+                  <div id="s-lg-content-8394307" class=""> 
+                   <span><a href="http://libraries.mit.edu/scholarly/mit-open-access/general-information-about-open-access/dispelling-myths-about-open-access/#impact" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '8394307'});">MIT Scholarly publishing</a> </span>
+                   <div id="s-lg-link-desc-8394307" class="s-lg-link-desc">
+                    Though it's geared toward faculty publishing at MIT, it includes some helpful information.
+                   </div> 
+                  </div></li> 
+                </ul> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div>
+          </div>
+          <div id="s-lg-box-wrapper-5405645" class="s-lg-box-wrapper-5405645"> 
+           <div id="s-lg-box-4581924-container" class="s-lib-box-container"> 
+            <div id="s-lg-box-4581924" class="s-lib-box s-lib-box-std"> 
+             <h2 class="s-lib-box-title">Are there good open access journals in my discipline? </h2> 
+             <div id="s-lg-box-collapse-4581924"> 
+              <div class="s-lib-box-content"> 
+               <div id="s-lg-content-8897632" class="  clearfix"> 
+                <h3>Humanities</h3> 
+                <div id="s-lg-content-1605212" style="box-sizing: border-box; padding-top: 5px; margin-bottom: 0.25em;box-sizing: border-box;"> 
+                 <ul> 
+                  <li><span style="box-sizing: border-box;"><a href="http://doaj.org/search" style="box-sizing: border-box; color: rgb(153, 0, 0); text-decoration: none; background: 0px 0px;" target="_blank">DOAJ</a>&nbsp;—&nbsp;</span><span style="line-height: 1.6;">The Directory of Open Access Journals allows you to search for all included journals and then narrow by subject.</span></li> 
+                  <li><span style="box-sizing: border-box;"><a href="http://www.jurn.org/directory/" style="box-sizing: border-box; color: rgb(153, 0, 0); text-decoration: none; background: 0px 0px;" target="_blank">JURN Directory</a>&nbsp;—&nbsp;</span><span style="line-height: 1.6;">3,000 links to selected arts &amp; humanities ejournals. Journals listed are either free (open access), or offer significant free content.</span></li> 
+                  <li><span style="box-sizing: border-box;"><a href="http://www.neh.gov/divisions/odh" style="box-sizing: border-box; color: rgb(153, 0, 0); text-decoration: none; background: 0px 0px;" target="_blank">NEH Office of Digital Humanities</a>&nbsp;—&nbsp;</span><span style="line-height: 1.6;">ODH is an office within the National Endowment for the Humanities (NEH). Its primary mission is to help coordinate the NEH's efforts in the area of digital scholarship.</span></li> 
+                  <li><span style="box-sizing: border-box;"><a href="http://openhumanitiespress.org/index.html" style="box-sizing: border-box; color: rgb(153, 0, 0); text-decoration: none; background: 0px 0px;" target="_blank">Open Humanities Press</a>&nbsp;—&nbsp;</span><span style="line-height: 1.6;">International open access publishing collective in critical and cultural theory; peer reviewed.</span></li> 
+                 </ul> 
+                </div> 
+               </div> 
+               <div id="s-lg-content-8897635" class="  clearfix"> 
+                <h3>Sciences</h3> 
+                <ul class="s-lg-link-list s-lg-link-list-2" id="s-lg-link-list-1760525" style="box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding-left: 20px; color: rgb(85, 85, 85); font-family: Arial, Helvetica, Verdana; line-height: 22.75px;"> 
+                 <li style="padding-top: 5px; margin-bottom: 0.25em; box-sizing: border-box;"><span style="box-sizing: border-box;"><a href="http://www.doaj.org/search" style="box-sizing: border-box; color: rgb(153, 0, 0); text-decoration: none; background: 0px 0px;" target="_blank">DOAJ</a>&nbsp;—&nbsp;</span>The Directory of Open Access Journals allows you to search for all included journals and then narrow by subject.</li> 
+                 <li style="padding-top: 5px; margin-bottom: 0.25em; box-sizing: border-box;"><span style="box-sizing: border-box;"><a href="http://www.biomedcentral.com/" style="box-sizing: border-box; color: rgb(153, 0, 0); text-decoration: none; background: 0px 0px;" target="_blank">BioMedCentral</a>&nbsp;—&nbsp;A pioneer in open access, BioMed Central, now owned by Springer Verlag, publishes over 60 open access journals as well as subscription titles.</span></li> 
+                 <li style="padding-top: 5px; margin-bottom: 0.25em; box-sizing: border-box;"><span style="box-sizing: border-box;"><a href="http://chemistrycentral.com/" style="box-sizing: border-box; color: rgb(153, 0, 0); text-decoration: none; background: 0px 0px;" target="_blank">Chemistry Central</a>&nbsp;—&nbsp;Chemistry Central, a later outgrowth of BioMed Central, publishes international, peer-reviewed open access research in chemistry.</span></li> 
+                 <li style="padding-top: 5px; margin-bottom: 0.25em; box-sizing: border-box;"><span style="box-sizing: border-box;"></span><a href="http://projecteuclid.org/DPubS?Service=UI&amp;version=1.0&amp;verb=Display&amp;handle=euclid&amp;page=about&amp;aboutArea=librarians&amp;aboutPage=about_open" style="box-sizing: border-box; color: rgb(153, 0, 0); text-decoration: none; background: 0px 0px;" target="_blank">Project Euclid</a>&nbsp;—&nbsp;Offering nearly 20 highly-regarded mathematics journal as open access, along with additional subscription titles.</li> 
+                 <li style="padding-top: 5px; margin-bottom: 0.25em; box-sizing: border-box;"><span style="box-sizing: border-box;"></span><span style="box-sizing: border-box;"><a href="http://www.plos.org/" style="box-sizing: border-box; color: rgb(153, 0, 0); text-decoration: none; background: 0px 0px;" target="_blank">Public Library of Science</a>&nbsp;—&nbsp;With a core principle of "giving any scientist, physician, patient, or student - anywhere in the world - unlimited access to the latest scientific research", the non-profit PLoS was one of the first, and remains one of the truly significant open access publishing houses in the sciences. Its journals are notable for their high quality and high profile, with new research reports frequently highlighted in major general news outlets.</span></li> 
+                 <li style="padding-top: 5px; margin-bottom: 0.25em; box-sizing: border-box;"><span style="box-sizing: border-box;">​<span style="box-sizing: border-box;"><a href="http://www.ncbi.nlm.nih.gov/pmc/" style="box-sizing: border-box; color: rgb(153, 0, 0); text-decoration: none; background: 0px 0px;" target="_blank">PubMedCentral</a>&nbsp;—&nbsp;</span>Biomedical and life sciences journal literature at the U.S. National Institutes of Health's National Library of Medicine (NIH/NLM).​<span style="box-sizing: border-box;"></span></span></li> 
+                </ul> 
+               </div> 
+               <div id="s-lg-content-8897639" class="  clearfix"> 
+                <h3>Social Sciences</h3> 
+                <ul> 
+                 <li id="s-lg-content-1604635" style="padding-top: 5px; margin-bottom: 0.25em; box-sizing: border-box;"><span style="box-sizing: border-box;"><a href="http://www.doaj.org/search" style="box-sizing: border-box; color: rgb(153, 0, 0); text-decoration: none; background: 0px 0px;" target="_blank">DOAJ</a>&nbsp;—&nbsp;</span>The Directory of Open Access Journals allows you to search for all included journals and then narrow by subject.</li> 
+                 <li style="padding-top: 5px; margin-bottom: 0.25em; box-sizing: border-box;"><span style="box-sizing: border-box;"><a href="http://www.ssoar.info/en/home.html" style="box-sizing: border-box; color: rgb(153, 0, 0); text-decoration: none; background: 0px 0px;" target="_blank">SSOAR</a>&nbsp;—&nbsp;The Social Science Open Access Repository contains both pre- and post-print articles from a wide range of the social sciences. It is certified by the German Initiative for Networked Information (DINI). It has both English and foreign language publications.</span></li> 
+                 <li style="padding-top: 5px; margin-bottom: 0.25em; box-sizing: border-box;"><span style="box-sizing: border-box;"><a href="http://www.ssrn.com/" style="box-sizing: border-box; color: rgb(153, 0, 0); text-decoration: none; background: 0px 0px;" target="_blank">SSRN</a>&nbsp;—&nbsp;</span>The Social Science Research Network has material from across a broad range of the social sciences and is one of the largest OA repositories in the world. Coverage is also international in scope.</li> 
+                </ul> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+      <li class="previous"> <a href="/c.php?g=216797&amp;p=1431683">&lt;&lt; <strong>Previous:</strong> What is an Institutional Repository?</a> </li> 
+      <li class="next"> <a href="/c.php?g=216797&amp;p=1431691"><strong>Next:</strong> Author's Rights &gt;&gt;</a> </li> 
+     </ul> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Oct 21, 2015 2:41 PM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/ScholarShare</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D216797%2526p%253D1431684&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

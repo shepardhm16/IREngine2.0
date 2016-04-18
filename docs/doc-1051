@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>Biology - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/vmi/img/favicon/favicon.ico"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules">
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript>
+  <a href="#acalog-navigation"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a>
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"><span class="n1_header"> Virginia Military Institute</span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015-2016 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15" selected>2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="15"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=15" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=15" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=438" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=435" class="navbar" tabindex="107">Institute Calendar 2015-2016</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=436" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=437" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=431" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=439" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=440" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=442" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=443" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=444" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=445" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=441" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=448" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=450" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=446" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=433" class="navbar" tabindex="121">Support Agencies</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=449" class="navbar" tabindex="122">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td> 
+                  <div class="help_block" style="float: right">
+                   <a href="help.php?catoid=15" onclick="javascript:acalogPopup('help.php?catoid=15', 'help', 770, 530, 'yes')" target="_blank" tabindex="203" class="help acalog-highlight-ignore"><b>HELP</b></a>
+                  </div> <span class="acalog_catalog_name">2015-2016 Academic Catalogue</span> <br> <h1 id="acalog-content">Biology</h1> 
+                  <div style="float: right">
+                   <a rel="nofollow" href="/preview_entity.php?catoid=15&amp;ent_oid=347&amp;print" onclick="acalogPopup('/preview_entity.php?catoid=15&amp;ent_oid=347&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                  </div>
+                  <div class="acalog-social-media-links" style="float: right;"> 
+                  </div> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <hr> </td> 
+                </tr> 
+               </tbody>
+              </table> <p></p><p>The mission of the VMI biology department is to broadly train students to understand how living organisms function and to appreciate the intricacies and interactions that govern all living systems. This mission supports the broader VMI mission of creating citizen soldiers, by equipping students to make informed decisions that will better society. We accomplish this by providing students with broad training and a fundamental background in the biological sciences, while providing the opportunity to specialize in the subdisciplines described under "<a href="preview_program.php?catoid=15&amp;poid=941#AcademicConcentrationsInBiology">Academic Concentrations in Biology</a><span style="display: none !important">&nbsp;</span>."&nbsp; Also, we offer, in collaboration with the physical education department, an <a href="preview_program.php?catoid=15&amp;poid=1002" onclick="acalogPopup('preview_program.php?catoid=15&amp;poid=1002'+((location.search.match(/&amp;print/i)) ? '&amp;print' : '')+'', '1', 770, 530, 'yes');return false;" target="_blank">Exercise Science Minor</a><span style="display: none !important">&nbsp;</span>. &nbsp;The degree programs are particularly good at preparing majors to pursue post-graduate education in the biological and health sciences and allow for specialization that matches student interests and career plans. Faculty members believe that interaction with cadets in the classroom, laboratory, and on an individual basis is critical in the development of the successful biology major. In keeping with this philosophy, class sizes are small, laboratories accompany most courses, advising is conducted on an individual basis, and undergraduate research is encouraged. The biology department also provides a summer research experience. The Dr. Fred C. Swope Summer Scholars Program is an intensive, ten-week program that introduces selected students to the scientific method, research design and data analysis, data presentation, use of sophisticated laboratory instruments, and independent research. Each student conducts a research project under the guidance of a faculty mentor. This research is at the "cutting edge" of science, and student/faculty publications have resulted from these projects. Normally, cadets are selected to participate in this program between their second and first class years. Many additional opportunities for undergraduate research exist, allowing students to engage in a one-on-one interaction with a faculty mentor in their area of interest as early as the summer following the fourth class (freshman) year.</p> <h3>Capstone Experiences in Undergraduate Research Requirement (3 credits)</h3> <p>Recognizing that many of our students already engage in a comprehensive research experience that requires them to apply, integrate, and critically analyze information and data, the biology department requires that this experience be recognized as their Capstone Experience. Successful completion of the Capstone Experience is a graduation requirement, therefore any of the following course sequences will satisfy that requirement: <a href="preview_course_nopop.php?catoid=15&amp;coid=12583" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12583&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12583&amp;display_options[location]=tooltip&amp;show" id="tt6294" target="_blank">BI 353W</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=15&amp;coid=12584" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12584&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12584&amp;display_options[location]=tooltip&amp;show" id="tt7818" target="_blank">BI 354W</a><span style="display: none !important">&nbsp;</span> Summer Scholars Program, <a href="preview_course_nopop.php?catoid=15&amp;coid=12597" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12597&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12597&amp;display_options[location]=tooltip&amp;show" id="tt8309" target="_blank">BI 490W</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=15&amp;coid=12598" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12598&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12598&amp;display_options[location]=tooltip&amp;show" id="tt3811" target="_blank">BI 491W</a><span style="display: none !important">&nbsp;</span> Independent Research Courses, and <a href="preview_course_nopop.php?catoid=15&amp;coid=12986" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12986&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12986&amp;display_options[location]=tooltip&amp;show" id="tt1327" target="_blank">HN 400</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=15&amp;coid=12987" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12987&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12987&amp;display_options[location]=tooltip&amp;show" id="tt7828" target="_blank">HN 401</a><span style="display: none !important">&nbsp;</span> Institute Honors. Students must complete two semesters or a full summer of research (SURI) under the guidance of a faculty mentor culminating with a research paper and oral presentation of the data. Those biology students who do not avail themselves of the opportunity to engage in undergraduate research or do so for only one semester will be required to complete <a href="preview_course_nopop.php?catoid=15&amp;coid=12595" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12595&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12595&amp;display_options[location]=tooltip&amp;show" id="tt9797" target="_blank">BI 420W</a><span style="display: none !important">&nbsp;</span>, Senior Seminar, in order to fulfill the capstone course requirement. Those receiving more than 3 credits for this experience can apply them as research hours credit.</p> <h3>Dr. Fred C. Swope Summer Scholars Program</h3> <p>The&nbsp; Dr. Fred C. Swope Summer Undergraduate Research Program in Biology at the Virginia Military Institute was established in 1991 and is named after one of VMI's most visionary Biology Department Chairmen, COL Fred C. Swope. This summer program is designed to acquaint selected Biology undergraduate students with the philosophy, practices, and techniques of research. During the months of May, June and July the program engages the students in a research project with a faculty mentor. At the end of the summer students in the program present their research findings to the department's faculty. Students in the program carry out research projects with a faculty mentor and acquire the ability to make scientific observations, collect and analyze data, and to synthesize this information in a meaningful context. Students are encouraged to continue their research interests into the following academic year and beyond in anticipation of completion of a Department or Institute Honors Thesis. Upon the completion of these undergraduate research experiences the student has acquired a meaningful and in depth knowledge of the research process and has a realistic idea of what is involved in pursuing post-graduate studies. The program is funded through a private endowment that provides funds for 5-6 student summer stipends plus room, board, six hours of academic credit, and spending money.</p> <h3>Honors in Biology</h3> <p>A cadet can earn departmental honors by completing a research project by their 1st class year and presenting the research to the department. Eligibility to apply for departmental honors requires 1st class standing, a minimum cumulative and biology GPA of 3.000. An application in the form of a research proposal is submitted to the department at the end of the 2nd class year or at the beginning of the 1st class year. If the department approves the proposal, then the cadet will enroll in <a href="preview_course_nopop.php?catoid=15&amp;coid=12597" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12597&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12597&amp;display_options[location]=tooltip&amp;show" id="tt5012" target="_blank">BI 490</a><span style="display: none !important">&nbsp;</span> (independent research in the fall) and then <a href="preview_course_nopop.php?catoid=15&amp;coid=12598" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12598&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12598&amp;display_options[location]=tooltip&amp;show" id="tt8256" target="_blank">BI 491</a><span style="display: none !important">&nbsp;</span> (independent research in the spring). By the middle of April, a formal research paper will be submitted to the department at least two weeks prior to the oral presentation (defense). The awarding of Honors in Biology will be made following successful completion of the research project and oral defense.</p><p></p><h3>Programs</h3>
+              <ul>
+               <li><a href="preview_program.php?catoid=15&amp;poid=951">Biology, B.A.</a></li>
+               <li><a href="preview_program.php?catoid=15&amp;poid=941">Biology, B.S.</a></li>
+              </ul><h3 id="courses">Courses</h3>
+              <ul></ul><strong>BIOLOGY</strong><br><p>Department of Biology<br> Department Head: Colonel Turner</p> <p>Requirements for major in biology are specified in <a href="preview_entity.php?catoid=15&amp;ent_oid=347">Biology</a><span style="display: none !important">&nbsp;</span>.</p>
+              <ul>
+               <li><a href="#" onclick="showCourse('15', '12547',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 101 - General Biology I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12548',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 102 - General Biology II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12549',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 103 - Biological Diversity and Systematics I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12550',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 104 - Biological Diversity and Systematics II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12551',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 192 - Independent Research</a></li>
+               <li><a href="#" onclick="showCourse('15', '12552',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 193 - Independent Research</a></li>
+               <li><a href="#" onclick="showCourse('15', '12554',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 204 - Physiology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12555',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 205 - Genetics</a></li>
+               <li><a href="#" onclick="showCourse('15', '12556',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 215 - Nutrition</a></li>
+               <li><a href="#" onclick="showCourse('15', '12557',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 216 - Animal Behavior</a></li>
+               <li><a href="#" onclick="showCourse('15', '12558',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 217 - General Botany</a></li>
+               <li><a href="#" onclick="showCourse('15', '12559',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 218X - Biology of Gender</a></li>
+               <li><a href="#" onclick="showCourse('15', '12560',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 219 - Conservation Biology</a></li>
+               <li><a href="#" onclick="showCourse('15', '13426',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 222 - Environmental Science</a></li>
+               <li><a href="#" onclick="showCourse('15', '12561',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 240 - Biological Agents in Warfare and Terrorism</a></li>
+               <li><a href="#" onclick="showCourse('15', '12562',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 245X - Epidemics and Society</a></li>
+               <li><a href="#" onclick="showCourse('15', '12563',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 290/290W - Independent Research</a></li>
+               <li><a href="#" onclick="showCourse('15', '12564',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 291/291W - Independent Research</a></li>
+               <li><a href="#" onclick="showCourse('15', '12565',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 292 - Independent Research</a></li>
+               <li><a href="#" onclick="showCourse('15', '12566',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 293 - Independent Research</a></li>
+               <li><a href="#" onclick="showCourse('15', '12567',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 303 - Developmental Biology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12568',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 304 - Comparative Vertebrate Morphology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12592',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 306 - Histology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12593',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 310 - Evolutionary Biology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12569',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 311 - Aquatic Ecosystems</a></li>
+               <li><a href="#" onclick="showCourse('15', '12570',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 312 - Ecology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12571',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 313 - Microbiology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12572',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 316 - Mammalogy</a></li>
+               <li><a href="#" onclick="showCourse('15', '12573',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 317 - Herpetology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12574',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 321 - Invertebrate Zoology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12577',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 324 - Ornithology</a></li>
+               <li><a href="#" onclick="showCourse('15', '13445',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 325 - Ecological Biochemistry</a></li>
+               <li><a href="#" onclick="showCourse('15', '15113',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 326 - Parasitology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12578',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 331WX - Cultural, Ethical, Economic, Religious, and Political issues Surrounding Science and Medicine</a></li>
+               <li><a href="#" onclick="showCourse('15', '12579',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 335 - Neurobiology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12580',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 340 - Teaching Mentorship in Biology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12581',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 351 - Selected Topics in Biology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12582',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 352 - Selected Topics in Biology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12583',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 353W - Summer Scholars Program I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12584',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 354W - Summer Scholars Program II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12585',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 390/390W - Independent Research</a></li>
+               <li><a href="#" onclick="showCourse('15', '12586',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 391/391W - Independent Research</a></li>
+               <li><a href="#" onclick="showCourse('15', '12591',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 404 - Cell Biology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12594',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 411 - Immunology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12595',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 420W - Biology Seminar</a></li>
+               <li><a href="#" onclick="showCourse('15', '12596',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 430 - Molecular Biology</a></li>
+               <li><a href="#" onclick="showCourse('15', '12597',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 490W - Independent Research</a></li>
+               <li><a href="#" onclick="showCourse('15', '12598',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI 491W - Independent Research</a></li>
+              </ul><strong>CATALOG ELECTIVES</strong>
+              <ul>
+               <li><a href="#" onclick="showCourse('15', '15114',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">BI Elective - Non-Science Elective</a></li>
+              </ul> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <a rel="nofollow" href="/preview_entity.php?catoid=15&amp;ent_oid=347&amp;print" onclick="acalogPopup('/preview_entity.php?catoid=15&amp;ent_oid=347&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=15" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script> 
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt6294"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt7818"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt8309"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt3811"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt1327"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt7828"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt9797"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt5012"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt8256"></div> 
+ </body>
+</html>

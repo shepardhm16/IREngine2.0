@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta content="charset=utf-8"> 
+  <meta name="description" content="Fourier Synthesis"> 
+  <meta name="keywords" content="James Squire, Jim Squire, Professor James Squire, VMI, Courses, Research, Fourier Synthesis"> 
+  <title>Fourier Synthesis</title> 
+  <link href="../../squire.css" rel="stylesheet"> 
+  <link href="Fourier_Synthesis.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <table id="outerTable"> 
+   <tbody>
+    <tr> 
+     <td class="titleRow1Col1"></td> 
+     <td class="titleRow1Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow2Col1" style="background-image: url('FS_image.gif')"> </td> 
+     <td class="titleRow2Col2"> <h1>Fourier Synthesis</h1> </td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow3Col1"></td> 
+     <td class="titleRow3Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="menu"> <p><a href="../../Default.htm">Home</a></p> <p><a href="../../teaching/teaching.htm">Teaching</a></p> <p><a href="../research.htm">Research</a></p> <p style="font-size:95%"><a href="../../research/Student_Pages/student_pages.htm">Student Pages</a></p> <p><a href="../../personal/personal.htm">Personal</a></p> </td> 
+     <td class="cellHoldingMainTable alignTop" style="padding-left:20px;"> 
+      <ol class="alignTop" style="padding-left:20px;"> 
+       <li>Print this <a href="Tutorial21.pdf">tutorial</a>.</li> 
+       <li>Your instructor assigned you a number from 1-8. Download the correspondingly-numbered application below (with an "FS" prefixed to the number) by <b>right-clicking</b> it and saving it to your desktop ("save link as"). Double-click the application on your desktop to run it. 
+        <table class="fourierTable"> 
+         <tbody>
+          <tr> 
+           <td><a href="FS1.exe">FS1</a></td> 
+           <td><a href="FS2.exe">FS2</a></td> 
+           <td><a href="FS3.exe">FS3</a></td> 
+           <td><a href="FS4.exe">FS4</a></td> 
+          </tr> 
+          <tr> 
+           <td><a href="FS5.exe">FS5</a></td> 
+           <td><a href="FS6.exe">FS6</a></td> 
+           <td><a href="FS7.exe">FS7</a></td> 
+           <td><a href="FS8.exe">FS8</a></td> 
+          </tr> 
+         </tbody>
+        </table> </li> 
+       <li>Double-click the application on your desktop to run it, follow the tutorial, and give the completed tutorial to your instructor.</li> 
+      </ol> 
+      <hr> <p><b>Error message</b>(any of the following)</p> <p style="padding-left:20px"> 1) "The application attempted to perform an operation not allowed by the security policy"<br> 2) "The application has generated an exception that could not be handled"<br> 3) "Microsoft .NET Security: The application is running in a partially-trusted context" </p> <p> <b>Cause</b>: You left-clicked the FS.exe link above, rather than right-clicked it to save to your desktop. You are now trying to run it over the web rather than on your local machine.<br> </p> <p> <b>Fix</b>: Right-click the link. </p> </td> 
+    </tr> 
+   </tbody>
+  </table>  
+ </body>
+</html>

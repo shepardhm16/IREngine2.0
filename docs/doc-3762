@@ -1,0 +1,448 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	Virginia Military Institute - Cadet Advising
+</title>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni">
+  <meta name="Description" content="Great Challenge. Lifetime Reward. Virginia Military Institute, founded in 1839, is the nation&amp;#39;s oldest state-supported military college.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=1434" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCDw8PFgIeB1Zpc2libGVoZGQCEw9kFgQCAQ8PFgIfCGdkZAIFD2QWAgIBD2QWAmYPZBYCZg8WAh8IZxYCAgEPDxYCHwIFJS91cGxvYWRlZEltYWdlcy9JbWFnZXMvSGVhZGVycy9FRS5qcGdkZGQaJ9oyn9QeuCOWlunYOFMzNTa7Pc3xjx44UZBsd4twSw=="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAQnmjTfGJ8rD24Hz1TJ0Gp5g7Z1sS2zTNHf3/IxWgcxRFSOGbegovGRRqrbhyvyJGWQuO5O7PDGe2zLg4RZuxgswBICL3lSPOcXHTdrqUYkRJho/gCAALTicaAItRxwCmY="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering Division</a></li>
+        <li><a href="/Content.aspx?id=10737426144" target="_self">ECE Home</a></li>
+        <li><a href="/content.aspx?id=17209" target="_self">Degrees &amp; Programs</a></li>
+        <li><a href="http://vmi.catalog.acalog.com/preview_entity.php?catoid=15&amp;ent_oid=349&amp;returnto=448" target="_blank">Courses</a></li>
+        <li><a href="/content.aspx?id=1428" target="_self">About ECE</a></li>
+        <li><a href="/Content.aspx?id=1432" target="_self">Undergraduate Research</a></li>
+        <li class="selected"><strong><a href="/Content.aspx?id=1434" target="_self">Cadet Advising</a></strong></li>
+        <li><a href="/Content.aspx?id=10737419186" target="_self">K-12 Robotics Grant</a></li>
+        <li><a href="/Content.aspx?id=4294974241" target="_self">Faculty</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft1386"> 
+        <address><p>Dawn Cochran<br> Administrative Assistant<br><br> P:&nbsp;(540) 464-7236<br> F:&nbsp;(540) 464-7662<br><br> Virginia Military Institute<br> 508 Nichols Hall<br> Lexington, VA&nbsp; 24450</p> <p><a href="mailto:ece@vmi.edu">Contact ECE</a></p> </address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/" title="">Home</a> &gt; <a target="_self" href="/Content.aspx?id=54" title="">Academics</a> &gt; <a target="_self" href="/content.aspx?id=64" title="">Areas of Study</a> &gt; <a target="_self" href="/Content.aspx?id=4294974180" title="">Engineering</a> &gt; <a target="_self" href="/content.aspx?id=72" title="">ECE</a> &gt; Cadet Advising</span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/EE.jpg" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Advising</h1> 
+       <strong>“Life has but a handful of central conflicts, replayed by each person with the same ferocity and intensity as if they were the first.”- Zen Buddhist saying</strong>&nbsp; 
+       <p>Just like the quotation on life, there are a handful of deeply important, potentially life-changing questions regarding students' academic careers that I hear many times. I've arranged the most common below in the approximate chronological order of career development, from high school senior through first class year. Unfortunately I don't have the answers, but perhaps I can raise some new questions that aren't immediately obvious.</p> 
+       <p><strong>Selecting a major: is ECE right for you?</strong>&nbsp;</p> 
+       <p>Ask yourself these questions when considering a major:</p> 
+       <ul> 
+        <li>Do you really enjoy learning it? Electrical engineering, for instance, is traditionally considered one of the toughest majors with heavy homework loads and relatively high dropout rates. No reason but finding it intrinsically fun will help you find the energy to finish that last problem set when it's 1AM and everyone else at VMI is asleep. If you are among the few that can't keep from asking "how does it work?" when you see something new, if you've taken apart even your most expensive toys from your earliest years, if find there's something inexplicably fascinating when you peer inside a computer or television set that you've taken apart, then ECE may be your perfect match.</li> 
+        <li>Would you really enjoy doing it when you graduate? Do you know what professionals in your chosen major really do? If not, join a professional society as a student and find out. ECE has a very active student branch of the Institute of Electrical and Electronic Engineers (IEEE), and we have monthly dinner meetings in Roanoke with other students and engineers.</li> 
+        <li>For that matter, can you do it when you graduate? There are some majors that have only very few post-graduation opportunities. Get a copy of the Richmond Dispatch, or a newspaper from a major city near your hometown, and find out what jobs are being advertised. If you are commissioning, talk to your service representative and find out if there's a branch or assignment that fits your major. You'll have to do this anyway during your first-class year; better do it early and avoid nasty surprises. Electrical and computer engineers are in worldwide short supply, and even in difficult economic times have little trouble finding employment.</li> 
+        <li>What kind of lifestyle do you want to have? Electrical engineers tend to earn a lot; ECE graduates have had higher average starting salaries than any other department for the past two years (although virtually tied with mechanical engineering). Engineers also tend to move frequently, about as frequently during the early career years as those in the military. To find out more about engineering as a career, visit the IEEE homepage for students.</li> 
+        <li>Finally, do you have the knack? Many successful students of engineering did not choose engineering; instead engineering chose them.</li> 
+       </ul> 
+       <p><strong>Studying for engineering exams</strong>&nbsp;</p> 
+       <ol> 
+        <li>Spend about 30-60 minutes quickly reviewing the text. While reviewing, start working each of the example problems. If you see how to set the problem up, don't waste time actually solving it. If you don't, stop and figure it out.</li> 
+        <li>Spend your remaining time (the majority of your time) working similar problems that you find in the 
+         <ul> 
+          <li>board problem handouts</li> 
+          <li>homework problems</li> 
+          <li>student problem guide</li> 
+         </ul> &nbsp;</li> 
+        <li>Work a problem from each chapter, even if you feel confident in the material. Work additional problems in areas you identified that you feel weak. Only work problems that have solutions, but do not refer to the solutions unless you get really stuck or to check your answer.</li> 
+        <li>Don't fall into the trap of "speed preparing" by reading a problem and then immediately checking the solutions to see how should be worked – this is the most common studying pitfall I have seen and is not effective.</li> 
+       </ol> 
+       <p><strong>Should I find a summer internship?</strong>&nbsp;</p> 
+       <p>You'll have to decide whether to spend the summer working at a company, doing research in VMI's SURI program, or just taking a long vacation. Being on a commissioning track still leaves time to do one of these three. Each of these options has its merits, and different ones are best for different people (or at different points in their cadet careers). Here are some reasons you may want to choose an internship:</p> 
+       <ol> 
+        <li>If you haven't worked in a company, you are ill-prepared to make a decision about a job after graduation. (You are also ill-prepared to make the decision that you do not want to take a job, but instead prefer to go to graduate school, because you don't have information about industry.) The same thing goes for learning about companies of specific size (big company, startup, etc.), and particular types of work (programmer, sales, designer, tester, program manager, etc.).</li> 
+        <li>Working in a company exposes you to a different way of thinking and working. This breadth of experience is likely to stand you in good stead when you approach problems, because you will be able to choose the most effective style rather than applying the same approach in every situation. Related to this point, internships develop skills from interpersonal interactions to specific development tools. A company may be the only or best way to obtain these skills, which you will find valuable in your future career as an engineer.</li> 
+        <li>Working on real products with real customers is particularly rewarding for some people; they like to see the concrete impact their jobs have on customers, on coworkers, and on the industry.</li> 
+        <li>It looks great on an application for a job or for graduate school.</li> 
+       </ol> 
+       <blockquote style="margin-right: 0px;" dir="ltr">
+        <p>Forms: Institute academic forms (e.g. to add/drop, etc.)</p> 
+        <p>Forms: Department academic forms (e.g. concentration, minor)</p> 
+        <ul> 
+         <li>Declare a concentration (computer engineering vs. microelectronics)</li> 
+         <li>Declare a computer engineering minor</li> 
+        </ul> 
+       </blockquote> 
+       <p style="margin-right: 0px;" dir="ltr"><strong>How to get into graduate school</strong>&nbsp;</p> 
+       <ol> 
+        <li>Graduate schools care about more than just grades. They want students who show initiative, who have sought out challenges in independent research (e.g. VMI's URS or SURI program), who have found a summer internship, and who have held leadership positions. You can get into very competitive graduate schools if you have these distinguishing experiences even if you don't have a perfect GPA, but a 4.0 without these will probably earn you the "thin envelope" response to an application.</li> 
+        <li>Graduate schools place considerable emphasis on recommendations. Carefully consider whom to ask, and when you do, provide them with facts to help them write a good letter. Give them your resume and include whether you've worked in any independent study projects, helped in any science fairs, open houses, IEEE activities, or honor societies, whether you're involved in any sports, clubs, or community activities, won recognition for anything you've done in any group, tutored, volunteered, or done something unusual in another academic department. Take time to recall the events that distinguish you from the masses.</li> 
+        <li>Find out yourself what's important! Visit the school's webpage and download a copy of their application form. You may be surprised at what they value (and what they don't). M.I.T., for instance, won't even look at your GRE Engineering score if you send it to them, but they want a detailed account of engineering projects you have accomplished.</li> 
+       </ol> 
+       <p><strong>Getting a great letter of recommendation</strong>&nbsp;</p> 
+       <p>For every publicly-announced scholarship or job there will be many tens, if not hundreds of applications. Think of a stack of resume's that are over an inch thick. Even if you have the right background, if you do the same thing every other applicant does (carefully complete the paperwork, put thought and multiple drafts into your essay, and ask professors with positive opinions of you to fill out a reference form) you have only have a small statistical chance at best, and even less if someone applies for the scholarship/position that knows the following secret:</p> 
+       <ul> 
+        <li>You won't get a great letter of recommendation by giving your professor the recommendation form and hoping for the best. The most common result will be the professor will check the boxes, handwrite something like "Joe is an excellent student in my class and would make a great employee" in the essay portion, and sign his/her name. While this type of recommendation is better than "Joe is a moron" and will keep your application from the immediate trash-pile, it is only typical of what every other applicant is getting, and puts your paper in the thick wads of "maybes". If the job or scholarship is competitive, you've just lost your chance. At worst, the professor will put the application in the to-do pile, and attend instead to the current crises at hand, and come back to it two months later when the application deadline has expired.</li> 
+        <li>How should you do it? Offer to your professor to write your own recommendation and email it in editable format. It is presumptuous to hand your professor a recommendation ready-for-signature without asking if this is what he wants first, and it is almost guaranteed he will want to edit whatever you write anyway. But it is much easier and less time-consuming to edit a rough draft than to start from a blank paper, and very few applicants will get their pushed-for-time professors to write a well-written, comprehensive, typed essay, which by default will put your application into the reviewer's thin "first choice" pile.</li> 
+        <li>How should it be structured? It depends on the scholarship/job. Read it carefully, and make sure your experiences address what the reviewing committee wants to see. Sometimes you must read between the lines to determine what the ideal qualifications are. An example: A military scholarship that sends an electrical engineering candidate to a language school probably has reviewers that want to see students with strong skills in leadership (it's the military!), interpersonal relations (you'll be essentially serving in an ambassador role), a desire to learn about foreign cultures, and obviously, the innate talent to pick up foreign languages quickly. Since they're looking for electrical engineers, they probably also want to see how you can relate your creative/analytic talents in engineering to a particular purpose that requires foreign language skill (perhaps you're interested in Military Intelligence and want to analyze foreign military weapons). I'd recommend putting each of these categories into a bolded heading, and describing under each how your experiences and background make you a perfect match.</li> 
+        <li>How do you show your background/experiences match the qualifications? You DO NOT want to restate things that are already in your resume ("Joe's choice to join military ROTC training shows he has leadership skills"). Even worse, do not simply state what you want the reviewer to believe ("Joe is a very good leader"), a sure shortcut to the trash-pile. Instead, give plenty of examples that you have demonstrated in your reviewing professor's class that are not mentioned in your resume. Carrying the above example further, under the leadership bullet, you could write "Joe is a natural leader; in my laboratories the other students turn to him for advice and can often be seen huddling around his desk asking for help. I have observed the manner in which he assists them, and rather than simply solving the problem for them he leads them through the Socratic process of asking pointed questions that help them solve their own problems, thus building their independence."</li> 
+        <li>Won't this take a lot of time to write for each professor? Absolutely! This is why so few students do it, and why it's actually fairly easy for a reviewer to take 100 applications and quickly cull them down to 3 or 4 that actually stand a chance. Think of it this way: if it takes an additional 4 hours per professor, and you have 3 references that you need for a $12,000 scholarship, it's a $1,000 an hour investment in time you are taking to do it right. It's hard to find a campus job that pays that well.</li> 
+       </ul> 
+       <p><strong>Selecting a graduate school</strong>&nbsp;</p> 
+       <p>There are over 120 schools in the United States alone that offer graduate degrees in Electrical Engineering. One easy way to help you narrow your choices is to first decide what kind of degree you want. Contrary to popular understanding, the degree following a B.S. in engineering may be either of two types of Masters degrees, or you may proceed directly to a Ph.D. Here are some questions that may help.</p> 
+       <ul> 
+        <li>Do you want a Masters degree to work in industry? Perhaps you desire a consulting career with Anderson Consulting; you will then want what's often called an "Industrial Masters". These degree programs are course-heavy (usually 10), research-light, and focused on exposing you to practical skills and tools to let you hit the ground running on graduation. They typically take 12-18 months to complete and may or may not require a short (usually 6 month) thesis experience. Often there is an opportunity for a partial but not full tuition waiver if you agree to work as a teaching assistant. Not all universities offer this program, and those that do call it different things; call the graduate admissions office to find out.</li> 
+        <li>Do you think you want a PhD but want to get a Masters first? This will take longer than going straight for the PhD, but will keep your options open should you change your mind. This route will require what some universities call a "Science Masters" or a "Research Masters". These programs are course-light, research-heavy, and will prepare you for a career in engineering research. They typically take 24-30 months, always require a substantial thesis , and nearly always provide free tuition and a monthly stipend in return for teaching undergraduates. Once you begin a research project you may also compete for university or federal fellowships which also provide free tuition and a stipend, or receive research funding from your advisor. During the first few months you will interview with a variety of professors and select one whom you trust and is doing research you find fascinating; that professor will become your advisor. This is much more of a mentor/apprenticeship learning experience than the industrial masters. Universities that do not offer a Ph.D. will not have a science masters program, although universities that do may have only a science masters (e.g. M.I.T.), may have only an industrial masters (e.g. Monmouth), or may have both (e.g. Cornell).</li> 
+        <li>Do you know you want a doctorate? Perhaps you dream of returning to VMI as a professor, or want to perform cutting-edge research in an R&amp;D laboratory. You will need a Ph.D. to do these things, and you can earn one a few years faster by not obtaining a Masters degree first. Unlike many non-engineering doctoral programs, you can expect full support during your doctoral program from a mixture of Teaching Assistantships, Research Assistantships, and fellowships, which will provide both tuition and a stipend (typically about 15k/year). Universities structure PhD programs radically differently; some require a relatively heavy course load, some are entirely research-focused, and the average length of time varies from a low of just over three years to a high of nearly eight. Some require a single doctoral qualification examination that's administered 6 months after arrival, some have a series of exams that continue for your first 3 years. The number of hurdles is often linked to prestige of the school Find out the details with a call to the graduate office before you apply and avoid unpleasant surprises!</li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"> 
+  <meta name="robots" content="noindex, nofollow, noarchive"> 
+  <link rel="stylesheet" media="screen" href="/css274/font-awesome/css/font-awesome.min.css"> 
+  <link rel="stylesheet" media="screen" href="/css274/LibAnswers_public.css"> 
+  <title>
+        LibAnswers - FAQ    </title> 
+  <script src="//code.jquery.com/jquery-1.12.2.min.js"></script> 
+  <script src="/js274/LibAnswers_public.min.js"></script> 
+  <script>
+    		var springSpace = springSpace || {};
+			springSpace.la = springSpace.la || {};
+			springSpace.la.Page = {
+				http: 'http:',
+				domain: 'libanswers.vmi.edu',
+				ssl_domain: 'vmi.beta.libanswers.com',
+				iid: 889,
+				group_id: 384,
+				group_slug: '',
+				faq_id: 0,
+				qlog_id: 0,
+				solrUrl: 'http://search-platform.libapps.com/la2/'
+			};
+						
+    	</script>
+  <script type="text/javascript" src="/js274/combosearch.min.js"></script>
+  <script>
+			springSpace.la.Page.qlog_id = '0';	//need this for LA form js (for now)
+						
+			//set-up the search controller model config
+			var search_conf = {
+				host_app: 'la',
+				customer_id: 796,
+				lang: {"Ad_Cat":"Library Catalog","Ans_ChckOut":"Check out","Ans_ComEmail":"Email is required but never displayed on the public site:","Ans_ComName":"Enter your name as you'd like it to display to the public:","Ans_EditAns":"Edit FAQ","Ans_EmailFr":"Enter your name, your email, your friend's email address, and a brief message.","Ans_EmAns":"Email Answer","Ans_Facebook":"Share on Facebook","Ans_FrEmail":"Friend's Email","Ans_FriendMsg":"Your friend %s sent you a message","Ans_FrName":"Friend's Name","Ans_Hello":"Hello","Ans_Helpful":"Was this helpful?","Ans_Imprv":"Add a public comment to this FAQ Entry","Ans_MsgSent":"Your message was sent.","Ans_No":"No","Ans_Note":"Note","Ans_Print":"Print","Ans_Sugg":"Suggestion from a friend","Ans_Tweet":"Tweet","Ans_VoteWarn":"You can only vote once per answer.","Ans_YEm":"Your Email","Ans_Yes":"Yes","Ans_YName":"Your Name","az_bestbets_heading":"Best Bets","az_bestbets_label":"Best Bet","az_browse_name":"Browse by name","az_clear_filters":"Clear Filters\/Browse All Databases","az_database_plural":"Databases","az_dropdown_subjects":"Subjects","az_dropdown_types":"Types","az_dropdown_vendor":"Vendors","az_filter_all":"All","az_new_label":"New","az_trial_label":"Trial","Ch_ChatIntro":"\r\nThis is the chat transcript from %1$s (%2$s) on %3$s:","Ch_ChatSub":"Your recent chat transcript","ch_patron":"Patron","ch_sign_off_reminder":"Don't forget to sign off of LibChat at the end of your shift\/day.","ch_transcript_form_button":"Email Transcript","ch_transcript_form_email":"Email","ch_transcript_formintro":"To receive this transcript via email, enter your email address below. The field can accept only one email address.","ch_transcript_success":"Success, the transcript has been emailed to %s.","Com_Alert":"Thank you! Your comment may be approved and posted if it adds value to the answer.","Com_App":"Approve","Com_Attr":"by %1$s on %2$s","Com_Del":"Are you sure you want to delete this comment?","Com_Header":"Please enter your name or alias. The email is mandatory but it will never be displayed on the site.","Com_Pend":"Pending","Com_Text":"Your Answer\/Comment","Dt_Ampm":"true","Dt_Date":"M d, Y","Dt_DateTime":"M d Y, h:ia","Dt_TimePicker":"hh:mm tt","Err_Demo":"Please answer all required questions.","Err_Em":"Invalid email address.","Err_QSub":"Error submitting your question. Please reload the page and try again.","Err_Qu":"Please enter a question.","Err_Spam":"Your message was detected as spam.","Err_TryAg":"Error: Please try again.","faq_answer":"Answer","faq_answeredby":"Answered By","faq_linksfiles":"Links & Files","faq_media":"Media","faq_topics":"Topics","faq_updated":"Last Updated","faq_views":"Views","Fb_BrowseFAQs":"See all FAQs","Fb_Button":"Submit","Fb_ChatClose":"Close Chat","Fb_ChatOff":"Chat is Offline","Fb_ChatOn":"Chat with Us","Fb_ClearResults":"(clear results)","Fb_Details":"Details","Fb_Email":"Your Email","Fb_Idea_Success":"Thank you for the idea!","Fb_IdeaHeader":"Ideas","Fb_Opt_Idea":"An Idea","Fb_Opt_Praise":"Praise","Fb_Opt_Problem":"A Problem","Fb_Opt_Question":"A Question","Fb_SearchResults":"Search Results","Fb_Subject":"Subject","Fb_Tag_Praise":"praise","Fb_Tag_Problem":"problem","Fb_WidgetStatusLink":"View %s current status, scheduled maintenance, updates, etc.","Ft_Rights":"All rights reserved.","Ft_Tech":"Report a tech support issue.","Ge_Cancel":"Cancel","Ge_First":"First","Ge_Last":"Last","Ge_NewWin":"Links open in new window.","Ge_Next":"Next","Ge_NoMatch":"Sorry, no questions matched your search.","Ge_Of":"of","Ge_Page":"Page","Ge_Prev":"Prev","Ge_SelOne":"Select One","Ge_Submit":"Submit","Ge_Success":"Success!","Ge_Update":"Last Updated:","LG_Crtd":"Created by","LG_GoLG":"Go to %s","LG_NoLG":"No related content found.","LG_RelLG":"Related content from %s","Pub_AnsQ":"Answers","Pub_BrAll":"All","Pub_BrGroup":"Groups","Pub_BrHeading":"Browse:","Pub_Chtop":"Topics","pub_home_feattab":"Featured","pub_home_poptab":"Popular","pub_home_recenttab":"Recent","Pub_MoreInfo":"more info","Pub_MyAdmin":"My Admin","Pub_NoJS":"<strong>Warning:<\/strong> Your browser has javascript disabled. Without javascript some functions will not work, including question submission via the form.","Pub_NoRelatedFAQ":"No related FAQs found.","Pub_Sign":"Login to LibApps","Pub_SignOut":"Logout","Pub_Skip":"Skip to Main Content","Pub_Top":"Topic","Pub_TopAl":"View All Topics","Pub_Topic":"Topics:","Pub_Unassigned":"Unassigned","Pub_Views":"Views:","Rep_Contact":"Contact","Rep_File":"Attached Files","Rep_Name":"Name","Rep_Note":"Internal Note","Rep_QHeader":"Original Question","Rep_QInfo":"Questioner Information:","Rep_RepFrom":"Reply  from","Rep_Sources":"For More Info \/ Source(s)","Rep_Tags":"Tags","Rep_TrMes":"This message is to let you know that your question has been transferred to","Rep_Via":"via","Rep_You":"You","Sq_EmConf":"Receive an email confirmation of your submission.","Sq_FileChange":"Change","Sq_FileRemove":"Remove file","Sq_Fileup":"Attach a file","Sq_FileupMore":"Attach another file","Sq_MoreD":"More Detail\/Explanation","Sq_Q":"Question","Sq_Req":"Fields marked with %s are required.","Sq_Subm":"Submit Your Question","Sq_YInfo":"Your Info","Sq_YQ":"Your Question","srch_askqbutton":"Submit Your Question","srch_askqtext":"Still haven't found what you're looking for?","srch_boxhead":"Search Results for:","srch_by":"by","srch_facetnone":"None found within current limits.","srch_facetremoveall":"Remove all","srch_filtercurr":"Current Filters","srch_filters_az_subjects":"All Subjects","srch_filters_az_types":"All Types","srch_filters_az_vendor":"All Vendors","srch_filters_content_type":"Contains Content Type","srch_filters_g":"Groups","srch_filters_group":"In Group","srch_filters_guide_type":"Guide Type","srch_filters_keywords":"Keywords (most frequent)","srch_filters_subject":"Assigned Subjects","srch_filters_tag":"Assigned Tags","srch_filters_topics":"Topics (most frequent)","srch_notasked":"This question has not been asked yet.","srch_pagelabel":"Pagination of search results","srch_resrange":"Showing %1 (of %2)","srch_seemore":"See more","srch_sorthead":"Sort By","srch_sortlabelalpha":"Alphabetical","srch_sortlabeldateasc":"Updated (oldest)","srch_sortlabeldatedesc":"Updated (most recent)","srch_sortlabelrel":"Relevancy","srch_subject":"Subjects","srch_syntaxerror":"Syntax Error: Quotation marks can only be used for phrase searching and must be in pairs.","srch_topic":"Topics","srch_update":"Last Updated","St_BreadcrumbLink":"Systems Status","St_CommentsView":"View Comments","St_CurrentStatus":"Current Status:","St_FolderBack":"View full list","St_FolderClose":"Close Folder","St_Idea_Date":"Suggested on","St_IdeaAdd":"Submit an Idea","St_Ideas":"Ideas","St_NoMatch":"No results found.","St_Permalink":"Permalink","St_Picker_Button":"Go","St_Picker_Dashboard":"Go to Main Dashboard","St_Picker_Default":"View Status for...","St_Picker_Label":"System","St_PopularIdeas":"Most Popular","St_RecentIdeas":"Most Recent","St_Updates":"Updates","St_UpdatesAll":"All","St_Url":"URL:","St_VF_Comment":"Comment (optional)","St_VF_Email":"Email","St_VF_Idea":"Idea","St_VF_Title":"Title","St_VoteAdd":"Add your vote","St_VoteAddHeader":"Vote on: %s","St_VoteDate":"Posted on","St_VoteDown":"Vote Down","St_VotesHeader":"Comments on Idea: %s","St_VoteUp":"Vote Up"},
+				layout: 'tab', //tab or bento via app settings
+				sources: [{"id":2279,"name":"LibGuides","description":"","type":"lg","perpage":20,"display_facets":true,"site_id":"807","site_url":"libguides.vmi.edu","search_url":"libguides.vmi.edu\/srch.php?default_lg=1","request_url":"search-platform.libapps.com\/lg2\/select","profile_url":"\/\/libguides.vmi.edu\/prf.php?account_id=","group_data":[]},{"id":2280,"name":"A-Z Database List","description":"","type":"az","perpage":20,"display_facets":true,"site_id":"807","site_url":"libguides.vmi.edu","search_url":"libguides.vmi.edu\/az.php","request_url":"search-platform.libapps.com\/lg2-az\/select"},{"id":0,"name":"FAQ","description":"","type":"la","perpage":20,"display_facets":true,"site_id":"2062","site_url":"","search_url":"libanswers.vmi.edu\/search?adv=1&q={{query}}","request_url":"search-platform.libapps.com\/la2\/select","iid":889,"group_data":{"384":{"id":"384","slug":"","name":"Reference"}},"isDefaultGroup":"true","groups_available":["384"],"group_id_default":["384"]},{"id":2282,"name":"LibCal","description":"","type":"lc","perpage":20,"site_id":"8210","site_url":"vmi.libcal.com","search_url":"vmi.libcal.com","request_url":"http:\/\/vmi.libcal.com\/process_search.php","query_const":{"site_id":"8210"},"item_template":"<div class=s-srch-result-title><a href=\"{{url}}\" data-eventid={{id}}>{{title}}<\/a><\/div><div class=\"s-srch-result-meta\"><span class=\"s-srch-result-date\"><span class=metalabel>Date<\/span> {{date}} {{# if (!all_day) { }}{{start}} - {{end}}{{# } }}<\/span>{{# if (location !== '' || campus !== '') { }}<span class=\"divider\">|<\/span><span class=\"s-srch-result-location\"><span class=metalabel>Location<\/span> {{location}}{{# if (location !== '' && campus !== '') { }}, {{# } }}{{campus}}<\/span>{{# } }}<\/div>"}], //via app settings
+				form_selector: '#s-la-searchform-0', //via app settings
+				debug: false,
+				form_queue_id: 322,
+				tab_order: [0]
+			};
+
+						
+			/**
+			 * QuerySpy recording for LibAnswers
+			 * @param {Object} config
+			 * @param {String} [config.domain] LA domain (unnecessary in LA itself)
+			 * @param {Int} [config.qlog_id] current query spy ID if there is one already
+			 * @param {Int} [config.group_id] current LA group id if applicable
+			 */
+			springSpace.querySpy_ = function(config) {
+				this.domain = (config.domain) ? config.domain: '';
+				if (this.domain !== '') { this.domain = '//'+this.domain; }
+				this.qlog_id = (config.qlog_id) ? config.qlog_id : 0;
+				this.group_id = (config.group_id) ? config.group_id : 0;
+				this.first_search_saved = false;
+				this.query = '';
+				
+				/**
+				 * record a query spy transactions
+				 * @param {Object} data
+				 * @param {String} data.query search string
+				 */
+				this.record = function(data) {
+					if (this.first_search_saved) {
+						this.first_search_saved = false;
+						if (this.query == data.query) {
+							return;
+						}
+					}
+					if (!data.query || this.query == data.query) { return; }
+					if (!data.refer) { data.refer = location.href; }
+					data.group_id = this.group_id;
+					data.qlog_id = this.qlog_id;
+					this.query = data.query;
+					
+					var self = this;
+					jQuery.post(
+						self.domain+'/process_public.php?m=qlog',
+						data,
+						function(d) {
+							self.qlog_id = d.qlog_id;	
+						},
+						'json'
+					);
+				};
+				/**
+				 * Goto an FAQ, recording query spy on the way
+				 * @param {Int} data.faqid target FAQ id
+				 */
+				this.gotoFAQ = function(data) {
+					if (!data.faqid) {
+						//console.log('nofaqid');	
+						return;
+					}
+					var self = this;
+					jQuery.ajax({
+						type: 'POST',
+						url: self.domain+'/process_public.php?m=gotoa',
+						data: { faqid: data.faqid, qlog: self.qlog_id },
+						success: function (data) {
+							//console.log(data);
+							return true;
+						}
+					});
+				};
+			};
+			springSpace.querySpy = new springSpace.querySpy_({ qlog_id: springSpace.la.Page.qlog_id, group_id: springSpace.la.Page.group_id });
+			if (springSpace.la.Page.qlog_id > 0) {
+				springSpace.querySpy.first_search_saved = true;
+				springSpace.querySpy.query = "";
+			}
+			
+			//we need to set the object so its in scope for the History event
+			var searchcontroller = {};			
+			
+			jQuery(document).ready(function(){
+				
+				//add the search header to the top column
+				jQuery('<div>').append( jQuery('<h2>').addClass('s-srch-top-header') ).prependTo( jQuery('#s-la-page-column-0') );
+				
+				//set the selectors for controller elements
+				var search_box_id = jQuery('.s-la-box-type-5').attr('id');
+				search_conf.selector = '#'+search_box_id + ' .s-la-box-content';
+				search_conf.header_selector = '#s-la-page-column-0 .s-srch-top-header';
+				
+				//instantiate the controller
+				searchcontroller = new SearchController(search_conf);
+				searchcontroller.loadSources();
+				searchcontroller.retrieve();
+
+				//If question form is present, set the query in the question field
+				$('input[name=pquestion]').val("");
+			});
+						
+		</script> 
+ </head> 
+ <body id="s-la-page-1592" class="s-la-page-public s-la-page-single search"> 
+  <a id="s-la-public-skiplink" class="alert-info" href="#s-la-page-maincontent">Skip to Main Content</a> 
+  <!-- start custom header --> 
+  <!-- end custom header --> 
+  <div class="container"> 
+   <div id="s-la-public-banner" class="s-la-banner row" role="banner"> 
+    <div class="col-md-12"> 
+     <a id="s-la-banner-link" href="http://www.vmi.edu/Content.aspx?id=312"><img class="img-responsive" usemap="#s-la-headermap" name="banner" alt="Virginia Military Institute: FAQ banner" id="s-la-banner-img" src="//laimages.s3.amazonaws.com/data/headers/889/library_banner.png"></a> 
+    </div> 
+   </div>
+   <div id="s-la-bc" class="row" role="navigation"> 
+    <div class="col-md-12"> 
+     <ol class="breadcrumb s-la-color-bars s-la-color-bars-border"> 
+      <li><a href="http://www.vmi.edu/Content.aspx?id=312">Preston Library</a></li> 
+      <li><a href="http://libanswers.vmi.edu/">FAQ</a></li>
+     </ol> 
+    </div> 
+   </div>
+   <div id="s-la-public-header" class="s-la-header row clearfix"> 
+    <div class="col-md-12">
+     <noscript>
+      <div id="s-la-noscript" class="alert alert-warning">
+       <strong>Warning:</strong> Your browser has javascript disabled. Without javascript some functions will not work, including question submission via the form.
+      </div>
+     </noscript>
+     <div class="s-la-public-header-text "> 
+      <h1 id="s-la-public-header-title">LibAnswers</h1> 
+      <div class="s-la-public-header-description"></div> 
+     </div>
+    </div> 
+   </div>
+   <div id="s-la-page-title-bar" role="navigation"> 
+    <div class="navbar navbar-default s-la-color-bars s-la-color-bars-border"> 
+     <div class="navbar-header"> 
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#s-la-browsebar-collapse" aria-hidden="true"> <span class="fa fa-bars"></span> </button> 
+     </div> 
+     <div class="collapse navbar-collapse" id="s-la-browsebar-collapse"> 
+      <ul class="nav navbar-nav s-la-navbrowse"> 
+       <li><p class="navbar-text">Browse:</p></li> 
+       <li><a class="" href="//libanswers.vmi.edu/search/">All</a></li> 
+       <li id="s-la-page-title-bar-topics" class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#">Topics <b class="caret"></b></a> 
+        <ul class="dropdown-menu dropdown-scroll dropdown-menu-right" role="menu" aria-hidden="true">
+         <li><a href="//libanswers.vmi.edu/search/?g=384&amp;topics=books&amp;adv=1" role="menuitem"><span class="badge">1</span><span class="topic_item">Books</span></a></li>
+         <li><a href="//libanswers.vmi.edu/search/?g=384&amp;topics=circulation&amp;adv=1" role="menuitem"><span class="badge">1</span><span class="topic_item">Circulation</span></a></li>
+         <li><a href="//libanswers.vmi.edu/search/?g=384&amp;topics=hours&amp;adv=1" role="menuitem"><span class="badge">2</span><span class="topic_item">hours</span></a></li>
+         <li><a href="//libanswers.vmi.edu/search/?g=384&amp;topics=printers&amp;adv=1" role="menuitem"><span class="badge">1</span><span class="topic_item">Printers</span></a></li>
+         <li><a href="//libanswers.vmi.edu/search/?g=384&amp;topics=services&amp;adv=1" role="menuitem"><span class="badge">1</span><span class="topic_item">services</span></a></li>
+        </ul> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div>
+   <div id="s-la-page-maincontent" role="main">
+    <div class="s-la-row row"> 
+     <div id="s-la-page-column-0" class="s-la-column-top col-md-12"></div> 
+    </div>
+    <div class="s-la-row row">
+     <div id="s-la-page-column-1" class="s-la-page-column col-md-12">
+      <div id="s-la-box-3785-container" class="s-la-box-container s-la-color-bars-border  s-la-box-type-5 s-la-box-position-1"> 
+       <div id="s-la-box-3785" class="s-la-box s-la-box-html"> 
+        <div class="s-la-box-title s-la-color-bars s-la-color-bars-border">
+         <h2>Search Results </h2>
+        </div> 
+        <div id="" class="s-la-box-content clearfix"></div> 
+       </div> 
+      </div>
+     </div>
+    </div>
+    <div class="s-la-row row"> 
+     <div id="s-la-page-column-4" class="s-la-column-bottom col-md-12"></div> 
+    </div>
+   </div>
+   <div id="s-la-public-footer" class="s-la-footer s-la-color-bars s-la-color-bars-border" role="contentinfo"> 
+    <div id="s-la-footer-brand">
+     Powered by 
+     <a href="http://www.springshare.com">Springshare</a>; All rights reserved.
+    </div>
+    <div id="s-la-footer-support-link">
+     <a href="mailto:mullenam@vmi.edu">Report a tech support issue.</a>
+    </div>
+    <div id="s-la-footer-admin-links">
+     <span id="s-la-footer-login-link"><a href="https://vmi.libapps.com/libapps/login.php?site_id=2062&amp;target=">Login to LibApps</a></span>
+    </div>
+   </div> 
+  </div> 
+  <!-- start custom header --> 
+  <!-- end custom header --> 
+  <div class="modal" id="s-la-modal" tabindex="-1" role="dialog" aria-labelledby="s-la-modal-header" aria-hidden="true">
+   <div class="modal-dialog">
+    <div class="modal-content"></div>
+   </div>
+  </div> 
+  <script src="//search-platform.libapps.com/prepare.js?token=5f7e4b52f52cb0dd7fd0f3901f804116" async="true"></script> 
+ </body>
+</html>

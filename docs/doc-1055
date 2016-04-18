@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>International Studies and Political Science - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/vmi/img/favicon/favicon.ico"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules">
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript>
+  <a href="#acalog-navigation"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a>
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"><span class="n1_header"> Virginia Military Institute</span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015-2016 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15" selected>2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="15"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=15" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=15" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=438" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=435" class="navbar" tabindex="107">Institute Calendar 2015-2016</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=436" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=437" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=431" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=439" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=440" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=442" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=443" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=444" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=445" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=441" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=448" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=450" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=446" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=433" class="navbar" tabindex="121">Support Agencies</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=449" class="navbar" tabindex="122">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td> 
+                  <div class="help_block" style="float: right">
+                   <a href="help.php?catoid=15" onclick="javascript:acalogPopup('help.php?catoid=15', 'help', 770, 530, 'yes')" target="_blank" tabindex="203" class="help acalog-highlight-ignore"><b>HELP</b></a>
+                  </div> <span class="acalog_catalog_name">2015-2016 Academic Catalogue</span> <br> <h1 id="acalog-content">International Studies and Political Science</h1> 
+                  <div style="float: right">
+                   <a rel="nofollow" href="/preview_entity.php?catoid=15&amp;ent_oid=352&amp;print" onclick="acalogPopup('/preview_entity.php?catoid=15&amp;ent_oid=352&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                  </div>
+                  <div class="acalog-social-media-links" style="float: right;"> 
+                  </div> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <hr> </td> 
+                </tr> 
+               </tbody>
+              </table> <p></p><p>The Department of International Studies and Political Science offers a challenging interdisciplinary major in international studies (IS) emphasizing political science, foreign language, history, and economics. The IS curriculum is designed to educate men and women for leadership roles in the global community and provides broad training in the liberal arts with a strong emphasis on the development of communications skills, both written and oral; the ability to think analytically and critically in the field, and on providing a strong understanding of the major ethical questions central to the study of international relations/political science.</p> <p>Many IS majors go on to earn graduate degrees from top institutions. IS majors are highly qualified for careers in the Armed Forces, other forms of government service, international business and industry, and for numerous other fields requiring a broad liberal arts background.</p> <p>As part of their degree, IS majors are strongly encouraged to complete either a study abroad or internship experience.</p> <h2>Honors in International&nbsp;Studies</h2> <p>The Department of International Studies and Political Science offers a two semester Honors program open to all qualified IS majors.</p> <p>General requirements for the conferral of IS Departmental Honors: to qualify for participation in the first part of the IS Honors Sequence (i.e., for acceptance into <a href="preview_course_nopop.php?catoid=15&amp;coid=13034" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13034&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13034&amp;display_options[location]=tooltip&amp;show" id="tt4360" target="_blank">IS 491</a><span style="display: none !important">&nbsp;</span>), cadets must: have achieved a 3.5 GPA or higher <em>in the IS major</em> through their <u>sixth</u> academic semester at VMI; have achieved a 3.2 GPA or higher <em>in the overall curriculum</em> through their <u>sixth</u> academic semester at VMI; and complete and have approved by the head of the IS department, a formal letter of application to the IS Departmental Honors Program.</p> <p>To qualify for participation in the second part of the IS Honors Sequence (i.e., for acceptance into <a href="preview_course_nopop.php?catoid=15&amp;coid=13035" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13035&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13035&amp;display_options[location]=tooltip&amp;show" id="tt2368" target="_blank">IS 492</a><span style="display: none !important">&nbsp;</span>) cadets must: have received a grade of "B" or higher in <a href="preview_course_nopop.php?catoid=15&amp;coid=13034" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13034&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13034&amp;display_options[location]=tooltip&amp;show" id="tt1602" target="_blank">IS 491</a><span style="display: none !important">&nbsp;</span>; have maintained a 3.5 GPA or higher <em>in the IS major</em> through their <u>seventh</u> academic semester at VMI; have maintained a 3.2 GPA or higher<em> in the</em> <em>overall curriculum</em> through their <em>seventh</em> academic semester at VMI.</p> <p>To be conferred with IS Departmental Honors, cadets must: have received a grade of "B" or higher in <a href="preview_course_nopop.php?catoid=15&amp;coid=13034" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13034&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13034&amp;display_options[location]=tooltip&amp;show" id="tt3386" target="_blank">IS 491</a><span style="display: none !important">&nbsp;</span>&nbsp;and <a href="preview_course_nopop.php?catoid=15&amp;coid=13035" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13035&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13035&amp;display_options[location]=tooltip&amp;show" id="tt798" target="_blank">IS 492</a><span style="display: none !important">&nbsp;</span>; have maintained a 3.5 GPA or higher <em>in the IS major</em> through their <u>eighth</u> academic semester at VMI; have maintained a 3.2 GPA or higher <em>in the overall curriculum</em> through their <u>eighth</u> academic semester at VMI; be formally endorsed for conferral by their faculty sponsor and be on schedule to graduate at the time for the completion of the IS Honors Sequence.</p> <h2>Information</h2> <p>You can contact the Department of International Studies and Political Science at (540) 464-7676; E-mail: <a href="mailto:Interstudies@vmi.edu">Interstudies@vmi.edu</a>. Information, including course descriptions, cadet activities, and faculty biographies is also available at: <a href="http://www.vmi.edu/interstudies/" target="_blank">http://www.vmi.edu/interstudies/</a></p> <p></p><h3>Programs</h3>
+              <ul>
+               <li><a href="preview_program.php?catoid=15&amp;poid=963">International Studies, B.A.</a></li>
+              </ul><h3 id="courses">Courses</h3>
+              <ul></ul><strong>INTERNATIONAL STUDIES AND POLITICAL SCIENCE</strong><br><p>Department of International Studies and Political Science<br> Department Head: Colonel Hentz</p> <p>Requirements for a degree in international studies and political science are specified in <a href="preview_entity.php?catoid=15&amp;ent_oid=352">International Studies and Political Science</a><span style="display: none !important">&nbsp;</span>.</p>
+              <ul>
+               <li><a href="#" onclick="showCourse('15', '12988',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 201 - Introduction to International Studies and Political Science</a></li>
+               <li><a href="#" onclick="showCourse('15', '12989',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 210 - American Government</a></li>
+               <li><a href="#" onclick="showCourse('15', '12990',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 220 - International Politics</a></li>
+               <li><a href="#" onclick="showCourse('15', '12991',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 230 - Comparative Politics</a></li>
+               <li><a href="#" onclick="showCourse('15', '12992',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 301 - Techniques of Computer Analysis</a></li>
+               <li><a href="#" onclick="showCourse('15', '12993',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 310 - American Foreign Policy</a></li>
+               <li><a href="#" onclick="showCourse('15', '12994',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 311 - The American Congress</a></li>
+               <li><a href="#" onclick="showCourse('15', '12995',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 312 - The American Presidency</a></li>
+               <li><a href="#" onclick="showCourse('15', '12996',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 320 - National Security Policy</a></li>
+               <li><a href="#" onclick="showCourse('15', '12997',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 321 - International Political Economy</a></li>
+               <li><a href="#" onclick="showCourse('15', '12998',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 322 - Intelligence and Policy</a></li>
+               <li><a href="#" onclick="showCourse('15', '12999',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 323 - The United States, Pakistan, and Afghanistan</a></li>
+               <li><a href="#" onclick="showCourse('15', '13000',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 325X - The United States and Iran</a></li>
+               <li><a href="#" onclick="showCourse('15', '13411',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 326 - U.S. - Soviet Relations during the Cold War</a></li>
+               <li><a href="#" onclick="showCourse('15', '13001',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 329 - Counterinsurgency</a></li>
+               <li><a href="#" onclick="showCourse('15', '13002',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 330 - Politics in Western Europe</a></li>
+               <li><a href="#" onclick="showCourse('15', '13003',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 331 - Politics in Russia and Eastern Europe</a></li>
+               <li><a href="#" onclick="showCourse('15', '13004',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 332X - Politics in East Asia</a></li>
+               <li><a href="#" onclick="showCourse('15', '13005',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 333 - Politics in Southeast Asia</a></li>
+               <li><a href="#" onclick="showCourse('15', '13006',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 334X - Politics of Central Asia</a></li>
+               <li><a href="#" onclick="showCourse('15', '13007',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 335 - Politics in Latin America</a></li>
+               <li><a href="#" onclick="showCourse('15', '13008',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 336X - Politics in China</a></li>
+               <li><a href="#" onclick="showCourse('15', '17208',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 338 - Politics of India and the Subcontinent</a></li>
+               <li><a href="#" onclick="showCourse('15', '13009',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 340 - Political Theory</a></li>
+               <li><a href="#" onclick="showCourse('15', '13408',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 343W - Ethnic Conflict and Politics</a></li>
+               <li><a href="#" onclick="showCourse('15', '13409',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 344 - Multinational Peacekeeping</a></li>
+               <li><a href="#" onclick="showCourse('15', '13410',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 345 - Politics and the Media</a></li>
+               <li><a href="#" onclick="showCourse('15', '13010',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 370 - Intermediate Special Seminar</a></li>
+               <li><a href="#" onclick="showCourse('15', '13011',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 380 - National Security and Homeland Defense Seminar</a></li>
+               <li><a href="#" onclick="showCourse('15', '13012',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 381 - Science, Technology, and International Affairs</a></li>
+               <li><a href="#" onclick="showCourse('15', '13013',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 382 - The Political Economy of Biotechnology</a></li>
+               <li><a href="#" onclick="showCourse('15', '13014',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 401W - International Studies Seminar</a></li>
+               <li><a href="#" onclick="showCourse('15', '13015',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 421 - The Politics of Terrorism</a></li>
+               <li><a href="#" onclick="showCourse('15', '13016',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 422 - Domestic Politics and International Conflict</a></li>
+               <li><a href="#" onclick="showCourse('15', '13017',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 423W - Studies in Grand Strategy</a></li>
+               <li><a href="#" onclick="showCourse('15', '13018',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 430W - Democracy and Elections</a></li>
+               <li><a href="#" onclick="showCourse('15', '13019',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 432W - Political and Economic Development in Sub-Saharan Africa</a></li>
+               <li><a href="#" onclick="showCourse('15', '13020',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 433 - South Asian Politics &amp; International Relations</a></li>
+               <li><a href="#" onclick="showCourse('15', '13424',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 435WX - Comparative Political Economy</a></li>
+               <li><a href="#" onclick="showCourse('15', '13021',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 436 - War and Peace in Africa</a></li>
+               <li><a href="#" onclick="showCourse('15', '13022',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 437 - 20th Century Revolutions and Revolutionaries</a></li>
+               <li><a href="#" onclick="showCourse('15', '13023',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 440 - American Political Thought</a></li>
+               <li><a href="#" onclick="showCourse('15', '13024',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 441 - Conservative Political Thought</a></li>
+               <li><a href="#" onclick="showCourse('15', '13025',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 442 - Law, Morality, and Power</a></li>
+               <li><a href="#" onclick="showCourse('15', '13026',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 450 - Criminal Law</a></li>
+               <li><a href="#" onclick="showCourse('15', '13027',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 451 - Constitutional Law</a></li>
+               <li><a href="#" onclick="showCourse('15', '13028',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 452 - International Law</a></li>
+               <li><a href="#" onclick="showCourse('15', '13029',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 460W - Research Design for Political Science</a></li>
+               <li><a href="#" onclick="showCourse('15', '13030',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 470 - Advanced Special Seminar</a></li>
+               <li><a href="#" onclick="showCourse('15', '13031',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 479 - Advanced Special Seminar</a></li>
+               <li><a href="#" onclick="showCourse('15', '13032',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 480X - Science and War</a></li>
+               <li><a href="#" onclick="showCourse('15', '13033',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 490 - Independent Study</a></li>
+               <li><a href="#" onclick="showCourse('15', '13034',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 491 - Reading for IS Honors</a></li>
+               <li><a href="#" onclick="showCourse('15', '13035',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 492 - Writing for IS Honors</a></li>
+               <li><a href="#" onclick="showCourse('15', '13036',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">IS 493 - International Studies Senior Thesis</a></li>
+              </ul> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <a rel="nofollow" href="/preview_entity.php?catoid=15&amp;ent_oid=352&amp;print" onclick="acalogPopup('/preview_entity.php?catoid=15&amp;ent_oid=352&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=15" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script> 
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt4360"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt2368"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt1602"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt3386"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt798"></div> 
+ </body>
+</html>

@@ -1,0 +1,309 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta content="charset=utf-8"> 
+  <meta name="description" content="James Squire EE230 Signals &amp; Systems"> 
+  <meta name="keywords" content="James Squire, Jim Squire, Professor James Squire, VMI, EE230, Signals &amp; Systems, ECE"> 
+  <title>EE230</title> 
+  <link href="../../squire.css" rel="stylesheet"> 
+  <link href="../teaching.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <table id="outerTable"> 
+   <tbody>
+    <tr> 
+     <td class="titleRow1Col1"></td> 
+     <td class="titleRow1Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow2Col1" style="background-image: url('ee230.gif'); background-repeat:no-repeat"> </td> 
+     <td class="titleRow2Col2"> <h1>EE230: Signals &amp; Systems</h1> </td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow3Col1"></td> 
+     <td class="titleRow3Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="menu"> <p><a href="../../Default.htm">Home</a></p> <p><a href="../teaching.htm">Teaching</a></p> <p><a href="../ee115/ee115.htm">EE115</a></p> <p><a href="../ee223/ee223.htm">EE223</a></p> <p><a href="../ee230/ee230.htm">EE230</a></p> <p><a href="../ee431/ee431.htm">EE431</a></p> <p><a href="../ee455/ee455.htm">EE455</a></p> <p><a href="../ee491/ee491.htm">EE491/2</a></p> </td> 
+     <td class="cellHoldingMainTable"> 
+      <table class="mainTable"> 
+       <tbody>
+        <tr> 
+         <td class="noBorder"> <p class="alignTop"> EE230, Signals and Systems, introduces the Fourier and Laplace transforms as methods to model and analyze continuous-time linear systems (primarily first and second-order circuits) in the frequency domain. Parallels between the time and frequency domains are discussed, and sampling and filter design issues are developed. The course makes extensive use of Matlab as a computational and visualization tool. Labs reinforce theory and develop hardware skills. Prerequisites: EE 223 and MA311. (3 lecture hours) </p> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> 
+          <hr class="hrStyle"> <h3> Lecture Schedule</h3> <p>In the following table, the readings and homework are assigned on the day listed and due on the following lesson. The readings are taken from the custom-printed class textbook unless otherwise noted. </p> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> 
+          <table class="lectureTable"> 
+           <!-- The header row --> 
+           <tbody>
+            <tr> 
+             <td class="lectureTableCol1"> # </td> 
+             <td class="lectureTableCol2"> Date </td> 
+             <td class="lectureTableCol3"> Title </td> 
+             <td class="lectureTableCol4"> Read </td> 
+             <td class="lectureTableCol5"> Homework &amp; Handouts</td> 
+            </tr> 
+            <!-- The lecture data rows ---------------------------> 
+            <tr> 
+             <td class="lectureTableCol1" colspan="3"> <strong>Laplace Transforms</strong></td> 
+             <td colspan="2"><strong>Chapter 15</strong></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1"> 1 </td> 
+             <td>14 Jan</td> 
+             <td>Laplace Transforms by integrals</td> 
+             <td>15.1,2</td> 
+             <td> <a href="materials/01%20HW%20Assignment.pdf">PS Lecture 01</a>, <a href="materials/EE230%20Syllabus.pdf">Syllabus</a> , <a href="materials/01%20CP%20Assignment.pdf">CP1</a> &amp; <a href="materials/01%20CP%20Solutions.pdf"> Solutions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1"> 2 </td> 
+             <td>19</td> 
+             <td>Laplace Transforms by tables </td> 
+             <td>15.3</td> 
+             <td> <a href="materials/02%20HW%20Assignment.pdf">PS Lecture 02</a>, <a href="materials/Laplace%20Transform%20handout.pdf">LT Tables</a>, <a href="materials/02%20CP%20Assignment.pdf">CP2</a> &amp; <a href="materials/02%20CP%20Solutions.pdf"> Solutions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">3</td> 
+             <td>21</td> 
+             <td>Inverse Laplace Transform</td> 
+             <td>15.4</td> 
+             <td> <a href="materials/03%20HW%20Assignment.pdf">PS Lecture 03</a>, <a href="materials/03%20CP%20Assignment.pdf">CP3</a> &amp; <a href="materials/03%20CP%20Solutions.pdf"> Solutions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">4</td> 
+             <td>26</td> 
+             <td>Convolution</td> 
+             <td>15.5</td> 
+             <td> <a href="materials/04%20HW%20Assignment.pdf">PS Lecture 04</a>, <a href="materials/04%20CP%20Assignment.pdf">CP4</a> &amp; <a href="materials/04%20CP%20Solutions.pdf"> Solutions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1" colspan="3"><strong>Application of Laplace Transforms</strong></td> 
+             <td colspan="2"><strong>Chapter 16</strong></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">5</td> 
+             <td>28</td> 
+             <td>Circuit elements</td> 
+             <td>16.1,2</td> 
+             <td> <a href="http://connect.mheducation.com/connect/hmInstructorSectionHomePortal.do?sectionId=28016555"> E-assignment</a>, <a href="materials/05%20CP%20Assignment.pdf">CP5</a> &amp; <a href="materials/05%20CP%20Solutions.pdf"> Solutions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">6</td> 
+             <td>2 Feb</td> 
+             <td>Circuit analysis</td> 
+             <td>16.3</td> 
+             <td> <a href="materials/06%20HW%20Assignment.pdf">PS Lecture 06</a>, <a href="materials/06%20CP%20Assignment.pdf">CP6</a> &amp; <a href="materials/06%20CP%20Solution.pdf"> Solutions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">7</td> 
+             <td>4</td> 
+             <td>Transfer functions</td> 
+             <td>16.4</td> 
+             <td> <a href="materials/07%20HW%20Assignment.pdf">PS Lecture 07</a>, <a href="materials/07%20CP%20Assignment.pdf">CP7</a> &amp; <a href="materials/07%20CP%20Solutions.pdf"> Solutions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">8</td> 
+             <td>9</td> 
+             <td>State variables</td> 
+             <td>16.5</td> 
+             <td> <a href="materials/08%20HW%20Assignment.pdf">PS Lecture 08</a>, <a href="materials/08%20CP%20Assignment.pdf">CP8</a> &amp; <a href="materials/08%20CP%20Solutions.pdf"> Solutions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1" colspan="3"><strong>Test Block 1 - Laplace Transforms</strong></td> 
+             <td colspan="2"><strong>Chapters 15 &amp; 16</strong></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">9</td> 
+             <td>11</td> 
+             <td>Test 1 Review</td> 
+             <td></td> 
+             <td> <a href="materials/Test%201%20Study%20Topics.pdf"> Test 1 Topics</a>, <a href="materials/09%20Test%201%20CP%20Assignment.pdf"> Example Test</a> &amp; <a href="materials/09%20Test%201%20CP%20Solutions.pdf"> Solutions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">10</td> 
+             <td>16</td> 
+             <td>Test 1</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1" colspan="3"><strong>Frequency Response &amp; Filter Design</strong></td> 
+             <td colspan="2"><strong>Chapter 14</strong></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">11</td> 
+             <td>18</td> 
+             <td>Transfer functions</td> 
+             <td>14.1,2</td> 
+             <td> <a href="materials/11%20HW%20Problems.pdf">PS Lecture 11</a>, <a href="materials/11%20CP%20Assignment.pdf">CP11</a> &amp; <a href="materials/11%20CP%20Solutions.pdf">Solutions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">12</td> 
+             <td>23</td> 
+             <td>Bode plots</td> 
+             <td>14.3,4</td> 
+             <td> <a href="materials/12%20HW%20Assignment.pdf">PS Lecture 12</a>, <a href="materials/12%20Collaborative%20Problems.pdf">CP 12</a> &amp; <a href="materials/12%20Collaborative%20Solutions.pdf">Solutions</a> </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">13</td> 
+             <td>25</td> 
+             <td>Lab: Filter design: Remove vocals</td> 
+             <td>Lab</td> 
+             <td> <a href="materials/Lab%201%20Filters.pdf">Lab</a>: due 6 March, including checkoff, <a href="materials/LTspice%20walkthrough.pdf">Spice walkthrough</a> </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">14</td> 
+             <td>1 Mar</td> 
+             <td>Lab: Filter design: Remove vocals</td> 
+             <td>Lab</td> 
+             <td>see above</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1" colspan="3"><strong>Fourier Series</strong></td> 
+             <td colspan="2"><strong>Chapter 17</strong></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">15</td> 
+             <td>3</td> 
+             <td>Trigonometric Fourier Series<br></td> 
+             <td>17.1,2</td> 
+             <td> <a href="materials/15%20HW%20Problems.pdf">PS Lecture 15</a>, <a href="materials/15%20CP%20Assignment.pdf">CP15</a> &amp; <a href="materials/15%20CP%20Solutions.pdf"> Solutions</a>.&nbsp; <a href="materials/Fourier%20equations.pdf">Fourier equations</a>.</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1" style="height: 22px">16</td> 
+             <td style="height: 22px">10</td> 
+             <td style="height: 22px">Symmetry</td> 
+             <td style="height: 22px">17.3</td> 
+             <td style="height: 22px"> <a href="materials/16%20HW.pdf">PS Lecture 16</a>, <a href="materials/16%20CP%20Assignment.pdf">CP16</a> &amp; <a href="materials/16%20CP%20Solutions.pdf"> Solutions</a> </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">17</td> 
+             <td>15</td> 
+             <td>Circuit applications</td> 
+             <td>17.4</td> 
+             <td> <a href="materials/17%20HW.pdf">PS Lecture 17</a>, <a href="materials/17%20CP%20Assignment.pdf">CP17</a> &amp; <a href="materials/17%20CP%20Solutions.pdf"> Solutions</a> </td>
+             <td> </td>
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">18</td> 
+             <td>16</td> 
+             <td>Average, RMS power<br></td> 
+             <td>17.5</td> 
+             <td> <a href="materials/18%20HW%20Assignment.pdf">PS Lecture 18</a>, <a href="materials/18%20CP%20Assignment.pdf">CP18</a> &amp; <a href="materials/18%20CP%20Solutions.pdf"> Solutions</a> </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">19</td> 
+             <td>29</td> 
+             <td>Exponential Fourier Series</td> 
+             <td>17.6</td> 
+             <td> <a href="materials/19%20HW%20Assignment.pdf">PS Lecture 19</a>, <a href="materials/19%20CP%20Assignment.pdf">CP19</a> &amp; <a href="materials/19%20CP%20Solution.pdf"> Solutions</a> </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1" colspan="3"><strong>Test Block 2 - Fourier Series</strong></td> 
+             <td colspan="2"><strong>Chapters 14, 17, Lab notes</strong></td> 
+             <td> &nbsp;</td>
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">20</td> 
+             <td>31</td> 
+             <td>Test 2 Review</td> 
+             <td></td> 
+             <td> <a href="materials/Test%202%20Study%20Topics.pdf"> Test 2 Topics</a>, <a href="materials/20%20CP%20Assignment.pdf"> Example Test</a> &amp; <a href="materials/20%20CP%20Solutions.pdf"> Solutions</a> </td>
+             <td> </td>
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">21</td> 
+             <td>7 Apr</td> 
+             <td>Test 2</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1" colspan="3"><strong>Fourier Transforms</strong></td> 
+             <td colspan="2"><strong>Chapter 18</strong></td> 
+             <td> &nbsp;</td>
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">22</td> 
+             <td>12</td> 
+             <td>Fourier Transforms by integrals</td> 
+             <td>18.1,2</td> 
+             <td> <a href="materials/22%20Problem%20Set.pdf">PS Lecture 22</a>, <a href="materials/22%20CP%20Assignment.pdf">CP22</a> &amp; <a href="materials/22%20CP%20Solution.pdf">Solutions</a> </td>
+             <td> </td>
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">23</td> 
+             <td>14</td> 
+             <td>Fourier Transforms by tables</td> 
+             <td>18.3</td> 
+             <td> <a href="materials/23%20Problem%20Set.pdf">PS Lecture 23</a>, <a href="materials/23%20CP%20Assignment.pdf">CP23</a> &amp; <a href="materials/23%20CP%20Solutions.pdf">Solutions</a> </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">24</td> 
+             <td>19</td> 
+             <td>Fourier Transform applications</td> 
+             <td>18.4</td> 
+             <td> <a href="materials/24%20Problem%20Set.pdf">PS Lecture 24</a>, <a href="materials/24%20CP.pdf">CP24</a> &amp; <a href="materials/24%20CP%20Solutions.pdf">Solutions</a> </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">25</td> 
+             <td>21</td> 
+             <td>Parsevals, FT vs. LT</td> 
+             <td>18.5,6</td> 
+             <td>Prepare for review</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1" colspan="3"><strong>Review</strong></td> 
+             <td colspan="2"><strong>Chapters 14 - 18</strong></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">26</td> 
+             <td>26</td> 
+             <td>Review final exam</td> 
+             <td></td> 
+             <td> <a href="materials/Final%20Exam%20Study%20Topics.pdf"> Final Exam Topics</a> </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">27</td> 
+             <td>27</td> 
+             <td>Admin</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">28</td> 
+             <td>3 May</td> 
+             <td>DNF</td> 
+             <td>&nbsp;</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1"><strong>Final</strong></td> 
+             <td>6 May</td> 
+             <td>Final exam: 0830</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> <h3>Other</h3> 
+          <blockquote> 
+           <p> <a href="materials/AFD13.zip">Active Filter Design</a> for Matlab: Can design and analyze active filters up to 8th order, and can show their effect upon pre-recorded or user-provided waveforms</p> 
+           <p> <a href="materials/AFD%20User%20Guide.pdf">Active Filter Design Manual</a> for above program</p> 
+           <p> <a href="materials/S-plane.exe">Complex S-plane System Transfer Function Explorer</a> (drag poles and zeros to create arbitrary system and observe its time and frequency response)</p> 
+           <p> <a href="materials/ThreePhase.exe">Three Phase Power Demonstration</a> (click and drag the vector heads on the left half pane)</p> 
+          </blockquote> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+   </tbody>
+  </table>  
+ </body>
+</html>

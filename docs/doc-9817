@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta content="charset=utf-8"> 
+  <meta name="description" content="James Squire Student Project"> 
+  <meta name="keywords" content="Matthew York, Paul Kuwick, Tom Largi, Dennis Crump, James Squire, Jim Squire, Professor James Squire, VMI, Courses, Teaching, Personal, ECE"> 
+  <title>Fridge</title> 
+  <link href="../../../squire.css" rel="stylesheet"> 
+  <link href="../student pages.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <div class="center"> 
+   <h2>Internet-Enabled Medical Refrigerator</h2> 
+   <p>by Matthew York '04, Paul Kuwick '05, Tom Largi '05, and Dennis Crump '06</p> 
+   <p><img src="Patient.jpg" alt="photo of students with patient"></p> 
+  </div> 
+  <div class="studentText"> 
+   <p> Social mobility and an aging population have resulted in a higher number of elderly living alone without nearby family than ever before, and they are at-risk of fatal complications from minor accidents because of lack of monitoring. Elderly diabetics are at particularly at risk from a host of diabetes-related health complications, yet home healthcare services are frequently unaffordable or unavailable.</p> 
+   <p> We, as a team of four engineering students and advised by a biomedical engineer James Squire Ph.D., computer engineer David Livingston Ph.D., and physician Joseph Troise M.D., designed a medical internet-aware insulin refrigerator for such a patient living alone. The device consists of a small refrigerator monitored by an embedded microcontroller and connected to a standard telephone outlet. The microcontroller monitors patient access to the fridge. If the door is not opened in a 16-hour period, the microcontroller dials an Internet Service Provider and sends an email and/or a pager alert to a physician or family member anywhere in the world. The system also has an integrated battery-backup that automatically takes over if AC power fails, automatically charges when AC power is available, fully charges in under 60 minutes, and can sustain a two-hour power outage. The refrigerator has been through two design evaluations with a physician and has been tested during a week-long trial by a diabetic patient. </p> 
+   <p> The monitoring device can also be used with a standard refrigerator, so that loved ones or neighbors can be notified if an elderly person living alone does not access a standard refrigerator in a period of 24 hours. This approach not only increases the safety of elderly people living alone but it also provides peace of mind to their loved ones.</p> 
+  </div> 
+  <p class="center"><a href="../student_pages.htm">Back</a></p>  
+ </body>
+</html>

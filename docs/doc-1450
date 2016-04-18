@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>Find Articles - Chemistry - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: Chemistry: Find Articles"> 
+  <meta name="DC.Creator" content="Janet Holly"> 
+  <meta name="DC.Subject" content="Chemistry"> 
+  <meta name="DC.Description" content="This library guide will help you find information related to chemistry."> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=36311&amp;p=229595"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Mar 25, 2014"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Mar 25, 2016"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 36311,
+				page_id: 229595,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-229595";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '36311',_st_page_id: '229595'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '36311',_st_page_id: '229595'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Info Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="Chemistry" href="http://libguides.vmi.edu/c.php?g=36311">Chemistry </a> </li> 
+     <li id="s-lib-bc-page" class="active">Find Articles </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="36311"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">Chemistry: Find Articles</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description">This library guide will help you find information related to chemistry.</span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Info Header --> 
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med"> 
+   <div id="s-lg-guide-tabs" class="tabs"> 
+    <ul class="nav nav-tabs split-button-nav"> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36311&amp;p=229593"> <span>Chemistry</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36311&amp;p=229594"> <span>Find Books</span> </a> </li> 
+     <li role="presentation" class="active"> <a title="" class="active" href="/c.php?g=36311&amp;p=229595"> <span>Find Articles</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36311&amp;p=229596"> <span>Government Publications</span> </a> </li> 
+     <li role="presentation"> <a title="These websites provide chemical information." class="" href="/c.php?g=36311&amp;p=995053"> <span>Websites</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36311&amp;p=1018029"> <span>Citation Guides</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="http://www.vmi.edu/content.aspx?id=312"> <span>Library Homepage</span> </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <!-- BEGIN: Guide Content --> 
+  <div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders"> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-126" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-1" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-3514416" class="s-lg-box-wrapper-3514416"> 
+       <div id="s-lg-box-2983454-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-2983454" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">What is a journal? </h2> 
+         <div id="s-lg-box-collapse-2983454"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-5573946" class="  clearfix"> 
+            <p>A journal is a publication issued periodically that reports original research. Manuscripts submitted by researchers are scrutinized by an editor and a referee before they are accepted for publication.&nbsp; This is known as the peer review process. The articles are very detailed and include detailed experimental procedures.&nbsp; It is aimed at a very specialized audience of researchers in the field.</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-3598610" class="s-lg-box-wrapper-3598610"> 
+       <div id="s-lg-box-3053060-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-3053060" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">SciFinder Scholar </h2> 
+         <div id="s-lg-box-collapse-3053060"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-5717203" class="  clearfix"> 
+            <p>A web-based version of the index, <em>Chemical Abstracts</em>.</p> 
+            <p><em>SciFinder Scholar</em> is the premiere chemistry bibliographic and reference research tool.&nbsp; Subject coverage includes chemistry, biomedical sciences, engineering, materials science, agricultural science and more. Substance coverage includes alloys, coordination compounds, minerals, mixtures, polymers, salts and sequences. Search by topic, author, company, substance name, as well as by chemical structure, substructure or reaction.</p> 
+            <p>This database also provides access to the <a href="http://search.proquest.com/medline/index?accountid=14859"><em>MEDLINE</em></a>, 1958 to present,&nbsp; for citation linking and journal table of contents.</p> 
+            <p>Please contact <a href="mailto:hollyjs@vmi.edu">Col. Janet Holly</a>, reference librarian for how to login.</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-3514883" class="s-lg-box-wrapper-3514883"> 
+       <div id="s-lg-box-2983815-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-2983815" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Full-Text Databases </h2> 
+         <div id="s-lg-box-collapse-2983815"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-5574692" class="  clearfix"> 
+            <p>These databases provide full-text access to journals in science and technogy including chemistry:</p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-6198955" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268613" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://www.jstor.org/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268613'});">JSTOR </a> 
+               <div id="s-lg-database-desc-1268613" class="s-lg-database-desc">
+                Searchable backfiles of core journals in the humanities, social sciences and sciences. Coverage varies.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268749" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://onlinelibrary.wiley.com/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268749'});">Wiley Online Library </a> 
+               <div id="s-lg-database-desc-1268749" class="s-lg-database-desc">
+                Formerly Blackwell Synergy, this database provides access to over 4 million articles from 1500 journals and 9000 books. The subjects include Medicine, Science, Social Science and the Humanities. Coverage begins with 1997 to present.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-2" class="col-md-6"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-772558" class="s-lg-box-wrapper-772558"> 
+       <div id="s-lg-box-678036-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-678036" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Chemistry Journals </h2> 
+         <div id="s-lg-box-collapse-678036"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-1268200" class="  clearfix"> 
+            <p>You have access to these chemistry journals.</p> 
+            <p><img alt="Analytical Chemistry" src="http://pubs.acs.org/action/showCoverImage?journalCode=ancham"> &nbsp;&nbsp; <img alt="Chemical Reviews" src="http://pubs.acs.org/action/showCoverImage?journalCode=chreay">&nbsp;&nbsp;&nbsp; <img alt="Inorganic Chemistry" src="http://pubs.acs.org/action/showCoverImage?journalCode=inocaj">&nbsp;&nbsp;&nbsp; <img alt="The Journal of Physical Chemistry B" src="http://pubs.acs.org/action/showCoverImage?journalCode=jpcbfk"></p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-6195370" class="s-lg-link-list s-lg-link-list-5">
+             <li class=""> 
+              <div id="s-lg-content-5571345" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-5571345" class="s-lg-book-cover"></div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/37355019" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5571345'});"><span id="s-lg-book-title-5571345" class="s-lg-book-title">Analytical Chemistry</span><span id="s-lg-book-author-5571345" class="s-lg-book-author"></span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: eJournal
+                </div>
+                <div id="s-lg-book-desc-5571345" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-5571345" class="s-lg-link-desc">
+                  Access full-text via the American Chemical Society (ACS) Journals database
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-5571300" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-5571300" class="s-lg-book-cover"></div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/37459065" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5571300'});"><span id="s-lg-book-title-5571300" class="s-lg-book-title">Chemical Reviews</span><span id="s-lg-book-author-5571300" class="s-lg-book-author"></span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: eJournal
+                </div>
+                <div id="s-lg-book-desc-5571300" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-5571300" class="s-lg-link-desc">
+                  Access full-text via the American Chemical Society (ACS) Journals database
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-5571364" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-5571364" class="s-lg-book-cover"></div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/37637103" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5571364'});"><span id="s-lg-book-title-5571364" class="s-lg-book-title">Inorganic Chemistry</span><span id="s-lg-book-author-5571364" class="s-lg-book-author"></span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: eJournal
+                </div>
+                <div id="s-lg-book-desc-5571364" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-5571364" class="s-lg-link-desc">
+                  Access full-text via the American Chemical Society (ACS) Journals database
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-5571454" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-5571454" class="s-lg-book-cover"></div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/39281199" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '5571454'});"><span id="s-lg-book-title-5571454" class="s-lg-book-title">Journal of Physical Chemistry</span><span id="s-lg-book-author-5571454" class="s-lg-book-author"></span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: eJournal
+                </div>
+                <div id="s-lg-book-desc-5571454" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-5571454" class="s-lg-link-desc">
+                  There are A, B, C and Letters editions of this journal. Content is full-text via the American Chemical Society (ACS) Journals database.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+            </ul> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-6358034" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268438" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://pubs.acs.org/about.html" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268438'});">American Chemical Society (ACS) Journals </a> 
+               <div id="s-lg-database-desc-1268438" class="s-lg-database-desc">
+                This web page provides full-text of 30 research journals and magazines of the American Chemical Society. Coverage 1996 - to date.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-772559" class="s-lg-box-wrapper-772559"> 
+       <div id="s-lg-box-677902-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-677902" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Full-text Articles </h2> 
+         <div id="s-lg-box-collapse-677902"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-1268103" class="  clearfix"> 
+            <p>Access to full-text articles will be indicated by html and PDF icons within each bibliographic citation when you use the library databases.</p> 
+            <p>When you see <img alt="" height="41" src="//s3.amazonaws.com/libapps/accounts/8880/images/Full_Text_Finder_Ebsco2015.gif" width="41"> by the bibliographic citation, you may "Get the full-text" from another library database.&nbsp; If you find that the full-text article is not available, then you will see the statement, "Request through interlibrary loan."&nbsp; Click on it and login to the Interlibrary Loan service.</p> 
+            <p>If you have problems accessing full-text articles or requesting an interlibrary loan, see a Reference Librarian.</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-772560" class="s-lg-box-wrapper-772560"> 
+       <div id="s-lg-box-677901-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-677901" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Interlibrary Loan </h2> 
+         <div id="s-lg-box-collapse-677901"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-1268102" class="  clearfix"> 
+            <p>When an article from a journal, magazine or newspaper is not accessible online or available in print, you can request an Interlibrary Loan.&nbsp; To open an ILL article request form click on this URL: <a href="https://illiad.vmi.edu/">https://illiad.vmi.edu/</a></p> 
+            <p>You must use your VMI username and password.</p> 
+            <p>Usually it takes 48 hours to receive the full-text article, but it could take up to 2 weeks.</p> 
+            <p>If you have any questions, please see a Reference Librarian.</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-3" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-770219" class="s-lg-box-wrapper-770219"> 
+       <div id="s-lg-box-677639-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-677639" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Subject Guide </h2> 
+         <div id="s-lg-box-collapse-677639"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lib-profile-6101" class="s-lib-profile-container"> 
+            <div id="s-lib-profile-image-6101" class="s-lib-profile-div s-lib-profile-center s-lib-profile-image">
+             <a href="http://libguides.vmi.edu/prf.php?account_id=8880"> <img src="//s3.amazonaws.com/libapps/accounts/8880/profiles/6101/HollyJanet2015__cropped_3_.jpg" alt="Profile Image"></a> 
+            </div> 
+            <div id="s-lib-profile-name-6101" class="s-lib-profile-div s-lib-profile-center s-lib-profile-name">
+             Janet Holly 
+            </div> 
+            <div id="s-lib-profile-email-6101" class="s-lib-profile-div s-lib-profile-center s-lib-profile-email">
+             <a title="hollyjs@vmi.edu" href="mailto:hollyjs@vmi.edu" class="label label-info" style="font-size:1.6em;">Email Me</a> 
+            </div> 
+            <div id="s-lib-profile-widget-la-6101" class="s-lib-profile-div s-lib-profile-widget-la"> 
+             <div class="s-lib-profile-widget">
+              <div id="libchat_27188c6fafcc49a94e72e09b0306feae"></div>
+              <script src="//v2.libanswers.com/load_chat.php?hash=27188c6fafcc49a94e72e09b0306feae"></script> 
+             </div> 
+            </div> 
+            <div id="s-lib-profile-widget-lc-6101" class="s-lib-profile-div s-lib-profile-widget-lc"> 
+             <div class="s-lib-profile-widget"> 
+             </div> 
+            </div> 
+            <div id="s-lib-profile-widget-other-6101" class="s-lib-profile-div s-lib-profile-widget-other"> 
+             <div class="s-lib-profile-widget"> 
+             </div> 
+            </div> 
+            <div id="s-lib-profile-contact-6101" class="s-lib-profile-div s-lib-profile-contact">
+             <strong>Contact:</strong>
+             <div>
+              Preston Library
+              <br> Virginia Military Institute
+              <br> Lexington, VA 24450
+             </div>
+             <div>
+              540-464-7296
+             </div>
+             <a title="Website / Blog" href="http://www.prestonlibrary.net/blog/"><i class="fa fa-bookmark fa-lg"><span class="sr-only">Website / Blog Page</span></i></a> 
+            </div> 
+            <div id="s-lib-profile-social-6101" class="s-lib-profile-div s-lib-profile-social"> 
+            </div> 
+            <div id="s-lib-profile-subjects-6101" class="s-lib-profile-div s-lib-profile-subjects">
+             <strong>Subjects:</strong>
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=13173">Applied Mathematics</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9748">Biology</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9749">Chemistry</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=13174">Computer &amp; Information Science</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9747">Engineering</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=50702">Government Publications</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9746">Library/Research</a>, 
+             <a href="http://libguides.vmi.edu/sb.php?subject_id=9750">Physics/Astronomy</a> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-3514548" class="s-lg-box-wrapper-3514548"> 
+       <div id="s-lg-box-2969378-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-2969378" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">ILL Contact Information </h2> 
+         <div id="s-lg-box-collapse-2969378"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-5543329" class="  clearfix"> 
+            <div id="s-lg-box-collapse-678078"> 
+             <div class="s-lib-box-content"> 
+              <div class="clearfix" id="s-lg-content-1268234"> 
+               <p><strong>ILL Office Hours:</strong></p> 
+               <p>Mon-Fri&nbsp; 0800-1630</p> 
+               <p><strong>Telephone:</strong></p> 
+               <p>(540) 464-7570</p> 
+               <p>Logon:&nbsp; <a href="https://illiad.vmi.edu/" title="Login to Interlibrary Loan System"><strong>Interlibrary Loan</strong></a></p> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-127" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+    <li class="previous"> <a href="/c.php?g=36311&amp;p=229594">&lt;&lt; <strong>Previous:</strong> Find Books</a> </li> 
+    <li class="next"> <a href="/c.php?g=36311&amp;p=229596"><strong>Next:</strong> Government Publications &gt;&gt;</a> </li> 
+   </ul> 
+  </div> 
+  <!-- END: Guide Content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Mar 25, 2016 12:42 PM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/c.php?g=36311</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D36311%2526p%253D229595&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+     <span class="s-lg-guide-label">Subjects: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/sb.php?subject_id=9749">Chemistry</a></span> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+     <span class="s-lg-guide-label">Tags: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/srch.php?tag=chemistry&amp;default_lg=1">chemistry</a></span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

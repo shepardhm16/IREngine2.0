@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta content="charset=utf-8"> 
+  <meta name="description" content="VMIne"> 
+  <meta name="keywords" content="James Squire, Jim Squire, Professor James Squire, VMI, Research, VMIne, ELF, ELFSD, Thumper, Seismic, Seismic Communication"> 
+  <title>VMIne</title> 
+  <link href="../../squire.css" rel="stylesheet"> 
+  <link href="VMIne.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <table id="outerTable"> 
+   <tbody>
+    <tr> 
+     <td class="titleRow1Col1"></td> 
+     <td class="titleRow1Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow2Col1" style="background-image: url('VMIne.gif')"> </td> 
+     <td class="titleRow2Col2"> <h1>VMIne (Seismic Communication)</h1> </td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow3Col1"></td> 
+     <td class="titleRow3Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="menu"> <p><a href="../../Default.htm">Home</a></p> <p><a href="../research.htm">Research</a></p> <p><a href="../../teaching/teaching.htm">Teaching</a></p> <p><a href="../Student_Pages/student_pages.htm" style="font-size:90%">Student Pages</a></p> <p><a href="../../advising/advising.htm">Advising</a></p> <p><a href="../../personal/personal.htm">Personal</a></p> </td> 
+     <td class="cellHoldingMainTable bodyText"> <img src="overview.png" alt="Overview of VMIne operation" id="imageOverview"> We have developed an underground transmitter and portable topside receiver that allows trapped miners to communicate topside in the event of a mine collapse. When activated, the transmitter continually transduces a seismic signal into the ground. The receiver collects and processes the ground signal. The presence of a valid signal indicates survivors, and the frequency of the signal indicates their position. The system has been tested in both caverns and mines, and in less than a minute can provide a strong signal through over 1000' of vertical rock, and over half a mile horizontally.<br><br> <h2 style="clear:left; padding-top:40px">Background</h2> 
+      <video controls autoplay loop width="480px" height="320px" style="float:left; margin-left:-27px;"> 
+       <source src="receiver.webm" type="video/webm"> 
+       <source src="receiver.mp4" type="video/mp4"> Your browser does not support HTML5 video playback. 
+      </video> <p>The concept is relatively simple: although a mass of rock will block radio communication, deep sounds travel easily through dense objects just as the booming bass from a car with its windows rolled up can be coupled through the car, road, and into your nearby car when stopped at a light. We coupled this with a mathematical equivalent of a tuned fork receiver. One tuning fork, when struck, will excite another nearby tuning fork if they the tines are the same length. The trouble is that when transmitting sound through a thousand feet of rock, random noise from a nearby leaf falling on the ground will be many times stronger than the signal you are trying to receive. We use a mathematical method called Fourier Transforms that in effect let us create several thousand distinctly-tuned forks, each capable of resolving differences in pitch of less than one one-hundredth of a Hertz. At the frequencies we're using (roughly two octaves below middle C), that's less than one four-thousandth of the difference between a the smallest musical scale step - far smaller than anything audible or mechanically tunable. At the left is an example of a precisely frequency-locked signal emerging from the noise floor and becoming clearly identifiable after about a 15 seconds. The signal in this example is about 100,000 times smaller than the surrounding noise; it is only because the receiver is mathematically tuned to resonate at precisely the send frequency and no other that the signal can be observed. </p> 
+      <video controls autoplay loop width="480px" height="320px" style="float:left; margin-left:-27px;"> 
+       <source src="transmitter.webm" type="video/webm"> 
+       <source src="transmitter.mp4" type="video/mp4"> Your browser does not support HTML5 video playback. 
+      </video> <p>The transmitter is a modified bass speaker. This is the second generation model and much easier to visualize than the current fourth generation. In a normal speaker an electromagnet moves a voice cone which pushes on the surrounding air, causing pressure waves we perceive as sound. Rock is essentially immobile, so we had to modify the speaker to transmit force (stress) waves rather than waves of motion (strain). To do this we inverted the speaker and rigidly coupled the formly mobile voice cone to the rock. Now instead of a paper-thin voice cone vibrating, the 30lb speaker frame translates up and down. Moving such a large inertial body transduces signficant force waves into the rock, which then couple for surprisingly long distances with the expected 1/r<sup>2</sup> decrease in intensity vs. distance. This type of energy decrease is much less than the exponential decrease of 1/e<sup>-r</sup> we would have seen if the rock was absorbing the energy rather than simply spreading it out over a wider area as it traveled, indicating this method can be used for signficantly greater distances than we obtained with more transmitter power or with longer receive time. </p> <h3 style="clear:left; padding-top:40px">Media</h3> 
+      <video controls loop width="480px" height="320px" poster="../videos/2007 ELFSD Discovery.png" style="float:left; margin-left:-27px;"> 
+       <source src="../videos/2007 ELFSD Discovery.webm" type="video/webm"> 
+       <source src="../videos/2007 ELFSD Discovery.mp4" type="video/mp4"> Your browser does not support HTML5 video playback. 
+      </video> 
+      <video controls loop width="480px" height="320px" poster="../videos/2007 ELFSD WSLS.png" style="float:left; margin-left:-27px;"> 
+       <source src="../videos/2007 ELFSD WSLS.webm" type="video/webm"> 
+       <source src="../videos/2007 ELFSD WSLS.mp4" type="video/mp4"> Your browser does not support HTML5 video playback. 
+      </video> <p style="clear:both"> The Discovery Channel Canada and the local WSLS news station aired a segment on the VMIne, called the ELF-SD at the time for "Extremely Low Frequency Seismic Detector". After the Upper Big Branch mine collapse in 2010 WSLS syndicated their story to FOX news and it was shown nationwide. </p> <h3 style="clear:left; padding-top:40px">History</h3> <p> <img src="Cavern.jpg" alt="Natural Bridge cavern" style="float:left; margin-right:5px;"> The first generation device was built by James Squire, Jay Sullivan, and Will Flathers in 2006, and tested in numerous field trials in the Natural Bridge Caverns, in Natural Bridge, VA shown on the left. Otis Mabe generously opened the Natural Bridge Caverns to us off-season, and without his help we could not have completed initial testing. Others who helped us test included cadets Jared Starin and Tommy Gottwald. Elizabeth Baker was instrumental in finding the project just as we were about to shelve it. She located the licensing partner, and raised funding to make it commercializable. </p> </td> 
+    </tr> 
+   </tbody>
+  </table>  
+ </body>
+</html>

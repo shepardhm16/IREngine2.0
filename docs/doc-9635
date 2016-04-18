@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+ <head></head>
+ <body>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" summary="Page Header Layout" style="font-family: Arial; font-size: 10pt; border-collapse:collapse" bgcolor="#ADB3C3" bordercolor="#111111"> 
+   <tbody>
+    <tr> 
+     <td align="center"> <img border="0" src="http://www1.vmi.edu/Subscribe//images/irmasthead.jpg" alt="Institute Report"></td> 
+    </tr> 
+    <tr> 
+     <td bgcolor="#FFFFFF"> 
+      <hr width="99%" color="#B7BDCB"> </td> 
+    </tr> 
+   </tbody>
+  </table>   
+  <meta http-equiv="Content-Language" content="en-us"> 
+  <meta name="GENERATOR" content="Microsoft FrontPage 6.0"> 
+  <meta name="ProgId" content="FrontPage.Editor.Document"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+  <title>VMI: Subscribe to the Institute Report</title> 
+  <link rel="stylesheet" type="text/css" href="inc/style.css">   
+  <div id="container760"> 
+   <div id="container600"> 
+    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%"> 
+     <tbody>
+      <tr> 
+       <td width="100%"> <h1>Subscribe to the Institute Report</h1> </td> 
+      </tr> 
+      <tr> 
+       <td width="100%">Please enter your first name, last name, and the e-mail address where you would like your subscription to be sent.&nbsp; Press <b> Subscribe</b> to send your information.&nbsp; We will send you an email containing a link (web address) that you must visit in order to confirm your subscription request.</td> 
+      </tr> 
+      <tr> 
+       <td width="100%" height="10"></td> 
+      </tr> 
+      <tr> 
+       <td width="100%"> 
+        <div align="center"> 
+         <center> 
+          <script language="JavaScript" type="text/javascript"><!--
+function FrontPage_Form1_Validator(theForm)
+{
+
+  if (theForm.FirstName.value == "")
+  {
+    alert("Please enter a value for the \"FirstName\" field.");
+    theForm.FirstName.focus();
+    return (false);
+  }
+
+  if (theForm.FirstName.value.length < 1)
+  {
+    alert("Please enter at least 1 characters in the \"FirstName\" field.");
+    theForm.FirstName.focus();
+    return (false);
+  }
+
+  if (theForm.LastName.value == "")
+  {
+    alert("Please enter a value for the \"LastName\" field.");
+    theForm.LastName.focus();
+    return (false);
+  }
+
+  if (theForm.LastName.value.length < 2)
+  {
+    alert("Please enter at least 2 characters in the \"LastName\" field.");
+    theForm.LastName.focus();
+    return (false);
+  }
+
+  var checkOK = "0123456789-";
+  var checkStr = theForm.ClassYear.value;
+  var allValid = true;
+  var validGroups = true;
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+  }
+  if (!allValid)
+  {
+    alert("Please enter only digit characters in the \"ClassYear\" field.");
+    theForm.ClassYear.focus();
+    return (false);
+  }
+  return (true);
+}
+//--></script>
+          <form method="POST" action="/subscribe/Default.asp" onsubmit="return FrontPage_Form1_Validator(this)" language="JavaScript" name="FrontPage_Form1"> 
+           <table border="2" cellpadding="8" cellspacing="0" style="border-collapse: collapse" bordercolor="#990033"> 
+            <tbody>
+             <tr> 
+              <td> <p align="center" style="text-align: center"><font color="#0000FF"> <b></b></font>&nbsp; </p> 
+               <div align="center"> 
+                <center> 
+                 <table border="0" cellpadding="3" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="400"> 
+                  <tbody>
+                   <tr> 
+                    <td align="right">First Name:</td> 
+                    <td align="left"> <input type="text" name="FirstName" size="20" value=""></td> 
+                   </tr> 
+                   <tr> 
+                    <td align="right">Last Name:</td> 
+                    <td align="left"> <input type="text" name="LastName" size="20" value=""></td> 
+                   </tr> 
+                   <tr> 
+                    <td align="right">Email Address:</td> 
+                    <td align="left"> <input type="text" name="EmailAddress" size="30" value=""></td> 
+                   </tr> 
+                   <tr> 
+                    <td align="right">Class Year:</td> 
+                    <td align="left"> <input type="text" name="ClassYear" size="10" value=""></td> 
+                   </tr> 
+                   <tr> 
+                    <td align="center" colspan="2"><font size="1">I currently receive the Institute Report through the U.S. mail.&nbsp; <input type="checkbox" name="PrintCopyRecipient" value="Yes">Yes&nbsp;&nbsp;&nbsp; <input type="checkbox" name="PrintCopyRecipient" value="No">No</font></td> 
+                   </tr> 
+                   <tr> 
+                    <td align="center" colspan="2"><script type="text/javascript">var RecaptchaOptions = {   theme : 'red',   tabindex : 0};</script><script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LejCvESAAAAAKc4sU_zxJ1du_qEZ5K321epOYyh"></script>
+                     <noscript>
+                      <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LejCvESAAAAAKc4sU_zxJ1du_qEZ5K321epOYyh" frameborder="1"></iframe>&lt;&gt;
+                      <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+                      <input type="hidden" name="recaptcha_response_field" value="manual_challenge">
+                     </noscript>&nbsp;</td> 
+                   </tr> 
+                   <tr> 
+                    <td align="right">&nbsp;</td> 
+                    <td align="left"><input type="submit" value="Subscribe" name="formaction"></td> 
+                   </tr> 
+                  </tbody>
+                 </table> 
+                </center> 
+               </div> &nbsp; </td> 
+             </tr> 
+            </tbody>
+           </table> 
+          </form> 
+         </center> 
+        </div> </td> 
+      </tr> 
+     </tbody>
+    </table> 
+   </div> 
+   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#990033" width="100%"> 
+    <tbody>
+     <tr> 
+      <td width="100%" align="center"> 
+       <table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%"> 
+        <tbody>
+         <tr> 
+          <td align="center" nowrap> <a target="_blank" href="https://www.vmiaa.org/current.htm">Update Alumni Info</a></td> 
+          <td align="center" nowrap> <a href="mailto:webmaster@vmi.edu?subject=Subscribe:  Institute Report"> Report Problems</a></td> 
+          <td align="center" nowrap> <a href="http://www.vmi.edu/"> <img border="0" src="http://www1.vmi.edu/Subscribe/images/Spider_50x.gif" align="middle" alt="Virginia Military Institute - Spider Logo"></a></td> 
+          <td align="center" nowrap><a href="http://www1.vmi.edu/Subscribe/PrivacyPolicy.asp">Privacy Policy</a></td> 
+          <td align="center" nowrap> <a href="http://www1.vmi.edu/Subscribe/Cancel.asp">Cancel Subscription</a></td> 
+         </tr> 
+        </tbody>
+       </table> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; </td> 
+     </tr> 
+    </tbody>
+   </table> 
+  </div>   
+ </body>
+</html>

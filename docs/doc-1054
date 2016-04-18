@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>History - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/vmi/img/favicon/favicon.ico"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules">
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript>
+  <a href="#acalog-navigation"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a>
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"><span class="n1_header"> Virginia Military Institute</span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015-2016 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15" selected>2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="15"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=15" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=15" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=438" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=435" class="navbar" tabindex="107">Institute Calendar 2015-2016</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=436" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=437" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=431" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=439" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=440" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=442" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=443" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=444" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=445" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=441" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=448" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=450" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=446" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=433" class="navbar" tabindex="121">Support Agencies</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=449" class="navbar" tabindex="122">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td> 
+                  <div class="help_block" style="float: right">
+                   <a href="help.php?catoid=15" onclick="javascript:acalogPopup('help.php?catoid=15', 'help', 770, 530, 'yes')" target="_blank" tabindex="203" class="help acalog-highlight-ignore"><b>HELP</b></a>
+                  </div> <span class="acalog_catalog_name">2015-2016 Academic Catalogue</span> <br> <h1 id="acalog-content">History</h1> 
+                  <div style="float: right">
+                   <a rel="nofollow" href="/preview_entity.php?catoid=15&amp;ent_oid=351&amp;print" onclick="acalogPopup('/preview_entity.php?catoid=15&amp;ent_oid=351&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                  </div>
+                  <div class="acalog-social-media-links" style="float: right;"> 
+                  </div> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <hr> </td> 
+                </tr> 
+               </tbody>
+              </table> <p></p><p>The history curriculum is designed to produce men and women educated in the responsibilities of citizenship. It prepares cadets for graduate schools of history or government, and for occupations in which the ability to understand backgrounds, grasp issues, and manage affairs is essential, e.g., law, business, politics, government service, and the armed forces. </p> <p>The curriculum, with proper electives, fully meets the requirements for admission to outstanding schools of law and graduate programs in business administration and management, as well as history. By concentrating electives in a specific subject area, cadets can acquire both the broad outlook offered by history and the specific outlook of other disciplines. </p> <p>The cadet majoring in history receives, first of all, training in the natural sciences, mathematics, and the English language as an instrument of written and oral communication. Additionally the cadet learns a foreign language. History courses cover the principal fields of modern European, Middle Eastern, East Asian, Latin American, African, and American history. Rather than merely cataloguing events of the past, these courses emphasize an understanding of developments and problems, and they give attention to social, economic, and cultural phenomena, as well as political and constitutional problems. </p> <p>As history majors advance through the curriculum, they apply the lessons of previous courses to challenging new subjects. Students in 100-level World History comprehend fundamental themes, issues, and trends in global history. Students in 200-level United States history explore and analyze increasingly complex themes, issues, and trends in U.S. history. Students in 300-level courses develop a detailed knowledge of a specific field's major historical events and themes, and where appropriate acquire a functional understanding of relevant historical geography. Each level of the history curriculum is associated with a set of essential skills. Students in 100-level World History sharpen essential college-level skills such as note-taking, critical reading, and studying for both objective and analytical exams. Students in 200-level United States history interpret primary sources and base an argument on them, evaluate secondary sources, and cite sources. Students in 300-level courses evaluate the thesis and evidence in essential historical essays or books, and identify significant historiographical trends. In HI 200 and those 300-level courses designated as methodologically intensive, students learn the basic techniques of historical research, analysis and documentation. They employ common library and electronic research tools, and use book reviews or review essays to assess a field's major literature. In 400-level courses, students frame a research topic, locate and evaluate relevant primary and secondary evidence, and discuss relevant historiography. </p> <p>The capstone course requirement ensures that all majors gain experience in historical methodology and writing. An Honors Program, open to majors who have demonstrated excellence in the study of history, and a Directed Study course offer opportunities to engage in more extensive research and write a paper under the close supervision of a faculty sponsor.</p> <h2>Honors in History</h2> <p>The Honors Program in History is open to majors who have demonstrated excellence in the study of history. History majors seeking honors in history must have completed the departmental core curriculum courses of <a href="preview_course_nopop.php?catoid=15&amp;coid=12915" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12915&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12915&amp;display_options[location]=tooltip&amp;show" id="tt6492" target="_blank">HI 103</a><span style="display: none !important">&nbsp;</span>, <a href="preview_course_nopop.php?catoid=15&amp;coid=12916" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12916&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12916&amp;display_options[location]=tooltip&amp;show" id="tt5175" target="_blank">HI 104</a><span style="display: none !important">&nbsp;</span>, <a href="preview_course_nopop.php?catoid=15&amp;coid=12918" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12918&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12918&amp;display_options[location]=tooltip&amp;show" id="tt2961" target="_blank">HI 205</a><span style="display: none !important">&nbsp;</span> or 205W, and <a href="preview_course_nopop.php?catoid=15&amp;coid=12919" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12919&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12919&amp;display_options[location]=tooltip&amp;show" id="tt5928" target="_blank">HI 206</a><span style="display: none !important">&nbsp;</span>. The honors sequence consists of <a href="preview_course_nopop.php?catoid=15&amp;coid=12958" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12958&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12958&amp;display_options[location]=tooltip&amp;show" id="tt7542" target="_blank">HI 372</a><span style="display: none !important">&nbsp;</span>, <a href="preview_course_nopop.php?catoid=15&amp;coid=12982" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12982&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12982&amp;display_options[location]=tooltip&amp;show" id="tt5702" target="_blank">HI 491W</a><span style="display: none !important">&nbsp;</span>, and <a href="preview_course_nopop.php?catoid=15&amp;coid=12983" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12983&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12983&amp;display_options[location]=tooltip&amp;show" id="tt9056" target="_blank">HI 492W</a><span style="display: none !important">&nbsp;</span>.</p><p></p><h3>Programs</h3>
+              <ul>
+               <li><a href="preview_program.php?catoid=15&amp;poid=962">History, B.A.</a></li>
+              </ul><h3 id="courses">Courses</h3>
+              <ul></ul><strong>HISTORY</strong><br><p>Department of History <br> Department Head: Colonel Wilkinson</p> <p>Requirements for a major in history are specified in <a href="preview_entity.php?catoid=15&amp;ent_oid=351">History</a><span style="display: none !important">&nbsp;</span>.</p>
+              <ul>
+               <li><a href="#" onclick="showCourse('15', '12915',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 103 - World History I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12916',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 104 - World History II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12917',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 200 - Introduction to Historical Methods</a></li>
+               <li><a href="#" onclick="showCourse('15', '12918',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 205 - History of the United States I</a></li>
+               <li><a href="#" onclick="showCourse('15', '13347',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 205W - History of the United States I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12919',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 206 - History of the United States II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12920',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 210-299 - Special Courses</a></li>
+               <li><a href="#" onclick="showCourse('15', '14845',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 223 - Islam in North America and Western Europe</a></li>
+               <li><a href="#" onclick="showCourse('15', '12922',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 301 - Ancient Egypt</a></li>
+               <li><a href="#" onclick="showCourse('15', '12923',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 302 - Ancient Greece</a></li>
+               <li><a href="#" onclick="showCourse('15', '12924',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 303 - Ancient Rome</a></li>
+               <li><a href="#" onclick="showCourse('15', '12925',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 304 - The Medieval World</a></li>
+               <li><a href="#" onclick="showCourse('15', '12926',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 307 - English History I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12927',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 308 - English History II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12928',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 309 - History of the Holocaust</a></li>
+               <li><a href="#" onclick="showCourse('15', '12929',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 310X - War and Society in Modern China</a></li>
+               <li><a href="#" onclick="showCourse('15', '13431',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 311 - History of the Cold War</a></li>
+               <li><a href="#" onclick="showCourse('15', '15116',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 312 - Introduction to the History of Islam</a></li>
+               <li><a href="#" onclick="showCourse('15', '12930',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 313 - The United States, 1900-1945</a></li>
+               <li><a href="#" onclick="showCourse('15', '12931',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 314 - The United States Since 1945</a></li>
+               <li><a href="#" onclick="showCourse('15', '12932',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 315 - The History of Everyday Life</a></li>
+               <li><a href="#" onclick="showCourse('15', '12933',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 316 - Food and Hunger in History</a></li>
+               <li><a href="#" onclick="showCourse('15', '15109',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 317 - The Great Depression and the New Deal</a></li>
+               <li><a href="#" onclick="showCourse('15', '15110',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 318 - George C. Marshall and the American Century</a></li>
+               <li><a href="#" onclick="showCourse('15', '12934',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 319 - African American Experience</a></li>
+               <li><a href="#" onclick="showCourse('15', '12935',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 321 - The Old South</a></li>
+               <li><a href="#" onclick="showCourse('15', '12936',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 322 - The Civil War and Reconstruction</a></li>
+               <li><a href="#" onclick="showCourse('15', '12937',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 323 - History of the South From 1865</a></li>
+               <li><a href="#" onclick="showCourse('15', '12938',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 324 - American Foreign Relations to 1919</a></li>
+               <li><a href="#" onclick="showCourse('15', '12939',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 325 - American Foreign Relations Since 1919</a></li>
+               <li><a href="#" onclick="showCourse('15', '12940',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 327 - India From the Age of the Harrapans to the Present Day</a></li>
+               <li><a href="#" onclick="showCourse('15', '12941',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 328 - British Imperialism</a></li>
+               <li><a href="#" onclick="showCourse('15', '12942',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 330 - Topics in Ancient History</a></li>
+               <li><a href="#" onclick="showCourse('15', '12943',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 331 - Colonial America</a></li>
+               <li><a href="#" onclick="showCourse('15', '12944',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 332 - North American Indians</a></li>
+               <li><a href="#" onclick="showCourse('15', '12945',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 333 - History of the Middle East I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12946',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 334 - History of the Middle East II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12947',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 335 - The Vietnam War</a></li>
+               <li><a href="#" onclick="showCourse('15', '12949',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 346 - Modern Japan</a></li>
+               <li><a href="#" onclick="showCourse('15', '12950',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 348 - Africa in Modern Times, 1700 to Present</a></li>
+               <li><a href="#" onclick="showCourse('15', '12951',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 350 - French Revolution and Napoleon</a></li>
+               <li><a href="#" onclick="showCourse('15', '12952',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 355 - Grand Strategy in the Twentieth Century</a></li>
+               <li><a href="#" onclick="showCourse('15', '15111',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 358 - From Mongols to Manchus: Chinese Imperial History, 1206-1911</a></li>
+               <li><a href="#" onclick="showCourse('15', '15112',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 359 - China in the Communist Era (1949-Present)</a></li>
+               <li><a href="#" onclick="showCourse('15', '12955',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 361 - The Age of Blood and Iron. Europe, 1871-1918</a></li>
+               <li><a href="#" onclick="showCourse('15', '12956',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 365 - France and the French Empire 1815 to the Present</a></li>
+               <li><a href="#" onclick="showCourse('15', '12957',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 368 - Europe, 1919-1939</a></li>
+               <li><a href="#" onclick="showCourse('15', '12958',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 372 - Reading Course for Honors</a></li>
+               <li><a href="#" onclick="showCourse('15', '12959',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 373 - Colonial Latin America</a></li>
+               <li><a href="#" onclick="showCourse('15', '12960',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 374 - Modern Latin America</a></li>
+               <li><a href="#" onclick="showCourse('15', '12961',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 375 - Germany and Eastern Europe From Bismarck to Brandt</a></li>
+               <li><a href="#" onclick="showCourse('15', '12962',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 377 - Insurgency and Terrorism</a></li>
+               <li><a href="#" onclick="showCourse('15', '12963',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 378 - European Warfare, 1600-1871</a></li>
+               <li><a href="#" onclick="showCourse('15', '12964',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 379 - European Warfare Since 1871</a></li>
+               <li><a href="#" onclick="showCourse('15', '12965',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 380 - Europe in Renaissance and Reformation</a></li>
+               <li><a href="#" onclick="showCourse('15', '12966',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 382 - Modern Russian History</a></li>
+               <li><a href="#" onclick="showCourse('15', '12967',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 383 - Virginia History I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12968',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 384 - Virginia History II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12969',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 385 - U.S. Military History to 1919</a></li>
+               <li><a href="#" onclick="showCourse('15', '12970',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 386 - U.S. Military History Since 1919</a></li>
+               <li><a href="#" onclick="showCourse('15', '12971',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 387 - History of Air Power</a></li>
+               <li><a href="#" onclick="showCourse('15', '12972',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 388 - Modern Spain: Civil War and Colonial Conflict</a></li>
+               <li><a href="#" onclick="showCourse('15', '12973',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 390 - Sea Power From the Age of Sail to the Early Twentieth Century</a></li>
+               <li><a href="#" onclick="showCourse('15', '12974',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 391 - Sea Power in the 20th Century</a></li>
+               <li><a href="#" onclick="showCourse('15', '12975',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 392 - World War I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12976',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 393 - World War II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12977',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 400 - History Internship</a></li>
+               <li><a href="#" onclick="showCourse('15', '12978',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 460W - Capstone Experience</a></li>
+               <li><a href="#" onclick="showCourse('15', '12979',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 480 - Directed Study</a></li>
+               <li><a href="#" onclick="showCourse('15', '12980',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 481 - Special Seminar</a></li>
+               <li><a href="#" onclick="showCourse('15', '12981',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 490 - Special Seminar</a></li>
+               <li><a href="#" onclick="showCourse('15', '12982',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 491W - Thesis Course for Honors</a></li>
+               <li><a href="#" onclick="showCourse('15', '12983',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">HI 492W - Thesis Course for Honors</a></li>
+              </ul> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <a rel="nofollow" href="/preview_entity.php?catoid=15&amp;ent_oid=351&amp;print" onclick="acalogPopup('/preview_entity.php?catoid=15&amp;ent_oid=351&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=15" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script> 
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt6492"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt5175"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt2961"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt5928"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt7542"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt5702"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt9056"></div> 
+ </body>
+</html>

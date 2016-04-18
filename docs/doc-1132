@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>Program: History, B.A. - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules"> 
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="ie.css" />
+		<![endif]--> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript> 
+  <a href="#acalog-navigation"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a> 
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"> <span class="n1_header"> Virginia Military Institute </span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015-2016 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15" selected>2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="15"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=15" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=15" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=438" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=435" class="navbar" tabindex="107">Institute Calendar 2015-2016</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=436" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=437" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=431" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=439" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=440" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=442" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=443" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=444" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=445" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=441" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=448" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=450" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=446" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=433" class="navbar" tabindex="121">Support Agencies</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=449" class="navbar" tabindex="122">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td colspan="4"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+                   <tbody>
+                    <tr> 
+                     <td> 
+                      <div class="help_block" style="float: right">
+                       <a href="help.php" onclick="acalogPopup('help.php', 'help', 770, 530, 'yes');return false;" class="help acalog-highlight-ignore" target="_blank" tabindex="203"><b>HELP</b></a>
+                      </div> <span class="acalog_catalog_name">2015-2016 Academic Catalogue</span> <br> <h1 id="acalog-content">History, B.A.</h1> 
+                      <div style="float: right">
+                       <span class="print_degree_planner_link"><a href="#" onclick="acalogPopup('preview_degree_planner.php?catoid=15&amp;poid=962&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank">Print Degree Planner</a></span> | 
+                       <a rel="nofollow" href="/preview_program.php?catoid=15&amp;poid=962&amp;print" onclick="acalogPopup('/preview_program.php?catoid=15&amp;poid=962&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                      </div>
+                      <div class="acalog-social-media-links" style="float: right;"> 
+                      </div> </td> 
+                    </tr> 
+                    <tr> 
+                     <td> 
+                      <hr> </td> 
+                    </tr> 
+                   </tbody>
+                  </table> </td> 
+                </tr> 
+                <tr> 
+                 <td colspan="4" width="100%"> 
+                  <div style="padding-left: 20px;">
+                   <div class="acalog-core">
+                    <h2><a name="HistoryCurriculumRequirements"></a><a name="historycurriculumrequirements" id="core_10226"></a>History Curriculum Requirements</h2>
+                    <hr>
+                    <p>See the synopsis of the history curriculum <a href="#SynopsisOfTheBACurriculumInHistory">below</a>.</p> 
+                    <p><strong>Institute Core Curriculum: </strong>Note that <a href="preview_course_nopop.php?catoid=15&amp;coid=13330" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13330&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13330&amp;display_options[location]=tooltip&amp;show" id="tt7704" target="_blank">ERH 101</a><span style="display: none !important">&nbsp;</span>&nbsp;and <a href="preview_course_nopop.php?catoid=15&amp;coid=13331" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13331&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13331&amp;display_options[location]=tooltip&amp;show" id="tt3493" target="_blank">ERH 102</a><span style="display: none !important">&nbsp;</span>&nbsp;must be passed with a grade of C or better. The required core curriculum mathematics sequence may be filled with one of the following course sequences: <a href="preview_course_nopop.php?catoid=15&amp;coid=13059" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13059&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13059&amp;display_options[location]=tooltip&amp;show" id="tt52" target="_blank">MA 105</a><span style="display: none !important">&nbsp;</span>/<a href="preview_course_nopop.php?catoid=15&amp;coid=13060" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13060&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13060&amp;display_options[location]=tooltip&amp;show" id="tt7142" target="_blank">MA 106</a><span style="display: none !important">&nbsp;</span>, <a href="preview_course_nopop.php?catoid=15&amp;coid=13064" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13064&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13064&amp;display_options[location]=tooltip&amp;show" id="tt6087" target="_blank">MA 123</a><span style="display: none !important">&nbsp;</span>/<a href="preview_course_nopop.php?catoid=15&amp;coid=13065" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13065&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13065&amp;display_options[location]=tooltip&amp;show" id="tt2327" target="_blank">MA 124</a><span style="display: none !important">&nbsp;</span>&nbsp;or <a href="preview_course_nopop.php?catoid=15&amp;coid=13066" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13066&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13066&amp;display_options[location]=tooltip&amp;show" id="tt6143" target="_blank">MA 125</a><span style="display: none !important">&nbsp;</span>/<a href="preview_course_nopop.php?catoid=15&amp;coid=13067" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13067&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13067&amp;display_options[location]=tooltip&amp;show" id="tt1323" target="_blank">MA 126</a><span style="display: none !important">&nbsp;</span>. All VMI students are required to take two writing intensive courses, at least one of which must be within their major department. Listings of courses to be offered in each coming semester indicate writing-intensive courses with the suffix W following the course number.</p> 
+                    <p><strong>Department of History Core Curriculum:</strong>&nbsp;&nbsp; History majors and minors must earn a grade of C or better in the following courses:&nbsp;&nbsp;<a href="preview_course_nopop.php?catoid=15&amp;coid=12915" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12915&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12915&amp;display_options[location]=tooltip&amp;show" id="tt7341" target="_blank">HI 103</a><span style="display: none !important">&nbsp;</span>, <a href="preview_course_nopop.php?catoid=15&amp;coid=12916" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12916&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12916&amp;display_options[location]=tooltip&amp;show" id="tt6935" target="_blank">HI 104</a><span style="display: none !important">&nbsp;</span>, <a href="preview_course_nopop.php?catoid=15&amp;coid=12918" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12918&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12918&amp;display_options[location]=tooltip&amp;show" id="tt4437" target="_blank">HI 205</a><span style="display: none !important">&nbsp;</span>&nbsp;or&nbsp;<a href="preview_course_nopop.php?catoid=15&amp;coid=13347" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13347&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13347&amp;display_options[location]=tooltip&amp;show" id="tt8187" target="_blank">HI 205W</a><span style="display: none !important">&nbsp;</span>&nbsp;and&nbsp;<a href="preview_course_nopop.php?catoid=15&amp;coid=12919" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12919&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12919&amp;display_options[location]=tooltip&amp;show" id="tt4727" target="_blank">HI 206</a><span style="display: none !important">&nbsp;</span>&nbsp;.&nbsp; History majors must&nbsp;take at least thirty-six hours of history, including the eighteen required hours of&nbsp;&nbsp;&nbsp;<a href="preview_course_nopop.php?catoid=15&amp;coid=12915" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12915&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12915&amp;display_options[location]=tooltip&amp;show" id="tt2552" target="_blank">HI 103</a><span style="display: none !important">&nbsp;</span>,&nbsp;<a href="preview_course_nopop.php?catoid=15&amp;coid=12916" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12916&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12916&amp;display_options[location]=tooltip&amp;show" id="tt3458" target="_blank">HI 104</a><span style="display: none !important">&nbsp;</span>, <a href="preview_course_nopop.php?catoid=15&amp;coid=12917" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12917&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12917&amp;display_options[location]=tooltip&amp;show" id="tt2256" target="_blank">HI 200</a><span style="display: none !important">&nbsp;</span>, <a href="preview_course_nopop.php?catoid=15&amp;coid=12918" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12918&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12918&amp;display_options[location]=tooltip&amp;show" id="tt110" target="_blank">HI 205</a><span style="display: none !important">&nbsp;</span>&nbsp;or&nbsp;<a href="preview_course_nopop.php?catoid=15&amp;coid=13347" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13347&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13347&amp;display_options[location]=tooltip&amp;show" id="tt3521" target="_blank">HI 205W</a><span style="display: none !important">&nbsp;</span>,&nbsp;<a href="preview_course_nopop.php?catoid=15&amp;coid=12919" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12919&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12919&amp;display_options[location]=tooltip&amp;show" id="tt8947" target="_blank">HI 206</a><span style="display: none !important">&nbsp;</span>&nbsp;and&nbsp;<a href="preview_course_nopop.php?catoid=15&amp;coid=12978" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12978&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12978&amp;display_options[location]=tooltip&amp;show" id="tt266" target="_blank">HI 460W</a><span style="display: none !important">&nbsp;</span>&nbsp;.&nbsp; Please note that the Department of History will not accept Western Civilization courses as a substitute for World History Part I (<a href="preview_course_nopop.php?catoid=15&amp;coid=12915" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12915&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12915&amp;display_options[location]=tooltip&amp;show" id="tt9903" target="_blank">HI 103</a><span style="display: none !important">&nbsp;</span>). They can be transferred in only as history electives. Nor does the History Department allow transfer credit for internet-based or distance learning courses.</p> 
+                    <p>Introduction to Methodology: History majors must take <a href="preview_course_nopop.php?catoid=15&amp;coid=12917" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12917&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12917&amp;display_options[location]=tooltip&amp;show" id="tt6179" target="_blank">HI 200</a><span style="display: none !important">&nbsp;</span>&nbsp;"Introduction to Historical Methods," earning a grade of "C" or better as a prerequisite for one of the 300-level courses designated as methodologically intensive. Completion of at least one 300-level "M" course is a prerequisite to enrollment in <a href="preview_course_nopop.php?catoid=15&amp;coid=12978" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12978&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12978&amp;display_options[location]=tooltip&amp;show" id="tt580" target="_blank">HI 460W</a><span style="display: none !important">&nbsp;</span>. Cadets completing this requirement must demonstrate ability to construct an annotated bibliography and to cite sources in accordance with departmental standards. Any methodological course may also fulfill a regional requirement.</p> 
+                    <p>Capstone Course: History majors must take <a href="preview_course_nopop.php?catoid=15&amp;coid=12978" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12978&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12978&amp;display_options[location]=tooltip&amp;show" id="tt6961" target="_blank">HI 460W</a><span style="display: none !important">&nbsp;</span>, during their first class year. The history department may direct individuals to enroll in <a href="preview_course_nopop.php?catoid=15&amp;coid=12978" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12978&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12978&amp;display_options[location]=tooltip&amp;show" id="tt2985" target="_blank">HI 460W</a><span style="display: none !important">&nbsp;</span>&nbsp;in either fall or spring semester, however. The course requires a major research paper. Topics for the course will vary. (Note: individual sections of <a href="preview_course_nopop.php?catoid=15&amp;coid=12978" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12978&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12978&amp;display_options[location]=tooltip&amp;show" id="tt7635" target="_blank">HI 460W</a><span style="display: none !important">&nbsp;</span>&nbsp;may have special prerequisites.) Substitutions for <a href="preview_course_nopop.php?catoid=15&amp;coid=12978" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12978&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12978&amp;display_options[location]=tooltip&amp;show" id="tt3421" target="_blank">HI 460W</a><span style="display: none !important">&nbsp;</span>&nbsp;are rare but with prior approval by the department head, may be allowed for comparable work while in residence at VMI, e.g., an orally defended thesis for Institute Honors or the three-semester departmental honors sequence of <a href="preview_course_nopop.php?catoid=15&amp;coid=12958" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12958&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12958&amp;display_options[location]=tooltip&amp;show" id="tt2839" target="_blank">HI 372</a><span style="display: none !important">&nbsp;</span>, <a href="preview_course_nopop.php?catoid=15&amp;coid=12982" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12982&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12982&amp;display_options[location]=tooltip&amp;show" id="tt8776" target="_blank">HI 491W</a><span style="display: none !important">&nbsp;</span>, and <a href="preview_course_nopop.php?catoid=15&amp;coid=12983" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12983&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12983&amp;display_options[location]=tooltip&amp;show" id="tt768" target="_blank">HI 492W</a><span style="display: none !important">&nbsp;</span>.</p> 
+                    <p>The third class English electives may be filled with any literature course offered by the Department of English, Rhetoric, and Humanistic Studies.</p> 
+                    <p>The third class science elective may be filled with any course offered in astronomy, biology, chemistry, computer and information&nbsp;sciences, geology, or physics.&nbsp;&nbsp;<a href="preview_course_nopop.php?catoid=15&amp;coid=12689" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=12689&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=12689&amp;display_options[location]=tooltip&amp;show" id="tt2616" target="_blank">CE 208X</a><span style="display: none !important">&nbsp;</span>&nbsp;may also be applied.</p> 
+                    <p>The minimum foreign language requirement for history majors is one foreign language through the third-year level, or two foreign languages, each through the second-year level.</p> 
+                    <p>The second and first class restricted elective requirements may be filled by: a) courses required for a double-major or minor in another curriculum; b) elective courses offered by the Department of Economics and Business or the Department of English, Rhetoric, and Humanistic Studies; c) courses in the International Studies Department.</p> 
+                   </div>
+                   <div class="acalog-core">
+                    <h2><a name="SynopsisOfTheBACurriculumInHistory"></a><a name="synopsisofthebacurriculuminhistory" id="core_10227"></a>Synopsis of the B.A. Curriculum in History</h2>
+                    <hr>
+                   </div>
+                   <div style="padding-left: 20px;">
+                    <div class="acalog-core">
+                     <h3><a name="FourthFreshmanClass"></a><a name="fourthfreshmanclass" id="core_10228"></a>Fourth (Freshman) Class</h3>
+                     <hr>
+                    </div>
+                    <div style="padding-left: 20px;">
+                     <div class="acalog-core">
+                      <h4><a name="FirstSemester"></a><a name="firstsemester" id="core_10232"></a>First Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13463',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10232~;}'); return false;">Science Requirement - (BI, CH, or PY w/ lab) </a> Credit Hours: 4</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13330',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10232~;}'); return false;">ERH 101 - Writing and Rhetoric I </a> Credit Hours: 3 *</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12915',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10232~;}'); return false;">HI 103 - World History I </a> Credit Hours: 3 *</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13059',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10232~;}'); return false;">MA 105 - Introduction to Probability and Statistics I </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13473',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10232~;}'); return false;">ELEC Foreign Language - Foreign Language Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13183',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10232~;}'); return false;">PE 105 - Wellness Concepts </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13182',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10232~;}'); return false;">PE 102 - Boxing </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13451',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10232~;}'); return false;">ROTC Requirement - AS, MS, or NS </a> Credit Hours: 1</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs175"></a><a name="totalsemesterhrs175" id="core_10241"></a>Total Semester Hrs: 17.5</h4>
+                      <hr>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="SecondSemester"></a><a name="secondsemester" id="core_10236"></a>Second Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13463',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10236~;}'); return false;">Science Requirement - (BI, CH, or PY w/ lab) </a> Credit Hours: 4</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13331',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10236~;}'); return false;">ERH 102 - Writing and Rhetoric II </a> Credit Hours: 3 *</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12916',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10236~;}'); return false;">HI 104 - World History II </a> Credit Hours: 3 *</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13060',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10236~;}'); return false;">MA 106 - Introduction to Probability and Statistics II </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13473',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10236~;}'); return false;">ELEC Foreign Language - Foreign Language Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13183',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10236~;}'); return false;">PE 105 - Wellness Concepts </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13182',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10236~;}'); return false;">PE 102 - Boxing </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13451',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10236~;}'); return false;">ROTC Requirement - AS, MS, or NS </a> Credit Hours: 1</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs175"></a><a name="totalsemesterhrs175" id="core_10240"></a>Total Semester Hrs: 17.5</h4>
+                      <hr>
+                     </div>
+                    </div>
+                    <div class="acalog-core">
+                     <h3><a name="ThirdSophomoreClass"></a><a name="thirdsophomoreclass" id="core_10229"></a>Third (Sophomore) Class</h3>
+                     <hr>
+                    </div>
+                    <div style="padding-left: 20px;">
+                     <div class="acalog-core">
+                      <h4><a name="FirstSemester"></a><a name="firstsemester" id="core_10233"></a>First Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12750',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10233~;}'); return false;">EC 201 - Principles of Microeconomics </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13466',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10233~;}'); return false;">ELEC ERH - ERH Elective </a> Credit Hours: 3 (literature)</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12918',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10233~;}'); return false;">HI 205 - History of the United States I </a> Credit Hours: 3 *</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12917',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10233~;}'); return false;">HI 200 - Introduction to Historical Methods </a> Credit Hours: 3</span></li>
+                       <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13470',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10233~;}'); return false;">ELEC Science - Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13473',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10233~;}'); return false;">ELEC Foreign Language - Foreign Language Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13181',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10233~;}'); return false;">PE 101 - Basic Swimming and Survival </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13186',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10233~;}'); return false;">PE 300 - Principles of Physical Conditioning </a> Credit Hours: 1</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13451',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10233~;}'); return false;">ROTC Requirement - AS, MS, or NS </a> Credit Hours: 1</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs16517"></a><a name="totalsemesterhrs16517" id="core_10242"></a>Total Semester Hrs: 16.5 - 17</h4>
+                      <hr>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="SecondSemester"></a><a name="secondsemester" id="core_10237"></a>Second Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12751',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10237~;}'); return false;">EC 202 - Principles of Macroeconomics </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13466',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10237~;}'); return false;">ELEC ERH - ERH Elective </a> Credit Hours: 3 (literature)</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13473',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10237~;}'); return false;">ELEC Foreign Language - Foreign Language Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12919',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10237~;}'); return false;">HI 206 - History of the United States II </a> Credit Hours: 3 *</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12917',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10237~;}'); return false;">HI 200 - Introduction to Historical Methods </a> Credit Hours: 3 *</span></li>
+                       <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13470',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10237~;}'); return false;">ELEC Science - Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13181',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10237~;}'); return false;">PE 101 - Basic Swimming and Survival </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13186',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10237~;}'); return false;">PE 300 - Principles of Physical Conditioning </a> Credit Hours: 1</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13451',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10237~;}'); return false;">ROTC Requirement - AS, MS, or NS </a> Credit Hours: 1</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs16517"></a><a name="totalsemesterhrs16517" id="core_10243"></a>Total Semester Hrs: 16.5 - 17</h4>
+                      <hr>
+                     </div>
+                    </div>
+                    <div class="acalog-core">
+                     <h3><a name="SecondJuniorClass"></a><a name="secondjuniorclass" id="core_10230"></a>Second (Junior) Class</h3>
+                     <hr>
+                    </div>
+                    <div style="padding-left: 20px;">
+                     <div class="acalog-core">
+                      <h4><a name="FirstSemester"></a><a name="firstsemester" id="core_10234"></a>First Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13493',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10234~;}'); return false;">ELEC Restricted - (ERH, EC, or IS) </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13471',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10234~;}'); return false;">ELEC Major - Major Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13474',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10234~;}'); return false;">ELEC Major - Major Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13241',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10234~;}'); return false;">PS 344 - Leadership in Organizations </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13293',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10234~;}'); return false;">ERH 103 - Fundamentals of Public Speaking </a> Credit Hours: 1</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13473',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10234~;}'); return false;">ELEC Foreign Language - Foreign Language Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13457',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10234~;}'); return false;">PE Requirement - Elective </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13455',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10234~;}'); return false;">ROTC Requirement - AS,MS, or NS </a> Credit Hours: 2</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs185"></a><a name="totalsemesterhrs185" id="core_10244"></a>Total Semester Hrs: 18.5</h4>
+                      <hr>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="SecondSemester"></a><a name="secondsemester" id="core_10238"></a>Second Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13493',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10238~;}'); return false;">ELEC Restricted - (ERH, EC, or IS) </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13471',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10238~;}'); return false;">ELEC Major - Major Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13474',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10238~;}'); return false;">ELEC Major - Major Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13461',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10238~;}'); return false;">ELEC Free - Free Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13473',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10238~;}'); return false;">ELEC Foreign Language - Foreign Language Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13457',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10238~;}'); return false;">PE Requirement - Elective </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13455',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10238~;}'); return false;">ROTC Requirement - AS,MS, or NS </a> Credit Hours: 2</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs175"></a><a name="totalsemesterhrs175" id="core_10245"></a>Total Semester Hrs: 17.5</h4>
+                      <hr>
+                     </div>
+                    </div>
+                    <div class="acalog-core">
+                     <h3><a name="FirstSeniorClass"></a><a name="firstseniorclass" id="core_10231"></a>First (Senior) Class</h3>
+                     <hr>
+                    </div>
+                    <div style="padding-left: 20px;">
+                     <div class="acalog-core">
+                      <h4><a name="FirstSemester"></a><a name="firstsemester" id="core_10235"></a>First Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13493',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10235~;}'); return false;">ELEC Restricted - (ERH, EC, or IS) </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12978',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10235~;}'); return false;">HI 460W - Capstone Experience </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13494',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10235~;}'); return false;">ELEC Non-HI - Non-History Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13462',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10235~;}'); return false;">ELEC Free - Free Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13461',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10235~;}'); return false;">ELEC Free - Free Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13457',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10235~;}'); return false;">PE Requirement - Elective </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13455',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10235~;}'); return false;">ROTC Requirement - AS,MS, or NS </a> Credit Hours: 2</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs175"></a><a name="totalsemesterhrs175" id="core_10246"></a>Total Semester Hrs: 17.5</h4>
+                      <hr>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="SecondSemester"></a><a name="secondsemester" id="core_10239"></a>Second Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13493',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10239~;}'); return false;">ELEC Restricted - (ERH, EC, or IS) </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13471',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10239~;}'); return false;">ELEC Major - Major Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13474',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10239~;}'); return false;">ELEC Major - Major Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13494',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10239~;}'); return false;">ELEC Non-HI - Non-History Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13455',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10239~;}'); return false;">ROTC Requirement - AS,MS, or NS </a> Credit Hours: 2</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs14"></a><a name="totalsemesterhrs14" id="core_10247"></a>Total Semester Hrs: 14</h4>
+                      <hr>
+                     </div>
+                    </div>
+                   </div>
+                   <div class="acalog-core">
+                    <h2><a name="TotalHoursMinimum136"></a><a name="totalhoursminimum136" id="core_10248"></a>Total Hours: minimum 136</h2>
+                    <hr>
+                    <p><strong>* Minimum grade of C required. <br> ** The mathematics sequence may be filled with the following course sequences: <a href="preview_course_nopop.php?catoid=15&amp;coid=13059" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13059&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13059&amp;display_options[location]=tooltip&amp;show" id="tt4966" target="_blank">MA 105</a><span style="display: none !important">&nbsp;</span>/</strong><strong><strong><a href="preview_course_nopop.php?catoid=15&amp;coid=13060" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13060&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13060&amp;display_options[location]=tooltip&amp;show" id="tt167" target="_blank">MA 106</a><span style="display: none !important">&nbsp;</span></strong>, </strong><strong><strong><a href="preview_course_nopop.php?catoid=15&amp;coid=13064" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13064&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13064&amp;display_options[location]=tooltip&amp;show" id="tt5049" target="_blank">MA 123</a><span style="display: none !important">&nbsp;</span></strong>/</strong><strong><strong><a href="preview_course_nopop.php?catoid=15&amp;coid=13065" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13065&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13065&amp;display_options[location]=tooltip&amp;show" id="tt766" target="_blank">MA 124</a><span style="display: none !important">&nbsp;</span></strong> or </strong><strong><strong><a href="preview_course_nopop.php?catoid=15&amp;coid=13066" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13066&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13066&amp;display_options[location]=tooltip&amp;show" id="tt6964" target="_blank">MA 125</a><span style="display: none !important">&nbsp;</span></strong>/</strong><strong><strong><a href="preview_course_nopop.php?catoid=15&amp;coid=13067" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13067&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13067&amp;display_options[location]=tooltip&amp;show" id="tt125" target="_blank">MA 126</a><span style="display: none !important">&nbsp;</span></strong> (A grade of C or better required for </strong><strong><strong><strong><a href="preview_course_nopop.php?catoid=15&amp;coid=13064" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13064&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13064&amp;display_options[location]=tooltip&amp;show" id="tt1563" target="_blank">MA 123</a><span style="display: none !important">&nbsp;</span></strong></strong> &amp; </strong><strong><strong><strong><a href="preview_course_nopop.php?catoid=15&amp;coid=13066" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13066&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13066&amp;display_options[location]=tooltip&amp;show" id="tt7509" target="_blank">MA 125</a><span style="display: none !important">&nbsp;</span></strong></strong>).</strong></p>
+                   </div>
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> 
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt7704"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt3493"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt52"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt7142"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt6087"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt2327"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt6143"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt1323"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt7341"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt6935"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt4437"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt8187"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt4727"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt2552"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt3458"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt2256"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt110"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt3521"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt8947"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt266"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt9903"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt6179"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt580"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt6961"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt2985"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt7635"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt3421"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt2839"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt8776"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt768"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt2616"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt4966"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt167"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt5049"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt766"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt6964"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt125"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt1563"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt7509"></div><br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <span class="print_degree_planner_link"><a href="#" onclick="acalogPopup('preview_degree_planner.php?catoid=15&amp;poid=962&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank">Print Degree Planner</a></span> | 
+               <a rel="nofollow" href="/preview_program.php?catoid=15&amp;poid=962&amp;print" onclick="acalogPopup('/preview_program.php?catoid=15&amp;poid=962&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=15" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script>   
+ </body>
+</html>

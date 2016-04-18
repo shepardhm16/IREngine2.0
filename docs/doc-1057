@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>Modern Languages and Cultures - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/vmi/img/favicon/favicon.ico"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules">
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript>
+  <a href="#acalog-navigation"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a>
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"><span class="n1_header"> Virginia Military Institute</span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015-2016 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15" selected>2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="15"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=15" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=15" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=438" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=435" class="navbar" tabindex="107">Institute Calendar 2015-2016</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=436" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=437" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=431" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=439" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=440" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=442" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=443" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=444" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=445" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=441" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=448" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=450" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=446" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=433" class="navbar" tabindex="121">Support Agencies</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=449" class="navbar" tabindex="122">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td> 
+                  <div class="help_block" style="float: right">
+                   <a href="help.php?catoid=15" onclick="javascript:acalogPopup('help.php?catoid=15', 'help', 770, 530, 'yes')" target="_blank" tabindex="203" class="help acalog-highlight-ignore"><b>HELP</b></a>
+                  </div> <span class="acalog_catalog_name">2015-2016 Academic Catalogue</span> <br> <h1 id="acalog-content">Modern Languages and Cultures</h1> 
+                  <div style="float: right">
+                   <a rel="nofollow" href="/preview_entity.php?catoid=15&amp;ent_oid=356&amp;print" onclick="acalogPopup('/preview_entity.php?catoid=15&amp;ent_oid=356&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                  </div>
+                  <div class="acalog-social-media-links" style="float: right;"> 
+                  </div> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <hr> </td> 
+                </tr> 
+               </tbody>
+              </table> <p></p><p>The Department of Modern Languages and Cultures offers an interdisciplinary major that requires in-depth study of Arabic, Chinese, French, German, and Spanish and emphasizes work in literatures, history, and political science. Students of Modern Languages and Cultures thus take a variety of courses aimed toward acquiring knowledge not only of a foreign language, but also of the literature, culture, history, economics, and politics of the country or area where the foreign language they are studying is the major tongue. Since the curriculum allows for 18 hours of unrestricted electives, the department encourages cadets to double major or to minor in another curriculum or to study other foreign languages (a minimum of two years study of each language). The Modern Language and Cultures Department does not accept transfer credit of internet-based or distance learning courses at any level.</p> <p>The curriculum is designed to provide a student with skills to function effectively on a shrinking planet. The countries and geographical areas that combine to shape the modern world, while becoming increasingly interconnected and geographically accessible, nevertheless remain far apart in their linguistic, cultural, economic, and political systems. The Modern Languages and Cultures curriculum enhances an understanding of global issues and fosters in-depth knowledge of a country or area. Graduates of the curriculum should thus be well-prepared to pursue advanced study in a variety of fields or to find positions in teaching, the armed forces, government, the foreign service, or in multinational firms. The curriculum of Modern Languages and Cultures lays the groundwork for an individual to assume a leadership role in an increasingly internationalized world.</p> <p>To earn a bachelor's degree a cadet must take all prescribed courses and acquire a minimum of 24 credit hours above the 200-level in one foreign language. A minimum of 9 credit hours must be earned in 400-level language courses. (please consult the "Synopsis of the Modern Languages and Cultures Curriculum"):</p> <p>Majors must either study abroad or participate in a foreign intern program in a country where their primary foreign language is a principal tongue. Upon completion of all requirements, majors will be awarded a B.A. degree in Modern Languages and Cultures, with their language (s) specified (i.e., B.A. in Modern Languages and Cultures - French).</p> <h2>Honors in Modern Languages and Cultures</h2> <p>A cadet wishing to graduate with Honors in the Department of Modern Languages must be a Modern Language major, have a cumulative GPA of at least 3.0 in courses taken in the major (exclusive of subjects taken in the Fourth Class), and have permission of the Department Head. Cadets must complete <a href="preview_course_nopop.php?catoid=15&amp;coid=13143" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13143&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13143&amp;display_options[location]=tooltip&amp;show" id="tt4060" target="_blank">ML 498</a><span style="display: none !important">&nbsp;</span>&nbsp;and <a href="preview_course_nopop.php?catoid=15&amp;coid=13144" onclick="acalogPopup('preview_course.php?catoid=15&amp;coid=13144&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=15&amp;coid=13144&amp;display_options[location]=tooltip&amp;show" id="tt8768" target="_blank">ML 499</a><span style="display: none !important">&nbsp;</span>&nbsp;and produce a thesis which is written in the student's major foreign language, as appropriate. The thesis must achieve a language ranking of "Advanced-High" and adhere to MLA specifications.</p> <p></p><h3>Programs</h3>
+              <ul></ul><strong>Major</strong>
+              <ul>
+               <li><a href="preview_program.php?catoid=15&amp;poid=968">Modern Languages and Cultures, B.A.</a></li>
+              </ul><h3 id="courses">Courses</h3>
+              <ul></ul><strong>ARABIC</strong><br><p>Department of Modern Languages and Cultures<br> Department Head: Colonel Bulger-Barnett</p> 
+              <ol> 
+               <li>All cadets who enter with two or more entrance units in a modern foreign language are given placement tests and are placed in appropriate courses on the basis of the test results, their previous high school language coursework, and after consultation with the department head of modern languages.</li> 
+               <li>A single year of a foreign language shall count toward meeting graduation requirements only when the cadet is studying a second language or is taking a language as an elective.</li> 
+               <li>Classroom work is supplemented with computer-aided language instruction in a wellequipped Language Learning Center. Prerequisites: Cadets must demonstrate proficiency in ML 101 in order to be admitted into ML 102. They must, similarly, demonstrate proficiency in ML 102 before enrolling in ML 201, and in ML 201 before enrolling in ML 202/204. Proficiency in ML 202/204 is a prerequisite for admission to 300-level courses. Completion of two 300-level courses or their equivalent is expected before enrollment in any 400 -level course. Once a cadet has completed work at the 202/204 level, he/she may not return to the elementary level course for credit.</li> 
+              </ol> <p>Cadets who present three or more years of a high school language or demonstrate native or near-native language abilities may not enroll at the elementary level of that language. Such students will have the choice of enrolling either in the first semester intermediate level of that language or in the first semester elementary course of a different language.</p>
+              <ul>
+               <li><a href="#" onclick="showCourse('15', '12524',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 101 - Elementary Arabic I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12525',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 102 - Elementary Arabic II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12526',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 201 - Intermediate Arabic I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12527',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 202 - Intermediate Arabic II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12528',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 301W - Arabic Composition and Conversation I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12529',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 302W - Arabic Composition and Conversation II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12530',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 314 - Arabic Civilizations and Cultures</a></li>
+               <li><a href="#" onclick="showCourse('15', '12531',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 315 - Arabic for the Media</a></li>
+               <li><a href="#" onclick="showCourse('15', '12532',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 316 - Topics in Arabic</a></li>
+               <li><a href="#" onclick="showCourse('15', '12533',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 405 - Independent Readings</a></li>
+               <li><a href="#" onclick="showCourse('15', '12534',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 407 - Advanced Arabic Grammar and Syntax</a></li>
+               <li><a href="#" onclick="showCourse('15', '12535',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 408 - Arabic Literature of the 19th Century</a></li>
+               <li><a href="#" onclick="showCourse('15', '12536',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 409 - Arabic Literature of the 20th Century</a></li>
+               <li><a href="#" onclick="showCourse('15', '12537',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 410 - Advanced Arabic</a></li>
+               <li><a href="#" onclick="showCourse('15', '12538',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 418 - Arabic for Business</a></li>
+               <li><a href="#" onclick="showCourse('15', '12539',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 420 - Arabic Poetry</a></li>
+               <li><a href="#" onclick="showCourse('15', '12540',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 450 - Modern Language Capstone Course</a></li>
+               <li><a href="#" onclick="showCourse('15', '12541',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 470 - Special Topics in Arabic</a></li>
+               <li><a href="#" onclick="showCourse('15', '12542',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">AR 481 - Survey of Moroccan Culture and Society</a></li>
+              </ul><strong>CHINESE</strong><br><p>Department of Modern Languages and Cultures<br> Department Head: Colonel Bulger-Barnett</p> 
+              <ol> 
+               <li>All cadets who enter with two or more entrance units in a modern foreign language are given placement tests and are placed in appropriate courses on the basis of the test results, their previous high school language coursework, and after consultation with the department head of modern languages.</li> 
+               <li>A single year of a foreign language shall count toward meeting graduation requirements only when the cadet is studying a second language or is taking a language as an elective.</li> 
+               <li>Classroom work is supplemented with computer-aided language instruction in a wellequipped Language Learning Center. Prerequisites: Cadets must demonstrate proficiency in ML 101 in order to be admitted into ML 102. They must, similarly, demonstrate proficiency in ML 102 before enrolling in ML 201, and in ML 201 before enrolling in ML 202/204. Proficiency in ML 202/204 is a prerequisite for admission to 300-level courses. Completion of two 300-level courses or their equivalent is expected before enrollment in any 400 -level course. Once a cadet has completed work at the 202/204 level, he/she may not return to the elementary level course for credit.</li> 
+              </ol> <p>Cadets who present three or more years of a high school language or demonstrate native or near-native language abilities may not enroll at the elementary level of that language. Such students will have the choice of enrolling either in the first semester intermediate level of that language or in the first semester elementary course of a different language.&nbsp;</p>
+              <ul>
+               <li><a href="#" onclick="showCourse('15', '13428',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">CHI 101 - Elementary Chinese I</a></li>
+               <li><a href="#" onclick="showCourse('15', '13429',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">CHI 102 - Elementary Chinese II</a></li>
+               <li><a href="#" onclick="showCourse('15', '14568',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">CHI 201 - Intermediate Chinese I</a></li>
+               <li><a href="#" onclick="showCourse('15', '14566',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">CHI 202 - Intermediate Chinese II</a></li>
+               <li><a href="#" onclick="showCourse('15', '14565',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">CHI 210 - Chinese Martial Arts Cinema</a></li>
+               <li><a href="#" onclick="showCourse('15', '17212',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">CHI 220X - 20th Century Chinese Popular Culture</a></li>
+               <li><a href="#" onclick="showCourse('15', '17210',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">CHI 301 - Introduction to Advanced Chinese I</a></li>
+               <li><a href="#" onclick="showCourse('15', '17211',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">CHI 302 - Introduction to Advanced Chinese II</a></li>
+               <li><a href="#" onclick="showCourse('15', '14564',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">CHI 310 - Chinese Strategic Culture</a></li>
+               <li><a href="#" onclick="showCourse('15', '14563',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">CHI 481 - Survey of Chinese Culture and Society</a></li>
+              </ul><strong>FRENCH</strong><br><p>Department of Modern Languages and Cultures<br> Department Head: Colonel Bulger-Barnett</p> 
+              <ol> 
+               <li>All cadets who enter with two or more entrance units in a modern foreign language are given placement tests and are placed in appropriate courses on the basis of the test results, their previous high school language coursework, and after consultation with the department head of modern languages.</li> 
+               <li>A single year of a foreign language shall count toward meeting graduation requirements only when the cadet is studying a second language or is taking a language as an elective.</li> 
+               <li>Classroom work is supplemented with computer-aided language instruction in a wellequipped Language Learning Center.</li> 
+              </ol> <p>Prerequisites: Cadets must demonstrate proficiency in ML 101 in order to be admitted into ML 102. They must, similarly, demonstrate proficiency in ML 102 before enrolling in ML 201, and in ML 201 before enrolling in ML 202/204. Proficiency in ML 202/204 is a prerequisite for admission to 300-level courses. Completion of two 300-level courses or their equivalent is expected before enrollment in any 400 -level course. Once a cadet has completed work at the 202/204 level, he/she may not return to the elementary level course for credit.</p> <p>Cadets who present three or more years of a high school language or demonstrate native or near-native language abilities may not enroll at the elementary level of that language. Such students will have the choice of enrolling either in the first semester intermediate level of that language or in the first semester elementary course of a different language.</p>
+              <ul>
+               <li><a href="#" onclick="showCourse('15', '12876',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 101 - Elementary French I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12877',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 102 - Elementary French II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12878',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 201 - Intermediate French I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12879',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 202 - Intermediate French II</a></li>
+               <li><a href="#" onclick="showCourse('15', '13434',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 252 - France and the French</a></li>
+               <li><a href="#" onclick="showCourse('15', '12880',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 304 - French Composition and Conversation</a></li>
+               <li><a href="#" onclick="showCourse('15', '12881',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 305W - French Thought Across the Centuries I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12882',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 306W - French Thought Across the Centuries II</a></li>
+               <li><a href="#" onclick="showCourse('15', '13449',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 307 - Intensive Review of French Grammar and Phonetics</a></li>
+               <li><a href="#" onclick="showCourse('15', '13433',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 310 - Introduction to French Literature</a></li>
+               <li><a href="#" onclick="showCourse('15', '12883',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 314 - French Civilizations and Cultures</a></li>
+               <li><a href="#" onclick="showCourse('15', '12884',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 315 - Introduction to Francophonic Texts</a></li>
+               <li><a href="#" onclick="showCourse('15', '13430',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 316W - Topics in French</a></li>
+               <li><a href="#" onclick="showCourse('15', '13450',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 335 - Intermediate French Converstion</a></li>
+               <li><a href="#" onclick="showCourse('15', '13435',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 365 - Professional Communication in Government and Enterprise</a></li>
+               <li><a href="#" onclick="showCourse('15', '13437',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 404W - Applied French Grammar and Composition</a></li>
+               <li><a href="#" onclick="showCourse('15', '12887',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 405 - Independent Reading</a></li>
+               <li><a href="#" onclick="showCourse('15', '12888',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 406 - Independent Reading</a></li>
+               <li><a href="#" onclick="showCourse('15', '13439',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 421 - French Literature and Civilization I</a></li>
+               <li><a href="#" onclick="showCourse('15', '13440',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 425 - French Literature and Civilization II</a></li>
+               <li><a href="#" onclick="showCourse('15', '13438',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 430 - Indroduction to Francophone Studies</a></li>
+               <li><a href="#" onclick="showCourse('15', '13443',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 435 - Advanced French Converstion</a></li>
+               <li><a href="#" onclick="showCourse('15', '12895',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 450 - Modern Language Capstone Course</a></li>
+               <li><a href="#" onclick="showCourse('15', '13442',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 455 - France Today</a></li>
+               <li><a href="#" onclick="showCourse('15', '13441',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 460 - Studies in French and Francophone Culture</a></li>
+               <li><a href="#" onclick="showCourse('15', '12896',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">FR 470 - Special Topics in French</a></li>
+              </ul><strong>GERMAN</strong><br><p>Department of Modern Languages and Cultures<br> Department Head: Colonel Bulger-Barnett</p> 
+              <ol> 
+               <li>All cadets who enter with two or more entrance units in a modern foreign language are given placement tests and are placed in appropriate courses on the basis of the test results, their previous high school language coursework, and after consultation with the department head of modern languages.&nbsp;</li> 
+               <li>A single year of a foreign language shall count toward meeting graduation requirements only when the cadet is studying a second language or is taking a language as an elective.</li> 
+               <li>Classroom work is supplemented with computer-aided language instruction in a well-equipped Language Learning Center.</li> 
+              </ol> <p>Prerequisites: Cadets must demonstrate proficiency in ML 101 in order to be admitted into ML 102. They must, similarly, demonstrate proficiency in ML 102 before enrolling in ML 201, and in ML 201 before enrolling in ML 202/204. Proficiency in ML 202/204 is a prerequisite for admission to 300-level courses. Completion of two 300-level courses or their equivalent is expected before enrollment in any 400-level course. Once a cadet has completed work at the 202/204 level, he/she may not return to the elementary level course for credit.</p> <p>Cadets who present three or more years of a high school language or demonstrate native or near-native language abilities may not enroll at the elementary level of that language. Such students will have the choice of enrolling either in the first semester intermediate level of that language or in the first semester elementary course of a different language.</p>
+              <ul>
+               <li><a href="#" onclick="showCourse('15', '12902',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 303W - Introduction to Contemporary German Culture I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12903',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 304W - Introduction to Contemporary German Culture II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12904',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 307 - Literature Survey (1100-1700)</a></li>
+               <li><a href="#" onclick="showCourse('15', '12905',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 308 - Literature From the Enlightenment to Revolution</a></li>
+               <li><a href="#" onclick="showCourse('15', '12906',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 316 - Topics in German</a></li>
+               <li><a href="#" onclick="showCourse('15', '13380',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 331X - The Resistance in Nazi Germany: The Best and Brightest and the "Oath-Breakers"</a></li>
+               <li><a href="#" onclick="showCourse('15', '13381',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 332X - From Wehrmacht to Bundeswehr: A Tradition Destroyed and Rebuilt</a></li>
+               <li><a href="#" onclick="showCourse('15', '12907',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 405 - Seminar in German Literature I</a></li>
+               <li><a href="#" onclick="showCourse('15', '12908',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 406 - Seminar in German Literature II</a></li>
+               <li><a href="#" onclick="showCourse('15', '12909',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 411 - Vienna, Berlin, and Between: Germany and Austria From 1911-1950</a></li>
+               <li><a href="#" onclick="showCourse('15', '12910',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 412 - German On Both Sides of the Iron Curtain</a></li>
+               <li><a href="#" onclick="showCourse('15', '12911',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 413 - Germany and the Military</a></li>
+               <li><a href="#" onclick="showCourse('15', '12912',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 420W - Advanced Conversation and Composition</a></li>
+               <li><a href="#" onclick="showCourse('15', '12913',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 421 - Immigration to and From Germany Since 1850</a></li>
+               <li><a href="#" onclick="showCourse('15', '12914',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">GR 450 - Modern Language Capstone Course</a></li>
+              </ul><strong>MODERN LANGUAGES INTERNSHIP (FOR ALL LANGUAGES)</strong><br><p>Department of Modern Languages and Cultures<br> Department Head: Colonel Bulger-Barnett</p> 
+              <ol> 
+               <li>All cadets who enter with two or more entrance units in a modern foreign language are given placement tests and are placed in appropriate courses on the basis of the test results, their previous high school language coursework, and after consultation with the department head of modern languages.</li> 
+               <li>A single year of a foreign language shall count toward meeting graduation requirements only when the cadet is studying a second language or is taking a language as an elective.</li> 
+               <li>Classroom work is supplemented with computer-aided language instruction in a wellequipped Language Learning Center.</li> 
+              </ol> <p>Prerequisites: Cadets must demonstrate proficiency in ML 101 in order to be admitted into ML 102. They must, similarly, demonstrate proficiency in ML 102 before enrolling in ML 201, and in ML 201 before enrolling in ML 202/204. Proficiency in ML 202/204 is a prerequisite for admission to 300-level courses. Completion of two 300-level courses or their equivalent is expected before enrollment in any 400 -level course. Once a cadet has completed work at the 202/204 level, he/she may not return to the elementary level course for credit.</p> <p>Cadets who present three or more years of a high school language or demonstrate native or near-native language abilities may not enroll at the elementary level of that language. Such students will have the choice of enrolling either in the first semester intermediate level of that language or in the first semester elementary course of a different language.</p>
+              <ul>
+               <li><a href="#" onclick="showCourse('15', '13138',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">ML 311 - Modern Language and Culture Internship</a></li>
+               <li><a href="#" onclick="showCourse('15', '13139',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">ML 355 - Summer Research in Modern Languages and Cultures</a></li>
+               <li><a href="#" onclick="showCourse('15', '13140',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">ML 356 - Summer Research in Modern Languages and Cultures</a></li>
+               <li><a href="#" onclick="showCourse('15', '13141',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">ML 455 - Summer Research in Modern Languages and Cultures</a></li>
+               <li><a href="#" onclick="showCourse('15', '13142',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">ML 456 - Summer Research in Modern Languages and Cultures</a></li>
+               <li><a href="#" onclick="showCourse('15', '13143',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">ML 498 - Reading for the Honors Thesis in Modern Languages and Cultures</a></li>
+               <li><a href="#" onclick="showCourse('15', '13144',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">ML 499 - Writing Course for the Honors Thesis in Modern Languages and Cultures</a></li>
+              </ul><strong>SPANISH</strong><br><p>Department of Modern Languages and Cultures<br> Department Head: Colonel Bulger-Barnett</p> 
+              <ol> 
+               <li>All cadets who enter with two or more entrance units in a modern foreign language are given placement tests and are placed in appropriate courses on the basis of the test results, their previous high school language coursework, and after consultation with the department head of modern languages.</li> 
+               <li>A single year of a foreign language shall count toward meeting graduation requirements only when the cadet is studying a second language or is taking a language as an elective.</li> 
+               <li>Classroom work is supplemented with computer-aided language instruction in a wellequipped Language Learning Center.</li> 
+              </ol> <p>Prerequisites: Cadets must demonstrate proficiency in ML 101 in order to be admitted into ML 102. They must, similarly, demonstrate proficiency in ML 102 before enrolling in ML 201, and in ML 201 before enrolling in ML 202/204. Proficiency in ML 202/204 is a prerequisite for admission to 300-level courses. Completion of two 300-level courses or their equivalent is expected before enrollment in any 400 -level course. Once a cadet has completed work at the 202/204 level, he/she may not return to the elementary level course for credit.</p> <p>Cadets who present three or more years of a high school language or demonstrate native or near-native language abilities may not enroll at the elementary level of that language. Such students will have the choice of enrolling either in the first semester intermediate level of that language or in the first semester elementary course of a different language.</p>
+              <ul>
+               <li><a href="#" onclick="showCourse('15', '13294',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 101 - Elementary Spanish I</a></li>
+               <li><a href="#" onclick="showCourse('15', '13295',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 102 - Elementary Spanish II</a></li>
+               <li><a href="#" onclick="showCourse('15', '13296',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 201 - Intermediate Spanish I</a></li>
+               <li><a href="#" onclick="showCourse('15', '13297',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 202 - Intermediate Spanish II</a></li>
+               <li><a href="#" onclick="showCourse('15', '13349',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 204X - Intermediate Spanish for Business</a></li>
+               <li><a href="#" onclick="showCourse('15', '13382',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 210X - Image and Meaning in Spanish Film</a></li>
+               <li><a href="#" onclick="showCourse('15', '13299',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 299X - Summer Abroad in Spain</a></li>
+               <li><a href="#" onclick="showCourse('15', '13300',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 303W - Spanish Composition and Conversation</a></li>
+               <li><a href="#" onclick="showCourse('15', '13301',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 305 - Survey of Spanish Literature I</a></li>
+               <li><a href="#" onclick="showCourse('15', '13302',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 306 - Survey of Spanish American Literature II</a></li>
+               <li><a href="#" onclick="showCourse('15', '13383',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 310X - The "Big Screen" in Democratic Spain</a></li>
+               <li><a href="#" onclick="showCourse('15', '13304',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 311 - Human Rights and the Hispanic Writer</a></li>
+               <li><a href="#" onclick="showCourse('15', '13305',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 312 - Culture and Civilization of Spain</a></li>
+               <li><a href="#" onclick="showCourse('15', '13306',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 313 - Advanced Spanish Grammar</a></li>
+               <li><a href="#" onclick="showCourse('15', '13307',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 314 - Latin American Cultures and Civilizations</a></li>
+               <li><a href="#" onclick="showCourse('15', '13308',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 315 - Introduction to Hispanic Texts</a></li>
+               <li><a href="#" onclick="showCourse('15', '13309',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 316 - Topics in Spanish</a></li>
+               <li><a href="#" onclick="showCourse('15', '13310',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 318 - Nobel Laureates</a></li>
+               <li><a href="#" onclick="showCourse('15', '13311',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 320W - Spanish Gothic Literature</a></li>
+               <li><a href="#" onclick="showCourse('15', '13384',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 321X - Across the Atlantic: Arabic Roots from Spain to Spanish-America</a></li>
+               <li><a href="#" onclick="showCourse('15', '13312',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 322 - Hispanic Cinema</a></li>
+               <li><a href="#" onclick="showCourse('15', '13313',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 387X - The Spanish Civil War As Text (in English)</a></li>
+               <li><a href="#" onclick="showCourse('15', '13314',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 388W - The Spanish Civil War As Text</a></li>
+               <li><a href="#" onclick="showCourse('15', '13315',this, 'a:1:{s:8:~location~;s:6:~entity~;}'); return false;">SP 399X - Summer Abroad in Spain</a></li>
+              </ul>Page: <strong>1</strong> | <a href="/preview_entity.php?catoid=15&amp;ent_oid=356&amp;p=2#courses">2</a> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <a rel="nofollow" href="/preview_entity.php?catoid=15&amp;ent_oid=356&amp;print" onclick="acalogPopup('/preview_entity.php?catoid=15&amp;ent_oid=356&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=15" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script> 
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt4060"></div>
+  <div style="display: none; z-index: 1000;" class="tooltip for_tt8768"></div> 
+ </body>
+</html>

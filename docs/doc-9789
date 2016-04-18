@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="description" content="James Squire Homepage"> 
+  <meta name="keywords" content="James Squire, Jim Squire, Professor James Squire, VMI, Courses, ECE, Research"> 
+  <title>COL James Squire</title> 
+  <link href="squire.css" rel="stylesheet"> 
+  <link href="default.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <table id="outerTable"> 
+   <tbody>
+    <tr> 
+     <td class="titleRow1Col1"></td> 
+     <td class="titleRow1Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow2Col1" style="background-image: url('squire.jpg')"></td> 
+     <td class="titleRow2Col2"> <h1>James C. Squire, P.E., Ph.D. </h1> </td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow3Col1"></td> 
+     <td class="titleRow3Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="menu"> <p class="alignTop"><a href="http://www.vmi.edu">VMI</a></p> <p><a href="http://www.vmi.edu/content.aspx?id=72">ECE</a></p> <p><a href="teaching/teaching.htm">Teaching</a></p> <p><a href="research/research.htm">Research</a></p> <p><a href="advising/advising.htm">Advising</a></p> <p><a href="personal/personal.htm">Personal</a></p> </td> 
+     <td class="cellHoldingMainTable"> 
+      <table class="mainTable"> 
+       <tbody>
+        <tr> 
+         <td id="middletop"> <p class="alignTop"> Jim Squire is a full professor at VMI with interests in engineering pedagogy (theory of teaching), instrumentation, patent law, and biomedical engineering. He graduated from West Point in 1989 and was awarded a Bronze Star while serving in the Gulf War as a military intelligence officer. He completed his doctorate at MIT where he taught, consulted in patent litigation and engineering, and performed biomedical engineering research. He joined the VMI ECE faculty in 2000, received their Distinguished Teaching Award in 2002, and in 2004 was selected by the state of Virginia for the Virginia Outstanding Faculty Award. In 2008 he joined the VMI Class of 2009 as their Honorary Brother Rat. He teaches freshmen through senior-level courses in circuits and signal processing, supervises various independent research and honors projects, and his research has led to seven patents with more pending.&nbsp; He is co-founder of three high-technology startups, <a href="http://www.getmatts.com/">MATTS LLC</a>, Tick Rover LLC, and VMIne LLC.</p> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> 
+          <table> 
+           <!-- contact info in left cell, telephone numbers in right --> 
+           <tbody>
+            <tr> 
+             <td id="left"> <h3 class="centered"> Contact Information</h3> <p class="centered"> <a href="directions/mailing_address.htm">address</a></p> <p class="centered"> <a href="directions/driving_directions.htm">directions</a></p> </td> 
+             <td id="mid"> <p> room</p> <p> work</p> <p> fax</p> <p> home</p> <p> secty</p> <p> email</p> </td> 
+             <td id="right"> <p> NEB 620</p> <p> (540) 464-7548</p> <p> (540) 464-7662</p> <p> (540) 264-0122</p> <p> (540) 464-7236</p> <p> squirejc at vmi.edu</p> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td colspan="2" id="bottom"></td> 
+    </tr> 
+   </tbody>
+  </table>  
+ </body>
+</html>

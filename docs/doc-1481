@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>Find Books - Psychology - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: Psychology: Find Books"> 
+  <meta name="DC.Creator" content="Janet Holly"> 
+  <meta name="DC.Subject" content=""> 
+  <meta name="DC.Description" content="Guide to Research Methods"> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=381389&amp;p=2583906"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Sep 9, 2015"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Mar 30, 2016"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 381389,
+				page_id: 2583906,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-2583906";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '381389',_st_page_id: '2583906'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '381389',_st_page_id: '2583906'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Info Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="Psychology" href="http://libguides.vmi.edu/psy">Psychology </a> </li> 
+     <li id="s-lib-bc-page" class="active">Find Books </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="381389"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">Psychology: Find Books</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description">Guide to Research Methods</span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Info Header --> 
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med"> 
+   <div id="s-lg-guide-tabs" class="tabs"> 
+    <ul class="nav nav-tabs split-button-nav"> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=381389&amp;p=2583903"> <span>Welcome</span> </a> </li> 
+     <li role="presentation" class="active"> <a title="" class="active" href="/c.php?g=381389&amp;p=2583906"> <span>Find Books</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=381389&amp;p=2583907"> <span>Find Articles</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=381389&amp;p=2583928"> <span>Interlibrary Loan</span> </a> </li> 
+     <li role="presentation"> <a title="Access to professional organizations, government resources, and more." class="" href="/c.php?g=381389&amp;p=2587042"> <span>Web Sites</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="http://www.vmi.edu/content.aspx?id=312"> <span>Library Homepage</span> </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <!-- BEGIN: Guide Content --> 
+  <div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders"> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-126" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-1" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-9299363" class="s-lg-box-wrapper-9299363"> 
+       <div id="s-lg-box-7884026-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-7884026" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Reference Books </h2> 
+         <div id="s-lg-box-collapse-7884026"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-18021104" class="s-lg-link-list s-lg-link-list-5">
+             <li class=""> 
+              <div id="s-lg-content-15765100" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-15765100" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/65407150" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '15765100'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9781591473800/LC.GIF&amp;client=springshare" title="APA Dictionary of Psychology" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/65407150" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '15765100'});"><span id="s-lg-book-title-15765100" class="s-lg-book-title">APA Dictionary of Psychology</span> by <span id="s-lg-book-author-15765100" class="s-lg-book-author">Gary R. Vandenbos (Editor)</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. BF 31.A65 2007
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9781591473800
+                </div>
+                <div id="s-lg-book-desc-15765100" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-15765100" class="s-lg-link-desc">
+                  "The American Psychological Association presents the definitive information on the language of the field, including: 25,000 entries offering clear and authoritative definitions; balanced coverage of over 90 subareas across the field of psychology - including clinical, experimental, neuropsychology, cognitive, personality and social, developmental, health, psychopharmacology, methodology and statistics, and many others..." [Book Jacket]
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-15764780" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-15764780" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/43114994" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '15764780'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780471239499/LC.GIF&amp;client=springshare" title="The Corsini Encyclopedia of Psychology and Behavioral Science, 4 Volume Set" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/43114994" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '15764780'});"><span id="s-lg-book-title-15764780" class="s-lg-book-title">The Corsini Encyclopedia of Psychology and Behavioral Science, 4 Volume Set</span> by <span id="s-lg-book-author-15764780" class="s-lg-book-author">W. Edward Craighead (Editor); Charles B. Nemeroff (Editor)</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref.BF 31.E52 2001
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780471239499
+                </div>
+                <div id="s-lg-book-desc-15764780" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-15764780" class="s-lg-link-desc">
+                  This work contains information about two of the fastest growing areas within psychology: neuroscience and biomedical research. It blends these two expanding fields and contains over 1200 entries, of which over 60 per cent are new or revised.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-15764657" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-15764657" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/42692282" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '15764657'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9781557986504/LC.GIF&amp;client=springshare" title="Encyclopedia of Psychology" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/42692282" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '15764657'});"><span id="s-lg-book-title-15764657" class="s-lg-book-title">Encyclopedia of Psychology</span> by <span id="s-lg-book-author-15764657" class="s-lg-book-author">Alan E. Kazdin</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. BF 31.E562 2000
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9781557986504
+                </div>
+                <div id="s-lg-book-desc-15764657" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-15764657" class="s-lg-link-desc">
+                  "This eight-volumes guide covers every area of psychological theory, research, and practice. International in scope, the encyclopaedia is organized alphabetically, with articles ranging from 500 to 7000 words in length." [Abstract]
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-2" class="col-md-6"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-9299137" class="s-lg-box-wrapper-9299137"> 
+       <div id="s-lg-box-7883826-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-7883826" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Preston Library Catalog </h2> 
+         <div id="s-lg-box-collapse-7883826"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-15764482" class="  clearfix"> 
+            <p><span style="font-size:12px;">Find books about psychology by using Preston Library's library catalog.</span></p> 
+            <p><span style="font-size:12px;">Here is the URL to the library catalog:&nbsp; <a href="http://vmi.worldcat.org/advancedsearch">http://vmi.worldcat.org/advancedsearch</a></span></p> 
+            <p><span style="font-size:12px;">Tips for searching are:</span></p> 
+            <ul> 
+             <li><span style="font-size:12px;">Keyword</span></li> 
+             <li><span style="font-size:12px;">Subject Heading</span></li> 
+             <li><span style="font-size:12px;">Limit by format, author, date, and more</span></li> 
+            </ul> 
+            <p><span style="font-family:arial,helvetica,sans-serif;"><font style="font-size: small;"><font style="font-size: small;"><font style="font-size: small;">You can also browse the shelves for books on the 600 level for additional material. </font></font></font></span></p> 
+            <p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size: 12px;">Browse these <a href="http://lgdata.s3-website-us-east-1.amazonaws.com/docs/231/810529/Understanding_Call_Numbers.pdf" title="Understanding Call Numbers">call number areas</a> and find materials relating to psychology:</span></span></p> 
+            <p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size: 12px;"><strong>BF 1-990&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Psychology</span></span></p> 
+            <p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size: 12px;"><strong>BF 176-176.5&nbsp;&nbsp;&nbsp;</strong>&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Psychological tests and testing</span></span></p> 
+            <p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size: 12px;"><strong>BF 180-198.7&nbsp;&nbsp;&nbsp;</strong>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Experimental psychology</span></span></p> 
+            <p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size: 12px;"><strong>BF 309-499&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Consciousness/Cognition [Learning, Attention, Comprehension, Memory, Imagination, Genius, Intelligence, Thought &amp; Thinking, Psycholinguistics]</span></span></p> 
+            <p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size: 12px;"><strong>BF 636-637&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Applied psychology</span></span></p> 
+            <p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size: 12px;"><strong>BF 660-685&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comparative psychology. Animal&nbsp;&amp; human psychology</span></span></p> 
+            <p><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size: 12px;"><strong>BF 712-724.85&nbsp;&nbsp;&nbsp;</strong>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Developmental psychology [Infant psychology, Child psychology, Adolescence, Adulthood]</span></span></p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-9300646" class="s-lg-box-wrapper-9300646"> 
+       <div id="s-lg-box-7885065-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-7885065" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Washington &amp; Lee University Libraries </h2> 
+         <div id="s-lg-box-collapse-7885065"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-15767200" class="  clearfix"> 
+            <p>Find books and other library materials at WLU by searching @ <a href="http://library.wlu.edu/">http://library.wlu.edu/</a></p> 
+            <p>You can go and check out books from Leyburn Library and the Telford Science Library.</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-3" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-9299802" class="s-lg-box-wrapper-9299802"> 
+       <div id="s-lg-box-7884377-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-7884377" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Citation Styles </h2> 
+         <div id="s-lg-box-collapse-7884377"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-18021917" class="s-lg-link-list s-lg-link-list-5">
+             <li class=""> 
+              <div id="s-lg-content-15765855" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-15765855" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/56982308" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '15765855'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9781591472520/LC.GIF&amp;client=springshare" title="Concise Rules of APA Style" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/56982308" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '15765855'});"><span id="s-lg-book-title-15765855" class="s-lg-book-title">Concise Rules of APA Style</span> by <span id="s-lg-book-author-15765855" class="s-lg-book-author">American Psychological Association Staff (Contribution by)</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. BF 76.7.C66 2005
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9781591472520
+                </div>
+                <div id="s-lg-book-desc-15765855" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-15765855" class="s-lg-link-desc">
+                  "Concise Rules of APA Style is your authoritative guide, in a convenient, portable format, on how best to present the ideas and data you've worked so hard to gather. This look-up reference presents specific, key chapters from the best-selling Publication Manual of the American Psychological Association that offer you quick access to the essentials of APA Style." [Jacket]
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-15765778" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-15765778" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/316736612" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '15765778'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9781433805592/LC.GIF&amp;client=springshare" title="Publication Manual of the American Psychological Association" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/316736612" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '15765778'});"><span id="s-lg-book-title-15765778" class="s-lg-book-title">Publication Manual of the American Psychological Association</span> by <span id="s-lg-book-author-15765778" class="s-lg-book-author">American Psychological Association Staff</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. BF 76.7.P83 2010
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9781433805592
+                </div>
+                <div id="s-lg-book-desc-15765778" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-15765778" class="s-lg-link-desc">
+                  This manual provides clear guidance on grammar, the mechanics of writing, and APA style, the Publication Manual offers an authoritative and easy-to-use reference and citation system and comprehensive coverage of the treatment of numbers, metrication, statistical and mathematical data, tables, and figures for use in writing, reports, or presentations.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+            </ul> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-18022179" class="s-lg-link-list s-lg-link-list-2">
+             <li class=""> 
+              <div id="s-lg-content-15766090" class=""> 
+               <span><a href="http://blog.apastyle.org/apastyle/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '15766090'});">APA Style Blog</a> </span>
+               <div id="s-lg-link-desc-15766090" class="s-lg-link-desc">
+                The official companion to the Publication Manual of the American Psychological Association, 6th ed., presents several features to help you navigate the site, whether you are just browsing or looking for an answer to a specific question. For example, you can search the blog, explore posts by category, and view the most recent posts and comments.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-127" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+    <li class="previous"> <a href="/c.php?g=381389&amp;p=2583903">&lt;&lt; <strong>Previous:</strong> Welcome</a> </li> 
+    <li class="next"> <a href="/c.php?g=381389&amp;p=2583907"><strong>Next:</strong> Find Articles &gt;&gt;</a> </li> 
+   </ul> 
+  </div> 
+  <!-- END: Guide Content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Mar 30, 2016 12:19 PM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/psy</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D381389%2526p%253D2583906&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta content="charset=utf-8"> 
+  <meta name="description" content="James Squire EE115: Introduction to ECE"> 
+  <meta name="keywords" content="James Squire, Jim Squire, Professor James Squire, VMI, EE115, Introduction to Electrical Engineering, ECE"> 
+  <title>EE115</title> 
+  <link href="../../squire.css" rel="stylesheet"> 
+  <link href="../teaching.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <table id="outerTable"> 
+   <tbody>
+    <tr> 
+     <td class="titleRow1Col1"></td> 
+     <td class="titleRow1Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow2Col1" style="background-image: url('ee115.gif'); background-repeat:no-repeat"> </td> 
+     <td class="titleRow2Col2"> <h1>EE115: Introduction to ECE</h1> </td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow3Col1"></td> 
+     <td class="titleRow3Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="menu"> <p><a href="../../Default.htm">Home</a></p> <p><a href="../teaching.htm">Teaching</a></p> <p><a href="../ee115/ee115.htm">EE115</a></p> <p><a href="../ee223/ee223.htm">EE223</a></p> <p><a href="../ee230/ee230.htm">EE230</a></p> <p><a href="../ee431/ee431.htm">EE431</a></p> <p><a href="../ee455/ee455.htm">EE455</a></p> <p><a href="../ee491/ee491.htm">EE491/2</a></p> </td> 
+     <td class="cellHoldingMainTable"> 
+      <table class="mainTable"> 
+       <tbody>
+        <tr> 
+         <td class="noBorder"> <p class="alignTop"> EE115 taught by COL James Squire is one section of a series of six 0.5 credit-hour modules instructed by different ECE faculty members designed to introduce students to the breadth of the electrical and computer engineering discipline. Modules provide hands-on training with ECE equipment, including computer hardware and software packages. ECE topics and training are reinforced across multiple modules to emphasize intra-disciplinary connections. (1 credit hour) </p> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> 
+          <hr class="hrStyle"> <h3> Lecture Schedule</h3> <p>In the following table, the homework is assigned on the day listed and due at the start of the following lesson. CP stands for "collaborative problems" and are not collected or graded; they are solved problems either worked in class or available for the student to study out of class that illustrate problems of the type assigned for homework. If you are confident with the homework, you don't need to do them. If you are struggling with the homework, you may find you can learn from seeing how similar problems are solved. </p> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> 
+          <table class="lectureTable"> 
+           <!-- The header row --> 
+           <tbody>
+            <tr> 
+             <td class="lectureTableCol1"> # </td> 
+             <td class="lectureTableCol2"> Date </td> 
+             <td class="lectureTableCol3"> Title </td> 
+             <td class="lectureTableCol5"> Downloads</td> 
+            </tr> 
+            <!-- The lecture data rows ---------------------------> 
+            <tr> 
+             <td class="lectureTableCol1" style="height: 22px"> 1 </td> 
+             <td style="height: 22px">7 Sep</td> 
+             <td style="height: 22px">Introduction and syllabus</td> 
+             <td style="height: 22px"> <a href="materials/EE115%20Syllabus.pdf">Syllabus</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1"> 2 </td> 
+             <td>14</td> 
+             <td>Voltage, current, and charge</td> 
+             <td> <a href="materials/02%20HW%201.pdf">HW 1</a> (due start of next class)</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">3</td> 
+             <td>21</td> 
+             <td>Ohm's Law.&nbsp; R's in series, parallel.</td> 
+             <td> <a href="materials/03%20CP%20Problems.pdf">CP Problems</a><br> <a href="materials/03%20CP%20Solutions.pdf">CP Solutions</a><br> <a href="materials/03%20HW%202.pdf">HW 2</a> (due start of next class)</td>
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">4</td> 
+             <td>28</td> 
+             <td>Spice I: DC analysis.&nbsp; Voltage dividers.</td> 
+             <td> <a href="materials/LTspice%20walkthrough.pdf">LTspice walkthrough</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">5</td> 
+             <td>5 Oct </td> 
+             <td>Laboratory techniques</td> 
+             <td> <a href="materials/05%20In-class%20Assignment%20-%20Blinker.pdf">In-class Assignment - Blinker</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">6</td> 
+             <td>12</td> 
+             <td>Matlab I: Matlab as a calculator</td> 
+             <td> <a href="materials/06%20Matlab%20Tutorial%20I.pdf">Matlab Tutorial I</a><br> <a href="materials/06%20HW%203%20Matlab%20I.pdf">HW 3</a> (due start of next class)</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">7</td> 
+             <td>19</td> 
+             <td>Spice II: Time analysis</td> 
+             <td> <a href="materials/LTspice%20walkthrough%20p1-3.pdf">LTspice walkthrough</a><br> <a href="materials/07%20In-class%20Assignment%20-%20LTspice%20II.pdf">In-class Assignment - LTspice II</a> </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">8</td> 
+             <td>26</td> 
+             <td>Matlab II: Programming</td> 
+             <td> <a href="materials/08%20Matlab%20Tutorial%20II.pdf">Matlab Tutorial II</a><br> <a href="materials/08%20Assignment.pdf">HW 4</a> (due start of next class)</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">9</td> 
+             <td>2 Nov</td> 
+             <td>Project overview &amp; Module I</td> 
+             <td> <a href="materials/Module%201.pdf">Module 1</a><br> <a href="materials/09%20HW4%20%20-%20Ethics.pdf">Ethics</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">10</td> 
+             <td>9</td> 
+             <td>Ethics &amp; Module II</td> 
+             <td> <a href="materials/Module%202.pdf">Module 2.pdf</a><br> <a href="materials/10%20IEEE%20Code%20of%20Ethics.pdf">IEEE Code of Ethics</a> </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">11</td> 
+             <td>16</td> 
+             <td>Amplifiers, oscilloscopes &amp; Module III</td> 
+             <td> <a href="materials/Module%203.pdf">Module 3</a> </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">12</td> 
+             <td>23</td> 
+             <td>Spice III: Schematic capture &amp; Module IV</td> 
+             <td> <a href="materials/Module%204.pdf">Module 4</a> </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">13</td> 
+             <td>30 Nov</td> 
+             <td>Contest</td> 
+             <td> &nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">14</td> 
+             <td>7 Dec</td> 
+             <td>End of course administration</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+   </tbody>
+  </table>  
+ </body>
+</html>

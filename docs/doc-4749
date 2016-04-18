@@ -1,0 +1,296 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	Virginia Museum of the Civil War
+</title>
+  <link rel="shortcut icon" href="../master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="../royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="../royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="../App_Themes/museumsystem/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia Museum of the Civil War">
+  <meta name="Description" content="Virginia Military Institute is a small, public, nationally-ranked college committed to leadership development in a military environment in Lexington, Virginia. VMI instills values of honor, discipline, selflessness, commitment, duty, self-reliance, and service. VMI is recognized as one of America’s top colleges for liberal arts and sciences by US News &amp;amp; World Report, The Princeton Review, and Peterson’s Guide to Competitive Colleges. US News ranks VMI’s engineering programs among the twenty best in America. Men and women of VMI are free to choose military or civilian careers.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/MuseumSystem/" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTEyOTYzMjc3Ng9kFgJmD2QWAgIDEGRkFgwCCQ8PFgIeC05hdmlnYXRlVXJsBQ4vTXVzZXVtU3lzdGVtL2QWAmYPDxYCHghJbWFnZVVybAUpL2NvcmUvaW1hZ2VzL2NvbnRlbnQvbXVzZXVtc3lzdGVtbG9nby5wbmdkZAILD2QWAmYPZBYCZg9kFgQCAQ8PFgQeCENzc0NsYXNzBQxzZWFyY2gtaW5wdXQeBF8hU0ICAhYEHgdvbkZvY3VzBYYBaWYodGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVQaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7dGhpcy52YWx1ZT0nc2VhcmNoIHZtaS5lZHUnO31kAgMPEA9kFgIeBXN0eWxlBQxkaXNwbGF5Om5vbmUQFQEDVk1JFQEDVk1JFCsDAWdkZAIPDw8WAh4HVmlzaWJsZWhkZAITD2QWCAIBDw8WBh4FVGl0bGUFC0hvbWUgQmFubmVyHhNDYXRhbG9nSWNvbkltYWdlVXJsBS4vV29ya0FyZWEvaW1hZ2VzL2FwcGxpY2F0aW9uL2ljb25fZG9jdW1lbnQuZ2lmHhFUaXRsZUljb25JbWFnZVVybGVkZAIDDw8WAh8HaGRkAgcPFgIeBFRleHQF+QE8YSBocmVmPSJodHRwOi8vd3d3OS52bWkuZWR1L21lZGlhL2lyb25saW5lL29jdG9iZXIyMDE0L2luZGV4Lmh0bWwjMiIgdGl0bGU9IlNhcmEgU21pdGggUG9ydHJhaXQgUmVzdG9yZWQiIHRhcmdldD0iX2JsYW5rIj48aW1nIHNyYz0iL3VwbG9hZGVkSW1hZ2VzL19OZXdfTWFya2V0X0JhdHRsZWZpZWxkL3NhcmEtc21pdGguanBnIiBhbHQ9IlNhcmEgU21pdGggcmVzdG9yZWQiIHRpdGxlPSJTYXJhIFNtaXRoIHJlc3RvcmVkIiAvPjwvYT5kAgkPFgIfCwW9BDxoZWFkZXIgY2xhc3M9InNlY3Rpb24taGVhZGVyIj48aDI+MTc1dGggQW5uaXZlcnNhcnk8L2gyPjwvaGVhZGVyPjxiciAvPjxoMj5UaGUgRm91bmRpbmcgb2YgVk1JPC9oMj48aDM+Tm92ZW1iZXIgMTEsIDE4Mzk8L2gzPjxwPlRoaXMgeWVhciBtYXJrcyB0aGUgMTc1dGggYW5uaXZlcnNhcnkgb2YgVk1J4oCZcyBmb3VuZGluZyBvbiBhIHNub3d5IGRheSBpbiAxODM5LiAgVG9kYXnigJlzIENvcnBzIG9mIENhZGV0cywgMSw2MDAgc3Ryb25nLCBoYXMgaXRzIHJvb3RzIGluIGEgcXVpZXQgY2VyZW1vbnkgdGhhdCB5ZWFyIG9uIE5vdi4gMTEsIHdoZW4gMjMgY2FkZXRzIHJlbGlldmVkIGd1YXJkcyBhdCB3aGF0IHdhcyB0aGVuIGEgc3RhdGUgYXJzZW5hbC4gVGhlIHBsYWNlIGxvb2tlZCBub3RoaW5nIGxpa2UgdG9kYXnigJlzIFZNSSBwb3N0LjwvcD48cCBhbGlnbj0icmlnaHQiPjxhIGNsYXNzPSJidG4gYnRuLXByaW1hcnkgYnRuLXNtIiB0aXRsZT0iQWJvdXQgVk1JJ3MgQW5uaXZlcnNhcnkiIGhyZWY9Ii9WTUlfTXVzZXVtLzEwNzM3NDI4NzQ4LyI+QWJvdXQgVk1JJ3MgQW5uaXZlcnNhcnk8L2E+PC9wPmQCFw8PFgYfCAUVSG9tZXBhZ2UgRm9vdGVyIFJpZ2h0HwkFLi9Xb3JrQXJlYS9pbWFnZXMvYXBwbGljYXRpb24vaWNvbl9kb2N1bWVudC5naWYfCmVkZAIZDw8WBh8IBRRIb21lcGFnZSBGb290ZXIgTGVmdB8JBS4vV29ya0FyZWEvaW1hZ2VzL2FwcGxpY2F0aW9uL2ljb25fZG9jdW1lbnQuZ2lmHwplZGRkRBS5HUy/DAotLduTlHvpqj1Pvk7g/7iCQ8xFAsZXpwk="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="6F7C725F"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAT7P6SH4GOWEbSInBoHcWmHg7Z1sS2zTNHf3/IxWgcxRFSOGbegovGRRqrbhyvyJGWQuO5O7PDGe2zLg4RZuxgs9mDahj9DzoEKMsPKVeWQZNJuHttaPZt4zwfCQZjCIf8="> 
+   </div> 
+   <div id="container" class="home"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/MuseumSystem/"><img id="ctl00_imgLogo" src="/core/images/content/museumsystemlogo.png" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/keydetclub/" target="_self" class="first">Keydet Club</a></li>
+         <li><a href="http://www.vmialumni.org/" target="_self">Alumni</a></li>
+         <li class="last"><a href="http://www.vmi.edu" target="_self">Virginia Military Institute</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="selected first"><a href="/MuseumSystem/" target="_self">Home</a></li>
+        <li><a href="/VMI_Museum/" target="_self">VMI Museum</a></li>
+        <li><a href="/vmcw/" target="_self">Virginia Museum of the Civil War</a></li>
+        <li class="rt"><a href="http://www.stonewalljackson.org/" target="_blank">Stonewall Jackson House</a></li>
+        <li class="rt last"><a href="https://www.vmialumni.org/donate" target="_blank">Donate</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="mainContent" class="main"> 
+      <div id="ctl00_pageContent_rotatingBanner"> 
+       <div class="slideshow-container" data-autoplay="true">
+        <div class="slideshow">
+         <div class="slide">
+          <figure class="fig">
+           <img src="/uploadedImages/_New_Market_Battlefield/triptych.jpg">
+           <figcaption style="background: rgba(0,0,0,.7)" class="fig-caption">
+            <span class="hd">Three Separate Museums</span>
+            <i class="more-info">One Shared History»</i>
+           </figcaption>
+          </figure>
+         </div>
+         <div class="slide">
+          <a href="/vmcw/10737428736/" class="fig"><img src="/uploadedImages/_New_Market_Battlefield/soldiers.jpg"><span style="background: rgba(0,0,0,.7)" class="fig-caption"><span class="hd">The 150th Anniversary </span><i class="more-info">More about the Battle of New Market»</i></span></a>
+         </div>
+         <div class="slide">
+          <a href="/VMI_Museum/12469/" class="fig"><img src="/uploadedImages/_New_Market_Battlefield/jmhall.jpg"><span style="background: rgba(0,0,0,.7)" class="fig-caption"><span class="hd">The VMI Museum</span><i class="more-info">Sharing the story of VMI»</i></span></a>
+         </div>
+         <div class="slide">
+          <a href="http://www.stonewalljackson.org/" class="fig"><img src="/uploadedImages/_New_Market_Battlefield/sjhouse.jpg"><span style="background: rgba(0,0,0,.7)" class="fig-caption"><span class="hd">Stonewall Jackson House Museum</span><i class="more-info">More about Jackson's life and times»</i></span></a>
+         </div>
+         <div class="slide">
+          <a href="/VMI_Museum/10737428748/" class="fig"><img src="/uploadedImages/_New_Market_Battlefield/museum-showcase.jpg"><span style="background: rgba(0,0,0,.7)" class="fig-caption"><span class="hd">The VMI Museum</span><i class="more-info">Collecting, preserving, interpreting, and exhibiting the heritage of VMI»</i></span></a>
+         </div>
+         <div class="slide">
+          <a href="/vmcw/10737422550/" class="fig"><img src="/uploadedImages/_New_Market_Battlefield/volunteers(1).jpg"><span style="background: rgba(0,0,0,.7)" class="fig-caption"><span class="hd">Virginia Museum of the Civil War</span><i class="more-info">Visit the museum and battlefield in New Market, Va»</i></span></a>
+         </div>
+        </div>
+        <div class="slideshow-pager">
+         <ul class="hlist">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+         </ul>
+        </div>
+        <a class="slideshow-prev" href="#">Previous</a>
+        <a class="slideshow-next" href="#">Next</a>
+       </div> 
+      </div> 
+      <div class="size2of5 module"> 
+       <div id="ctl00_pageContent_relatedLeft10737428000"> 
+        <header class="section-header"> 
+         <h2> 150th Anniversary</h2> 
+        </header> 
+        <br>
+        <h2>Battle of New Market</h2> 
+        <h3>May 15, 1864</h3> 
+        <p>On May 15, VMI commemorated the 150th anniversary of one of the most significant events in its history – the Battle of New Market. The battle represents a rare moment in U.S. history when an entire student body fought as a unit in pitched battle. </p> 
+        <p align="right"><a href="/vmcw/10737428736/" title="About the Anniversary" class="btn btn-primary btn-sm">About the Anniversary</a>&nbsp;&nbsp; <a class="btn btn-default btn-sm" title="Anniversary Events" href="/vmcw/Reenactment/10737428528/">Anniversary Events</a></p> 
+       </div> 
+      </div> 
+      <div class="size1of4 module"> 
+       <a href="http://www9.vmi.edu/media/ironline/october2014/index.html#2" title="Sara Smith Portrait Restored" target="_blank"><img src="/uploadedImages/_New_Market_Battlefield/sara-smith.jpg" alt="Sara Smith restored" title="Sara Smith restored"></a> 
+      </div> 
+      <div class="size2of5 module last"> 
+       <header class="section-header">
+        <h2>175th Anniversary</h2>
+       </header>
+       <br>
+       <h2>The Founding of VMI</h2>
+       <h3>November 11, 1839</h3>
+       <p>This year marks the 175th anniversary of VMI’s founding on a snowy day in 1839. Today’s Corps of Cadets, 1,600 strong, has its roots in a quiet ceremony that year on Nov. 11, when 23 cadets relieved guards at what was then a state arsenal. The place looked nothing like today’s VMI post.</p>
+       <p align="right"><a class="btn btn-primary btn-sm" title="About VMI's Anniversary" href="/VMI_Museum/10737428748/">About VMI's Anniversary</a></p> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close contentWrapper--> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>VMI MUSEUMS</strong>&nbsp; </p> 
+      <p align="right"><a href="/VMI_Museum/12469/" title="VMI Museum">VMI Museum</a> | <a href="/vmcw/10737422550/" title="Virginia Museum of the Civil War">Virginia Museum of the Civil War</a> | <a href="http://www.stonewalljackson.org/" title="Stonewall Jackson House" target="_blank">Stonewall Jackson House</a></p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/tpu1wxe.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

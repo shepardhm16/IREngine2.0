@@ -1,0 +1,900 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	PBS Video Collection J-M
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets">
+  <meta name="Description" content="Building leaders. Leaders in industry, leaders in government, leaders in the military, leaders in life. Virginia Military Institute is the nation&amp;#39;s oldest state-supported military college. Great Challenge. Lifetime Reward.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=16631" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCDw8PFgIeB1Zpc2libGVoZGQCEw9kFgYCAQ8PFgIfCGdkZAIDDw8WAh8IaGRkAgUPZBYCAgEPZBYCZg9kFgJmDxYCHwhnFgICAQ8PFgIfAgUqL3VwbG9hZGVkSW1hZ2VzL0ltYWdlcy9IZWFkZXJzL2xpYnJhcnkuanBnZGRk5RctJxUFjdL+2D0a2Kp6Z8IuCaNjfwswdRRS5vLtpkg="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAATqaE9lnTyU3iBDheSTVUZGtVqhg79+cCaf2Muxgy28w6Ld5e0tb35jjra3L8Dofk5aGpeLsHyujys0vCNqhELeK2lcNuZEnBIJGImynn4ca7w/pS62R9XkqxGKeZoLDBg="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+        <li><a href="/content.aspx?id=6023" target="_self">Find Books</a></li>
+        <li><a href="/content.aspx?id=6025" target="_self">Find Articles</a></li>
+        <li><a href="/content.aspx?id=32187" target="_self">Get Help</a></li>
+        <li><a href="/content.aspx?id=32191" target="_self">Services</a></li>
+        <li><a href="/content.aspx?id=6035" target="_self">Departments</a></li>
+        <li><a href="/content.aspx?id=968" target="_self">About Preston Library</a></li>
+        <li><a href="/Content.aspx?id=10737418688" target="_self">Preston Library Staff</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft960"> 
+        <address><a href="mailto:brookeep@vmi.edu">Erika Brooke</a><br>Administrative Assistant<br><br>Ph:&nbsp; (540) 464-7228<br>Fax:&nbsp; (540) 464-7279<br><br>Preston Library<br>Virginia Military Institute<br>345 Letcher Avenue<br>Lexington, VA 24450<br><br><a href="mailto:library@vmi.edu">Contact Preston Library</a>&nbsp;&nbsp;<br></address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/library.jpg" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1 align="justify">PBS Video Collection (Streaming Video) J-M</h1> 
+       <p align="justify"><a title="PBS Video Collection 0-A" href="/Library.aspx?id=16597">Titles 0-A</a>&nbsp;| <a title="PBS Video Collection B-C" href="/Library.aspx?id=16609">Titles B-C</a>&nbsp;| <a title="PBS Video Collection D-F" href="/Library.aspx?id=16625">Titles D-F</a>&nbsp;|&nbsp;<a title="PBS Video Collection G-I" href="/Library.aspx?id=16627">Titles G-I</a>&nbsp;|&nbsp;<a title="PBS Video Collection J-M" href="/Library.aspx?id=16631">Titles J-M</a>&nbsp;| <a title="PBS Video Collection N-R" href="/Library.aspx?id=16635">Titles N-R</a>&nbsp;| <a title="PBS Video Collection S-T" href="/Library.aspx?id=16637">Titles S-T</a>&nbsp;| <a title="PBS Video Collection U-Z" href="/Library.aspx?id=16641">Titles U-Z</a></p> 
+       <p align="justify">Japan, memoirs of a secret empire. [Episode 1], The way of the samurai [electronic resource] / written by Joan Owens-Meyerson, Deborah Ann Desnoo, Lyn Goldfarb produced &amp; directed by Lyn Goldfarb, Deborah Ann Desnoo. This programs explores the period between the 16th and 19th centuries in Japan by examining the lives of shoguns, samurais, geishas, and the very few westerners allowed into Japan. Japan was then a world unto itself, closed to outsiders, and ruled by shoguns with absolute control. During this period, Japan transitioned from chaos and violence to a land of ritual refinement and peace. Episode one focuses on the early 16th century when Japan was a warlike society ruled by samurai and their daimyo warlords. When Portuguese merchants arrive in 1543, they are the first Europeans to set foot in Japan. Missionaries quickly set out to convert the nation to Christianity. In the same year, a samurai boy named Tokugawa Ieyasu is born to a low ranking daimyo family.</p> 
+       <p align="justify"></p> 
+       <p align="justify">Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/empires/japan/">http://www.pbs.org/empires/japan/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jme100-1_300k.mp4">http://traveler.vmi.edu/300k/pbs_jme100-1_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jme100-1_800k.mp4">http://traveler.vmi.edu/800k/pbs_jme100-1_800k.mp4</a> High resolution video.<br><br> Samurai -- History.<br> Shoguns -- History.<br> Geishas -- History.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Japan, memoirs of a secret empire. [Episode 2], The will of the Shogun [electronic resource] / written by Joan Owens-Meyerson, Deborah Ann Desnoo, Lyn Goldfarb produced &amp; directed by Lyn Goldfarb, Deborah Ann Desnoo. This programs explores the period between the 16th and 19th centuries in Japan by examining the lives of shoguns, samurais, geishas, and the very few westerners allowed into Japan. Japan was then a world unto itself, closed to outsiders, and ruled by shoguns with absolute control. During this period, Japan transitioned from chaos and violence to a land of ritual refinement and peace. In episode two, Ieyasu is in control, peace settles over Japan, and a new society based on the samurai ethics of obedience and loyalty is established. In 1600, William Adams becomes the first Englishman to set foot in Japan. Impressed by European trading vessels, Ieyasu asks Adams to help him build his own fleet. Aware that the English have no interest in converting the Japanese to Christianity, Ieyasu decides to expel the Portugese and Spanish who often combine missionary work with traderanking daimyo family.</p> 
+       <p align="justify"></p> 
+       <p align="justify">Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/empires/japan/">http://www.pbs.org/empires/japan/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jme100-2_300k.mp4">http://traveler.vmi.edu/300k/pbs_jme100-2_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jme100-2_800k.mp4">http://traveler.vmi.edu/800k/pbs_jme100-2_800k.mp4</a> High resolution video.<br><br> Samurai -- History.<br> Shoguns -- History.<br> Geishas -- History.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Japan, memoirs of a secret empire. [Episode 3], The return of the barbarians [electronic resource] / written by Joan Owens-Meyerson, Deborah Ann Desnoo, Lyn Goldfarb produced &amp; directed by Lyn Goldfarb, Deborah Ann Desnoo. This programs explores the period between the 16th and 19th centuries in Japan by examining the lives of shoguns, samurais, geishas, and the very few westerners allowed into Japan. Japan was then a world unto itself, closed to outsiders, and ruled by shoguns with absolute control. During this period, Japan transitioned from chaos and violence to a land of ritual refinement and peace. In episode 3, Japan is a nation completely isolated from the western world, and a time of cultural flowering and intellectual pursuit ensues. Shogun Tsunayoshi introduces his Laws of Compassion protecting the poor and preventing the abuse of animals. By the 18th century, Edo has become the largest and one of the liveliest cities in the world, attracting samurai, geisha, courtesans, merchants, writers and actors. The classes begin to mix, and culture and commerce flourish.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/empires/japan/">http://www.pbs.org/empires/japan/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jme100-3_300k.mp4">http://traveler.vmi.edu/300k/pbs_jme100-3_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jme100-3_800k.mp4">http://traveler.vmi.edu/800k/pbs_jme100-3_800k.mp4</a> High resolution video.<br><br> Samurai -- History.<br> Shoguns -- History.<br> Geishas -- History.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Jazz. [Episode 1], Gumbo [electronic resource] / a production of Florentine Films and WETA, Washington D.C. in association with BBC a film by Ken Burns director, Ken Burns writer, Geoffrey C. Ward producers, Ken Burns, Lynn Novick. Jazz is born in New Orleans at the turn of the century emerging from several forms of music including ragtime, marching bands, work songs, spirituals, creole music, funeral parade music and above all, the blues. Musicians profiled here who advanced early jazz are Buddy Bolden, Jelly Roll Morton, Sidney Bechet, Freddie Keppard, and musicians of the Original Dixieland Jazz Band.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/jazz/">http://www.pbs.org/jazz/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jaz000-01_300k.mp4">http://traveler.vmi.edu/300k/pbs_jaz000-01_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jaz000-01_800k.mp4">http://traveler.vmi.edu/800k/pbs_jaz000-01_800k.mp4</a> High resolution video.<br><br> Jazz -- History and criticism.<br> Jazz musicians -- United States -- Biography.&nbsp;<br> African American musicians -- Biography.<br> African Americans -- Music.<br> Jazz -- Louisiana -- New Orleans -- History and criticism.<br> Minstrel shows -- United States -- History.<br> Ragtime music -- History and criticism.<br> Blues (Music) -- History and criticism.<br> Creoles -- Louisiana -- Music.<br> Improvisation (Music) -- History and criticism.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Jazz. [Episode 2], The gift [electronic resource] / A production of Florentine Films and WETA, Washington D.C. in association with BBC a film by Ken Burns directed by Ken Burns written by Geoffrey C. Ward produced by Ken Burns and Lynn Novick. Second of 10 episodes tracing the history of Jazz from its roots in the African-American community of New Orleans to the present day, this video features Louis Armstrong and Duke Ellington and describes the beginning of the Jazz Age in New York and Chicago during the early 1920's.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/jazz/">http://www.pbs.org/jazz/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jaz000-02_300k.mp4">http://traveler.vmi.edu/300k/pbs_jaz000-02_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jaz000-02_800k.mp4">http://traveler.vmi.edu/800k/pbs_jaz000-02_800k.mp4</a> High resolution video.<br><br> African American musicians -- United States -- Biography.<br> Jazz -- History and criticism.<br> Jazz musicians -- United States -- Biography.<br> Music -- Social aspects -- United States.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Jazz. [Episode 3], Our language [electronic resource] / A production of Florentine Films and WETA, Washington D.C. in association with BBC a film by Ken Burns directed by Ken Burns written by Geoffrey C. Ward produced by Ken Burns and Lynn Novick. The third of 10 episodes tracing the history of Jazz from its roots in the African-American community of New Orleans to its heights and continuing presence, this video includes the artists Bessie Smith, Bix Biederbecke, Benny Goodman and Artie Shaw.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/jazz/">http://www.pbs.org/jazz/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jaz000-03_300k.mp4">http://traveler.vmi.edu/300k/pbs_jaz000-03_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jaz000-03_800k.mp4">http://traveler.vmi.edu/800k/pbs_jaz000-03_800k.mp4</a> High resolution video.<br><br> Jazz. Jazz -- History and criticism.<br> Jazz musicians.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Jazz. [Episode 4], The true welcome [electronic resource] / A production of Florentine Films and WETA, Washington D.C. in association with BBC a film by Ken Burns directed by Ken Burns written by Geoffrey C. Ward produced by Ken Burns and Lynn Novick. Fourth of 10 episodes tracing the history of Jazz from its roots in the African-American community of New Orleans, this video is set during the 1930's. Mired in the Great Depression, jazz is called upon to the lift the spirits of a frightened country. Features artists Benny Goodman, Louis Armstrong, and Duke Ellington.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/jazz/">http://www.pbs.org/jazz/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jaz000-04_300k.mp4">http://traveler.vmi.edu/300k/pbs_jaz000-04_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jaz000-04_800k.mp4">http://traveler.vmi.edu/800k/pbs_jaz000-04_800k.mp4</a> High resolution video.<br><br> African American musicians -- United States -- Biography.<br> Jazz -- History and criticism.<br> Jazz musicians -- United States -- Biography.<br> Depressions -- 1929 -- United States -- Songs and music.<br> Music -- Social aspects -- United States.<br> Swing (Music) -- History.<br> Dance orchestra music -- History.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Jazz. [Episode 5], Swing, pure pleasure [electronic resource] / A production of Florentine Films and WETA, Washington D.C. in association with BBC a film by Ken Burns directed by Ken Burns written by Geoffrey C. Ward produced by Ken Burns and Lynn Novick. Fifth of 10 episodes tracing the history of Jazz from its roots in the African-American community of New Orleans, this video is set in the mid 1930's. The Great Depression stubbornly refuses to lift and jazz comes as close as ever to being America's most popular music. Its new name is Swing, and Benny Goodman finds himself with a host of rivals, including Tommy Dorsey and Glen Miller. Billy Holiday emerges to begin her career as the greatest of all female jazz singers.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/jazz/">http://www.pbs.org/jazz/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jaz000-05_300k.mp4">http://traveler.vmi.edu/300k/pbs_jaz000-05_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jaz000-05_800k.mp4">http://traveler.vmi.edu/800k/pbs_jaz000-05_800k.mp4</a> High resolution video.<br><br> African American musicians -- United States -- Biography.<br> Jazz -- History and criticism.<br> Jazz musicians -- United States -- Biography.<br> Music -- Social aspects -- United States.<br> Depressions -- 1929 -- United States -- Songs and music.<br> Swing (Music) -- History.<br> Dance orchestra music -- History.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Jazz. [Episode 6], Swing, the velocity of celebration [electronic resource] / A production of Florentine Films and WETA, Washington D.C. in association with BBC a film by Ken Burns directed by Ken Burns written by Geoffrey C. Ward produced by Ken Burns and Lynn Novick. Sixth of 10 episodes tracing the history of Jazz from its roots in the African-American community of New Orleans, this video is set in the late 1930's. Swing is still a national craze that keeps on growing despite the Depression.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/jazz/">http://www.pbs.org/jazz/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jaz000-06_300k.mp4">http://traveler.vmi.edu/300k/pbs_jaz000-06_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jaz000-06_800k.mp4">http://traveler.vmi.edu/800k/pbs_jaz000-06_800k.mp4</a> High resolution video.<br><br> African American musicians -- United States -- Biography.<br> Jazz -- History and criticism.<br> Jazz musicians -- United States -- Biography.<br> Music -- Social aspects -- United States.<br> Swing (Music) -- History.<br> Dance orchestra music -- History.<br> Depressions -- 1929 -- United States -- Songs and music.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Jazz. [Episode 7], Dedicated to chaos [electronic resource] / A production of Florentine Films and WETA, Washington D.C. in association with BBC a film by Ken Burns directed by Ken Burns written by Geoffrey C. Ward produced by Ken Burns and Lynn Novick. Seventh of 10 episodes tracing the history of Jazz from its roots in the African-American community of New Orleans, this video is set in the early 1940's. When America enters World War II in 1941, jazz music goes to war too, and swing becomes a symbol of democracy. Glenn Miller and Artie Shaw take their music to the men and women of the armed forces overseas.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/jazz/">http://www.pbs.org/jazz/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jaz000-07_300k.mp4">http://traveler.vmi.edu/300k/pbs_jaz000-07_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jaz000-07_800k.mp4">http://traveler.vmi.edu/800k/pbs_jaz000-07_800k.mp4</a> High resolution video.<br><br> African American musicians -- United States -- Biography.<br> Jazz -- History and criticism.<br> Jazz musicians -- United States -- Biography.<br> Music -- Social aspects -- United States.<br> Swing (Music) -- History.<br> Dance orchestra music -- History.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Jazz. [Episode 8], Risk [electronic resource] / A production of Florentine Films and WETA, Washington D.C. in association with BBC a film by Ken Burns directed by Ken Burns written by Geoffrey C. Ward produced by Ken Burns and Lynn Novick. Eighth of 10 episodes tracing the history of Jazz from its roots in the African-American community of New Orleans. Despite the escalation of the Cold War, America's musical tastes turn to sentimental singers and rhythm and blues. New gifted musicians emerge including Miles Davis, Dave Brubeck, Gerry Mulligan and John Lewis.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/jazz/">http://www.pbs.org/jazz/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jaz000-08_300k.mp4">http://traveler.vmi.edu/300k/pbs_jaz000-08_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jaz000-08_800k.mp4">http://traveler.vmi.edu/800k/pbs_jaz000-08_800k.mp4</a> High resolution video.<br><br> African American musicians -- United States -- Biography.<br> Jazz -- History and criticism.<br> Jazz musicians -- United States -- Biography.<br> Music -- Social aspects -- United States.<br> Civil rights movements -- United States -- Songs and music.<br> Swing (Music) -- History.<br> Dance orchestra music -- History.<br> Depressions -- 1929 -- United States -- Songs and music.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Jazz. [Episode 9], Adventure [electronic resource] / A production of Florentine Films and WETA, Washington D.C. in association with BBC a film by Ken Burns directed by Ken Burns written by Geoffrey C. Ward produced by Ken Burns and Lynn Novick. Ninth of 10 episodes tracing the history of Jazz from its roots in the African-American community of New Orleans. In the 1950's post-war prosperity continues but beneath its placid surface is a growing demand for civil rights. Louis Armstrong speaks out and Miles Davis becomes an icon for an entire generation of Americans. Saxophonists Sonny Rollins, John Coltrane and Ornette Coleman make their debut and introduce a new jazz movement -- the avant garde.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/jazz/">http://www.pbs.org/jazz/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jaz000-09_300k.mp4">http://traveler.vmi.edu/300k/pbs_jaz000-09_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jaz000-09_800k.mp4">http://traveler.vmi.edu/800k/pbs_jaz000-09_800k.mp4</a> High resolution video.<br><br> African American musicians -- United States -- Biography.<br> Jazz -- History and criticism.<br> Jazz musicians -- United States -- Biography.<br> Music -- Social aspects -- United States.<br> Swing (Music) -- History.<br> Dance orchestra music -- History.<br> Civil rights movements -- United States -- Songs and music.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Jazz. [Episode 10], A masterpiece by midnight [electronic resource] / A production of Florentine Films and WETA, Washington D.C. in association with BBC a film by Ken Burns directed by Ken Burns written by Geoffrey C. Ward produced by Ken Burns and Lynn Novick. Last of 10 episodes tracing the history of Jazz from its roots in the African-American community of New Orleans. By the early 1960's, jazz is in trouble. Louis Armstrong manages to outsell the Beatles with "Hello Dolly" and Stan Getz helps boost a craze for Bossa Nova. During the Civil Rights struggle, some artists mix music with social protest, including Max Roach, Charles Mingus, Archie Shepp, and the Art Ensemble of Chicago. Tenor saxophone master, Dexter Gordon returns from Europe and a new generation of musicians, led by the trumpeter Wynton Marsalis emerges. As it enters its second century, jazz is still alive, still changing and still swinging.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/jazz/">http://www.pbs.org/jazz/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jaz000-10_300k.mp4">http://traveler.vmi.edu/300k/pbs_jaz000-10_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jaz000-10_800k.mp4">http://traveler.vmi.edu/800k/pbs_jaz000-10_800k.mp4</a> High resolution video.<br><br> African American musicians -- United States -- Biography.<br> Jazz -- History and criticism.<br> Jazz musicians -- United States -- Biography.<br> Music -- Social aspects -- United States.<br> African Americans -- New York (State) -- New York -- History -- 20th century.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Jeanette Rankin, the woman who voted no [electronic resource] / produced &amp; directed by Ronald Bayly, Nancy Landgren. A profile of Jeanette Rankin from Montana, who was the first woman elected to Congress, and the only member to vote against American entry into both world wars. Includes interviews with friends, relatives, and historians, as well as original newsreels and photographs.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jrn000_300k.mp4">http://traveler.vmi.edu/300k/pbs_jrn000_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jrn000_800k.mp4">http://traveler.vmi.edu/800k/pbs_jrn000_800k.mp4</a> High resolution video.<br><br> Legislators -- United States -- Biography.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The Jesus factor [electronic resource] / a Frontline coproduction. Examines the rudiments of President George W. Bush's faith as an evangelical Christian, the extent to which his spiritual beliefs impact or influence his political decision-making, and how closely his religious views mirror those of the country's burgeoning and politically influential evangelical movement.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/pages/frontline/shows/jesus/">http://www.pbs.org/wgbh/pages/frontline/shows/jesus/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_frl2212_300k.mp4">http://traveler.vmi.edu/300k/pbs_frl2212_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_frl2212_800k.mp4">http://traveler.vmi.edu/800k/pbs_frl2212_800k.mp4</a> High resolution video.<br><br> Religion and politics -- United States.<br> Presidents -- United States -- Religion.<br> Fundamentalism -- United States.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">A Jew among the Germans [electronic resource] / Frontline. Marian Marzynski, Polish Holocaust survivor, sets out on a personal quest to find out how Germans are going to design a memorial to the murder of six million Jews, to be unveiled on the 60th anniversary of the end of World War II. Over three years he meets artists, architects and planners who struggle with questions of guilt, responsibility and memory. He struggles with his own relationship to the German people and meets a young "third generation" of Germans who declare their distance from their parents and grandparents.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/pages/frontline/shows/germans/">http://www.pbs.org/wgbh/pages/frontline/shows/germans/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_frl2314_300k.mp4">http://traveler.vmi.edu/300k/pbs_frl2314_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_frl2314_800k.mp4">http://traveler.vmi.edu/800k/pbs_frl2314_800k.mp4</a> High resolution video.<br><br> Holocaust memorials.<br> Holocaust survivors.<br> Holocaust, Jewish (1939-1945) -- Anniversaries, etc.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Jimmy Carter. Part 1 Jimmy who? [electronic resource] / written and produced by Adriana Bosch directed by Adriana Bosch. Examines the life and political career of President Jimmy Carter. Part 1 covers his life to his election to the presidency. Part 2 covers the subsequent years, including his presidency, the Iran hostage crisis, post-presidential years, and winning the Nobel Peace Prize in 2002.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/carter/index.html">http://www.pbs.org/wgbh/amex/carter/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx020-1_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx020-1_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx020-1_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx020-1_800k.mp4</a> High resolution video.<br><br> Presidents -- United States -- History -- 20th century.<br> Ex-presidents -- United States.<br> Iran Hostage Crisis, 1979-1981.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Jimmy Carter. Part 2, Hostage [electronic resource] / written and produced by Adriana Bosch directed by Adriana Bosch. Examines the life and political career of President Jimmy Carter. Part 1 covers his life to his election to the presidency. Part 2 covers the subsequent years, including his presidency, the Iran hostage crisis, post-presidential years, and winning the Nobel Peace Prize in 2002.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/carter/index.html">http://www.pbs.org/wgbh/amex/carter/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx020-2_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx020-2_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx020-2_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx020-2_800k.mp4</a> High resolution video.<br><br> Presidents -- United States -- History -- 20th century.<br> Ex-presidents -- United States.<br> Iran Hostage Crisis, 1979-1981.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">John Brown's holy war [electronic resource] / produced and directed by Robert Kenner written by Ken Chowder Robert Kenner Films for American Experience WGBH Educational Foundation WGBH Boston. John Brown, considered the father of American terrorism, was an inspiration to the Civil Rights movement. He was a farmer, a warrior, a family man and an avenging angel. More than 150 years after his execution, questions swirl around John Brown: was he a madman or a martyr? A bloodthirsty fanatic or a great American hero? Dramatic reenactments trace John Brown's obsessive battle against human bondage.</p> 
+       <p align="justify">Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/brown/">http://www.pbs.org/wgbh/amex/brown/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx021_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx021_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx021_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx021_800k.mp4</a> High resolution video.<br><br> Abolitionists -- United States -- Biography.<br> Antislavery movements -- United States -- History -- 19th century.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The Johnstown flood [electronic resource] / written, produced and directed by Charles Guggenheim. Examines the 1889 flood in western Pennsylvania that resulted in more than 2000 deaths. Explores the cause of the flood, a faulty dam constructed to provide a resort area for the wealthy residents of Pittsburg the lives of people at the resort in the mountain and the people who lived in Johnstown.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx022_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx022_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx022_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx022_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">Floods -- Pennsylvania -- Johnstown (Cambria County).</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Journey of man [electronic resource] / produced by Tigress, in association with PBS and National Geographic Channels International producer, Jennifer Beamish director, Clive Maltby. How did the human race populate the world? A group of geneticists have worked on the question for a decade, arriving at a startling conclusion: the "global family tree" can be traced to one African man who lived 60,000 years ago. Dr. Spencer Wells hosts this innovative series, featuring commentary by expert scientists, historians, archaeologists, and anthropologists.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_jom101_300k.mp4">http://traveler.vmi.edu/300k/pbs_jom101_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_jom101_800k.mp4">http://traveler.vmi.edu/800k/pbs_jom101_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">Human evolution.<br> Population genetics.<br> Evolutionary genetics.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The journey of Sacagawea [electronic resource] / a production of Idanha Films, Inc. and Idaho Public Television produced and written by Lori Joyce directed and edited by Alan Austin. This film documents Sacagawea's importance to the Lewis and Clark Expedition.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.idahoptv.org/lc/jouneysacagawea/">http://www.idahoptv.org/lc/jouneysacagawea/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_sga101_300k.mp4">http://traveler.vmi.edu/300k/pbs_sga101_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_sga101_800k.mp4">http://traveler.vmi.edu/800k/pbs_sga101_800k.mp4</a> High resolution video.<br><br> Shoshoni Indians -- History -- 19th century.<br> Shoshoni women -- Biography.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Journey to America [electronic resource] / Guggenheim Productions, Inc. WGBH Educational Foundation and WNET-13 produced by Charles Guggenheim. Documentary using archival photographs and films, made as a tribute to the over 12 million people who journeyed to the U.S. from their homelands through Ellis Island between 1890 and 1920.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx023_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx023_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx023_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx023_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">Immigrants -- United States.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Journey to Mars [electronic resource] / Chedd-Angier presented by Connecticut Public Television produced in association with Scientific American magazine written, produced, and directed by John Angier, Andrew Liebman. Find out how a Mars mission can be affordably accomplished and why it's so important to explore the "red planet." Watch host, Alan Alda try out some of the tools currently being developed by NASA to make life in space less traumatic for the astronauts who will someday make this historic journey.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/saf/transcripts/transcript902.htm">http://www.pbs.org/saf/transcripts/transcript902.htm</a></p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_saf031_300k.mp4">http://traveler.vmi.edu/300k/pbs_saf031_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_saf031_800k.mp4">http://traveler.vmi.edu/800k/pbs_saf031_800k.mp4</a> High resolution video.<br><br> Manned space flight.<br> Interplanetary voyages.<br> Space flight to Mars.<br> Astronauts.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Judgment day [electronic resource] / WGBH Boston produced by Llewellyn Smith written by Steve Fayer. Tells of the last years before the Civil War. Black abolitionists like Frederick Douglass, Rev. Jermain Loguen and Sojourner Truth agitate against southern slavery and northern racism. Southern states threaten to leave the union. In 1850, a last political compromise trades away black rights to keep the nation united. As slaveholders call for reopening the slave trade, abolitionists fight back. John Brown's raid on Harper's Ferry seems the final blow.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/aia/home.html">http://www.pbs.org/wgbh/aia/home.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_afa004_300k.mp4">http://traveler.vmi.edu/300k/pbs_afa004_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_afa004_800k.mp4">http://traveler.vmi.edu/800k/pbs_afa004_800k.mp4</a> High resolution video.<br><br> Slavery -- United States -- History.<br> Slave trade -- United States -- History.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Karl Rove, the architect [electronic resource] / produced &amp; directed by Michael Kirk co-produced &amp; reported by Jim Gilmore written by Michael Kirk a Frontline coproduction with the Washington Post and Kirk Documentary Group WGBH Boston. Traces the political history and career of Karl Rove--a man who has been on the inside of every political and policy decision of George W. Bush's administration, including the battles on Social Security, taxes, and tort reform.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/pages/frontline/shows/architect/">http://www.pbs.org/wgbh/pages/frontline/shows/architect/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_frl2310_300k.mp4">http://traveler.vmi.edu/300k/pbs_frl2310_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_frl2310_800k.mp4">http://traveler.vmi.edu/800k/pbs_frl2310_800k.mp4</a> High resolution video.<br><br> Political consultants -- United States.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The Kennedys. [Part 1], The father [electronic resource] / a co-production of WBGH/Boston and Thames Television, London.&nbsp; Describes how Joseph Kennedy built his family into a potent political force. Traces the lives of Joe and Rose and their nine children, focusing particularly on Joseph Jr., John, Robert, and Edward.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/kennedys/index.html">http://www.pbs.org/wgbh/amex/kennedys/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx058-1_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx058-1_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx058-1_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx058-1_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The Kennedys. [Part 2], The sons [electronic resource] / a co-production of WGBH/Boston and Thames Television, London. The conclusion of The Kennedys follows the Kennedy story from the glamorous imagery of Jack and Jackie Kennedy's White House -- carefully cultivated by both the president and the first lady -- through the national tragedies of the assassinations of John and Robert Kennedy, to the dark days of Edward Kennedy's accident at Chappaquiddick and his unsuccessful 1980 presidential campaign, which may have finally freed him of the burden of his father's ambition.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/kennedys/index.html">http://www.pbs.org/wgbh/amex/kennedys/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx058-2_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx058-2_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx058-2_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx058-2_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The killer at Thurston High [electronic resource] / produced by Michael J. Kirk, Miri Navasky, Karen O'Connor written by Michael J. Kirk &amp; Peter J. Boyer directed by Michael J. Kirk editor, Steve Audette executive editor, Louis Wiley, Jr. executive producer, David Fanning. Frontline takes a measure of the new national dilemma of kids killing other kids in school through a detailed, intimate journey into the life of one high school shooter, Kip Kinkel, who killed his parents, and then opened fire killing two fellow students and wounding 25 others at Thurston High School in Springfield, Oregon. Examines factors that caused Kinkel, a boy from a solid middle class family, to develop into a killer.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/pages/frontline/shows/kinkel/">http://www.pbs.org/wgbh/pages/frontline/shows/kinkel/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_frl1808_300k.mp4">http://traveler.vmi.edu/300k/pbs_frl1808_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_frl1808_800k.mp4">http://traveler.vmi.edu/800k/pbs_frl1808_800k.mp4</a> High resolution video.<br><br> School violence -- Oregon -- Springfield.<br> School shootings -- United States -- Prevention.<br> Juvenile delinquents -- Oregon -- Springfield.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Killer flu [electronic resource] / a Granada Production for Thirteen/WNET in association with Channel 4 (UK) produced and directed by Bill Lyons. Discusses the 1918 flu pandemic, its deadly consequences and the possibility that a similar strain could occur today.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wnet/secrets/case_killerflu/">http://www.pbs.org/wnet/secrets/case_killerflu/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_see402_300k.mp4">http://traveler.vmi.edu/300k/pbs_see402_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_see402_800k.mp4">http://traveler.vmi.edu/800k/pbs_see402_800k.mp4</a> High resolution video.<br><br> Influenza Epidemic, 1918-1919.<br> Influenza -- History -- 20th century.<br> Epidemics -- History -- 20th century.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Kingdom of David: the saga of the Israelites. Episode 1, By the rivers of Babylon [electronic resource] / [a production of Oregon Public Broadcasting and Red Hill Productions in association with PBS and Devillier Donegan Enterprises] producers, Jack Combs, Richard Kassebaum written by Carl Byker, Isaac Mizrahi and David Mrazek directed by Carl Byker and Mitch Wilson. Tells the story of the Israelites and the creation of the world's first monotheistic religion.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_kia000-1_300k.mp4">http://traveler.vmi.edu/300k/pbs_kia000-1_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_kia000-1_800k.mp4">http://traveler.vmi.edu/800k/pbs_kia000-1_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">Jews -- Civilization -- To 70 A.D.<br> Jews -- History -- To 70 A.D.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Kingdom of David: the saga of the Israelites. Episode 2, The book and the sword [electronic resource] / [a production of Oregon Public Broadcasting and Red Hill Productions in association with PBS and Devillier Donegan Enterprises] producers, Jack Combs, Richard Kassebaum written by Carl Byker, Isaac Mizrahi and David Mrazek directed by Carl Byker and Mitch Wilson. Tells the story of the Israelites and the creation of the world's first monotheistic religion.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_kia000-2_300k.mp4">http://traveler.vmi.edu/300k/pbs_kia000-2_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_kia000-2_800k.mp4">http://traveler.vmi.edu/800k/pbs_kia000-2_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">Jews -- Civilization -- To 70 A.D.<br> Jews -- History -- To 70 A.D.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Kingdom of David: the saga of the Israelites. Episode 3, The end of days [electronic resource] / [a production of Oregon Public Broadcasting and Red Hill Productions in association with PBS and Devillier Donegan Enterprises] producers, Jack Combs, Richard Kassebaum written by Carl Byker, Isaac Mizrahi and David Mrazek directed by Carl Byker and Mitch Wilson. Tells the story of the Israelites and the creation of the world's first monotheistic religion.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_kia000-3_300k.mp4">http://traveler.vmi.edu/300k/pbs_kia000-3_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_kia000-3_800k.mp4">http://traveler.vmi.edu/800k/pbs_kia000-3_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">Jews -- Civilization -- To 70 A.D.<br> Jews -- History -- To 70 A.D.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Kingdom of David: the saga of the Israelites. Episode 4, The gifts of the Jews [electronic resource] / [a production of Oregon Public Broadcasting and Red Hill Productions in association with PBS and Devillier Donegan Enterprises] producers, Jack Combs, Richard Kassebaum written by Carl Byker, Isaac Mizrahi and David Mrazek directed by Carl Byker and Mitch Wilson. Tells the story of the Israelites and the creation of the world's first monotheistic religion.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_kia000-4_300k.mp4">http://traveler.vmi.edu/300k/pbs_kia000-4_300k.mp4</a> Low resolution video</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/800k/pbs_kia000-4_800k.mp4">http://traveler.vmi.edu/800k/pbs_kia000-4_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">Jews -- Civilization -- To 70 A.D.<br> Jews -- History -- To 70 A.D.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Kinsey [electronic resource] / a production of Twin Cities Public Television/TPT and Ark Media for American Experience in association with the BBC. (Producer) Kinsey was a scientist whose repressed childhood, personal struggles and obsessive nature would propel him to conduct the first full-scale study of sexual behavior, and break through America's silence on human sexuality.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/kinsey/index.html">http://www.pbs.org/wgbh/amex/kinsey/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx063_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx063_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx063_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx063_800k.mp4</a> High resolution video.<br><br> Sexologists -- United States -- Biography.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Korean war stories [electronic resource] / produced and directed by Robert Uth written by Robert Uth, Phylis Geller a production of New Voyage Communications. Veterans share their stories of the "Forgotten War", reminding the viewer of the human and social costs the Korean war had on America. Interviewees include Senators John Glenn and John S. Warner, baseball player Ted Williams, musician Willie Nelson, former Secretary of State James Baker, Rep. Charles Rangel, Lt. Col. Charles B. "Brad" Smith, Gen. Raymond Davis, and others.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_kos101_300k.mp4">http://traveler.vmi.edu/300k/pbs_kos101_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_kos101_800k.mp4">http://traveler.vmi.edu/800k/pbs_kos101_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">Korean War, 1950-1953 -- Personal narratives, American.<br> Korean War, 1950-1953 -- Veterans -- Interviews.<br> Video recordings for the hearing impaired.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Last one picked, first one picked on [electronic resource] : learning disabilities and social skills / presented by Richard D. Lavoie. For most children, playing with friends is a daily ritual. But kids with learning disabilities are often isolated and rejected, lacking the social skills to make and keep friends. Richard Lavoie shows how to help these kids succeed in every-day situations. Last One Picked First One Picked On gives parents and teachers greater understanding of social skill deficits and specific strategies for developing skills and fostering social competence.</p> 
+       <p align="justify"></p> 
+       <p align="justify">Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_lat902_300k.mp4">http://traveler.vmi.edu/300k/pbs_lat902_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_lat902_800k.mp4">http://traveler.vmi.edu/800k/pbs_lat902_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">Learning disabled children.<br> Social skills in children.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Latin America [electronic resource] : intervention in our own backyard / produced by Anthony Potter Productions in association with Reeves Entertainment Group produced by William Kronick and Charles Musser written by Anthony Potter created by Herb Schmertz. Explores early U.S. policy in the Caribbean and Central and South America as Pan-American relations deteriorated until, in 1933, President Roosevelt abolished the Monroe doctrine of intervention.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_btw110_300k.mp4">http://traveler.vmi.edu/300k/pbs_btw110_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_btw110_800k.mp4">http://traveler.vmi.edu/800k/pbs_btw110_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">Monroe doctrine.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">LBJ. [Part 1], Beautiful Texas [electronic resource] / a KERA Dallas production in association with David Grubin Productions presented by WGBH Boston, WNET New York, and KCET Los Angeles. Lyndon Baines Johnson was a poor boy from the Texas hill country who ascended to the pinnacle of world power as the 36th president of the United States. LBJ's career started in 1938 when he was elected a congressman, one of the youngest ever. He was elected to the Senate in 1948 under a cloud of suspicion. LBJ won by only 87 votes. In 1954, when the Democrats took over the Senate, LBJ became the youngest majority leader ever at age 46. In 1957, LBJ engineered passage of the first civil rights bill since Reconstruction--but the bill had too many compromises and no teeth. By 1960, LBJ felt he was ready for the presidency, but John Kennedy got there first--and then picked LBJ as his vice president. Hear how LBJ's career got started from the people who were there: John Connally, Bobby Baker, George Reedy, Roger Wilkins, and others.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/presidents/36_l_johnson/">http://www.pbs.org/wgbh/amex/presidents/36_l_johnson/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx024-1_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx024-1_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx024-1_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx024-1_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">LBJ. [Part 2], My fellow Americans [electronic resource] / a KERA Dallas production in association with David Grubin Productions presented by WGBH Boston, WNET New York, and KCET Los Angeles. After JFK's assassination, LBJ first calmed the country, then he threw the power of the presidency behind a civil rights bill. As LBJ said, "I'm going to be the president who finishes what Lincoln began." With some old-fashioned arm twisting, LBJ hammered the 1964 Civil Rights Act through Congress. Next he launched the War on Poverty. He envisioned a "Great Society" for all Americans. LBJ was determined to be the greatest president ever. Vietnam would prove to be his undoing. By the time LBJ took office, Truman, Eisenhower, and JFK had all sent advisors to Vietnam. LBJ was not about to look soft on Communism. In August 1964, he rammed the Gulf of Tonkin resolution through Congress. After his landslide victory over Goldwater in November 1964, LBJ felt on top of the world, but it was about to crumble.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/presidents/36_l_johnson/">http://www.pbs.org/wgbh/amex/presidents/36_l_johnson/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx024-2_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx024-2_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx024-2_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx024-2_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">LBJ. [Part 3], We shall overcome [electronic resource] / a KERA Dallas production in association with David Grubin Productions presented by WGBH Boston, WNET New York, and KCET Los Angeles. After the triumph of the 1964 election, LBJ felt there was no problem the U.S. couldn't solve. New programs and agencies were created: Head Start, Urban Renewal, Public Television, the National Endowment for the Arts, and the National Endowment for the Humanities. The Voting Rights Act of 1965 was passed. In March 1965, the first U.S. troops were sent to Vietnam. Only George Ball challenged the conventional wisdom. By July 1965, LBJ had escalated the number of troops from 75,000 to 125,000. The growing quagmire in Vietnam was changing LBJ's presidency.</p> 
+       <p align="justify">Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/presidents/36_l_johnson/">http://www.pbs.org/wgbh/amex/presidents/36_l_johnson/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx024-3_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx024-3_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx024-3_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx024-3_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">LBJ. [Part 4], The last believer [electronic resource] / a KERA Dallas production in association with David Grubin Productions presented by WGBH Boston, WNET New York, and KCET Los Angeles. At his daughter's wedding in 1966, LBJ was the proud papa. But in 1966 and 1967 race riots in Watts, Detroit, and elsewhere shook the country. In Detroit, 43 people died and 7,000 were arrested. LBJ's Great Society was coming unraveled. Vietnam would do it in. By the end of 1967, a sense of siege came over the White House. The 1968 Tet offensive shattered the illusion of any progress in Vietnam. CBS anchor Walter Cronkite came out against the war. By March 1968, 500,000 American troops were in Vietnam. Bobby Kennedy announced he would run for president. On March 31, 1968, LBJ made the announcement that shocked the country--he would not run for another term.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/presidents/36_l_johnson/">http://www.pbs.org/wgbh/amex/presidents/36_l_johnson/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx024-4_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx024-4_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx024-4_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx024-4_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Lewis &amp; Clark, the journey of the Corps of Discovery [electronic resource] [Part 1] / a Florentine Films Production a film by Ken Burns produced by Dayton Duncan, Ken Burns written by Dayton Duncan. Documentary on the Lewis and Clark expedition through the American West.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/lewisandclark/">http://www.pbs.org/lewisandclark/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_lel000-1_300k.mp4">http://traveler.vmi.edu/300k/pbs_lel000-1_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_lel000-1_800k.mp4">http://traveler.vmi.edu/800k/pbs_lel000-1_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Lewis &amp; Clark, the journey of the Corps of Discovery [electronic resource] [Part 2] / a Florentine Films Production a film by Ken Burns produced by Dayton Duncan, Ken Burns written by Dayton Duncan. Documentary on the Lewis and Clark expedition through the American West.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/lewisandclark/">http://www.pbs.org/lewisandclark/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_lel000-2_300k.mp4">http://traveler.vmi.edu/300k/pbs_lel000-2_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_lel000-2_800k.mp4">http://traveler.vmi.edu/800k/pbs_lel000-2_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Liberty! The American Revolution. [Episode 1], The reluctant revolutionaries [electronic resource] / produced and directed by Ellen Hovde, Muffie Meyer writer, Ronald Blumer a production of KTCA-TV in association with Middlemarch Films Twin Cities Public TV. This look at situations and events leading to the American Revolution features dramatic readings from letters and diaries of the period, comments by historians, and live-action recreations.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/ktca/liberty/">http://www.pbs.org/ktca/liberty/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_lir000-1_300k.mp4">http://traveler.vmi.edu/300k/pbs_lir000-1_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_lir000-1_800k.mp4">http://traveler.vmi.edu/800k/pbs_lir000-1_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Liberty! The American revolution. [Episode 2], Blows must decide [electronic resource] / produced and directed by Ellen Hovde, Muffie Meyer writer, Ronald Blumer a production of KTCA-TV in association with Middlemarch Films Twin Cities Public TV. A total break from Great Britain remained hard for Americans to imagine, even after shots were fired at Lexington and Concord. Words pushed matters "over the edge" in 1776. Thomas Paine's pamphlet, Common Sense, argued that it is the natural right of men to govern themselves. The Declaration of Independence declared this same idea a "self-evident" truth.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/ktca/liberty/">http://www.pbs.org/ktca/liberty/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_lir000-2_300k.mp4">http://traveler.vmi.edu/300k/pbs_lir000-2_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_lir000-2_800k.mp4">http://traveler.vmi.edu/800k/pbs_lir000-2_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Liberty! The American Revolution. [Episode 3], The times that try men's souls [electronic resource] / produced and directed by Ellen Hovde, Muffie Meyer writer, Ronald Blumer a production of KTCA-TV in association with Middlemarch Films Twin Cities Public TV. Days after the Declaration of Independence was signed an immense British force arrived in New York harbor, pitting the largest professional army in the world against George Washington's army of untrained volunteers. Washington wanted to conduct the war in proper 18th-century style, but after an early string of defeats realized he had to avoid fighting at all costs and keep his army on the run. On Dec. 26, 1776, Washington led his army across the Delaware River, surprising a garrison of Hessian soldiers at Trenton.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/ktca/liberty/">http://www.pbs.org/ktca/liberty/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_lir000-3_300k.mp4">http://traveler.vmi.edu/300k/pbs_lir000-3_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_lir000-3_800k.mp4">http://traveler.vmi.edu/800k/pbs_lir000-3_800k.mp4</a> High resolution video.<br><br> Trenton, Battle of, Trenton, N.J., 1776.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Liberty! The American Revolution. [Episode 4], Oh, fatal ambition! [electronic resource] / produced and directed by Ellen Hovde, Muffie Meyer writer, Ronald Blumer a production of KTCA-TV in association with Middlemarch Films. The "United" States were in need of funds and military support. Congress dispatched Benjamin Franklin to France in hopes of creating an alliance, but Louis XVI was reluctant without assurance of success. When the British army marched down the Hudson River and was crushed at Saratoga, the French entered the war on the American side.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/ktca/liberty/">http://www.pbs.org/ktca/liberty/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_lir000-4_300k.mp4">http://traveler.vmi.edu/300k/pbs_lir000-4_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_lir000-4_800k.mp4">http://traveler.vmi.edu/800k/pbs_lir000-4_800k.mp4</a> High resolution video.<br><br> Saratoga Campaign, N.Y., 1777.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Liberty! The American Revolution. [Episode 5], The world turned upside down [electronic resource] / produced and directed by Ellen Hovde, Muffie Meyer writer, Ronald Blumer a production of KTCA-TV in association with Middlemarch Films Twin Cities Public TV. The British hoped to gain support in the southern states by exploiting the contradictions posed by a nation fighting in the name of liberty while supporting slavery, but they failed. Washington's army and the French fleet converged at Yorktown, trapping a weary British army led by Lord Cornwallis. Two years later, the signing of the Treaty of Paris ended eight years of fighting.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/ktca/liberty/">http://www.pbs.org/ktca/liberty/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_lir000-5_300k.mp4">http://traveler.vmi.edu/300k/pbs_lir000-5_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_lir000-5_800k.mp4">http://traveler.vmi.edu/800k/pbs_lir000-5_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">Constitutional history -- United States.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Liberty! The American Revolution. [Episode 6], Are we to be a nation? [electronic resource] / produced and directed by Ellen Hovde, Muffie Meyer writer, Ronald Blumer a production of KTCA-TV in association with Middlemarch Films Twin Cities Public TV. The newly independent United States struggled with bankruptcy and individual states which like sovereign nations. A Constitutional Convention was convened in 1787 to revise the Articles of Confederation, but wrote a revolutionary constitution instead. The ratification process defined what sort of nation the U.S. was to be.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/ktca/liberty/">http://www.pbs.org/ktca/liberty/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_lir000-6_300k.mp4">http://traveler.vmi.edu/300k/pbs_lir000-6_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_lir000-6_800k.mp4">http://traveler.vmi.edu/800k/pbs_lir000-6_800k.mp4</a> High resolution video.<br><br> Constitutional history -- United States.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The life and times of Frida Kahlo [electronic resource] / a production of Daylight Films and WETA, Washington D.C. in association with Latino Public Broadcasting a film by Amy Stechler. Frida Kahlo was more than a great painter: her life and art reflected the maelstrom of the revolution and culture that defined the first half of the twentieth century. This film combines Kahlo's artwork with photos, archival films and interviews.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/weta/fridakahlo/">http://www.pbs.org/weta/fridakahlo/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_ltk101_300k.mp4">http://traveler.vmi.edu/300k/pbs_ltk101_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_ltk101_800k.mp4">http://traveler.vmi.edu/800k/pbs_ltk101_800k.mp4</a> High resolution video.<br><br> Painters -- Mexico -- Biography.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Life's greatest miracle [electronic resource] / a NOVA production by Erikson &amp; Nilsson Production in association with WGBH/Boston ... [et al.] medical photography, Lennart Nilsson produced, written by Julia Cort. The development of a child from conception to birth, using both microimagery and the story of a young couple preparing for their first child.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/nova/miracle/">http://www.pbs.org/wgbh/nova/miracle/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_noa2816_300k.mp4">http://traveler.vmi.edu/300k/pbs_noa2816_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_noa2816_800k.mp4">http://traveler.vmi.edu/800k/pbs_noa2816_800k.mp4</a> High resolution video.<br><br> Human reproduction.<br> Fetus -- Growth.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Life's little questions II [electronic resource] / Chedd-Angier presented by Connecticut Public Television produced in association with Scientific American magazine written, produced, and directed by Graham Chedd. Follow host Alan Alda as he uses science to try to find explanations to some of life's questions.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/saf/1105/index.html">http://www.pbs.org/saf/1105/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_saf032_300k.mp4">http://traveler.vmi.edu/300k/pbs_saf032_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_saf032_800k.mp4">http://traveler.vmi.edu/800k/pbs_saf032_800k.mp4</a> High resolution video.<br><br> Science.<br> Technology.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Life's really big questions [electronic resource] / Chedd/Angier presented by Connecticut Public Television in association with Scientific American Magazine written, produced, and directed by Graham Chedd, Andrew Liebman, John Angier. See how our hands set us free and play baseball, how an ancient telescope found an alien world, see a baby robot that may grow up without needing us, and learn why Noah's flood may have been a snowball. Hear the big questions that scientists are asking.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/saf/1103/index.html">http://www.pbs.org/saf/1103/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_saf033_300k.mp4">http://traveler.vmi.edu/300k/pbs_saf033_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_saf033_800k.mp4">http://traveler.vmi.edu/800k/pbs_saf033_800k.mp4</a> High resolution video.<br><br> Discoveries in science.<br> Evolution.<br> Biology.<br> Robots.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The long road to war [electronic resource] / a Frontline coproduction with Kirk Documentary Group, Ltd. WGBH Education Foundation WGBH Boston produced by Michael Kirk, Louis Wiley, Jr. Drawing on Frontline reports over the past 12 years, focuses on key moments in U.S.-Iraqi relations, including policy toward Iraq during the Iran-Iraq war in the 1980s, the origins of the 1991 Gulf War and its ragged end, the frustrated attempt to disarm Iraq in the 1990s, and the long-standing effort by Washington foreign-policy hawks to remove Saddam Hussein. Examines what has been learned during this period about the mind and methods of Saddam.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/pages/frontline/shows/longroad/">http://www.pbs.org/wgbh/pages/frontline/shows/longroad/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_frl2125_300k.mp4">http://traveler.vmi.edu/300k/pbs_frl2125_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_frl2125_800k.mp4">http://traveler.vmi.edu/800k/pbs_frl2125_800k.mp4</a> High resolution video.<br><br> War on Terrorism, 2001- Persian Gulf War, 1991 -- Iraq.<br> Disarmament -- On-site inspection -- Iraq.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Look what you've done! [electronic resource] : stories of hope and resilience / Greater Washington Educational Telecommunications Association, Inc. developed and presented by Robert Brooks executive producer, Noel Gunther produced by Joe Bruncsak directed by Joseph Camp. Dr. Brooks offers practical strategies for helping children develop the confidence and resilience they will need to succeed.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_lok000_300k.mp4">http://traveler.vmi.edu/300k/pbs_lok000_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_lok000_800k.mp4">http://traveler.vmi.edu/800k/pbs_lok000_800k.mp4</a> High resolution video .</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Learning disabled children. Social skills in children. Self-esteem. Learning disabilities. |Gates, Henry Louis. Los Angeles: [electronic resource] : black Hollywood / written and presented by Henry Louis Gates, Jr. directors, Daniel Percival and Mary Crisp. Does the unprecedented success of African-American actors at the last Oscars signal a genuine shift in the way race operates in the movie business? In the final episode, Gates asks whether Hollywood is institutionally racist or whether it is becoming increasingly color-blind in pursuit of the box office dollar. Interviewees include Chris Tucker, Samuel L. Jackson, Alicia Keys, Quincy Jones, Nia Long, Don Cheadle and John Singleton.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/previews/colorline_gates/">http://www.pbs.org/previews/colorline_gates/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_abl100-4_300k.mp4">http://traveler.vmi.edu/300k/pbs_abl100-4_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_abl100-4_800k.mp4">http://traveler.vmi.edu/800k/pbs_abl100-4_800k.mp4</a> High resolution video.<br><br> African Americans -- Social conditions -- 1975- African Americans -- Interviews.<br> Social classes -- United States.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Losing it [electronic resource] / written, produced and directed by John Angier produced by the Chedd/Angier Production Company, Inc. Follows a group of 12 persons for several months as they adopt different strategies for weight loss, ranging from online diet systems to gastric bypass surgery. Also looks at research that attempts to explain the body's complex weight-regulation systems, and to explain, among other things, why dieting is difficult.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/saf/1401/">http://www.pbs.org/saf/1401/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_saf034_300k.mp4">http://traveler.vmi.edu/300k/pbs_saf034_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_saf034_800k.mp4">http://traveler.vmi.edu/800k/pbs_saf034_800k.mp4</a> High resolution video.<br><br> Diet -- United States.<br> Food habits -- United States.<br> Weight gain -- United States.<br> Nutrition -- United States.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">A lynching in Marion [electronic resource] / producer, JoAnne Garrett director, Nolan Lehman Wisconsin Educational Communications Board and the Board of Regenets of the University of Wisconsin System [produced by] Wisconsin Public Television. In August, 1930, a 16 year-old African-American named James Cameron survived a lynching. Now, 65 years later, Cameron tells his compelling story in vivid detail.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_lym000_300k.mp4">http://traveler.vmi.edu/300k/pbs_lym000_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_lym000_800k.mp4">http://traveler.vmi.edu/800k/pbs_lym000_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">Lynching -- Indiana -- Marion.<br> African Americans -- Indiana -- Marion -- Biography.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">MacArthur. [Part 1], Destiny [electronic resource] / a production of WGBH Boston for the American Experience written, produced and directed by Austin Hoyt. No soldier has ever captured the American imagination like Douglas MacArthur. He led Americans into battle for a half-century, through glorious victories and soul-numbing defeats. Courageous and supremely egotistical, he battled anyone who dared question his military judgment, even the President of the United States.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/macarthur/index.html">http://www.pbs.org/wgbh/amex/macarthur/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx025-1_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx025-1_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx025-1_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx025-1_800k.mp4</a> High resolution video.<br><br> World War, 1939-1945 -- Campaigns -- Pacific Area.<br> Korean War, 1950-1953 -- Campaigns.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">MacArthur. [Part 2], The politics of war [electronic resource] / a production of WGBH Boston for the American Experience written, produced and directed by Austin Hoyt. No soldier has ever captured the American imagination like Douglas MacArthur. He led Americans into battle for a half-century, through glorious victories and soul-numbing defeats. Courageous and supremely egotistical, he battled anyone who dared question his military judgment, even the President of the United States.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/macarthur/index.html">http://www.pbs.org/wgbh/amex/macarthur/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx025-2_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx025-2_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx025-2_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx025-2_800k.mp4</a> High resolution video.<br><br> World War, 1939-1945 -- Campaigns -- Pacific Area.<br> Korean War, 1950-1953 -- Campaigns.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Make up your mind [electronic resource] / Chedd-Angier presented by Connecticut Public Television produced in association with Scientific American magazine written, produced, and directed by Graham Chedd. Scientists look to the brain's frontal lobe as the seat of personality.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/saf/1302/index.html">http://www.pbs.org/saf/1302/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_saf035_300k.mp4">http://traveler.vmi.edu/300k/pbs_saf035_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_saf035_800k.mp4">http://traveler.vmi.edu/800k/pbs_saf035_800k.mp4</a> High resolution video.<br><br> Brain mapping.<br> Phrenology.<br> Neurophysiology.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Marcus Garvey [electronic resource] : look for me in the whirlwind / produced and directed by Stanley Nelson written by Marcia Smith a Firelight/Half Nelson Productions film for American Experience WGBH Boston. Uses a wealth of archival film, photographs and documents to uncover the story of this Jamaican immigrant who between 1916 and 1921 built the largest black mass movement in world history.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/garvey/index.html">http://www.pbs.org/wgbh/amex/garvey/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx026_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx026_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx026_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx026_800k.mp4</a> High resolution video.<br><br> African Americans -- Biography. Intellectuals -- United States -- Biography.<br> Black nationalism -- United States -- History -- 20th century.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Mark Twain. [Part 1] [electronic resource] / a Florentine Films production directed by Ken Burns written by Dayton Duncan &amp; Geoffrey C. Ward produced by Dayton Duncan &amp; Ken Burns produced in association with WETA Washington, D.C. Traces Twain's meteoric rise from his humble birth in Florida, Missouri, to his prosperous 50th birthday in Hartford, Connecticut, when he was the nation's best-selling author. It follows young Sam Clemens to the small Mississippi River town of Hannibal, where he would store up a lifetime's worth of memories that would later populate his novels his glorious time as a riverboat pilot and his adventures in Nevada and California, where he failed as a prospector before finding his calling - and adopting his new pen name - as a reporter.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/marktwain/index.html">http://www.pbs.org/marktwain/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_mkw000-1_300k.mp4">http://traveler.vmi.edu/300k/pbs_mkw000-1_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_mkw000-1_800k.mp4">http://traveler.vmi.edu/800k/pbs_mkw000-1_800k.mp4</a> High resolution video.<br><br> Authors, American -- 19th century -- Biography.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Mark Twain. [Part 2] [electronic resource] / a Florentine Films production directed by Ken Burns written by Dayton Duncan &amp; Geoffrey C. Ward produced by Dayton Duncan &amp; Ken Burns produced in association with WETA Washington, D.C. Follows Clemens from his 50th birthday to his death at age 75, including material probably less well-known - but equally illuminating - about Twain's life: his lavish lifestyle in Hartford, where he tried to provide his wife and daughters with everything that had been missing from his own upbringing his financial assistance to a young African-American law student at Yale and his compulsive speculation in stocks and inventions that ultimately lead to bankruptcy, humiliation, and self-imposed exile in Europe.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/marktwain/index.html">http://www.pbs.org/marktwain/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_mkw000-2_300k.mp4">http://traveler.vmi.edu/300k/pbs_mkw000-2_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_mkw000-2_800k.mp4">http://traveler.vmi.edu/800k/pbs_mkw000-2_800k.mp4</a> High resolution video.<br><br> Authors, American -- 19th century -- Biography.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Martin Luther [electronic resource] / a Lion Television production in association with PBS and Devillier Donegan Enterprises written, produced and directed by Cassian Harrison. Martin Luther nailed his treatise to the doors of the Wittenberg Cathedral and forever changed the Christian world. This previously obscure German monk unleashed forces that would plunge Europe into war and chaos. He offered the Christian world a new vision of man's relationship with God and, in turn, redefined man's relationship with authority in general, bringing the collapse of the medieval world and the birth of the modern age.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/empires/martinluther/">http://www.pbs.org/empires/martinluther/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_mlt101_300k.mp4">http://traveler.vmi.edu/300k/pbs_mlt101_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_mlt101_800k.mp4">http://traveler.vmi.edu/800k/pbs_mlt101_800k.mp4</a> High resolution video.<br><br> Reformation -- Germany.<br> Monks -- Germany.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Mary Pickford [electronic resource] / an Ambrica Productions film for American Experience produced by Kathryn Dietz and Sue Williams written and directed by Sue Williams WGBH Educational Foundation WGBH, Boston. "Mary Pickford created a totally new way of acting that entranced audiences and left them spell-bound. She was also a creative producer and shrewd businessperson who played a pivotal role in shaping the first new media of the twentieth century. This powerful and moving production uses footage, stills, original audio interviews with Pickford and clips from her movies to tell a story that is full of joy and power, of loneliness and despair."</p> 
+       <p align="justify"></p> 
+       <p align="justify">Mode of access: Internet.</p> 
+       <p align="justify">Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/pickford/index.html">http://www.pbs.org/wgbh/amex/pickford/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx064_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx064_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx064_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx064_800k.mp4</a> High resolution video.<br><br> Motion picture actors and actresses -- United States -- Biography.<br> Motion pictures -- United States -- History -- 20th century.<br> Biographical television programs.<br> Biographical videos.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The Massie affair [electronic resource] / a HiddenHill Productions film for American Experience written, produced and directed by Mark Zwonitzer. In the early 20th century, the U.S. Navy dominated Hawaii. Most Americans thought of the islands as a Pacific paradise, but in 1931, a dark incident shattered the tranquil veneer of the islands and exposed growing racial tensions. The wife of a Navy lieutenant accused 5 local men of rape. One man was killed. In the trial that followed, celebrity attorney Clarence Darrow offered an impassioned defense on behalf of the husband, calling the murder an "honor killing."</p> 
+       <p align="justify"></p> 
+       <p align="justify">Mode of access: Internet.</p> 
+       <p align="justify">Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/massie/index.html">http://www.pbs.org/wgbh/amex/massie/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx068_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx068_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx068_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx068_800k.mp4</a> High resolution video.<br><br> Honor killings -- Hawaii.<br> Rape -- Investigation -- Hawaii.<br> Trials (Murder) -- Hawaii.<br> Lynching -- Hawaii.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The Medici, godfathers of Renaissance. [Part 1], Birth of a dynasty [electronic resource] / produced by Lion Television in association with PBS and Devillier Donegan Enterprises producer/director, Justin Hardy. A tale of one family's ambition and of Europe's struggle to emerge from the ravages of the Dark Ages. The Medici used charm, skill and ruthlessness to garner unparalleled wealth and power, ruling Europe for more than 300 years.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/empires/medici/">http://www.pbs.org/empires/medici/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_mer100-1_300k.mp4">http://traveler.vmi.edu/300k/pbs_mer100-1_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_mer100-1_800k.mp4">http://traveler.vmi.edu/800k/pbs_mer100-1_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The Medici, godfathers of Renaissance. [Part 2], Magnificent Medici [electronic resource] / produced by Lion Television in association with PBS and Devillier Donegan Enterprises producer/director, Justin Hardy. A tale of one family's ambition and of Europe's struggle to emerge from the ravages of the Dark Ages. The Medici used charm, skill and ruthlessness to garner unparalleled wealth and power, ruling Europe for more than 300 years.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/empires/medici/">http://www.pbs.org/empires/medici/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_mer100-2_300k.mp4">http://traveler.vmi.edu/300k/pbs_mer100-2_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_mer100-2_800k.mp4">http://traveler.vmi.edu/800k/pbs_mer100-2_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The Medici, godfathers of Renaissance. [Part 3], Medici Popes [electronic resource] / produced by Lion Television in association with PBS and Devillier Donegan Enterprises producer/director, Justin Hardy. A tale of one family's ambition and of Europe's struggle to emerge from the ravages of the Dark Ages. The Medici used charm, skill and ruthlessness to garner unparalleled wealth and power, ruling Europe for more than 300 years.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/empires/medici/">http://www.pbs.org/empires/medici/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_mer100-3_300k.mp4">http://traveler.vmi.edu/300k/pbs_mer100-3_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_mer100-3_800k.mp4">http://traveler.vmi.edu/800k/pbs_mer100-3_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The Medici, godfathers of Renaissance. [Part 4], Power vs. truth [electronic resource] / produced by Lion Television in association with PBS and Devillier Donegan Enterprises producer/director, Justin Hardy. A tale of one family's ambition and of Europe's struggle to emerge from the ravages of the Dark Ages. The Medici used charm, skill and ruthlessness to garner unparalleled wealth and power, ruling Europe for more than 300 years.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/emp0ires/medici/">http://www.pbs.org/empires/medici/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_mer100-4_300k.mp4">http://traveler.vmi.edu/300k/pbs_mer100-4_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_mer100-4_800k.mp4">http://traveler.vmi.edu/800k/pbs_mer100-4_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Mediterranean on the rocks [electronic resource] / written, produced, and directed by David Huntley, John Angier [produced by] Chedd-Angier presented by Connecticut Public Television produced in association with Scientific American magazine. Alan Alda travels to the Mediterranean Sea and investigates: how ancient peoples built papyrus boats why an invasive species of algae, Caulerpa taxifola, threatens the environmental health of the area how copper was made at a 2,500 year-old archaeological site in Cyprus how scientist track the finback whale and treat and release injured sea turtles back to the sea.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/saf/transcripts/transcript1004.htm">http://www.pbs.org/saf/transcripts/transcript1004.htm</a></p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_saf036_300k.mp4">http://traveler.vmi.edu/300k/pbs_saf036_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_saf036_800k.mp4">http://traveler.vmi.edu/800k/pbs_saf036_800k.mp4</a> High resolution video.<br><br> Science -- Mediterranean Sea -- Popular works.<br> Papyrus (The plant) Ships, Ancient -- Mediterranean Region.<br> Algae -- Control. Copper age -- Cyprus.<br> Sea turtles -- Mediterranean Sea.<br> Finback whale -- Mediterranean Sea.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Meltdown at Three Mile Island [electronic resource] / produced and written by Chana Gazit co-produced ... by David Steward a Steward/Gazit Productions, Inc. film for the American experience WGBH Educational Foundation. Discusses the events of March 28, 1979, when a reactor at the Three Mile Island nuclear power plant near Harrisburg, Pennsylvania, overheated. Employs news footage and first-person interviews in relating the efforts made to avoid a catastrophic meltdown.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/three/">http://www.pbs.org/wgbh/amex/three/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx027_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx027_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx027_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx027_800k.mp4</a> High resolution video.<br><br> Nuclear power plants -- Accidents -- Pennsylvania -- Harrisburg Region.<br> Nuclear power plants -- Accidents.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The merchants of cool [electronic resource] / produced by Barak Goodman, Rachel Dretzin directed by Barak Goodman written by Rachel Dretzin a Frontline co-production with 10/20 Productions, LLC WGBH Educational Foundation WGBH Boston. "Frontline journeys into the world of the marketers of popular culture to teenagers. They spend their days sifting through reams of market research data. They conduct endless surveys and focus groups. They comb the streets, the schools, and the malls, hot on the trail of the 'next big thing' that will snare the attention of their prey, a market segment worth an estimated 00 billion a year. They are the merchants of cool: the creators and sellers of popular culture, who have made teens the hottest consumer demographic in America."</p> 
+       <p align="justify"></p> 
+       <p align="justify">Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/pages/frontline/shows/cool/">http://www.pbs.org/wgbh/pages/frontline/shows/cool/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_frl1909_300k.mp4">http://traveler.vmi.edu/300k/pbs_frl1909_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_frl1909_800k.mp4">http://traveler.vmi.edu/800k/pbs_frl1909_800k.mp4</a> High resolution video.<br><br> Teenage consumers -- United States.<br> Advertising and youth -- United States.<br> Mass media and teenagers -- United States.<br> Marketing -- Moral and ethical aspects -- United States.<br> Marketing -- Social aspects -- United States.<br> Popular culture -- United States.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">A midwife's tale [electronic resource] / Blueberry Hill Productions directed by Richard P. Rogers written and produced by Laurie Kahn-Leavitt. From The American Experience, a dramatic and compelling exploration of the Pulitzer Prize-winning story of Martha Ballard, a midwife and mother in the wilds of Maine during the decades following the American Revolution. Her fascinating story is interwoven with the quest of a historian to uncover Ballard's world through her sparsely detailed diary.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/mwt/index.html">http://www.pbs.org/wgbh/amex/mwt/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx001_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx001_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx001_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx001_800k.mp4</a> High resolution video.<br><br> Midwives -- Maine -- Hallowell -- Biography.<br> Midwives -- Maine -- Augusta -- Biography.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Mill times [electronic resource] / with David Macaulay produced and directed by Larry Klein written by Mark Olshaker, Larry Klein WGBH Boston. Features a story that centers on a small New England community similar to Pawtucket, Rhode Island, where the first textile mill in America was established by Samuel Slater. The live action hosted by David Macaulay, takes us from Manchester, England, to Lowell, Massachusetts. Along the way, the host guides viewers through the technological changes that transformed the making of textiles, which became a key component of the Industrial Revolution that swept across Europe and America in the late 18th century.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_mit101_300k.mp4">http://traveler.vmi.edu/300k/pbs_mit101_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_mit101_800k.mp4">http://traveler.vmi.edu/800k/pbs_mit101_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">Industrial revolution.<br> Textile industry -- History.<br> Textile workers.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Mood indigo [electronic resource] : blacks and whites / an Anthony Potter production in association with Eastern Educational Television Network PBS producer, Frank J. De Meo written by Patrick Trese directed by Anthony Ross Potter, Frank J. De Meo. Newsreels reveal that the World War II American home front is as racially segregated as the Armed Forces. Although prejudice, discrimination and race riots plague the home front, black civilians continue to back the war effort, and black servicemen distinguish themselves overseas.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_awh109_300k.mp4">http://traveler.vmi.edu/300k/pbs_awh109_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_awh109_800k.mp4">http://traveler.vmi.edu/800k/pbs_awh109_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify">World War, 1939-1945 -- United States.<br> World War, 1939-1945 -- Social aspects -- United States.<br> Documentary films.<br> World War, 1939-1945 -- African Americans.<br> African American soldiers.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Mount Rushmore [electronic resource] / written and produced by Mark Zwonitzer a Hidden Hill Production, Inc. film for American Experience WGBH Boston. Chronicles the story of the massive public works project, which took place in the midst of an economic depression, and relates the story of dozens of ordinary Americans who suddenly found themselves suspended high on a cliff face with drills and hammers, and examines the hyperactive, temperamental Danish artist whose talent and determination propelled the project.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/rushmore/index.html">http://www.pbs.org/wgbh/amex/rushmore/index.html</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx028_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx028_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx028_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx028_800k.mp4</a> High resolution video.<br></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Mr. Sears' catalogue [electronic resource] / presented by WGBH/Boston, WNET/New York, and KCET/Los Angeles. Explores how the Sears catalogue, giving readers a sense of urban life and a vision of middle class splendors, reflected the changes of the time and became a symbol for the national ambitions and dreams of a sprawling country.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx056_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx056_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx056_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx056_800k.mp4</a> High resolution video.<br></p> 
+       <p align="justify"></p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">The murder of Emmett Till [electronic resource] / a Firelight Media Production for American Experience WGBH Educational Foundation a production of WGBH, Boston. The shameful, sadistic murder of 14-year-old Emmett Till, a black boy who whistled at a white woman in a Mississippi grocery store in 1955, was a powerful catalyst for the civil rights movement. Although Till's killers were apprehended, they were quickly acquitted by an all-white, all-male jury and proceeded to sell their story to a journalist, providing grisly details of the murder. Three months after Till's body was recovered, the Montgomery Bus Boycott began.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/wgbh/amex/till/index.htmlf">http://www.pbs.org/wgbh/amex/till/index.htmlf</a></p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_amx029_300k.mp4">http://traveler.vmi.edu/300k/pbs_amx029_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_amx029_800k.mp4">http://traveler.vmi.edu/800k/pbs_amx029_800k.mp4</a> High resolution video.<br><br> Lynching -- Mississippi -- History -- 20th century.<br> African Americans -- Crimes against -- Mississippi -- History -- 20th century.<br> Racism -- Mississippi -- History -- 20th century.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Mysteries of the deep [electronic resource] / produced by Chedd-Angier written, produced and directed by John Angier, David Huntley, Andrew Liebman. Scientist unlock secrets from the last frontier on Earth - the ocean's depths. The discoveries of intrepid explorer Bob Ballard change science, history and maybe our future.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify">More information on this video: <a href="http://www.pbs.org/saf/1305/">http://www.pbs.org/saf/1305/</a>&nbsp;</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_saf037_300k.mp4">http://traveler.vmi.edu/300k/pbs_saf037_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_saf037_800k.mp4">http://traveler.vmi.edu/800k/pbs_saf037_800k.mp4</a> High resolution video.<br><br> Underwater exploration.<br> Oceanography -- Research.</p> 
+       <div align="justify">
+        <hr> 
+       </div>
+       <p align="justify">Myths and the moundbuilders [electronic resource] / Public Broadcasting Associates written, produced and directed by Graham Chedd. This film explores the theories about the origins of the earthworks created by the Hopewell (300 B.C.-300 A.D.) and Mississippian (ca. 1200 A.D.) cultures.<br><br> Online video system requirements: QuickTime 7 player (or equivalent).</p> 
+       <p align="justify"><a href="http://traveler.vmi.edu/300k/pbs_ods207_300k.mp4">http://traveler.vmi.edu/300k/pbs_ods207_300k.mp4</a> Low resolution video.<br><a href="http://traveler.vmi.edu/800k/pbs_ods207_800k.mp4">http://traveler.vmi.edu/800k/pbs_ods207_800k.mp4</a> High resolution video.<br></p> 
+       <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="justify"><br> Mound-builders.</p> 
+       <p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px" align="justify">Hopewell culture.<br> Mississippian culture.<br> Indians of North America -- Antiquities.</p> 
+       <div align="justify">
+        <hr> 
+        <br>
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

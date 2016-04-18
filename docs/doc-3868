@@ -1,0 +1,583 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	Virginia Military Institute - Research Links
+</title>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=1972" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCDw8PFgIeB1Zpc2libGVoZGQCEw9kFgQCAQ8PFgIfCGdkZAIFD2QWAgIBD2QWAmYPZBYCZg8WAh8IZxYCAgEPDxYCHwIFJy91cGxvYWRlZEltYWdlcy9JbWFnZXMvSGVhZGVycy9pc3BzLmpwZ2RkZGxTHz5J3uwrnwAngw0TVzrCUB5ymosAPNOO4tEYUgAW"> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAR+RVvTfSovqvIDuBZyfoILnBk33wxtu2i+2fT2dMA1hJu2RGmitekZszaXPD+r8vWoLSOYNaUNMMHRWE36gW3ehoCCSlzOv5jIM667Hy7olyCQGTPN0YMdkZPfo5AR2d8="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl28_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl28$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl28_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl28$ddlSearchCatalogs" id="ctl00_ctl28_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl28$btnSearch" value="search" id="ctl00_ctl28_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+        <li><a href="/Content.aspx?id=10737430678" target="_self">International Studies &amp; Political Science</a></li>
+        <li><a href="/content.aspx?id=17223" target="_self">Degrees &amp; Programs</a></li>
+        <li><a href="http://vmi.catalog.acalog.com/preview_entity.php?catoid=15&amp;ent_oid=352&amp;returnto=448" target="_blank">Courses</a></li>
+        <li><a href="/Content.aspx?id=1896" target="_self">About</a></li>
+        <li><a href="/Content.aspx?id=10737432313" target="_self">Graduate Information</a></li>
+        <li><a href="/Content.aspx?id=1900" target="_self">Forms &amp; Policies</a></li>
+        <li><a href="/Content.aspx?id=1902" target="_self">International Studies Advising</a></li>
+        <li><a href="/Content.aspx?id=1968" target="_self">Awards</a></li>
+        <li class="selected"><strong><a href="/Content.aspx?id=1972" target="_self">Research Links</a></strong></li>
+        <li><a href="/Content.aspx?id=4294974229" target="_self">Faculty</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft1562"> 
+        <address>Mary Deyo<br> Administrative Assistant<br><br> P:&nbsp; (540) 464-7676<br> F:&nbsp; (540) 464-7763<br><br> Virginia Military Institute<br> 429 Scott Shipp Hall<br> Lexington, VA&nbsp; 24450<br><br><a href="mailto:InterStudies@vmi.edu">Contact INTS</a></address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/" title="">Home</a> &gt; <a target="_self" href="/Content.aspx?id=54" title="">Academics</a> &gt; <a target="_self" href="/content.aspx?id=64" title="">Areas of Study</a> &gt; <a target="_self" href="/content.aspx?id=76" title="">Social Science</a> &gt; <a target="_self" href="/content.aspx?id=98" title="">International Studies &amp; Political Science</a> &gt; Research Links</span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/isps.jpg" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Research Links</h1> 
+       <p><strong>United States Governmental Links</strong></p> 
+       <ul class="checklist"> 
+        <li><a target="_blank" href="http://www.whitehouse.gov/" title="The White House">The White House</a></li> 
+        <li><a target="_blank" href="http://www.senate.gov/" title="The US Senate">The US Senate</a></li> 
+        <li><a target="_blank" href="http://www.house.gov/" title="The US House of Representatives">The US House of Representatives</a></li> 
+        <li><a target="_blank" href="http://www.state.gov/" title="US Department of State">US Department of State</a></li> 
+        <li><a target="_blank" href="http://www.defense.gov/" title="US Department of Defense">US Department of Defense</a></li> 
+        <li><a target="_blank" href="http://www.justice.gov/" title="US Department of Justice">US Department of Justice</a></li> 
+        <li><a target="_blank" href="http://www.jcs.mil/" title="Joint Chiefs of Staff">Joint Chiefs of Staff</a> &nbsp;</li> 
+        <li><a target="_blank" href="http://travel.state.gov/" title="Bureau of Consular Affairs">Bureau of Consular Affairs</a></li> 
+        <li><a target="_blank" href="http://www.bis.doc.gov/" title="Bureau of Industry and Security">Bureau of Industry and Security</a></li> 
+        <li><a target="_blank" href="http://www.cdc.gov/" title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</a></li> 
+        <li><a target="_blank" href="http://www.darpa.mil/" title="Defense Advanced Research Projects Agency">Defense Advanced Research Projects Agency</a> &nbsp;</li> 
+        <li><a target="_blank" href="http://www.va.gov/" title="Department of Veteran Affairs">Department of Veteran Affairs</a></li> 
+        <li><a target="_blank" href="http://www.usdoj.gov/dea/index.htm" title="Drug Enforcement Administration">Drug Enforcement Administration</a></li> 
+        <li><a target="_blank" href="http://www.nasa.gov/" title="NASA">NASA</a></li> 
+        <li><a target="_blank" href="http://www.nro.gov/" title="National Reconnaissance Office">National Reconnaissance Office</a></li> 
+        <li><a target="_blank" href="http://www.nsf.gov/" title="National Science Foundation">National Science Foundation</a></li> 
+        <li><a target="_blank" href="http://www.usoge.gov/" title="Office of Government Ethics">Office of Government Ethics</a></li> 
+        <li><a target="_blank" href="http://www.whitehouse.gov/omb/" title="Office of Management and Budget">Office of Management and Budget</a></li> 
+        <li><a target="_blank" href="http://www.whitehousedrugpolicy.gov/" title="Office of National Drug Control Policy">Office of National Drug Control Policy</a></li> 
+        <li><a target="_blank" href="http://www.ostp.gov/" title="Office of Science and Technology Policy">Office of Science and Technology Policy</a></li> 
+        <li><a target="_blank" href="http://www.rnc.org/" title="Republican Party">Republican Party</a></li> 
+        <li><a target="_blank" href="http://www.supremecourtus.gov/" title="Supreme Court of the United States">Supreme Court of the United States</a></li> 
+        <li><a target="_blank" href="http://www.af.mil/" title="United States Air Force">United States Air Force</a></li> 
+        <li><a target="_blank" href="http://www.army.mil/" title="United States Army">United States Army</a></li> 
+        <li><a target="_blank" href="http://www.uscg.mil/" title="United States Coast Guard">United States Coast Guard</a></li> 
+        <li><a target="_blank" href="http://www.marines.mil/Pages/Default.aspx" title="United States Marines">United States Marines</a></li> 
+        <li><a target="_blank" href="http://www.navy.mil/swf/index.asp" title="United States Navy">United States Navy</a></li> 
+        <li><a target="_blank" href="http://www.usaid.gov/" title="US Agency for International Development">US Agency for International Development</a></li> 
+        <li><a target="_blank" href="http://www.usitc.gov/" title="United States Int'l Trade Commission">United States International Trade Commission</a></li> 
+       </ul> 
+       <p><strong>National Security/Intelligence/Defense Organizations and Institutes</strong></p> 
+       <ul class="checklist"> 
+        <li><a target="_blank" href="https://www.cia.gov/" title="Central Intelligence Agency">Central Intelligence Agency</a></li> 
+        <li><a target="_blank" href="http://www.dia.mil/" title="Defense Intelligence Agency">Defense Intelligence Agency</a> &nbsp;</li> 
+        <li><a target="_blank" href="http://www.understandingwar.org/" title="Institute for the Study of War">Institute for the Study of War</a></li> 
+        <li><a href="http://www.iwp.edu/" title="Institute of World Politics">Institute of World Politics</a></li> 
+        <li><a target="_blank" href="http://www.ict.org.il/" title="International Institute for Counter-terrorism">International Institute for Counter-terrorism</a></li> 
+        <li><a target="_blank" href="http://lanl.gov/science/centers/" title="Los Alamos National Laboratory">Los Alamos National Laboratory</a></li> 
+        <li><a target="_blank" href="http://www.ndu.edu/" title="National Defense University">National Defense University</a></li> 
+        <li><a target="_blank" href="http://www.nsa.gov/" title="National Security Agency">National Security Agency</a></li> 
+        <li><a target="_blank" href="http://www.whitehouse.gov/nsc/" title="National Security Council">National Security Council</a></li> 
+        <li><a target="_blank" href="http://www.whitehouse.gov/infocus/homeland/index.html" title="Office of Homeland Security">Office of Homeland Security</a> &nbsp;</li> 
+       </ul> 
+       <p><strong>Research Sources for Comparative Politics</strong></p> 
+       <ul class="checklist"> 
+        <li><a target="_blank" href="http://www.columbia.edu/cu/lweb/indiv/africa/cuvl/" title="African Studies - Columbia University">African Studies - Columbia University</a></li> 
+        <li><a target="_blank" href="http://vlib.org/AsianStudies" title="Asian Studies - Virtual Library">Asian Studies - Virtual Library</a></li> 
+        <li><a target="_blank" href="https://www.cia.gov/library/publications/the-world-factbook/" title="CIA World Factbook">CIA World Factbook</a> &nbsp;</li> 
+        <li><a target="_blank" href="http://www.imf.org/external/index.htm" title="International Monetary Fund">International Monetary Fund</a></li> 
+        <li><a target="_blank" href="http://www.psr.keele.ac.uk/area.htm" title="Keele Guide to Area Studies">Keele Guide to Area Studies</a></li> 
+        <li><a target="_blank" href="http://lanic.utexas.edu/las.html" title="Latin American Network Information Center">Latin American Network Information Center</a></li> 
+        <li><a target="_blank" href="http://www.columbia.edu/cu/lweb/indiv/mideast/cuvlm/" title="Middle East and Islamic Studies - Columbia University">Middle East and Islamic Studies - Columbia University</a> &nbsp;</li> 
+        <li><a target="_blank" href="http://www.worldbank.org/" title="World Bank">World Bank</a></li> 
+       </ul> 
+       <p><strong>Research Sources for International Relations</strong></p> 
+       <ul class="checklist"> 
+        <li><a target="_blank" href="http://www.correlatesofwar.org/" title="Correlates of War Project">Correlates of War Project</a></li> 
+        <li><a target="_blank" href="http://people.virginia.edu/~rjb3v/rjb.html" title="Foreign Affairs Online">Foreign Affairs Online</a></li> 
+        <li><a target="_blank" href="http://www.gallup.com/Home.aspx" title="Gallup Organization">Gallup Organization</a></li> 
+        <li><a target="_blank" href="http://www.watsoninstitute.org/infopeace/index2.cfm" title="InfoTechWarPeace - IT Post 9/11 - Brown University">InfoTechWarPeace - IT Post 9/11 - Brown University</a></li> 
+        <li><a target="_blank" href="http://www.incore.ulst.ac.uk/" title="INCORE: International Conflict Research">INCORE: International Conflict Research</a></li> 
+        <li><a target="_blank" href="http://www.icj-cij.org/" title="International Court of Justice">International Court of Justice</a></li> 
+        <li><a target="_blank" href="http://www.isn.ethz.ch/" title="International Relations and Security Network - Zurich">International Relations and Security Network - Zurich</a></li> 
+        <li><a target="_blank" href="http://www.columbia.edu/cu/lweb/indiv/lehman/guides/isc.html#INT" title="International Security Policy and Military Affairs - Columbia University">International Security Policy and Military Affairs - Columbia University</a></li> 
+        <li><a target="_blank" href="http://www.intute.ac.uk/socialsciences//" title="Intute: Social Sciences">Intute: Social Sciences</a></li> 
+        <li><a target="_blank" href="http://www.lib.umich.edu/govdocs/intl.html" title="IOs and related information - University of Michigan">IOs and related information - University of Michigan</a></li> 
+        <li><a target="_blank" href="http://www.jstor.org/" title="JSTOR">JSTOR</a></li> 
+        <li><a target="_blank" href="http://www.keele.ac.uk/depts/por/irbase.htm" title="Keele Guide to Transnational Issues on the Internet">Keele Guide to Transnational Issues on the Internet</a></li> 
+        <li><a target="_blank" href="http://people-press.org/" title="Pew Research Center for the People and the Press">Pew Research Center for the People and the Press</a></li> 
+        <li><a target="_blank" href="http://www2.etown.edu/vl/" title="WWW Virtual Library - International Affairs Resources">WWW Virtual Library - International Affairs Resources</a></li> 
+       </ul> 
+       <p><strong>International Organizations</strong></p> 
+       <ul class="checklist"> 
+        <li><a target="_blank" href="http://www.apec.org/" title="Asia-Pacific Economic Cooperation">Asia-Pacific Economic Cooperation</a></li> 
+        <li><a target="_blank" href="http://www.adb.org/" title="Asian Development Bank">Asian Development Bank</a></li> 
+        <li><a target="_blank" href="http://www.aladi.org/" title="Association for Latin American Integration">Association for Latin American Integration</a></li> 
+        <li><a target="_blank" href="http://www.aseansec.org/" title="Association of Southeast Asian Nations">Association of Southeast Asian Nations</a></li> 
+        <li><a target="_blank" href="http://www.cec.org/home/index.cfm?varlan=english" title="Commission for Environmental Cooperation (North American)">Commission for Environmental Cooperation (North American)</a></li> 
+        <li><a target="_blank" href="http://www.thecommonwealth.org/" title="Commonwealth Secretariat (British)">Commonwealth Secretariat (British)</a></li> 
+        <li><a target="_blank" href="http://www.cisstat.com/eng/site-map.htm" title="Commonwealth of Independent States">Commonwealth of Independent States</a></li> 
+        <li><a target="_blank" href="http://www.ctbto.org/" title="Comprehensive Nuclear Test Ban Treaty Organization">Comprehensive Nuclear Test Ban Treaty Organization</a>&nbsp;&nbsp;&nbsp; </li> 
+        <li><a target="_blank" href="http://www.ecb.int/home/html/index.en.html" title="European Central Bank">European Central Bank</a></li> 
+        <li><a target="_blank" href="http://europa.eu/index_en.htm" title="EU">EU</a></li> 
+        <li><a target="_blank" href="http://www.g7.utoronto.ca/" title="G8">G8</a></li> 
+        <li><a target="_blank" href="http://www.g77.org/" title="G77">G77</a></li> 
+        <li><a target="_blank" href="http://www.iadb.org/aboutus/" title="Inter-American Development Bank">Inter-American Development Bank</a></li> 
+        <li><a target="_blank" href="http://www.iaea.org/index.html" title="International Atomic Energy Agency">International Atomic Energy Agency</a></li> 
+        <li><a target="_blank" href="http://www.interpol.int/" title="INTERPOL">INTERPOL</a>&nbsp;&nbsp; </li> 
+        <li><a target="_blank" href="http://www.ipu.org/english/home.htm" title="Inter-Parliamentary Union">Inter-Parliamentary Union</a></li> 
+        <li><a target="_blank" href="http://www.isdb.org/irj/portal/anonymous" title="Islamic Development Bank">Islamic Development Bank</a></li> 
+        <li><a target="_blank" href="http://www.arableagueonline.org/las/index.jsp" title="League of Arab States">League of Arab States</a></li> 
+        <li><a target="_blank" href="http://www.nafta-sec-us.org/" title="NAFTA Secretariat">NAFTA Secretariat</a></li> 
+        <li><a target="_blank" href="http://www.nato.int/home.htm" title="NATO">NATO</a></li> 
+        <li><a target="_blank" href="http://www.oecd.org/home/0,3305,en_2649_201185_1_1_1_1_1,00.html" title="Organization for Economic Cooperation and Development (OECD)">Organization for Economic Cooperation and Development (OECD)</a></li> 
+        <li><a target="_blank" href="http://www.osce.org/" title="Organization for Security and Cooperation in Europe (OSCE)">Organization for Security and Cooperation in Europe (OSCE)</a></li> 
+        <li><a target="_blank" href="http://www.oas.org/" title="Organization of American States">Organization of American States</a></li> 
+        <li><a target="_blank" href="http://www.oapecorg.org/" title="Organization of Arab Petroleum Exporting Countries">Organization of Arab Petroleum Exporting Countries</a></li> 
+        <li><a target="_blank" href="http://www.opec.org/opec_web/en/" title="Organization of Petroleum Exporting Countries (OPEC)">Organization of Petroleum Exporting Countries (OPEC)</a></li> 
+        <li><a target="_blank" href="http://www.clubdeparis.org/sections/services/plan-du-site" title="Paris Club">Paris Club</a></li> 
+        <li><a target="_blank" href="http://www.southcentre.org/" title="South Centre (Intergovernmental Policy Think Tank for Developing Countries)">South Centre (Intergovernmental Policy Think Tank for Developing Countries)</a></li> 
+        <li><a target="_blank" href="http://www.un.org/english/" title="United Nations (UN)">United Nations (UN)</a></li> 
+        <li><a target="_blank" href="http://www.undp.org/" title="UN Development Program">UN Development Program</a></li> 
+        <li><a target="_blank" href="http://portal.unesco.org/en/ev.php-URL_ID=29008&amp;URL_DO=DO_TOPIC&amp;URL_SECTION=201.html" title="UN Educational, Scientific and Cultural Organization (UNESCO)">UN Educational, Scientific and Cultural Organization (UNESCO)</a></li> 
+        <li><a target="_blank" href="/UN%20High%20Commission%20for%20Refugees%20(UNHCR)" title="UN High Commission for Refugees (UNHCR)">UN High Commission for Refugees (UNHCR)</a></li> 
+        <li><a target="_blank" href="http://www.unfpa.org/" title="UN Population Fund">UN Population Fund</a></li> 
+        <li><a target="_blank" href="http://www.unrisd.org/index.htm" title="UN Research Institute for Social Development">UN Research Institute for Social Development</a></li> 
+        <li><a target="_blank" href="http://www.worldbank.org/" title="World Bank">World Bank</a></li> 
+        <li><a target="_blank" href="http://www.who.int/en/" title="World Health Organization (WHO)">World Health Organization (WHO)</a></li> 
+        <li><a target="_blank" href="http://www.wto.org/" title="World Trade Organization (WTO)">World Trade Organization (WTO)</a></li> 
+       </ul> 
+       <p><strong>Think Tanks and Non-Governmental Organizations</strong>&nbsp;&nbsp; </p> 
+       <ul class="checklist"> 
+        <li><a target="_blank" href="http://www.afpc.org/" title="American Foreign Policy Council">American Foreign Policy Council</a></li> 
+        <li><a target="_blank" href="http://www.amnesty.org/" title="Amnesty International">Amnesty International</a></li> 
+        <li><a target="_blank" href="http://www.atlantic-community.org/" title="Atlantic Community">Atlantic Community</a></li> 
+        <li><a href="http://www.acus.org/" title="Atlantic Council of the United States">Atlantic Council of the United States</a></li> 
+        <li><a href="http://www.brookings.edu/" title="Brookings Institution">Brookings Institution</a></li> 
+        <li><a target="_blank" href="http://www.cceia.org/index.html" title="Carnegie Council for Ethics in International Affairs">Carnegie Council for Ethics in International Affairs</a></li> 
+        <li><a href="http://www.carnegieendowment.org/" title="Carnegie Endowment for International Peace">Carnegie Endowment for International Peace</a></li> 
+        <li><a href="http://www.cartercenter.org/homepage.html" title="The Carter Center">The Carter Center</a></li> 
+        <li><a href="http://www.cato.org/" title="Cato Institute">Cato Institute</a></li> 
+        <li><a target="_blank" href="http://www.centerinternationalrelations.org/cir/index.html" title="Center for International Relations">Center for International Relations</a></li> 
+        <li><a target="_blank" href="http://www.csis.org/" title="Center for Strategic and International Studies">Center for Strategic and International Studies</a></li> 
+        <li><a target="_blank" href="http://www.chathamhouse.org.uk/" title="Chatham House">Chatham House</a></li> 
+        <li><a target="_blank" href="http://www.cfr.org/" title="Council on Foreign Relations">Council on Foreign Relations</a></li> 
+        <li><a target="_blank" href="http://www.fpif.org/" title="Foreign Policy in Focus">Foreign Policy in Focus</a></li> 
+        <li><a target="_blank" href="http://www.fpri.org/" title="Foreign Policy Research Institute">Foreign Policy Research Institute</a></li> 
+        <li><a target="_blank" href="http://www.forumfed.org/en/index.php" title="Forum on Federations">Forum of Federations</a></li> 
+        <li><a target="_blank" href="http://www.freedomhouse.org/template.cfm?page=1" title="Freedom House">Freedom House</a></li> 
+        <li><a target="_blank" href="http://www.heritage.org/" title="Heritage Foundation">Heritage Foundation</a></li> 
+        <li><a target="_blank" href="http://www.hoover.org/" title="Hoover Institution">Hoover Institution</a></li> 
+        <li><a target="_blank" href="http://www.hrw.org/" title="Human Rights Watch">Human Rights Watch</a></li> 
+        <li><a target="_blank" href="http://www.crisisgroup.org/home/index.cfm" title="International Crisis Group">International Crisis Group</a>&nbsp; </li> 
+        <li><a target="_blank" href="http://www.jamestown.org/" title="Jamestown Foundation">Jamestown Foundation</a></li> 
+        <li><a target="_blank" href="http://www.ndi.org/" title="National Democratic Institute for International Affairs">National Democratic Institute for International Affairs</a></li> 
+        <li><a target="_blank" href="http://www.ned.org/" title="National Endowment for Democracy">National Endowment for Democracy</a></li> 
+        <li><a target="_blank" href="http://www.peacecorps.gov/" title="Peace Corps">Peace Corps</a></li> 
+        <li><a target="_blank" href="http://www.rand.org/" title="RAND Corporation">RAND Corporation</a></li> 
+        <li><a target="_blank" href="http://www.russellsage.org/" title="Russell Sage Foundation">Russell Sage Foundation</a></li> 
+        <li><a target="_blank" href="http://www.terrorfreetomorrow.org/" title="Terror Free Tomorrow">Terror Free Tomorrow</a></li> 
+        <li><a target="_blank" href="http://www.transparency.org/" title="Transparency International">Transparency International</a></li> 
+        <li><a target="_blank" href="http://www.usip.org/" title="United States Institute of Peace">United States Institute of Peace</a></li> 
+        <li><a target="_blank" href="http://wws.princeton.edu/" title="Woodrow Wilson School of Public and International Affairs (Princeton)">Woodrow Wilson School of Public and International Affairs (Princeton)</a></li> 
+        <li><a target="_blank" href="http://worldpolicy.org/" title="World Policy Institute">World Policy Institute</a></li> 
+       </ul> 
+       <p><strong>Mass Media Sources</strong></p> 
+       <ul class="checklist"> 
+        <li><a target="_blank" href="http://english.aljazeera.net/" title="Al Jazeera English">Al Jazeera English</a></li> 
+        <li><a target="_blank" href="http://www.theatlantic.com/" title="Atlantic Monthly">Atlantic Monthly</a></li> 
+        <li><a target="_blank" href="http://abcnews.go.com/" title="ABC">ABC</a></li> 
+        <li><a target="_blank" href="http://news.bbc.co.uk/" title="BBC">BBC</a></li> 
+        <li><a target="_blank" href="http://www.cbsnews.com/" title="CBS">CBS</a></li> 
+        <li><a target="_blank" href="http://www.cnn.com/" title="CNN">CNN</a></li> 
+        <li><a href="http://www.csmonitor.com/" title="Christian Science Monitor">Christian Science Monitor</a></li> 
+        <li><a target="_blank" href="http://www.economist.com/index.html" title="Economist">Economist</a></li> 
+        <li><a target="_blank" href="http://www.foxnews.com/" title="Fox">Fox</a></li> 
+        <li><a target="_blank" href="http://www.msnbc.msn.com/id/3032619/" title="NBC">NBC</a></li> 
+        <li><a target="_blank" href="http://www.npr.org/" title="National Public Radio">National Public Radio</a></li> 
+        <li><a target="_blank" href="http://www.nytimes.com/" title="New York Times">New York Times</a></li> 
+        <li><a target="_blank" href="http://www.pbs.org/" title="Public Broadcasting Service">Public Broadcasting Service</a></li> 
+        <li><a target="_blank" href="http://www.pri.org/" title="Public Radio International">Public Radio International</a></li> 
+        <li><a target="_blank" href="http://www.rferl.org/" title="Radio Free Europe/Radio Liberty">Radio Free Europe/Radio Liberty</a></li> 
+        <li><a target="_blank" href="http://www.voanews.com/english/portal.cfm" title="Voice of America">Voice of America</a></li> 
+        <li><a target="_blank" href="http://online.wsj.com/public/us" title="Wall Street Journal">Wall Street Journal</a></li> 
+        <li><a target="_blank" href="http://www.washingtonpost.com/" title="Washington Post">Washington Post</a></li> 
+        <li><a target="_blank" href="http://www.washingtontimes.com/" title="Washington Times">Washington Times</a></li> 
+       </ul> 
+       <p><strong>Academic Associations and Information Sites</strong></p> 
+       <ul class="checklist"> 
+        <li><a target="_blank" href="http://www.africanstudies.org/" title="African Studies Association">African Studies Association</a></li> 
+        <li><a target="_blank" href="http://www.fas.harvard.edu/~aaass/" title="American Association for the Advancement of Slavic Studies">American Association for the Advancement of Slavic Studies</a></li> 
+        <li><a target="_blank" href="http://www.apsanet.org/" title="American Political Science Association">American Political Science Association</a></li> 
+        <li><a target="_blank" href="http://www.aasianst.org/" title="Association for Asian Studies">Association for Asian Studies</a> &nbsp;</li> 
+        <li><a target="_blank" href="http://chronicle.com/" title="The Chronicle of Higher Education">The Chronicle of Higher Education</a></li> 
+        <li><a target="_blank" href="http://www.eustudies.org/" title="European Union Studies Association">European Union Studies Association</a></li> 
+        <li><a target="_blank" href="http://www.fpa.org/" title="Foreign Policy Association">Foreign Policy Association</a></li> 
+        <li><a target="_blank" href="http://www.h-net.org/" title="H-Net: Humanities and Social Sciences Online">H-Net: Humanities and Social Sciences Online</a></li> 
+        <li><a target="_blank" href="http://www.ipsa.org/site/" title="International Political Science Association">International Political Science Association</a></li> 
+        <li><a target="_blank" href="http://www.strategicstudies.org/" title="International Strategic Studies Association">International Strategic Studies Association</a></li> 
+        <li><a target="_blank" href="http://www.isanet.org/" title="International Studies Association">International Studies Association</a></li> 
+        <li><a target="_blank" href="http://lasa.international.pitt.edu/" title="Latin American Studies Association">Latin American Studies Association</a>&nbsp;&nbsp; </li> 
+        <li><a target="_blank" href="http://www.nepsanet.org/" title="New England Political Science Association">New England Political Science Association</a></li> 
+        <li><a target="_blank" href="http://www.spsa.net/" title="Southern Political Science Association">Southern Political Science Association</a></li> 
+        <li><a target="_blank" href="http://www.csus.edu/ORG/WPSA/" title="Western Political Science Association">Western Political Science Association</a></li> 
+       </ul> 
+       <p><strong>Career/Job Sources in World Affairs</strong></p> 
+       <ul class="checklist"> 
+        <li><a target="_blank" href="http://net-savvy.com/international/careers-in-international-affairs.html" title="Careers in International Affairs">Careers in International Affairs</a></li> 
+        <li><a target="_blank" href="http://www.devnetjobs.org/" title="DevNetJobs - International Developments Jobs Across the Globe">DevNetJobs - International Developments Jobs Across the Globe</a></li> 
+        <li><a target="_blank" href="http://www.intlcareers.org/" title="International Careers Consortium">International Careers Consortium</a></li> 
+        <li><a target="_blank" href="http://www.jobsabroad.com/search.cfm" title="JobsAbroad">JobsAbroad</a></li> 
+        <li><a target="_blank" href="http://www.usajobs.gov/" title="USAJobs - Federal Government Official Jobs site">USAJobs - Federal Government Official Jobs site</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

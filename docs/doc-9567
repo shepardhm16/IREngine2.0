@@ -1,0 +1,910 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <link href="../../App_Themes/Default/Colors.css" type="text/css" rel="stylesheet">
+  <link href="../../App_Themes/Default/Controls/Controls.css" type="text/css" rel="stylesheet">
+  <link href="../../App_Themes/Default/Controls/Icons.css" type="text/css" rel="stylesheet">
+  <link href="../../App_Themes/Default/MasterPages.css" type="text/css" rel="stylesheet">
+  <link href="../../App_Themes/Default/Pages.css" type="text/css" rel="stylesheet">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+  <title>
+	Desktop Authority Password Self-Service
+</title>
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon"> 
+  <!--[if lt IE 7]>
+		<style type="text/css">
+			.png, 
+			.behavior-png 
+			{ 
+				behavior: url(/DAPSS/App_Library/JavaScript/behaviors/pngbehavior/pngbehavior.htc); 
+			}			
+			.top-right 
+            { 
+	            right:-1px;
+	        }
+            .bottom-right 
+            { 
+	            right:-1px;
+	        }
+		</style>
+	<![endif]--> 
+  <noscript> 
+   <style type="text/css">
+				.browserWarningPanel
+				{
+					display: block;
+				}
+			</style> 
+  </noscript> 
+ </head> 
+ <body id="ctl00_ctl00_ctl00_ctl00_Body" class="master master-base-main master-page-home"> 
+  <div class="body"> 
+   <form name="aspnetForm" method="post" action="index.aspx" id="aspnetForm" enctype="multipart/form-data" autocomplate="off"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMTQ4MTUzODkzZGSZY21Fll+NO/jb/8F33dj/TrgmEA=="> 
+    <script src="/DAPSS/ScriptResource.axd?d=7LxzDLZ-fo_yEU3FTqz-VObH9tBr4hm2ME2id6jHC-KEtng2Xvh6kgURQSY7JUr0fs-b3kXOY1OcqGXrV9jw3Nku-nYi85_JN08QHQEkZj4xWyb7zMSIKDgTRgAUfLsFzL56oJgFxZh3XwmO1SckmQmrkog1&amp;t=2e2045e2" type="text/javascript"></script> 
+    <script src="../../App_Library/Javascript/QPM.js" type="text/javascript"></script> 
+    <script src="../../App_Library/Javascript/QPM.Web.js" type="text/javascript"></script> 
+    <script src="../../App_Library/Javascript/QPM.Web.UI.js" type="text/javascript"></script> 
+    <script src="../../App_Library/Javascript/QPM.Web.UI.Controls.js" type="text/javascript"></script> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3FBADEBF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWFwKMgI3FBAKHt5b7CwLttPL5BwK/uIa2DgKfufquCQLxvYKVBwK1vJbtDQKwvPL3DQLets7GBgLUtt7aBgKHt+KTDgLrvaqCBAKquvbdAQKYuIqfBwKawZm1AwLogOSXCQKil/+LDQKi6OO0BALCss0NAuXokt0HAqOv0W4CpbH27QQC5ujQB0TtRcmNsKVj2N0FD+3oJf/iqUSX"> 
+    <script type="text/javascript">
+				<!--
+				
+				var ForceShowPleaseWait = false;
+				var DontShowPleaseWait = false;
+				
+				var CookiesManager = new QPM.Web.CookiesManager("/DAPSS/User/", "4/15/2066 1:18:28 AM");
+				
+				var SiteManager = new QPM.Web.SiteManager("User", "en-US", CookiesManager);
+				
+				function openPopupWindow(url, name, width, height, options)
+				{
+					var winl = (screen.width - width) / 2;
+					var wint = (screen.height - height) / 2;
+
+					var optionsString = "center=yes, directories=no, personalbar=no, location=no, menubar=no, resizable=no, status=no, toolbar=no, dependent=yes, width=" + width + ", height=" + height + ", top=" + wint + ", left=" + winl;
+				
+					optionsString += ((typeof(options) != "undefined") ? "," + options : ""); 
+
+					var wnd = window.open(url, name, optionsString);
+					
+					if (!wnd)
+					{
+					 alert("Pop-up windows may be blocked. Check your browser settings and try again.");	
+					 return;
+					}		
+					
+					wnd.focus();
+				}
+				-->
+			</script> 
+    <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PanelPopup" class="hide"> 
+     <div id="panelPopupContent" class="contentPleaseWait"> 
+      <div id="PanelPopup_panel" class="body body-pleasewait"> 
+      </div> 
+      <div id="PanelPopup_content" style="width: 500px; position: absolute; z-index: 500;"> 
+      </div> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+						<!--
+						var ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PanelPopup = new QPM.Web.UI.Controls.Panel('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PanelPopup', 'null', true, 'null');
+						-->
+					</script> 
+    <script type="text/javascript">
+				<!--
+					var panelPopupContent = new QPM.Web.UI.Controls.WarningPanel("panelPopupContent", "PanelPopup_panel", "PanelPopup_content");
+					var PanelPopup = ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PanelPopup;
+				-->
+			</script> 
+    <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PleaseWait" class="hide contentPleaseWait"> 
+     <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PleaseWait_content" class="progressbar"></div> 
+     <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PleaseWait_panel" class="body body-pleasewait"> 
+     </div> 
+    </div> 
+    <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PleaseWaitAjax" class="pleaseWaitAjax hide"> 
+     <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PleaseWaitAjax_content" class="pleaseWaitAjax--image"> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+	<!--
+	var PleaseWait = new QPM.Web.UI.Controls.WarningPanel("ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PleaseWait", "ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PleaseWait_panel", "ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PleaseWait_content");
+	PleaseWait.show();
+	
+	
+ var PleaseWaitAjax = new QPM.Web.UI.Controls.WarningPanel("ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PleaseWaitAjax", null, "ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_PleaseWaitAjax_content");	
+	-->
+</script> 
+    <div id="_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage"> 
+     <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguageControlPanel"> 
+      <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel" class="hide contentWarning"> 
+       <div id="block--content--line--warning"> 
+        <div id="bodyWarning" class="body body-warning"> 
+         <div class="contentWarning"> 
+          <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_MessagePanel"> 
+           <div class="contentWarning--messageArea"> 
+            <div class="bodyLine--content"> 
+             <div class="content"> 
+              <h3>Select your preferred language.</h3> 
+              <span id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList"><span auto_id="LanguageRadioButtonList_en-US"><input id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_0" type="radio" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$LanguageRadioButtonList" value="en-US" checked><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_0">English (English)</label></span><br><span auto_id="LanguageRadioButtonList_fr-FR"><input id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_1" type="radio" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$LanguageRadioButtonList" value="fr-FR"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_1">Français (French)</label></span><br><span auto_id="LanguageRadioButtonList_ja-JP"><input id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_2" type="radio" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$LanguageRadioButtonList" value="ja-JP"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_2">日本語 (Japanese)</label></span><br><span auto_id="LanguageRadioButtonList_nl-NL"><input id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_3" type="radio" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$LanguageRadioButtonList" value="nl-NL"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_3">Nederlands, Nederland (Dutch, Netherlands)</label></span><br><span auto_id="LanguageRadioButtonList_pt-PT"><input id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_4" type="radio" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$LanguageRadioButtonList" value="pt-PT"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_4">Português, Portugal (Portuguese, Portugal)</label></span><br><span auto_id="LanguageRadioButtonList_zh-CN"><input id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_5" type="radio" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$LanguageRadioButtonList" value="zh-CN"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_5">简体中文 (Simplified Chinese)</label></span><br><span auto_id="LanguageRadioButtonList_zh-HK"><input id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_6" type="radio" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$LanguageRadioButtonList" value="zh-HK"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_6">繁體中文 (Traditional Chinese)</label></span><br><span auto_id="LanguageRadioButtonList_da-DK"><input id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_7" type="radio" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$LanguageRadioButtonList" value="da-DK"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_7">Dansk (Danish)</label></span><br><span auto_id="LanguageRadioButtonList_de-DE"><input id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_8" type="radio" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$LanguageRadioButtonList" value="de-DE"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_8">Deutsch (German)</label></span><br><span auto_id="LanguageRadioButtonList_es-ES"><input id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_9" type="radio" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$LanguageRadioButtonList" value="es-ES"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_9">Español (Spanish)</label></span><br><span auto_id="LanguageRadioButtonList_pt-BR"><input id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_10" type="radio" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$LanguageRadioButtonList" value="pt-BR"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_10">Português (Brasil) (Portuguese, Brazilian)</label></span><br><span auto_id="LanguageRadioButtonList_ru-RU"><input id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_11" type="radio" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$LanguageRadioButtonList" value="ru-RU"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_11">Русский (Russian)</label></span><br><span auto_id="LanguageRadioButtonList_ko-KR"><input id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_12" type="radio" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$LanguageRadioButtonList" value="ko-KR"><label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList_12">한국어 (Korean)</label></span></span> 
+              <div class="br"></div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ButtonsPanel"> 
+           <div class="contentWarning--buttonArea"> 
+            <div class="bodyLine--content"> 
+             <div class="content"> 
+              <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00"> 
+               <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_ButtonPlaceHolderControlPanel" class="buttonPlaceHolder"> 
+                <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_LeftPanel" class="leftPanel"> 
+                 <table id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_TableLeft" border="0"> 
+                  <tbody>
+                   <tr> 
+                    <td> 
+                     <div id="Control_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageSelectButton" class="enable  text-color-control button button-text"> 
+                      <div class="button  text-color-control button button-text"> 
+                       <table cellpadding="0" cellspacing="0" id="_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageSelectButton"> 
+                        <tbody>
+                         <tr> 
+                          <td> 
+                           <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageSelectButton_LeftPanel" class="button-e button-e-left"></div> </td> 
+                          <td class="center-cell"> 
+                           <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageSelectButton_CenterPanel" class="button-e button-e-center"> 
+                            <div class="button-content"> 
+                             <input type="submit" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$ctl00$SelectLanguageSelectButton" value="Save" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageSelectButton" class=" text-color-control button button-text" auto_id="SelectLanguageSelectButton"> 
+                            </div> 
+                           </div> </td> 
+                          <td> 
+                           <div class="button-e button-e-right"></div> </td> 
+                         </tr> 
+                        </tbody>
+                       </table> 
+                      </div> 
+                     </div> <script type="text/javascript">
+				<!--
+				
+					$addHandler($get('_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageSelectButton'), 'click', function(e) 
+					{ 
+						if (e.target.id != 'ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageSelectButton')
+						{
+							if (SelectLanguageSelectButton.isEnable())
+							{
+								$get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageSelectButton').click();
+							}
+						}
+					});
+						var SelectLanguageSelectButton = new QPM.Web.UI.Controls.Button('Control_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageSelectButton', 'ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageSelectButton', '');
+					-->
+				</script> </td>
+                    <td class="button-hspace"></td>
+                    <td> 
+                     <div id="Control_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageCloseButton" class="enable  text-color-control button button-text"> 
+                      <div class="button  text-color-control button button-text"> 
+                       <table cellpadding="0" cellspacing="0" id="_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageCloseButton"> 
+                        <tbody>
+                         <tr> 
+                          <td> 
+                           <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageCloseButton_LeftPanel" class="button-e button-e-left"></div> </td> 
+                          <td class="center-cell"> 
+                           <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageCloseButton_CenterPanel" class="button-e button-e-center"> 
+                            <div class="button-content"> 
+                             <input type="submit" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlSelectLanguage$SelectLanguagePanel$ctl00$SelectLanguageCloseButton" value="Cancel" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageCloseButton" class=" text-color-control button button-text" auto_id="SelectLanguageCloseButton"> 
+                            </div> 
+                           </div> </td> 
+                          <td> 
+                           <div class="button-e button-e-right"></div> </td> 
+                         </tr> 
+                        </tbody>
+                       </table> 
+                      </div> 
+                     </div> <script type="text/javascript">
+				<!--
+				
+					$addHandler($get('_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageCloseButton'), 'click', function(e) 
+					{ 
+						if (e.target.id != 'ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageCloseButton')
+						{
+							if (SelectLanguageCloseButton.isEnable())
+							{
+								$get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageCloseButton').click();
+							}
+						}
+					});
+						var SelectLanguageCloseButton = new QPM.Web.UI.Controls.Button('Control_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageCloseButton', 'ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageCloseButton', '');
+					-->
+				</script> </td> 
+                   </tr> 
+                  </tbody>
+                 </table> 
+                </div> 
+                <div class="br"></div> 
+               </div> 
+              </div> 
+              <div class="br"></div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <script type="text/javascript">
+	var SelectLanguagePanel = new QPM.Web.UI.Controls.WarningPanel("ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel");
+</script> 
+     </div> 
+     <script type="text/javascript">
+					<!--
+					$addHandler($get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguageControlPanel'), 'keydown', function (e) {
+						if (e.keyCode != Sys.UI.Key.enter) return;
+						e.preventDefault();
+						$get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_ctl00_SelectLanguageSelectButton').click();
+					});
+					-->
+				</script> 
+     <script type="text/javascript">
+						<!--
+						var ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguageControlPanel = new QPM.Web.UI.Controls.Panel('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguageControlPanel', 'null', true, 'null');
+						-->
+					</script> 
+    </div> 
+    <script type="text/javascript">
+	var LanguageRadioButtonList = new QPM.Web.UI.Controls.RadioButtonList('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlSelectLanguage_SelectLanguagePanel_LanguageRadioButtonList');
+
+	SelectLanguageSelectButton.attachOnClickEvent(function(e) {
+	    if (LanguageRadioButtonList.selectedValue() == 'en-US') {
+	        SelectLanguagePanel.hide();
+	        e.preventDefault();
+	        return;
+	    }
+
+	    SelectLanguagePanel.hide(true);
+	    PleaseWait.show();
+	});
+	
+	SelectLanguageCloseButton.attachOnClickEvent(function(e)
+	{
+		SelectLanguagePanel.hide();
+		e.preventDefault();
+	});	
+		
+	// Close select language panel on 'Esc' key pressing
+	//
+	$addHandler(document, "keypress", function(e) 
+	{
+		if (SelectLanguagePanel.isShow())
+		{
+			var keyCode = e.keyCode ? e.keyCode: e.charCode;
+			if (keyCode == 27)
+			{
+				SelectLanguagePanel.hide();
+			}
+		}
+	});	
+</script> 
+    <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel" class="hide browserWarningPanel contentWarning"> 
+     <div id="block--content--line--warning"> 
+      <div id="bodyWarning" class="body body-warning"> 
+       <div class="contentWarning"> 
+        <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_MessagePanel"> 
+         <div class="contentWarning--messageArea"> 
+          <div class="bodyLine--content"> 
+           <div class="content"> 
+            <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ImagePanel"> 
+             <div class="icon icon-32 icon-32-warning png" style="padding-right: 10px;"></div> 
+            </div> 
+            <h3>Your browser or some settings do not meet the requirements of Password Self-Service.</h3> 
+            <span>Ensure that your browser identity and the browser settings comply with the following requirements:</span> 
+            <ul> 
+             <li id="requirementBrowserSpoofing" style="display: none;"> <span>Browser must be configured to show its true identity.</span> </li> 
+             <li id="requirementCategoryBrowser" style="display:none;"> <span>Supported browsers:</span> 
+              <ul>
+                Microsoft Internet Explorer 6.0, 
+               <br>Windows Internet Explorer 6.0, 7.0 or 8.0, 
+               <br>Mozilla FireFox 1.5, 2.0 or 3.0, 
+               <br>Safari 2.0 or 3.0 or Google Chrome 2.0. 
+              </ul> </li> 
+             <li id="requirementBrowserSession" style="display:none;"> <span>Cookies must be enabled</span> </li> 
+             <li id="requirementBrowserScreen" style="display:none;"> <span>Minimum 800x600 screen resolution required</span> </li> 
+             <li id="requirementBrowserJavaScript"> <span>JavaScript must be enabled</span> </li> 
+            </ul> 
+            <div class="br"></div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonsPanel"> 
+         <div class="contentWarning--buttonArea"> 
+          <div class="bodyLine--content"> 
+           <div class="content"> 
+            <div id="ButtonRefresh_text"> 
+             <span>Before you continue, you must change your settings according to the requirements listed above. When done, click Retry.</span> 
+            </div> 
+            <div id="ButtonSuppress_text" class="hide"> 
+             <span>You may continue, but some web pages may work incorrectly. To continue, click Ignore.</span> 
+            </div> 
+            <div class="br" style="padding-top:10px;"></div> 
+            <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1"> 
+             <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonPlaceHolderControlPanel" class="buttonPlaceHolder"> 
+              <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_LeftPanel" class="leftPanel"> 
+               <table id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_TableLeft" border="0"> 
+                <tbody>
+                 <tr> 
+                  <td> 
+                   <div id="Control_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonRetry" class="enable  text-color-control button button-text"> 
+                    <div class="button  text-color-control button button-text"> 
+                     <table cellpadding="0" cellspacing="0" id="_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonRetry"> 
+                      <tbody>
+                       <tr> 
+                        <td> 
+                         <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonRetry_LeftPanel" class="button-e button-e-left"></div> </td> 
+                        <td class="center-cell"> 
+                         <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonRetry_CenterPanel" class="button-e button-e-center"> 
+                          <div class="button-content"> 
+                           <input type="submit" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlBrowserWarning$BrowserWarningPanel$ButtonPlaceHolder1$ButtonRetry" value="Retry" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonRetry" class=" text-color-control button button-text" auto_id="ButtonRetry"> 
+                          </div> 
+                         </div> </td> 
+                        <td> 
+                         <div class="button-e button-e-right"></div> </td> 
+                       </tr> 
+                      </tbody>
+                     </table> 
+                    </div> 
+                   </div> <script type="text/javascript">
+				<!--
+				
+					$addHandler($get('_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonRetry'), 'click', function(e) 
+					{ 
+						if (e.target.id != 'ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonRetry')
+						{
+							if (ButtonRetry.isEnable())
+							{
+								$get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonRetry').click();
+							}
+						}
+					});
+						var ButtonRetry = new QPM.Web.UI.Controls.Button('Control_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonRetry', 'ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonRetry', '');
+					-->
+				</script> </td>
+                  <td class="button-hspace"></td>
+                  <td> 
+                   <div id="Control_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonIgnore" class="enable hide  text-color-control button button-text"> 
+                    <div class="button  text-color-control button button-text"> 
+                     <table cellpadding="0" cellspacing="0" id="_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonIgnore"> 
+                      <tbody>
+                       <tr> 
+                        <td> 
+                         <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonIgnore_LeftPanel" class="button-e button-e-left"></div> </td> 
+                        <td class="center-cell"> 
+                         <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonIgnore_CenterPanel" class="button-e button-e-center"> 
+                          <div class="button-content"> 
+                           <input type="submit" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ControlBrowserWarning$BrowserWarningPanel$ButtonPlaceHolder1$ButtonIgnore" value="Ignore" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonIgnore" class=" text-color-control button button-text" auto_id="ButtonIgnore"> 
+                          </div> 
+                         </div> </td> 
+                        <td> 
+                         <div class="button-e button-e-right"></div> </td> 
+                       </tr> 
+                      </tbody>
+                     </table> 
+                    </div> 
+                   </div> <script type="text/javascript">
+				<!--
+				
+					$addHandler($get('_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonIgnore'), 'click', function(e) 
+					{ 
+						if (e.target.id != 'ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonIgnore')
+						{
+							if (ButtonIgnore.isEnable())
+							{
+								$get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonIgnore').click();
+							}
+						}
+					});
+						var ButtonIgnore = new QPM.Web.UI.Controls.Button('Control_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonIgnore', 'ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel_ButtonPlaceHolder1_ButtonIgnore', '');
+					-->
+				</script> </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </div> 
+              <div class="br"></div> 
+             </div> 
+            </div> 
+            <div class="br"></div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+	var BrowserWarningPanel = new QPM.Web.UI.Controls.WarningPanel("ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ControlBrowserWarning_BrowserWarningPanel");
+</script> 
+    <script type="text/javascript">
+	// Check the browser compatibility
+	//
+	//var IsBrowserInfoNotSpoofing = true;
+	var IsBrowserSessionCookie = false;
+	//var IsBrowserScreen = false;
+	var IsBrowserJavaScript = true;
+	//var IsBrowserSupported = false;
+
+	var IsSuppressMode = false;
+
+	var IsBrowserProblems = false;
+
+	// Browser spoofing
+	//
+	/*if (typeof(window.opera)=='object') 
+	{
+		if (Sys.Browser.agent != Sys.Browser.Opera) 
+		{
+			IsBrowserInfoNotSpoofing = false;
+		}
+	}
+	else 
+	{
+		if (window.screen && window.screen.pixelDepth) 
+		{
+			if (Sys.Browser.agent == Sys.Browser.InternetExplorer) 
+			{
+				IsBrowserInfoNotSpoofing = false;
+			}
+		}
+	}*/
+
+	// Seesion Cookie check
+	//
+	IsBrowserSessionCookie = SiteManager.getSessionCookieTest();
+	
+	// Suppress mode check
+	//
+	IsSuppressMode = SiteManager.getSuppressMode();
+	
+	// Screen width and height check
+	//
+	/*if (screen.width >= 800 && screen.height >= 600) 
+	{
+		IsBrowserScreen = true;
+	}*/
+
+	// alert(Sys.Browser.version);
+
+	// Supported browsers
+	//
+	/*if ( (Sys.Browser.agent == Sys.Browser.InternetExplorer) && (Sys.Browser.version >= 6) )
+	{
+		IsBrowserSupported = true;
+	}
+	
+	if ( (Sys.Browser.agent == Sys.Browser.Firefox) && (Sys.Browser.version >= 1.5) )
+	{
+		IsBrowserSupported = true;
+	}
+  
+	if ( (Sys.Browser.agent == Sys.Browser.Safari) && (Sys.Browser.version >= 400) )
+	{
+		IsBrowserSupported = true;
+	}*/
+
+	IsBrowserProblems = /*IsBrowserInfoNotSpoofing == false ||*/ 
+											IsBrowserSessionCookie == false 
+											/*|| IsBrowserScreen == false*/
+											|| IsBrowserJavaScript == false
+											/*|| IsBrowserSupported == false*/;
+</script> 
+    <div id="bodyContent" class="body body-content"> 
+     <table class="mainTable " border="0"> 
+      <tbody>
+       <tr class="mainTableHeader"> 
+        <td> 
+         <div id="_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ToolBarWarningControl" class="hide "> 
+          <div class="toolbarWarning"> 
+           <div class="sld"> 
+            <div class="sld"> 
+             <div class="bodyLine--content"> 
+              <ul> 
+               <li id="requirementCategoryLicense-line" class="hide"> 
+                <div class="message"> 
+                 <span id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ToolBarWarningControl_LabelCategoryLicenseText" class="text-color-content"></span> 
+                </div> </li> 
+               <li id="requirementCategory-line"> 
+                <div class="message"> 
+                 <a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ToolBarWarningControl_HyperLinkBrowserWarning" class="text-color-content" auto_id="HyperLinkBrowserWarning" href="../../App_Library/UI/Controls/?GuiMode=Normal">Be aware that some Web pages may work incorrectly.</a> 
+                </div> </li> 
+              </ul> 
+              <div class="br"></div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> <script type="text/javascript">
+	var ToolBarWarningControl = new QPM.Web.UI.Controls.ToolBarWarning("_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ToolBarWarningControl");	
+	
+	$addHandler($get("ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ToolBarWarningControl_HyperLinkBrowserWarning"), "click", function(e) 
+		{
+			BrowserWarningPanel.show(); 
+			e.preventDefault();
+		}); 
+	
+	if (IsBrowserProblems)
+	{	
+		ToolBarWarningControl.show();		
+	}
+	else
+	{
+		Sys.UI.DomElement.addCssClass($get("requirementCategory-line"), "hide");
+	}
+	
+</script> 
+         <div id="block--content--line--header"> 
+          <div class="placeholderHeader"> 
+           <div class="sld"> 
+            <div class="sld"> 
+             <div class=""> 
+              <div class="contentHeader"> 
+               <div class="logoProduct"> 
+               </div> 
+               <div class="logoCompany"> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div id="block--content--line--menu"> 
+          <div class="placeholderMenu"> 
+           <div class="sld"> 
+            <div class="sld"> 
+             <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_SiteMenuControl_PanelSelectLanguage" class="contentLanguage"> 
+              <div class="icon icon-16 icon-16-language"> 
+              </div> 
+              <div class="contentLanguage--text"> 
+               <span class="text-color-content"> <strong>English </strong> (<a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_SiteMenuControl_HyperLinkSelectLanguage" auto_id="HyperLinkSelectLanguage" href="/DAPSS/User/Identification?SelectLanguage=True">Select Language</a>) </span> 
+              </div> 
+              <script type="text/javascript">
+								<!--
+							    $addHandler($get("ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_SiteMenuControl_PanelSelectLanguage"), "click", function(e) { SelectLanguagePanel.show(); e.preventDefault(); }); 
+								-->
+							</script> 
+             </div> 
+             <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_SiteMenuControl_PanelMenu" class="menu menu-horizontal"> 
+              <ul> 
+               <li><a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_SiteMenuControl_SiteMenuLink_home" class="text-color-control-item-normal" onclick="javascript: ShowPleaseWait();" auto_id="SiteMenuLink_home" href="/DAPSS/User/">Home</a></li>
+               <li class="last"><a id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_SiteMenuControl_SiteMenuLink_help" class="text-color-control-item-normal" onclick="javascript: ShowPleaseWait();" auto_id="SiteMenuLink_help" href="/DAPSS/User/Help/">Help</a></li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> <script type="text/javascript">
+		<!--
+	    var menuItemAbout = $get("");
+
+	    if (menuItemAbout) {
+	        menuItemAbout.onclick = null;
+	        $addHandler(menuItemAbout, "click", function(e) {
+	            openPopupWindow("?popup=yes", "wSiteMenuAbout", 600, 600);
+	            e.preventDefault();
+	        });
+	    }
+
+	    var menuItemHelp = $get("ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_SiteMenuControl_SiteMenuLink_help");
+
+	    if (menuItemHelp) {
+	        menuItemHelp.onclick = null;
+	        $addHandler($get("ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_SiteMenuControl_SiteMenuLink_help"), "click", function(e) {
+	            openPopupWindow("/DAPSS/User/Help/?popup=yes&Site=User", "wSiteMenuHelp", 800, 600);
+	            e.preventDefault();
+	        });
+	    }
+		-->
+	</script> </td> 
+       </tr> 
+       <tr class="mainTableContent"> 
+        <td class="mainTableContentContainer"> 
+         <div class="mainPanelContent cornerBehavior"> 
+          <div class="mainPanelBorder top-left png"> 
+          </div> 
+          <div class="mainPanelBorder top-right png"> 
+          </div> 
+          <div class="mainPanelBorder bottom-left png"> 
+          </div> 
+          <div class="mainPanelBorder bottom-right png"> 
+          </div> 
+          <div id="block--content--line--banner"> 
+           <div class="banner" style="width: 100%;"> 
+            <div class="banner-bg"> 
+             <div class="banner-image png"> 
+             </div> 
+             <div class="bottomBorder"> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="contentPlaceHolder"> 
+           <div id="block--content--line--content"> 
+            <div class="bodyLine--content"> 
+             <div class="vspace"></div> 
+             <table id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ShadowPanel1" cellpadding="0" cellspacing="0" class="allDefault"> 
+              <tbody>
+               <tr> 
+                <td class="topLeftDefault"></td>
+                <td class="topCenterDefault"></td>
+                <td class="topRightDefault"></td> 
+               </tr>
+               <tr> 
+                <td class="middleLeftDefault"></td>
+                <td class="middleCenterDefault"> 
+                 <div class="" id="block--content--line--content--setSize" style="position:relative;"> 
+                  <div class="pageContent"> 
+                   <div class="pageContent"> 
+                    <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ControlErrorManager" class=" hide"> 
+                     <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ControlErrorManager_PanelErrorManager" class="errorManager errorManager-normal"> 
+                      <div class="errorManager--content"> 
+                       <div class="iconPlace"> 
+                        <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ControlErrorManager_PanelIcon" class="icon icon-16 icon-16-error"> 
+                        </div> 
+                       </div> 
+                       <h4 class="text-color-caption"> Error opening the Locate Account page. </h4> 
+                       <div class="br"></div> 
+                      </div> 
+                      <div class="br"></div> 
+                      <div class="separator"></div> 
+                     </div> 
+                    </div> 
+                    <div id="_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_FormHeader"> 
+                     <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_FormHeader_FormHeaderPanel" class="contentFormHeader"> 
+                      <h3 class="text-color-caption"> Enter Your User Name </h3> 
+                      <span class="text-color-content"> To verify your identity, type your user name, and then click OK. </span> 
+                     </div> 
+                    </div> 
+                    <div class="separator"></div> 
+                    <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_PanelAccount"> 
+                     <div class="vspace"></div> 
+                     <label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_TextBoxAccount" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_LabelAccountName">User name:</label> 
+                     <div></div> 
+                     <input name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ContentPlaceHolder$ContentPlaceHolder$ContentPlaceHolder$ctl00$TextBoxAccount" type="text" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_TextBoxAccount" class="text" auto_id="TextBoxAccount" autocomplete="off"> 
+                     <div></div> 
+                     <div class="validator-container1"> 
+                      <div class="validator-container2"> 
+                      </div> 
+                     </div> 
+                     <div></div> 
+                     <div class="vspace"></div> 
+                     <div class="vspace"></div> 
+                     <div class="vspace"></div> 
+                     <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_Captcha1_CaptchaPanel"> 
+                      <table border="0"> 
+                       <tbody>
+                        <tr> 
+                         <td><img id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_Captcha1_ImageCaptcha" src="/DAPSS/User/Identification/CaptchaImage.aspx?CaptchaImageGuid=a8f5fe03-9705-4e1f-ab24-99f7357c4295" border="0"></td> 
+                         <td style="padding:9px 0px 0px 10px;"> 
+                          <div id="RefreshBtn" class="refreshButton" onmouseover="this.className = 'refreshButtonHover';" onmouseout="this.className = 'refreshButton';" onclick="$get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_Captcha1_submitBtn').click();" title="Click here to refresh code"></div><input type="submit" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ContentPlaceHolder$ContentPlaceHolder$ContentPlaceHolder$ctl00$Captcha1$submitBtn" value="" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_Captcha1_submitBtn" class="hide"> </td> 
+                        </tr> 
+                       </tbody>
+                      </table> 
+                      <div></div> 
+                      <div class="vspace"></div> 
+                      <label for="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_Captcha1_TextBoxCapture" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_Captcha1_LabelCaptureCaption">Enter the characters you see on the picture:</label> 
+                      <div></div> 
+                      <input name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ContentPlaceHolder$ContentPlaceHolder$ContentPlaceHolder$ctl00$Captcha1$TextBoxCapture" type="text" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_Captcha1_TextBoxCapture" class="text" auto_id="TextBoxCapture" autocomplete="off"> 
+                      <input type="hidden" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ContentPlaceHolder$ContentPlaceHolder$ContentPlaceHolder$ctl00$Captcha1$HiddenFieldPrevGuid" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_Captcha1_HiddenFieldPrevGuid" auto_id="HiddenFieldPrevGuid" value="a8f5fe03-9705-4e1f-ab24-99f7357c4295"> 
+                      <div></div> 
+                      <div class="validator-container1"> 
+                       <div class="validator-container2"> 
+                       </div> 
+                      </div> 
+                     </div> 
+                     <div class="vspace"></div> 
+                    </div> 
+                    <script type="text/javascript">
+					<!--
+					$addHandler($get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_PanelAccount'), 'keydown', function (e) {
+						if (e.keyCode != Sys.UI.Key.enter) return;
+						e.preventDefault();
+						$get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_ButtonOk').click();
+					});
+					-->
+				</script> 
+                    <script type="text/javascript">
+						<!--
+						var ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_PanelAccount = new QPM.Web.UI.Controls.Panel('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_PanelAccount', 'null', true, 'null');
+						-->
+					</script> 
+                    <div class="br"></div> 
+                    <div class="separator"></div> 
+                    <div id="Control_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_ButtonOk" class="enable  text-color-control button button-text"> 
+                     <div class="button  text-color-control button button-text"> 
+                      <table cellpadding="0" cellspacing="0" id="_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_ButtonOk"> 
+                       <tbody>
+                        <tr> 
+                         <td> 
+                          <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_ButtonOk_LeftPanel" class="button-e button-e-left"></div> </td> 
+                         <td class="center-cell"> 
+                          <div id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_ButtonOk_CenterPanel" class="button-e button-e-center"> 
+                           <div class="button-content"> 
+                            <input type="submit" name="ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ContentPlaceHolder$ContentPlaceHolder$ContentPlaceHolder$ctl00$ButtonOk" value="OK" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ctl00$ctl00$ContentPlaceHolder$ContentPlaceHolder$ContentPlaceHolder$ContentPlaceHolder$ctl00$ButtonOk&quot;, &quot;&quot;, true, &quot;Login&quot;, &quot;&quot;, false, false))" id="ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_ButtonOk" class=" text-color-control button button-text" auto_id="ButtonOk"> 
+                           </div> 
+                          </div> </td> 
+                         <td> 
+                          <div class="button-e button-e-right"></div> </td> 
+                        </tr> 
+                       </tbody>
+                      </table> 
+                     </div> 
+                    </div> 
+                    <script type="text/javascript">
+				<!--
+				
+					$addHandler($get('_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_ButtonOk'), 'click', function(e) 
+					{ 
+						if (e.target.id != 'ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_ButtonOk')
+						{
+							if (ButtonOk.isEnable())
+							{
+								$get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_ButtonOk').click();
+							}
+						}
+					});
+						var ButtonOk = new QPM.Web.UI.Controls.Button('Control_ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_ButtonOk', 'ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_ButtonOk', '');
+					-->
+				</script> 
+                    <div style="clear: both;"> 
+                    </div> 
+                   </div> 
+                  </div> 
+                 </div> </td>
+                <td class="middleRightDefault"></td> 
+               </tr>
+               <tr> 
+                <td class="bottomLeftDefault"></td>
+                <td class="bottomCenterDefault"></td>
+                <td class="bottomRightDefault"></td> 
+               </tr> 
+              </tbody>
+             </table> 
+            </div> 
+           </div> 
+          </div> 
+         </div> </td> 
+       </tr> 
+       <tr class="mainTableFooter"> 
+        <td> 
+         <div class="placeholderFooter-content"> 
+          <div class="sld"> 
+           <div class="sld"> 
+            <div class="bodyLine--content"> 
+            </div> 
+           </div> 
+          </div> 
+         </div> </td> 
+       </tr> 
+      </tbody>
+     </table> 
+    </div> 
+    <input type="hidden" id="GINAPageExpiration" value="1200"> 
+    <div id="CloseWindowIDForGINA"></div> 
+    <script type="text/javascript">
+//<![CDATA[
+
+					$addHandler($get('aspnetForm'), 'submit', function() 
+					{ 
+						if (typeof(Page_IsValid) == 'undefined' || Page_IsValid == true) ShowPleaseWait(); 
+					});
+				//]]>
+</script> 
+    <script type="text/javascript">
+	/*$get("requirementBrowserSpoofing").style.display = (IsBrowserInfoNotSpoofing) ? "none" : "";*/
+	$get("requirementBrowserSession").style.display = (IsBrowserSessionCookie) ? "none" : "";
+	/*$get("requirementBrowserScreen").style.display = (IsBrowserScreen) ? "none" : "";*/
+	$get("requirementBrowserJavaScript").style.display = (IsBrowserJavaScript) ? "none" : "";
+	/*$get("requirementCategoryBrowser").style.display = (IsBrowserSupported) ? "none" : "";*/
+
+	// Buttons
+	//
+	/*if (IsBrowserScreen == false || IsBrowserSupported == false)
+	{
+		ButtonIgnore.show();
+		$get("ButtonSuppress_text").style.display = "block";
+	}*/
+
+	if (/*(IsBrowserInfoNotSpoofing == false && IsSuppressMode == false)
+			||*/ 
+			IsBrowserSessionCookie == false
+			/*|| (IsBrowserScreen == false && IsSuppressMode == false)*/
+			|| IsBrowserJavaScript == false
+			/* || (IsBrowserSupported == false && IsSuppressMode == false)*/
+			)
+	{
+		AllowBodyContentShow = false;
+		BrowserWarningPanel.show();
+	}
+
+	// Events
+	//
+	ButtonRetry.attachOnClickEvent(ButtonRetry_OnClick);
+	ButtonIgnore.attachOnClickEvent(ButtonIgnore_OnClick);
+
+	function ButtonIgnore_OnClick(e)
+	{
+		e.preventDefault();
+		SiteManager.setSuppressMode(true);
+		AllowBodyContentShow = true;
+		BrowserWarningPanel.hide(); 
+	}
+
+	function ButtonRetry_OnClick(e)
+	{
+		PleaseWait.show();		
+		Page_ValidationActive = false; // disable page validation
+	}
+	
+	// Close select language panel on 'Esc' key pressing
+	//
+	$addHandler(document, "keypress", function(e) 
+	{
+		if (ButtonIgnore.isShow() && BrowserWarningPanel.isShow())
+		{
+			var keyCode = e.keyCode ? e.keyCode: e.charCode;
+			if (keyCode == 27)
+			{
+				ButtonIgnore_OnClick(e);
+			}
+		}
+	});	
+	
+</script> 
+    <script type="text/javascript">
+//<![CDATA[
+
+							$addHandler($get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_TextBoxAccount'), 'keyup', function()	
+							{
+								if ($get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_TextBoxAccount').value == '') return;
+								ValidatorValidate(ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_RequiredFieldValidatorTextBoxAccount); 
+							});
+						
+							$addHandler($get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_Captcha1_TextBoxCapture'), 'keyup', function()	
+							{
+								if ($get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_Captcha1_TextBoxCapture').value == '') return;
+								ValidatorValidate(ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_Captcha1_RequiredFieldValidatorTextBoxCapture); 
+							});
+						Sys.Application.initialize();
+//]]>
+</script> 
+   </form> 
+  </div> 
+  <script type="text/javascript">
+	<!--
+
+	function ShowPleaseWait(clientValidationCheck, ValidationGroup)
+	{
+		 PanelPopup.hide(); 
+		PleaseWait.show();			
+	}
+
+	// hide Please Wait
+	//	
+	Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function() 
+	{ 
+			PleaseWait.hide();						
+			
+				if ($get('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_TextBoxAccount') != null)
+				{
+					WebForm_AutoFocus('ctl00_ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_ctl00_TextBoxAccount');
+				}
+			
+	}); 
+	
+	-->
+	</script>  
+ </body>
+</html>

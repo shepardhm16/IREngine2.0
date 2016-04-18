@@ -1,0 +1,748 @@
+<html>
+ <head>
+  <meta name="author" content="Created with Hot Potatoes by Half-Baked Software, registered to Kathleen Bulger-Barnett.">
+  <meta name="keywords" content="Hot Potatoes, Hot Potatoes, Half-Baked Software, Windows, University of Victoria"> 
+  <title>
+Imperfect formation practice
+</title> 
+  <script language="javascript" type="text/javascript">
+
+//<![CDATA[
+
+<!--
+
+// BrowserCheck Object
+
+function BrowserCheck() {
+	var b = navigator.appName
+//HBS extension
+	this.mac = (navigator.appVersion.indexOf('Mac') != -1)
+	if (b=="Netscape") this.b = "ns"
+	else if (b=="Microsoft Internet Explorer") this.b = "ie"
+	else this.b = b
+	this.version = navigator.appVersion
+	this.v = parseInt(this.version)
+	this.ns = (this.b=="ns" && this.v>=4)
+	this.ns4 = (this.b=="ns" && this.v==4)
+	this.ns5 = (this.b=="ns" && this.v==5)
+	this.ie = (this.b=="ie" && this.v>=4)
+	this.ie4 = (this.version.indexOf('MSIE 4')>0)
+	this.ie5 = (this.version.indexOf('MSIE 5')>0)
+	this.min = (this.ns||this.ie)
+	this.CRAPBrowser = (this.ie4 && this.mac); //Cannot Resolve Addresses Properly
+}
+
+is = new BrowserCheck();
+
+var LocFolder = GetFolder(window.location.href);
+function GetFolder(LocPath){
+	LocPath = ReplaceStuff('\'','%27',LocPath);
+	var i = LocPath.lastIndexOf('/');
+	if (i<0){i=LocPath.lastIndexOf('\\')};
+	return LocPath.substring(0,i);
+}
+
+function CombineURLs(InURL){
+	var i = InURL.indexOf('../');
+	var s = LocFolder;
+	while (i >- 1){
+		s = GetFolder(s);
+		InURL = InURL.substring(3,InURL.length);
+		i = InURL.indexOf('../');
+	}
+	return s + '/' + InURL;
+}
+
+x = new Array();
+function ResolveURLs(InText,Attribute){
+	x.length=0;
+	var Temp = InText.toLowerCase();
+	var z;
+	var AttLen = Attribute.length + 2;
+	var y=Temp.lastIndexOf(Attribute + '="');
+	while (y>-1){
+		var sLoc = y+AttLen;
+		if (Temp.substring(sLoc,sLoc+5) != 'http:'){
+			x[x.length]=new Array();
+			x[x.length-1][0] = sLoc;
+			z = Temp.indexOf('"',sLoc);
+			x[x.length-1][1] = z;
+			x[x.length-1][2] = InText.substring(sLoc,z);
+
+		}
+		Temp = Temp.substring(0,y);
+		y=Temp.lastIndexOf(Attribute + '="');
+	}
+	for (var j=0; j<x.length; j++){
+		InText = InText.substring(0,x[j][0]) + CombineURLs(x[j][2]) + InText.substring(x[j][1], InText.length);
+	}
+	return InText;
+}
+
+function ResolveAllURLs(Stuff){
+	Stuff = ResolveURLs(Stuff,'href');
+	Stuff = ResolveURLs(Stuff,'src');
+	Stuff = ResolveURLs(Stuff,'parent.location');
+	return Stuff;
+}
+
+var Feedback = '';
+var Correct = 'Correct! Well done.';
+var Incorrect = 'Some of your answers are incorrect. Incorrect answers have been left in place for you to change.'; 
+var GiveHint = 'The next correct letter has been added to the answer.';
+var CaseSensitive = false;
+var YourScoreIs = 'Your score is ';
+var Instructions = 'Fill in all the gaps, then press "Check" to check your answers. Use the "Hint" button to get a free letter if an answer is giving you trouble. You can also click on the "[?]" button to get a clue. Note that you will lose points if you ask for hints or clues!';
+var BuiltCloze = '';
+var ExerciseSubtitle = 'Gap-fill exercise';
+var ExerciseTitle = 'Imperfect formation practice';
+var FirstShow = true;
+var ReadingURL = '';
+
+var PreviousPage = history.length;
+
+
+
+
+
+
+
+var NavBar='';
+
+
+NavBar+='<tr><form name="NavButtons1" action=""><td bgcolor="#000066" align="center">';
+NavBar+='<font face="Geneva,Arial" size="-1">';
+
+NavBar+='<input type="button" value="http://academics.vmi.edu/modlan_kbb/kbb/vmispanishdrills.htm" onclick="parent.GoBack()"></input>';
+
+
+
+NavBar+='</font></td></form></tr>';
+if (is.CRAPBrowser){NavBar=ResolveAllURLs(NavBar);}
+
+
+var TitleCode = '<tr><td align="center" valign="middle" bgcolor="#ffffff">';
+TitleCode += '<font size="+1" face="Geneva,Arial" color="#000033">' + ExerciseTitle + '</font><br />';
+TitleCode += '<font size="-1" face="Geneva,Arial" color="#000033">' + ExerciseSubtitle + '<br />';
+
+TitleCode += '</font></td></tr>';
+
+var WordBox = '';
+
+var ClozeOpener = '<table border="0" width="85%" cellpadding="10">';
+ClozeOpener += '<tr><td valign="top" bgcolor="#bbbbee">';
+ClozeOpener += '<form name="Cloze" onsubmit="return false"><font face="Geneva,Arial" color="#000000">';
+
+var ClozeCloser = '</font></form></td></tr>';
+
+var Buttons = '<tr><td align="center" valign="top" bgcolor="#bbbbee">';
+Buttons += '<form name="Buttons"><font face="Geneva,Arial" color="#000000">';
+Buttons += '<input type="button" value="Check" onclick="parent.CheckAnswers()"></input>';
+
+
+Buttons += '<input type="button" value="Hint" onclick="parent.ShowHint()"></input>';
+
+
+Buttons += '</font></form></td></tr></table>';
+
+var GapCode = '<input type="text" name="[strGapName]" size="[strGapSize]" onFocus="parent.TrackFocus([strItemNum])" value="[strValue]"></input>';
+var ClueButton = '';
+
+ClueButton = '<input type="button" value="[?]" onclick="parent.ShowClue([strItemNum])"></input>';
+
+
+function GoBack(){
+	var BackSkip = history.length - PreviousPage;
+	if (BackSkip > 0){
+		history.go((BackSkip+1)*-1);
+	}
+	else{
+		parent.history.back();
+	}
+}
+
+
+
+
+function BuildExercise(){
+	var OutString = '';
+	var ClozeStuff = '';
+
+	for (var i=0; i<I.length; i++){
+
+//Add the text
+		ClozeStuff += Text[i];
+
+//Create and add the gap
+//If it's already right, then add it in bold:
+		if (State[i][4] == 1){
+			ClozeStuff += '<b>' + State[i][5] + '</b>';
+		}
+		
+		else{
+			GapLen = I[i][1][0][0].length;
+			if (GapLen < 3){GapLen = 3;}
+			Gap = ReplaceStuff('[strGapSize]', GapLen, GapCode);
+			Gap = ReplaceStuff('[strGapName]', 'Gap' + i + '', Gap);
+			Gap = ReplaceStuff('[strItemNum]', i + '', Gap);
+			Gap = ReplaceStuff('[strValue]', State[i][5], Gap);
+			ClozeStuff += Gap;	
+
+//Create and add the clue button
+			if (I[i][2].length > 0){
+				Btn = ReplaceStuff('[strItemNum]', i + '', ClueButton);
+				ClozeStuff += Btn;
+			}
+		}
+	}
+
+//Add the last bit
+	if (Text.length > I.length){
+		ClozeStuff += Text[Text.length-1];
+	}
+
+//Put the final pieces together
+	OutString = ClozeOpener + ClozeStuff + ClozeCloser + Buttons;
+	BuiltCloze = OutString;
+}
+
+function WriteFeedback(Feedback) {
+//Build the output string
+	var OutString = '';
+	OutString += '<html>';
+	OutString += '<body  background="" bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#0000cc">';
+	OutString += '<center><table border="0" cellpadding="5" cellspacing="1" width="85%">';
+	OutString += NavBar;
+	if (Feedback.length>0){
+		OutString += '<tr><td bgcolor="#bbbbee" align="center">'; 
+		OutString += '<font face="Geneva,Arial" size="-1" color="#000000">';
+		OutString += Feedback;
+		OutString += '</font></td></tr>'
+	}
+	OutString += '</table></center></body></html>';
+
+	if (is.CRAPBrowser){OutString=ResolveAllURLs(OutString);}
+
+//Write it to the frame
+	TopFrame.document.clear();
+	TopFrame.document.open();
+	TopFrame.document.write(OutString);
+	TopFrame.document.close();
+}
+
+function DisplayExercise(){
+//Build the output string
+	var OutString = '';
+	OutString += '<html>';
+	OutString += '<body  background="" bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#0000cc">';
+	OutString += '<center><table border="0" cellpadding="5" cellspacing="1" width="85%">';
+	OutString += TitleCode; 
+	OutString += '<tr><td bgcolor="#bbbbee" align="center">'; 
+	if (WordBox.length > 0){
+		OutString += WordBox;
+	}
+	OutString += '<font face="Geneva,Arial" size="-1">';
+	OutString += BuiltCloze;
+	OutString += '</font></td></tr>';
+	OutString += NavBar;
+	OutString += '</table></center></body></html>';
+
+	if (is.CRAPBrowser){OutString=ResolveAllURLs(OutString);}
+
+//Write it to the frame
+	BottomFrame.document.clear();
+	BottomFrame.document.open();
+	BottomFrame.document.write(OutString);
+	BottomFrame.document.close();
+}
+
+function ShowClue(ItemNum){
+//alert(ItemNum);
+	State[ItemNum][0] = 1;
+	WriteFeedback(I[ItemNum][2]);
+}
+
+function SaveCurrentAnswers(){
+	for (var i=0; i<I.length; i++){
+		State[i][5] = GetGapValue(i);
+	}
+}
+
+function RestoreCurrentAnswers(){
+	for (var i=0; i<I.length; i++){
+		SetGapValue(i, State[i][5]);
+	}
+}
+
+var CurrentWord = 0;
+
+function ReplaceStuff(Token, Replacement, InString){
+	var i = InString.indexOf(Token);
+	var FirstBit = '';
+	var LastBit = '';
+	while (i>-1){
+		FirstBit = InString.substring(0, i);
+		LastBit = InString.substring(i + Token.length, InString.length);	
+		InString = FirstBit + Replacement + LastBit;
+		i = InString.indexOf(Token);
+	}
+	return InString;
+}
+
+I = new Array();
+
+I[0] = new Array();
+I[0][1] = new Array();
+I[0][1][0] = new Array();
+I[0][1][0][0]='se acostaba';
+I[0][2]='';
+
+I[1] = new Array();
+I[1][1] = new Array();
+I[1][1][0] = new Array();
+I[1][1][0][0]='asist\u00EDan';
+I[1][1][1] = new Array();
+I[1][1][1][0]='asistian';
+I[1][2]='';
+
+I[2] = new Array();
+I[2][1] = new Array();
+I[2][1][0] = new Array();
+I[2][1][0][0]='beb\u00EDa';
+I[2][1][1] = new Array();
+I[2][1][1][0]='bebia';
+I[2][2]='';
+
+I[3] = new Array();
+I[3][1] = new Array();
+I[3][1][0] = new Array();
+I[3][1][0][0]='cerr\u00E1bamos';
+I[3][1][1] = new Array();
+I[3][1][1][0]='cerrabamos';
+I[3][2]='';
+
+I[4] = new Array();
+I[4][1] = new Array();
+I[4][1][0] = new Array();
+I[4][1][0][0]='com\u00EDan';
+I[4][1][1] = new Array();
+I[4][1][1][0]='comian';
+I[4][2]='';
+
+I[5] = new Array();
+I[5][1] = new Array();
+I[5][1][0] = new Array();
+I[5][1][0][0]='compraba';
+I[5][2]='';
+
+I[6] = new Array();
+I[6][1] = new Array();
+I[6][1][0] = new Array();
+I[6][1][0][0]='d\u00E1bamos';
+I[6][1][1] = new Array();
+I[6][1][1][0]='dabamos';
+I[6][2]='';
+
+I[7] = new Array();
+I[7][1] = new Array();
+I[7][1][0] = new Array();
+I[7][1][0][0]='se despertaban';
+I[7][2]='';
+
+I[8] = new Array();
+I[8][1] = new Array();
+I[8][1][0] = new Array();
+I[8][1][0][0]='dorm\u00EDamos';
+I[8][1][1] = new Array();
+I[8][1][1][0]='dormiamos';
+I[8][2]='';
+
+I[9] = new Array();
+I[9][1] = new Array();
+I[9][1][0] = new Array();
+I[9][1][0][0]='estabas';
+I[9][2]='';
+
+I[10] = new Array();
+I[10][1] = new Array();
+I[10][1][0] = new Array();
+I[10][1][0][0]='estudiaban';
+I[10][2]='';
+
+I[11] = new Array();
+I[11][1] = new Array();
+I[11][1][0] = new Array();
+I[11][1][0][0]='hablaba';
+I[11][2]='';
+
+I[12] = new Array();
+I[12][1] = new Array();
+I[12][1][0] = new Array();
+I[12][1][0][0]='iban';
+I[12][2]='';
+
+I[13] = new Array();
+I[13][1] = new Array();
+I[13][1][0] = new Array();
+I[13][1][0][0]='nos levant\u00E1bamos';
+I[13][1][1] = new Array();
+I[13][1][1][0]='nos levantabamos';
+I[13][2]='';
+
+I[14] = new Array();
+I[14][1] = new Array();
+I[14][1][0] = new Array();
+I[14][1][0][0]='ped\u00EDan';
+I[14][1][1] = new Array();
+I[14][1][1][0]='pedian';
+I[14][2]='';
+
+I[15] = new Array();
+I[15][1] = new Array();
+I[15][1][0] = new Array();
+I[15][1][0][0]='pod\u00EDas';
+I[15][1][1] = new Array();
+I[15][1][1][0]='podias';
+I[15][2]='';
+
+I[16] = new Array();
+I[16][1] = new Array();
+I[16][1][0] = new Array();
+I[16][1][0][0]='sab\u00EDa';
+I[16][1][1] = new Array();
+I[16][1][1][0]='sabia';
+I[16][2]='';
+
+I[17] = new Array();
+I[17][1] = new Array();
+I[17][1][0] = new Array();
+I[17][1][0][0]='\u00E9ramos';
+I[17][1][1] = new Array();
+I[17][1][1][0]='eramos';
+I[17][2]='';
+
+I[18] = new Array();
+I[18][1] = new Array();
+I[18][1][0] = new Array();
+I[18][1][0][0]='ve\u00EDan';
+I[18][1][1] = new Array();
+I[18][1][1][0]='veian';
+I[18][2]='IRREGULAR!';
+
+I[19] = new Array();
+I[19][1] = new Array();
+I[19][1][0] = new Array();
+I[19][1][0][0]='Viv\u00EDa';
+I[19][1][1] = new Array();
+I[19][1][1][0]='vivia';
+I[19][2]='';
+
+
+Text = new Array();
+Text[0]='The imperfect tense: Formation practice<br /><br />Spanish has two past tenses, one is the PRETERIT and the other is the IMPERFECT. The word "imperfect" denotes something incomplete or unending. Therefore, the imperfect tense is used to describe action in the past that is unfinished or does not have a clear beginning or a clear ending. The Spanish imperfect usually translates into English as "used to" or "would" for example: <br /><br />When we were young we USED TO EAT cereal.<br />As a child we WOULD EAT cereal.<br />The imperfect can also be used as a past progressive, such as "They WERE EATING".<br /><br />To form the imperfect tense, start with the infinitive and drop the last two letters. For AR verbs, add these endings: <br /><br />aba, abas, aba, \u00E1bamos, \u00E1bais, aban (1st and 3rd persons singular are identical)<br /><br />For example:<br />Yo hablaba Nosotros habl\u00E1bamos<br />T\u00FA hablabas Vosotros habl\u00E1bais<br />Ella hablaba Ellas hablaban<br /><br />For ER/IR verbs, add these endings:<br />\u00EDa, \u00EDas, \u00EDa, \u00EDamos, \u00EDais, \u00EDan (1st and 3rd persons singular are identical)<br /><br /><br />For example:<br />Yo viv\u00EDa Nosotros viv\u00EDamos<br />T\u00FA viv\u00EDas Vosotros viv\u00EDais<br />Ella viv\u00EDa Ellas viv\u00EDan<br /><br />There are only 3 irregular formations: ser, ir, and ver. They conjugate as follows and the best advice is memorization.<br />SER: Era, eras, era, \u00E9ramos, \u00E9rais, eran<br />IR: Iba, ibas, iba, \u00EDbamos, \u00EDbais, iban <br />Ver: Ve\u00EDa, ve\u00EDas, ve\u00EDa, ve\u00EDamos, ve\u00EDais, ve\u00EDan<br /><br />Fill in the blanks with the missing imperfect verbs:<br /><br /><br />Acostarse: me acostaba, te acostabas, ';
+Text[1]=', nos acost\u00E1bamos, os acostabais, se acostaban<br /><br />Asistir: Asist\u00EDa, asist\u00EDas, asist\u00EDa, asist\u00EDamos, asist\u00EDais, ';
+Text[2]=' <br /><br />Beber: ';
+Text[3]=', beb\u00EDas, beb\u00EDa, beb\u00EDamos, beb\u00EDais, beb\u00EDan<br /><br />Cerrar: cerraba, cerrabas, cerraba, ';
+Text[4]=', cerrabais, cerraban<br /><br />Comer: Com\u00EDa, com\u00EDas, com\u00EDa, com\u00EDamos, com\u00EDais, ';
+Text[5]=' <br /><br />Comprar: Compraba, comprabas, ';
+Text[6]=', compr\u00E1bamos, comprabais, compraban<br /><br />Dar: Daba, dabas, daba, ';
+Text[7]=', dabais, daban<br /><br />Despertarse: me despertaba, te despertabas, se despertaba, nos despert\u00E1bamos, os despertabais, ';
+Text[8]=' <br /><br />Dormir: Dorm\u00EDa, dorm\u00EDas, dorm\u00EDa, ';
+Text[9]=', dorm\u00EDais, dorm\u00EDan<br /><br />Estar: Estaba, ';
+Text[10]=', estaba, est\u00E1bamos, estabais, estaban<br /><br />Estudiar: Estudiaba, estudiabas, estudiaba, estudi\u00E1bamos, estudiabais, ';
+Text[11]=' <br /><br />Hablar: Hablaba, hablabas, ';
+Text[12]=', habl\u00E1bamos, hablabais, hablaban<br /><br />Ir: Iba, ibas, iba, \u00EDbamos, ibais, ';
+Text[13]=' <br /><br />Levantarse: Me levantaba, te levantabas, se levantaba, ';
+Text[14]=', os levantabais, se levantaban<br /><br />Pedir: ped\u00EDa, ped\u00EDas, ped\u00EDa, ped\u00EDamos, ped\u00EDais, ';
+Text[15]=' <br /><br />Poder: Pod\u00EDa, ';
+Text[16]=', pod\u00EDa, pod\u00EDamos, pod\u00EDais, pod\u00EDan<br /><br />Saber: Sab\u00EDa, sab\u00EDas, ';
+Text[17]=', sab\u00EDamos, sab\u00EDais, sab\u00EDan<br /><br />Ser: Era, eras, era, ';
+Text[18]=', erais, eran<br /><br />Ver: Ve\u00EDa, ve\u00EDas, ve\u00EDa, ve\u00EDamos, ve\u00EDais, ';
+Text[19]=' <br /><br />Vivir: ';
+Text[20]=', viv\u00EDas, viv\u00EDa, viv\u00EDamos, viv\u00EDais, viv\u00EDan<br />';
+
+
+State = new Array();
+
+function StartUp(){
+
+	var i = 0;
+
+
+
+	State.length = 0;
+	for (i=0; i<I.length; i++){
+		State[i] = new Array();
+		State[i][0] = 0; // clue asked for or not
+		State[i][1] = 0; // hints asked for, or penalties for checking a wrong answer
+		State[i][2] = 0; // length of answer matched
+		State[i][3] = 0; // score for this item
+		State[i][4] = 0; // already answered correctly 
+		State[i][5] = ''; // answer entered in text box (right or not)
+	}
+	BuildExercise();
+	WriteFeedback(Instructions);
+	DisplayExercise();
+
+
+
+
+
+}
+
+function TrimString(InString){
+        var x = 0
+
+        if (InString.length != 0) {
+                while ((InString.charAt(InString.length - 1) == '\u0020') || (InString.charAt(InString.length - 1) == '\u000A') || (InString.charAt(InString.length - 1) == '\u000D')){
+                        InString = InString.substring(0, InString.length - 1)
+                }
+
+                while ((InString.charAt(0) == '\u0020') || (InString.charAt(0) == '\u000A') || (InString.charAt(0) == '\u000D')){
+                        InString = InString.substring(1, InString.length)
+                }
+
+                while (InString.indexOf('  ') != -1) {
+                        x = InString.indexOf('  ')
+                        InString = InString.substring(0, x) + InString.substring(x+1, InString.length)
+                 }
+
+                return InString;
+        }
+
+        else {
+                return '';
+        }
+
+}
+
+function CheckAnswers(){
+
+	SaveCurrentAnswers();
+	var AllCorrect = 1;
+
+//Check each answer
+	for (var i = 0; i< I.length; i++){
+
+		if (State[i][4] != 1){
+//If it's right, calculate its score
+			if (CheckAnswer(i, true) > -1){
+				var TotalChars = GetGapValue(i).length;
+				State[i][3] = (TotalChars-State[i][1])/TotalChars;
+				if (State[i][0] > 0){State[i][3] = State[i][3]/2;}
+				if (State[i][3]<0){State[i][3] = 0;}
+				State[i][4] = 1;
+			}
+			else{
+//Otherwise, add zero to the array and increment the hints for this item, as a penalty
+				State[i][1]++;
+				State[i][3] = 0;
+
+//then set the flag
+				AllCorrect = 0;
+			}
+		}
+	}
+
+//Calculate the total score
+	var TotalScore = 0;
+	for (i=0; i<State.length; i++){
+		TotalScore += State[i][3];
+	}
+	TotalScore = Math.floor((TotalScore * 100)/I.length);
+
+//Compile the output
+	Output = '';
+
+	if (AllCorrect == 1){
+		Output = Correct + '<br />';
+	}
+
+	Output += YourScoreIs + ' ' + TotalScore + '%.<br />';
+	if (AllCorrect == 0){
+		Output += '<br />' + Incorrect;
+	}
+	BuildExercise();
+	WriteFeedback(Output);
+
+
+
+	DisplayExercise();
+	RestoreCurrentAnswers();
+}
+
+
+function TrackFocus(BoxNumber){
+	CurrentWord = BoxNumber;
+}
+
+function CheckBeginning(Guess, Answer){
+	var OutString = '';
+	var i = 0;
+	var UpperGuess = '';
+	var UpperAnswer = '';
+
+	if (CaseSensitive == false) {
+		UpperGuess = Guess.toUpperCase();
+		UpperAnswer = Answer.toUpperCase();
+	}
+	else {
+		UpperGuess = Guess;
+		UpperAnswer = Answer;
+	}
+
+	while (UpperGuess.charAt(i) == UpperAnswer.charAt(i)) {
+		OutString += Guess.charAt(i);
+		i++;
+	}
+	OutString += Answer.charAt(i);
+	return OutString;
+}
+
+function FindLongest(InArray){
+	if (InArray.length < 1){return -1;}
+
+	var Longest = 0;
+	for (var i=1; i<InArray.length; i++){
+		if (InArray[i].length > InArray[Longest].length){
+			Longest = i;
+		}
+	}
+	return Longest;
+}
+
+function GetGapValue(GNum){
+	var RetVal = '';
+	if ((GNum<0)||(GNum>=I.length)){return RetVal;}
+	if (eval('BottomFrame.document.Cloze.Gap' + GNum) != null){
+		RetVal = eval('BottomFrame.document.Cloze.Gap' + GNum).value;
+		RetVal = TrimString(RetVal);
+	}
+	else{
+		RetVal = State[GNum][5];
+	}
+	return RetVal;
+}
+
+function SetGapValue(GNum, Val){
+	if ((GNum<0)||(GNum>=I.length)){return;}
+	if (eval('BottomFrame.document.Cloze.Gap' + GNum) != null){
+		eval('BottomFrame.document.Cloze.Gap' + GNum).value = Val;
+	}
+}
+
+function FindCurrent() {
+	var x = 0;
+	FoundCurrent = -1;
+
+//Test the current word:
+//If it's state is not set to already correct, check the word.
+	if (State[CurrentWord][4] != 1){
+		if (CheckAnswer(CurrentWord, false) < 0){
+			return CurrentWord;
+		}
+	}
+	
+	x=CurrentWord + 1;
+	while (x<I.length){
+		if (State[x][4] != 1){
+			if (CheckAnswer(x, false) < 0){
+				return x;
+			}
+		}
+	x++;	
+	}
+
+	x = 0;
+	while (x<CurrentWord){
+		if (State[x][4] != 1){
+			if (CheckAnswer(x, false) < 0){
+				return x;
+			}
+		}
+	x++;	
+	}
+	return FoundCurrent;
+}
+
+function CheckAnswer(GapNum, MarkAnswer){
+	var Guess = GetGapValue(GapNum);
+	var UpperGuess = '';
+	var UpperAnswer = '';
+	if (CaseSensitive == false){
+		UpperGuess = Guess.toUpperCase();
+	}
+	else{
+		UpperGuess = Guess;
+	}
+	var Match = -1;
+	for (var i = 0; i<I[GapNum][1].length; i++){
+		if (CaseSensitive == false){
+			UpperAnswer = I[GapNum][1][i][0].toUpperCase();
+		}
+		else{
+			UpperAnswer = I[GapNum][1][i][0];
+		}
+		if (TrimString(UpperGuess) == UpperAnswer){
+			Match = i;
+			if (MarkAnswer == true){
+				State[GapNum][4] = 1;
+			}
+			State[GapNum][5] = Guess;
+		}
+	}
+	return Match;
+}
+
+function GetHint(GapNum){
+	Guess = GetGapValue(GapNum);
+
+	if (CheckAnswer(GapNum, false) > -1){return ''}
+	RightBits = new Array();
+	for (var i=0; i<I[GapNum][1].length; i++){
+		RightBits[i] = CheckBeginning(Guess, I[GapNum][1][i][0]);
+	}
+	var RightOne = FindLongest(RightBits);
+	var Result = I[GapNum][1][RightOne][0].substring(0,RightBits[RightOne].length);
+//Add another char if the last one is a space
+	if (Result.charAt(Result.length-1) == ' '){
+		Result = I[GapNum][1][RightOne][0].substring(0,RightBits[RightOne].length+1);
+	}
+	return Result;
+}
+
+function ShowHint(){
+	var CurrGap = FindCurrent();
+	if (CurrGap < 0){return;}
+
+	var HintString = GetHint(CurrGap);
+
+	if (HintString.length > 0){
+		SetGapValue(CurrGap, HintString);
+		State[CurrGap][1] = State[CurrGap][1] + 1;
+	}
+	WriteFeedback(GiveHint);
+}
+
+
+
+
+function Blank(){
+	return '<html><body>&copy;Half-Baked Software. Loading...</body></html>';
+}
+
+//-->
+
+//]]>
+
+</script> 
+ </head> 
+ <!--<body>Fool those dumb ad-inserting ISPs</body>--> 
+ <!--For full XHTML 1.0 compatibility, remove the border and framespacing attributes.
+These are required for proper display in current browsers, but render the document incompatible. Then, you'll need to add the appropriate Document Type Declaration; use
+the W3C XHTML 1 frameset DTD.--> 
+ <frameset rows="120,*" framespacing="0" border="0" onload="StartUp()"> 
+  <frame src="javascript:parent.Blank()" frameborder="0" name="TopFrame"> 
+  <frame src="javascript:parent.Blank()" frameborder="0" name="BottomFrame"> 
+ </frameset>  
+</html>

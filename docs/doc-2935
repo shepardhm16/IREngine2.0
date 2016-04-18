@@ -1,0 +1,540 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	AIM Projects
+</title>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="AIM Projects">
+  <meta name="Description" content="Virginia Military Institute is a small, public, nationally-ranked college committed to leadership development in a military environment in Lexington, Virginia. VMI instills values of honor, discipline, selflessness, commitment, duty, self-reliance, and service. VMI is recognized as one of America’s top colleges for liberal arts and sciences by US News &amp;amp; World Report, The Princeton Review, and Peterson’s Guide to Competitive Colleges. US News ranks VMI’s engineering programs among the twenty best in America. Men and women of VMI are free to choose military or civilian careers.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=10737422662" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCDw8PFgIeB1Zpc2libGVoZGQCEw9kFgQCAQ8PFgIfCGdkZAIFD2QWAgIBD2QWAmYPZBYCZg8WAh8IZxYCAgEPDxYCHwIFJy91cGxvYWRlZEltYWdlcy9JbWFnZXMvSGVhZGVycy9tYXRoLmpwZ2RkZOwiNS322ESH0sCl2tPl5TMjrmY2L22vJxEjoqTS06fI"> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAQpgJPqt/OC2SmD+61CqrAHg7Z1sS2zTNHf3/IxWgcxRFSOGbegovGRRqrbhyvyJGWQuO5O7PDGe2zLg4RZuxgscqghPD2DjHCE8YYc/b9T/Yi7ibPw6fjzD1sFQj1Vc5Q="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+        <li><a href="/Content.aspx?id=10737429727" target="_self">Applied Mathematics Home</a></li>
+        <li><a href="/content.aspx?id=17323" target="_self">Degrees &amp; Programs</a></li>
+        <li><a href="http://vmi.catalog.acalog.com/preview_entity.php?catoid=15&amp;ent_oid=353&amp;returnto=448" target="_blank">Courses</a></li>
+        <li><a href="/Content.aspx?id=2292" target="_self">Advising</a></li>
+        <li><a href="/Content.aspx?id=10737425854" target="_self">Math Education Resource Center</a></li>
+        <li><a href="/Content.aspx?id=10737419979" target="_self">Affordable Textbooks - APEX</a></li>
+        <li class="selected"><strong><a href="/Content.aspx?id=10737422660" target="_self">AIM Program</a></strong>
+         <ul>
+          <li><a href="/Content.aspx?id=10737422661" target="_self">AIM Client Services</a></li>
+          <li><a href="/Content.aspx?id=10737422663" target="_self">AIM Faculty Advisors</a></li>
+          <li class="selected"><strong><a href="/Content.aspx?id=10737422662" target="_self">AIM Projects</a></strong></li>
+         </ul></li>
+        <li><a href="/Content.aspx?id=4294974313" target="_self">Faculty</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft1570"> 
+        <address><a href="mailto:thompsonlf@vmi.edu" title="Loretta Thompson">Loretta Thompson</a><br>Executive Secretary<br><br>P:&nbsp; (540) 464-7335<br>F:&nbsp; (540) 464-7214<br><br>402 Mallory Hall<br>Virginia Military Institute<br>Lexington, VA&nbsp; 24450<br><br><a href="mailto:HartmanGN@vmi.edu">Contact MACS Webmaster</a></address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/" title="">Home</a> &gt; <a target="_self" href="/Content.aspx?id=54" title="">Academics</a> &gt; <a target="_self" href="/content.aspx?id=64" title="">Areas of Study</a> &gt; <a target="_self" href="/content.aspx?id=80" title="">Natural Science &amp; Mathematics</a> &gt; <a target="_self" href="/content.aspx?id=108" title="">Applied Mathematics</a> &gt; AIM Projects</span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/math.jpg" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <div class="content1">
+        <h1>Projects</h1>
+       </div>
+       <div class="accordion">
+        <div>
+         <a href="#" class="readMore">Shipping Optimization for Laser Tag Source</a>
+         <div class="more">
+          <p><strong>Shipping Optimization for Laser Tag Source&nbsp;</strong></p>
+          <p>Sponsor:&nbsp; Laser Tag Source<br>Cadet:&nbsp;&nbsp; Joe Bobay<br>Advisors:&nbsp; Ben Grannan and John David<br><br>Laser Tag Source is a laser tag rental company in Lynchburg, VA. They ship equipment to all 50 states in the US through UPS by ground. The problem that they presented us with is that they have spent about $60,000 in shipping alone last year and that shipping something to California from Lynchburg and back takes 13 days. They want us to find out if it is profitable to open a second distribution center, and find out exactly where that should be, the end goal being to reduce shipping costs, and to increase availability of merchandise.</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">M3 Judging Improvement</a>
+         <div class="more">
+          <p><strong>M3 Judging Improvement</strong></p>
+          <p>Sponsor:&nbsp; Society for Industrial and Applied Mathematics (SIAM)<br>Cadets:&nbsp; Austin States, Patrick Lenehan<br>Advisor:&nbsp; Jessica Libertini<br><br>This primary goal of this project was to help assess and make recommendations for improving the judging of a SIAM-sponsored high-school mathematical modeling competition, the Moody's Mega Math Challenge (also called M3). The M3 challenge uses hundreds of volunteer judges, mostly faculty from across the country, to assist in a triage round of judging, aiming at identifying which papers should advance into the final rounds of judging. Due to the disparity of judging scores, as individual judges bring their own biases, a calibration system is currently in place. Over the years, various calibration algorithms have been applied, but their effectiveness has been unmeasured. In this project we examined the effects of past, current, and proposed calibration systems, as well as calibration systems used by similar competitions. After analyzing these systems, the students made recommendations for improving the systems, as well as recommendations for future research.</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Predicting NCAA Basketball and NCAA Football through the Use of an Adaptive Neuro-Fuzzy Inference System</a>
+         <div class="more">
+          <p><strong>Predicting NCAA Basketball and NCAA Football through the Use of an Adaptive Neuro-Fuzzy Inference System</strong></p>
+          <p>Cadet:&nbsp; Connor Loken<br>Advisor:&nbsp; John David<br><br>This work looked at predicting all NCAA football and basketball games between 2012 and 2014 using a novel approach. The inputs for the prediction were the Las Vegas line along with the amount of web traffic for each team. We then used an adaptive neuro-fuzzy inferential system to predict the outcome of the game. This approach combines a neural network approach with a fuzzy logic membership function approach which proved to be extremely accurate in predicting the winners of all games.</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Pirate Detection</a>
+         <div class="more">
+          <p><strong>Pirate Detection</strong></p>
+          <p>Pirate DetectionSponsor: Johns Hopkins University Applied Physics LabCadet <br>Researchers: Stephen Mascioli, Cameron Armstrong, Ryan HarnerFaculty <br>Advisor: John David </p>
+          <p>This project was initiated to better understand the capabilities of naval sea and air assets off the Horn of Africa to be used as a tool against piracy in that region. A model was developed to simulate possible plane routes and pirate detection probabilities based off of realistic operating conditions in order to determine the maximum possible area coverage in a particular region over 7 days. Major factors in the model were the density of merchant ships in the region and the availability of patrolling assets. </p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Meal Delivery</a>
+         <div class="more">
+          <p>Sponsor: Valley Program for Aging Services (VPAS)<br>Cadet Researcher: Alex Falcetti<br>High School Interns: Stevan Hall-Mejia<br>Advisors: Nate Axvig and John David</p>
+          <p>One of the services VPAS provides is a program in which hot meals are delivered to homebound senior citizens for their noon meal. Currently, over 400 meals are served each day. </p>
+          <p title="temporary paragraph, click here to add a new paragraph">Our task was to find a more efficient way to route delivery drivers given the daily fluctuations in both volunteer aid as well as meal demand. To accomplish this, we designed an easy-to-use piece of software that employs a combination of genetic algorithms, allowing VPAS to deliver their meals in a more efficient manner.</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Energy Usage in the City of Lexington</a>
+         <div class="more">
+          <p>Sponsor: City of Lexington<br>Cadet Researcher: Robert “Chap” Michie<br>High School Interns: Kunal Ghandi and Stevan Hall-Mejia<br>Faculty Mentor: Geoffrey Cox</p>
+          <p>The City of Lexington is located in Rockbridge County, Virginia. The city owns and operates 27 buildings with 42 separate energy accounts: 13 natural gas and 29 electric. Prior to our project, all records of these accounts were handwritten documents kept within city hall, penciled in by a city employee. </p>
+          <p title="temporary paragraph, click here to add a new paragraph">The goals of the project were to first take this information and put it in a digital state and then provide a tool to analyze the data in question. Our tool allows the city to quickly access visual models of each building’s energy consumption so that improvements can be made and inefficiencies addressed. By looking at the visual models, the city can increase its overall sustainability, providing economic, environmental, and social benefits to the community.&nbsp; </p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Data Mining in Major League Baseball</a>
+         <div class="more">
+          <p>Sponsor: VMI Summer Undergraduate Research Initiative<br>Cadet Researcher: Will Lucas<br>Faculty Mentor: John David</p>
+          <p>Data Mining has become an increasingly popular technique in science, economics, business and sports, especially a sport with as rich data as baseball. In this project we mined millions of baseball statistics to predict which teams will win on a day to day basis as well as over entire seasons. </p>
+          <p>We focused on statistical techniques of regression, artificial neural networks and decision trees. </p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Real Interest Rate Prediction using Supervised and Unsupervised Learning Techniques</a>
+         <div class="more">
+          <p>Real Interest Rate Predictionusing Supervised and Unsupervised Learning Techniques<br>Sponsor: National Science Foundation<br>Researcher: Robert Michie<br>Advisor: Atin Basuchoudhary and John David</p>
+          <p>This project examines factors of political risk and theirability to influence and predict real interest rates. Various data miningtechniques were used on the ICRG researcher dataset for political risk, whichis made up of 12 weighted components. </p>
+          <p>&nbsp;The dataset contains data from the years1984 to 2008 for 37 countries. Unsupervised learning techniques were used inorder to find hidden structures within the data itself, while supervisedlearning techniques were used to make future predictions of the real interestrate. <span style="">&nbsp;</span></p>
+          <p>&nbsp;The key points of this work arethat money growth is not a good predictor of real interest rates, as well asthe fact that a committee of artificial neural networks proved to best thestrongest model in terms of predictive performance, and finally that there arecertain political risk factors that are indicative of changes in real interestrates. </p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">NBA Data Mining and Predictive Modeling</a>
+         <div class="more">
+          <p>Sponsor: VMI<br>Cadet Researcher: James T. Snyder<br>Advisor: John A. David<br>Virginia Military Institute<br>June 20, 2013</p>
+          <p>&nbsp;In this project we explore the importance of data in the process of making predictions of outcomes of National Basketball Association (NBA) games. </p>
+          <p>&nbsp;We use NBA statistics for the 2004-2005 season up to and including the 2010-2011 season. We utilize unsupervised learning techniques to gain an informed understanding of our data and how it operates. These techniques include Clustering, Principal Component Analysis, and Factor Analysis. We learn predictive capabilities and the different ways in which the statistics impact the outcome of an NBA game. We also use supervised learning techniques to build models in order to make predictions on the score differential between two teams in a given game. </p>
+          <p>&nbsp;Committees of Artificial Neural Networks (ANN’s) and Forests of Decision Trees are built based on data leading up to seasons we wish to predict. In this study the most accurate models are built using data from all seasons, 2004-2009, and then evaluated using 2010 data to make predictions. Our most accurate model predicted 2010-2011 NBA game winners with an average accuracy of 72.45% and a mean error of 8.32 points.</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Reduction of Shipping Errors Using Data Mining and Data Analysis </a>
+         <div class="more">
+          Cadet Researchers: William Lucas and Steven Geyer
+          <br>Advisor: Nate Axvig
+          <br>
+          <br>Different data mining techniques were used to assess the data that we received from the client. The two main techniques used to analyze the data were artificial neural networks and multiple regression analysis. 
+          <br>
+          <br>The goal of the project was to be able to predict errors on a given order. The two techniques yielded comparable results but due to the complexity of the neural networks we decided to use the multiple regression model to present to our client because it is much simpler to for them to use.
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Data Management for the United Way of Greater Augusta</a>
+         <div class="more">
+          Sponsor: United Way of Greater Augusta
+          <br>Cadet Researcher: John Zippel
+          <br>Advisor: Meagan Herald
+          <br>
+          <br>The United Way of Greater Augusta strove to build a database containing facts and figures specific to greater Augusta County, as well as the Virginia comparisons, with emphasis on making it easily updatable for United Way employees and quickly navigable for any member of the community interested in browsing local data.
+          <br>
+          <br>Another goal of this project is to pinpoint not only the main problems in the community, but connecting the factors that are causing them. In that way, support will be used to resolve the cause of the problem, not a symptom of it. 
+          <br>
+          <br>The database, which included data analysis such as multiple linear regressions and statistical hypothesis tests, could identify what the symptoms are and begin to link some of the factors in order to discover the causes.
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Process Reengineering and Optimization for Vector Industries</a>
+         <div class="more">
+          Sponsor: Vector Industries
+          <br>Cadet Researchers: Alexander Lin
+          <br>Advisor: Geoffrey Cox
+          <br>
+          <br>Vector Industries is a non-profit employment oriented organization that works to provide individuals with disabilities financial and social independence. Their services include providing complex product assembly, packaging, product testing, and much more. 
+          <br>Recently, Vector has decided to make efforts in transforming specific business operations and processes to ultimately improve their organization's performance. These processes involve the analysis of large amounts of financial data, employee wages, and transportation routes for picking up employees. 
+          <br>
+          <br>To assist in their efforts, a MATLAB transportation routing program was utilized for reducing transportation expenses. Additionally, Microsoft Excel automation tools were developed that conserves time, decreases human error, and generates organized data sets.
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Modeling Food Prices and Minimizing Food Cost for Young Life</a>
+         <div class="more">
+          Sponsor: VMI and Young Life
+          <br>Advisor: John David
+          <br>
+          <br>This project was initiated to better the food buying practices of the Young Life Organization as well as to develop tools for them to utilize in this process. One tool analyzed past food invoices to determine when certain products will historically be the cheapest. 
+          <br>
+          <br>In addition tools were developed to help Young Life build a larger database allowing for their model to become better overtime and to normalize the price lists.
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Valuation of Selected Asset Classes Using Artificial Neural Networks</a>
+         <div class="more">
+          <p>Cadet: Jack Zippel<br>Faculty Advisor: Maj. John David<br>Sponsor: Davidson &amp; Garrard, Inc., David Hansen</p>
+          <p>The goal of this project was to value a set of exchange traded funds (ETFs) that Davidson &amp; Garrard may use as indicators of market potential. Predicting the prices of the ETFs allows for an effective valuation technique: if the price will increase, the ETF is currently undervalued and vice versa. </p>
+          <p>Predictions spanning two years provide optimal results given that short term market oscillations distort greater trends and larger economic events drastically change long term market direction.</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Data Analysis for American Shakespeare Center</a>
+         <div class="more">
+          <p>Cadet: Ryan Poffenbarger<br>Faculty Advisor: Maj. Geoff Cox<br>Sponsor: American Shakespeare Center</p>
+          <p>This projects analyzed 13 years of patron and donor data with the primary interest being to understand seating preferences, customer retention and demographics, and donation patterns. </p>
+          <p>Through summarizing hundreds of thousands of ticket sales in simple statistics and graphical representation of these we were to give the Center clear quantitative evidence for how to better market and grow donations and ticket sales.</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Tool for Quantitative Understanding of Manufacturing Capability</a>
+         <div class="more">
+          <p>Cadets: Austin States and Josh Grant<br>Faculty Advisor: Maj. Randy Cone</p>
+          <p>This project worked for a local manufacturing firm to help them develop a quantitative tool to better understand their production process and capability. </p>
+          <p>This tool gives guidance on how to flex production to produce orders in an efficient and timely manner while considering variation in product demand, multiple machines in the production process with varying capacity and reliability and variation in product production time.</p>
+         </div>
+        </div>
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

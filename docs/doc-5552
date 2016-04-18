@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head> 
+  <meta name="keywords" content="">
+  <meta name="description" content=""> 
+  <title>Ashleigh Smythe - Marine nematode research - Hamilton College</title> 
+  <link type="text/css" href="styles/personaltemplate1.css" rel="stylesheet" media="screen"> 
+  <link type="text/css" href="styles/jquery-ui-1.8.16.custom.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/formstyle.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/cluetip.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/page.css" rel="stylesheet" media="screen"> 
+  <link type="text/css" href="styles/jqModal.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/prettyPhoto.css" rel="stylesheet" media="all"> 
+  <script type="text/javascript" src="scripts/jquery/jquery.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/ui/1.8.4/js/jquery-ui-1.8.4.custom.min.js"></script> 
+  <script type="text/javascript" src="scripts/page.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jquery.cluetip.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqModal.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqDnR.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqForms.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jQuery.prettyPhoto.min.js"></script> 
+  <script type="text/javascript" src="scripts/modules/multimedia.js"></script> 
+  <script type="text/javascript" src="scripts/modules/nav.js"></script> 
+ </head> 
+ <body id="student1body" class="generic"> 
+  <script language="JavaScript" type="text/javascript">
+			<!--
+			$(document).ready(function() {
+				bodyHeight();
+				$(window).resize(bodyHeight);
+			});
+			bodyHeight = function() {
+				if($('body').height() < $(window).height()) $('body').height($(window).height());
+			};
+		// -->
+		</script> 
+  <div id="siteStructure"> 
+   <div id="siteHeader" class="pagecolumn"> 
+    <div id="719673A6-D849-772B-78137E28B676BC7D" class="sm-area"> 
+     <div id="89C7099D-DDAC-6744-1070C825FBC7A087" class="module full"> 
+      <div class="content module-style-0 " style="text-align:center;"> 
+       <div class="modulecontent"> 
+        <h2> &nbsp;</h2> 
+        <h2> Marine Nematode Research</h2> 
+        <p> &nbsp;</p> 
+        <!-- Import jQuery and SimpleModal source files --> 
+        <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+        <div id="newwindow" class="jqmDialog"> 
+         <a href="#" class="jqmdX jqmClose"></a> 
+         <div class="jqmdTL jqDrag">
+          <h3 class="jqmdTC" id="newwindow_title"></h3>
+         </div> 
+         <div class="lowerWindow"> 
+          <div class="jqmdMSG" id="newwindow_content"> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="siteNav"> 
+    <div id="71967404-BD36-313B-FE27E841D8710FF9" class="sm-area"> 
+     <div id="1D896031-E63E-9B35-21DD0AD5D683E1D2" class="module full"> 
+      <div class="content "> 
+       <div class="modulecontent"> 
+        <ul class="navHorizontal navHeads"> 
+         <li class="navHead" id="navHead1"> 
+          <div class="headBox headBoxActive" id="1F13DBFB-B7B5-E1F3-AB8FC3A245268CA9"></div> </li> 
+        </ul> 
+        <div class="styled-select"> 
+         <select name="mobilesubnav" class="mobilesubnav" style="display:none;" onchange="location.href=this[this.selectedIndex].value;"> <option selected value="#">Menu</option> <optgroup label="Links Links" class="navHead" id="navHead1"> </optgroup> </select> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="pageContent"> 
+    <div id="left" class="pagecolumn"> 
+     <div id="71967440-E9D5-C21E-1BACA9C85CF22DD7" class="sm-area"> 
+      <div id="899C8388-C674-5109-89DE3ED9BAC3A1CD" class="module full"> 
+       <div class="content module-style-0 " style="text-align:center; margin-top:-80px;"> 
+        <div class="modulecontent"> 
+         <!-- insert menu here --> 
+         <h4 class="h4a"> &nbsp;</h4> 
+         <h4 class="h4a"> <a href="Default.asp">Home</a></h4> 
+         <h4 class="h4a"> <a href="news.asp">News</a></h4> 
+         <h4 class="h4a"> <a href="marine-nematode-research.asp">Marine Nematode Research</a></h4> 
+         <h4 class="h4a"> <a href="parasitology-research.asp">Parasitology Research</a></h4> 
+         <h4 class="h4a"> <a href="thesis-research.asp">Student Research</a></h4> 
+         <h4 class="h4a"> <a href="teaching.asp">Teaching</a></h4> 
+         <h4 class="h4a"> <a href="publications.asp">Publications</a></h4> 
+         <h4 class="h4a"> <a href="education2.asp">Education</a></h4> 
+         <h4 class="h4a"> <a href="http://www.vmi.edu/Content.aspx?id=10737425148&amp;libID=10737425142" target="_blank">VMI Biology</a><br> </h4> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="89D3F05D-D479-BA05-C7FFF9AA4CC6D675" class="module full"> 
+       <div class="content module-style-0 " style="text-align:center;"> 
+        <div class="modulecontent"> 
+         <h5> <span class="imagecaptions"> Ashleigh B. Smythe<br> Virginia Military Institute<br> Lexington, VA 24450<br> Office: 301 Maury-Brooke Hall<br> Office Phone: 540-464-7054<br> Email: <a href="mailto:smytheab@vmi.edu">smytheab@vmi.edu </a> </span> </h5> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="wideright" class="pagecolumn"> 
+     <div id="71967479-AE95-A645-7E5245EADB82E4FA" class="sm-area"> 
+      <div id="4EE7DF11-F35D-7DE7-48A93EECA0D91D40" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Biodiversity and Biogeography of Marine Meiofauna</h3> 
+         <p> Meiofauna are small animals found in sand, including some entire phyla (e.g. Kinorhyncha and Gastrotricha) and major clades of other phyla (e.g. Platyhelminthes, Arthropoda, Annelida, Nematoda).&nbsp; In nearly all marine sediments, nematodes are the most abundant and diverse members of the meiofauana.&nbsp; I am currently collaborating with a number of colleagues in a project funded by the Smithsonian Institution's <a href="http://www.si.edu/marinescience/" target="_blank">Marine Science Network</a> to explore spatial and habitat patterns of meiofauna diversity.&nbsp; The project is led by <a href="http://invertebrates.si.edu/staff/norenburg.cfm" target="_blank">Jon Norenburg</a> of the Smithsonian's National Museum of Natural History (NMNH).&nbsp; We are using both morphology and DNA barcode data to document meiofauana diversity at sites in Belize and Panama.</p> 
+         <h4> Marine Nematode Diversity at Carrie Bow Cay, Belize</h4> 
+         <p> The Smithsonian NMNH maintains a marine laboratory on <a href="http://nmnhmp.riocean.com/site.php?siteIndex=0" target="_blank">Carrie Bow Cay</a> in Belize. This one acre island sits 10 miles offshore on the Mesoamerican Barrier reef.&nbsp; In January of 2010 I joined 5 other meiofauana experts for 2 weeks of meiofauna collecting on Carrie Bow Cay.&nbsp; My Mexican colleague <a href="http://bdi.ecosur.mx/personal/informaciongeneral.aspx?ID=DeJesusAlberto" target="_blank">Alberto de Jesus Navarrete</a> and I are currently compiling a preliminary checklist of the marine nematodes from Carrie Bow Cay from this and my prior collecting efforts there.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="1E2E2C48-F4B8-4E07-3CF8379FCC07D950" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div class="mod_multimedia"> 
+          <div class="mod_multimedia_media"> 
+           <a href="/assets/mmlibrary/images/original/carriebowcaybelize.jpg" rel="prettyPhoto[1E53D42C-05AC-236A-C016A0CFD8545AF6]" title="The Smithsonion marine station Carrie Bow Cay, Belize"> <img src="images/medium/carriebowcaybelize.jpg" alt="The Smithsonion marine station Carrie Bow Cay, Belize" title="CarrieBowCay" border="0"> </a> 
+          </div> 
+          <div class="mod_multimedia_footer"> 
+           <div class="mod_multimedia_caption" style="width:300px;">
+            The Smithsonion marine station Carrie Bow Cay, Belize
+           </div> 
+          </div> 
+          <div style="clear:both;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="1F09B13C-AE74-3421-0FF9BB520687EE26" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h4> Marine Nematode Diversity at Bocas del Toro, Panama</h4> 
+         <p> I have also made several collecting trips to the <a href="http://www.stri.org/" target="_blank">Smithsonian Tropical Research Institute</a>'s (STRI) <a href="http://www.stri.org/english/research/facilities/marine/bocas_del_toro/" target="_blank">Bocas del Toro</a> marine research laboratory on the Caribbean coast of Panama.&nbsp; As part of my marine meiofauana biogeography collaboration, my colleagues and I conducted a <a href="http://www.stri.si.edu/sites/taxonomy_training/past_courses/2010/2010_encyclopedia_of_life.html" target="_blank">Meiofauna Diversity and Taxonomy Training course</a> at Bocas del Toro in June, 2010.&nbsp; This workshop was sponsored by the Smithsonian and the <a href="http://www.eol.org/" target="_blank">Encyclopedia of Life</a>.&nbsp;</p> 
+         <p> My Hamilton College students and I are working to characterize the nematode diversity from this island and surrounding archipelago to contribute to STRI's growing on-line <a href="http://biogeodb.stri.si.edu/bocas_database/" target="_blank">species database</a> for Bocas del Toro.&nbsp; In the summer of 2010, my students mounted over 1,000 nematodes on slides and fully imaged 60 species, with detailed images of head and tail regions and reproductive structures needed for identification.&nbsp; One sample database entry can be seen <a href="http://biogeodb.stri.si.edu/bocas_database/search/species/6731?" target="_blank">here</a>.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="pageFooter">
+     The material on this personal site may not necessarily reflect the views of Virginia Military Institute.
+    </div> 
+   </div> 
+  </div>   
+ </body>
+</html>

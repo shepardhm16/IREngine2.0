@@ -1,0 +1,154 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+  <meta name="GENERATOR" content="Microsoft FrontPage 5.0"> 
+  <meta name="ProgId" content="FrontPage.Editor.Document"> 
+  <title>VMI Silent Witness</title> 
+  <meta name="Microsoft Border" content="none"> 
+ </head> 
+ <body stylesrc="background.htm" link="#660033" vlink="#660033" alink="#DE9B2B"> 
+  <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr> 
+     <td width="100%" height="2"></td> 
+    </tr> 
+    <tr> 
+     <td width="100%"><a href="http://www.vmi.edu/"><img border="0" src="http://www2.vmi.edu/SilentWitness/images/vmi_head.gif"></a></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" summary="Page Header Layout" style="font-family: Arial; font-size: 10pt" bgcolor="#EBEADC"> 
+   <tbody>
+    <tr> 
+     <td colspan="3"> <font size="1"><font face="Arial"></font></font> 
+      <hr width="99%" color="#000099"> </td> 
+    </tr> 
+    <tr> 
+     <td align="LEFT" width="120" valign="bottom"> <font size="1">&nbsp; (<a style="text-decoration: none" href="http://www2.vmi.edu/SilentWitness/Logoff.asp">Silent Witness Home</a><a style="text-decoration: none">)</a></font></td> 
+     <td align="center" nowrap> <b><font face="Times New Roman" size="7"><font color="#CFCDBA">Silent</font><font color="#999999"> </font><font color="#000099">Witness</font></font></b></td> 
+     <td align="right" width="120" valign="bottom"><font size="1">(<a href="http://www2.vmi.edu/SilentWitness/Admin/Logon.asp" style="text-decoration: none">Admin</a>)</font>&nbsp;&nbsp;&nbsp; </td> 
+    </tr> 
+    <tr> 
+     <td colspan="3" valign="bottom"> 
+      <hr width="99%" color="#000099"> </td> 
+    </tr> 
+   </tbody>
+  </table>     
+  <meta http-equiv="Content-Language" content="en-us"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+  <meta name="GENERATOR" content="Microsoft FrontPage 6.0"> 
+  <meta name="ProgId" content="FrontPage.Editor.Document"> 
+  <title>SILENT WITNESS</title> 
+  <style>
+<!--
+div.Section1
+	{page:Section1;}
+-->
+</style>   
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="font-family: Arial; font-size: 10pt"> 
+   <tbody>
+    <tr> 
+     <td width="100%" bgcolor="#EBEADC" height="30"> 
+      <div align="center"> 
+       <center> 
+        <table border="0" cellpadding="0" cellspacing="0" width="99%"> 
+         <tbody>
+          <tr> 
+           <td width="100%" align="center" bgcolor="#CFCDBA"><b><font size="3">Report a crime or a concern ANONYMOUSLY!</font></b></td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </center> 
+      </div> </td> 
+    </tr> 
+    <tr> 
+     <td width="100%" align="center" bgcolor="#EBEADC">Please use the Silent Witness form to report all crimes or concerns to the VMI Police.&nbsp; All information is received <b>anonymously</b>.&nbsp; The VMI Police may also be contacted directly by telephone at <font face="Arial" size="2">(540) 463-9177 or by e-mail at </font><font color="navy"><span style="color: navy; font-family: Casque"> <a title="mailto:police@vmi.edu" href="mailto:police@vmi.edu"> police@vmi.edu</a></span></font><font face="Arial" size="2">. </font>Please complete in detail as much of the form as possible.</td> 
+    </tr> 
+    <tr> 
+     <td width="100%" bgcolor="#EBEADC"> 
+      <hr color="#000099" width="99%"> </td> 
+    </tr> 
+    <tr> 
+     <td width="100%"></td> 
+    </tr> 
+    <tr> 
+     <td width="100%"> 
+      <form method="POST" action="default.asp"> 
+       <div align="center"> 
+        <center> 
+         <center> 
+         </center>
+         <table border="0" cellpadding="2" cellspacing="0" style="font-size: 10pt"> 
+          <tbody>
+           <tr> 
+            <td align="right" nowrap><b>Indicate</b><b> the type of crime:</b></td> 
+            <td><select size="1" name="Crime"> <option value="no crime selected" selected>Select a crime</option> <option value="Assault">Assault</option> <option value="Drugs">Drugs</option> <option value="Fraud">Fraud</option> <option value="Theft">Theft</option> <option value="Vandalism">Vandalism</option> <option value="Other">Other (please specify)</option> </select></td> 
+            <td align="right"><font size="1">Other crime: <input type="text" name="Crime_other" size="20"></font></td> 
+           </tr> 
+           <tr> 
+            <td align="right" nowrap><b>Crime Location:</b></td> 
+            <td><select size="1" name="Location"> <option selected value="no location specified">Select crime location</option> <option value="Barracks">Barracks</option> <option value="Baseball Field">Baseball Field</option> <option value="Cameron Hall">Cameron Hall</option> <option value="Carroll Hall">Carroll Hall</option> <option value="Cocke Hall">Cocke Hall</option> <option value="Crozet Hall">Crozet Hall</option> <option value="Football Field">Football Field</option> <option value="Jackson Memorial Hall">Jackson Memorial Hall</option> <option value="Kilbourne Hall">Kilbourne Hall</option> <option value="Lejeune Hall">Lejeune Hall</option> <option value="Mallory Hall">Mallory Hall</option> <option value="Maury-Brooke Hall">Maury-Brooke Hall</option> <option value="Moody Hall">Moody Hall</option> <option value="Nichols Engineering Hall">Nichols Engineering Hall</option> <option value="Parade Ground">Parade Ground</option> <option value="Preston Library">Preston Library</option> <option value="Science Building">Science Building</option> <option value="Scott Shipp Hall">Scott Shipp Hall</option> <option value="Smith Hall">Smith Hall</option> <option value="Soccer Field">Soccer Field</option> <option value="Tennis Courts">Tennis Courts</option> <option value="VMI Infirmary">VMI Infirmary</option> <option value="Other">Other (please specify)</option> </select></td>  
+            <td><font size="1">Other location: <input type="text" name="Location_other" size="20"></font></td> 
+           </tr> 
+           <tr> 
+            <td align="right" nowrap><b>Crime Address:</b></td> 
+            <td colspan="2"><input type="text" name="Address" size="40"><font size="1">(i.e. room number,floor,etc.)</font></td> 
+           </tr> 
+           <tr> 
+            <td align="right" nowrap><b>Date/Time of Crime:</b></td> 
+            <td colspan="2"><input type="text" name="DateTime" size="40"></td> 
+           </tr> 
+           <tr> 
+            <td align="right" nowrap><b>Explanation of Crime:<br> </b><font sans-serif helvetica, arial, size="1">Explain why you suspect the crime<br> &nbsp;is being committed/or was committed.</font></td> 
+            <td colspan="2"><textarea rows="3" name="Explanation" cols="46"></textarea></td> 
+           </tr> 
+           <tr> 
+            <td align="right" nowrap><b>Suspect's Name or Description:<br> </b><font size="1">If suspect's name is unknown,<br> give a description (i.e.. clothing,<br> height, gender, etc.)</font></td> 
+            <td colspan="2"><textarea rows="3" name="Suspect" cols="46"></textarea></td> 
+           </tr> 
+           <tr> 
+            <td align="right" nowrap></td> 
+            <td></td> 
+            <td></td> 
+           </tr> 
+           <tr> 
+            <td nowrap colspan="3"> 
+             <hr color="#000099" size="1"> </td> 
+           </tr> 
+           <tr> 
+            <td align="center" nowrap colspan="3"><font size="1">If you should wish to submit your identity, please enter your name or other identification below.</font></td> 
+           </tr> 
+           <tr> 
+            <td align="right" nowrap><b><font color="#000099">* * * * OPTIONAL * * * *</font>:</b></td> 
+            <td colspan="2"><input type="text" name="Identity" size="40"><br> </td> 
+           </tr> 
+           <tr> 
+            <td nowrap colspan="3"> 
+             <hr color="#000099" size="1"> </td> 
+           </tr> 
+           <tr> 
+            <td align="right" nowrap></td> 
+            <td></td> 
+            <td></td> 
+           </tr> 
+           <tr> 
+            <td align="right" nowrap></td> 
+            <td colspan="2"><input type="submit" value="Send Crime Report" name="formaction">&nbsp; <input type="reset" value="Clear Form" name="B2"></td> 
+           </tr> 
+          </tbody>
+         </table> 
+        </center> 
+       </div> 
+       <p>&nbsp;</p> 
+      </form> <p>&nbsp;</p></td> 
+    </tr> 
+    <tr> 
+     <td width="100%"></td> 
+    </tr> 
+    <tr> 
+     <td width="100%"></td> 
+    </tr> 
+   </tbody>
+  </table>   
+ </body>
+</html>

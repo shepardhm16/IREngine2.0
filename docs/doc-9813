@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta content="charset=utf-8"> 
+  <meta name="description" content="James Squire Student Project"> 
+  <meta name="keywords" content="Brian Holt, Tsung-Ta Ho, Jenny Dineen, James Squire, Jim Squire, Professor James Squire, VMI, Courses, Teaching, Personal, ECE"> 
+  <title>Parking</title> 
+  <link href="../../../squire.css" rel="stylesheet"> 
+  <link href="../student pages.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <div class="center"> 
+   <h2>Computerized Parking Garage</h2> 
+   <p>by Brian Holt, Jenny Dineen, Tsung-Ta Ho '03</p> 
+   <p><img src="holt_large.jpg" alt="small scale model of system"></p> 
+  </div> 
+  <div class="studentText"> 
+   <p>Increasing traffic density is causing severe parking lot congestion in many areas of the country. One day as Brian Holt found himself endlessly circling a parking garage he thought there has to be a better way to route cars to a predetermined parking location. There have been several proposed methods to do this, but yet no systems have been implemented to route cars in a crowded garage to an optimal parking space in a cheap and efficient manner. By combining principles from electrical engineering, computer engineering, and mathematics we have developed an algorithm and supporting hardware/internet-based system that provides a solution to this difficult problem.</p> 
+   <p>The parking guidance system uses sensors placed in the vicinity of each parking location to detect vacancy. The data from the sensors is then transmitted to a main computer. Data is collected from each car entering a garage, both using automatic sensors (acquiring vehicle width and height, for example), and manually via a touch screen (asking questions such as: near what store would you prefer to park? Do you require handicapped access?). The user need not enter any manual data; it is entirely optional and any data not provided will be filled with default answers (e.g. if no desired store is listed, then the car will be routed to the parking spot closest to any entrance).</p> 
+   <p>An algorithm was developed that uses matrix algebra to compare the data describing the user's needs with data describing every available parking space, and assigns a weighted score to each parking location. The optimal parking location is determined from this score and communicated to the user via a display at the entrance and by a printed ticket. All parking statistics are also available remotely via the Internet through a web server, which constantly updates every couple of seconds. This enables parkers to decide which parking garage to select in a large mall with multiple garages, and provides parking lot management with real-time data that may be used to automatically reroute traffic from full lots to available lots or move parking attendants.</p> 
+   <p>We received patent protection for this algorithm-based system. Although systems have been developed that guide cars to predetermined spots, this system differs in the fact that the algorithm considers both the garage managers input and user/customers input. It is also flexible; nearly any parameter can be described by the garage manager.</p> 
+   <p>This project was jointly completed by Brian Holt ('03), Jenny Dineen ('03), Tsung-Ta Ho ('03) and advised by MAJ James Squire, with MAJ Troy Siemers advising on algorithm development.</p> 
+  </div> 
+  <p class="center"><a href="../student_pages.htm">Back</a></p>  
+ </body>
+</html>

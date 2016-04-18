@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>Reserve Officers Training Corps - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/vmi/img/favicon/favicon.ico"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules">
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]--> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript> 
+  <a href="#accesskeys" accesskey="k"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="The page uses Browser Access Keys to help with keyboard navigation. Click to learn more" style="height: 0px"></a>
+  <a href="#acalog-nav" accesskey="n"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a>
+  <a name="accesskeys"></a>
+  <div class="accesskeys"> 
+   <p>Different browsers use different keystrokes to activate accesskey shortcuts. Please reference the following list to use access keys on your system.</p> 
+   <dl> 
+    <dt>
+     Alt and the accesskey, for Internet Explorer on Windows
+    </dt> 
+    <dt>
+     Shift and Alt and the accesskey, for Firefox on Windows
+    </dt> 
+    <dt>
+     Shift and Esc and the accesskey, for Windows or Mac
+    </dt> 
+    <dt>
+     Ctrl and the accesskey, for the following browsers on a Mac: Internet Explorer 5.2, Safari 1.2, Firefox, Mozilla, Netscape 6+.
+    </dt> 
+   </dl> 
+   <p>We use the following access keys on our gateway</p> 
+   <dl> 
+    <dt>
+     n Skip to Navigation
+    </dt> 
+    <dt>
+     k Accesskeys description
+    </dt> 
+    <dt>
+     h Help
+    </dt> 
+   </dl> 
+  </div>
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"><span class="n1_header"> Virginia Military Institute</span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2012-2013 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15">2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1" selected>2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="1"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=1" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=1" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=16" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=13" class="navbar" tabindex="107">Institute Calendar 2012-2013</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=14" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=15" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=4" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=17" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=18" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=21" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=22" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=23" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=27" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=19" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=44" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=3" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=29" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=56" class="navbar" tabindex="121">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td> 
+                  <div class="help_block" style="float: right">
+                   <a href="help.php?catoid=1" onclick="javascript:acalogPopup('help.php?catoid=1', 'help', 770, 530, 'yes');return false;" class="help" tabindex="203" accesskey="h" target="_blank"><b>HELP</b></a>
+                  </div> <span class="acalog_archived_catalog"><span class="acalog_catalog_name">2012-2013 Academic Catalogue</span></span> <span class="n1_archived acalog-highlight-ignore" style="padding: 0px">[ARCHIVED CATALOG]</span><br> <h1 id="acalog-content"> Reserve Officers Training Corps </h1> 
+                  <div style="float: right">
+                   <a rel="nofollow" href="/content.php?catoid=1&amp;navoid=19&amp;print" onclick="acalogPopup('/content.php?catoid=1&amp;navoid=19&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                  </div>
+                  <div class="acalog-social-media-links" style="float: right;"> 
+                  </div> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <hr> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <table class="acalog-export-remove" border="0" cellspacing="0" cellpadding="0" width="100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td valign="top" width="50%"> 
+                      <ul> 
+                       <li><a href="#Army">Army</a></li> 
+                       <li><a href="#Navy_and_Marine_Corps">Navy and Marine Corps</a></li> 
+                       <li><a href="#Air_Force">Air Force</a></li> 
+                       <li><a href="#ROTC_Scholarships">ROTC Scholarships</a></li> 
+                       <li><a href="#Physical_Requirements">Physical Requirements</a></li> 
+                       <li><a href="#Benefits">Benefits</a></li> 
+                      </ul> </td> 
+                     <td valign="top" width="50%"> 
+                      <ul> 
+                       <li><a href="#Summer_Training">Summer Training</a></li> 
+                       <li><a href="#Commissions">Commissions</a></li> 
+                       <li><a href="#Credits_for_Previous_Military_Service_or_ROTC">Credits for Previous Military Service or ROTC</a></li> 
+                       <li><a href="#Federal_Selective_Service_Registration_Law">Federal Selective Service Registration Law</a></li> 
+                       <li><a href="#Advising___Reserve_Officer_Training_Corps__ROTC__Curriculum">Advising &amp; Reserve Officer Training Corps (ROTC) Curriculum</a></li> 
+                      </ul> </td> 
+                    </tr> 
+                   </tbody> 
+                  </table> 
+                  <hr> <p>At VMI the Department of Defense maintains Army, Naval, and Air Force Reserve Officers Training Corps (ROTC) units. Every cadet must take ROTC as an all-college program requirement for completion of their degree.</p> <p>All cadets who either desire to commission or otherwise meet Navy/Marine or Air Force ROTC eligibility criteria can enroll in those ROTC programs at VMI. Cadets who desire to commission in the Army, or who do not meet the criteria for the other services, will be enrolled in the Army ROTC Program. Cadets are encouraged to consult with the VMI ROTC detachments if they have questions, and are eligible to declare those ROTC designations upon approval from the appropriate unit.</p> <p>All cadets who are citizens of the United States and who qualify physically, mentally, and morally are encouraged to contract with an ROTC unit. The length of the active duty and reserve status period varies with the personnel needs of the Department of Defense. VMI can make no guarantee of enrollment or of continuance in the ROTC as these matters are controlled by the Federal government.</p> <h2><a name="Army"></a>Army</h2> <p>The mission of Army ROTC is to commission the future officer leadership of the U.S. Army and to motivate young people to be better citizens. Any cadet interested in developing leadership skills in a challenging environment will benefit from what Army ROTC has to offer. Those cadets who are committed to serving their county and who desire a career as a commissioned Army officer will find themselves well prepared by the top Army ROTC program in the nation. This four-year program is divided into a basic and an advanced course. The Basic Course, during a cadet’s first two years, consists of instruction in the basics of teamwork, leadership, and exciting hands-on skills. The Advanced Course, for cadets in their last two years, focuses on practical group leadership and advanced military skills. Army ROTC is centered on leadership development, with individual feedback and counseling provided to each cadet. Cadets will learn in both classroom and field environments, and Army ROTC offers a Field Training Exercise each semester, designed to enhance cadets’ confidence, teamwork, and leadership abilities. In addition, Army ROTC sponsors a number of extracurricular cadet clubs and activities, including the Cadet Battery, Ranger Company, and the Ranger Challenge competition. Cadets pursuing an Army commission are strongly encouraged to participate in these activities, but all are welcome.</p> <p>Qualified cadets are encouraged to contract with Army ROTC as a scholarship or non-scholarship cadet. Contracted cadets receive a monthly stipend of $300 during the freshman year, $350 as a sophomore, $450 as a junior, and $500 during the senior year. Contracting is the first step toward earning a commission as a second lieutenant in the U.S. Army.</p> <p>In addition to eight semesters of Army ROTC, cadets pursuing a commission must complete a professional military educational requirement of one semester of U.S. military history. They must also succeed during the five-week Leadership Development and Assessment Course (LDAC), known as “Warrior Forge,” which takes place during the summer between the junior and senior years. On a competitive basis, cadets may also attend other training during summer breaks. This training includes Army courses such as Airborne, Air Assault, Northern Warfare, and The Mountain Warfare. To be considered for this training, cadets must be intent on commissioning.</p> <p>Army ROTC is a demanding program that requires commitment from each cadet. However, the rewards more than equal the effort. All cadets will benefit from a greater understanding of their country and its Army, and from practical, demonstrated leadership ability. Those cadets who choose to serve, upon successful completion of the program and graduation from VMI, will commission as a Second Lieutenant in the United States Army, Army Reserve, or Army National Guard.</p> <h2><a name="Navy_and_Marine_Corps"></a>Navy and Marine Corps</h2> <p>The Naval ROTC program is a four-year course of instruction designed to provide cadets the opportunity to earn regular commissions in either the Navy or the Marine Corps. Cadets who enroll in the Naval Science courses receive instruction leading to possible careers in the air, on land and at sea. Additionally, the classes acquaint cadets with the Marine Corps and all elements of the Marine Air Ground Task Force. Navy-option cadets will subsequently receive instruction in naval ship systems, navigation, ship operations, leadership and management. Marine-option cadets will study the evolution of warfare, leadership and amphibious warfare.</p> <p>The NROTC unit at VMI stresses the core values of honor, courage and commitment both in the classroom and through practical application designed to develop strong leadership skills. Activities outside the classroom include Navy and Marine Corps ceremonies and traditions, field training exercises and physical training. Two professional societies: Trident Society for Navyoption cadets and Semper Fi Society for Marine-option cadets, provide a forum for activities related specifically to each service. Field training exercises are dynamic events ranging from small unit tactics training at regional military bases to familiarization visits to operational ships and squadrons in the fleet.</p> <p>A cadet may become an NROTC midshipman either by selection for a national NROTC scholarship before matriculation at VMI or by nomination and selection after matriculation for either the scholarship or for the NROTC College Program. NROTC College Program cadets participate in NROTC classes and unit activities just like scholarship cadets. Advanced Standing College Program cadets do not receive scholarships but may receive monthly stipends of $350 during the junior year and $400 during the senior year. Graduation from VMI and completion of the Naval Science program can lead to a commission and service as a Navy or Marine Corps officer.</p> <h2><a name="Air_Force"></a>Air Force</h2> <p>The Air Force ROTC Program provides college-level education in order to qualify eligible cadets for commissioned service in the United States Air Force. The four-year program is offered in two distinct two-year courses: the General Military Course (GMC) and the Professional Officer Course (POC).</p> <p>The GMC concentrates on basic Air Force organization and air power history. Eligible GMC cadets may compete for a commission and are evaluated based on academics, physical fitness, and motivation. The POC is designed to build leadership and professional qualities by concentrating on the principles of leadership, management, and national security policies. AFROTC also sponsors a variety of extracurricular activities designed to increase leadership and management training and orient cadets to the Air Force. Such activities include base visits and a flight orientation program consisting of flying in a light aircraft operated by the Virginia Civil Air Patrol.</p> <p>Cadets may apply for career fields of their choice: such as pilot, combat systems officer, space and missile operations, research and development, and combat support. Entry into specific career fields depends on individual qualifications and the needs of the Air Force.</p> <p>A continuing need for officers with all backgrounds results in attractive scholarship opportunities. Students who accept an AFROTC scholarship incur the same basic service obligation as their non-scholarship counterparts. Scholarships range from two to four years in length and may cover full or partial tuition, $900 towards books and fees. AFROTC scholarships do not cover room and board or the VMI quartermaster charge.</p> <p>Successful completion of the AFROTC program results in a commission as a second lieutenant in the United States Air Force. The service obligation for non-flying officers is four years of active duty. For pilots and navigators, the service obligation is ten and six years, respectively, from completion of pilot and navigator training. For more information visit: <a target="_blank" href="http://www.afrotc.com">http://www.afrotc.com</a>.</p> <h2><a name="ROTC_Scholarships"></a>ROTC Scholarships</h2> <p>Four-year ROTC Scholarships are awarded to selected high school graduates on a national competitive basis. They are normally awarded by the services before matriculation at VMI; however, ROTC scholarships in college may become available for cadets based upon demonstrated performance, academic proficiency and motivation toward a service career. Details are available at each of the ROTC departments at VMI.</p> <p>Application deadlines for these scholarship programs normally fall near the end of the first semester of the senior year in high school. Details may be obtained from the following sources:</p> 
+                  <table border="0" cellspacing="0" cellpadding="0" width="100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td>Army:</td> 
+                     <td>Commander</td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td>U.S. Army Cadet Command</td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td>Attn: ATCC-PS</td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td>Fort Monroe, Virginia 23651</td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td>1-800-USA-ROTC</td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td><a target="_blank" href="http://www.armyrotc.com">www.armyrotc.com</a></td> 
+                    </tr> 
+                    <tr> 
+                     <td>Navy/Marine Corps:</td> 
+                     <td>Navy &amp; Marine Corps ROTC Program</td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td>College Scholarship Program</td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td>Navy Recruiting Command (5057)</td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td>Code 315</td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td>Millington, TN 38054-9901</td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td>1-800-NAV-ROTC</td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td><a target="_blank" href="http://www.nrotc.navy.mil/">www.nrotc.navy.mil/ </a></td> 
+                    </tr> 
+                    <tr> 
+                     <td>Air Force:</td> 
+                     <td>HQ AFROTC/RRUC</td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td>Maxwell AFB, AL 36112-6106</td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td><a target="_blank" href="http://www.afrotc.com">www.afrotc.com </a></td> 
+                    </tr> 
+                    <tr> 
+                     <td>&nbsp;</td> 
+                     <td>1-866-4AF-ROTC</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <p>There are numerous active duty and reserve forces duty oncampus scholarship opportunities for cadets enrolled in the Army ROTC program. Those interested cadets must meet minimum qualifying standards such as maintaining a 2.5 cumulative GPA, are United States citizens, and must be medically and physically qualified. These on-campus scholarships provide financial coverage for all cost minus room and board and the quartermaster fee, $1200 per semester for books, and a monthly stipend of up to $300-$500 per month during the academic year.</p> <p>Naval ROTC offers three and two year scholarship opportunities for qualified and recommended applicants. The general enrollment criteria are: Be a citizen of the United States, maintain at least a 2.5 grade point average on a 4.0 scale, be medically qualified, be at least 17 years of age on or before 30 June of the year of enrollment and be less than 25 years of age on 30 June of the calendar year in which commissioned, and be morally qualified and possess officer like qualifications. Scholarship benefits cover all academic tuition and certain fees, required books and academic equipment, Navy/Marine Corps Uniforms, $250-$400 per month in subsistence pay for a maximum of 10 months each year. This pay increases by $50 each year, so that as seniors, Midshipmen make $400 per month. The Navy also offers a twoyear, subsidized College Program for Cadets who want to serve their country in leadership roles as officers in the Navy or Marine Corps. Applicants for the College Program are selected from students already attending VMI. Prior to beginning their junior year, College Program Midshipmen with at least a 2.5 GPA will be considered for advanced standing. Midshipmen enrolled in this program receive the same Naval Science education as their counterparts in the scholarship program. After graduation, College Program Midshipmen are commissioned as Ensigns in the regular Navy or Second Lieutenants in the Marine Corps.</p> <p>Air Force ROTC has competitive 2 - 3 1/2 year scholarships that cover full or partial tuition and fees for freshmen and sophomore cadets enrolled in the program with a GPA of 2.5 or above and who meet other qualifying factors. AFROTC scholarships do not cover room and board or the VMI quartermaster charge.</p> <p>Matriculating freshman with a 3 or 4 year ROTC scholarship, who maintain satisfactory disciplinary standing with the Corps of Cadets and maintain their scholarship requirements will receive a $1,000 annual scholarship from VMI to help defray the costs of room and board. This scholarship is available for all 4 years if the recipient meets the noted academic and disciplinary guidelines.</p> <h2><a name="Physical_Requirements"></a>Physical Requirements</h2> <p>Specific physical requirements vary among ROTC programs. Cadets must be physically qualified for formal enrollment in the ROTC program of their choice, including specialized programs such as aviation. <strong>The physical examination for all ROTC programs includes testing for drug, chemical, and alcohol abuse and dependency.</strong> Cadets are normally admitted to the Army or the Naval Basic ROTC Program (first two years) upon successful completion of the VMI entrance physical and are given a physical examination before formal enrollment in the Advanced ROTC Program (last two years). Eligible Air Force ROTC cadets who are competing for a commission are normally examined during their first year at VMI.</p> <h2><a name="Benefits"></a>Benefits</h2> <p>Qualified ROTC cadets will receive the following benefits:</p> 
+                  <ul> 
+                   <li>Uniform allowance up to approximately $3,000 over four years.</li> 
+                   <li>Army ROTC contracted cadets receive a tax free monthly stipend of $300 as a freshman, $350 as a sophomore, $450 as a junior, and $500 as a senior.</li> 
+                   <li>Naval ROTC scholarship and college program advanced standing cadets receive a monthly stipend. Freshmen receive $250, sophomores $300, juniors $350, and seniors $400. College program basic cadets receive a uniform allowance only.</li> 
+                   <li>Air Force ROTC contracted cadets will receive a monthly stipend of $300 for freshman, $350 for sophomores, $450 for juniors, and $500 for seniors.</li> 
+                   <li>Summer training pay which varies with type and length of training, plus a travel allowance, room, board, and uniforms if required.</li> 
+                  </ul> <h2><a name="Summer_Training"></a>Summer Training</h2> <p><strong>Army. </strong>Cadets intent on commissioning may compete for training opportunities at a number of Army schools during the summer months. These schools include Airborne, Air Assault, Northern Warfare, and Mountain Warfare. During the summer after the junior year, all contracted cadets will attend the Leadership Development and Assessment Course (LDAC), known as “Warrior Forge” at Fort Lewis, Washington. A cadet’s performance at this intensive five-week training event plays a significant role in the cadet’s competition for an Army commission, determining the type of commission, selection of Army professional branch, and follow-on duty assignments. After LDAC, selected cadets may attend Cadet Troop Leader Training (CTLT). CTLT cadets are sent to regular Army units in the United States and overseas to perform as platoon leaders for two or three weeks, depending on location.</p> <p><strong>Navy/Marine Corps.</strong> Once selected, scholarship program cadets must perform training of four to eight weeks during each summer between academic years. The first summer, cadets receive indoctrination in aviation, submarine, amphibious, and surface operations at various military bases throughout the country. The second summer, training is performed aboard operational ships in the fleet at home and abroad. Marine option midshipmen have the opportunity to train with active duty or reserve units in amphibious operations, or mountain warfare. During the third summer, candidates for Navy commissions perform their training with fleet operational ships or aviation squadrons, serving with junior officers. Marine Corps candidates attend Officer Candidates School at Quantico, Virginia. Contracted, non-scholarship cadets (College Program Advanced Standing) are required to perform only the training specified for the third summer.</p> <p><strong>Air Force.</strong> Cadets selected for enrollment into the POC must attend Air Force ROTC Field Training, normally during the summer between their sophomore and junior years. This training, conducted at Maxwell Air Force Base, Ala., is designed to develop military leadership and discipline as well as provide an orientation to Air Force operations. At the same time, each cadet is evaluated for potential as an Air Force officer. Field Training normally includes marksmanship, expeditionary operations, and physical fitness training. A variety of professional development training programs are available to qualified GMC cadets during the summer between their freshman and sophomore years and to interested POC cadets between their junior and senior years. Cadets may participate in career field orientation at locations around the world in jobs such as pilot, aircraft maintenance, security police, or missile launch officer.</p> <h2><a name="Commissions"></a>Commissions</h2> <p>Successful completion of the ROTC program leads to a commission in one of the armed forces provided the cadet is fully eligible and qualified under regulations of the Department of Defense. The Army also offers Reserve Force and National Guard commissions.</p> <h2><a name="Credits_for_Previous_Military_Service_or_ROTC"></a>Credits for Previous Military Service or ROTC</h2> <p>Cadets who have served in the armed forces but do not hold reserve commissions may be given credit for all or part of the Basic Course at the discretion of the Professor of Military Science (PMS), the Professor of Naval Science (PNS), or the Professor of Aerospace Studies (PAS).</p> <p>Credit for ROTC work at another institution offering senior ROTC courses is allowed upon receipt of an official transcript of the ROTC record from the former institution. Appropriate credit for Junior ROTC work may be granted by the PMS/PAS.</p> <p>Questions about specific requirements and procedure should be referred to the PMS/PNS/PAS.</p> <h2><a name="Federal_Selective_Service_Registration_Law"></a>Federal Selective Service Registration Law</h2> <p>Enrollment at VMI does not preclude the requirement to register with the Selective Service.</p> <p><a name="Advising___Reserve_Officer_Training_Corps__ROTC__Curriculum"></a> <br> </p><h1 id="acalog-content">Advising &amp; Reserve Officer Training Corps (ROTC) Curriculum</h1> 
+                  <hr> 
+                  <div style="padding-left: 20px;">
+                   <div class="acalog-core">
+                    <h2><a name="Fall And Spring Semester Requirements (Updated Spring 2011)"></a><a name="fall and spring semester requirements (updated spring 2011)" id="core_42"></a>Fall and Spring Semester Requirements (Updated Spring 2011)</h2>
+                    <hr>
+                    <ul> 
+                     <li><a href="preview_program.php?catoid=1&amp;poid=27">Aerospace Studies (AS)</a><span style="display: none !important">&nbsp;</span></li> 
+                     <li><a href="preview_program.php?catoid=1&amp;poid=28">Military Science (MS)</a><span style="display: none !important">&nbsp;</span></li> 
+                     <li><a href="preview_program.php?catoid=1&amp;poid=29">Naval Science (NS &amp; MC)</a><span style="display: none !important">&nbsp;</span> </li> 
+                    </ul>
+                   </div>
+                   <div class="acalog-core">
+                    <h2><a name="Notes:"></a><a name="notes:" id="core_51"></a>Notes:</h2>
+                    <hr>
+                    <p>* LS courses are required for cadets who are not seeking a commission.</p> 
+                    <p><strong>Academic and G.P.A. Requirements for contract/scholarship/commission seeking cadets </strong><br> <em>G.P.A. is cumulative unless otherwise stated</em></p> 
+                    <p><em> R.O.T.C. instructors are willing to provide assistance and/or clarification.</em><br> AIR FORCE ext. 7354<br> ARMY ext. 7351<br> MARINES/NAVY ext. 7275</p>
+                   </div>
+                  </div><p></p> </td> 
+                </tr> 
+               </tbody>
+              </table> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <a rel="nofollow" href="/content.php?catoid=1&amp;navoid=19&amp;print" onclick="acalogPopup('/content.php?catoid=1&amp;navoid=19&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=1" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script>  
+ </body>
+</html>

@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>Program: Biochemistry and Molecular Biology (BMB) Concentration  - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules"> 
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="ie.css" />
+		<![endif]--> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript> 
+  <a href="#acalog-navigation"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a> 
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"> <span class="n1_header"> Virginia Military Institute </span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2014-2015 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15">2015-2016 Academic Catalogue</option> <option value="11" selected>2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="11"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=11" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=11" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=323" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=320" class="navbar" tabindex="107">Institute Calendar 2014-2015</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=321" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=322" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=318" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=324" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=325" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=327" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=328" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=329" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=330" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=326" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=333" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=335" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=331" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=394" class="navbar" tabindex="121">Support Agencies</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=11&amp;navoid=334" class="navbar" tabindex="122">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td colspan="4"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+                   <tbody>
+                    <tr> 
+                     <td> 
+                      <div class="help_block" style="float: right">
+                       <a href="help.php" onclick="acalogPopup('help.php', 'help', 770, 530, 'yes');return false;" class="help acalog-highlight-ignore" target="_blank" tabindex="203"><b>HELP</b></a>
+                      </div> <span class="acalog_archived_catalog"><span class="acalog_catalog_name">2014-2015 Academic Catalogue</span></span> <span class="n1_archived acalog-highlight-ignore" style="padding: 0px">[ARCHIVED CATALOG]</span><br> <br> <h1 id="acalog-content">Biochemistry and Molecular Biology (BMB) Concentration </h1> 
+                      <div style="float: right">
+                       <span class="print_degree_planner_link"><a href="#" onclick="acalogPopup('preview_degree_planner.php?catoid=11&amp;poid=536&amp;returnto=333&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank">Print Degree Planner</a></span> | 
+                       <a rel="nofollow" href="/preview_program.php?catoid=11&amp;poid=536&amp;returnto=333&amp;print" onclick="acalogPopup('/preview_program.php?catoid=11&amp;poid=536&amp;returnto=333&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                      </div>
+                      <div class="acalog-social-media-links" style="float: right;"> 
+                      </div> </td> 
+                    </tr> 
+                    <tr> 
+                     <td> 
+                      <hr> </td> 
+                    </tr> 
+                   </tbody>
+                  </table> <p class="MsoBodyText" style="margin-left:5.95pt;text-indent:.35pt;"><span>The<span> </span>Concentration<span> </span>in<span> </span>Biochemistry<span> </span>and Molecular<span> </span>Biology<span> </span>is<span> </span>a<span> </span>collaborative<span> </span>effort<span> </span>between<span> </span>the</span><span> </span><span>biology<span> </span>and<span> </span>chemistry<span> </span>departments<span> </span>and<span> </span>is<span> </span>designed<span> </span>for<span> </span>the<span> </span>biology,<span> </span>chemistry,<span> </span>or<span> </span>other<span> </span>science</span><span> </span><span>or<span> </span>engineering<span> </span>majors<span> </span>who<span> </span>wish<span> </span>to<span> </span>emphasize<span> </span>biochemical<span> </span>or<span> </span>molecular<span> </span>issues<span> </span>in<span> </span>their<span> </span>studies.</span><span> </span><span>This<span> </span>concentration<span> </span>is<span> </span>well<span> </span>suited<span> </span>to<span> </span>the<span> </span>pre-med<span> </span>curriculum.<span> </span>It<span> </span>is<span> </span>also<span> </span>designed<span> </span>to<span> </span>offer<span> </span>students</span><span> </span><span>undergraduate<span> </span>research<span> </span>opportunities<span> </span>in<span> </span>these<span> </span>areas.<span> </span>This<span> </span>option<span> </span>does<span> </span>not<span> </span>change<span> </span>the<span> </span>credit</span><span> </span><span>hours<span> </span>needed<span> </span>for<span> </span>the<span> </span>BS/BA<span> </span>in<span> </span>biology<span> </span>or<span> </span>the<span> </span>BS/BA<span> </span>in<span> </span>chemistry<span> </span>degrees.</span></p> <p class="MsoBodyText" style="margin-left:6.7pt;text-indent:-.4pt;"><span>The<span> </span>Concentration<span> </span>requires<span> </span>completion<span> </span>of<span> </span><a href="preview_course_nopop.php?catoid=11&amp;coid=9073" onclick="acalogPopup('preview_course.php?catoid=11&amp;coid=9073&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=11&amp;coid=9073&amp;display_options[location]=tooltip&amp;show" id="tt123" target="_blank">BI 101 - General Biology I</a><span style="display: none !important">&nbsp;</span></span><span>,<span> </span><a href="preview_course_nopop.php?catoid=11&amp;coid=9081" onclick="acalogPopup('preview_course.php?catoid=11&amp;coid=9081&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=11&amp;coid=9081&amp;display_options[location]=tooltip&amp;show" id="tt7183" target="_blank">BI 205 - Genetics</a><span style="display: none !important">&nbsp;</span>,</span> <span><a href="preview_course_nopop.php?catoid=11&amp;coid=9180" onclick="acalogPopup('preview_course.php?catoid=11&amp;coid=9180&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=11&amp;coid=9180&amp;display_options[location]=tooltip&amp;show" id="tt5085" target="_blank">CH 322 - Metabolic Biochemistry</a><span style="display: none !important">&nbsp;</span>,<span> </span>and<span> <a href="preview_course_nopop.php?catoid=11&amp;coid=9179" onclick="acalogPopup('preview_course.php?catoid=11&amp;coid=9179&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=11&amp;coid=9179&amp;display_options[location]=tooltip&amp;show" id="tt4093" target="_blank">CH 323 - Laboratory for CH 321</a><span style="display: none !important">&nbsp;</span></span>.<span> </span>Students<span> </span>must<span> </span>also</span><span> </span><span>choose<span> </span>one<span> </span>from<span> </span>each<span> </span>of<span> </span>the<span> </span>following<span> </span>categories:<span> </span>Cell<span> </span>Elective:<span> </span>either<span>&nbsp;</span><a href="preview_course_nopop.php?catoid=11&amp;coid=9117" onclick="acalogPopup('preview_course.php?catoid=11&amp;coid=9117&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=11&amp;coid=9117&amp;display_options[location]=tooltip&amp;show" id="tt1751" target="_blank">BI 404 - Cell Biology</a><span style="display: none !important">&nbsp;</span> <span> </span>or</span><span>&nbsp;</span><span><a href="preview_course_nopop.php?catoid=11&amp;coid=9097" onclick="acalogPopup('preview_course.php?catoid=11&amp;coid=9097&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=11&amp;coid=9097&amp;display_options[location]=tooltip&amp;show" id="tt979" target="_blank">BI 313 - Microbiology</a><span style="display: none !important">&nbsp;</span>,<span> </span>Molecular<span> </span>Elective:<span> </span>either<span>&nbsp;<a href="preview_course_nopop.php?catoid=11&amp;coid=9122" onclick="acalogPopup('preview_course.php?catoid=11&amp;coid=9122&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=11&amp;coid=9122&amp;display_options[location]=tooltip&amp;show" id="tt1822" target="_blank">BI 430 - Molecular Biology</a><span style="display: none !important">&nbsp;</span> </span><span> </span>or<span>&nbsp;<a href="preview_course_nopop.php?catoid=11&amp;coid=9174" onclick="acalogPopup('preview_course.php?catoid=11&amp;coid=9174&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=11&amp;coid=9174&amp;display_options[location]=tooltip&amp;show" id="tt4068" target="_blank">CH 301 - Physical Chemistry I</a><span style="display: none !important">&nbsp;</span>,</span></span><span><span> </span>and<span> </span>Biochemistry<span> </span>Elective:<span> </span>either<span> </span><a href="preview_course_nopop.php?catoid=11&amp;coid=9178" onclick="acalogPopup('preview_course.php?catoid=11&amp;coid=9178&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=11&amp;coid=9178&amp;display_options[location]=tooltip&amp;show" id="tt2051" target="_blank">CH 321 - Structural Biochemistry</a><span style="display: none !important">&nbsp;</span><span> </span>or</span><span>&nbsp;<a href="preview_course_nopop.php?catoid=11&amp;coid=11404" onclick="acalogPopup('preview_course.php?catoid=11&amp;coid=11404&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=11&amp;coid=11404&amp;display_options[location]=tooltip&amp;show" id="tt6424" target="_blank">BI 325 - Ecological Biochemistry</a><span style="display: none !important">&nbsp;</span></span><span>.<span> </span>Students<span> </span>must<span> </span>also<span> </span>complete<span> </span>4<span> </span>credits<span> </span>minimum<span> </span>of<span> </span>research<span> </span>experience<span> </span>in<span> </span>an</span> <span>approved<span> </span>area<span> </span>of<span> </span>biology<span> </span>or<span> </span>chemistry.<span> </span>The<span> </span>research<span> </span>experience<span> </span>may<span> </span>be<span> </span>obtained<span> </span>through</span><span> </span><span>thesis<span> </span>research,<span> </span>independent<span> </span>research,<span> </span>summer<span> </span>research,<span> </span>a<span> </span>combination<span> </span>of these<span> </span>experiences,</span> <span>or<span> </span>an<span> </span>approved<span> </span>external<span> </span>research<span> </span>experience<span> </span>that<span> </span>offers<span> </span>academic<span> </span>credit.<span> </span>A<span> </span>2.0<span> </span>GPA<span> </span>must<span> </span>be</span><span> </span><span>maintained<span> </span>in<span> </span>BMB<span> </span>courses<span> </span>for<span> </span>the<span> </span>concentration.<span> </span>An<span> </span>application<span> </span>form<span> </span>for<span> </span>the<span> </span>BMB</span><span> </span><span>concentration<span> </span>can<span> </span>be<span> </span>obtained<span> </span>from<span> </span>the<span> </span>biology<span> </span>department<span> </span>secretary or BMB Director.</span></p> </td> 
+                </tr> 
+                <tr> 
+                 <td colspan="4" width="100%"> 
+                  <div style="padding-left: 20px;">
+                   <div class="acalog-core">
+                    <h2><a name="RequiredCoursesyouMustTakeTheseForYourBMBConcentration"></a><a name="requiredcoursesyoumusttaketheseforyourbmbconcentration" id="core_8825"></a>Required Courses (you must take these for your BMB concentration)</h2>
+                    <hr>
+                    <ul>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('11', '9073',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:4:~8825~;}'); return false;">BI 101 - General Biology I </a> Credit Hours: 4</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('11', '9081',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:4:~8825~;}'); return false;">BI 205 - Genetics </a> Credit Hours: 4</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('11', '9180',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:4:~8825~;}'); return false;">CH 322 - Metabolic Biochemistry </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('11', '9179',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:4:~8825~;}'); return false;">CH 323 - Laboratory for CH 321 </a> Credit Hours: 1.5</span></li>
+                    </ul>
+                   </div>
+                   <div class="acalog-core">
+                    <h2><a name="CellElectivechooseOneOfThese"></a><a name="cellelectivechooseoneofthese" id="core_8826"></a>Cell Elective (choose one of these)</h2>
+                    <hr>
+                    <ul>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('11', '9097',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:4:~8826~;}'); return false;">BI 313 - Microbiology </a> Credit Hours: 4</span></li>
+                     <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('11', '9117',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:4:~8826~;}'); return false;">BI 404 - Cell Biology </a> Credit Hours: 3</span></li>
+                    </ul>
+                   </div>
+                   <div class="acalog-core">
+                    <h2><a name="MolecularElectivechooseOneOfThese"></a><a name="molecularelectivechooseoneofthese" id="core_8827"></a>Molecular Elective (choose one of these)</h2>
+                    <hr>
+                    <ul>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('11', '9174',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:4:~8827~;}'); return false;">CH 301 - Physical Chemistry I </a> Credit Hours: 3</span></li>
+                     <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('11', '9122',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:4:~8827~;}'); return false;">BI 430 - Molecular Biology </a> Credit Hours: 3</span></li>
+                    </ul>
+                   </div>
+                   <div class="acalog-core">
+                    <h2><a name="BiochemistryElectivechooseOneOfThese"></a><a name="biochemistryelectivechooseoneofthese" id="core_8828"></a>Biochemistry Elective (choose one of these)</h2>
+                    <hr>
+                    <ul>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('11', '9178',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:4:~8828~;}'); return false;">CH 321 - Structural Biochemistry </a> Credit Hours: 3</span></li>
+                     <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('11', '11404',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:4:~8828~;}'); return false;">BI 325 - Ecological Biochemistry </a> Credit Hours: 4</span></li>
+                    </ul>
+                   </div>
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> 
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt123"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt7183"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt5085"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt4093"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt1751"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt979"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt1822"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt4068"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt2051"></div>
+              <div style="display: none; z-index: 1000;" class="tooltip for_tt6424"></div><br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <span class="print_degree_planner_link"><a href="#" onclick="acalogPopup('preview_degree_planner.php?catoid=11&amp;poid=536&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank">Print Degree Planner</a></span> | 
+               <a rel="nofollow" href="/preview_program.php?catoid=11&amp;poid=536&amp;print" onclick="acalogPopup('/preview_program.php?catoid=11&amp;poid=536&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=11" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script>   
+ </body>
+</html>

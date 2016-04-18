@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <!-- BEGIN: head_admin --> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <title>
+			Search - LibGuides at Virginia Military Institute
+			</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+					<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+			<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <!-- BEGIN: CUSTOM HEAD JS/CSS --> 
+  <!-- END: CUSTOM HEAD JS/CSS --> 
+  <script src="sa.php?site_id=807"></script> 
+  <script>
+				 // Spring Tracking init
+				springSpace.springTrack.init({_st_site_id: '807'});
+            </script> 
+  <script src="/web/search-2.0-1.12.14/search.min.js"></script> 
+  <script>
+                        search_conf = {
+                            customer_id: "796",
+                            guide_id: "0",
+                            layout: "tab",
+                            sources: [{"id":0,"name":"","description":"","type":"lg","perpage":20,"display_facets":true,"site_id":807,"site_url":"","search_url":"libguides.vmi.edu\/srch.php?default_lg=1&q={{query}}","request_url":"search-platform.libapps.com\/lg2\/select","profile_url":"\/\/libguides.vmi.edu\/prf.php?account_id=","group_data":[]}],
+                            header_selector: "#s-lg-srch-results-msg",
+                            form_selector: "#s-lg-srch-form",
+                            selector: "#s-lg-srch-content",
+                            host_app: "lg",
+                            debug: false,
+                            lang: {
+                                "Ad_Cat":"Library Catalog",
+                                "Ans_ChckOut":"Check out",
+                                "Ans_ComEmail":"Email is required but never displayed on the public site:",
+                                "Ans_ComName":"Enter your name as you'd like it to display to the public:",
+                                "Ans_EditAns":"Edit FAQ",
+                                "Ans_EmailFr":"Enter your name, your email, your friend's email address, and a brief message.",
+                                "Ans_EmAns":"Email Answer",
+                                "Ans_Facebook":"Share on Facebook",
+                                "Ans_FrEmail":"Friend's Email",
+                                "Ans_FriendMsg":"Your friend %s sent you a message",
+                                "Ans_FrName":"Friend's Name",
+                                "Ans_Hello":"Hello",
+                                "Ans_Helpful":"Was this helpful?",
+                                "Ans_Imprv":"Add a public comment to this FAQ Entry",
+                                "Ans_MsgSent":"Your message was sent.",
+                                "Ans_No":"Nah!",
+                                "Ans_Note":"Note",
+                                "Ans_Print":"Print",
+                                "Ans_Sugg":"Suggestion from a friend",
+                                "Ans_Tweet":"Tweet",
+                                "Ans_VoteWarn":"You can only vote once per answer.",
+                                "Ans_YEm":"Your Email",
+                                "Ans_Yes":"Yes",
+                                "Ans_YName":"Your Name",
+                                "Ch_ChatIntro":"chat no variables.","Ch_ChatSub":"Your recent chat transcript","ch_patron":"Patron","ch_sign_off_reminder":"Don't forget to sign off of LibChat at the end of your shift\/day.","ch_transcript_form_button":"Email Transcript","ch_transcript_form_email":"Email","ch_transcript_formintro":"To receive this transcript via email, enter your email address below. The field can accept only one email address.","ch_transcript_success":"Success, the transcript has been emailed to %s.","Com_Alert":"Thank you! Your comment may be approved and posted if it adds value to the answer.","Com_App":"Approve","Com_Attr":"by %1$s on %2$s","Com_Del":"Are you sure you want to delete this comment?","Com_Header":"Please enter your name or alias. The email is mandatory but it will never be displayed on the site.","Com_Pend":"Pending","Com_Text":"Your Answer\/Comment","Dt_Ampm":"true","Dt_Date":"M d, Y","Dt_DateTime":"M d Y, h:ia","Dt_TimePicker":"hh:mm tt","Err_Demo":"Required field.","Err_Em":"Invalid email.","Err_QSub":"Error submitting your question. Please reload the page and try again.","Err_Qu":"Please enter a question.","Err_Spam":"Your message was detected as spam.","Err_TryAg":"Error: Please try again.","faq_answer":"Answer","faq_answeredby":"Answered By","faq_linksfiles":"Links & Files","faq_media":"Media","faq_topics":"Topics","faq_updated":"Last Updated","faq_views":"Views","Fb_BrowseFAQs":"See all FAQs","Fb_Button":"Submit","Fb_ChatClose":"Close Chat","Fb_ChatOff":"Chat is Offline","Fb_ChatOn":"Chat with Us","Fb_ClearResults":"(clear results)","Fb_Details":"Details","Fb_Email":"Your Email","Fb_Idea_Success":"Thank you for the idea!","Fb_IdeaHeader":"Ideas","Fb_Opt_Idea":"An Idea","Fb_Opt_Praise":"Praise","Fb_Opt_Problem":"A Problem","Fb_Opt_Question":"A Question","Fb_SearchResults":"Search Results","Fb_Subject":"Subject","Fb_Tag_Praise":"praise","Fb_Tag_Problem":"problem","Fb_WidgetStatusLink":"View %s current status, scheduled maintenance, updates, etc.","Ft_Rights":"All rights reserved.","Ft_Tech":"Tech Help","Ge_Cancel":"Cancel","Ge_First":"First","Ge_Last":"Last","Ge_NewWin":"Links open in new window.","Ge_Next":"Next","Ge_NoMatch":"Sorry, no questions matched your search.","Ge_Of":"of","Ge_Page":"Page","Ge_Prev":"Prev","Ge_SelOne":"Select One","Ge_Submit":"Submit","Ge_Success":"Got it!","Ge_Update":"Last Updated:",
+                                "LG_Crtd":"Created by",
+                                "LG_GoLG":"Go to %s",
+                                "LG_NoLG":"No related content found.",
+                                "LG_RelLG":"Related content from %s",
+                                "Pub_AnsQ":"Answers","Pub_BrAll":"All","Pub_BrGroup":"Groups","Pub_BrHeading":"Browse:","Pub_Chtop":"Topics","pub_home_feattab":"Featured","pub_home_poptab":"Popular","pub_home_recenttab":"Recent","Pub_MoreInfo":"more info","Pub_MyAdmin":"My Admin","Pub_NoJS":"<strong>Warning:<\/strong> Your browser has javascript disabled. Without javascript some functions will not work, including question submission via the form.","Pub_NoRelatedFAQ":"No related FAQs found.","Pub_Sign":"Login to LibApps","Pub_SignOut":"Logout","Pub_Skip":"Skip to Main Content","Pub_Top":"Topic","Pub_TopAl":"View All Topics","Pub_Topic":"Topics:","Pub_Unassigned":"Unassigned","Pub_Views":"Views:","Rep_Contact":"Contact","Rep_File":"Attached Files","Rep_Name":"Name","Rep_Note":"Internal Note","Rep_QHeader":"Original Question","Rep_QInfo":"Questioner Information:","Rep_RepFrom":"Reply  from","Rep_Sources":"For More Info \/ Source(s)","Rep_Tags":"Tags","Rep_TrMes":"This message is to let you know that your question has been transferred to","Rep_Via":"via","Rep_You":"You","Sq_EmConf":"Receive an email confirmation of your submission.","Sq_FileChange":"Change","Sq_FileRemove":"Remove file","Sq_Fileup":"Attach a file","Sq_FileupMore":"Attach another file","Sq_MoreD":"More Detail\/Explanation","Sq_Q":"Question","Sq_Req":"Fields marked with %s are required.","Sq_Subm":"Submit Your Question","Sq_YInfo":"Your Info","Sq_YQ":"Your Question","srch_askqbutton":"Submit Your Question","srch_askqtext":"Still haven't found what you're looking for?",
+                                "srch_boxhead":"Search Results for:",
+                                "srch_by":"by",
+                                "srch_facetnone":"None found within current limits.",
+                                "srch_facetremoveall":"Remove all",
+                                "srch_filtercurr":"Current Filters",
+                                "srch_filters_az_subjects":"All Subjects",
+                                "srch_filters_az_types":"All Types",
+                                "srch_filters_az_vendor":"All Vendors",
+                                "srch_filters_content_type":"Contains Content Type",
+                                "srch_filters_g":"Groups",
+                                "srch_filters_group":"In Group",
+                                "srch_filters_guide_type":"Guide Type",
+                                "srch_filters_keywords":"Keywords (most frequent)",
+                                "srch_filters_subject":"Assigned Subjects",
+                                "srch_filters_tag":"Assigned Tags",
+                                "srch_filters_topics":"Topics (most frequent)",
+                                "srch_notasked":"No results found.",
+                                "srch_pagelabel":"Pagination of search results",
+                                "srch_resrange":"Showing %1 (of %2)",
+                                "srch_seemore":"See more",
+                                "srch_sorthead":"Sort By",
+                                "srch_sortlabelalpha":"Alphabetical",
+                                "srch_sortlabeldateasc":"Updated (oldest)",
+                                "srch_sortlabeldatedesc":"Updated (most recent)",
+                                "srch_sortlabelrel":"Relevancy",
+                                "srch_subject":"Subjects",
+                                "srch_syntaxerror":"Syntax Error: Quotation marks can only be used for phrase searching and must be in pairs.","srch_topic":"Topics","srch_update":"Last Updated","St_BreadcrumbLink":"Systems Status","St_CommentsView":"View Comments","St_CurrentStatus":"Current Status:","St_FolderBack":"View full list","St_FolderClose":"Close Folder","St_Idea_Date":"Suggested on","St_IdeaAdd":"Submit an Idea","St_Ideas":"Ideas","St_NoMatch":"No results found.","St_Permalink":"Permalink","St_Picker_Button":"Go","St_Picker_Dashboard":"Go to Main Dashboard","St_Picker_Default":"View Status for...","St_Picker_Label":"System","St_PopularIdeas":"Most Popular","St_RecentIdeas":"Most Recent","St_Updates":"Updates","St_UpdatesAll":"All","St_Url":"URL:","St_VF_Comment":"Comment (optional)","St_VF_Email":"Email","St_VF_Idea":"Idea","St_VF_Title":"Title","St_VoteAdd":"Add your vote","St_VoteAddHeader":"Vote on: %s","St_VoteDate":"Posted on","St_VoteDown":"Vote Down","St_VotesHeader":"Comments on Idea: %s","St_VoteUp":"Vote Up","Srch_NotAsked":"WOW, that's a new one on us. Tell us more!","St_VoteHeader":"xxx %s xxx","Srch_AskQText":"Searching? Seek and destroy!","Srch_AskQButton":"Engage!",
+                                az_database_plural: "Databases",
+                                az_clear_filters: "Clear Filters/Browse All Databases",
+                                az_filter_all: "All",
+                                az_bestbets_heading: "Best Bets!",
+                                az_bestbets_label: "Best Bet",
+                                az_new_label: "New",
+                                az_trial_label: "Trial",
+                            }
+                        }
+                        
+                        //set-up the search model
+                        var searchcontroller = {};
+                        
+                        jQuery(document).ready(function(){
+                            //instantiate the controller
+                            searchcontroller = new SearchController(search_conf);
+                            searchcontroller.loadSources();
+                            searchcontroller.retrieve();
+                        });
+                    </script> 
+  <script>
+				jQuery(document).ready(function(){springSpace.springTrack.trackPage({_st_type_id: '22'});
+				});
+			</script> 
+  <link rel="stylesheet" href="/web/search-2.0/search.css"> 
+  <!-- END: head_admin --> 
+ </head> 
+ <body class="s-lib-public-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lib-public-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Content Header --> 
+  <div id="s-lib-public-header" class="s-lib-header container s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-page" class="active">Search </li> 
+    </ol> 
+   </div> 
+   <h1 id="s-lib-public-header-title">Search</h1> 
+   <div id="s-lib-public-header-desc">
+    Search for content by keyword below.
+   </div> 
+  </div> 
+  <!-- END: Content Header --> 
+  <!-- BEGIN: Nav Bar --> 
+  <div id="s-lib-public-nav" class="container s-lib-side-borders"> 
+  </div> 
+  <!-- END: Nav Bar --> 
+  <!-- BEGIN: content --> 
+  <div id="s-lib-public-main" class="s-lib-main container s-lib-side-borders"> 
+   <section> 
+    <div id="s-lg-srch-nav-col" class="row"> 
+     <div id="col0" class="col-md-12 center"> 
+      <div id="s-lg-srch-local"> 
+       <nav class="navbar navbar-default" role="navigation"> 
+        <div class="container-fluid"> 
+         <div class="navbar-header"> 
+          <button type="button" class="navbar-toggle pad-right-med" data-toggle="collapse" data-target="#s-lg-srch-nav-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+         </div> 
+         <div class="collapse navbar-collapse" id="s-lg-srch-nav-1"> 
+          <form id="s-lg-srch-form" class="pad-top-med col-md-9" role="search" action="srch.php"> 
+           <div class="form-group"> 
+            <label for="s-lg-srch-input-q" class="sr-only">Search</label> 
+            <div class="input-group"> 
+             <input type="text" id="s-lg-srch-input-q" name="q" class="form-control" placeholder="Enter Search Words"> 
+             <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+            </div> 
+           </div> 
+          </form> 
+         </div> 
+        </div> 
+       </nav> 
+      </div> 
+     </div> 
+     <div id="s-lg-srch-results-msg" class="col-md-12 margin-bottom-sm"></div> 
+    </div> 
+   </section> 
+   <section> 
+    <div id="s-lg-srch-cols" class="row"> 
+     <div id="s-lg-srch-content" class="col-md-12 center"> 
+     </div> 
+    </div> 
+   </section> 
+  </div> 
+  <!-- END: content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div> 
+    <div id="s-lib-footer-brand">
+      Powered by Springshare. 
+    </div> 
+    <div id="s-lib-footer-rights">
+      All rights reserved. 
+    </div> 
+    <div id="s-lib-footer-login-link"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div> 
+    <!--
+					<div id="s-lib-footer-print-link">
+						~[23]~
+					</div>
+					--> 
+    <div id="s-lib-footer-support-link"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <div id="s-lib-popover-title" class="hide"> 
+   <span class="text-info"><strong>title</strong></span> 
+   <button type="button" id="popclose" class="close" onclick="jQuery('.s-lib-popover').popover('hide')">×</button> 
+  </div> 
+  <div id="s-lib-popover-content" class="hide">
+   <i class="fa fa-refresh fa-spin"></i> Loading... 
+   <button class="btn btn-default btn-sm popclose" type="button">Close</button> 
+  </div> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer --> 
+ </body>
+</html>

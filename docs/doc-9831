@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+ </head> 
+ <body> 
+  <video preload="meta" controls autoplay> 
+   <!-- IE9/Safari/Chrome  --> 
+   <source src="http://www4.vmi.edu/videos/Surviving an Active Shooter Event.mp4" type="video/mp4" label="Chrome/IE9/Safari"> 
+   <!-- Firefox --> 
+   <source src="http://www4.vmi.edu/videos/Surviving an Active Shooter Event.webm" type="video/webm" label="FireFox"> 
+   <!-- QuickTIme --> 
+   <embed src="http://www4.vmi.edu/videos/Surviving an Active Shooter Event.mp4" type="application/x-shockwave-flash" width="980" height="570" allowscriptaccess="always" allowfullscreen="true" autoplay="true"> 
+   <!--IE 8 - add 25-30 pixels to vid height to allow QT player controls--> 
+   <p>The browser attempting to play this video is not able to play because it does not support the HTML5 video tag. Please try again using one of the following browers: </p>
+   <ul>
+    Internet Explorer 9+ 
+   </ul> 
+   <ul>
+    Firefox
+   </ul> 
+   <ul>
+    Chrome
+   </ul> 
+   <ul>
+    Safari
+   </ul> 
+   <p></p> 
+  </video>   
+ </body>
+</html>

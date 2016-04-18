@@ -1,0 +1,430 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	Civil War VMI Annual Report, 1864.  Gen. Hunter &amp; the burning of the Institute (Hunter's Raid).
+</title>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Civil War, VMI, burning, destruction, General, David, Hunter, Union, army, Virginia, military, institute, Lexington, barracks, 1864, federal, troops">
+  <meta name="Description" content="Building leaders. Leaders in industry, leaders in government, leaders in the military, leaders in life. Virginia Military Institute is the nation&amp;#39;s oldest state-supported military college. Great Challenge. Lifetime Reward.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/archives.aspx?id=4717" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYGHwAFD1NlYXJjaCBBcmNoaXZlcx4IQ3NzQ2xhc3MFDHNlYXJjaC1pbnB1dB4EXyFTQgICFgQeB29uRm9jdXMFhwFpZih0aGlzLnZhbHVlPT0nU2VhcmNoIEFyY2hpdmVzJyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVSaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J1NlYXJjaCBBcmNoaXZlcycpe3RoaXMudmFsdWU9J1NlYXJjaCBBcmNoaXZlcyc7fWQCAw8QZBAVAw9BbGwgQ29sbGVjdGlvbnMbTGltaXQgdG8gSGlzdG9yaWNhbCBSb3N0ZXJzFExpbWl0IHRvIFBob3RvZ3JhcGhzFQMIQXJjaGl2ZXMRSGlzdG9yaWNhbFJvc3RlcnMGUGhvdG9zFCsDA2dnZ2RkAg8PDxYCHgdWaXNpYmxlaGRkAhMPZBYEAgEPDxYCHwdnZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfB2cWAgIBDw8WAh8CBSsvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvYXJjaGl2ZXMuanBnZGRkl6xaGCOksFh7O1bjzEd/TppXZe9bSxLJPYJ2y4Hri70="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B5C8BA68"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAZG77Sam4BVkFAG+6XTvMwTg7Z1sS2zTNHf3/IxWgcxRNK/Bb7dRnXMHcV4KdvAwZlzhGcTY0LytLiH7YGMBTTk6fQpseJW4epV6INC3gARyZC47k7s8MZ7bMuDhFm7GCxTw1QTL4f5dUwnNE/qkAIr12IktdTW8cYQG7oMUeKXJQ=="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="Search Archives" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='Search Archives'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='Search Archives'){this.value='Search Archives';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter"> <option value="Archives">All Collections</option> <option value="HistoricalRosters">Limit to Historical Rosters</option> <option value="Photos">Limit to Photographs</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+        <li><a href="/Archives/Digital_Collections_Site_Related/Digital_Collections_Overview/" target="_self">Digital Collections</a></li>
+        <li><a href="http://archivesspace.vmi.edu/" target="_blank">Archives Online Catalog</a></li>
+        <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">Quick Info: FAQs</a></li>
+        <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+        <li><a href="/Archives/Jackson/Stonewall_Jackson_Home/" target="_self">Stonewall Jackson</a></li>
+        <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+        <li><a href="/Archives/Images/Photos___Portraits_Home/" target="_self">Photos &amp; Portraits</a></li>
+        <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Letters, Diaries, Manuscripts</a></li>
+        <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Digital Exhibits Home</a></li>
+        <li><a href="http://digitalcollections.vmi.edu/cdm/landingpage/collection/p15821coll13" target="_blank">Military Oral History</a></li>
+        <li><a href="/Archives/Records/Official_Institute_Records_Home/" target="_self">VMI Records</a></li>
+        <li><a href="/Archives/Records/Records_Management/Records_Management/" target="_self">Records Management</a></li>
+        <li><a href="/Archives/About_the_VMI_Archives/About_the_VMI_Archives/" target="_self">About the Archives</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft3715">
+         Mary Laura Kludy
+        <br>Archives Assistant
+        <br>Ph: (540) 464-7516
+        <br>Fax: (540) 464-7089
+        <br>
+        <a title="archives@vmi.edu" href="mailto:archives@vmi.edu">archives@vmi.edu</a>
+        <br>Preston Library
+        <br>Lexington, Virginia 24450
+        <br>
+        <a title="Hours &amp; Visitor Info" href="/Archives/About_the_VMI_Archives/Hours___Visitor_Info/">Hours &amp; Visitor Info</a> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/archives/home/" title="">Archives</a> &gt; <a target="_self" href="/Archives/Records/Official_Institute_Records_Home/" title="">Records</a> &gt; <a target="_self" href="/Archives/Records/Reports/Annual_Reports_Home/" title="">Reports</a> &gt; <a target="_self" href="/Archives/Records/Reports/Annual_Report,_1864___Hunter_s_Raid/" title="<p>General David Hunter in the Shenandoah Valley, June 1864. The Burning of the Virginia Military Institute From the VMI Annual Report, July 1864 Written by Gen. Francis H. Smith, Superintendent Image: Francis H. Smith, ca. 1863 Hunter's Raid top level &nbsp; Head Quarters, Virginia Mil. Institute, July 15, 1</p>">Annual Report, 1864. Hunter's Raid</a></span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner"> 
+       <div id="sectionBranding"> 
+        <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/archives.jpg" style="width:700px;"> 
+        <hr> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column"> 
+       <h1>The Burning of VMI, June 1864<br>From the VMI Annual Report</h1> 
+       <p><a title="Hunter's Raid Home" href="/archives.aspx?id=4669">Hunter's Raid top level</a>&nbsp;</p> 
+       <hr> 
+       <p>This report was written by <a title="Francis H. Smith Papers Home" href="/content.aspx?id=6287&amp;libID=6323">Superintendent Francis H. Smith </a>&nbsp;</p> 
+       <p>Head Quarters, Virginia Mil. Institute, July 15, 1864</p> 
+       <p>Sir:</p> 
+       <p>The Board of Visitors assembles under peculiar circumstance today. On the Sabbath morning of June 12, the beautiful buildings erected by the liberality of the state for her favored military school, were made a mass of ruins by the order of Major General D. Hunter, commanding U. S. Army of Western Virginia, after having been first sacked by his lawless and rapacious soldiery.</p> 
+       <p>The quarters and offices of the Superintendent alone remain; and the order for the destruction of these was only suspended, because the illness of two of my children (one with an infant 48 hours old) did not permit them to be removed without risk of life. After I had left, it became necessary, for the security of my sick children during the shelling, to remove them from the rooms which they occupied to one affording greater protection. This removal, and another when the shelling was over, was made with the aid of my two servants, upon whom my wife was entirely dependent. While the circumstances of others justified no appeal to them for aid, the situation of my family deprived her of the opportunity of rendering assistance to anyone. At the time she was told by the wife of a neighboring officer who had heard from the commanding general that my quarters with the others were to be destroyed, my wife had not the help necessary to remove her children from the house, and was of course without the means of securing one article of her own furniture.</p> 
+       <p>This statement is made to set a rest the baseless rumors in circulation, that my family was required to take the oath; that the rooms they occupied were searched by officials; that the house was tendered to Gen. Hunter as his headquarters to save it from destruction, or that they were called upon, in any way, to compromise their self-respect.</p> 
+       <p>Every species of public property was removed or wantonly destroyed; and among the most serious losses are to be named our valuable library---the accumulated care of twenty-five years--and the philosophical apparatus, so long used by our late distinguished professor of Natural and Experimental Philosophy, Lieut. General Thomas J. Jackson. The apparatus and many of the valuable books had been removed to Washington College, under the presumption that this venerable institution might afford a shelter and protection to them. But the work of destruction went on. The college building was sacked; the libraries of both institutions were destroyed, and every particle of philosophical apparatus broken to pieces. Shavings had been prepared to fire the college buildings also, and the design was only prevented by representations from some of the trustees, setting forth the purely civil organization of the college, and that it was the recipient of the bounty of Washington himself.</p> 
+       <p>Our hospital was first rifled of all of its most valuable medical stores, and was then burnt, although one severely wounded cadet and one sick cadet, dependent upon both for comfort and almost for life, had to be removed from the building at great risk, in the midst of the shelling and the rifle balls of the sharpshooters.</p> 
+       <p>The families of Colonels Williamson and Gilham were required by rude officials to vacate their quarters; and although they were allowed the privilege of removing their furniture, in part, through the kind interposition of the Hon. S. McD. Moore, few facilities were afforded them to do so; and the torch was applied while helpless females were endeavoring to save their little stores, and their quarters and many of their personal effects were destroyed....</p> 
+       <p>Every public document connected with the operations of the institute, found in my office, and there were many copies of the various annual reports, and registers, was destroyed or removed.<sup><b>1</b></sup>&nbsp;&nbsp; My private library was rifled of many of its most valuable and portable volumes, and the portraits of Ex-Governors McDowell, Wise and Letcher, which occupied prominent positions in it, were removed.</p> 
+       <p>The houses of our poorest operatives, including seamstresses, laundresses and laborers, were searched, in common with those of the citizens generally, and some of these persons were left in a destitute and almost starving condition. The kindness of friends in Lexington had opened their houses to receive the trunks and effects of cadets. Such houses were made the peculiar objects of vindictive spoliation.</p> 
+       <p>&nbsp;<img class="img-align-left" title="washstat" alt="washstat" src="/assets/0/430/434/813/f3d84f44-7639-46b3-a205-b8769f0b7496.jpg">&nbsp;</p> 
+       <p>Our shoe shop was despoiled of all of its leather and unfinished work, and the shoe lasts, implements and benches were there wantonly destroyed. The bell attached to our public clock was taken down and removed, and the beautiful bronze copy of Houdon's Washington (<i>photo at left</i>), by the gifted and lamented Hubard, after being mutilated in the effort to take it from its pedestal, was removed. Report has come in within the last few days, that the enemy being unable to transport this work of art through the mountain passes of Virginia, it was finally broken to pieces and destroyed.<sup><b>2</b></sup>&nbsp;</p> 
+       <p>All the regular Negro servants of the institution showed a marked fidelity. Our trusty baker, Anderson, the property of the institute, was stripped of everything; and on being asked whether he had made himself known as belonging to the state, promptly replied, "No indeed---if I had told the Yankees that, they would have burnt me up with the other state property."</p> 
+       <p>I have been particular in the recital I have given of the conduct of the enemy tot his institution, because I desire to give permanence to the record of infamy which has immortalized the U. S. Army of Western Virginia here.</p> 
+       <p>The Virginia Military Institute has sought no exemption from those evils which are inseparable from a state of war. In every way, directly and indirectly, in which it could be made tributary to the success of the life-struggle in which our country is engaged, the contribution has been made heartily and in no stinted measure.</p> 
+       <p>The corps of cadets prepared for the field, at Camp Lee, 15,000 men of the army of first Manassas; and every battlefield has been hallowed by the blood of its sons. Every professor and every officer had his appointed work; and each, from the world-renowned Jackson, has discharged his whole duty with earnestness and fidelity. When public expediency required the reopening of the school on the 1st of January 1862, its course of instruction was specially accommodated to make it auxiliary to our struggle. Munitions of war were prepared for the army in the field. The battalion of cadets was kept on a war footing, to resist the raids of the enemy, and has effectively aided in this important duty. Upon the call of the gallant Breckinridge, they were summoned to the battlefield at New Market, and fought with a gallantry which has marked them as the objects of peculiar hatred to the enemy. They were subsequently called, upon the requisition of the secretary of war, to assist in the defense of the capital of our state and Confederacy, and remained near Richmond until the advance of the enemy up the Valley of Virginia under Hunter, again threatened the Virginia Military Institute. They were promptly moved to the support of McCausland, but were unable, from the overpowering weight of numbers, to offer effectual resistance where they most desired to do so, under the walls of the institution itself. It was a painful sacrifice which required them to surrender the home of their cadet life without a struggle. But they were soon reunited to their victorious leader at Lynchburg, and there had the satisfaction of witnessing the discomfiture of the army of Hunter; and once more the standard of Virginia floats from the institute hill. So that in every possible way in which a military school could be made available to our patriotic cause, it has been fully and freely done.</p> 
+       <p>No one, therefore, belonging to the institution can complain that the rules of war should be applied to an establishment marked by such evidences of identification with our revolutionary struggle. It was to have been expected that the cadets should be pursued, that they might be either killed or captured. They asked no immunities from the rigors of war meted to to others. The arms and munitions of war were proper subjects for capture or destruction. Its public buildings might have been held by the enemy as a barracks or hospital, and the school itself dispersed. But modern history is appealed to in vain for a like instance of devastation, as marked the track of the invader here....</p> 
+       <p>General Hunter commanded an organized army of the United States, whose professed mission was the "restoration of the Union; " and yet it was by his order, and against the remonstrances (as I understand) of some of his own general officers, that the public buildings of the Virginia Military Institute were committed to the flames; and the threat was made by him that the university of Virginia should soon share a like fate. he is not only responsible for an act deliberately executed, but for the effort clearly manifested to consign to utter destruction every record that could mark the character or history of being of the Virginia Military Institute. Not satisfied with desolation, its walls were polluted with the most obscene language in association with the names of men from Ohio, Pennsylvania, New York, and Massachusetts....</p> 
+       <p>[<i>On page 34 of the original report, Smith describes the location and role of the cadets during the first two weeks of June. In early June, in camp in Staunton, Va., following their participation in the&nbsp;<a title="Battle of New Market Home" href="/archives.aspx?id=3911">Battle of New Market</a>&nbsp;on May 15.</i> ]</p> 
+       <p>Having joined the corps in Staunton, I there received the orders of the adjutant general directing me to move the cadets to Richmond, to aid in the defense of the capital. Having reported to the governor and secretary of war, in obedience to orders, the cadets were assigned to the command of Maj. Gen. Ransom, and were encamped about two miles from the city limits.</p> 
+       <p>On the 5th June intelligence reached Richmond of the defeat of Gen. W.E. Jones, near Staunton, and of the threatening aspect of affairs in the Valley towards Lexington. On the 6th orders were given to me to proceed to the Virginia Military Institute, if practicable, and take such measures, in cooperation with the confederate forces, or otherwise, as might be best for the defense of the public property at the Institute. The cadets were moved on the 7th, by the Danville rail road, to Lynchburg, reaching Lynchburg at 11 P.M. Learning there that the enemy were advancing upon Lexington, and that&nbsp;<a title="John McCausland Biography" href="/archives.aspx?id=5627">Brig. Gen. McCausland</a>&nbsp;was resisting their advance, I moved the cadets immediately, by freight boats, up the canal and they reached Lexington at 3 P.M. on the 9th.</p> 
+       <p>&nbsp;<img class="img-align-right" title="John McCausland Photo" alt="John McCausland Photo" src="/assets/0/430/434/891/87fbf9b3-4610-43c7-945b-e229d97b0076.jpg">&nbsp;</p> 
+       <p>On the 10th a dispatch was received by me from Gen. McCausland, (<i>image at left</i>) that he had been strongly pressed by the enemy all day, and was then fighting with them on the Brownsburg road, near Brownsburg. By sundown he had been driven to Cameron's farm, two miles from Lexington. I had an interview with Gen. McCausland that night. I told him that if by a determined resistance he could, with the cooperation of the cadets, save Lexington, and with it the public property at the Virginia Military Institute, I was prepared to give him that cooperation at any sacrifice. But if a contest here could only retard the advance of the enemy a few hours, and result in the killing or capturing of the cadets, I was not willing to make such a sacrifice or run such a risk. Gen. McCausland did not think, with the strong force opposing him, that he could save the town; but under his advice, I determined to remain with the cadets on their ground, and hold them in readiness to cooperate with him, could this be done effectively.</p> 
+       <p>On the morning of the 11th the enemy advanced about 8'oclock, and three lines of their skirmishers occupied the hills north of the town. McCausland having burned the bridge over the North river, planted a section of artillery on the magazine hill, and occupied the adjoining cliffs with sharpshooters. An active artillery and musketry fire from sharpshooters soon opened, and continued for several hours. The cadets were not engaged; and after waiting until 1 P.M. and apprehending that the flanks of McCausland would be turned either by Hamilton's cross or Leyburn's fords, I gave orders to Lieut. Col. Ship to move the corps of cadets, by the fair ground road, and cross the North River by the bridge at its mouth. McCausland retired from Lexington about 3, and in about one hour after the enemy entered.</p> 
+       <p>The cadets remained near Balcony Falls from Saturday evening until Wednesday, and rendered good service in guarding the property of refugees, collected from the various counties of the Valley in that vicinity. Apprehending danger from the advance of the enemy into Bedford in pursuit of McCausland, and from a raid into Amherst, I ordered Col. Ship on the 15th to move the cadets by freight boats to Lynchburg. A courier from Gen. Breckinridge at Lynchburg met me on the way, and brought me instructions to move immediately to Lynchburg, and take the north side of the river. As the command had already passed Waugh's ferry, the danger apprehended by General Breckinridge no longer existed, and the cadets reached Lynchburg safely the next morning at 8 o'clock, and I immediately reported to Gen. Breckinridge, and also to the governor and board of visitors. The cadets remained in camp near Lynchburg until after the repulse of Hunter; and on the 24th June, under instructions received from the board of visitors, the cadets were ordered back to Lexington, and reached there on the 25th. Having failed to procure the tents which had been ordered upon the requisition of the adjutant general, the cadets occupied temporarily the buildings of Washington college, which had been kindly placed at their disposal.</p> 
+       <p>Finding, upon examination, that most of our commissary stores had been destroyed or taken by the enemy---that the public property was in a state of utter ruin--I deemed it my duty to place all the cadets who were able to reach their homes, or the homes of their friends, on furlough until the 1st of September, and to make provision to take care of the remainder as well as my means would enable me. Under these orders, all the cadets (except some three or four) are now on furlough.</p> 
+       <p>In the mean time I have employed all the operatives of the institution in gathering up the valuable material found in the ruins, placing the same in a place of security. I have also rented a store in Lexington for the deposit of quartermaster and commissary stores and have been endeavoring to collect such property as may have passed into the hand of parties not entitled to claim or to hold it.</p> 
+       <p>The board will be enabled to see, in the course of their sitting, what has been done in these respects, and will be the better qualified, by personal inspection, to give me instructions in regard thereto.</p> 
+       <p><br><br><sup><b>1</b></sup>&nbsp;&nbsp;Despite the dire tone of this sentence, almost all of VMI's records survived the Civil War. The Institute's archives are very complete, and there are no significant gaps. <br><sup><b>2</b></sup>&nbsp;&nbsp;The rumor concerning the destruction of the statue was false. It was successfully transported to Wheeling, West Virginia, where it was placed on display. At the end of the war, it was returned to VMI and was "reinaugurated" on September 10, 1866. The photo on this page was taken in 1866, around the time of the statue's rededication ceremony.</p> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

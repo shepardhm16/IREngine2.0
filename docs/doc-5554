@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head> 
+  <meta name="keywords" content="">
+  <meta name="description" content=""> 
+  <title>Ashleigh Smythe - Parasitology research - Hamilton College</title> 
+  <link type="text/css" href="styles/personaltemplate1.css" rel="stylesheet" media="screen"> 
+  <link type="text/css" href="styles/jquery-ui-1.8.16.custom.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/formstyle.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/cluetip.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/page.css" rel="stylesheet" media="screen"> 
+  <link type="text/css" href="styles/jqModal.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/prettyPhoto.css" rel="stylesheet" media="all"> 
+  <script type="text/javascript" src="scripts/jquery/jquery.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/ui/1.8.4/js/jquery-ui-1.8.4.custom.min.js"></script> 
+  <script type="text/javascript" src="scripts/page.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jquery.cluetip.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqModal.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqDnR.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqForms.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jQuery.prettyPhoto.min.js"></script> 
+  <script type="text/javascript" src="scripts/modules/multimedia.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jquery.cycle.min.js"></script> 
+  <script type="text/javascript" src="scripts/modules/slideshow.js"></script> 
+ </head> 
+ <body id="student1body" class="generic"> 
+  <script language="JavaScript" type="text/javascript">
+			<!--
+			$(document).ready(function() {
+				bodyHeight();
+				$(window).resize(bodyHeight);
+			});
+			bodyHeight = function() {
+				if($('body').height() < $(window).height()) $('body').height($(window).height());
+			};
+		// -->
+		</script> 
+  <div id="siteStructure"> 
+   <div id="siteHeader" class="pagecolumn"> 
+    <div id="719673A6-D849-772B-78137E28B676BC7D" class="sm-area"> 
+     <div id="8A2DFA95-D0EE-3697-CB2289B6B27B788E" class="module full"> 
+      <div class="content module-style-0 " style="text-align:center;"> 
+       <div class="modulecontent"> 
+        <h2> &nbsp;</h2> 
+        <h2> Parasitology Research</h2> 
+        <p> &nbsp;</p> 
+        <!-- Import jQuery and SimpleModal source files --> 
+        <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+        <div id="newwindow" class="jqmDialog"> 
+         <a href="#" class="jqmdX jqmClose"></a> 
+         <div class="jqmdTL jqDrag">
+          <h3 class="jqmdTC" id="newwindow_title"></h3>
+         </div> 
+         <div class="lowerWindow"> 
+          <div class="jqmdMSG" id="newwindow_content"> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="siteNav"> 
+    <div id="71967404-BD36-313B-FE27E841D8710FF9" class="sm-area"> 
+    </div> 
+   </div> 
+   <div id="pageContent"> 
+    <div id="left" class="pagecolumn"> 
+     <div id="71967440-E9D5-C21E-1BACA9C85CF22DD7" class="sm-area"> 
+      <div id="899C8388-C674-5109-89DE3ED9BAC3A1CD" class="module full"> 
+       <div class="content module-style-0 " style="text-align:center; margin-top:-80px;"> 
+        <div class="modulecontent"> 
+         <!-- insert menu here --> 
+         <h4 class="h4a"> &nbsp;</h4> 
+         <h4 class="h4a"> <a href="Default.asp">Home</a></h4> 
+         <h4 class="h4a"> <a href="news.asp">News</a></h4> 
+         <h4 class="h4a"> <a href="marine-nematode-research.asp">Marine Nematode Research</a></h4> 
+         <h4 class="h4a"> <a href="parasitology-research.asp">Parasitology Research</a></h4> 
+         <h4 class="h4a"> <a href="thesis-research.asp">Student Research</a></h4> 
+         <h4 class="h4a"> <a href="teaching.asp">Teaching</a></h4> 
+         <h4 class="h4a"> <a href="publications.asp">Publications</a></h4> 
+         <h4 class="h4a"> <a href="education2.asp">Education</a></h4> 
+         <h4 class="h4a"> <a href="http://www.vmi.edu/Content.aspx?id=10737425148&amp;libID=10737425142" target="_blank">VMI Biology</a><br> </h4> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="89D3F05D-D479-BA05-C7FFF9AA4CC6D675" class="module full"> 
+       <div class="content module-style-0 " style="text-align:center;"> 
+        <div class="modulecontent"> 
+         <h5> <span class="imagecaptions"> Ashleigh B. Smythe<br> Virginia Military Institute<br> Lexington, VA 24450<br> Office: 301 Maury-Brooke Hall<br> Office Phone: 540-464-7054<br> Email: <a href="mailto:smytheab@vmi.edu">smytheab@vmi.edu </a> </span> </h5> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="wideright" class="pagecolumn"> 
+     <div id="71967479-AE95-A645-7E5245EADB82E4FA" class="sm-area"> 
+      <div id="6863D1C7-D730-7A41-1C585CAA7FFD3966" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Hygiene hypothesis</h3> 
+         <p> The hygiene hypothesis suggests that the rise of autoimmune diseases in developed nations is due to improved sanitation and subsequent reduction of internal parasites of humans.&nbsp; An increasing body of evidence suggests that many intestinal parasites manipulate their host's immune system in order to reduce the immune response that is mounted against them.&nbsp; Without our intestinal parasites to down-regulate the immune response, humans may now be more prone to autoimmune diseases such as inflammatory bowl disease, asthma, lupus, and type 1 diabetes.&nbsp; My students and I are collaborating with Hamilton's animal physiologist, Dave Gapp, to use the mouse nematode, <em>Heligmosomoides bakeri</em>, and a chemically-induced model of early type 1 diabetes to explore the effect of intestinal worms on this important autoimmune disease.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="68F40020-B854-5B08-1B533106C107635F" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div id="ss68F40020-B854-5B08-1B533106C107635F" class="mod_slideshow"> 
+          <div class="mod_slideshow_inplace"> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/medium/hbakerilarvae15dayspi200xbedited.tif.jpg" width="300" height="278" alt="A 15 day old larva of the mouse nematode <em>H. bakeri</em>.<br />Evan Taddeo" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/medium/hbakerieggs13dayspi400x2.tif.jpg" width="300" height="226" alt="Eggs of the mouse nematode <em>H. bakeri</em><br />Evan Taddeo" border="0" style="margin-bottom:52px;"> 
+           </div> 
+          </div> 
+          <div class="mod_slideshow_controls"> 
+           <span class="mod_slideshow_duration duration_7000"></span> 
+           <img src="images/icons/slideshow-prev.png" class="mod_slideshow_prev" alt="prev"> 
+           <img src="images/icons/slideshow-next.png" class="mod_slideshow_next" alt="next"> 
+          </div> 
+          <div class="mod_slideshow_caption" style="display:none;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="85A774F5-C61E-4FE2-A6E1E31B42BE2516" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Helminth Parasites of Muskrats</h3> 
+         <p> Muskrats, with their semi-aquatic lifestyle and omnivorous feeding habits, are ideal hosts for the study of parasite community ecology.&nbsp; My students and I are surveying the parasitic worms of muskrats in central New York.&nbsp; In the first year of the study, we found 12 species of parasites, including 5 adult digenetic trematodes, 2 adult and 2 larval cestodes, 2 adult nematodes, and 1 larval acanthocephalan.&nbsp; We are continuing the study for the 2011/2012 winter trapping season and are beginning to use molecular data to address questions of species identity and diversity among several of the trematode species.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="86A287FE-B09B-F345-E7268ACC84900529" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div id="ss86A287FE-B09B-F345-E7268ACC84900529" class="mod_slideshow"> 
+          <div class="mod_slideshow_inplace"> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/medium/quinqueserialiscropped.tif.jpg" width="207" height="300" alt="The trematode <em>Quinqueserialis quinqueserialis</em> from the intestine of the muskrat.<br />Calvin Johnson" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/medium/img_01582.jpg" width="300" height="225" alt="" border="0" style="margin-bottom:75px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/medium/muskratbeingdissectedcalvin.jpg" width="300" height="225" alt="A muskrat about to be examined for internal parasites.<br />Alyssa Kanagaki" border="0" style="margin-bottom:75px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/medium/teammuskrat200910.jpg" width="300" height="226" alt="Team Muskrat 2009/2010: Ashleigh Smythe, Alyssa Kanagaki, and Calvin Johnson<br />Dave Gapp" border="0" style="margin-bottom:74px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/medium/echinochasmuslm.jpg" width="100" height="300" alt="The trematode <em>Echinostoma</em> sp. from the intestine of the muskrat.<br />Calvin Johnson" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/medium/zoom1_2rotatecrop3.tif.jpg" width="240" height="300" alt="Scanning electron micrograph of the oral sucker of <em>Echinostoma</em> sp. from muskrats.<br />Alyssa Kanagaki" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/medium/quineque_ex21rotatecrop.tif.jpg" width="195" height="300" alt="Scanning electron micrograph of the trematode <em>Quinqueserialis quinqueserialis<em> from muskrats.<br />Alyssa Kanagaki" border="0" style="margin-bottom:0px;"> 
+           </div> 
+          </div> 
+          <div class="mod_slideshow_controls"> 
+           <span class="mod_slideshow_duration duration_8100"></span> 
+           <img src="images/icons/slideshow-prev.png" class="mod_slideshow_prev" alt="prev"> 
+           <img src="images/icons/slideshow-next.png" class="mod_slideshow_next" alt="next"> 
+          </div> 
+          <div class="mod_slideshow_caption" style="display:none;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="pageFooter">
+     The material on this personal site may not necessarily reflect the views of Virginia Military Institute.
+    </div> 
+   </div> 
+  </div>   
+ </body>
+</html>

@@ -1,0 +1,1469 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	Virginia Military Institute - Roman Military History
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets,liberal arts, lexington, ncaa div. 1, competitive, civilian, commission, barracks, science, co-ed, public, university, ethics, honor, character, responsibility, undergraduate, leaders">
+  <meta name="Description" content="Virginia Military Institute is a small, public, nationally-ranked college committed to leadership development in a military environment in Lexington, Virginia. VMI instills values of honor, discipline, selflessness, commitment, duty, self-reliance, and service. VMI is recognized as one of America’s top colleges for liberal arts and sciences by US News &amp;amp; World Report, The Princeton Review, and Peterson’s Guide to Competitive Colleges. US News ranks VMI’s engineering programs among the twenty best in America. Men and women of VMI are free to choose military or civilian careers.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=10737427412" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BQx0aHJlZS1jb2x1bW5kAgkPDxYCHgtOYXZpZ2F0ZVVybAUBL2QWAmYPDxYCHghJbWFnZVVybAUdL2NvcmUvaW1hZ2VzL2NvbnRlbnQvbG9nby5qcGdkZAILD2QWAmYPZBYCZg9kFgQCAQ8PFgQeCENzc0NsYXNzBQxzZWFyY2gtaW5wdXQeBF8hU0ICAhYEHgdvbkZvY3VzBYYBaWYodGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVQaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7dGhpcy52YWx1ZT0nc2VhcmNoIHZtaS5lZHUnO31kAgMPEA9kFgIeBXN0eWxlBQxkaXNwbGF5Om5vbmUQFQEDVk1JFQEDVk1JFCsDAWdkZAIPDw8WAh4HVmlzaWJsZWhkZAITD2QWCAIBDw8WAh8IZ2RkAgMPDxYCHwhoZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfCGcWAgIBDw8WAh8CBTEvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvaGlzdG9yeS5qcGc/bj00ODM1ZGQCCQ8PFgIfCGdkZGQEfARwXA+rRYHzDhryTQ4W2rtOzC0+I8b9EtrGEnjfDw=="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAATEMGCPR/WUfFVX+MK446/gtVqhg79+cCaf2Muxgy28w6Ld5e0tb35jjra3L8Dofk5aGpeLsHyujys0vCNqhELeu2yHdQ7hrzOl8mxpyQ5qjSxUtBjROiz6dYX9ySa6Fi8="> 
+   </div> 
+   <div id="container" class="three-column"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities Division</a></li>
+        <li><a href="/Content.aspx?id=10737430629" target="_self">History Home</a></li>
+        <li><a href="/content.aspx?id=17225" target="_self">Degrees &amp; Programs</a></li>
+        <li><a href="http://vmi.catalog.acalog.com/preview_entity.php?catoid=15&amp;ent_oid=351&amp;returnto=448" target="_blank">Courses</a></li>
+        <li><a href="/Content.aspx?id=14041" target="_self">Referencing Papers</a></li>
+        <li><a href="/Content.aspx?id=1846" target="_self">History Advising</a></li>
+        <li><a href="/Content.aspx?id=1848" target="_self">Phi Alpha Theta</a></li>
+        <li><a href="/Content.aspx?id=1844" target="_self">Statement on Plagiarism</a></li>
+        <li><a href="/content.aspx?id=1850" target="_self">Faculty Publications</a></li>
+        <li><a href="/content.aspx?id=4013" target="_self">Adams Center Military History</a></li>
+        <li><a href="/Content.aspx?id=4294974237" target="_self">Faculty</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft1560"> 
+        <address><p><a href="mailto:shaferdp@vmi.edu" title="Deneise Shafer">Deneise Shafer</a><br> Administrative Assistant</p> <p>&nbsp;<a target="_blank" title="facebook" href="https://www.facebook.com/pages/VMI-Department-of-History/1613681962191979?ref=hl"><img border="0" src="/uploadedImages/Images/icons/facebook.png?n=469" alt="facebook" title="facebook"></a> <a href="https://twitter.com/VMIHistoryDept" title="twitter" target="_blank"><img border="0" src="/uploadedImages/Images/icons/twitter.png?n=8365" alt="twitter" title="twitter"></a><br><br> P: (540) 464-7338<br> F: (540) 464-7246</p> <p>Virginia Military Institute<br> 536 Scott Shipp Hall<br> Lexington, VA&nbsp; 24450</p> <p><a href="mailto:shaferdp@vmi.edu">Contact History</a></p> </address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/history.jpg?n=4835" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Roman Military History</h1> 
+       <p><strong>Websites</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li><a target="_blank" href="http://www.csun.edu/~hcfll004/armybibl.html" title="http://www.csun.edu/~hcfll004/armybibl.html">http://www.csun.edu/~hcfll004/armybibl.html</a> &nbsp;</li> 
+        <li>Roman Military in Britain&nbsp; </li> 
+       </ul> 
+       <p><strong>Ancient Sources</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Appian, <em>The Civil Wars</em>,</li> 
+        <li>Vegetius Renatus, Flavius, <em>The Military Institutions of the Romans</em> &nbsp;</li> 
+        <li>Frontinus</li> 
+       </ul> 
+       <p><strong>General</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Adcock, F. E. <em>The Roman Art of War under the Republic</em>, Cambridge: Harvard University Press, 1960.</li> 
+        <li>Bohec, Y. le (ed.) <em>La Hierarchie (Rangordnung) de l'armee romaine sour le haut empire</em>, Paris: De Boaacard, 1996, 23-31.</li> 
+        <li>Campbell, B. "Teach Yourself How to be a General," <em>JRS</em> 77 (1`987) 13-29.</li> 
+        <li>Connolly, Peter, <em>Greece and Rome at War</em>, London: Greenhill books, 1981, 1998.</li> 
+        <li>Connolly, Peter, <em>The Roman Army</em>, 1975.</li> 
+        <li>Dabrowa, Edward (ed.) <em>Roman Military Studies</em>, Krakow: Jagellonian University Press, 2001.</li> 
+        <li>Devijver, Hubert, <em>The Equestrian Officer's of the Roman Imperial Army</em>, Amsterdam: Gieben, 1989.</li> 
+        <li> *DeSouza, Philip, <em>Piracy and the Graeco-Roman World</em>, Cambridge, 1999.</li> 
+        <li> Forestier, Am. ed. <em>The Roman Soldier</em>, London: A &amp; C Black Ltd., 1928.</li> 
+        <li>Gabba, E. <em>Republican Rome: The Army and the Allies</em> (trans. P.J. Cuff), Berkeley: University of California Press, 1976.</li> 
+        <li>Gabriel, R.A. and Metz, K.S., <em>From Sumer to Rome: The Military Capabilities of Ancient Armies</em>, New York: Greenwood Press,1991.</li> 
+        <li>Garlan, Yves, <em>War in the Ancient World</em>, trans. J. Lloyd, London, 1975.</li> 
+        <li>Gilliver, C.M. <em>The Roman Army at War</em>, Stroud: Tempus, 1999.</li> 
+        <li>Goldsworthy, A.K., <em>The Roman Army at War 100 BC-AD 200</em>, Oxford: The Clarendon Press, 1996.</li> 
+        <li>Hackett, J., <em>Warfare in the Ancient World</em>, New York: Facts on File, 1990.</li> 
+        <li>Harmand, Jacques. <em>La querre antique de Sumer a Rome</em>. Paris: Presses universitaires de France, 1973.</li> 
+        <li>Keppie, Lawrence, <em>Legions and Veterans</em>. Roman Army Papers 1971-2000, Stuttgart: Steiner, 2000.</li> 
+        <li>Kromayer, J. and Veith, G., <em>Heerwesen und Kriegfuhrung der Griechen und Romer</em>, Munchen: Beck, 1928.</li> 
+        <li>Lee, A.D. "Morale and the Roman experience of Battle," in A.B. Lloyd, (ed.) <em>Battle in Antiquity</em> (1996) 199-217.</li> 
+        <li>Lloyd, A.B. (ed.) <em>Battle in Antiquity</em> London: Duckworth, 1996.</li> 
+        <li>Macmullen, Ramsay, "The Roman Emperor's Army Costs,"<em> Latomus</em> 43 (1984), pp. 571-580.</li> 
+        <li>Marsden, E.W. <strong>Greek and Roman Artillery</strong>, Historical Development and Technical Treatises,Oxford: The Clarendon Press, 1969, 2 vols.</li> 
+        <li> O'Neal, "Reckless Roman Commanders," <em>CB</em> LXVII (1991) pp. 37-43.</li> 
+        <li>Parker, H.M. D. <em>Roman Legio</em>ns, New York, 1961.</li> 
+        <li>Pavkovic, Michael F., <em>The Army of Imperial Rome</em>, Ashgate, 2008.</li> 
+        <li>Peddie, J., <em>The Roman War Machine</em>, Stroud: Sutton, 1994.</li> 
+        <li>Povkovic, Michael F., <em>The Legionary Horsemen: an essay on the equites legionis and equites promoti</em>, Ph.D. Diss. University of Hawaii, 1991.</li> 
+        <li>Rawson, E. "Literary Sources for the Pre-Marian Army," <em>PBSR</em> 26 (1971) 26-31.</li> 
+        <li>Rosenstein, Nathan S., <em>Imperatores victi. Military Defeat and Aristocratic Competition in the Middle and Late Republic</em>, Berkeley: The University of California Press, 1990.</li> 
+        <li>Saddington, Denis B., <em>The Development of Roman Auxiliary Forces</em>, Harare: University of Zimbabwe, 1982.</li> 
+        <li>Sanders, Henry A. <em>Roman Historical Sources and Institutions</em>, New York: Macmillan Co., 1974.1904.</li> 
+        <li>Scullard, H.H. <em>The Elephant in the Greek and Roman World</em>, Ithaca: Cornell University Press 1974.</li> 
+        <li>Speidel, Michael, "Centurions Promoted from Beneficiarii," <em>ZPE</em> 91 (1992), 229-232.</li> 
+        <li>Speidel, Michael, Work to be Done on the orhganization of the Roman Army," <em>BIAL</em> 26 (1989), pp. 99-106.</li> 
+        <li>Westington, M.C. <em>Atrocities in Roman Warfare to 133 B.C.</em> Chicago, 1938.</li> 
+        <li><em>War and Society in the Roman World</em>, ed. John Rich &amp; Graham Shipley, London &amp; NY: Routledge, 1993.</li> 
+        <li>Watson, George Ronald, <em>The Roman Soldier</em>, Ithaca, NY: Cornell University Press, 1969.</li> 
+        <li>Webster, Graham, <em>The Roman Army</em>, London: England: Grosvenor, Museum, 1956.</li> 
+        <li>Wheeler, E.L., Methodological Limits and the Mirage of Roman Strategy," <em>Journal of Military History</em> 57 (1993), pp. 7-41, 215-40.</li> 
+        <li>Wheeler, E.L. "The legion as Phalanx," <em>Chiron</em> 9 (1979) 303-18.</li> 
+        <li>Zhmodikov, "Roman Republican Heavy Infantrymen in Battle (IV-II centuries BC)," <em>Historia</em> 49/1 (2000) 67-78.</li> 
+       </ul> 
+       <p><strong>Logistics, Training, Equipment, Structure</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Anderson, J. D., <em>Roman Military Supply in North-East England: An Analysis of and Alternative to the Piecebridge Formula</em> (Oxford 1992) [BAR 224].</li> 
+        <li>Bishop, M.C. and Coulston, J.C.N., <em>Roman Military Equipment</em>, Aylesbury: Shire, 1993).</li> 
+        <li>Bohec, Y. le (ed.) <em>La Hierarchie (Rangordnung) de l'armee romaine sour le haut empire</em>, Paris: de Boccard, 1995, 23-31.</li> 
+        <li>Connolly, P. "The Roman fighting technique deduced from armour and weaponry," in V.A. Maxfield and M.J. Dobson (eds) <em>Roman Frontier Studies</em> 1989 (1991) 358-63.</li> 
+        <li>Connolly, Peter, "Legion vs. Phalanx, " <em>Military Illustrated</em> 124 (1998), 36-41.</li> 
+        <li>Gabriel, R.A. and Metz, K., <em>From Sumer to Rome: The Military Capabilities of Ancient Armies</em>, New York: Greenwood Press, 1991.</li> 
+        <li>Hyland, Ann, <em>Training the Roman Cavalry: From Arrian's Tactica</em>, Alan Sutton 1993 ).</li> 
+        <li>Hyland, Ann, <em>Equus: The Horse in the Roman World</em> London: Batsford, 1990).</li> 
+        <li>Isaac, Benjamin, "Hierarchy and Command structure in the Roman Army," in Y. le Bohec (ed.) <em>La Hierarchie (Rangordnung) de l'armee romaine sour le haut empire</em> (1995) 23-31.</li> 
+        <li>Kern, P.B., <em>Ancient Siege Warfare</em>, Bloomington: Indiana University Press, 1999.</li> 
+        <li>Roth, Jonathan, <em>The Logistics of the Roman Army at War</em>, 264 B. C.--A.D. 235 (1999) [Columbia Studies in the Classical Tradition, 23].Leiden: Brill, 1999.</li> 
+        <li>Marsden, E.W. <em>Greek and Roman Artillery. Historical Development</em>, Oxford: The Clarendon Press, 1969.</li> 
+       </ul> 
+       <p><strong>Roman Navy</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Starr, Chester G. Jr. <em>The Roman Imperial Navy, 31 B.C.-A.D. 324</em> (Cornell 1941; 2nd ed. Cambridge, Heffer, 1960. Reprinted by Ares, 1993.</li> 
+        <li>Starr, Chester G. Jr. <em>The Influence of Sea Power on Ancient History</em> (Oxford: Oxford University Press, 1989).</li> 
+        <li>Kienast, Dietmar, <em>Untersuchungen zu den Kriegsflotten der römischen Kaiserzeit</em>, Bonn: R. Habelt, 1966).</li> 
+        <li>Lehmann-Hartleben, Karl, <em>Die antiken Hafenanlagen des Mittelmeeres</em> (Leipzig 1923) [Klio, Beiheft<br>14].</li> 
+       </ul> 
+       <p><strong>Early Rome</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Cornell, T.J., <em>The Beginnings of Rome</em> (London,&amp; New York: Routledge, 1995)</li> 
+        <li>Saulnier, C., <em>L'armée et la guerre dans le monde étrusco-romain</em> (VIIIe-IVe s) (Paris, 1980).</li> 
+        <li>Saulnier, C., <em>L'armée et la guerre chez les peuples samnites</em> (VIIe-IVe s) (Paris: Boccard, 1983)</li> 
+       </ul> 
+       <p><strong>Reforms of the Republican Army</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Brizzi, Giovanni, "I Maniliana imperia e la riforma manipolare," <em>Sileno</em> XVI (1990) pp. 185-206.</li> 
+        <li>Bell, M.J.V. "Tactical Reform in the Roman Republican Army," <em>Historia</em> 14 (1965) 404-422.</li> 
+        <li>Blois, Lukas, <em>The Roman Army and Politics in the First Century B.C</em>. Amsterdam: J.C.Gieben,1987.</li> 
+        <li>Gabba, Emilio, <em>Republican Rome, the Army and the Allies</em>, Oxford: Blackwell, 1976.</li> 
+        <li>Last, Hugh, "The Servian Reforms," <em>Journal of Roman Studies</em> 35 (1945) 30-48.</li> 
+        <li>Nilsson, M.P. "The Introduction of Hoplite Tactics at Rome," <em>JRS</em> 19 (1929) 1-11.</li> 
+        <li>Rawson, E. "Literary Sources for the Pre-Marian Army," <em>PBSR</em> 26 (1971) 26-31.</li> 
+        <li>Smith, Richard Edwin, <em>Service in the Post-Marian Roman Army</em>, Manchester: Manchester University Press, 1958.</li> 
+        <li>Sumner, G.V. "The Legion and the Centuriate Organization," <em>JRS</em> 60 (1970).</li> 
+        <li>Suolahti, J. <em>The Junior Officers of the Roman Army in the Republican Period</em>, Helsinki, 1955.</li> 
+        <li>Rawson, E. "The Literary Sources for the pre-Marian Army," <em>PBSR</em> 39 (1971) 13-31.</li> 
+       </ul> 
+       <p><strong>Battles in Chronological Order</strong> &nbsp;</p> 
+       <ol> 
+        <li>Aequi</li> 
+        <li>Volsci</li> 
+        <li>Etruscans</li> 
+        <li>392 Veii</li> 
+        <li>390 Allia</li> 
+        <li>343-341 1st Samnite War</li> 
+        <li>338 Latin War</li> 
+        <li>326-304 2nd Samnite War</li> 
+        <li>321 Caudine Forks</li> 
+        <li>309-308 War with Etruscans</li> 
+        <li>298-290 War with Samnites, Etruscans &amp; Gauls</li> 
+        <li>295 Battle of Sentinum</li> 
+        <li>285 Occupation of Ager Gallicus</li> 
+        <li>Defeat of Gauls and Etruscans</li> 
+        <li>Lake Vadimo</li> 
+        <li>281-272 War with Tarentum &amp; Pyrrhus</li> 
+        <li>280 Battle of Heraclea</li> 
+        <li>279 Battle of Asculum</li> 
+        <li>278 Pyrrhus invades Sicily</li> 
+        <li>275 Battle of Beneventum</li> 
+       </ol> 
+       <p><strong>The Punic Wars - General</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Bagnall, Nigel, <em>The Punic Wars</em>. London: Hutchinson, 1990, 320pp.</li> 
+        <li>Barker, Philip, <em>Armies of the Macedonian and Punic Wars</em>, 1971.</li> 
+        <li>Caven, Brian, <em>The Punic Wars</em>, New York: St. Martin's Press, 1980.</li> 
+        <li>Cornell,T.J., N.B. Rankov and P.A.G. Sabin, (eds) <em>The Second Punic War: A Reappraisal</em>, BICS Supplement 67 1996.</li> 
+        <li>Head, D. <em>Armies of the Macedonian and Punic Wars</em>, 359 BC to 146 BC, 1982.</li> 
+        <li>Sabin, P.A.G., "The Mechanics of Battle in the Second Punic War," in T.J. Cornell, N.B. Rankov and P.A.G. Sabin (eds) <em>The Second Punic War: A Reappraisal</em>, BICS Supplement 67, London: Institute of Classical Studies, University of London, 1996.</li> 
+       </ul> 
+       <p><strong>1st Punic War -264-241</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Eckstein, A. <em>Senate and General</em>, Berkeley: University of California Press, 1987.</li> 
+        <li>Hoyos, Dexter, <em>Truceless War: Carthage's Fight for Survival</em>, 241 to 237 BC, Leiden: Brill, 2007.</li> 
+        <li>Steinby, Christa, The Roman Boarding Bridge in the First Punic War, <u>Arctos</u> 34 (2000) pp. 193-210.</li> 
+        <li>Thompson, Wesley E. "The Battle of the Bagradas" <em>Hermes</em> 114(1986) 111-117</li> 
+        <li>260 Naval victory at Mylae</li> 
+        <li>250 Drepanum</li> 
+        <li>242 Aegates Islands</li> 
+        <li>229-228 First Illyrian War</li> 
+        <li>225 Gauls defeated at Telamon</li> 
+        <li>224-222 Defeat of Boii and Insubres</li> 
+        <li>220-219 2nd Illyrian War</li> 
+       </ul> 
+       <p><strong>Hannibal</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Livy, <em>Ad urbe condita</em> &nbsp;</li> 
+        <li>Polybius, <em>The Histories</em> &nbsp;</li> 
+        <li>Alfieri, Nereo, "La Battaglia del Metauro," <em>Picus</em> 8 (1988) 7-35.</li> 
+        <li>Armstrong, Donald, <em>The Reluctant Warriors</em>, New York: Crowell, 1965.</li> 
+        <li>Arnold, Thomas, <em>The Second Punic War</em>, London: Macmillan, 1886.</li> 
+        <li>Baker, G. P. <em>Hannibal</em>, New York: Dodd &amp; Mead, 1929.</li> 
+        <li>Canter, Howard V. "The Character of Hannibal," <em>CJ</em> 24 (1929) 564ff.</li> 
+        <li>Caven, Brian, <em>The Punic Wars</em>, New York: St. Martin's Press, 1980.</li> 
+        <li>Cottrell, Leonard, <em>Hannibal: Enemy of Rome</em>, New York: Holt, Rinehart &amp; Winston, 1961.</li> 
+        <li>De Beer, Gavin, <em>Hannibal: Challenging Rome's Supremacy</em>, New York: Viking, 1970.</li> 
+        <li>Delbrueck, Hans, <em>History of the Art of War within the Framework of Political History</em>; Vol. 1, Antiquity, Westport, Ct.: Greenwood Press, 1975.</li> 
+        <li>Dodge, Theodore A. <em>Hannibal: A History of the Art of War among the Carthaginians and the Romans down to the Battle of Pydna 168 B.C.</em> Boston: Houghton, 1891, 2 vols.</li> 
+        <li>Dorey, T. A. &amp; D. R. Dudley, <em>Rome Against Carthage</em>, London: Secker &amp; Warburg,1968.</li> 
+        <li>Freshfield, Douglas, <em>Hannibal Once More</em>, London: E. Arnold, 1914.</li> 
+        <li>Fuller, J. F. C. <em>A Military History of the Western World</em>, New York: Da Capo Press, 1954. 3 vols.</li> 
+        <li>Grant, Michael, <em>The Army of the Caesars</em>. New York: Charles Scribner, 1978.</li> 
+        <li>Grundy, G. B., "The Trebbia and La ke Trasimene," <em>Classical Review</em> 10 (1896) 284ff.</li> 
+        <li>Grundy, G. B., "The Trebbia and La ke Trasimene," <em>Journal of Philology</em> 24 (1896) 83ff.</li> 
+        <li>Hoyos, Dexter, <em>Hannibal's Dynasty</em>,</li> 
+        <li>Lamb, Harold, <em>Hannibal: One Man Against Rome</em>, Graden City, N.J.: Doubleday, 1958.</li> 
+        <li>Lazenby, J. F. <em>Hannibal's War</em>, London: Aris &amp; Phillips, 1978.</li> 
+        <li>Liddell Hart, Basil, <em>A Greater Than Napoleon: Scipio Africanus</em>, London: Blackwood and Sons, 1926 (3rd edition 1992?)</li> 
+        <li>Macdougall, P. L. <em>The Campaigns of Hannibal</em> &nbsp;</li> 
+        <li>Morris, William O. <em>Hannibal, Soldier, Statesman, Patriot</em>, NY: E. Putnam, 1897.</li> 
+        <li>O'Connell, Robert,"The Roman killing Machine, " <em>Quarterly Journal of Military History</em> (Autumn, 1988) pp. 30-41.</li> 
+        <li>Rings, Guido, "Der Zweiten Punische Krieg. Anmerkungen zur Historiographie von <em>Kriegsausbruch und Kriegsfolgen</em>," Militärgeschichtlichen Mitteilungen 56 (1997) Heft. 1 157-162.</li> 
+        <li>Schmitt, Tassilo, <em>Hannibal's Siegeszug: historiographische und historische Studien vor allemzuPolybios und Livius, Quellen und Forsch zur Antiken Welt #10</em> Munchen 1991 388pp.</li> 
+        <li>Scullard, Howard Hayes, <em>Scipio Africanus in the Second Punic War</em> 2nd ed., Cambridge: Cambridge University Press, 1930.</li> 
+        <li>Shean, J.F., 'Hannibal's Mules: The Logistical Limitations of Hannibal's Army and the Battle of Cannae, 216 BC', <em>Historia</em> 45 (1996), 159-187.</li> 
+        <li>Smith, R. Bosworth, <em>Rome and Carthage</em>,</li> 
+        <li>Warmington, B. H. <em>Carthage</em>. New York: Praeger, 1960.</li> 
+        <li>Wise, Terence, <em>The Armies of the Carthaginian Wars 265-146 B.C.</em> London: Osprey Series, 1988.</li> 
+       </ul> 
+       <p><strong>Siege of Saguntum, 219 B.C.</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Heubner, Frederike, "Hannibal und Sagunt bei Livius," Klio LXXIII (1991) 70-82.</li> 
+       </ul> 
+       <p><strong>Crossing the Rhone</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Bryhim, S. O. "Hannibal's Elephants and the Crossing of the Rhone," <em>CQ</em> XLI (1991) 121-125.</li> 
+       </ul> 
+       <p><strong>Crossing the Alps</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>De Beer, Gavin, <em>Alps and Elephants</em>, New York: Dutton, 1956.</li> 
+        <li>Law, Wiilliam John, <em>The Alps of Hannibal</em>, London: Macmillan, 1866.</li> 
+        <li>Torr, Cecil, <em>Hannibal Cross the Alps</em>, Cambridge: Cambridge University Press, 1911.</li> 
+        <li>Wilkinson, Spenser, <em>Hannibal's March Through the Alps</em>, Oxford: The Clarendon Press, 1911.</li> 
+       </ul> 
+       <p><strong>Trasimene</strong> &nbsp;</p> 
+       <p><strong>Trebbia</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Marchetti, G. &amp; Aglio, P.L. dall' "Geomorfologia e vicende storiche nel territorio piacentino, I: la battaglia del Trebbia (218 a.C.) <em>Atti del Geol. della Univ. di Pavia</em> 30 (1982) 142-160.</li> 
+        <li>Susini, G. "In margine alla battaglia della Trebbia" <em>RSA</em> 13-14 (1983-1984) 69-74.</li> 
+       </ul> 
+       <p><strong>Cannae</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Daly, G., Cannae, London, 2002.</li> 
+        <li>Lazenby, J.F. <em>Hannibal's War</em>, Aris &amp; Phillips, Warminster, 1978. 74-86</li> 
+        <li>Samuels, M. "The reality of Cannae," <em>Militargeschichtliche Mitteilungen</em> 47 (1990) 7-29.</li> 
+       </ul> 
+       <p><strong>Metaurus</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Creasy, The Metaurus, in: The Six decisive Battles of the World</li> 
+        <li>Henderson, B. W., <em>The Campaign of the Metaurus</em>,"</li> 
+        <li>reviewed: English Historical Review 13 (1898) p.417</li> 
+        <li>reviewed by Oehler, Berliner philologische Wochenschrift, 9 (1899) p.428 .</li> 
+        <li>"Tomb of Hasdrubal and Battle of the Metaurus, " Journal Section(s): NOTES, Notes and Queries .4:1:4 (1868:Jan. 25) p.69 </li> 
+        <li>Burck, Erich, "Die Endphase der Schlacht am Metaurus bei Silius Italicus (Punica 15, 759-16, 22)," <em>Wiener Studien</em>, n.s.:16=95 (1982) p.260</li> 
+       </ul> 
+       <p><strong>Zama</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>H.H. Scullard, "The Site of the Battle of Zama" in <em>Polis and Imperium</em>. Studies in Honour of Edward Togo Salmon, Toronto, 1974 35-58.</li> 
+       </ul> 
+       <p><strong>215 First Macedonian War</strong> &nbsp;</p> 
+       <p><strong>200-196 Second MacedonianWar</strong> &nbsp;</p> 
+       <p><strong>Cynocephalae</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Hammond, N.G.L., "The Campaign and Battle of Cynocophalae (197 B.C.) <em>JHS</em> 108 (1988) 60-82.</li> 
+        <li>192-189 War with Antiochus</li> 
+        <li>191 Thermopylae</li> 
+        <li>190 Magnesia</li> 
+        <li>171-167 Third Macedonian War</li> 
+        <li>168 Pydna</li> 
+        <li>cf. Markov</li> 
+       </ul> 
+       <p><strong>Macedonia</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Livy</li> 
+        <li>Polybius</li> 
+        <li>Adcock, F. E. <em>The Greek and Macedonian Art of War</em>, Berkeley: University of California Press, 1957.</li> 
+        <li>Barker, Philip, <em>Armies of the Macedonian and Punic Wars</em>, 1971.</li> 
+        <li>Beaufoy, Col., "On Hannibal's Softening of the Rocks of the Alps with Vinegar," Annals <em>of Philosophy</em> 9,52 (April, 1817) 328ff.</li> 
+        <li>Berthold, Richard M. "The Army and Alexander the Great 's Successors," <em>Strategy and Tactics</em> 152 (June 1992) pp. 45-47.</li> 
+        <li>Bickerman, Elias J. "Hannibal's Covenant," <em>American Journal of Philology</em> 73 (1952) 1ff.</li> 
+        <li>Breckenridge, james D., "Hannibal as Alexander," <em>Ancient World</em> 7:3/4 (1983: July/Aug) 111-128.</li> 
+        <li><em>Cambridge Ancient History</em> Vol. 7 1954.</li> 
+        <li>Delbrueck, Hans, <em>History of the Art of War</em>, Vol. 1 Antiquity, Westport, Ct.: Greenwood press, 1975.</li> 
+        <li>Hahn, I., "Appian und Hannibal," <em>Academia Scientiarum Hungarica</em>, Acta Antiqua 20:1/2 (1972) 95ff.</li> 
+        <li>Hammond, N.G.L. Hammond, "The Battle of Pydna" <em>JHS</em> 104 (1984) 31-47.</li> 
+        <li>Jouquet. Pierre, <em>Alexander the Great and the Hellenistic World: Macedonian Imperialism and the Hellenization of the East</em> (2 vols.) Ares Press, 1978.</li> 
+        <li>J. LAZENBY, Was Maharbal Right? In: T. J. CORNELL, B. RANKOV, P.A.G. SABIN (Hgg.), The Second Punic War. A Reappraisal, London 1996, 39-48.</li> 
+        <li>McKeever, Dr. "On Hannibal's Passage Through the Alps," <em>Annals of Philosophy</em> n.s. 5,3 (March 1823) 193ff.</li> 
+        <li>Seaton, Stuart, <em>The Successors</em>, London: Charnwood, 1987.</li> 
+        <li>Tarn, W. W. <em>Hellenistic Military and Naval Developments</em>, London: Ares Publishers, 1975.</li> 
+        <li>Tarn, W. W. <em>Hellenistic Civilization</em>, New York: Dutton, 1989. </li> 
+       </ul> 
+       <p>In German:</p> 
+       <ul class="checklist"> 
+        <li>W. OTTO, Eine antike Kriegsschuldfrage: die Vorgeschichte des 2. Punischen Krieges, HZ 145,1932,489-516 (wieder abgedr. in: K. CHRIST (Hg.), Hannibal (WdF 371), Darmstadt 1974, 77-108)</li> 
+        <li>G. de SANCTIS, Annibale e "la Schuldfrage" d'una guerra antica, Problemi di storia antica, Bari 1932, 161-186 (dt.: Hannibal und eine "Kriegsschuldfrage" der Antike, in: K. CHRIST (Hg.), Hannibal (WdF 371), Darmstadt 1974, 109-133)</li> 
+        <li>F. OERTEL, Der Ebrovertrag und der Ausbruch des Zweiten Punischen Krieges, Rheinisches Museum 81,1932,221-231</li> 
+        <li>W. KOLBE, Die Kriegsschuldfrage von 218 v. Chr. Geburt, in: SB Heidelberger Akad. D. Wiss.,. phil.-hist. Kl., Jg. 1933/34, Nr. 4, Heidelberg 1934</li> 
+        <li>W. HOFFMANN, Die römische Kriegserklärung an Karthago im Jahre 218, Rheinisches Museum 94,1951,69-88</li> 
+        <li>H.H. SCULLARD, Rome's Declaration of War on Carthage in 218 B.C., Rheinisches Museum 94,1952,209-216 (dt.: Roms Kriegserklärung an Karthago im Jahr 218 v. Chr., in: K. CHRIST (Hg.), Hannibal (WdF 371), Darmstadt 1974, 156-166)</li> 
+        <li>J. CARCOPINO, Le traité d'Hasdrubal et la responsibilité de la deuxième guerre punique, REA 55,1953,258-293</li> 
+        <li>T.A. DOREY, The Treaty with Saguntum, Humanitas 11/12,1959/60,1-10</li> 
+        <li>A.E. ASTIN, Saguntum and the Origins of the Second Punic War, Latomus 26,1967,577-96</li> 
+        <li>P. BENDER, Untersuchungen zur Vorgeschichte des Zweiten Punischen Krieges, Diss. Hamburg 1956</li> 
+        <li>H.-C. EUCKEN, Probleme der Vorgeschichte des Zweiten Punischen Krieges, Freiburg 1968</li> 
+        <li>K.W. WELWEI, Die Belagerung Sagunts und die römische Passivität im Westen 219 v. Chr., Talanta 8/9,1977,156-73</li> 
+        <li>E. RUSCHENBUSCH, Der Beginn des 2. Punischen Krieges, Historia 27,1978,232-34</li> 
+        <li>K.-H. SCHWARTE, Der Ausbruch des zweiten Punischen Krieges. Rechtsfrage und Überlieferung, Wiesbaden 1983</li> 
+        <li>D. VOLLMER, Symploke. Das Übergreifen der römischen Expansion in den griechischen Osten (Untersuchungen zur römischen Außenpolitik am Ende des 3. Jhs. v. Chr.), Stuttgart 1987</li> 
+        <li>K.W. WELWEI, Die Belagerung Sagunts und die römische Passivität im Westen 219 v. Chr., Talanta 8/9,1977,156-73</li> 
+        <li>U. HÄNDL-SAGAWE, Der Beginn des 2. Punischen Krieges. Ein historisch-kritischer Kommentar zu Livius Buch 21, München 1995</li> 
+        <li>J. RICH, The Origins of the Second Punic War, in : T. J. CORNELL, B. RANKOV, P.A.G. SABIN (Hgg.), The Second Punic War. A Reappraisal, London 1996, 1-37</li> 
+        <li>P. BENDER, Rom, Karthago und die Kelten, Klio 79,1997,87-106</li> 
+        <li>K. BRINGMANN, Der Ebrovertrag, Sagunt und der Weg in den Zweiten Punischen Krieg, Klio 83,2001,369-376</li> 
+        <li>M. DE LAVIS-TRAFFORD, L'identification du col alpin franchi par Hannibal. Travaux de la Société d'Histoire et d'Archéologie de Maurienne 13,1956,109-200</li> 
+        <li>E. MEYER, Hannibals Alpenübergang, Museum Helveticum 15,1958,227-241</li> 
+        <li>E. MEYER, Noch einmal Hannibals Alpenübergang, Museum Helveticum 21,1964,99-102 (beide Ausätze wieder abgedr. in: K. CHRIST (Hg.), Hannibal (WdF 371), Darmstadt 1974, 195-221)</li> 
+        <li>D. PROCTOR, Hannibals March in History, Oxford 1971</li> 
+        <li>E. DE SAINT-DENIS, Encore l'itinéraire transalpin d'Hannibal, REL 51,1973,122-149</li> 
+        <li>J. SEIBERT, Der Alpenübergang Hannibals. Ein gelöstes Problem? Gymnasium 95,1988,21-73</li> 
+        <li>H. DELBRÜCK, Geschichte der Kriegskunst (I: Das Altertum), Berlin 19203, hier: 321-351</li> 
+        <li>A. GRAF VON SCHLIEFFEN, Die Schlacht bei Cannae, in: Ges. Schriften 1, Berlin 1913, 27-30; 265-66 (wieder abgedr. in: K. CHRIST (Hg.), Hannibal (WdF 371), Darmstadt 1974, 222-226)</li> 
+        <li>W. JUDEICH, Cannae, HZ 136,1927,1-24</li> 
+        <li>J. KROMAYER, Antike Schlachtfelder, 4 Bde., Berlin 1903-1931 (hier : Bd. 3, 1, 1912, 278-388 u. 4, 1931, 610-625)</li> 
+        <li>P. KUSSMAUL, Der Halbmond von Cannae, Museum Helveticum 35,1978,249-257</li> 
+        <li>W. HOFFMANN, Hannibal und Sizilien, Hermes 89,1961,478-494 (wieder abgedr. in: K. CHRIST (Hg.), Hannibal (WdF 371), Darmstadt 1974, 335-357</li> 
+        <li>J. v. UNGERN-STERNBERG, Capua im Zweiten Punischen Krieg, München 1975</li> 
+        <li>D.-A. KUKOFKA, Süditalien im Zweiten Punischen Krieg, Frankfurt 1990</li> 
+        <li>T. SCHMITT, Hannibals Siegeszug. Historiographische und historische Studien vor allem zu Polybios und Livius, München 1991</li> 
+        <li>Ed. MEYER, Hannibal und Scipio, in: E. MARCKS, K.A. VON MÜLLER (Hgg.), Meister der Politik, Bd. 1, Stuttgart, Berlin 2. Aufl. 1923, 65-117</li> 
+        <li>W. SCHUR, Scipio Africanus und die Begründung der römischen Weltherrschaft, Leipzig 1927</li> 
+        <li>H. BENGTSON, Scipio Africanus. Seine Persönlichkeit und seine weltgeschichtliche Bedeutung, HZ 168,1943,487-508</li> 
+        <li>H.H. SCULLARD, Scipio Africanus: Soldier an Politician, London 1970</li> 
+        <li>K. CHRIST, Hannibal und Scipio Africanus, in: DERS., Römische Geschichte und Wissenschaftsgeschichte, Band 1, Darmstadt 1982, 1-15</li> 
+        <li>K.-H. SCHWARTE, P. Cornelius Scipio Africanus d. Ältere. Eroberer zwischen West und Ost, in: K.-J. HÖLKESKAMP, E. STEIN-HÖLKESKAMP (Hgg.), Von Romulus zu Augustus. Große Gestalten der römischen Republik, München 2000, 106-119</li> 
+       </ul> 
+       <p><strong>149-146 Third Punic War</strong> &nbsp;</p> 
+       <p><strong>149-148 Fourth Macedonian War</strong> &nbsp;</p> 
+       <p><strong>147-139 War with Viriathus in Spain</strong> &nbsp;</p> 
+       <p><strong>143-133 Numantine War</strong> &nbsp;</p> 
+       <p><strong>136-132 Slave Wars in Sicily</strong> &nbsp;</p> 
+       <p><strong>111-105 Jugurthine War</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Allen, Walter Jr., "The Source of Jugurtha's Influence in the Roman Senate," <em>Classical Philology</em> 33 (1938: Jan/Oct) 90.</li> 
+        <li>Canter, H.V., "The Chronology of Sallust's Jugurtha," <em>Classical Journal</em> 6 (1910/11) 290ff.</li> 
+        <li>Scanlon, Thomas F. "Textual Geography in Sallust's The War With Jugurtha," <em>Ramus</em> 17,2 (1988) 138ff.</li> 
+        <li>Thielscher, Paul, "Die Schlacht am Muthul nach Sallust, Jugurtha 48,2 - 54,4," <em>Klio</em> 29 (1936) 173-201.</li> 
+       </ul> 
+       <p><strong>105 Arausio</strong> &nbsp;</p> 
+       <p><strong>104-100 2nd Slave War in Sicily</strong> &nbsp;</p> 
+       <p><strong>101 Cimbri Deafted at Vercellae</strong> &nbsp;</p> 
+       <p><strong>190-188 Italian or Marsic War</strong> &nbsp;</p> 
+       <p><strong>89-95 First Mithridatic War</strong> &nbsp;</p> 
+       <p><strong>88 Massacre of Italians in Asia</strong> &nbsp;</p> 
+       <p><strong>86 Chaeronea</strong> &nbsp;</p> 
+       <p><strong>Orchomenus</strong> &nbsp;</p> 
+       <p><strong>74-63 Third Mithridatic War</strong> &nbsp;</p> 
+       <p><strong>Roman Slave wars 140-70 B.C.</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Bradley, R. Keith, "The Roman Slave Wars 140-70 B.C." in Forms of Control . . .</li> 
+       </ul> 
+       <p><strong>Revolt of Spartacus 73-71</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Baldwin, Barry, "Two Aspects of the Spartacus Slave Revolt," <em>Classical Journal</em> 62 (1966/67) 289ff.</li> 
+        <li>Doer, Bruno, "Spartacus," <em>Altertum</em> 6,4 (1960) 217.</li> 
+        <li>Doi, Masaoki, "On the Negotiations between the Roman State and the Spartacus Army," <em>Klio</em> 66,1 (1984) 170.</li> 
+        <li>Homes, T. Rice, <em>Caesar's Conquest of Gaul</em>,</li> 
+        <li>Jullian,Camille, <em>Vergingetorix</em>, Paris, 1965.</li> 
+        <li>Kamienik, Roman, "Spartacus und die Seeraeuber," <em>Altertum</em> 27,2 (1981) 119ff.</li> 
+        <li>Marshall, B.A., "Crassus and the Command Against Spartacus,"<em> Athenaeum</em> n.s. 51 (1973) 109ff.</li> 
+        <li>Muenzer, F. "Der erste Gegner des Spartacus," <em>Philologus</em> 55 (1896) 387ff.</li> 
+        <li>Rubinsohn, Ze'ev, "Spartacus Uprising and Soviet Historical Writing," <em>JRS</em> 81 (1991) 192-193.</li> 
+        <li>Scarborough, John, "Reflections of Spartacus," <em>Ancient World</em> 1,2 (1978) 75-81.</li> 
+        <li>Ziegler, Konrat, "Die Herkunft des Spartacus," <em>Hermes</em> 83 (1955) 248ff.</li> 
+       </ul> 
+       <p><strong>Julius Caesar</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Appian, <em>The Civil War</em>, New York, 1964.</li> 
+        <li>Caesar, Julius,<em>The Gallic War</em> &nbsp;</li> 
+        <li>Caesar, Julius, <em>The Civil War</em> &nbsp;</li> 
+        <li>Collins, John H. "Caesar as a Political Propagandist," <em>Aufstieg und Niedergandg der Romischen Welt</em>, I,1 pp. 922-966.</li> 
+        <li>Rambaud, Michel, <em>L'art de la deformation historique dans les Commentaires de Cesar</em>, (Paris, 1966, 2nd ed.)</li> 
+        <li>Wiseman, Ann, <em>Julius Caesar: The Battle for Gaul</em>, London: Chatto and Windus, 1980.</li> 
+        <li>Balsdon, J.V.P.D., <em>Julius Caesar and Rome</em>, Harmondsworth, England: Penguin, 1971.</li> 
+        <li>Buchan, John, <em>Julius Caesar</em>, 1932.</li> 
+        <li>Connolly, Peter, <em>Greece and Rome at War</em>, Englewood Cliffs, N.J.: Prentice-Hall, 1981.</li> 
+        <li>Conway, R. S. <em>Makers of Europe</em>, 1931.</li> 
+        <li>Cuff, P. J. "Caesar the Soldier," <em>G &amp; R</em> 4 (1956) 29-35.</li> 
+        <li>Delbrueck, Hans, <em>History of the Art of War</em>, Vol. 1, Antiquity, Westport, CT: Greenwood Press, 1990.</li> 
+        <li>Dodge, T. A. <em>Caesar: A History of the Art of War</em>, 1892.</li> 
+        <li>Dodge, T. A., <em>Great Captains</em>, 1968.</li> 
+        <li>Ferrero, G. <em>The Life of Caesar</em>, 1933.</li> 
+        <li>Fowler, W. Warde, <em>Julius Caesar</em>, 1891.</li> 
+        <li>Froude, James A. <em>Caesar: A Sketch</em>, 1879.</li> 
+        <li>Fuller, J.F. C. Julius <em>Caesar: Man, Soldier, Tyrant,</em> New York: Da Capo, 1965.</li> 
+        <li>Fuller, J.F. C. , <em>A Military History of the Western World, Vol. 1 From Earliest Times to the Battle of Lepanto</em>, New York: Da Capo, 1954.</li> 
+        <li>Gabriel, Richard A. <em>The Culture of War</em>, Westport, CT: Greenwood Press, 1990.</li> 
+        <li>Gabriel, Richard A. and Karen S. Metz, <em>From Sumer to Rome: The Military Capabilities of Ancient Armies</em>, Westport, CT: Greenwood Press, 1991.</li> 
+        <li>Grant, Michael,<em> Julius Caesar</em>, 1969.</li> 
+        <li>Gundolf, Friedrich, <em>The Mantle of Caesar</em>, 1928.</li> 
+        <li>Hardy, Ernest G. <em>Some Problems in Roman History</em>, 1924.</li> 
+        <li>Hackett, General Sir John, <em>Warfare in the Ancient World</em>, London: Sidgwick and Jackson, 1989.</li> 
+        <li>Harmand, Jacques, <em>Les celtes sau seconde age du fer</em>, Paris, 1970.</li> 
+        <li>Harmand, Jacques, <em>Vercingetorix et Alesia</em>, Paris, 1995.</li> 
+        <li>Hignett, C. "The Conquest of Gaul," <em>Cambridge Ancient History</em> Vol. 9, pp. 550ff (1st edition).</li> 
+        <li>Hillman, Thomas P., "Strategic Reality and the Movements of Caesar, January 49 BC," <em>Historia</em> 37 (1988), p. 248-252.</li> 
+        <li>Holmes, T. Rice, <em>The Roman Republic and the Founder of the . . .</em> 1923.</li> 
+        <li>Holmes, T. Rice, <em>Caesar's Conquest of Gaul</em>, Oxford, 1931 2nd ed.</li> 
+        <li>Judson, Harry Pratt, <em>Caesar's Army</em>, 1888.</li> 
+        <li>Klotz, Alfred, "Der Helvetierzug. Zur Glauwurdigkeitvon Caesars Commentarii de bello Gallico," <em>Neue Jahrbucher fur das Klassische Altertum</em> 35 (1915), pp. 609-32.</li> 
+        <li>Kloevekorn, <em>Die kampfe Caesars gegen die Helvetier im jahre 58 v Chr</em>. Leipzig, 1889.</li> 
+        <li>Lendon, J.E., "The rhetoric of combat: Greek military theory and Roman culture in Julius Caesar's battle descriptions," <em>Classical Antiquity</em> 18/1 (1999) 273-329.</li> 
+        <li>Mainzer, Fredinand, <em>Caesar's Mantle</em> &nbsp;</li> 
+        <li>O'Connell, Robert L. "The Roman Killing Machine," <em>Quarterly Journal of Military History</em> (Autumn, 1988) pp. 36-39.</li> 
+        <li>Oman, Charles William, <em>Seven Roman Statesman of the Later Republic</em>, 1902.</li> 
+        <li>Payne-Galwey, "The Artillery of the Carthaginians, Greeks and Romans," <em>Journal of the Royal Artillery</em> 58 (1) (April 1931) pp. 34-40.</li> 
+        <li>Rambaud, Michel, <em>l'Art de deformation historique dans les Commentaires de Cesar</em>, Paris, 1966, 2nd ed.</li> 
+        <li>Schmittlein, Raymond, <em>Avec Cesar en Gaule</em>, Paris, 1970.</li> 
+        <li>Stevens, C.E. "The 'Bellum Gallicum' as a work of propaganda," <em>Latomus</em> 11 (1952) p.</li> 
+        <li>Stoessel, Franz, "Caesars Politik und Diplomatie im Helvetierkrieg," <em>Schweizer Beitrage zur allgemeinen Geschichte</em> 8 (1950), pp. 5-36.</li> 
+        <li>Todd, Malcolm, <em>Roman Britain</em>, London: Fontana, 1981.</li> 
+        <li>Veith, Georg, <em>Geschichte der Feldzuge C. Julius Caesars</em>, Vienna, 1906.</li> 
+        <li>Watson, G. R. <em>The Roman Soldier</em>, Ithaca: NY: Cornell University Press, 1969.</li> 
+        <li>Walter, Gerard, <em>Caesar: A Biography</em> &nbsp;</li> 
+        <li>Walzer, Gerold, <em>Caesar und die Germanen. Studien zur politischen Tendenz romischer Feldzugberichte</em>, Wiesbaden, 1956.</li> 
+       </ul> 
+       <p><strong>Gallic Wars</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Armstrong, Donald, "The Blitzkrieg in Caesar's Campaigns," <em>Classical Journal</em> 37 (1941/42), pp. 138-143.</li> 
+        <li>Bloch, Gustave, <em>Les origines, la Gaule independante, et la Gaule Romaine</em>, (Volume 1,2 of Ernest Lavisse, ed. </li> 
+        <li><em>Histoire de la France Illustre</em> (Paris, 1900-1911, 9 vols.)</li> 
+        <li>Cagniart, Pierre F., "Studies on Caesar's Use of Cavalry during the Gallic War," <em>Ancient World</em> 23 (1992), pp. 71-85.</li> 
+        <li>Colombe, Georgess, Vercingetorix. Histoire <em>du Pays gaulois depuis ses origines jusqu'a la conquete romaine</em>, Paris, 1947.</li> 
+        <li>Conley, Duane T., "Causes of Roman Victory presented in the Belllum Gallicum: Caesar the Commander vs. Other Factors," <em>Helios</em> 10,2 (1983), pp. 173-186.</li> 
+        <li>Delbrueck, Hans, <em>History of Warfare</em>, Vol. 1</li> 
+        <li>Deyrer, Alain, "La Guerilla gauloise pendant la guerre des Gaules (58-50 avant J.C.)," <em>Etudes Celtiques</em> 24 (1987), pp. 145-83.</li> 
+        <li>Fuller, J.F.C., <em>Julius Caesar, Man, Soldier, Tyrant</em>, London, 1965.</li> 
+        <li>Furger-Gunti, Andres, <em>Die Helvetier. Kulturgeschichte eines Keltenvolkes</em>, Zurich, 1986.</li> 
+        <li>Gardiner, Jane F. "The Gallic Menace in Caesar'spropaganda," <em>Greece and Rome</em> 30 (1983), pp. 181-189.</li> 
+        <li>Goudineau, Christian, <em>Cesar et la Gaule</em>, Paris, 1990.</li> 
+        <li>Hignett, C. "The Conques of Gaul," <em>Cambridge Ancient History</em> 1st edition, vol 9, pp. 550ff.</li> 
+        <li>Jullian, Camille, <em>Vercingetorix</em>, Paris, 1965.</li> 
+        <li>Le Gall, Joel, <em>La bataille d'Alesia</em> &nbsp;</li> 
+        <li>Lieberg, Godo, <em>Caesars Politik in Gallien: Interpretationen zum Bellum Gallicum</em> &nbsp;</li> 
+        <li>Harmand, Jacques, <em>Vercingetorix et Alesia</em>, Paris, 1995.</li> 
+        <li>Harmand, Jacques, <em>Une campagne cesarienne: Alesia</em>, Paris, 1967.</li> 
+        <li>Harmand, Jacques, "Une composante scientifique du Corpus Caesarianum: le portrait de la Gaule dans De Bello Gallico I-VII" in <em>Aufstieg und Niedergang der Romischen Welt</em> 1:3, pp. 522-95.</li> 
+        <li>Hemmerdinger, Bertrand, "Le denombrement des tribus Helvetes chez Cesar (BG 1.29)," <em>Bollettino dei Classici</em> 11 (1990), pp. 204.05.</li> 
+        <li>Hignett, C. "The Conquest of Gaul," <em>Cambridge Ancient History</em> Vol. 9, </li> 
+        <li>Holmes, Rice, <em>Caesar's Conquest of Gaul</em>, 1911.</li> 
+        <li>Hough, John N. "Caesar's Camp on the Aisne," <em>Classical Journal</em> 36 (1940/41), pp. 338-345.</li> 
+        <li>Jimenez, Ramon, <em>Caesar Against the Celts</em>, New York, 1996.</li> 
+        <li>Klotz, Alfred, "Der Helvetierzug. Zur Glaubwurdigkeit von Caesars Commentarii de bello Gallico," <em>Neue Jahbucher fur das klassische Altertum</em> 35 (1915), pp. 609-32.</li> 
+        <li>Kloevekorn, Heinrich, <em>Die Kampfe Caesars gegen die Helvetier im jahre 58v Chr</em>. Leipzig, 1889.</li> 
+        <li>Lazenby, J.F., "The Conference at Luca and the Gallic War," <em>Latomus</em> 18 (1959) pp. 67-76.</li> 
+        <li>Lieberg, <em>Caesars Politik in Gallien. Interpretationen zm Bellum Gallicum</em>,</li> 
+        <li>Markale, Jean, <em>Vercingétorix</em>, Monaco : Editions du Rocher, 1995.</li> 
+        <li>Meyer, Ernst, "Die Zahl der Helvetier bei Cesar," <em>Zeitschrift fur Schweizerische Geschichte</em> 29 (1949), pp. 65-70.</li> 
+        <li>Moreau, J., <em>Dictionnaire de geographie historique de la Gaule et de la France</em>, Paris, 1972.</li> 
+        <li>Muller, B.A. "Die Zahl der Teilnehmer am Helvetierfeldzug in Jahre 58 v Chr. Ge.," <em>Klio</em> 9 (1909), opp. 69-75.</li> 
+        <li>Napoleon III, <em>Histoire de Jules Cesar</em>, New York, 1866.</li> 
+        <li>Pareti, Luigi, "Quanto erano i belgi ai tempi di Cesare?" <em>Athenaeum</em> n.s. 22 (1944), pp. 63-71.</li> 
+        <li>Pelling, C.B.R. "Caesar's Battle Descriptions and the Defeat of Ariovistus," <em>Latomus</em> 40 (1981) 747.</li> 
+        <li>Potier, René, <em>Le génie militaire de Vercingétorix et le mythe Alise-Alesia</em>, Clermont-Ferrand, Éditions Volcans, 1973.</li> 
+        <li>Quinche, Eugene, <em>Les Helvetes. Divico contre Cesar</em> (109 a 52 av. J.C.), Paris, 1948.</li> 
+        <li>Radin, Max, "The promotion of Centurions in Caesar's Army," <em>Classical Journal</em> 10 (1914/15), pp. 300-311.</li> 
+        <li>Redde, Michel et Benard, J., <em>L'armee romaine en Gaule</em> &nbsp;</li> 
+        <li>Schmittlein, Raymond, <em>Avec Cesar en Gaule</em>, Paris, 1970.</li> 
+        <li>Simon, Andre, <em>Vercingetorix, heros republicain</em>, Paris, 1996.</li> 
+        <li>Stevens, C.E. "The 'Bellum Gallicum' as a work of Propaganda," <em>Latomus</em> 11 (1952), pp. 3-18.</li> 
+        <li>Stocker, Arthur F., "The Legis Dies of Caesar's Command in Gaul," <em>Classical Journal</em> (1960-61), pp. 242-248.</li> 
+        <li>Stofffel, Francois, <em>Histoire de Jules Cesar</em>, Paris, 1887, 2 vols.</li> 
+        <li>Stoessl, "Caesars Politik und Diplomatie im Helvetierkrieg," <em>Schwiezer Beitrage zur allgemeinen Geschichte</em> 8 (1950) pp. 5-36.</li> 
+        <li>Swain, George R., "Caesar's Strategy in the Gallic War," <em>Classical Journal</em> 3 (1907/08), pp. 67-73.</li> 
+        <li>Veith, Georg, <em>Geschichte der Feldzuge C. Julius Caesars</em>, Vienna, 1906.</li> 
+        <li><em>Vercingétorix et Alésia</em>: Saint-Germain-en-Laye, Musée des antiquités nationales, 29 mars-18 juillet 1994. Paris : Réunion des Musées nationaux, 1994 .</li> 
+        <li>Waller, Arthur T., "Where did Caesar Defeat the Usipetes and Tencteri?", <em>Classical Journal</em> 17 (1921/22), pp. 77-86.</li> 
+        <li>Walser, G. <em>Bellum Helveticum</em>. Studien zum Beginn der Caesarischen Eroberung von Gallien,</li> 
+        <li>Zecchini, Giuseppe, <em>Cassio Dione e la guerra gallica di Cesare</em>, Milano: Vita e pensiero, 1978.</li> 
+       </ul> 
+       <p><strong>Caesar's Invasion of Britain 55-54 B.C.</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Airy, George B. Essays on the Invasion of Britain by Julius Caesar. DA 145 A 27.</li> 
+        <li>Belfiglio, Valentine J., "Roman Amphibious Operations Against Britain in 55 B.C.," Military and Naval History Journal (March, 1998) 3-13.</li> 
+        <li>Belfiglio, Valentine J., "The Roman Amphibious Assault Against Britain in 54 B.C.", Military and Naval History Journal, ( March 2000), pp. 15-21.</li> 
+        <li>Born, Lester, K. "Caesar: The Art of Command," Classical Journal 23 (1927-28), pp. 94-106.</li> 
+        <li>Brady, S.G. "Caesar and Britain," Classical Journal 47,8 May 1952, pp. 305-317.</li> 
+        <li>Burne, Alfred Higgins, The Art of War on Land, Harrisburg, Pa., 1947.</li> 
+        <li>Cardwell, Rev. E. "The Landing Place of Julius Caesar in britain," Archaeologia Cantiana 3 (1860), pp. 1-18.</li> 
+        <li>Deutsch, Monroe E., "Caesar and the Pearls of Britain," Classical Journal 19 (1923/24), pp. 503-505.</li> 
+        <li>Ellis, Peter B. Caesar's Invasion of Britain NY, 1978.</li> 
+        <li>Frere, Shepherd, Brittania</li> 
+        <li>Hawkes, Christopher, "Britain and Julius Caesar," Proceedings of the British Academy 63 (1977) pp. 125-192.</li> 
+        <li>Hawkes, Christopher, "the Belgae of Gaul and Britain," Archaeology Journal 87 (1930)</li> 
+        <li>Hawkes, Christopher, "Caesar's Britain: an oppidum for Cassivelaunus," Antiquity 54, 210 (March 1980), pp. 138-139.</li> 
+        <li>Hill, Victor, D., "Background versus Battlegrond in Caesar's Gallic Wars," Classical Journal 27 1931/32), pp. 581-595.</li> 
+        <li>Holmes, T. Rice, Ancient Britain and the Invasions of Julius Caesar, Oxford, 1907.</li> 
+        <li>Hussey, R.C., "On Caesar's landing Place in Britain," Archaeologia Cantiana 1 (1858), pp. 94-110.</li> 
+        <li>Jenkins, Rev. H., "On Caesar's Passage of the Thames," Journal of the British Archaeological Association, 16 (1860), pp. 133-145.</li> 
+        <li>Lashbrook, Austin, M. "Caesar and the Natives," Classical Journal 63 (1967/68), pp.341-346.</li> 
+        <li>Legg, Rodney, Romans in Britain</li> 
+        <li>Malden, H.E., "Caesar's Expeditions to britain," Journal of Philology 17 (1888), pp. 163-178.</li> 
+        <li>Mitchell, S., "Cornish Tin, Julius Caesar, and the Invasion of Britain," in C. Derough, Studies in Latin Literature, Vol. 3, pp. 80-99, Collection Latomus, 1983.</li> 
+        <li>Murphy, Charles T., "The Use of Speeches in Caesar's Galic Wars," Classical Journal 45 (1949/50), pp. 120-126.</li> 
+        <li>Murray, E.W., "Caesar's Fortifications on the Rhone," Classical Journal 4 (1908/9), pp. 309-320.</li> 
+        <li>Pelling, C.B.R., "Plutarch on the Gallic Wars," Classical Bulletin 60 (1984), pp. 88-99.</li> 
+        <li>Peskett, A.G., "Caesar's Invasion of Britain,"Journal of Philology 19 (1891), pp. 691-201.</li> 
+        <li>Potter, T.W. &amp; Johns, C., Romain Britain</li> 
+        <li>Ridgeway, William, "Caesar's Expedition to Britain," Journal of Philology 19 (1891), pp. 193-210.</li> 
+        <li>Salway, Peter, Oxford Illustrated History of Britain, ch. 2 "The Expeditions of Caesar"</li> 
+        <li>Scullard, H.H., Roman Britain: Outpost of the Empire</li> 
+        <li>Sherwin-White, A.N., "Caesar as an Imperialist," Greece and Rome 3 (1956/57), pp. 36-45.</li> 
+        <li>Stanhope, Earl, "Correspondence Respecting Tides in the Dover Channel," Archaeologia 39,2 (1863), pp. 279-302.</li> 
+        <li>Stanhope, Earl, "On the Day of Caesar's Landing in Britain," Archaeologia 41 (1867), pp. 270-274.</li> 
+        <li>Stevens, C.E. "The 'Bellum Gallicum' as a work of Propaganda," Latomus 11 (1952), pp. 3-18.</li> 
+        <li>Stevens, C.E., "55 B.C. and 54 B.C.", Antiquity 21 (1947), pp. 3-9.</li> 
+        <li>Todd, Malcolm, Romain Britain</li> 
+        <li>Warburg, H.D., Notes and Documents: Caesar's First Expedition to Britain," English Historical Review 38 (1923), pp. 226-240.</li> 
+       </ul> 
+       <p><strong>53 Crassus at Carrhae</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Plutarch, <em>Life of Crassus</em> &nbsp;</li> 
+       </ul> 
+       <p><strong>52-51 Vercingetorix</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Caesar, <em>The Gallic Wars</em> &nbsp;</li> 
+       </ul> 
+       <p><strong>48 Pharsalus</strong> &nbsp;</p> 
+       <p><strong>47 War with Pharnaces</strong> &nbsp;</p> 
+       <p><strong>46 Thapsus</strong> &nbsp;</p> 
+       <p><strong>45 Munda</strong> &nbsp;</p> 
+       <p><strong>44-43 Mutina</strong> &nbsp;</p> 
+       <p><strong>42 Philippi</strong> &nbsp;</p> 
+       <p><strong>41 Perusia</strong> &nbsp;</p> 
+       <p><strong>36 Parthian War</strong> &nbsp;</p> 
+       <p><strong>31 Actium</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Harrington, D. "The Battle of Actium. A Study in Historiography" <em>AncW</em> 9(1984) 59-64.</li> 
+       </ul> 
+       <p><strong>Empire</strong> &nbsp;</p> 
+       <p><strong>Roman Imperial Army - General</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Bishop, M.C. "The distribution of military equipment within Roman forts of the first century A.D." <em>Stud. zu den Militärgrenzen Roms</em> 717-723</li> 
+        <li>Brunt, P.A. "Pay and Superannuation in the Roman Army," <em>PBSR</em> 17 (NSV) 1950, 50-71.</li> 
+        <li>Campbell, Brian, <em>The Roman Army</em> &nbsp;</li> 
+        <li>Campbell, Brian, <em>The Emperor and the Roman Army</em> &nbsp;</li> 
+        <li>Cheeman, G.L. <em>The Auxilia of the Roman Imperial Army</em>, Oxford, 1914.</li> 
+        <li>Davies, Roy, et. al. <em>Service in the Roman Army</em> &nbsp;</li> 
+        <li>Dixon, K.R. and P. Southern, <em>The Roman Cavalry</em> (1992)</li> 
+        <li>Eadie, John W. "The Development of Roman Mailed Cavalry,"<em> JRS</em> vol. 17 ***</li> 
+        <li>Gordon, C.D. "Vegetius and His Proposed Reforms of the Army" in <em>Polis and Imperium</em>. Studies in Honour of Edward Togo Salmon, Toronto, 1974 35-58.</li> 
+        <li>Grant, Michael, <em>The Army of the Caesars</em>, 1974.</li> 
+        <li>Hyland, A. <em>Equus: The Horse in the Roman World</em> (1990)</li> 
+        <li>Hyland, A., <em>Training the Roman Cavalry: from Arrian's Tactica</em> (1993)</li> 
+        <li>Isaac, Benjamin, <em>The Limits of Empire</em>, 1990.</li> 
+        <li>Keppie, L.J.F., <em>The Making of the Roman Army</em>, 1984.</li> 
+        <li>Luttwak, Edward, <em>The Grand Strategy of the Roman Empire</em>, 1976.</li> 
+        <li>Macmullen, Ramsay, <em>Soldier and Civilian in the Later Roman Empire</em>, 1967.</li> 
+        <li>Nischer, E. "The Army Reforms of Diocletian and Constantine and Their Modifications Up to the Time of the Notitia Dignitatum," <em>JRS</em> Vol. 13 ***</li> 
+        <li>Parker, Henry Michael, <em>The Roman Legions</em>, 1928.</li> 
+        <li>Parker, H.M.D. "A Note on the Promotion of Centurions," <em>JRS</em> vol. 16 ***</li> 
+        <li>Parker, H.M.D. "The Legions of DIocletian and Constantine," <em>JRS</em> vol. 23 ***</li> 
+        <li>Pavcovic, Michael F. <em>The Legionary Horsemen</em>: an essay in the equites legionis and equites promoti, Diss University of Hawaii, 1991.</li> 
+        <li>Ramsay, W. M. and A.M. "Roman Garrisons and Soldiers in Asia Minor," <em>JRS</em> vol. 18 ***</li> 
+        <li>Ramsay, W. M. , "Roman Garrisons and Soldiers in Asia Minor," <em>JRS</em> vol. 19 ***</li> 
+        <li>Ritterling, E. R. "Military Forces in the Senatorial Provinces," <em>JRS</em> 17 ***</li> 
+        <li>Saddington, D. B. "Tacitus and the Roman Army," ANRW II, 33, 5 pp. 3484-3555.</li> 
+        <li>Salazar, Christine, The Treatment of War Wounds in Greco-Roman Antiquity (1999) [Studies in Ancient Medicine, 21].</li> 
+        <li>Speidel, Michael P. "Work to be Done on the Organization of the Roman Army," <em>BIAL</em> 26 (1989) pp-106.</li> 
+        <li>Syme, R. "Rhine and Danube Legions Under Domitian," <em>JRS</em> vol. 18 ***</li> 
+        <li>Syme, Ronald, "Some Notes on the Legions Under Augustus," <em>JRS</em> vol. 23 ***</li> 
+        <li>Valic, N. "The Illyrian War of Octavian," <em>JRS</em> vol. 24 ***</li> 
+        <li>Webster, Graham, <em>The Roman Imperial Army</em>,</li> 
+        <li>Wilkes, John, <em>The Roman Army</em> &nbsp;</li> 
+       </ul> 
+       <p><strong>Roman Imperial Navy</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Dolley, R. H. "The Warships of the Later Roman Empire," <em>JRS</em> vol. 38, ***</li> 
+        <li>Starr, Chester G. <em>The Roman Imperial Navy</em>, 1960.</li> 
+       </ul> 
+       <p><strong>Teutoberg Forest</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>"Battle of the Teutoberg Forest," <em>Archaeology</em> (Sept. Oct. 1992) pp. 26-32.</li> 
+        <li><em>Cambridge Ancient History</em>, Vols. 9 - 10 1954.</li> 
+        <li>Creasy, Edward Shepard,<em> Fifteen Decisive Battles of the World</em>, New York, 1987.</li> 
+        <li>Delbrueck, Hans, <em>History of the Art of War</em>, Vol. 2</li> 
+        <li>Dio Cassius, <em>Roman History</em> &nbsp;</li> 
+        <li>Dupuy, R. Ernest and Dupuy, T. N. <em>The Encyclopedia of Military History</em>, New York, 1986.</li> 
+        <li>Fuller, J.F.C. <em>Military History of the Western World</em>, Vol. 1 New York, 1990.</li> 
+        <li>Gabriel, Richard A. <em>The Culture of War</em>, Westport, Ct.: Greenwood Press, 1990.</li> 
+        <li>Gabriel, Richard A. and Karen Metz, <em>From Sumer to Rome: The Military Capabilities of Ancient Armies</em>, Greenwood Press, 1991.</li> 
+        <li>Tacitus, <em>The Histories</em> &nbsp;</li> 
+        <li>Tacitus, <em>The Annals</em>,</li> 
+        <li>Tacitus, <em>Germania</em> &nbsp;</li> 
+        <li>Wells, Peter, S., <em>The Battle That Stopped Rome: Emperor Augustus, Arminius and the Slaughter of the Legions in the Teutoburg Forest</em>, New York: Norton, 2003.</li> 
+       </ul> 
+       <p><strong>British Campaigns</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Breeze, D. J., "The Logistics of Agricola's Final Campaign," <em>Talanta</em> 18-19 (1986-7) 7-28.</li> 
+        <li>Davies-Pryce, T. and E. Birley, "The Fate of Agricola's Northern Conquests," <em>JRS</em> vol. 28, ***</li> 
+        <li>Webster, Graham, <em>Rome against Caratacus: The Roman Campaigns in Britain, A.D.</em> 48-58 (Totowa NJ: Barnes &amp; Noble 1982).</li> 
+       </ul> 
+       <p><strong>Boudicca</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Benario, H.W. "Legionary speed of march before the battle of Boudicca" <em>Britannia</em> 17 (1986) 359-362.</li> 
+       </ul> 
+       <p><strong>Jewish Wars &amp; Israel</strong> &nbsp;</p> 
+       <p><strong>Bar Kochba War</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Dio Cassius</li> 
+        <li>SHA, <em>Hadrian</em>, 14.2.</li> 
+        <li>Abramsky, Shmuel, <em>Bar Kockhba, Nasi of Israel</em>, Tel Aviv, 1961 (Hebrew)</li> 
+        <li>Aharoni, Yohanan, “Expedition B - The Cave of Horror,” <em>Israel Exploration Journal</em> 11 (1962), pp. 186-199. </li> 
+        <li>Aleksandrov, G.S. “The Role of Aqiba in the Bar Kokhba Rebellion,” <em>Revue des Etudes Juives</em> 132 (1973) pp. 65-77.</li> 
+        <li>Alon, G. (ed. And trans. By G. Levi), <em>The Jews in their Land in the Talmudic Age</em>, II (Jerusalem, 1984), pp. 583-591.</li> 
+        <li>Amit, D. and Eshel, H, “The Bar Kokhba Revolt in the Southern Hebron Mountains,” Ertez-Israel 25 (1996), pp. 463-479. (Hebrew withy English summaries).</li> 
+        <li>Applebaum,, Shimon, “For Whom Did Apollodorus Write the Poliorketika?,” in S. Applebaum: <em>Judaea in Hellenistic and Roman Times</em>. Historical and Archaeological Essays, Leiden: Brill, 1989, pp. 111-116.</li> 
+        <li>Applebaum, Shimon, “Points of View on the Second Jewish Revolt,” <em>Scripta Classica Israelica</em> 7 (1983/84), pp. 77-87 </li> 
+        <li>Applebaum, Shimon, <em>Prologomena to the Study of the Second Jewish Revolt</em> (A.D. 132-135) BAR Suppl Ser. 7 (1976)</li> 
+        <li>Applebaum, Shimon, “The Jewish Revolt in Cyrene in 115-117 and the Subsequent Re-Colonization” <em>Journal of Jewish Studies</em> 2 (1951), 177-181</li> 
+        <li>Applebaum, Shimon, “The Agrarian Question and the Revolt of Bar Kokhba,” <em>EI</em> 8 (1967) (Hebrew).</li> 
+        <li>Applebaum, Shimon, “The Second Jewish Revolt (AD 131-35) <em>Palestine Exploration Quarterly</em> 116 (1984), pp. 35-37.</li> 
+        <li>Applebaum, Shimon, “Bethar and the Roman Road System,” <em>ZpalV</em> 1987 CIII pp. 137-140.</li> 
+        <li>Applebaum, Shimon, “Tineus Rufus and Julius Severus,” in <em>The Bar Kokhba Revolt: New Approaches</em> (ed. A. Oppenheimer and U. Rappaport: Jerusalem: Yad Yitzhak Ben Zvi, 1984), pp. 147-52 (Hebrew)</li> 
+        <li>Applebaum, Shimon, “Tineus Rufus and Julius Severus,” in <em>Judaea in Hellenistic and Roman Times</em>. Historical and Archaeological Essays Leiden: E.J. Brill, 1988, pp. 120-123.</li> 
+        <li>Applebaum, Shimon, The Bar Kokhba War and its Results,” in Uriel Rappaport (ed.) <em>Judea and Rome – The Jewish Revolts</em>, Jerusalem: Am Oved Publication 1983, pp. 229-260 (Hebrew).</li> 
+        <li>Avi-Yonah, Michael, <em>The Jews of Palestine</em>. A Political History from the Bar Kokhba War to the Arab Conquest, Oxford, 1976. </li> 
+        <li>Aviam, M., “Secret Hideaways in the Galilee,” in <em>Jews, Pagans and Christians in the Galilee</em>, South Florida University Press, (forthcoming)</li> 
+        <li>Bar, Doron, “Aelia Capitolina and the Location of the Camp of the Tenth Legion,” <em>PEQ </em> 130,1 pp. 8-19.</li> 
+        <li>Bergler, S., “Jesus, Bar Kokhba und das messianische Laubhüttenfest,” <em>Journal for the Study of Judaism in the Persian</em>, Hellenistic and Roman Period 29 (1998), pp. 143-191.</li> 
+        <li>Bietenhard, “Die Freiheitskriege der Juden unter den Kaiser Trajan und Hadrian und der messianische Templebau,” <em> Judaica</em> 4 (1948), pp. 81-108 .</li> 
+        <li>Birnbaum, S.A., “Akiba and Bar-Kosiba,” <em>PEQ</em> 100 (1968), pp. 137-138.</li> 
+        <li>Birley, A.R., <em>Hadrian: The Restless Emperor</em>, 1997. Especially “Athens and Jerusalem” pp. 259-278; 350-353.Bowersock, Glen W., "A Roman Perspective on the Bar Kochba War," in William S. Green (ed.) <em>Approaches to Ancient Judaism</em> (Choco: Scholars Press, 1980), Vol. 2, pp. 131-141. </li> 
+        <li>Bowersock, Glen W., Review of Cotton, Hannah M. and Ada Yardeni, <em>Aramaic, Hebrew and Greek Documentary Texts from Nahal Hever and Other Sites</em>, Oxford: The Clarendon Press, 1997). in <em>Journal of Roman Studies</em> 14 (2001), pp. 657-660. </li> 
+        <li>Bowersock, G.W., “The TelShalem Arch and P. Nahal Hever/Seiyal 8,” in P. Schäfer, <em>The Bar Kokhba War Reconsidered</em>, (Tübingen: Mohr Siebeck, 2003), pp. 171-180.</li> 
+        <li>Brand, Joshua, “Some Notes on the Bar Kokhba Letters,” Tarbiz 32,3 (April, 1963), p. 225.</li> 
+        <li>Büchiker, A. “Die Schauplätze des Bar-Kochbakrieges und die auf diesen bezogenen jüdischen Nachrichten,” <em>Jewish Quarterly Review</em> 16 (1904), pp. 143-205.</li> 
+        <li>Cordier, P. “Les romains et la circoncision,” <em>REL</em> 160 (2001), pp. 337-55.</li> 
+        <li>Cotton, Hannah, “Ein Gedi between the Two Revolts,” <em>SCI</em> 20 (12001), p. 151ff.</li> 
+        <li>Cotton, Hannah M. and Ada Yardeni, <em>Aramaic, Hebrew and Greek Documentary Texts from Nahal Hever and Other Sites</em>, Oxford: The Clarendon Press, 1997).</li> 
+        <li>Cotton, Hannah M., “The Bar Kokhba Revolt and the Documents from the Judaean Desert: Nabataean Participation in the Revolt (P. Yadin 52),” in: Schäfer, Peter, (ed.) <em>The Bar Kokhba War Reconsidered</em>, (Tübingen: Mohr Siebeck, 2003), pp. 133-152.</li> 
+        <li>De Bry, M., “Le sceau messianique de Shim’on Bar Kokhba” Comptes rendues de l’Academie des Inscriptions et Belles Lettres (1993), pp. 203-215.</li> 
+        <li>Dewsnap, Molly, “Hadrian: A Portrait in Bronze,” <em>BAR</em> 23,6 (Nov/Dec, 1997), pp. ***</li> 
+        <li>Devir, Yehuda, <em>Bar Kokhba, the Man and Messiah in light of Talmudic Literature and the Dead Sea Scrolls</em>, Jerusalem: Kiryat Sefer, 1964 (In Hebrew).</li> 
+        <li><em>Bar-Kokhba - Halsh vehaMashiah</em>, Kiryat Sefer, 1964.</li> 
+        <li>Eck, Werner, “The Bar Kokhba Revolt: The Roman Point of View,” <em>JRS</em> 89 (1999), pp. 76-89.</li> 
+        <li>Eck, Werner and Gideon Foerster, “Ein Triumphbogen für Hadrian im Tal von Beth Shean bei Tel Shalem,” <em>JRA</em> 12 (1999), pp. 294-313.</li> 
+        <li>Eck, Werner, “Ein Spiegel der Macht. Lateinische Inschriften römischer Zeit in Judaea/Syria Palaestine,”<em> ZDPV</em> 117 (2001), pp. 47-63.</li> 
+        <li>Eck, Werner, “Hadrian, the Bar Kokhba Revolt, and the Epigraphic Transmission,” in P. Schäfer, <em>The Bar Kokhba War Reconsidered</em>, (Tübingen: Mohr Siebeck, 2003), pp. 153-170.</li> 
+        <li>Eck, Werner, “Der Bar Kokhba Aufstand der kaiserliche Fiscus und die Veteranenversorgung,” <em>Scripta Classica Israelica</em> 19 (12000), pp. 139-140.</li> 
+        <li>Eldad, Israel, “In Praise of Bar Kokhba,” <em>Jerusalem Quarterly</em> 32 (Summer, 1984), p. 113.</li> 
+        <li>Eliav, Yaron Z. “Hadrian’s Actions in the Jerusalem Temple Mount According to Cassius Dio and Xiphilini Man us,” <em>Jewish Studies Quarterly</em> 4 (1997) pp. 125-144.</li> 
+        <li>Eliav, Yaron Z., “The Urban Layout of Aelia Capitolina: A New View from the Perspective of the Temple Mount,” in P. Schäfer, (ed.) <em>The Bar Kokhba War Reconsidered</em>, Tübingen: Mohr Siebeck, 2003, pp. 241-275.</li> 
+        <li>Eshel, H., Broshi, M and Jull, T.A.J., “Documents from Wadi Murabba’at and the Status of Jerusalem during the Bar Kokhba Revolt,” Refuge Caves of the Bar Kokhba Revolt, eds. H. Eshel and D. Amit, Tel Aviv, 1998 (Hebrew).</li> 
+        <li>Eshel, H. and Amit, D., <em>Refuge Caves of the Bar Kokhba Revolt</em>, Tel Aviv, 1998 (Hebrew).</li> 
+        <li>Eshel, Hanan, “Aelia Capitolina: Jerusalem No More,” BAR 23/6 (Nov./Dec.) 1997, pp. ****.</li> 
+        <li>Finkelstein, Louis, “Rabbi Akiba, Rabbi Ishmael, and the Bar Kokhba Rebellion,” in J. Neusner, (ed.) <em>Approaches to Ancient Judaism</em>, n.s. vol. 1, (Atlanta, 1990), pp. 1-10.</li> 
+        <li>Fitzmyer, Joseph A. "The Bar Kockba Period" <em>Saint Mary's Theology Studies</em> I, NY 1962 133-68.</li> 
+        <li>Fitzmyer, Joseph A, “The Bar Cochba Period,” <em>Essays on the Semitic Background of the New Testament</em>, London, 1971, pp. 305-354.</li> 
+        <li>Flusser, D., “The Bar Kokhba Revolt and its Repercussions,” Muhanaim 59 (1961), p. 23 (H)</li> 
+        <li>Foerster, G., “Do the Subterranean Hideaways date from the Bar Kokhba Period?” <em>Cathedra</em> 28 (1983), pp. 155-157 (Hebrew.</li> 
+        <li>Follet, S. “Hadrien en Égypte et en Judée,” <em>Revue de Philologie</em> (3e series) 42 (1968), pp. 54-77.</li> 
+        <li>W&amp;L Frankel, Jonathan, “Bar Kokhba and All That,”<em> Dissent</em> 31 (1984), pp. 192-202.</li> 
+        <li>Freund, Richard A. and Rami Aran, “Return to the Cave of Letters. What Still Lies Buried?” <em>BAR</em> 27,1 (Jan/Feb 2001), pp. 25ff.</li> 
+        <li>Fuks, A. "Aspects of the Jewish Revolt in A.D. 115-117" <em>JRS</em> 51 (1961) 98-104.</li> 
+        <li>Gafni, Sheraga, <em>Mered Bar Kokhva</em>, Tel Aviv, 1967. (In Hebrew) Juvenile Literature</li> 
+        <li>Gdalia, N., Massada et les grottes de Bar-Kokhba,” <em>Arch</em> 34(1970 ), pp. 37-47.</li> 
+        <li>Geiger, J. “The Ban on Circumcision and the Bar-Kokhba Revolt,” <em>Zion</em> 41 (1976) pp. 139-147 In Hebrew</li> 
+        <li>Geva, H., “The Tenth Legion Did Camp on the South-West Hill, <em>Cathedra</em> 73 (1994), pp. 194 (Heb.)</li> 
+        <li>Gichon, M. "The Bar Kochba War: A Colonial Uprising Against Imperial Rome", in <em>Revue Internationale d'Histoire Militaire</em>" 42 (1979), pp. 82-97.</li> 
+        <li>Gichon, Mordechai, “Military Aspects of the Bar Kokhba Revolt and the Subterranean Hideaways,” <em>Jerusalem Cathedra</em> 2 (1982) 30-42 (In Hebrew)</li> 
+        <li>Gichon, Mordechai, “Who were the enemies of Rome on the limes Palestinae?,” <em>13th limes Congress</em>, 1986.</li> 
+        <li>Gichon, Mordechai, “New Insight into the Bar Kokhba War and a reappraisal of Dio Cassius 69.12-13 <em>Jewish Quarterly Review</em> 77 (1986), pp. 15-43.</li> 
+        <li>Golan, D., “Hadrian’s Decision to Supplant Jerusalem by Aelia Capitolina,” <em>Historia</em> 35 (1986), pp. 226-239.</li> 
+        <li>Goodblatt, D. “Did the Tannaim Support Bar-Kokhva,”<em> Jerusalem Cathedra</em> 2(1983), pp. 6-12.</li> 
+        <li>Goodblatt, D., “The Title Nasi and the Ideological background of the Second Revolt,” in Oppenheimer and Rappaport, <em>The Bar Kokhba Revolt</em> <em>- New Studies</em> (1984) in Hebrew</li> 
+        <li>Goodblatt, D., “A Contribution to the Prosopography of the Second Revolt: Yehudah bar Manasheh,” <em>JJS</em> 38 (1987), 38-55.</li> 
+        <li>Goodblatt, D. “Judaea between the Revolts: Trends in Research Scholarship,” In: A. Oppenheimer (ed.) Judische Geschichte in hellenistisch-römischer Zeit, Wege der Forschung: von alten zum neuen Schürer, München, 1999, pp. 101-118.</li> 
+        <li>Goren, S., “The Reign of Bar Kokhba in the Light of the Latest Finds from the Judaean Desert,” Muhanaim 59 (1961), pp. 6-15. (H)</li> 
+        <li>Green, W.S., “Approaches to Ancient Judaism “<em> Brown Judaic Studies</em> 9 (1980) 131-141.</li> 
+        <li>Haimi, Avinoam, “From Bar Kokhba – Greetings,” <em>New Outlook</em> 4:8 (Oct/Nov, 1981), p. 37-44.</li> 
+        <li>Harkabi, Yehoshafat, <em>The Bar Kochba Syndrome</em>, Chappaqua, NY, 1983.</li> 
+        <li>Harkabi, Yehoshafat, “Jeremiah and Bar Kokhba: Reality and Policy,” <em>Jerusalem Quarterly</em> 24 (Summer, 1982), p. 64.</li> 
+        <li>Harris, Rendel, Hadrian’s Decree of Expulsion of the Jews from Jerusalem,” <em>Harvard Theological Review</em>,” 19 (1926) 199-206.</li> 
+        <li>Hengel, Martin, “Hadrian’s Politik Gegenüber Juden und Christen,” in M. Hengel, Judaica <em>et Hellenistica: Kleine Schriften</em> I (Tübingen, 1996), pp. 358-391 [=<em>Journal of Near Eastern Society of Columbia University</em> 16 (1987), pp. 153-182.</li> 
+        <li>Herr, M.D., “The Causes of the Bar Kokhba War,” <em>Zion</em> 43 (1978), pp. 1-11 (In Hebrew).</li> 
+        <li>Herr, M.D. “Persecutions and Martyrdom in Hadrian’s Days,” <em>Scripta Hierosolymitana</em> 23 (1972), pp. 85-125.</li> 
+        <li>Herr, M.D., “The Participation of the Galilee in the War of Qitos(=Quietus) or in the “Ben Kosiba Revolt,” Cathedra 4 (1977), pp. 67-73. (Hebrew).</li> 
+        <li>Holum, Kenneth, “Hadrian’s Imperial Tour,” <em>BAR</em> 23/6 (1997), pp. 5-51, 76.</li> 
+        <li>Howard, G., Shelton, J.C., “The Bar Kokhba Letters and Palestinian Greek,” <em>IEJ</em> 23(1973) 101-112.</li> 
+        <li>Huteau-Dubois, L., “Les sursauts du nationalisme juif contre l’occupation romaine. De Massada a Kokhba,” <em>Revue des Etudes Juives</em> 127: 2/3 (April/Sept. 1968), pp. 133-209.</li> 
+        <li>Isaac, Benjamin, <em>The Near East Under Roman Rule</em>. Selected Papers (1997)</li> 
+        <li>Isaac , B., and Oppenheimer, A., “The Revolt of Bar Kokhba: Ideology and Modern Scholarship: JJS 36 (1985), pp. 33-60.. Reprinted in<em> The Near East Under Roman Rule</em>, pp. 220-</li> 
+        <li>Isaac, Benjamin, “Cassius Dio on the Revolt of Bar Kokhba,” <em>Scripta Classica Israelica</em> 7 (1983-84), pp. 68-76. reprinted with Postscript in <em>The Near East Under Roman Rule</em>, pp. 211-219.</li> 
+        <li>Isaac, Benjamin, “The Babatha Archive,” in <em>The Near East Under Roman Rule</em>, pp. 159-181.</li> 
+        <li>Isaac, Benjamin and I. Roll, “Judaea in the Early Years of Hadrian’s Reign,” Latomus 388 (1979), pp. 54-66. Reprinted in: <em>The Near East Under Roman Rule</em>, pp. 182.</li> 
+        <li>Isaac, Benjamin, “Roman Colonies in Judaea: The Foundation of Aelia Capitolina,” <em>Talanta</em> (1980/81) pp. 12-13, 31-54.</li> 
+        <li>Isaac, Benjamin, “Orientals and Jews in the Historia Augusta: Fourth-Century Prejudice and Stereotypes,” The Jews in the Hellenistic-Roman World. Studies inMemory of Menachem Stern, eds. I. M. Gafnis, A. Oppenheimer and D.R. Schwartz (Jerusalem, 199), pp. 101-18 (Reprinted in Near East Under Roman Rule (Leiden, New York, Köln, 1998), pp. 268-83.</li> 
+        <li>Isaac, Benjamin, “Roman Attitudes Towards Jews and Judaism,” <em>Zion</em> 66 (12001), pp. 61-64. (Heb.).</li> 
+        <li>Isaac, Benjamin, “Judaea After A.D. 70,” <em>Journal of Jewish Studies</em> 35 (1984), pp. 44-50.</li> 
+        <li>Israel Exploration Society. <em>Documents of the Bar Kokhba Period in the Cave of Letters</em>, Jerusalem, 1989. </li> 
+        <li>Kanael, B. “Notes on the Dates Used During the Bar Kokhba Revolt,” <em>IEJ</em> 21 (1971) pp. 39-46.</li> 
+        <li>Kanael, B., “Simon Bar Kokhba und die Thora,” <em>Treue zur Thora</em> Beiträge zur mitte des christlische-jüdischen Gesprächs Festschrift G. herder zum 75 Gebrustag Berlin, 1977 pp. 33-41.</li> 
+        <li>Kellner, W., “Bar Kochba und die Geminde des Christlichen Juden. Zwei Versuche einer Politick auf biblischer Grundlage,” <em>Bibel und Kirche</em> 43 (1988), pp. 140-146.</li> 
+        <li>Keppie, L.J.F., “The Legionary Garrison of Judaea under Hadrian,” <em>Latomus</em> 33 (1973), pp. 859-864</li> 
+        <li>Kloner, Amos, “Underground Hiding Complexes from the Bar Kokhba War in the Judaean Shephelah,” <em>Biblical Archaeologist</em> (December, 1983), pp. 210-221.</li> 
+        <li>Keppie, Lawrence J.F., “The History and Disappearance of the Legion XXII Deiotariana,” in A. Kasher, U. Rappaport, G. Fuks (eds). <em>Greece and Rome in Eretz Israel</em>, Collected Essays, Jerusalem, 1990, pp. 54-61 (=L.J.F. Keppie, <em>Legions and Veterans, Roman Army Papers</em> 1971-2000 Stuttgart: Franz Steiner Verlag, 2000, pp. 225-232, 322.</li> 
+        <li>Kettenhofen, E., “Hadrian und die Juden: ein Beitrag zur Glaubwürdigkeit von Moses Horenaci II 60,” <em>Eranos</em> 96 (1998), pp. 75-91.</li> 
+        <li>Kislev, M.E., “A Barley Store of the Bar-Kochba Rebels,” <em>Israel Journal of Botany</em> 35 (1986), pp. 197-201.</li> 
+        <li>Kloner, Amos, “The Subterranean Hideaways of the Judaean Foothills and the Bar-Kokhba Revolt,” <em>The Jerusalem Cathedra</em> 3 (1983) pp. 83-96.</li> 
+        <li>Kloner, Amos, “Name of Ancient Israel’s Last President Discovered on Lead Weight” and Ehud Netzer “Jewish Rebels Dig Strategic Tunnel System,” <em>BAR</em> (July, August, 1988), pp. ***</li> 
+        <li>Kloner, Amos, Boaz Zissu, “Hiding Complexes in the Lydda Area and the Northern Border of the Bar Kokhba Administration,” in B. Zissu, H. Eshel (eds.) New Studies on the Bar Kokhba Revolt, pp. 73-85 (Hebrew).</li> 
+        <li>Kloner,A., “Lead Weights of Bar Kokhba’s Administration,” <em>IEJ</em> 40 (1990) pp. 58-67.</li> 
+        <li>Kloner, A. and Tepper, Y. <em>The Hiding Complexes in the Judean Shepelah</em>, TelAviv, 1987. (Hebrew).</li> 
+        <li>Kloner,Amos and Zissu, B., “Hiding Complexes in the Northern Judean Shephelah,” in: Alliata E., Bottini, F. and DiSegni, L. (eds.) <em>Studies in Honor of Father S. Lofreda</em>.</li> 
+        <li>Kloner, Amos and Zissu, Boaz, “Hiding Com-plxes in Judaea: An Archaeological and Geographical Update on the Area of the Bar Kokhba Revolt,” in P. Schäfer, <em>The Bar Kokhba War Reconsidered</em>, (Tübingen: Mohr Siebeck, 2003), pp. 181-216.</li> 
+        <li>Laperrousaz, E.M., “l’Hérodium, quartier général de Bar Kokhba?” <em>Syria</em> 41 (1964) pp. 347-358.</li> 
+        <li>Lapin, Hayim, Palm Fronds and Citrons: Notes in Two Letters from Bar Kosiba’s Administration,” <em>HUCA</em> 44 (1993), pp. 111-135.</li> 
+        <li>Lewis, Naphtali, Desert Studies: <em>The Documents from the Bar Kokhba Period in the Cave of Letters</em>, Greek Papyri, Jerusalem: 1989.</li> 
+        <li>Lieberman, S., “The Importance of the Bar Kokhba letters for Jewish History and Literature,” <em>Texts and Studies</em> 1974, 208ff.</li> 
+        <li>Lifshitz, B. “Sur la date du transfert de la Legio VI Ferrata en Palestine,” <em>Latomus</em> 19 (1960) pp. 109-111.</li> 
+        <li>Lifshitz, B., “Papyrus grecs du desert de Judea,” <em>Aegyptus</em> 42 (1962), pp. 240-258</li> 
+        <li>Mantel, H. "The Causes of the Bar Kokhba Revolt" <em>The Jewish Quarterly Review</em> 58 (1968), pp. 224-242.</li> 
+        <li>Margalit, S., “Aelia Capitolina,” Judaica 45 (1989), pp. 45-56.</li> 
+        <li>Marks, Richard Gordon, <em>The Image of Bar Kokhba in Traditional Jewish Literature: False Messiah and National Hero</em>. University Park, PA: The Pennsylvania State University, 1994. </li> 
+        <li>Marks, R.G., “Dangerous Hero: Rabbinic Attitudes Toward Legendary Warriors,” <em>Hebrew Union College Annual</em> 54 (1983), pp. 181-194.</li> 
+        <li>Meyshan, J. “The Legion Which Reconquered Jerusalem in the War of Bar Kokhba, A.D. 132-5,” <em>Palestine Exploration Quarterly</em> (1958), pp. 19-26 = <em>Essays in Jewish Numismatics</em> (1968) 143-150.</li> 
+        <li>Mor, Menachem, “The Roman Army in Eretz-Israel in the Years A.D. 70-132,” in P. Freeman and D. Kennedy (eds) <em>The Defense of the Roman and Byzantine East</em>. II Proceedings of a Colloquium held at the University of Sheffield in April 1986, <em>Oxford</em>:, BAR Int. Series 297 (1) (1986) pp. 575-602.</li> 
+        <li>The Hebrew version: Menachem Mor, “The Roman Army in Eretz-Israel in the Years A.D. 70-132,” in: Aryeh Kasher, Gideon Fuks, Uriel Rappaport (eds.) <em>Greece and Rome in Eretz Israel,</em> Jerusalem: Yad Yitzhak Ben Zvi, 1989, pp. 98-130.</li> 
+        <li>Mor, Menachem, “The Bar Kokhba Revolt and Non-Jewish Participants,” <em>Journal of Jewish Studies</em> 36 (1985), pp. 200-209.</li> 
+        <li>Mor, Menachem, “The Roman Legions and the Bar Kokhba Revolt 132-135 A.D.,”H. Vetters, M. Kandler (eds.) Akten des 14th Internationalen Limeskongresses, 1986, Wien: Verlag der Österreichischen Akademie der Wissenschaften, 1990, pp. 163-178.</li> 
+        <li>Mor, Menachem, <em>The Bar-Kokhba Revolt: its Extent and Effect</em>, Jerusalem: Yad Yitzhak Ben Zvi, 1991. (Hebrew)</li> 
+        <li>Mor, Menachem, “The Samaritans and the Bar-Kokhba Revolt,” in A.D. Crown (ed.) The <em>Samaritans</em> (Tübingen, 1989), pp. 19-31.</li> 
+        <li>Mor, Menachem, Rappaport, Uriel, “Bibliography on the Bar Kokhba Revolt – Works published in the Years 1984-2000,” Boaz Zissu, Hanna Eshel (eds.) <em>New Studies on the Bar Kokhba Revolt</em>. Proceedings of the 21st Annual Conference of the Martin (Szusz) Department of the Land of Israel Studies, Ramat Gan: Bar Ilan, 2001, pp. 139-161 (Hebrew).</li> 
+        <li>Mor, Menachem, “Two Legions – The Same Fate?” (The Disappearance of the Legion IX Hispana and XXII Deiotariana)” <em>ZPE</em> 62 (1986), pp. 267-278.</li> 
+        <li>Netzer, E., “Jewish Rebels Dig Strategic Tunnel System,” <em>BAR</em> 14/4 (1988), pp. 18-33.</li> 
+        <li>O’Neill, J.C., “The Mocjing of Bar Kokhba and of Jesus,” <em>Journal for the Study of Judaism in the Persian, Hellenistic and Roman Period</em> 31 (2000), pp. 39-41.</li> 
+        <li>Oppenheimer, Aharon “The Jewish Community in Galilee during the Period of Yavneh and the Bar Kokhba Revolt,” <em>Jerusalem Cathedra</em> 4 (1977) pp. 53-66 (In Hebrew)</li> 
+        <li>Oppenheimer, Aharon and Uriel Rappaport (eds), <em>Mered bar Kokhva</em>, (The <em>Bar Kokhba Revolt. A New Approach</em>) Jerusalem: Zalman Shazar Center, 1980 (In Hebrew). With English summaries</li> 
+        <li>Oppenheimer, Aharon “Galilee during the Bar Kokhba Revolt: Collected Sources.” <em>The Roman Period in Israel</em>, pp. 227-234 (In Hebrew)Israel) in Hebrew pp. 1153-165 with references.</li> 
+        <li>Oppenheimer, Aharon, “Bar Kokhba and the Observation of Religious Precepts,” <em>Bar Kochba Revolt: New Studies</em>, pp. 140-146 (In Hebrew).</li> 
+        <li>Oppenheimer, Aharon, “The Bar Kokhba Revolt,” <em>Immanuel</em> 14 (1982), 58-76.</li> 
+        <li>Oppenheimer, Aharon, <em>The Bar Kokhba Revolt</em>, Jerusalem, 1980 (Hebrew).</li> 
+        <li>Oppenheimer, Aharon, “The Keeping of Shabbat during the Bar Kokhba Uprising,” <em>Jews and Jews and Judaism in the Second Temple, Mishnah and Talmud Period: Studies in Honor of S. Safrai</em> eds. I. Gafni, A. Oppenheimer, and M. Stern, Jerusalem, 1993.</li> 
+        <li>Oppenheimer, Aharon, “The Sanctity of Life and Self-Sacrifice after the Bar-Kokba Revolt,” <em>Sanctity of Life and Martyrdom – Papers in Memory of Amir Yekutiel</em>, eds. I.M. Gafni and A. Ravitzky, Jerusalem, 1992. (Heb.)</li> 
+        <li>Oppenheimer, Aharon, “The Ban on Circumcision as a Cause of the Revolt: A Reconsideration,” in P. Schäfer (ed.) <em>The Bar Kokhba War Reconsidered</em>, Tübingen: Mohr Siebeck, 2003.</li> 
+        <li>Oppenheimer, Aharon, Shmuel Safdrai, Moshe David Herr, David Rokeah, Yoram Tsafrir, Ze’ev Yevin, Discussion: The Jewish Community in Galilee during the Period of Yavneh and the Bar Kokhba Revolt,”<em> Cathedra</em> 4 (1977), pp. 51-81 (Hebrew).</li> 
+        <li>Oppenheimer, A., “Talmudic Literature as a Historical Source for the Bar Kokhba Revolt,” in: F. Parente, D. Piatelli (Eds.) <em>Aspeti della Storiografia Ebraica</em>. Atti del IV Copngresso Internazionale dell’ Assoc. Italiana per lo studio del Giudaismo S. Miniato, 7-10 Novembre 1983, Rome, 1987, pp. 139-151.</li> 
+        <li>Patrich, Joseph, “Hideouts in the Judean Wilderness – Jewish Revolutionaries and Christian Ascetics South Shelter and Protection in Cliffside Caves,” <em>BAR</em> 15,5 (Sept/Oct. 1989), pp. 32-42.</li> 
+        <li>Polotsky, H.J., “The Greek Papytri from the Cave of Letters,” <em>The Expedition to the Judaean Desert</em>, 1961.</li> 
+        <li>Pucci, Marina, <em>La rivolta ebraica al tempo di Traiano</em>, Pisa 1981.</li> 
+        <li>Rabello, Alfredo M., “The Ban on Circumcision as a Cause of Bar Kokhba’s Rebellion,” <em>Israel Law Review</em> 29: ½ (1995 Winter/Spring), p. 176. Hebrew version in Oppenheimer and Rappaport, <em>The Bar Kokhba Revolt: A New Approach</em>, 33-46.</li> 
+        <li>Raffaeli, Shmuel, “Jewish Coinage and the Date of the Bar Kokhba Revolt,” <em>JPOS</em> 3 (1923), pp. 123-196.</li> 
+        <li>Rappaport, Uriel, “John of Gischala in Galilee,” <em>Jerusalem</em> 3 (1983), pp. 46-57.</li> 
+        <li>Reinhartz, Adele, “Rabbinical Perceptions of Simeon Bar Kosiba,” <em>JSJ</em> 20 (1985), p. 171-194.</li> 
+        <li>Reznick, Leibel, <em>The Mystery of Bar Kokhba, an historical and theological investigation of the last king of Jews,</em> Northvale, NJ 1996 </li> 
+        <li>Rokeah, David, <em>Meridot ha-Yehudim bi-teme Trayanus</em>, 115-117. Jerusalem, 1978 (In Hebrew) </li> 
+        <li>Rokeah, David, “Comments on the Revolt of Bar Kokhba,” <em>Tarbiz</em> 35,2 (December 1965), p. 122.</li> 
+        <li>Rokeah, D., “The Rebellion of the Jews in Historical Perspective,” <em>Forum</em> 59 (1986), pp. 27-41; 60 (1987), pp. 15-27.</li> 
+        <li>Romagnolo di Salvo, E., “La Grotta delle Lettere di Bar-Kokhba e gli oggetti bronzei ivi ritrovati,” <em>RIL</em> 116 (1982 ), pp. 51-59.</li> 
+        <li>Safrai, S. “The Relations between the Roman Army and the Jews of Eretz Israel after the Destruction of the Second Temple,” in S. Applebaum (ed.) <em>Roman Frontier Studies</em> 1967, Tel Aviv, 1971, pp. 224-229.</li> 
+        <li>Schäfer, Peter, <em>Der Bar-Kokhba Aufstand. Studien zum Zweiten Jüdischen Krieg gegen Rom,</em> Tübingen, 1981.</li> 
+        <li>Schäfer, Peter, "Rabbi Aqiva und Bar Kockba" <em>Approaches to Ancient Judaism</em> 11, pp. 113-130. Chico, Ca: Scholars Press, 1980.</li> 
+        <li>Schäfer, Peter, "Rabbi Aqiva and Bar Kokhba" <em>Studien zur geschichte und Theologie des rabbinischen Judentums,</em> Leiden, 1978, pp. 65-121.</li> 
+        <li>Schäfer, Peter, “Rabbi Akiva and Bar Kokhba,” in William Scott Green, ed. <em>Approaches to Ancient Judaism</em>, vol. 2 Ann Arbor, MI: Scholars Press, 1980), pp. 121-124.</li> 
+        <li>Schäfer, Peter, “The Causes of the Bar Kokhba Revolt,” In: <em>Studies in Aggadah, Targum and Jewish Liturgy in Memory of Joseph Heinemann</em> pp. 74-94 (eds) Jakob Petuchowski and Ezra Fleischer Jerusalem: Magnes Press, 1981.</li> 
+        <li>Schäfer, Peter, “Hadrian’s Policy in Judaea and the Bar Kokhba Revolt,: A reassessment,” in P.R. Davies and R.T. White (eds) <em>A Tribute to Geza Vermes</em>. <em>Essays on Jewish and Christian Literature and History</em> eds. Phillip R. Davies and Richard T. White Sheffield: JSOT Press, 1990, pp. 281-303.</li> 
+        <li>Schäfer, Peter, “The Causes of the Bar Kokhba Revolt,” <em>Studies in Aggadah, Targum and Jewish Liturgy in Memory of Joseph Heinemann</em>, Jerusalem, 1981 pp. 74-94.</li> 
+        <li>Schäfer, Peter, <em>Judeophobia: Attitudes Toward the Jews in the Ancient World</em>, Cambridge: Harvard University Press, 1997.</li> 
+        <li>Schäfer, Peter, “The Bar Kokhba Revolt and Circumcision – Historical Evidence and Modern Apologetics,” <em>Judische Geschichte in hellenistisch-römischer Zeit</em> (ed. A. Oppenheimer, assisted by E. Müller-Luckner (Munich, 1999), pp. 119-32.</li> 
+        <li>Schäfer, Peter, (ed.)<em> The Bar Kokhba War Reconsidered</em>, (Tübingen: Mohr Siebeck, 2003).</li> 
+        <li>Schäfer, Peter, “Bar Kokhba and the Rabbis,” in Schäfer, Peter, (ed.) <em>The Bar Kokhba War Reconsidered</em>, (Tübingen: Mohr Siebeck, 2003).pp. 1-22.</li> 
+        <li>Schwartz, D.R.,”On Barnabas and Bar Kokhba,” in D.R. Schwartz: <em>Studies in the Jewish Background of Christianity</em>, Tuübingen, 1992, pp. 147-153.</li> 
+        <li>Schwartz, Jacques, “Ou a passé la legio XXII Deiotariana?” <em>ZPE</em> 76 (1989), pp. 101-102.</li> 
+        <li>Schwartz, Joshua, <em>Jewish Settlement in Judaea after the Bar Kochba War until the Arab Conquest</em>, Jerusalem, 1986.</li> 
+        <li>Shatzman, Israel, “Artillery in Judaea from Hasmonean to Roman Times,” in D.H. French and C.S. Lightfoot, <em>The Eastern Frontier of the Roman Empire</em> BAR Int. Series 553 (ii) (1989) pp. 461-484. </li> 
+        <li>Schochat, Yanir, “Enlistment in the Legio II Adiutrix at the Time of Hadrian and Thereafter,” <em>Scripta Classica Israelica</em> 7 (1983/84), pp. 58-67.</li> 
+        <li>Schürer, E., <em>The History of the Jewish People in the Age of Jesus Christ (175 B.C. – A.D.</em> 135): A New English Version, rev. and ed. By Geza Vermes and F. Millar (Edinburgh, 1973), pp. 514-557.</li> 
+        <li>Shahar, Yuval, “The Underground Hideous in Galilee and Their Historical Meaning,” in P. Schäfer, <em>The Bar Kokhba War Reconsidered</em>, (Tübingen: Mohr Siebeck, 2003), pp. 217-240.</li> 
+        <li>Schwartz, J. “Judaea in the Wake of the Bar Kokhba Revolt,” <em>Bar Kochba: New Studies</em> pp. 215-223 ( in Hebrew)</li> 
+        <li>Smallwood, E. Mary, “The Legislation of Hadrian and Antononius Pius Against Circumcision,” Latomus 18 (1959) pp. 334-347; Idem, <em>Latomus</em> 20 (1961) pp. 93-96.</li> 
+        <li>Teicher, J.L., “Are the Bar Kokhba Documents Genuine?” <em>Journal of Jewish Studies</em> 5 (1954), p. 39.</li> 
+        <li>Trifon, Dalia, “Did the Priestly Courses <em>(Mishmarot</em>) Transfer from Judaea to Galilee After the Bar Kokhba Revolt,” Tarbiz 59 (Oct 989-March 1990), p. 77.</li> 
+        <li>Tsafrir, Yoram, “The Transfer of the Negev, Sinai, and Southern Transjordan from Arabia to Palestina,” <em>IEJ</em> 36 (1986), pp. 77-86.</li> 
+        <li>Tsafrir, Yoram, “The History of Jerusalem: The Roman and Byzantine Periods (70-638 C.E.) Jerusalem, 1999), pp. 115-116 (Heb.). A good English summary appears in H. Geva, “Jerusalem: The Roman Period,” <em>NEAEHL</em> II, pp. 758-767.</li> 
+        <li>Tsafrir, Yoram and Zissu, B., “A Hiding Complex from the Second Temple Period and the Time of the Bar Kokhba Revolt at Ain-Arrub in the Hebron Hills,” in: Humphrey, J. (ed.) <em>The Roman And Byzantine Near East</em>, vol. 3 (Journal of Roman Archaeology Supplementary Series 49] Portsmouth, RI, 2002, pp. 6-36.</li> 
+        <li>Smallwood, E. Mary, “Palestine c. A.D. 115-118,” <em>Historia</em> 11 (1962), pp. 500-510.</li> 
+        <li>Steinspring, William F., “Hadrian in Palestine 129/130 A.D.,” <em>Journal of the American Oriental Society</em> 59 (1939) 360-365. </li> 
+        <li>Stern, M. <em>Greek and Latin Authors on Jews and Judaism</em>, II (Jerusalem, 1980), pp. 619-21.</li> 
+        <li>Ussushkin, D., “Betar: The Last Stronghold of Bar Kochba,” <em>Bulletin of the Anglo-Israel Archaeological Society</em> 6 (1986-87), pp. 49-50.</li> 
+        <li>Ussushkin, D.,, “Archaeological Sounding at Bethar, Bar Kokhba’s Last Stronghold,” <em>Tel Aviv</em> 20 (1993), pp. 66-97.</li> 
+        <li>Yadin, Yigael <em>Bar-Kokhba. The Rediscovery of the Legendary Hero of the Last Jewish Revolt Against Rome</em>, New York: Random House, 1971.</li> 
+        <li>Yadin, Yigael, <em>Judaean Desert Studies. The Finds from the Bar Kokhba Period in the Cave of Letters</em>, Jerusalem, 1963.</li> 
+        <li>Yadin, Yigael, “Expedition D’ in <em>The Expedition to the Judaean Desert</em>, 1960, <em> Israel Exploration Journal</em> 11,1 (1961), pp. 41-52.</li> 
+        <li>Yadin, Yigael, <em>Judaean Desert Studies</em>. The Finds of the Bar Kokhba Period in the Cave of Letters, 1963.</li> 
+        <li>Yardeni, Ada, <em>Te-udot Nahal Tse-elim</em>, Beer Sheva 1995 (In Hebrew) </li> 
+        <li>Yeivin, Shmuel, <em>The War of Bar Kockba</em> (Milhemet Bar Kokhba), Jerusalem: Mossad Bialik, 1956 (in Hebrew)</li> 
+        <li>Zeitlin, Solomon, “The Fiction of the Bar Kokhba Letters,” <em>Jewish Quarterly Review</em> 51 (1960-61) pp. 265-274. </li> 
+        <li>Zerubavel, Yael, <em>Recovered Roots</em>; collective memory and the making of Israeli national tradition, Chicago, 1995.</li> 
+        <li>Zerubavel, Yael, “Bar Kokhjba’s Image in Modern Israeli Culture,” in: P. Schäfer, <em>The Bar Kokhba War Reconsidered,</em> (Tübingen: Mohr Siebeck, 2003), pp. 279-297.</li> 
+       </ul> 
+       <p><strong>Numismatics - Bar Kokhba</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Abramovitz, A. “A Note on Some Retouched Dies of bar Kokhba Coinage,” INJ ??? not in 1980 p. 38-43.</li> 
+        <li>Amit, D., Eshel, H., “A Tetradrachm of Bar Kokhba from a Cave in Nahal Hever,” INJ 11 (1993), pp. 33-35.</li> 
+        <li>Barag, D. “A Note on the Geographical Distribution of Bar-Kokhba Coins,” Israel Numismatic Journal 4 (1980), pp. 30-3.</li> 
+        <li>Barag, Daniel, “The Table of the Showbread and the Façade of the Temple on Coins of the Bar Kokhba Revolt,” in H. Geva (ed.) Ancient Jerusalem Revealed, Jerusalem: Israel Exploration Society 1994, pp. 272-276.</li> 
+        <li>Barag, Daniel, The Two Mints of the Bar Kokhba War,” in: Barag, D (ed.) Studies in Memory of Leo Mildenberg, Israel Numismatics Journal 14 (2002), pp. 153-156.</li> 
+        <li>Damati, E. “Four Bar Kokhba Coins from Khirbet El-Aqd,” INJ 4 (1980) pp. 27-29.</li> 
+        <li>Hendin, D. “Clashed Die Errors in Bar Kokhba Coins,” INJ 5 (1981) pp. 44-45.</li> 
+        <li>Hendin, D. “Plated Coin s of Bar Kokhba,” INJ 4 (1980) pp. 34-37.</li> 
+        <li>Kadman, L. Corpus Nummorum Palaestinensium, Vol. I The Coins of Aelia Capitolina, Jerusalem, 1956.</li> 
+        <li>Kanael, B., “Notes on the Dates Used During the Bar Kokhba Revolt,” IEJ 21 (1971), pp. 39-46.</li> 
+        <li>Kindler, Arie, “The Monetary Pattern and Function of the Jewish Coins,” Patterns of Monetary Development pp. 180-205.</li> 
+        <li>Kindler, Arie, “The Coinage of the Bar Kokhba War,” in Dating and Meaning of Ancient Jewish Coins and Symbols, Jerusalem: Israel Numismatics Society 1958, pp. 62-80.</li> 
+        <li>Kindler, Arie, “Was There a Detachment of The Third Legion Cyrenaica at Neapolis in A.D. 251-253?,” Israel Numismatics Journal 4 (1980) 56-58.</li> 
+        <li>Kindler, Arie and A. Stein, A Bibliography of the City Coinage of Palestine: From the 2nd Century B.C. to the 3rd Century A.D. (BAR 374), Oxford, 1987, pp. 22-37.</li> 
+        <li>Kindler, Arie, “Ein Munzpamplisest auds dem Bar Kokhba krieg,” Schweizerische Numismatische Rundschau 42 (1962/1963) pp. 15-20.</li> 
+        <li>Kindler, Arie, “Die palästinische Städtemünzen im 2h n. Chr. Unde der Bar Kokhba-Krieg,” Noeske, H.C., Schubert, H. (eds.) Die Münze, Bild-Botschaft – Bedeutung Festschrift für Maria R. Alföldy, 1991, pp. 283-312.</li> 
+        <li>Meshorer, Y. “The Perforated Denars of Bar Kokhba,” Patterns of Monetary Development, pp. 209-211.</li> 
+        <li>Meshorer, Y., The Coinage of Aelia Capitolina, Jerusalem, 1989.</li> 
+        <li>Meshorer, Y., Jewish Coins of the Second Temple Period, (1967),</li> 
+        <li>Meshorer, H., “A Coin Hoard of Bar-Kokhba’s Time,” Israel Museum News 4 (1985), pp. 43-50.</li> 
+        <li>Meyshan, J., “Strange Peregrinations of a Bar Kochba Coin,” Essays in Jewish Numismatics (1968) 139-141.</li> 
+        <li>Mildenberg L., “The Monetary System of the Bar Kokhba Coinage,” Patterns of Monetary Development in Phoenicia and Palestine in Antiquity. Proceedings of the International Numismatics Convention 1963, Tel Aviv -Jerusalem, 1967, pp. 41-48.</li> 
+        <li>Mildenberg Leo, “The Eleazar Coins of the Bar Kokhba Revolt,” Historia Judaica 11 (1949) 77-108. </li> 
+        <li>Mildenberg L. The Coinage of the Bar Kockba War, Aarau, 1984. CJ1375 .M5 1984.</li> 
+        <li>Mildenberg L., “Bar Kokhba Coins and Documents,” HSCP 84 (1980) 311-335.</li> 
+        <li>Mildenberg L., “A Bar Kokhba Didrachm,” INJ 8 (1984-85), pp. 33-36, plate 28.</li> 
+        <li>Mildenberg L., The Bar Kokhba War in the Light of the Coins and Document Finds 1947-1982,” Israel Numismatic Journal 8 (1984-85), pp. 27-32.</li> 
+        <li> See German edition: “Der Bart-Kochba-Kried im Licht der Münzprägung,” in: H.P. Kuhnen (ed.) Palästina im griechisch-Römischer Zeit, vol. 2 (Munich, 1990) pp. 357-366.</li> 
+        <li>Mildenberg Leo, “Rebel Coinage in the Roman Empire,” in: A. Kasher, U. Rappaport and G. Fuks (eds), Greece and Rome in Eretz Israel, Collected Essays, Jerusalem: Israel Exploration Society, 1990, pp. 62-74.</li> 
+        <li>Nötscher, F. “Bar Kokhba, Ben Kosiba: Der Sternensohn, der Prächtige, Vetus Testamentum 11 9 (1961) pp. 449-451.</li> 
+        <li>Patrich, Joseph, “The Golden Vine, the Sanctuary Portal, and its Depiction on the Bar Kokhba Coins,” Jewish Art 19-20 (1993-94), pp. 56-61.</li> 
+        <li>Philonenko, M. “Observatons sur des Monnaies juives de la Seconde Revolte, (132-135)” CRAI (1974), pp. 183-189.</li> 
+        <li>Romanoff, P., Jewish Symbols on Ancient Jewish Coins, Philadelphia, 1944, p. 966.</li> 
+        <li>Rosenberger, Meir, “A New Type of Gaba and a Coin Prepared for a Bar Kokhba Overstriking,” Israel Numismatic Journal 4 (1980), 55.</li> 
+        <li>Shotter, D.C.A., “The Principate of Nerva, Some Observations on the Coin Evidence,” Historia 32 (1983), pp. 218-23.</li> 
+        <li>Sporty, Lawrence, D., “Identifying the Curving Line on the Bar-Kokhba Temple Coin,” Biblical Archaeologist 46, 2 (Spring, 1983), p. 121.</li> 
+        <li>Zissu, Boaz, Hanan Eshel, “The Geographical Distribution of Bar Kokhba Coins,”, in B. Zissu, H. Eshel (eds.) New Studies on the Bar Kokhba Revolt. Proceedings of the 21st Annual conference of the Martin (Zsusz) Department of the Land of Israel Studies, Ramat Gan: Bar Ilan, 2001, pp. 17-40 (Hebrew).</li> 
+        <li>Zissu, Boaz. "The Geographical Distribution of Coins from the Bar Kokhba War." Israel Numismatic Journal 14 (2002), pp. 157-167.</li> 
+       </ul> 
+       <p><strong>The Great Jewish War AD 66-70</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Roth, Jonathan, The Logistics of the Roman Army in the Jewish War, Diss Columbia, 1991.</li> 
+        <li>Bar Kochva, B. "Seron and Cestius Gallus at beth Horon," Palestine Exploration Quarterly 107 (1976), pp. 13-21.</li> 
+        <li>Gichon, Mordechai, "Cestius Gallus' Campaign in Judaea," Palestine Exploration Quarterly 1981, pp. 361</li> 
+        <li>Isaac, Benjamin, "The Roman Army in Jerusalem and Its Vicinity," 13th limes congress 635-640.</li> 
+       </ul> 
+       <p><strong>Dacian Wars - Trajan</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Davies, G.A.T. "Trajan's First Dacian War," JRS Vol. 7 ***</li> 
+        <li>Lepper, F. A. Trajan's Parthian War, 1948.</li> 
+        <li>Longden, R. P. "Notes on the Parthian Campaigns of Trajan," JRS Vol. 21 ***</li> 
+       </ul> 
+       <p><strong>Persian Wars</strong> &nbsp;</p> 
+       <p>Dodgeon, M. H. and S.N.C. Lieu, The Roman Eastern Frontier and the Persian Wars A.D. 226-363.</p> 
+       <p>Fornara, Charles, "Julian's Persian Expedition in Ammianus and Zosimus," JHS CXI (1991) pp. 1-15.</p> 
+       <p><strong>Adrianople</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>T.A. Burns, "The Battle of Adrianople: A Reconsideration" Historia 33 (1973) 336-48.</li> 
+        <li>Connolly, Peter, Greece and Rome at War, Englewood Cliffs, NJ, Prentice Hall, 1981.</li> 
+        <li>Delbrueck, Hans, History of the Art of War, Vol. 2</li> 
+        <li>Dupuy and Dupuy, The Encyclopedia of Military History</li> 
+        <li>Ferrill, Arther, The Fall of the Roman Empire, 1986.</li> 
+        <li>Fuller, J.F.C., The Military History of the Western World</li> 
+        <li>Hackett, Gen. Sir John, Warfare in the Ancient World, 1989.</li> 
+        <li>Jordanes, Gothic History of Jordanes</li> 
+        <li>Oman, Sir Charles, The Art of War in the Middle Ages, vol. 1.</li> 
+       </ul> 
+       <p><strong>Signaling</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Aschoff, Volker, “Aus der Frügeschichte der optischen Telegraphie,” In: Die Technikgeschichte als Vorbild moderner Technik, Nr. 2, 1976, pp. 9-26.</li> 
+        <li>Aschoff, Volker, “Optische Nachrichtenübertragung im klassischen Altertum,” NTZ (Nachrichtentechnische Zeitschrift) 30 (1977), pp. 26-31.</li> 
+        <li>Aschoff, Volker, Aus der Geschichte der Telegraphen-Codes, Opladen: Westdeutscher Verlag, 1981, 59pp.</li> 
+        <li>Aschoff, Volker, Geschichte der Nachrichtentechnik. Beitäge zur Geschichte der Nachrichtentechnik von ihren Anfängen bis zum Ende des 18 Jahrhunderts. Berlin, Heidelberg, Tokyo, New York: Springer-Verlag, 1984.</li> 
+        <li>Bell, T.W., “A Roman Signal Station at Whitby,” Archaeological Journal 155 (1998), pp. 303-322.</li> 
+        <li>Clark, Vincent A. and Parker, S. Thomas, "The Late Roman Observation and Signaling System,"in Chapter 5 of The Roman Frontier in Central Jordan (Oxford: BAR, 1987), p. 165-181.</li> 
+        <li>Collingwood, R. G., "The Roman Signal Station," in A. Rowntree (ed.) The History of Scarborough, London: J. M. Dent &amp; Sons, 1931, pp. 40-50.</li> 
+        <li>Donaldson, G.H., "Roman Military Signaling on the North British Frontiers," Archaeologia Aeliana 13 (1985), pp. 19-24.</li> 
+        <li>Donaldson, G.H., "Signaling, Communications and the Roman Imperial Army," Britannia 19 (1988), pp. 349-56.</li> 
+        <li>Farrar, R.A.H., “Roman Signal Stations over Stainmore and Beyond,” Roman Frontier Studies 1979 (Oxford, 1980), pp. 211-231.</li> 
+        <li>Haverfield, F., "Notes on the Roman Coast Defences of Britain, Especially in Yorkshire," Journal of Roman Studies 2 (1912), pp. 201-214.</li> 
+        <li>Hornsby, W. &amp; Laverick, J.D. "The Roman Signal Station at Goldsborough, near Whitby," Archaeological Journal 89 (1932), pp. 203-19.</li> 
+        <li>Hornsby, W. and Stanton, R., "The Roman Fort at Huntcliff, Near Saltburn," Journal of Roman Studies 2 (1912), pp. 215-232.</li> 
+        <li>Johnson, Stephen, The Roman Forts of the Saxon Shore, New York: St. Martin's Press, 1976,</li> 
+        <li>Leiner, Wolfgang, Die Signaltechnik der Antike, Stuttgart: W. Leiner, 1982, 147pp.</li> 
+        <li>Ottoway, P., “Filey Roman Signal Station.” Transactions of the Scarborough Archaeological Historical Society 30 (1993), pp. 8-10.</li> 
+        <li>Ottoway, P., “Filey Roman Signal Station,” Transactions of the Scarborough Archaeological Historical Society 31 (1995), pp. 8-10.</li> 
+        <li>Richmond, I. A., "A Roman Arterial Signaling System in the Stainmore Pass" in W.F. Grimes (ed) Aspects of Archaeology in Britain and Beyond. Essays Presented to O.G.S. Crawford. London: H. W. Edwards, 1951, pp. 293-302.</li> 
+        <li>Rivet, A.L.F., “Gask Signal-Stations,” Archaeological Journal 121 (1965), pp. 196-198.</li> 
+        <li>Sockett, E.W., “A Note on Major Donaldson’s Article on Military Signaling,” Archaeologia Aeliana 14 (1986), pp. 187ff.</li> 
+        <li>Southern, P., "Signals Versus Illumination on Roman Frontiers," Britannia 21 (1990), pp. 233-242.</li> 
+        <li>Wilson, P.R., “Aspects of the Yorkshire Signal Stations,” in V.A. Maxfield &amp; M.J. Dobson (eds.) Roman Frontier Studies 1989. Proceedings of the XVth international Congress of Roman Frontier Studies, Exeter: Exeter University Press, 1991, pp. 142-147.</li> 
+        <li>Woolliscroft, David, “Das Signalsystem an der Hadriansmauer und seine Auswirkungen auf dessen Aufbau,” Roman Frontier Studies, 1989, XV International Congress, Exeter, 1991, pp. 148-152.</li> 
+        <li>Woolliscroft, D.J. Signaling and the Design of Roman Frontier Systems, Unpublished Ph.D. Dissertation, University of Manchester.</li> 
+        <li>Woolliscroft, D.J., “Signaling and Design of the Gask Ridge System,” Proceedings of the Society of Antiquaries of Scotland 123 (1993), pp. 291-313.</li> 
+        <li>Woolliscroft, D.J., The Roman Frontier on the Gask Ridge, Perth &amp; Kinross, The Tayside and Fife Archaeological Committee Monograph 3.</li> 
+        <li>Woolliscroft, D.J., Roman Military Signaling, Stroud: Gloustershire: Tempus, 2001.</li> 
+        <li>Woolliscroft, D.J., “Signaling and the Design of the Antonine Wall,” Britannia 27 (1996), pp. 153-78.</li> 
+        <li>Woolliscroft, D.J., “Signaling and the Design of Hadrian’s Wall,” Archaeologia Aeliana 5 (1989), pp. 5-20.</li> 
+        <li>Woolliscroft, D.J. and Hoffman, B., “Zum Signalsystem und Aufbau des Wetterau Limes.” Fundberichte aus Baden-Württemburg 16 (1991), pp. 531-44.</li> 
+        <li>Woolliscroft, D.J., “Signaling and the Design of the Cumberland Coast,” Transactions of theCumberland and Westmoreland Antiquarian and Archaeology Society2 94 (1994), pp. 55-64.</li> 
+        <li>Woolliscroft, D.J. with contributions by A.T. Croom [et al., The Roman Frontier on the Gask Ridge. Perth and Kinross. An interim report on the Roman Gask Project, 1995, BAR British Series 335, Oxford: Archeopress, 2002.</li> 
+       </ul> 
+       <p><strong>Espionage and Intelligence</strong> &nbsp;</p> 
+       <p><strong>The Roman Republic</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Adcock, F. E. , The Roman Art of War Under the Republic. New York, 1940.</li> 
+        <li>Amiotti, Gabriella, "I Greci ed il massacro degli Italici nell'88 a.C." Aevum 54 (1980), pp. 132-139.</li> 
+        <li>Austin N.J.E. and Rankov, B., Exploratio. Military and Political Intelligence in the Roman World from the Second Punic War to the Battle of Adrianople, New York &amp; London: Routledge, 1995.</li> 
+        <li>Belfiglio, Valentine J., "Roman Amphibious Operations Against Britain in 55 B.C.," Military and Naval History Journal (March, 1998), pp. 3-13.</li> 
+        <li>Belfiglio, Valentine J., "The Roman Amphibious Assault Against Britain in 54 B.C.", Military and Naval History Journal, (March 2000), pp. 15-21.</li> 
+        <li>Brizzi, Giovanni, I sistemi informativi dei Romani. Principi e realtà nell' età delle conquista oltremare (218-168 a.C.) Wiesbaden: Steiner, 1982, (Historia Einzelschriften no. 39)</li> 
+        <li>Cornell, T.J., Rankov, B. and Sabin, P., The Second Punic War: A Reappraisal, London: Institute of Classical Studies, 1996.</li> 
+        <li>Culham, Phyllis, "Archives and Alternatives in Republican Rome," Classical Philology 84, no. 2 (1989), pp. 100-115.</li> 
+        <li>Dawson, A., "Hannibal and Chemical Warfare," Classical Journal 63 (1967), pp. 117-125</li> 
+        <li>Desjardins, M., Les tabellarii, porteurs des depèches chez les Romains, Bibliotheque de l’École des Hautes Études vol. 35 (1878), pp. 51-81.</li> 
+        <li>Sartorio, Giuseppina Pisani Messi di trasporto e traffico, published by the Museo della Civilta Romana (Rome: Edizioni Quasar, 1988).</li> 
+        <li>Dodge, Louise, "Cipher in Cicero's Letters to Atticus"American Journal of Philology 22 (1901), pp. 439-41.</li> 
+        <li>Eckstein, A.M., Senate and General, Berkeley: University of California Press, 1987.</li> 
+        <li>Ezov, Amiram, “The ‘Missing Dimension’ of C. Julius Caesar,” Historia 45 (1996), pp. 64-94.</li> 
+        <li>Gruen,E.S., The Hellenistic World and the Coming of Rome, Berkeley: University of California Press, 1984.</li> 
+        <li>Kübler, “Statores,” Pauly-Wissowa Real-encyclopedie der classischen Altertumswissenschaft, Vol. 3, A, 2. Stuttgart, 1929.</li> 
+        <li>Nippel, Wilfried, Public Order in Ancient Rome, Cambridge: Cambridge University Press, 1995,</li> 
+        <li>Nippel, Wilfried, Aufruhr und "Polizei" in der römischen Republic, Stuttgart, 1988.</li> 
+        <li>Ramsay, A. M., "A Roman Postal Service Under the Republic," Journal of Roman Studies 10 (1920), pp. 79-86.</li> 
+        <li>Rice Holmes, T., “Caesar’s Second Invasion of Britain,” in: Ancient Britain and the Invasions of Julius Caesar, Oxford: The Clarendon Press, 1907.</li> 
+        <li>Richardson, M.A., Julius Caesar’s Use of Intelligence, M.A. Thesis, Defense Intelligence College, 1984.</li> 
+        <li>Sheldon, Rose Mary, "Hannibal's Spies,” International Journal of Intelligence and Counterintelligence 1,3 (1987), pp. 53-70.</li> 
+        <li>Sheldon, Rose Mary, "The Spartacus Rebellion: A Roman Intelligence Failure?" International Journal of Intelligence and Counterintelligence, vol. 6, no. 1 (1993), pp. 69-84.</li> 
+        <li>Wheeler, Everett, "Sapiens and Stratagems: The Neglected Meaning of a Cognomen" Historia 37 (1988), pp. 166-195.</li> 
+        <li>Wheeler, Everett, Stratagem and the Vocabulary of Military Trickery, Leiden: Brill, 1988.</li> 
+       </ul> 
+       <p><strong>The Roman Empire</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Amiotti, Gabriella, "I Greci ed il Massacro degli Italici nell'88 a.C.," Aevum 59 (1980), pp. 132-139.</li> 
+        <li>Amit, M., "Les moyens de communications et la defense de l'empire romain." La Parola del Passato 20 (1965) pp. 207-222.</li> 
+        <li>Ashby, T. and P. K. Baillie Reynolds, "The Castra Peregrinorum," Journal of Roman Studies 13 (1923), pp. 152-167.</li> 
+        <li>Austin, N.J.E., Ammianus on Warfare, Brussels: Collection Latomus, Vol. 165, 1975.</li> 
+        <li>Austin, N.J.E., "What Happened to Intelligence Information from the Frontiers?," Prudentia 19, 2 (1987), 28-33.</li> 
+        <li>Austin, N. J. E. and N. B. Rankov, Exploratio. Military and Political Intelligence in the Roman World from the Second Punic War to the Battle of Adrianople. New York: Routledge, 1995.</li> 
+        <li>Bagnall, Roger S., “The Army and Police in Roman Upper Egypt,” Journal of the American Research Center in Cairo, 14 (1977), pp. 67-86.</li> 
+        <li>Baillie Reynolds, P. K., The Vigiles of Imperial Rome. Oxford, 1926. Reprint edition, Ares Publishers, 1996.</li> 
+        <li>Baillie Reynolds, P. K., “The Troops Quartered in the Castra Peregrinorum,” JRS 13 (1923), pp. 168-189.</li> 
+        <li>Bauman, Richard A., The Crimen Maiestas in the Roman Republic and Augustan Principate, Johannesburg, Witwatersrand University Press,1967, 336 pp.</li> 
+        <li>Bauman, Richard A., Impietas in Principem. A Study of Treason Against the Roman Emperor with Special Reference to the First Century A.D. Mun. Beitrage zur Papyrus Forschungen &amp; Antike Rechtsgeschichte 67, Munich: C.H. Beck’sche Verlagsbuchhandlung, 1974.</li> 
+        <li>Bauman, Richard A., Crime and Punishment in Ancient Rome, London and New York: Routledge, 1996.</li> 
+        <li>Blockley, R.C., "The Coded Message in Ammianus Marcellinus 18.6.17-19" Classical Views 30 n.s. 5, 1 (1968), pp. 63-65.</li> 
+        <li>Blockeley, R.C., "Internal Self-Policing in the Late Roman Administration. Some Evidence from Ammianus Marcellinus" Classica et Medievalia 30 (1969), pp. 403-419.</li> 
+        <li>Boak, Arthur Edward Romilly, The Master of Offices in the Later Roman and Byzantine Empires, New York: Macmillan, 1919, 1924, New York: Johnson Reprint Corp. 1972.</li> 
+        <li>Boissier, Gaston, “Les Délateurs,” Revue des Deux Mondes, 72 (1867), pp. 305-340.</li> 
+        <li>Boissière, Gustave, L'accusation publique et les delateurs chez les Romains. Niort, 1911, pp. 375.</li> 
+        <li>Campbell, B., "Teach Yourself How to Be a General," Journal of Roman Studies 65 (1975), pp. 13-29.</li> 
+        <li>Clauss, Manfred, Der Magister Officiorum in der Spätantike, Munich: Beck,1980, 252pp.</li> 
+        <li>Clauss, Manfred, Untersuchungen zu den principales des römischen Heeres von Augustus bis Diocletian. Cornicularii, speculatores, frumentarii , Bochum, 1973.</li> 
+        <li>Codex Theodosianus, The Theodosian Code and novels, and the Sirmondian constitutions; a translation with commentary, glossary, and bibliography by Clyde Pharr, in collaboration with Theresa Sherrer Davidson and Mary Brown Pharr. With an introduction by C. Dickerman Williams. Princeton: Princeton University Press, 1952.</li> 
+        <li>Davies, R.W., "Augustus Caesar. A Police System in the Ancient World," in P. J. Stead, Pioneers in Policing, Maidenhead, 1977, pp. 12-32.</li> 
+        <li>Davies, R.W., "Police Work in Roman Times," History Today 18, no. 10 (October 1968), pp. 700-707.</li> 
+        <li>Davies, R.W., "The Investigation of Some Crimes in Roman Egypt," Ancient Society 4 (1973), pp. 199-212.</li> 
+        <li>Dilke, O.A.W., Greek and Roman Maps, Ithaca: Cornell University Press, 1985.</li> 
+        <li>Dise, Robert L., Jr., "Beneficiarius Eius," Electronic Antiquity, 4, 1 (1997), pp. 1-10.</li> 
+        <li>Dise, Robert L., Jr., "A Reassessment of the Functions of beneficiarii consularis," Ancient History Bulletin 9.2 (1995), pp. 72-85.</li> 
+        <li>Dise, Robert L., Jr., "Variation in Roman Administrative Practice: the Assigments of Beneficiarii Consularis," Zeitschrift für Papyrologie und Epigraphik 116 (1997), pp. 284-299.</li> 
+        <li>Dise, Robert L., Jr., "Trajan, the Antonines, and the Governor's Staff," Zeitschrift für Papyrologie und Epigraphik 116 (1997), pp. 273-283.</li> 
+        <li>Dise, Robert L., Jr., "The Beneficiarii Procuratoris of Celeia and the Development of the Statio Network," Zeitschrift für Papyrologie und Epigraphik 113 (1996), pp. 286-292.</li> 
+        <li>Dise, Robert L., Jr., Recruitment and Assignment of Beneficarii Consularis in the Danube Provinces," The Ancient World 28.2 (1997), pp. 149-161.</li> 
+        <li>Domaszewski, A von, "Die Beneficiarierposten und die römischen Strassennetze," Westdeutsche Zeitschrift für Geschichte und Kunst 21 (1902), pp. 158-211.</li> 
+        <li>Domaszewski, A von, Die Rangordnung des römischen Heeres, Bonn: A. Marcus &amp; E. Weber, 1908.</li> 
+        <li>Dornberg, John, “The Battle of the Teutoberg Forest, Archaeology 45, no. 5, (September 1992), pp. 26-33</li> 
+        <li>Drinkwater, J. F. "The Pagan Underground: Constantine II's Secret Service and the Survival and Usurpation of Julian the Apostate".Studies in Latin Literature and Roman History. Collection Latomus 180, Brussels 1983, pp 348-387.</li> 
+        <li>Dumeril, A., “Origine des Délateurs et Précis de leur histoire pendant la durée de l’empire romain,” Annales de la Faculté des Lettres, Bordeaux, Paris, 3 (1881), pp. 262-281.</li> 
+        <li>Echols, Edward, "The Roman City Police: Origin and Development," Classical Journal 53 (1957-58), pp. 377-385.</li> 
+        <li>Eliot, C.W.J. "New Evidence for the Speed of the Roman Imperial Post," Phoenix 9 (1955), pp. 76-80.</li> 
+        <li>Erhart, V., "The Information Age: Spies in Late Antiquity," Military and Naval History Journal, 5 (March 1997), pp. 19-25.</li> 
+        <li>Ferrill, A., "Roman Military Intelligence," in Go Spy the Land. Military Intelligence in History , Westport, CT.: Praeger, 1992, pp. 17-29.</li> 
+        <li>Fiebiger, H. O., "Exploratores," RE 4 (1909), col 122-5.</li> 
+        <li>Frank, R. I., Scholae Palatinae. Papers and Monographs of the American Academy in Rome, Volume 23, 1969.</li> 
+        <li>Frend, W. H. C., "A Third Century Inscription Relating to Angareia in Phrygia." JRS 46 (1956), pp. 46-56.</li> 
+        <li>Froment, Théodore, “L’éloquence des délateurs,” Annales de la Faculté des Lettres de Bordeaux, Paris, 1(1880), pp. 35-57.</li> 
+        <li>Gaudemet, J., "La répression de la délation au bas-empire," in Philias charin. Miscellanea di Studi Classici in onore di Eugenio Manni, vol. III, Rome: Bretschneider, 1980, pp. 1065-83.</li> 
+        <li>Gauld, W. W., "Vegetius on Roman scout-boats," Antiquity 64 (1990), pp. 402-6.</li> 
+        <li>Gichon, M., "Military Intelligence in the Roman Army," in H. E. Herzig and E.Frei-Stolba (eds.) Labor Omnibus Unus. Festschrift Walser, Historia Einzelschriften 60, (Stuttgart, 1989), pp. 154-170.</li> 
+        <li>Gichon, M. "Aspects of a Roman Army in War According to the Bellum Judaicum of Josephus," in D. Kennedy and D. Riley, Rome's Desert Frontier from the Air, Austin: University of Texas Press, 1990, pp. 287-310.</li> 
+        <li>Giovannini, A., "Pline et les délateurs de Domitien," in Opposition et résistances à l'Empire d'Auguste à Trajan. Geneva (Entretiens sur l'Antiquité classique 33 (1986), pp. 219-48.</li> 
+        <li>Havelock, Eric. A., and Herschbell, J. P. "The Ancient Telegraph." War and Literacy in Communications Arts in the Ancient World. New York, Hastings House, 1978, pp. 84-85.</li> 
+        <li>Helm, R., "Untersuchungen über den Auswärtigen diplomatischen Verkehr des römischen Reiches im Zeitalter der Spätantike," Archive für Urkundenforschungen 12 (1932), pp. 375-436.</li> 
+        <li>Hirschfeld, Otto, Die Sicherheitspolizei im römischen Kaiserreich. Sitzungsberichte der könglischen Preussischen Akademie der Wissenschaften in Berlin, (1891) 845-877; Kleine Schriften (Berlin (1913), pp. 576-612.</li> 
+        <li>Hirschfeld, Otto, "Die ägyptische Polizei der römischen Kaiserzeit nach Papyrusurkunden," (Könglich Preussische Akademie der Wissenschaften, Berlin, Philosophisch-historische klasse, Sitzungsberichte, 1892); republished in: Kleine Schriften, pp. 613-623.</li> 
+        <li>Hopwood, K., "Policing the Hinterland. Rough Cilicia and Isauria," in: Armies and Frontiers in Roman and Byzantine Anatolia (Coll. Swansea April ,1981), London, 1983, pp. 173-87.</li> 
+        <li>Johnson, Gary, "De conspiratione delatorum: Pliny and the Christians Revisited,” Latomus 47.2 (1988), pp. 417- 422.</li> 
+        <li>Kaegi, Walter E., “Constantine’s and Julian’s Strategies of Strategic Surprise Against the Persians,” Athenaeum n.s. 59 (1981), pp. 209-213.</li> 
+        <li>Kennedy, David, Settlement and Soldiers in the Roman Near East, Ashgate, 2013</li> 
+        <li>Kneppe, A., "Die Gefährdung der Securitas. Angst vor Angehörigen sozialer Randgruppen der römischen Kaiserzeit am Beispiel von Philosophen. Astrologen, Magieren, Schauspiel und Räubern,” in Weiler, (ed.) Soziale Randgruppen und Aussenseiter im Altertum, Graz: Leykam,1988, pp.165-76.</li> 
+        <li>Krenkel, W., “Speculatores” Lexicon der Alten Welt, Zurich and Munich: Artemis Verlag, 1990, p. 2855.</li> 
+        <li>Kübler, Bernhard, "Statores", Pauly -Wissowa, Real-encyclopaedie der classischen Altertumswissenschaft,, vol. III, A. col. 2228-2229.</li> 
+        <li>Kübler, B., "Beneficiarus," in Ruggiero (ed.) Dizionario Epigrafico di Antichità Romane, (1895) Vol 1, pp. 992-6.</li> 
+        <li>Lamer, H., "Antike Telegraphie." Humanistische Gymnasium 1927, p. 180.</li> 
+        <li>Lammert, F., "Speculatores," Pauly Wissowa, Real-encyclopaedie der classischen Altertumswissenschaft, 3A (1929), pp. 1583-6. </li> 
+        <li>Lee, A. D., Information and Frontiers. (Roman Foreign Relations in Late Antiquity.) Cambridge: Cambridge University Press, 1993, 213pp.</li> 
+        <li>Leighton, Albert C., "Secret Communications among the Greeks and Romans," Technology and Culture 10,2 (April 1969), pp. 139-154.</li> 
+        <li>Lopuszanski, A., "La police romaine et les chrétiens," Antiquité Classique 20 (1951), pp. 5-46.</li> 
+        <li>Macmullen, Ramsay, Enemies of Roman Order. Treason, Unrest and Alienation in the Empire, London and New York: Routledge 1992 (new edition).</li> 
+        <li>Matthews, John F., "Hostages, Philosophers, Pilgrims, and the Diffusion of Ideas in the Late Roman Mediterranean and Near East," ch. 3 in F.M. Clover and R.S. Humphreys, Tradition and Innovation in Late Antiquity, University of Wisconsin Press,1989.</li> 
+        <li>Naudet, M., “Analyse d’un Mémoire sur la Police des Romains sous les Empereurs” Académie des sciences morales et politiques, Séances et travaux Ser 2:6 (1849) pp. 183-188.</li> 
+        <li>Nippel, Wilfried, "Policing Rome," Journal of Roman Studies 74 (1984), pp. 20-29.</li> 
+        <li>Nippel, Wilfried, Aufruhr und "Polizei" in der römischen Republik, Stuttgart: Klett-Cotta, 1988.</li> 
+        <li>Nippel, Wilfried, Public Order in Ancient Rome, Cambridge: Cambridge University Press, 1995.</li> 
+        <li>North, J., “Diviners and Divination at Rome,” in M. Beard and J. North (eds.), Pagan Priests, Religion and Power in the Ancient World, pp. 51-71, London: Duckworth, 1990.</li> 
+        <li>O'Neal, William J., "Delation in the Early Empire," Classical Bulletin 55 (1978), pp. 24-28.</li> 
+        <li>Ott, Joachim, Der Beneficiarier. Untersuchungen zu ihrer Stellung innerhalb der Rangordnung des römischen Heeres und zu ihrer Funktion. (Historia Einzelschriften, 92) Stuttgart: Franz Steiner, 1995.</li> 
+        <li>Pekáry, T., "Seditio. Unruhen und Revolten im römischen Reich von Augustus bis Commodus," Ancient Society 18 (1987), pp. 133-50.</li> 
+        <li>Pekáry, T., Untersuchungen zu den römischen Reichstrassen, Bonn: Rudolf Habelt Verlag, 1968.</li> 
+        <li>Pekáry, T, “Spionage” Lexicon der Alten Welt, Zurich and Munich: Artemis Verlag, 1990, p. 2862-3.</li> 
+        <li>Raaflaub, Kurt A. and L.J. Samons II, "Opposition to Augustus," in K.A. Raaflaub and M. Toher, Between Republic and Empire; Interpretations of Augustus and his Principate, Berkeley: University of California Press, 1990.</li> 
+        <li>Rainbird, J. S., The Vigiles of Rome, Ph.D. Thesis, University of Durham, 1976.</li> 
+        <li>Rainbird, J. S., "The Fire Stations of Imperial Rome," Papers of the British School at Rome 54 (1986), pp. 147-69.</li> 
+        <li>Rambaud, M., L'art de la déformation historique dans les Commentaires de Cesar. Paris, les Belles letters, 1966.</li> 
+        <li>Ramsay, A. M., "The Speed of the Roman Imperial Post." JRS 15 (1925), pp. 60-74.</li> 
+        <li>Rankov, N. B., "M. Oclatinius Adventus in Britain," Brittania 18 (1987), pp. 243-9.</li> 
+        <li>Rankov, B., "Die Beneficiarier in den literarischen und papyrologischen Texten," in Der römische Weihebezirk von Osterburken II. Kolloquium 1990 und paläobotanische-osteologische Untersuchungen, Forschungen und Berichte zur Vor-und Frügeschichte in Baden-Württemberg, Bd. 49 (Stuttgart, 1994), pp. 219-232.</li> 
+        <li>Rankov, B., "Frumentarii, the Castra Peregrina and the Provincial Officia," Zeitschrift für Papyrologie und Epigraphik 80 (1990,), pp. 176-82.</li> 
+        <li>Reinke, G., "Nachrichtenwesen," Pauly-Wissowa, Real-encyclopaedie der classischen</li> 
+        <li> Altertumswissenschaft 16 (1935), col. 1496-1541.</li> 
+        <li>Reinke, E.C., "Classical Cryptography." CJ 50 (October 1962-May 1963), pp.113-121.</li> 
+        <li>Riepl, W., Das Nachrichtenwesen des Altertums. Leipzig: B.G. Teubner, 1913.</li> 
+        <li>Ritterling, E., "Ein Amtsabzeichen der beneficiarii consularis im Museum zu Wiesbaden," Bonner Jahrbücher 125 (1919), pp. 23- 25.</li> 
+        <li>Rostovtzeff, M., The Social and Economic History of the Roman Empire. Oxford: Oxford University Press, 1967.</li> 
+        <li>Rostovtzeff, M.I., "Die Domänenpolizei in dem römischen Kaiserreiche," Philologus 64 (1905), pp. 297-307.</li> 
+        <li>Rostowzew, (sic. alternative spelling for Rostovtzeff) , M., "Angariae" Klio 6 (1906), pp. 249-258.</li> 
+        <li>Rostovtzeff, M. I., "Ein Speculator auf der Reise," Römisches Mitteillungen 26 (1911), pp. 267-283.</li> 
+        <li> Rutledge, Steven, Imperial Inquisitions. Prosecutors and Informants from Tiberius to Domitian, New York: Routledge, 2001, 416pp.</li> 
+        <li>Sablayrolles, Robert, Les Cohortes de Vigiles, Rome: Ecole Francais</li> 
+        <li>Schallmayer, Egon, "Zur Herkunft und Funktion der Beneficiarier," in V.A. Maxfield and M. J. Dobson (edd.) Roman Frontier Studies 1989. Proceedings of the XVth International Congress of Roman Frontier Studies, University of Exeter Press, 1991, pp. 400-406.</li> 
+        <li>Schallmayer, Egon, et. al., Der Römischen Weihebezirk von Osterburken I. Corpus der griechischen und lateinischen Beneficiarier-Inschriften des römischen Reiches, Forschungen und Berichte zur Vor- und Frügeschichte in Baden-Würtemberg, Bd 40, Stuttgart: Landesdenmalamt Baden-Württemberg, Archäologische Denkmalplege: Kommissionsverlag K. Theiss, 1990-1994, 2 vols.</li> 
+        <li>Schroff, "Tabellarii,” Pauly-Wissowa, Real-encyclopaedie der classischen Altertums- wissenschaft Vol. III, A. (1932), col. 1844-1848.</li> 
+        <li>Schuller, Wolfgang, “Grenzen des Spätrömischen Staates: Staatspolizei und Korruption,” Zeitschrift für Papyrologie und Epigraphik 16 (1975), pp. 1-21.</li> 
+        <li>Scullard, H.H., Scipio Africanus in the Second Punic War. Cambridge: Cambridge University Press, 1930.</li> 
+        <li>----------. Scipio Africanus: Soldier and Politician. Ithaca, N.Y.: Cornell University Press, 1970.</li> 
+        <li>Seaver,J. E., "Publius Ventidius--Neglected Roman Military Hero." CJ 47 (1951/52), pp. 275-280.</li> 
+        <li>Seeck, Otto, "Angareia," Pauly-Wissowa, Real-encyclopaedie der classischen Altertums- wissenschaft I, 2 col. 2185-6.</li> 
+        <li>Sheldon, Rose Mary, Espionage in the Ancient World; An Annotated Bibliography, McFarland 2003.</li> 
+        <li> Reviewing in: Journal of Military History 68,2 (April 2004), pp.577-578.</li> 
+        <li>Sheldon, Rose Mary, “Slaughter in the Forest,” Small Wars and Insurgencies,12,3 (Autumn, 2001), pp. 1-38..</li> 
+        <li>Sheldon, Rose Mary, "Jesus, The Security Risk: Intelligence and Security in First Century Palestine," Small Wars and Insurgencies, Vol. 9, No. 2 (Autumn, 1998), pp. 1-37.</li> 
+        <li>Sheldon, Rose Mary, "The Polygraph, Adultery and the Romans, or Fluttering in Antiquity" Foreign Intelligence Literary Scene 5, 2. (March/April,1986), p. 2.</li> 
+        <li>Sheldon, Rose Mary, Tinker, Tailor Caesar Spy. Espionage in Ancient Rome Dissertation, University of Michigan, Ann Arbor, 1987. University Microfilms International No. 8720338.</li> 
+        <li>Sheldon, Rose Mary, "L'Occhio di Roma", Storia e Dossier, January 1989, n. 25, pp. 46-49.</li> 
+        <li>Sheldon, Rose Mary, “Toga and Dagger: Espionage in Ancient Rome,” Quarterly Journal of Military History, Autumn 2000, pp. 28-33.</li> 
+        <li>Sheldon, Rose Mary, "Tinker, Tailor, Caesar, Spy: Intelligence in Ancient Rome." American Intelligence Journal June 1986, pp. 3-5.</li> 
+        <li>Sheldon, Rose Mary, "Toga and Dagger." The Washington Post July 16, 1985 A 15. Reprinted Signal September 1985, pp. 55-57.</li> 
+        <li>Sheldon, Rose Mary, "Taking on Goliath: Low Intensity Conflict in the Great Jewish War," Small Wars and Insurgencies, 5/1 (Spring, 1994), pp. 1-28.</li> 
+        <li>Sheldon, Rose Mary, "The Great Jewish War and Rome", Proceedings of the Military and Naval History Forum, 8-9 March 1996, Lancaster, Pa.</li> 
+        <li>Sheldon, Rose Mary, "Clandestine Operations and Covert Action: The Ancient Imperative," Proceedings of the Military and Naval History Forum, (3 - 4 March 1995), Lancaster, Pa., 1995.</li> 
+        <li>Sheldon, Rose Mary, “To the Ends of the Earth: Caesar, Intelligence and Ancient Britain,” International Journal of Intelligence and Counterintelligence, 15,1 (Spring 2002), pp. 77-100.</li> 
+        <li>Sherk, R. K, "Roman Geographical Exploration and Military Maps," ANRW , Vol. 2, 1, p. 538.</li> 
+        <li>Sinnigen, William G., "Administrative Shifts of Competence Under Theodoric" Traditio 21 (1965), pp. 456-467.</li> 
+        <li>Sinnigen, W. G., The Officium of the Urban Prefecture in the Later Roman Empire. Rome: American Academy in Rome, Papers and Monographs 17, 1957.</li> 
+        <li>Sinnigen, W. G., "Tirones and Supernumerarii: Classical Philology 62 (1967), pp. 108-112.</li> 
+        <li>Sinnigen, W.G., "The Officium of the Urban Prefecture in the Later Roman Empire." American Academy in Rome, Papers and Monographs 17 (1957).</li> 
+        <li>Sinnigen, W. G., "Three Administrative Changes Ascribed to Constantius II" American Journal of Philology 83 (1962), pp. 369-382.</li> 
+        <li>Speidel, Michael P., "Exploratores. Mobile Elite Units of Roman Germany." Epigraphische Studien 13(1983), pp. 63-78.</li> 
+        <li>Starr, Chester G., Civilization and the Caesars, Ithaca: Cornell University Press, 1954.</li> 
+        <li>Syme, Sir Ronald, “Military Geography at Rome," Classical Antiquity Vol. 7, No. 2 (October, 1988), pp. 227-251.</li> 
+        <li> Teitler, Hans C., Notarii und exceptores. An inquiry into the Role and Significance of Shorthand Writers in the Imperial and Ecclesiastical Bureaucracy of the Roman Empire (from the Early Principate to c. 450 A.D.) Amsterdam: J.C. Gieben, 1985. (Dutch Monographs on Ancient History and Archaeology 1).</li> 
+        <li>Wheeler, E. L., Stratagem and the Vocabulary of Military Trickery, Leiden: Brill, 1988.</li> 
+        <li>Woolliscroft, D.J., “The Outpost System of Hadrian’s Wall,” TCWAAS 88 (1988), pp.23-28.</li> 
+        <li>Zijlstra, J.S.A., De delatores te Rome tot aan Tiberius' regering, Alberts' Drukkerijen Sittard, 1967.</li> 
+       </ul> 
+       <p><strong>Cursus Publicus</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Bender, H., Römischer Reiseverkehr: Cursus publicus und Privatresisen, Stuttgart: Würtemberisches Landesmusuem, 1978.</li> 
+        <li>Black, E.W., Cursus Publicus: the infrastructure of government in Roman Britain, Oxford: Tempus Reparatum, 1995.</li> 
+        <li>Brizzi, G., "Cursus Publicus e trasmissione della notizia: l'esempio di Augusto," in Studi Militari Romani, Bologna: C.L.U.E.B. 1983.</li> 
+        <li>Corsini, C., Le strutture di servizio del Cursus Publicus in Italia: ricerche topografiche ed evidenze archeologiche, Oxford: British Archaeological Reports, 2000.</li> 
+        <li>Hartmann, Eugen, Entwicklungsgeschichte der Posten von den ältesten Zeiten bis zur Gegenwart mit besonderer Beziehung auf Deutschland, Leipzig: Franz Wagner Verlag, 1868. </li> 
+        <li>Holmberg, Erik John, Zur Geschichte des Cursus Publicus, Uppsala: A.-B. Lundequistka bokhandeln, 1933.</li> 
+        <li>Hudemann, Ernst Eduard, Geschichte des römischen Postwesens während der Kaiserzeit , Berlin: Verlag von S. Calvary &amp; Co., 1878, 2nd ed.</li> 
+        <li>Humbert, G., "Cursus Publicus," Daremberg-Saglio 122, pp. 1645-1673.</li> 
+        <li>Madvig, Johan Nikolai, Verfassung und Verwaltung des Römischen Staates Leipzig: B.G. Teubner, 1881, Vol. 2, p. 738-745, "Wege- und Befördungswesen, sowie der spätere Kourierdienst"</li> 
+        <li>Mitchell, Stephen, "Requisitioned Transport in the Roman Empire: A New Inscription from Pisidia," Journal of Roman Studies 65, 1 (1975), pp. 106-131.</li> 
+        <li>Paola, L. di. "Per la storia delle evectiones." AAPel 56 (1980), pp. 85-102.</li> 
+        <li>Pflaum, Hans Georg, "Essai sur le cursus publicus sous le haut-empire romain," Mémoires de l'Académie des Inscriptions et Belles Lettres14 (1940), pp. 189-390</li> 
+        <li>Seeck, Otto, "Cursus Publicus" Pauly-Wissowa, Real-encyclopaedie der classischen Altertumswissenschaft IV , (1901) Col. 1849.</li> 
+       </ul> 
+       <p><strong>Frumentarii</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Baillie Reynolds, P. K., "Troops Quartered in the Castra Peregrinorum" Journal of Roman Studies 13 (1923), pp. 168-189.</li> 
+        <li>Baldacci, P., "Negotiatores e mercantores frumentarii nel periodo imperiale." Rendiconti dell'istituto Lombardo Classe di Lettere, Scienze morale e storiche, Milano 101 (1967), pp. 273-291.</li> 
+        <li>Basile, M., "Mercatores, negotiatores aratores pecurarii nella Sicilia di età reppublicana." Archivo Storico Siciliano 5 (l979), pp. 5-15.</li> 
+        <li>Cagnat, René, "Frumentarius" in Daremberg-Saglio, Dictionnaire des antiquités grecques et romaines (Paris, 1877-1919), p. 1348.</li> 
+        <li>Clauss, Manfred, "Frumentarius Augusti," Epigraphica 42 (1980), pp. 131-134.</li> 
+        <li>Clauss, M., Untersuchungen zu den principales des römischen Heeres von Augustus bis Diocletian. Cornicularii, speculatores, frumentarii, Bochum, s.n. 1973.</li> 
+        <li>Fiebiger, H. O., "Frumentarii" RE 7 (1912), vol. 1690-3.</li> 
+        <li>Henzen, Guglielmo, "Sui militi peregrini e frumentarii," Bulletino dell’ Instituto di Corrispondenza Archeologica (1851), pp. 113-121.</li> 
+        <li> Henzen, Guglielmo, "Le castra peregrinorum ed i frumentarii," in: Bulletino dell’ Instituto di Corrispondenza Archeologica (1884), pp. 21-29.</li> 
+        <li>Krenkel, W., “frumentarii” Lexicon der Alten Welt, Zurich and Munich: Artemis Verlag, 1990, p. 1009</li> 
+        <li>Mann, J. C., "The Organization of the Frumentarii," Zeitschrift für Papyrologie und Epigraphik 74 (1988), pp. 149-50.</li> 
+        <li>Martini, G., "I milites frumentarii," Atti del Istituto Veneto di Scienza, Lettere ed Arti, Classe di Scienze morali e Lettere, Venezia 139 (1980-81), pp. 143-151.</li> 
+        <li>Naudet, M., "Sur la signification du mot frumentarius , à propos de la communication de M. E. Desjardins," Comptes Rendus de l’Académie des Inscriptions et Belles-Lettres(1875), pp. 144-151 </li> 
+        <li>Paribeni, R., "Dei milites frumentarii e del'approvigionamento della corte imperiale," Deutsches Archaeologisches Institut, Römische Mitteilungen 20 (1905), pp. 310-320.</li> 
+        <li>Paschoud, F., "Frumentarii, agentes in rebus, magistriani, curiosi, veredarii; problèmes de terminologie," Bonner Historia-Augusta Colloquium 1979/81 (Bonn, 1983), pp.215-243.</li> 
+        <li>Rankov, B., "Frumentarii, the Castra Peregrina and the Provincial Officia," Zeitschrift für Papyrologie und Epigraphik 80 (1990,) pp. 176-82.</li> 
+        <li>Sheldon, Rose Mary, "The Roman Secret Service" Intelligence Quarterly 1,2 (July 1985), pp. 7-8.</li> 
+        <li>Sinnigen, W. G., "The Origins of the Frumentarii" Memoirs of the American Academy in Rome 27 (1962), pp. 211-224.</li> 
+        <li>Sinnigen, W. G., "The Roman Secret Service" Classical Journal (1965), pp. 65-72.</li> 
+        <li>Vaglieri, D., "Frumentarii" Dizionario Epigrafico di Antichità Romane 3 (1922), pp. 221-224.</li> 
+       </ul> 
+      </div> 
+      <div id="ctl00_pageContent_rightColumn"> 
+       <div id="content-2" class="column last"> 
+        <div id="ctl00_pageContent_relatedRight10737427402" class="mod"> 
+         <p><strong>Col. Sheldon</strong></p> 
+         <ul class="arrowlist"> 
+          <li><a title="Rose Mary Sheldon, Ph.D." href="/Content.aspx?id=10737427403">Home</a></li> 
+          <li><a title="Bio" href="/Content.aspx?id=10737427404">Bio</a></li> 
+          <li><a title="Publications" href="/Content.aspx?id=10737427405">Publications</a></li> 
+          <li><a title="Public Addresses" href="/Content.aspx?id=10737427410">Public Addresses</a></li> 
+          <li><a title="Bibliographies" href="/Content.aspx?id=10737427411">Bibliographies</a></li> 
+          <li><a title="634th Tank Battalion" href="/Content.aspx?id=10737427419">634th Tank Battalion</a></li> 
+          <li><a title="AHA Statement" href="http://www.historians.org/about-aha-and-membership/governance/policies-and-documents/statement-on-standards-of-professional-conduct" target="_blank">AHA Statement</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

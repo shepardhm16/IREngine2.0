@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>Find Articles - Civil Engineering - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: Civil Engineering: Find Articles"> 
+  <meta name="DC.Creator" content="Janet Holly"> 
+  <meta name="DC.Subject" content=""> 
+  <meta name="DC.Description" content="A guide to the civil engineering resources available through Preston Library."> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=262281&amp;p=1752305"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="May 8, 2015"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Mar 30, 2016"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 262281,
+				page_id: 1752305,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-1752305";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '262281',_st_page_id: '1752305'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '262281',_st_page_id: '1752305'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Info Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="Civil Engineering" href="http://libguides.vmi.edu/c.php?g=262281">Civil Engineering </a> </li> 
+     <li id="s-lib-bc-page" class="active">Find Articles </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="262281"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">Civil Engineering: Find Articles</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description">A guide to the civil engineering resources available through Preston Library.</span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Info Header --> 
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med"> 
+   <div id="s-lg-guide-tabs" class="tabs"> 
+    <ul class="nav nav-tabs split-button-nav"> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=262281&amp;p=1752285"> <span>Civil Engineering</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=262281&amp;p=1752304"> <span>Find Books</span> </a> </li> 
+     <li role="presentation" class="active"> <a title="" class="active" href="/c.php?g=262281&amp;p=1752305"> <span>Find Articles</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=262281&amp;p=1752306"> <span>Find Standards</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=262281&amp;p=2641830"> <span>Government Information</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=262281&amp;p=2646197"> <span>Interlibrary Loan</span> </a> </li> 
+     <li role="presentation"> <a title="Need help citing a reference?" class="" href="/c.php?g=262281&amp;p=1752308"> <span>Citation Guides</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=262281&amp;p=1752321"> <span>Professional Organization</span> </a> </li> 
+     <li role="presentation"> <a title="Return to the library's homepage." class="" href="/c.php?g=262281&amp;p=1752311"> <span>Library Homepage</span> </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <!-- BEGIN: Guide Content --> 
+  <div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders"> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-126" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-1" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-8204845" class="s-lg-box-wrapper-8204845"> 
+       <div id="s-lg-box-6975877-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-6975877" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Finding Magazine and Journal Articles </h2> 
+         <div id="s-lg-box-collapse-6975877"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-13850190" class="  clearfix"> 
+            <p><img alt="July-August 2015 CE Magazine" class="img-responsive" height="169" src="http://www.asce.org/uploadedImages/CE_Magazine/Home_Page/Content_Pieces/july-august-2015-ce-magazine.jpg" title="July-August 2015 CE Magazine" width="123"></p> 
+            <p>A magazine is a publication issued periodically that has scientific and technical articles that are translated into a language suitable for a more general audience.&nbsp; Magazine articles are usually written by a journalist rather than the engineer/scientist who has done the research.&nbsp; Some magazines are aimed at the lay public while others are suitable for technically trained people.&nbsp;</p> 
+            <p><img alt="Journal cover" class="cover" src="http://ascelibrary.org/na101/home/literatum/publisher/asce/journals/covergifs/jmcee7/cover.jpg"></p> 
+            <p>A journal is a publication issued periodically that reports original research. Manuscripts submitted by researchers are scrutinized by an editor and a referee before they are accepted for publication.&nbsp; This is known as the peer review process. The articles are very detailed and include detailed experimental procedures.&nbsp; It is aimed at a very specialized audience of researchers in the field.</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-2" class="col-md-6"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-8204897" class="s-lg-box-wrapper-8204897"> 
+       <div id="s-lg-box-6975930-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-6975930" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Engineering Databases </h2> 
+         <div id="s-lg-box-collapse-6975930"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-15822735" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268495" class=""> 
+               <a href="http://cedb.asce.org/CEDBsearch/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268495'});">Civil Engineering Database </a> 
+               <div id="s-lg-database-desc-1268495" class="s-lg-database-desc">
+                This database is designed to provide easy bibliographic access to all ASCE publications. It covers ASCE publications published since 1973. VMI owns most of the ASCE journals. Full-text varies for each journal title.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268545" class=""> 
+               <a href="http://www.engineeringvillage.com/search/quick.url?" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268545'});">Engineering Village </a> 
+               <div id="s-lg-database-desc-1268545" class="s-lg-database-desc">
+                Comprehensive source of up-to-date engineering information. Provides access to bibliographic citations and abstracts from engineering journals. Click on the FindIt button to get full-text article or locate in library or request Interlibrary Loan. Coverage 1884-present.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268551" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://www.crcnetbase.com/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268551'});">ENGnetBASE </a> 
+               <div id="s-lg-database-desc-1268551" class="s-lg-database-desc">
+                CRC Press created this database which provides access to its handbooks. An excellent resource for engineers and scientists.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-9499501" class="s-lg-box-wrapper-9499501"> 
+       <div id="s-lg-box-8052217-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-8052217" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Additional Databases </h2> 
+         <div id="s-lg-box-collapse-8052217"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-18427147" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268541" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.proquest.com/engineeringmaterialsabstracts" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268541'});">Engineered Materials Abstracts </a> 
+               <div id="s-lg-database-desc-1268541" class="s-lg-database-desc">
+                Indexes the journal literature of polymers, ceramics, and composites in a variety of structural and other advanced applications.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268543" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.proquest.com/engineering?accountid=14859" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268543'});">Engineering Research Database </a> 
+               <div id="s-lg-database-desc-1268543" class="s-lg-database-desc">
+                Coverage of the international literature for research in civil, earthquake, environmental, mechanical, transportation engineering, forensic engineering, engineering services, education, theoretical mechanics and dynamics, mathematics/computation, design, construction, and latest technological developments.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268553" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=eih" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268553'});">Environment Complete </a> 
+               <div id="s-lg-database-desc-1268553" class="s-lg-database-desc">
+                Contains more than 1 million records from more than 1,000 domestic and international titles going back to the 1940s.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268555" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.proquest.com/environmentalscience?accountid=14859" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268555'});">Environmental Sciences Collection - ProQuest </a> 
+               <div id="s-lg-database-desc-1268555" class="s-lg-database-desc">
+                Full-text articles, figures and tables, environmental impact statements, and bibliographic records from Environmental Sciences and Pollution Management (scientific journals, conference proceedings, reports, monographs, books and government publications. 1967-present, over 1,100 full text journals.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-19310727" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.proquest.com/engineeringcollection?accountid=14859" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '19310727'});">ProQuest Engineering </a> 
+               <div id="s-lg-database-desc-19310727" class="s-lg-database-desc">
+                The collection contains engineering related full-text articles, granular access to millions of figures and tables within articles, and the entire range of bibliographic records from the Engineering Research Database. Engineering Research Database contains a comprehensive index to world literature on technological and engineering innovations going back to 1966.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-19286862" class=""> 
+               <a href="http://search.proquest.com/technologycollection/science" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '19286862'});">ProQuest SciTech Collection </a> 
+               <div id="s-lg-database-desc-19286862" class="s-lg-database-desc">
+                The ultimate science and technology research solution, combining full text journals with detailed indexing of global literature on natural sciences, engineering and technology. Areas covered include materials science, aerospace engineering, civil engineering, biology, aquatic sciences, environmental science, computer science and earth sciences in addition to many more. It fully incorporates ProQuest Natural Science Collection and ProQuest Technology Collection.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-3" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-8204975" class="s-lg-box-wrapper-8204975"> 
+       <div id="s-lg-box-6975955-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-6975955" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Civil Engineering Journals </h2> 
+         <div id="s-lg-box-collapse-6975955"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-15822751" class="s-lg-link-list s-lg-link-list-5">
+             <li class=""> 
+              <div id="s-lg-content-13849174" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-13849174" class="s-lg-book-cover"></div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/10480594" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '13849174'});"><span id="s-lg-book-title-13849174" class="s-lg-book-title">Civil Engineering</span> by <span id="s-lg-book-author-13849174" class="s-lg-book-author">ASCE</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: TA 1.C452
+                </div>
+                <div class="s-lg-book-prop-pubdate">
+                 Publication Date: 1930 - current issue
+                </div>
+                <div id="s-lg-book-desc-13849174" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-13849174" class="s-lg-link-desc">
+                  Established in 1930, Civil Engineering is the award-winning monthly flagship magazine of the American Society of Civil Engineers. Bound volumes located on 300 level and current issues on shelf in Periodical Reading Room; full-text articles available from 1997 to present.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-13849406" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-13849406" class="s-lg-book-cover"></div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/15041368" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '13849406'});"><span id="s-lg-book-title-13849406" class="s-lg-book-title">ENR</span><span id="s-lg-book-author-13849406" class="s-lg-book-author"></span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: TA 1.E6
+                </div>
+                <div id="s-lg-book-desc-13849406" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-13849406" class="s-lg-link-desc">
+                  ENR is the Engineering News-Record. Located on 300 level from 1987; full-text articles available from 2001 to present. Current issues can be found in the Periodical Reading Room.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+           <div id="s-lg-content-13850136" class="  clearfix"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-127" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+    <li class="previous"> <a href="/c.php?g=262281&amp;p=1752304">&lt;&lt; <strong>Previous:</strong> Find Books</a> </li> 
+    <li class="next"> <a href="/c.php?g=262281&amp;p=1752306"><strong>Next:</strong> Find Standards &gt;&gt;</a> </li> 
+   </ul> 
+  </div> 
+  <!-- END: Guide Content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Mar 30, 2016 12:19 PM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/c.php?g=262281</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D262281%2526p%253D1752305&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>Find Articles - BI 311 Aquatic Ecosystems - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: BI 311 Aquatic Ecosystems: Find Articles"> 
+  <meta name="DC.Creator" content="Janet Holly"> 
+  <meta name="DC.Subject" content="Biology"> 
+  <meta name="DC.Description" content=""> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=382213&amp;p=2599272"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Sep 10, 2015"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Mar 30, 2016"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 382213,
+				page_id: 2599272,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-2599272";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '382213',_st_page_id: '2599272'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '382213',_st_page_id: '2599272'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Info Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="BI 311 Aquatic Ecosystems" href="http://libguides.vmi.edu/bi311">BI 311 Aquatic Ecosystems </a> </li> 
+     <li id="s-lib-bc-page" class="active">Find Articles </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="382213"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">BI 311 Aquatic Ecosystems: Find Articles</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description"></span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Info Header --> 
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med"> 
+   <div id="s-lg-guide-tabs" class="tabs"> 
+    <ul class="nav nav-tabs split-button-nav"> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=382213&amp;p=2589867"> <span>Home</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=382213&amp;p=2599271"> <span>Find Books</span> </a> </li> 
+     <li role="presentation" class="active"> <a title="" class="active" href="/c.php?g=382213&amp;p=2599272"> <span>Find Articles</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=382213&amp;p=2599275"> <span>Interlibrary Loan</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=382213&amp;p=2599276"> <span>Citation Guide</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/bi311/bi311"> <span>Government Resources</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="http://www.vmi.edu/content.aspx?id=312"> <span>Library Homepage</span> </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <!-- BEGIN: Guide Content --> 
+  <div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders"> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-126" class="col-md-12"> 
+     <div class="s-lg-col-boxes s-lg-box-special"> 
+      <div id="s-lg-box-wrapper-9751627" class="s-lg-box-wrapper-9751627"> 
+       <div id="s-lg-box-8264810-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-8264810" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">What is a peer-reviewed journal? </h2> 
+         <div id="s-lg-box-collapse-8264810"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-16609773" class="  clearfix"> 
+            <p>Peer review is defined as the process by which articles submitted for publication in a scholarly journal are reviewed by experts in the subject field (peers) for evaluation and comment (review).&nbsp; Peer-reviewed journals contain articles that have undergone the rigorous peer review process.&nbsp; Another term for peer-reviewed is "refereed."</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-1" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-9356303" class="s-lg-box-wrapper-9356303"> 
+       <div id="s-lg-box-7932249-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-7932249" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Biology Databases </h2> 
+         <div id="s-lg-box-collapse-7932249"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-18143051" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268469" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.proquest.com/biologicalscience?accountid=14859" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268469'});">Biological Sciences - ProQuest </a> 
+               <div id="s-lg-database-desc-1268469" class="s-lg-database-desc">
+                Contains full-text articles, figures and tables within articles, and bibliographic records from Biological Sciences database. Biological Sciences provides access to literature from serials, as well as conference proceedings, technical reports, monographs and selected books and patents. 1982-present, over 750 full text journals
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268471" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://www.bioone.org/search" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268471'});">BioOne </a> 
+               <div id="s-lg-database-desc-1268471" class="s-lg-database-desc">
+                A collection of over 70 full-text scholarly journals focused on the biological sciences from 1998 to the current issue.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268640" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.proquest.com/medline?accountid=14859" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268640'});">MEDLINE </a> 
+               <div id="s-lg-database-desc-1268640" class="s-lg-database-desc">
+                MEDLINE® is a bibliographic database produced by the U.S. National Library of Medicine. The database contains millions of citations, derived from thousands of biomedical and life science journals, and indexed with Medical Subject Headings (MeSH®) from the NLM controlled vocabulary. Extending back to 1946, annual input now exceeds 700,000 citations.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268706" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://www.ncbi.nlm.nih.gov/sites/entrez" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268706'});">PubMed </a> 
+               <div id="s-lg-database-desc-1268706" class="s-lg-database-desc">
+                The National Library of Medicine's search service to access the 9 million citations in MEDLINE and Pre-MEDLINE (with links to participating on-line journals), and other related databases.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-18812718" class="s-lg-link-list s-lg-link-list-2">
+             <li class=""> 
+              <div id="s-lg-content-16496122" class=""> 
+               <span><a href="http://www.ncbi.nlm.nih.gov/books/NBK3827/#pubmedhelp.PubMed_Quick_Start" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '16496122'});">PubMed Help</a> </span>
+               <div id="s-lg-link-desc-16496122" class="s-lg-link-desc">
+                Find tutorials and tips on how to search the database.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-9356329" class="s-lg-box-wrapper-9356329"> 
+       <div id="s-lg-box-7932270-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-7932270" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Other Sience Databases </h2> 
+         <div id="s-lg-box-collapse-7932270"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-18153903" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268417" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=a9h" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268417'});">Academic Search Complete </a> 
+               <div id="s-lg-database-desc-1268417" class="s-lg-database-desc">
+                The World's most valuable and comprehensive scholarly, multi-disciplinary database. Includes more than 6,100 full-text periodicals and indexing and abstracting for more than 10,600 additional sources.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268426" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.proquest.com/agricola?accountid=14859" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268426'});">AGRICOLA </a> 
+               <div id="s-lg-database-desc-1268426" class="s-lg-database-desc">
+                Citations to journal articles, monographs, proceedings, theses, patents, translations, and technical reports pertaining to agriculture. Coverage 1970-present.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268555" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.proquest.com/environmentalscience?accountid=14859" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268555'});">Environmental Sciences Collection - ProQuest </a> 
+               <div id="s-lg-database-desc-1268555" class="s-lg-database-desc">
+                Full-text articles, figures and tables, environmental impact statements, and bibliographic records from Environmental Sciences and Pollution Management (scientific journals, conference proceedings, reports, monographs, books and government publications. 1967-present, over 1,100 full text journals.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268553" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=eih" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268553'});">Environment Complete </a> 
+               <div id="s-lg-database-desc-1268553" class="s-lg-database-desc">
+                Contains more than 1 million records from more than 1,000 domestic and international titles going back to the 1940s.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-19286862" class=""> 
+               <a href="http://search.proquest.com/technologycollection/science" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '19286862'});">ProQuest SciTech Collection </a> 
+               <div id="s-lg-database-desc-19286862" class="s-lg-database-desc">
+                The ultimate science and technology research solution, combining full text journals with detailed indexing of global literature on natural sciences, engineering and technology. Areas covered include materials science, aerospace engineering, civil engineering, biology, aquatic sciences, environmental science, computer science and earth sciences in addition to many more. It fully incorporates ProQuest Natural Science Collection and ProQuest Technology Collection.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-2" class="col-md-6"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-9356199" class="s-lg-box-wrapper-9356199"> 
+       <div id="s-lg-box-7932151-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-7932151" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Aquatic Databases </h2> 
+         <div id="s-lg-box-collapse-7932151"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-18143016" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268453" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.proquest.com/aqualine?accountid=14859" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268453'});">Aqualine </a> 
+               <div id="s-lg-database-desc-1268453" class="s-lg-database-desc">
+                A water resources database, this provides comprehensive focus on trade, technical and scientific literature concerning all aspects of water resources. Over 300 journals are indexed.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-7816534" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.proquest.com/aquaticscience?accountid=14859" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '7816534'});">Aquatic Science Collection - Proquest </a> 
+               <div id="s-lg-database-desc-7816534" class="s-lg-database-desc">
+                The database is underpinned by Aquatic Sciences and Fisheries Abstracts (ASFA), the renowned database created by United Nations agency sponsors, plus a network of international contributing partner institutions.
+                <br> 
+                <br> ASFA has been the definitive aquatic resource cited by librarians over recent decades – and ProQuest’s Aquatic Science Collection takes aquatic research a stage further, adding full text and additional databases Aqualine and Oceanic Abstracts.
+                <br> 
+                <br> Aquatic Science Collection provides a sizable element of full-text access along with comprehensive discovery through extensive abstracts and indexes structured using controlled vocabulary managed by expert editorial teams.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268456" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.proquest.com/asfamarine?accountid=14859" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268456'});">ASFA: Aquatic Sciences and Fisheries Abstracts </a> 
+               <div id="s-lg-database-desc-1268456" class="s-lg-database-desc">
+                An index to over 5,000 serial publications, books, reports, conference proceedings, translations and limited distribution literature in the field of aquatic resources. Coverage 1989-present.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268743" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://search.proquest.com/waterresources" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268743'});">Water Resources Abstracts </a> 
+               <div id="s-lg-database-desc-1268743" class="s-lg-database-desc">
+                Indexes technical and scientific literature on water-related topics, including: conservation, control, pollution treatment, and management of water resources. Coverage 1967-present
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-9356554" class="s-lg-box-wrapper-9356554"> 
+       <div id="s-lg-box-7932467-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-7932467" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Journals </h2> 
+         <div id="s-lg-box-collapse-7932467"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-18143731" class="s-lg-link-list s-lg-link-list-5">
+             <li class=""> 
+              <div id="s-lg-content-15877934" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-15877934" class="s-lg-book-cover"></div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/525444449" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '15877934'});"><span id="s-lg-book-title-15877934" class="s-lg-book-title">Aquatic Biology</span><span id="s-lg-book-author-15877934" class="s-lg-book-author"></span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: eJournal
+                </div>
+                <div class="s-lg-book-prop-pubdate">
+                 Publication Date: 1997 - present
+                </div>
+                <div id="s-lg-book-desc-15877934" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-15877934" class="s-lg-link-desc">
+                  Aquatic Biology (AB) serves as a multidisciplinary forum for research on the biology of organisms in marine, brackish and fresh waters.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-15878108" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-15878108" class="s-lg-book-cover"></div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/782075233" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '15878108'});"><span id="s-lg-book-title-15878108" class="s-lg-book-title">Aquatic Sciences</span><span id="s-lg-book-author-15878108" class="s-lg-book-author"></span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: eJournal
+                </div>
+                <div class="s-lg-book-prop-pubdate">
+                 Publication Date: 1989 - present
+                </div>
+                <div id="s-lg-book-desc-15878108" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-15878108" class="s-lg-link-desc">
+                  Aquatic Sciences publishes original research, overviews, and reviews dealing with aquatic systems (wetlands, freshwater and marine systems) and their boundaries, including the impact of human activities on these systems.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-3" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-9356277" class="s-lg-box-wrapper-9356277"> 
+       <div id="s-lg-box-7932229-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-7932229" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Digital Collections </h2> 
+         <div id="s-lg-box-collapse-7932229"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-18143126" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268613" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://www.jstor.org/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268613'});">JSTOR </a> 
+               <div id="s-lg-database-desc-1268613" class="s-lg-database-desc">
+                Searchable backfiles of core journals in the humanities, social sciences and sciences. Coverage varies.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268749" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://onlinelibrary.wiley.com/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268749'});">Wiley Online Library </a> 
+               <div id="s-lg-database-desc-1268749" class="s-lg-database-desc">
+                Formerly Blackwell Synergy, this database provides access to over 4 million articles from 1500 journals and 9000 books. The subjects include Medicine, Science, Social Science and the Humanities. Coverage begins with 1997 to present.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-9356393" class="s-lg-box-wrapper-9356393"> 
+       <div id="s-lg-box-4243074-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-4243074" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Open Access Journals </h2> 
+         <div id="s-lg-box-collapse-4243074"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-8131243" class="  clearfix"> 
+            <p><a href="http://journals.plos.org/plosbiology/"><em>PLOS Biology</em></a>&nbsp; is an open-access, peer-reviewed general biology journal published by <a href="http://www.plos.org/">PLOS</a>, a nonprofit organization of scientists and physicians committed to making the world's scientific and medical literature a public resource. New articles are published online weekly; issues are published monthly.</p> 
+            <ul> 
+             <li><a href="http://journals.plos.org/plosbiology/"><em>PLOS Biology</em> </a>features works of exceptional significance, originality, and relevance in all areas of biological science, from molecules to ecosystems, including works at the interface of other disciplines, such as chemistry, medicine, and mathematics. Our audience is the international scientific community as well as educators, policy makers, patient advocacy groups, and interested members of the public around the world.</li> 
+             <li><em><a href="http://www.plosone.org/">PLOS ONE</a></em> is the database of the Public Library of Science (PLOS), which provides open-access to journals in the areas of biology, genetics, computational biology, medicine, pathogenes and more.</li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-127" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+    <li class="previous"> <a href="/c.php?g=382213&amp;p=2599271">&lt;&lt; <strong>Previous:</strong> Find Books</a> </li> 
+    <li class="next"> <a href="/c.php?g=382213&amp;p=2599275"><strong>Next:</strong> Interlibrary Loan &gt;&gt;</a> </li> 
+   </ul> 
+  </div> 
+  <!-- END: Guide Content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Mar 30, 2016 12:19 PM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/bi311</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D382213%2526p%253D2599272&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+     <span class="s-lg-guide-label">Subjects: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/sb.php?subject_id=9748">Biology</a></span> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

@@ -1,0 +1,437 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	Virginia Military Institute - SP-421 - Colonial Spanish American Literature
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets,liberal arts, lexington, ncaa div. 1, competitive, civilian, commission, barracks, science, co-ed, public, university, ethics, honor, character, responsibility, undergraduate, leaders">
+  <meta name="Description" content="Virginia Military Institute is a small, public, nationally-ranked college committed to leadership development in a military environment in Lexington, Virginia. VMI instills values of honor, discipline, selflessness, commitment, duty, self-reliance, and service. VMI is recognized as one of America’s top colleges for liberal arts and sciences by US News &amp;amp; World Report, The Princeton Review, and Peterson’s Guide to Competitive Colleges. US News ranks VMI’s engineering programs among the twenty best in America. Men and women of VMI are free to choose military or civilian careers.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=10737427257" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BQx0aHJlZS1jb2x1bW5kAgkPDxYCHgtOYXZpZ2F0ZVVybAUBL2QWAmYPDxYCHghJbWFnZVVybAUdL2NvcmUvaW1hZ2VzL2NvbnRlbnQvbG9nby5qcGdkZAILD2QWAmYPZBYCZg9kFgQCAQ8PFgQeCENzc0NsYXNzBQxzZWFyY2gtaW5wdXQeBF8hU0ICAhYEHgdvbkZvY3VzBYYBaWYodGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVQaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7dGhpcy52YWx1ZT0nc2VhcmNoIHZtaS5lZHUnO31kAgMPEA9kFgIeBXN0eWxlBQxkaXNwbGF5Om5vbmUQFQEDVk1JFQEDVk1JFCsDAWdkZAIPDw8WAh4HVmlzaWJsZWhkZAITD2QWCAIBDw8WAh8IZ2RkAgMPDxYCHwhoZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfCGcWAgIBDw8WAh8CBTIvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvbGFuZ3VhZ2VzLmpwZz9uPTkxOWRkAgkPDxYCHwhnZGRkr9pXRHSW8RgFaPSV7WTipZwEyr0Es+ORWvCNTa7wpY8="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAQhWetk8pgqGTx6cW3tx8zAtVqhg79+cCaf2Muxgy28w6Ld5e0tb35jjra3L8Dofk5aGpeLsHyujys0vCNqhELe8TCXiDllaAs55rVZQYLkGpTaZ9aj3Pw6sAOLHKmvCt8="> 
+   </div> 
+   <div id="container" class="three-column"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities Division</a></li>
+        <li><a href="/Content.aspx?id=10737430638" target="_self">Modern Languages and Cultures</a></li>
+        <li><a href="/content.aspx?id=17227" target="_self">Degrees &amp; Programs</a></li>
+        <li><a href="http://vmi.catalog.acalog.com/preview_entity.php?catoid=15&amp;ent_oid=356&amp;returnto=448" target="_blank">Courses</a></li>
+        <li><a href="/Content.aspx?id=2012" target="_self">Work for Grade Policy</a></li>
+        <li><a href="/content.aspx?id=2034" target="_self">Media Center</a></li>
+        <li><a href="/Content.aspx?id=10737423211" target="_self">Graduate School Information</a></li>
+        <li><a href="/content.aspx?id=2016" target="_self">Language Links</a></li>
+        <li><a href="/Content.aspx?id=2032" target="_self">ML Advising</a></li>
+        <li><a href="/Content.aspx?id=4294974307" target="_self">Faculty</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft1564"> 
+        <address><a title="Janet Cummings" href="mailto:CummingsJH@vmi.edu">Janet Cummings</a><br> Executive Secretary<br> Modern Languages &amp; Cultures<br><br> P:&nbsp; (540) 464-7241<br> F:&nbsp; (540) 464-7677<br><br> Virginia Military Institute<br> 416 Scott Shipp Hall<br> Lexington, VA&nbsp; 24450<br><br><a href="mailto:CummingsJH@vmi.edu">Contact Modern Languages</a></address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/languages.jpg?n=919" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>SP-421 - Colonial Spanish American Literature</h1> 
+       <p><b>Profesora:</b>COL Bulger-Barnett<br><b>Oficina:</b> 428 Scott Shipp<br><b>Horas de oficina:</b> por cita<br><b>Teléfono:</b> 464-7457; <a href="mailto:Bulger-BarnettKD@VMI.edu">Bulger-BarnettKD@VMI.edu</a></p> 
+       <p><b>Propósito del curso:</b>&nbsp; <br>1.&nbsp;Familiarizarse con la literatura hispanoamericana desde la época de la&nbsp;<br>&nbsp;&nbsp;&nbsp; conquista hasta la independencia.<br>2.&nbsp;Leer y analizar las piezas literarias en el texto.<br>3.&nbsp; Leer <em>Los comentarios reales </em>fuera de la clase o en el inglés o en el español.<br>4.&nbsp; Preparar una obra escrita—de 10 páginas (a doble espacio) acerca de un <br>&nbsp;&nbsp;&nbsp;&nbsp; tema colonial.<br>5.&nbsp; Preparar un esqueleto investigativo.<br>6.&nbsp; Mejorar el español al practicarlo y escucharlo en las discusiones de clase.</p> 
+       <p><strong>Textos:<br></strong>1<strong>.&nbsp; </strong>Para la clase: <em>Literatura hispanoamericana I</em>, por Anderson Imbert: Holt, <br>&nbsp;&nbsp;&nbsp;&nbsp; Rinehart and Winston, 1970.<br>2.&nbsp; Fuera de clase: <em>Royal Commentaries of the Incas</em>, and General History <br>&nbsp;&nbsp;&nbsp;&nbsp; of Peru/translated by&nbsp;Harold V. Livermore. Austin, University of Texas<br>&nbsp;&nbsp;&nbsp;&nbsp; press, 1970.&nbsp;ISBN: <a title="0292733585" href="http://www.abebooks.com/products/isbn/9780292733589" target="_blank">0292733585</a> / <a title="0-292-73358-5" href="http://www.abebooks.com/products/isbn/9780292733589" target="_blank">0-292-73358-5</a>. (O se puede leer en <br>&nbsp;&nbsp;&nbsp;&nbsp; el español).&nbsp;&nbsp;<strong>On two-hour reserve in Preston Library</strong>.</p> 
+       <p><a title="SP-421 - Academic Course Calendar" href="/Content.aspx?id=10737427258">Click here for calendar and daily assignments</a></p> 
+       <p><b>Evaluación y nota:</b></p> 
+       <p><b>15%..........El esqueleto investigativo:</b> <br>Each cadet will read one chronicle of the encounter/discovery in full: <i>Los comentarios reales</i>. This is an extensive work and cadets are responsible for their own independent progress and each must read the entire work. Simultaneously each cadet will perform a research exercise of investigative skeleton. Choose a topic from Los comentarios reales and write an abstract as if you were preparing a paper. Include a thesis and 5 quotes that would support your argument. Build a bibliography of 30 peer reviewed references that you could include if you were researching this topic. If you use Wikipedia or un-refereed internet references, do not include those in the count of 30.</p> 
+       <p><b>15%..........Trabajo escrito.</b> <br>Each cadet will choose a topic during the semester and write a 10 page paper in Spanish. You are expected to turn in drafts for revisions so that the final copy is a clean one. Suggested topics: your own literary history, the works of one specific writer, a specific theme, development of one genre, the portrayal of X in colonial literature, etc. This is not expected to be a research topic. However, you are expected to support your ideas and observations through the texts read.<b> </b></p> 
+       <p><b>30%..........Examen final comprensivo.</b> <br>The final exam will cover all course materials. 50% of the final exam will be on <i>Los comentarios reales</i>.</p> 
+       <p><b>40%..........Dos exámenes de una hora</b>. <br>There will be two one-hour exams. Both are announced on the class calendar.</p> 
+       <p><b>Work for Grade policies:<br>Bulger-Barnett Help Received Clarification:</b> <br>Unless the assigned work is certified and specifically for a grade, cadets are encouraged to work together. However, FOR YOUR PROTECTION, it should be noted in writing at the end of the assignment if help was received, and from whom. Do not use electronic or automatic translators on formal compositions. IN SP 425 a student IS PERMITTED to use the online dictionary and grammar help from MS Word. Please cite that you have used it.</p> 
+       <p>All Institute's policies in the Academic Regulations and the booklet Easy <i>Access: The Reference Handbook for Writers</i> are applicable to all work in this course.</p> 
+       <p><a title="Department of Modern Languages and Cultures: Departmental Statement Concerning VMI's Policies Regarding Work for Grade" href="/Content.aspx?id=10737427150">Click here for Modern Language policies on work for grade:</a></p> 
+       <p>Department of Modern Languages and Cultures: Departmental Statement Concerning VMI's Policies Regarding Work for Grade</p> 
+       <p>The policies of the Department of Modern Languages and Cultures concerning “Work for Grade” conform to the Institute policy as stated in the <b>Academic Regulations</b>. It is restated here for the information of all cadets and faculty concerned.</p> 
+       <p><b>Policy Concerning “Help Received” Statement</b> &nbsp;</p> 
+       <p>In all written work for grade the cadet must include the words “<b>Help Received</b>” conspicuously on the document, and he or she must then do one of two things: (1) state “none”; or (2) explain in detail the nature of the help received. In oral work for grade, the cadet must make the same declaration before beginning the presentation. Admission of help received may result in a lower grade but will not result in prosecution for an honor violation.</p> 
+       <p><b>Policy Concerning the Use of Tutors</b> &nbsp;</p> 
+       <p>A professor may have narrower parameters than those stated above. In order to minimize problems and confusion, the Department of Modern Languages and Cultures expects every cadet enrolled in its classes to ALWAYS seek the authorization and follow the instructions given by his or her individual professor BEFORE SEEKING TUTORIAL HELP (Academic Center tutor, Athletic (NCAA) tutor, privately contracted tutor, native speaker—in short, anyone who serves in a tutorial capacity). All tutorial help MUST be limited to helping the cadet by offering critical comments. Critical comments must be limited to giving general advice on such matters as organization, thesis development, support for assertions, and patterns of errors: i.e., all help from a tutor must be limited to identifying errors rather than to correcting errors. Tutorial help may not include proofreading or editing.</p> 
+       <p><b>Policy Concerning Peer Collaboration</b> &nbsp;</p> 
+       <p>When a fellow cadet acts in a tutorial capacity, the same guidelines apply as do those for tutors as outlined above. In group projects “help received” needs to be explained only in those instances where the group seeks outside help.</p> 
+       <p><b>Policy Concerning the Appropriate Use of Electronic Technology</b> &nbsp;</p> 
+       <p>In an age of rapidly expanding technologies, the student of modern languages and cultures may need guidance from his or her professor in the appropriate use of electronic devices. Therefore, in any work for grade context, the Department of Modern Languages and cultures designates as UNAUTHORIZED the use of hand-held computers, electronic translators, internet translation sites, and any service, fee or non-fee, electronic or otherwise that substitutes for the cadet’s own efforts in the completion of assigned work for grade. The student MUST ALWAYS CONSULT with the course instructor regarding authorized uses of such media and services.</p> 
+       <p>Col. Kathleen Bulger-Barnett<br>Head, Department of Modern Languages and Cultures</p> 
+       <p><a title="VMI Work for Grade Policy" href="/Content.aspx?id=10737427149">VMI Work for Grade Policy</a>:</p> 
+       <p>quoted from pp 24-26 of Academic Regulations, <a title="Academic Regulations" href="http://www.vmi.edu/WorkArea/showcontent.aspx?id=4294975288">Academic Regulations</a> &nbsp;</p> 
+       <p>Development of the spirit as well as the skills of academic inquiry is central to the mission of VMI's Academic Program. As a community of scholars, posing questions and seeking answers, we invariably consult and build upon the ideas, discoveries, and products of others who have wrestled with related issues and problems before us. We are obligated ethically and in many instances legally to acknowledge the sources of all borrowed material that we use in our own work. This is the case whether we find that material in conventional resources, such as the library or cyberspace, or discover it in other places like conversations with our peers.</p> 
+       <p>Academic integrity requires the full and proper documentation of any material that is not original with us. It is therefore a matter of honor. To misrepresent someone else's words, ideas, images, data, or other intellectual property as one's own is stealing, lying, and cheating all at once.</p> 
+       <p>Because the offense of improper or incomplete documentation is so serious, and the consequences so potentially grave, the following policies regarding work for grade have been adopted as a guide to cadets and faculty in upholding the Honor Code under which all VMI cadets live:</p> 
+       <p>1.&nbsp; <b>Cadets' responsibilities</b>&nbsp;&nbsp;&nbsp;<br>"Work for grade" is defined as any work presented to an instructor for a formal grade or undertaken in satisfaction of a requirement for successful completion of a course or degree requirement. All work submitted for grade is considered the cadet's own work. "Cadet's own work" means that he or she has composed the work from his or her general accumulation of knowledge and skill except as clearly and fully documented and that it has been composed especially for the current assignment. No work previously submitted in any course at VMI or elsewhere will be resubmitted or reformatted for submission in a current course without the specific approval of the instructor.</p> 
+       <p>In all work for grade, failure to distinguish between the cadet's own work and ideas and the work and ideas of others is known as plagiarism. Proper documentation clearly and fully identifies the sources of all borrowed ideas, quotations, or other assistance. The cadet is referred to the VMI-authorized handbook for rules concerning quotations, paraphrases, and documentation.</p> 
+       <p>In all written work for grade, the cadet must include the words "HELP RECEIVED" conspicuously on the document, and he or she must then do one of two things: (1) state "none," meaning that no help was received except as documented in the work; or (2) explain in detail the nature of the help received. In oral work for grade, the cadet must make the same declaration before beginning the presentation. Admission of help received may result in a lower grade but will not result in prosecution for an honor violation. </p> 
+       <p>Cadets are prohibited from discussing the contents of a quiz/exam until it is returned to them or final course grades are posted. This enjoinder does not imply that any inadvertent expression or behavior that might indicate one's feeling about the test should be considered a breach of honor. The real issue is whether cadets received information, not available to everyone else in the class, which would give them an unfair advantage. If a cadet inadvertently gives or receives information, the incident must be reported to the professor and the Honor Court.</p> 
+       <p>Each cadet bears the responsibility for familiarizing himself or herself thoroughly with the policies stated in this section, with any supplementary statement regarding work for grade expressed by the academic department in which he or she is taking a course, and with any special conditions provided in writing by the professor for a given assignment. If there is any doubt or uncertainty about the correct interpretation of a policy, the cadet should consult the instructor of the course. There should be no confusion, however, on the basic principle that it is never acceptable to submit someone else's work, written or otherwise, formally graded or not, as one's own.</p> 
+       <p>The violation by a cadet of any of these policies will, if he or she is found guilty by the Honor Court, result in his or her being dismissed from VMI. Neither ignorance nor professed confusion about the correct interpretation of these policies is an excuse.</p> 
+       <p>2.&nbsp; <b>Faculty members' responsibilities</b>&nbsp;&nbsp;<br>Each academic department will publish an official statement of supplementary departmental policies regarding work for grade, titled "Departmental Statement Concerning VMI's Policies Regarding Work for Grade." Each departmental statement will include explicit policies on the following: (a) tutoring* [e.g., Writing Center, Academic Center, athletic tutors, private tutors], (b) peer collaboration*, and (c) computer aids, including calculators, translators, spelling, style, and grammar checkers. Individual course assignments that deviate from the departmental work for grade policies must be approved by the department head in advance and must be explained to cadets in writing.</p> 
+       <p>No departmental or individual assignment policies may contradict or compromise the Institutional principles expressed in the Academic Regulations, particularly notions of academic integrity and the requirement to document borrowed material and help received. Each departmental statement must be approved by the Deputy Superintendent for Academics and Dean of the Faculty following review by the Academic Policy Committee of the Academic Board. A copy of the document must be filed with the Superintendent, the Deputy Superintendent for Academics and Dean of the Faculty, and the Superintendent's Representative to the Honor Court. Such a statement must be signed by the department head and must be posted in each classroom used by the department.<br><br>As an essential part of the duty of teaching and a matter of professional citizenship, faculty are expected to adhere to established work for grade policies and to communicate clearly and regularly with their cadets about the values and practices of academic honesty and integrity. Each faculty member must therefore include work for grade policies in a syllabus for every course he or she teaches. Each syllabus must include an exact transcription of the section titled "Cadets' Responsibilities" from "Work for Grade Policies" in the VMI Academic Regulations and a full statement of the established departmental policies regarding work for grade, plus any approved course-specific policies. <br><br>Furthermore, all faculty members are responsible for discussing with all of their students the details, definitions, and implications of (1) the entire section of the Academic Regulations entitled "Work for Grade Policies"; (2) the relevant sections on quotations, paraphrasing, and documentation in the current VMI-authorized handbook; and (3) the departmental and any approved course-specific policies regarding Work for Grade. This discussion must take place before any work is submitted for grade, and it should be treated with the gravity and level of detail that it merits.<br><br>Faculty must also review the Institute policy regarding the discussion of quizzes and exams with their classes. Specifically, faculty must remind cadets that they are prohibited from discussing the contents of a quiz/exam with anyone except the professor until it is returned to them or final course grades are posted.<br><br>If a member of the faculty believes that a cadet has violated one or more of VMI's, the department's, or the instructor's work for grade policies, he or she should report the evidence to the head of the department. The department head will decide whether the collected evidence justifies referral to the Deputy Superintendent for Academics and Dean of the Faculty. If the department head decides that the evidence does not justify referral, then he or she will conclude the investigation. Otherwise, the department head will submit a written report to the Deputy Superintendent for Academics and Dean of the Faculty. The report must contain both a recommendation for action and all relevant documents, including a statement signed by the faculty member who reported the violation.<br><br>The instructor will assign a grade of "I" following a formal charge of an Honor Court academic violation in his or her course until the issue is resolved.<br><br>* Departmental policies must include a statement on whether tutors and peers may offer cadets critical comments on their papers. Offering critical comments means giving general advice on such matters as organization, thesis development, support for assertions, and patterns of errors. It does not include proofreading or editing.<br><br>Proofreading means correcting errors (e.g., in spelling, grammar, punctuation). It is the last step taken by the writer in the editing process. In addition to the corrections made in proofreading, editing includes making such changes as the addition, deletion, or reordering of paragraphs, sentences, phrases, or words. A cadet may not have his or her work proofread or edited by someone other than the instructor. [Instructors may grant exceptions to this rule only if they have received written permission from the department head for a particular assignment.]</p> 
+       <p>ver. 8-25-06</p> 
+      </div> 
+      <div id="ctl00_pageContent_rightColumn"> 
+       <div id="content-2" class="column last"> 
+        <div id="ctl00_pageContent_relatedRight10737427146" class="mod"> 
+         <p>Col. Bulger-Barnett</p> 
+         <ul class="arrowlist"> 
+          <li><a title="Kathleen Bulger-Barnett, Ph.D." href="/Content.aspx?id=10737427145">Home</a></li> 
+          <li><a title="Courses" href="/Content.aspx?id=10737427147">Courses</a></li> 
+          <li><a title="VMI Spanish Drills" href="/Content.aspx?id=10737427151">VMI Spanish Drills</a></li> 
+          <li><a title="Links of Interest" href="/Content.aspx?id=10737427175">Links of Interest</a></li> 
+          <li><a title="Applications and Forms" href="/Content.aspx?id=10737427176">Applications &amp; Forms</a></li> 
+          <li><a title="Language Skills" href="/Content.aspx?id=10737427177">Language Skills</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <!-- BEGIN: head_admin --> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <title>
+			A-Z Databases - LibGuides at Virginia Military Institute
+			</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+					<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+			<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <!-- BEGIN: CUSTOM HEAD JS/CSS --> 
+  <!-- END: CUSTOM HEAD JS/CSS --> 
+  <script src="/web/chosen-1.4/chosen.jquery.min.js"></script>
+  <script src="sa.php?site_id=807"></script> 
+  <script type="text/javascript">
+			//====================================================
+			var title_base = "A-Z Databases";
+			//====================================================
+			springSpace.publicObj = new springSpace.public.Public({
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+					}
+				}
+			});
+			//====================================================
+			jQuery(document).ready(function() {
+				//====================================================
+				if (window.history && history.pushState) {
+					jQuery(window).bind("popstate", function(e) {
+						console.log("loc: " + document.location + ", state: " + e.originalEvent.state)
+						if ( springSpace.azList.historyEdited ) {								
+							// location.search will return URL encoded values which will end up causing double-encoding when jQuery sends the loadAzList request.
+							var search_terms = decodeURIComponent(springSpace.Util.getQSParam({name: "q", qs: location.search}));
+							
+							springSpace.publicObj.loadAzList({ 
+								first: springSpace.Util.getQSParam({name: "a", qs: location.search}),
+								subject_id: springSpace.Util.getQSParam({name: "s", qs: location.search}),
+								type_id: springSpace.Util.getQSParam({name: "t", qs: location.search}),
+								vendor_id: springSpace.Util.getQSParam({name: "v", qs: location.search}),
+								search: search_terms, 
+								site_id: 807, 
+								action: "back"
+							});
+						}
+					});
+				}
+				//====================================================
+				jQuery(".chosen-select").chosen({
+					search_contains: true
+				});
+				//====================================================
+				springSpace.azList.initSelections();
+				//====================================================
+				springSpace.publicObj.loadAzList({
+					first: "",
+					subject_id: 0,
+					type_id: 0,
+					vendor_id: 0,
+					search: "", 
+					site_id: 807, 
+					action: "init"
+				});
+				//====================================================
+			});	
+			//====================================================
+			springSpace.azList = {
+				referrer: document.referrer,
+				locations: [],
+				historyEdited: false,
+				is_widget: 0, 
+				site_domain: "libguides.vmi.edu",
+				init_filters: {
+					subject: 0,
+					vendor: 0,
+					type: 0,
+					alpha: "",
+					search: ""
+				},
+				letter_selected: "", // "first" alpha letter selecte so we can keep track.
+				letter_alpha_map: {
+					pound: "#",
+					all: ""
+				},
+				getAlphaMap: function(letter) {
+					if ( letter == "pound" || letter == "all" ) {
+						return this.letter_alpha_map[letter]
+					} else {
+						return letter;
+					}
+				},
+				reset: function() {
+					this.letter_selected = "";
+					jQuery(".s-lg-az-first").removeClass("bold");
+					jQuery("#s-lg-az-search").val("");
+					springSpace.publicObj.clearAzSelection("s-lg-sel-az-types");
+					springSpace.publicObj.clearAzSelection("s-lg-sel-subjects");
+					springSpace.publicObj.clearAzSelection("s-lg-sel-az-vendors");
+					springSpace.publicObj.loadAzList({
+						site_id: 807
+					});
+				},
+				initSelections: function() {
+					if ( this.init_filters.subject == 0 ) { springSpace.publicObj.clearAzSelection("s-lg-sel-subjects"); } 
+					if ( this.init_filters.type == 0 ) { springSpace.publicObj.clearAzSelection("s-lg-sel-az-types"); }
+					if ( this.init_filters.vendor == 0 ) { springSpace.publicObj.clearAzSelection("s-lg-sel-az-vendors"); }
+					if ( this.init_filters.alpha !== "" ) { 
+						this.selectLetter(this.init_filters.alpha);
+					}
+					if ( this.init_filters.search == "" ) {
+						jQuery("#s-lg-az-search").val("");
+					} else {
+						jQuery("#s-lg-az-search").val(this.init_filters.search);   
+					}
+				},
+				selectLetter: function(letter) {
+					springSpace.azList.letter_selected = letter;
+					jQuery(".s-lg-az-first").removeClass("bold");
+					
+					if ( letter !== "" ) { 
+						jQuery("#s-lg-az-first-" + springSpace.azList.letter_selected).addClass("bold");
+					}
+				}
+			};
+			//====================================================
+            springSpace.springTrack.init({_st_site_id: '807'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '17'});
+			});
+			//====================================================
+		</script> 
+  <link rel="stylesheet" href="/web/chosen-1.4/chosen.min.css"> 
+  <style>
+		    .chosen-container-single .chosen-single {
+                height: 30px;
+		        border-radius: 4px;
+		        padding: 2px 0 0 8px;
+		    }
+			#s-lg-sel-subjects, #s-lg-sel-az-types, #s-lg-sel-az-vendors {
+				width: 90%;
+			}
+			#s-lg-az-trials { 
+				display:none; 
+			}
+            #s-lg-az-index, #s-lg-az-result-count {
+                font-size: 16px;
+            }
+		</style> 
+  <!-- END: head_admin --> 
+ </head> 
+ <body class="s-lib-public-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lib-public-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Content Header --> 
+  <div id="s-lib-public-header" class="s-lib-header container s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-page" class="active">A-Z Databases </li> 
+    </ol>
+   </div> 
+   <h1 id="s-lib-public-header-title">A-Z Databases</h1> 
+   <div id="s-lib-public-header-desc">
+    Find the best library databases for your research.
+   </div> 
+  </div> 
+  <!-- END: Content Header --> 
+  <!-- BEGIN: Nav Bar --> 
+  <div id="s-lib-public-nav" class="container s-lib-side-borders"> 
+  </div> 
+  <!-- END: Nav Bar --> 
+  <!-- BEGIN: content --> 
+  <div id="s-lib-public-main" class="s-lib-main container s-lib-side-borders"> 
+   <section> 
+    <div id="s-lg-az-search-bar" class="row"> 
+     <div id="az-search-col-1" class="col-md-12 center"> 
+      <nav class="navbar navbar-default"> 
+       <div class="container-fluid"> 
+        <!-- Brand and toggle get grouped for better mobile display --> 
+        <div class="navbar-header"> 
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#s-lg-az-nav-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+        </div> 
+        <!-- Collect the nav links, forms, and other content for toggling --> 
+        <div class="collapse navbar-collapse" id="s-lg-az-nav-1"> 
+         <div id="s-lg-az-filters" style="padding-top:15px;"> 
+          <section> 
+           <div id="s-lg-az-filter-cols" class="row"> 
+            <div id="col-subjects" class="col-md-3 center"> 
+             <form role="search"> 
+              <label class="control-label sr-only" for="s-lg-sel-subjects">Database Subject Filter</label> 
+              <select id="s-lg-sel-subjects" name="s-lg-sel-subjects" class="chosen-select" data-placeholder="All Subjects" onchange="springSpace.publicObj.filterAzBySubject(jQuery(this).val(), 807);"><option value="" selected>All Subjects</option> <optgroup label="Subjects"> <option value="13173">Applied Mathematics</option> <option value="25137">Arabic</option> <option value="9748">Biology</option> <option value="9749">Chemistry</option> <option value="13183">Chinese</option> <option value="13174">Computer &amp; Information Science</option> <option value="13185">Economics &amp; Business - EC BU</option> <option value="9747">Engineering</option> <option value="9743">English/Rhetoric/Humanistic Studies - ERH</option> <option value="28717">Exercise Science / Physical Education</option> <option value="13181">French</option> <option value="9744">History</option> <option value="13171">International Studies (IS)</option> <option value="9746">Library/Research</option> <option value="9745">Modern Languages</option> <option value="9750">Physics/Astronomy</option> <option value="9751">Psychology</option> <option value="25157">ROTC</option> <option value="13182">Spanish</option></optgroup> </select> 
+             </form> 
+            </div> 
+            <div id="col-types" class="col-md-3 center"> 
+             <form role="search"> 
+              <label class="control-label sr-only" for="s-lg-sel-az-types">Database Type Filter</label> 
+              <select id="s-lg-sel-az-types" name="s-lg-sel-az-types" class="chosen-select" onchange="springSpace.publicObj.filterAzByType(jQuery(this).val(), 807);" data-placeholder="All Database Types"><option value="" selected>All Database Types</option><optgroup label="Types"><option value="1220">Abstracts/Citations</option><option value="1219">Articles</option><option value="5112">eBooks</option><option value="1307">Engineering Standards</option><option value="4074">Full-text</option><option value="4091">Government website</option><option value="1221">Images</option><option value="1218">News</option><option value="4685">Primary Source</option><option value="4612">Reference work</option><option value="4092">Statistics</option><option value="1304">Video</option><option value="4080">Website recommended by librarians</option></optgroup> </select> 
+             </form> 
+            </div> 
+            <div id="col-vendors" class="col-md-3 center"> 
+             <form role="search"> 
+              <label class="control-label sr-only" for="s-lg-sel-az-vendors">Database Vendor Filter</label> 
+              <select id="s-lg-sel-az-vendors" name="s-lg-sel-az-vendors" class="chosen-select" onchange="springSpace.publicObj.filterAzByVendor(jQuery(this).val(), 807);" data-placeholder="All Vendors / Providers"><option value="" selected>All Vendors / Providers</option><optgroup label="Vendors"><option value="3495">Ebsco</option><option value="3498">Gale</option><option value="3497">JSTOR</option><option value="3496">ProQuest</option></optgroup> </select> 
+             </form> 
+            </div> 
+            <div id="col-search" class="col-md-3 center"> 
+             <form role="search" onsubmit="springSpace.publicObj.filterAzBySearch(807); return false;"> 
+              <div class="form-group"> 
+               <label class="control-label sr-only" for="s-lg-az-search">DATABASES</label> 
+               <div class="input-group"> 
+                <input type="text" id="s-lg-az-search" class="form-control" placeholder="Search for Databases"> 
+                <span class="input-group-btn"> <button class="btn btn-default" type="submit">Go</button> </span> 
+               </div> 
+              </div> 
+             </form> 
+            </div> 
+           </div> 
+          </section> 
+         </div> 
+        </div> 
+       </div> 
+      </nav> 
+     </div> 
+    </div> 
+   </section> 
+   <section> 
+    <div id="s-lg-az-cols" class="row"> 
+     <div id="col1" class="col-md-8 center"> 
+      <div id="s-lg-az-index" class="pad-right-sm"> 
+       <a id="s-lg-az-first-all" class="s-lg-az-first margin-right-sm" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('all', 807);">All</a>
+       <span class="s-lg-text-ghost margin-right-sm"> | </span>
+       <a id="s-lg-az-first-a" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('a', 807);">A</a>
+       <a id="s-lg-az-first-b" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('b', 807);">B</a>
+       <a id="s-lg-az-first-c" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('c', 807);">C</a>
+       <a id="s-lg-az-first-d" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('d', 807);">D</a>
+       <a id="s-lg-az-first-e" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('e', 807);">E</a>
+       <a id="s-lg-az-first-f" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('f', 807);">F</a>
+       <a id="s-lg-az-first-g" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('g', 807);">G</a>
+       <a id="s-lg-az-first-h" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('h', 807);">H</a>
+       <a id="s-lg-az-first-i" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('i', 807);">I</a>
+       <a id="s-lg-az-first-j" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('j', 807);">J</a>
+       <a id="s-lg-az-first-k" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('k', 807);">K</a>
+       <a id="s-lg-az-first-l" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('l', 807);">L</a>
+       <a id="s-lg-az-first-m" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('m', 807);">M</a>
+       <a id="s-lg-az-first-n" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('n', 807);">N</a>
+       <a id="s-lg-az-first-o" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('o', 807);">O</a>
+       <a id="s-lg-az-first-p" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('p', 807);">P</a>
+       <span class="s-lg-text-ghost">Q</span>
+       <a id="s-lg-az-first-r" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('r', 807);">R</a>
+       <a id="s-lg-az-first-s" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('s', 807);">S</a>
+       <a id="s-lg-az-first-t" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('t', 807);">T</a>
+       <a id="s-lg-az-first-u" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('u', 807);">U</a>
+       <a id="s-lg-az-first-v" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('v', 807);">V</a>
+       <a id="s-lg-az-first-w" class="s-lg-az-first" href="javascript:void(0)" onclick="springSpace.publicObj.filterAzByFirst('w', 807);">W</a>
+       <span class="s-lg-text-ghost">X</span>
+       <span class="s-lg-text-ghost">Y</span>
+       <span class="s-lg-text-ghost">Z</span>
+       <span class="s-lg-text-ghost">#</span> 
+      </div> 
+      <div id="s-lg-az-search-reset" class="pad-top-med pad-bottom-med"> 
+       <div id="s-lg-az-result-count" class="bold s-lib-text-lg pull-left pad-right-med"></div> 
+       <a id="s-lg-az-reset" class="btn btn-default btn-sm s-lib-hide" href="javascript:void(0)" onclick="springSpace.azList.reset();">Clear Filters/Browse All Databases</a> 
+      </div> 
+      <div id="s-lg-az-content" class="pad-right-sm pad-top-med"> 
+       <div class="bold s-lib-color-lt-grey pad-top-med text-center">
+        Loading...
+       </div> 
+      </div> 
+     </div> 
+     <div id="col2" class="col-md-4 center"> 
+      <div id="s-lg-az-trials-div"> 
+       <div class="margin-bottom-xlg"> 
+        <div class="s-lib-public-side-header"> 
+         <div class="pad-bottom-sm">
+          New / Trial Databases 
+         </div> 
+        </div> 
+        <div class="txt pad-top-sm"> 
+         <div id="s-lg-az-trials-loading" class="bold s-lib-color-lt-grey pad-top-med">
+          Loading...
+         </div> 
+         <div id="s-lg-az-trials">
+          The following databases are newly acquired or being evaluated for a future subscription. 
+          <div class="s-lg-az-result s-lg-az-result-new"> 
+           <div class="s-lg-az-result-share" title="Share"> 
+            <i class="fa fa-link fa-lg s-lib-color-lt-grey s-lg-width-16" onclick="springSpace.publicObj.displayAzShareAlert({
+            					'id': 19316372, 
+								'site_id': 807, 
+            					'name': 'Share', 
+								'action': 522, 
+								'btn_text': 'Close'					
+            				});"></i> 
+           </div> 
+           <div class="s-lg-az-result-title">
+            <a target="_blank" href="/go.php?c=19316372" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '19316372'});">Access Military</a> 
+            <span class="fa fa-lg fa-info-circle" data-toggle="popover" data-trigger="click hover" data-placement="bottom" data-html="true" data-title="Description" data-content="Access Military, Government &amp; Defense offers current and archived news and information from Air Force Times, Army Times, Marine Corps Times, Navy Times, Armed Forces Journal and Defense News. It also incorporates Federal Times, a leading newsweekly providing federal government managers with coverage of key issues across all U.S. government departments and agencies. Other important sources include Congressional Quarterly Transcriptions, Targeted News Service and Training &amp; Simulation..."></span> 
+           </div> 
+           <div class="s-lg-az-result-badges">
+            <span class="s-lg-az-result-badge-new label label-info">New</span> 
+           </div> 
+           <div class="s-lg-label-moreinfo"> 
+            <a class="s-lg-label-more" id="s-lg-new-trial-database-more-19316372" href="javascript:void(0);" style="display:block; font-style:italic;" onclick="
+										jQuery('#s-lg-new-trial-database-moreinfo-19316372').toggle();
+										jQuery('#s-lg-new-trial-database-less-19316372').toggle();
+										jQuery('#s-lg-new-trial-database-more-19316372').toggle();">more...</a> 
+            <a class="s-lg-label-less" id="s-lg-new-trial-database-less-19316372" href="javascript:void(0);" style="display:none; font-style:italic;" onclick="
+										jQuery('#s-lg-new-trial-database-moreinfo-19316372').toggle();
+										jQuery('#s-lg-new-trial-database-more-19316372').toggle();
+										jQuery('#s-lg-new-trial-database-less-19316372').toggle(); ">less...</a> 
+           </div> 
+           <div id="s-lg-new-trial-database-moreinfo-19316372" class="s-lg-database-moreinfo" style="display:none;">
+            .Access Military, Government &amp; Defense offers extensive coverage of the U.S. Armed Forces and the federal government, as well as military and defense news, issues, strategies, careers and lifestyles, pay and benefits, training, law, equipment, technology, and much more. 
+           </div> 
+           <!-- TODO: wire up these properties to real things --> 
+           <div class="s-lg-az-result-props"> 
+            <ul> 
+             <!-- TODO: populate with number of hits
+            					<li class="s-lg-az-result-hits first">
+            						? Hits
+            					</li>
+            					 --> 
+             <!-- TODO: display and record votes
+            					<li class="s-lg-az-result-votes" style="display:none;">
+            						<span class="s-lg-az-result-votes-up">
+            							<i class="fa fa-thumbs-o-up fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;20
+            						</span>
+            						&nbsp;&nbsp;
+            						<span class="s-lg-az-result-votes-down">
+            							<i class="fa fa-thumbs-o-down fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;7
+            						</span>
+            					</li>
+            					--> 
+             <!-- TODO: display and record ratings
+            					<li class="s-lg-az-result-stars">
+            						<i class="fa fa-star s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            					</li>
+            					--> 
+             <!-- TODO: display reviews
+            					<li class="s-lg-az-result-reviews">
+            						<a href="javascript:void(0)" onclick="alert('Coming soon!');">Librarian & User Reviews...</a>
+            					</li>
+            					--> 
+            </ul> 
+            <div style="clear:both;"></div> 
+           </div> 
+          </div> 
+          <div class="s-lg-az-result s-lg-az-result-new"> 
+           <div class="s-lg-az-result-share" title="Share"> 
+            <i class="fa fa-link fa-lg s-lib-color-lt-grey s-lg-width-16" onclick="springSpace.publicObj.displayAzShareAlert({
+            					'id': 1268601, 
+								'site_id': 807, 
+            					'name': 'Share', 
+								'action': 522, 
+								'btn_text': 'Close'					
+            				});"></i> 
+           </div> 
+           <div class="s-lg-az-result-title">
+            <a target="_blank" href="/go.php?c=1268601" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268601'});">IEEE/IET Electronic Library (IEL);</a> 
+           </div> 
+           <div class="s-lg-az-result-badges">
+            <span class="s-lg-az-result-badge-new label label-info">New</span> 
+           </div>
+           <div class="s-lg-az-result-description">
+            NEW CONTENT!
+            <br> Full-text IEEE &amp; IET journals, magazines, transactions, &amp; conf. proceedings, + active IEEE standards
+           </div> 
+           <!-- TODO: wire up these properties to real things --> 
+           <div class="s-lg-az-result-props"> 
+            <ul> 
+             <!-- TODO: populate with number of hits
+            					<li class="s-lg-az-result-hits first">
+            						? Hits
+            					</li>
+            					 --> 
+             <!-- TODO: display and record votes
+            					<li class="s-lg-az-result-votes" style="display:none;">
+            						<span class="s-lg-az-result-votes-up">
+            							<i class="fa fa-thumbs-o-up fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;28
+            						</span>
+            						&nbsp;&nbsp;
+            						<span class="s-lg-az-result-votes-down">
+            							<i class="fa fa-thumbs-o-down fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;4
+            						</span>
+            					</li>
+            					--> 
+             <!-- TODO: display and record ratings
+            					<li class="s-lg-az-result-stars">
+            						<i class="fa fa-star s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            					</li>
+            					--> 
+             <!-- TODO: display reviews
+            					<li class="s-lg-az-result-reviews">
+            						<a href="javascript:void(0)" onclick="alert('Coming soon!');">Librarian & User Reviews...</a>
+            					</li>
+            					--> 
+            </ul> 
+            <div style="clear:both;"></div> 
+           </div> 
+          </div> 
+          <div class="s-lg-az-result s-lg-az-result-new"> 
+           <div class="s-lg-az-result-share" title="Share"> 
+            <i class="fa fa-link fa-lg s-lib-color-lt-grey s-lg-width-16" onclick="springSpace.publicObj.displayAzShareAlert({
+            					'id': 19144372, 
+								'site_id': 807, 
+            					'name': 'Share', 
+								'action': 522, 
+								'btn_text': 'Close'					
+            				});"></i> 
+           </div> 
+           <div class="s-lg-az-result-title">
+            <a target="_blank" href="/go.php?c=19144372" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '19144372'});">Kanopy</a> 
+            <span class="fa fa-lg fa-info-circle" data-toggle="popover" data-trigger="click hover" data-placement="bottom" data-html="true" data-title="Description" data-content="Large selection of streaming videos, including documentaries and feature films."></span> 
+           </div> 
+           <div class="s-lg-az-result-badges">
+            <span class="s-lg-az-result-badge-new label label-info">New</span> 
+           </div> 
+           <!-- TODO: wire up these properties to real things --> 
+           <div class="s-lg-az-result-props"> 
+            <ul> 
+             <!-- TODO: populate with number of hits
+            					<li class="s-lg-az-result-hits first">
+            						? Hits
+            					</li>
+            					 --> 
+             <!-- TODO: display and record votes
+            					<li class="s-lg-az-result-votes" style="display:none;">
+            						<span class="s-lg-az-result-votes-up">
+            							<i class="fa fa-thumbs-o-up fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;56
+            						</span>
+            						&nbsp;&nbsp;
+            						<span class="s-lg-az-result-votes-down">
+            							<i class="fa fa-thumbs-o-down fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;6
+            						</span>
+            					</li>
+            					--> 
+             <!-- TODO: display and record ratings
+            					<li class="s-lg-az-result-stars">
+            						<i class="fa fa-star s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            					</li>
+            					--> 
+             <!-- TODO: display reviews
+            					<li class="s-lg-az-result-reviews">
+            						<a href="javascript:void(0)" onclick="alert('Coming soon!');">Librarian & User Reviews...</a>
+            					</li>
+            					--> 
+            </ul> 
+            <div style="clear:both;"></div> 
+           </div> 
+          </div> 
+          <div class="s-lg-az-result s-lg-az-result-new"> 
+           <div class="s-lg-az-result-share" title="Share"> 
+            <i class="fa fa-link fa-lg s-lib-color-lt-grey s-lg-width-16" onclick="springSpace.publicObj.displayAzShareAlert({
+            					'id': 19266424, 
+								'site_id': 807, 
+            					'name': 'Share', 
+								'action': 522, 
+								'btn_text': 'Close'					
+            				});"></i> 
+           </div> 
+           <div class="s-lg-az-result-title">
+            <a target="_blank" href="/go.php?c=19266424" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '19266424'});">Mergent Intellect</a> 
+            <span class="fa fa-lg fa-info-circle" data-toggle="popover" data-trigger="click hover" data-placement="bottom" data-html="true" data-title="Description" data-content="Extensive information about private companies, both active and inactive"></span> 
+           </div> 
+           <div class="s-lg-az-result-badges">
+            <span class="s-lg-az-result-badge-new label label-info">New</span> 
+           </div> 
+           <!-- TODO: wire up these properties to real things --> 
+           <div class="s-lg-az-result-props"> 
+            <ul> 
+             <!-- TODO: populate with number of hits
+            					<li class="s-lg-az-result-hits first">
+            						? Hits
+            					</li>
+            					 --> 
+             <!-- TODO: display and record votes
+            					<li class="s-lg-az-result-votes" style="display:none;">
+            						<span class="s-lg-az-result-votes-up">
+            							<i class="fa fa-thumbs-o-up fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;30
+            						</span>
+            						&nbsp;&nbsp;
+            						<span class="s-lg-az-result-votes-down">
+            							<i class="fa fa-thumbs-o-down fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;6
+            						</span>
+            					</li>
+            					--> 
+             <!-- TODO: display and record ratings
+            					<li class="s-lg-az-result-stars">
+            						<i class="fa fa-star s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            					</li>
+            					--> 
+             <!-- TODO: display reviews
+            					<li class="s-lg-az-result-reviews">
+            						<a href="javascript:void(0)" onclick="alert('Coming soon!');">Librarian & User Reviews...</a>
+            					</li>
+            					--> 
+            </ul> 
+            <div style="clear:both;"></div> 
+           </div> 
+          </div> 
+          <div class="s-lg-az-result s-lg-az-result-new"> 
+           <div class="s-lg-az-result-share" title="Share"> 
+            <i class="fa fa-link fa-lg s-lib-color-lt-grey s-lg-width-16" onclick="springSpace.publicObj.displayAzShareAlert({
+            					'id': 19310727, 
+								'site_id': 807, 
+            					'name': 'Share', 
+								'action': 522, 
+								'btn_text': 'Close'					
+            				});"></i> 
+           </div> 
+           <div class="s-lg-az-result-title">
+            <a target="_blank" href="/go.php?c=19310727" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '19310727'});">ProQuest Engineering</a> 
+            <span class="fa fa-lg fa-info-circle" data-toggle="popover" data-trigger="click hover" data-placement="bottom" data-html="true" data-title="Description" data-content="The collection contains engineering related full-text articles, granular access to millions of figures and tables within articles, and the entire range of bibliographic records from the Engineering Research Database. Engineering Research Database contains a comprehensive index to world literature on technological and engineering innovations going back to 1966."></span> 
+           </div> 
+           <div class="s-lg-az-result-badges">
+            <span class="s-lg-az-result-badge-new label label-info">New</span> 
+           </div> 
+           <!-- TODO: wire up these properties to real things --> 
+           <div class="s-lg-az-result-props"> 
+            <ul> 
+             <!-- TODO: populate with number of hits
+            					<li class="s-lg-az-result-hits first">
+            						? Hits
+            					</li>
+            					 --> 
+             <!-- TODO: display and record votes
+            					<li class="s-lg-az-result-votes" style="display:none;">
+            						<span class="s-lg-az-result-votes-up">
+            							<i class="fa fa-thumbs-o-up fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;35
+            						</span>
+            						&nbsp;&nbsp;
+            						<span class="s-lg-az-result-votes-down">
+            							<i class="fa fa-thumbs-o-down fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;0
+            						</span>
+            					</li>
+            					--> 
+             <!-- TODO: display and record ratings
+            					<li class="s-lg-az-result-stars">
+            						<i class="fa fa-star s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            					</li>
+            					--> 
+             <!-- TODO: display reviews
+            					<li class="s-lg-az-result-reviews">
+            						<a href="javascript:void(0)" onclick="alert('Coming soon!');">Librarian & User Reviews...</a>
+            					</li>
+            					--> 
+            </ul> 
+            <div style="clear:both;"></div> 
+           </div> 
+          </div> 
+          <div class="s-lg-az-result s-lg-az-result-new"> 
+           <div class="s-lg-az-result-share" title="Share"> 
+            <i class="fa fa-link fa-lg s-lib-color-lt-grey s-lg-width-16" onclick="springSpace.publicObj.displayAzShareAlert({
+            					'id': 19286862, 
+								'site_id': 807, 
+            					'name': 'Share', 
+								'action': 522, 
+								'btn_text': 'Close'					
+            				});"></i> 
+           </div> 
+           <div class="s-lg-az-result-title">
+            <a target="_blank" href="/go.php?c=19286862" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '19286862'});">ProQuest SciTech Collection</a> 
+           </div> 
+           <div class="s-lg-az-result-badges">
+            <span class="s-lg-az-result-badge-new label label-info">New</span> 
+           </div>
+           <div class="s-lg-az-result-description">
+            The ultimate science and technology research solution, combining full text journals with detailed indexing of global literature on natural sciences, engineering and technology. Areas covered include materials science, aerospace engineering, civil engineering, biology, aquatic sciences, environmental science, computer science and earth sciences in addition to many more. It fully incorporates ProQuest Natural Science Collection and ProQuest Technology Collection.
+           </div> 
+           <!-- TODO: wire up these properties to real things --> 
+           <div class="s-lg-az-result-props"> 
+            <ul> 
+             <!-- TODO: populate with number of hits
+            					<li class="s-lg-az-result-hits first">
+            						? Hits
+            					</li>
+            					 --> 
+             <!-- TODO: display and record votes
+            					<li class="s-lg-az-result-votes" style="display:none;">
+            						<span class="s-lg-az-result-votes-up">
+            							<i class="fa fa-thumbs-o-up fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;29
+            						</span>
+            						&nbsp;&nbsp;
+            						<span class="s-lg-az-result-votes-down">
+            							<i class="fa fa-thumbs-o-down fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;3
+            						</span>
+            					</li>
+            					--> 
+             <!-- TODO: display and record ratings
+            					<li class="s-lg-az-result-stars">
+            						<i class="fa fa-star s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            					</li>
+            					--> 
+             <!-- TODO: display reviews
+            					<li class="s-lg-az-result-reviews">
+            						<a href="javascript:void(0)" onclick="alert('Coming soon!');">Librarian & User Reviews...</a>
+            					</li>
+            					--> 
+            </ul> 
+            <div style="clear:both;"></div> 
+           </div> 
+          </div> 
+          <div class="s-lg-az-result s-lg-az-result-new"> 
+           <div class="s-lg-az-result-share" title="Share"> 
+            <i class="fa fa-link fa-lg s-lib-color-lt-grey s-lg-width-16" onclick="springSpace.publicObj.displayAzShareAlert({
+            					'id': 9954171, 
+								'site_id': 807, 
+            					'name': 'Share', 
+								'action': 522, 
+								'btn_text': 'Close'					
+            				});"></i> 
+           </div> 
+           <div class="s-lg-az-result-title">
+            <a target="_blank" href="/go.php?c=9954171" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '9954171'});">Statista</a> 
+           </div> 
+           <div class="s-lg-az-result-badges">
+            <span class="s-lg-az-result-badge-new label label-info">New</span> 
+           </div>
+           <div class="s-lg-az-result-description">
+            More than 1,000,000 statistics on more than 80,000 topics from more than 18,000 sources.
+           </div> 
+           <!-- TODO: wire up these properties to real things --> 
+           <div class="s-lg-az-result-props"> 
+            <ul> 
+             <!-- TODO: populate with number of hits
+            					<li class="s-lg-az-result-hits first">
+            						? Hits
+            					</li>
+            					 --> 
+             <!-- TODO: display and record votes
+            					<li class="s-lg-az-result-votes" style="display:none;">
+            						<span class="s-lg-az-result-votes-up">
+            							<i class="fa fa-thumbs-o-up fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;62
+            						</span>
+            						&nbsp;&nbsp;
+            						<span class="s-lg-az-result-votes-down">
+            							<i class="fa fa-thumbs-o-down fa-lg s-lib-color-lt-grey s-lg-width-16"></i>&nbsp;4
+            						</span>
+            					</li>
+            					--> 
+             <!-- TODO: display and record ratings
+            					<li class="s-lg-az-result-stars">
+            						<i class="fa fa-star s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            						<i class="fa fa-star-empty s-lib-color-lt-grey s-lg-width-16"></i>
+            					</li>
+            					--> 
+             <!-- TODO: display reviews
+            					<li class="s-lg-az-result-reviews">
+            						<a href="javascript:void(0)" onclick="alert('Coming soon!');">Librarian & User Reviews...</a>
+            					</li>
+            					--> 
+            </ul> 
+            <div style="clear:both;"></div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-az-experts-div"> 
+       <div class="bold s-lib-color-lt-grey pad-top-med">
+        Loading...
+       </div> 
+      </div> 
+      <div id="s-lg-az-guides-div"> 
+       <div class="bold s-lib-color-lt-grey pad-top-med">
+        Loading...
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </section> 
+  </div> 
+  <!-- END: content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div> 
+    <div id="s-lib-footer-brand">
+      Powered by Springshare. 
+    </div> 
+    <div id="s-lib-footer-rights">
+      All rights reserved. 
+    </div> 
+    <div id="s-lib-footer-login-link"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div> 
+    <!--
+					<div id="s-lib-footer-print-link">
+						~[23]~
+					</div>
+					--> 
+    <div id="s-lib-footer-support-link"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <div id="s-lib-popover-title" class="hide"> 
+   <span class="text-info"><strong>title</strong></span> 
+   <button type="button" id="popclose" class="close" onclick="jQuery('.s-lib-popover').popover('hide')">×</button> 
+  </div> 
+  <div id="s-lib-popover-content" class="hide">
+   <i class="fa fa-refresh fa-spin"></i> Loading... 
+   <button class="btn btn-default btn-sm popclose" type="button">Close</button> 
+  </div> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer --> 
+ </body>
+</html>

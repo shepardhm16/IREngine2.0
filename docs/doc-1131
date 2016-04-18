@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>Program: English, B.A. - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules"> 
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="ie.css" />
+		<![endif]--> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript> 
+  <a href="#acalog-navigation"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a> 
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"> <span class="n1_header"> Virginia Military Institute </span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015-2016 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15" selected>2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="15"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=15" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=15" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=438" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=435" class="navbar" tabindex="107">Institute Calendar 2015-2016</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=436" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=437" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=431" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=439" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=440" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=442" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=443" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=444" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=445" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=441" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=448" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=450" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=446" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=433" class="navbar" tabindex="121">Support Agencies</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=15&amp;navoid=449" class="navbar" tabindex="122">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td colspan="4"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+                   <tbody>
+                    <tr> 
+                     <td> 
+                      <div class="help_block" style="float: right">
+                       <a href="help.php" onclick="acalogPopup('help.php', 'help', 770, 530, 'yes');return false;" class="help acalog-highlight-ignore" target="_blank" tabindex="203"><b>HELP</b></a>
+                      </div> <span class="acalog_catalog_name">2015-2016 Academic Catalogue</span> <br> <h1 id="acalog-content">English, B.A.</h1> 
+                      <div style="float: right">
+                       <span class="print_degree_planner_link"><a href="#" onclick="acalogPopup('preview_degree_planner.php?catoid=15&amp;poid=959&amp;returnto=448&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank">Print Degree Planner</a></span> | 
+                       <a rel="nofollow" href="/preview_program.php?catoid=15&amp;poid=959&amp;returnto=448&amp;print" onclick="acalogPopup('/preview_program.php?catoid=15&amp;poid=959&amp;returnto=448&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                      </div>
+                      <div class="acalog-social-media-links" style="float: right;"> 
+                      </div> </td> 
+                    </tr> 
+                    <tr> 
+                     <td> 
+                      <hr> </td> 
+                    </tr> 
+                   </tbody>
+                  </table> <p>The degree in English requires 136 semester hours, which includes a minimum of 54 semester hours of English, Rhetoric, and Humanistic Studies (ERH) courses, 18 semester hours of additional requirements for the major, and 46 semester hours of Core Curriculum requirements. Additional courses to complete the requirements for graduation must be chosen by the cadet with the approval of his or her departmental adviser.</p> <p>English majors may pursue concentrations in Rhetoric and Writing, Literary Studies, Philosophy, and Art History and Visual Culture. </p> </td> 
+                </tr> 
+                <tr> 
+                 <td colspan="4" width="100%"> 
+                  <div style="padding-left: 20px;">
+                   <div class="acalog-core">
+                    <h2><a name="MajorCore36Credits"></a><a name="majorcore36credits" id="core_10461"></a>Major Core: 36 Credits</h2>
+                    <hr>
+                    <ul>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13333',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10461~;}'); return false;">ERH 201 - Rhetorical Traditions I </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13357',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10461~;}'); return false;">ERH 202 - Rhetorical Traditions II </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12826',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10461~;}'); return false;">ERH 203 - Ways of Reading </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12860',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10461~;}'); return false;">ERH 204 - The Language of Art </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12821',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10461~;}'); return false;">ERH 205 - British Literary Traditions </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12825',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10461~;}'); return false;">ERH 206 - American Literary Traditions </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13205',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10461~;}'); return false;">ERH 207 - Ethics </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13362',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10461~;}'); return false;">ERH 301 - Rhetoric and Public Address </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13363',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10461~;}'); return false;">ERH 302 - Civic Discourse </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13368',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10461~;}'); return false;">ERH 323 - Philosophy and Literature </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13373',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10461~;}'); return false;">ERH 411 - Fieldwork </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12857',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10461~;}'); return false;">ERH 481 - Senior Capstone Course </a> Credit Hours: 3</span></li>
+                    </ul>
+                   </div>
+                   <div class="acalog-core">
+                    <h2><a name="MajorElectives18Credits"></a><a name="majorelectives18credits" id="core_10462"></a>Major Electives: 18 Credits</h2>
+                    <hr>
+                    <p>Six&nbsp;major electives, at least one of which must be at the 400 level.</p>
+                    <ul>
+                     <li class="acalog-adhoc acalog-adhoc-before" style="list-style: none;"><p>At least two electives (6 credits) must be selected from the following list of Rhetoric/Writing courses:</p> <p>&nbsp;</p></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13358',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10462~;}'); return false;">ERH 221 - Digital Rhetorics </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13332',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10462~;}'); return false;">ERH 250 - Teaching Writing </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13364',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10462~;}'); return false;">ERH 303 - Cultural Rhetorics </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13365',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10462~;}'); return false;">ERH 304 - Language and Style </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13366',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10462~;}'); return false;">ERH 311-313 - Professional Writing (Discipline/Field Specific) </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13338',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10462~;}'); return false;">ERH 314 - Technical Communication </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13377',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10462~;}'); return false;">ERH 470-479 - Seminar in Rhetoric and Writing </a> Credit Hours: 3</span></li>
+                     <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>&nbsp;</p></li>
+                     <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>At least one elective (3 credits)&nbsp;must be selected from the following list of courses offering practice in creative expression:</p></li>
+                     <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>&nbsp;</p></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13335',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10462~;}'); return false;">ERH 222 - Genre Studies - Poetry </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13334',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10462~;}'); return false;">ERH 223 - Genre Studies - Fiction </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13336',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10462~;}'); return false;">ERH 224 - Genre Studies - Nonfiction </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13360',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10462~;}'); return false;">ERH 225 - Visual Arts Studio </a> Credit Hours: 3</span></li>
+                     <li class="acalog-adhoc-list-item acalog-adhoc-after">
+                      <div style="display: inline">
+                       <a href="preview_course_nopop.php?catoid=15&amp;coid=13377" onclick="showCatalogData('15', '3', '13377', 'ERH%20470-479%20-%20Seminar%20in%20Rhetoric%20and%20Writing', this, ''); return false;" target="_blank">ERH 470-479 - Seminar in Rhetoric and Writing</a>
+                      </div><span style="display: none !important">&nbsp;</span>&nbsp;&nbsp; Credit Hours:&nbsp; 3</li>
+                    </ul>
+                   </div>
+                   <div class="acalog-core">
+                    <h2><a name="AdditionalRequirements18Credits"></a><a name="additionalrequirements18credits" id="core_10463"></a>Additional Requirements: 18 Credits</h2>
+                    <hr>
+                    <ul> 
+                     <li>12 credits through the 200 level:&nbsp; Foreign Language</li> 
+                     <li>3 Credits:&nbsp; World literature in translation; OR a 300-level course in MLC; or any Cultures and Civilization elective in any academic department other than English, Rhetoric and Humanistic Studies (ERH)</li> 
+                     <li>3 Credits:&nbsp; Computer and Information Sciences (CIS) elective&nbsp;</li> 
+                    </ul>
+                   </div>
+                   <div class="acalog-core">
+                    <h2><a name="GeneralEducationRequirements46Credits"></a><a name="generaleducationrequirements46credits" id="core_10514"></a>General Education Requirements: 46 credits</h2>
+                    <hr>
+                    <ul>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13330',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10514~;}'); return false;">ERH 101 - Writing and Rhetoric I </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13331',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10514~;}'); return false;">ERH 102 - Writing and Rhetoric II </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13293',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10514~;}'); return false;">ERH 103 - Fundamentals of Public Speaking </a> Credit Hours: 1</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13059',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10514~;}'); return false;">MA 105 - Introduction to Probability and Statistics I </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13060',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10514~;}'); return false;">MA 106 - Introduction to Probability and Statistics II </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12915',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10514~;}'); return false;">HI 103 - World History I </a> Credit Hours: 3</span></li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12916',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10514~;}'); return false;">HI 104 - World History II </a> Credit Hours: 3</span></li>
+                     <li class="acalog-adhoc-list-item acalog-adhoc-after">Science&nbsp; Credit Hours: 8</li>
+                     <li class="acalog-adhoc-list-item acalog-adhoc-after">Physical Education&nbsp; Credit Hours: 4</li>
+                     <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13241',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10514~;}'); return false;">PS 344 - Leadership in Organizations </a> Credit Hours: 3</span></li>
+                     <li class="acalog-adhoc-list-item acalog-adhoc-after">ROTC&nbsp; Credit Hours: 12</li>
+                    </ul>
+                   </div>
+                   <div class="acalog-core">
+                    <h2><a name="FreeElectives18Credits"></a><a name="freeelectives18credits" id="core_10513"></a>Free Electives: 18 credits</h2>
+                    <hr>
+                   </div>
+                   <div class="acalog-core">
+                    <h2><a name="SynopsisOfTheBACurriculumInEnglish"></a><a name="synopsisofthebacurriculuminenglish" id="core_10204"></a>Synopsis of the B.A. Curriculum in English</h2>
+                    <hr>
+                   </div>
+                   <div style="padding-left: 20px;">
+                    <div class="acalog-core">
+                     <h3><a name="FourthFreshmanClass"></a><a name="fourthfreshmanclass" id="core_10205"></a>Fourth (Freshman) Class</h3>
+                     <hr>
+                    </div>
+                    <div style="padding-left: 20px;">
+                     <div class="acalog-core">
+                      <h4><a name="FirstSemester"></a><a name="firstsemester" id="core_10209"></a>First Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13330',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10209~;}'); return false;">ERH 101 - Writing and Rhetoric I </a> Credit Hours: 3 *</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12915',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10209~;}'); return false;">HI 103 - World History I </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13059',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10209~;}'); return false;">MA 105 - Introduction to Probability and Statistics I </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13473',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10209~;}'); return false;">ELEC Foreign Language - Foreign Language Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13463',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10209~;}'); return false;">Science Requirement - (BI, CH, or PY w/ lab) </a> Credit Hours: 4</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13183',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10209~;}'); return false;">PE 105 - Wellness Concepts </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13182',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10209~;}'); return false;">PE 102 - Boxing </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13451',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10209~;}'); return false;">ROTC Requirement - AS, MS, or NS </a> Credit Hours: 1</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs175"></a><a name="totalsemesterhrs175" id="core_10217"></a>Total Semester Hrs: 17.5</h4>
+                      <hr>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="SecondSemester"></a><a name="secondsemester" id="core_10213"></a>Second Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13331',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10213~;}'); return false;">ERH 102 - Writing and Rhetoric II </a> Credit Hours: 3 &nbsp;*</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12916',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10213~;}'); return false;">HI 104 - World History II </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13060',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10213~;}'); return false;">MA 106 - Introduction to Probability and Statistics II </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13473',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10213~;}'); return false;">ELEC Foreign Language - Foreign Language Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13463',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10213~;}'); return false;">Science Requirement - (BI, CH, or PY w/ lab) </a> Credit Hours: 4</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13183',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10213~;}'); return false;">PE 105 - Wellness Concepts </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-adhoc acalog-adhoc-after" style="list-style: none;"><p>or</p></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13182',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10213~;}'); return false;">PE 102 - Boxing </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13451',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10213~;}'); return false;">ROTC Requirement - AS, MS, or NS </a> Credit Hours: 1</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs175"></a><a name="totalsemesterhrs175" id="core_10218"></a>Total Semester Hrs: 17.5</h4>
+                      <hr>
+                     </div>
+                    </div>
+                    <div class="acalog-core">
+                     <h3><a name="ThirdSophomoreClass"></a><a name="thirdsophomoreclass" id="core_10206"></a>Third (Sophomore) Class</h3>
+                     <hr>
+                    </div>
+                    <div style="padding-left: 20px;">
+                     <div class="acalog-core">
+                      <h4><a name="FirstSemester"></a><a name="firstsemester" id="core_10210"></a>First Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13333',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10210~;}'); return false;">ERH 201 - Rhetorical Traditions I </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12860',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10210~;}'); return false;">ERH 204 - The Language of Art </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12821',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10210~;}'); return false;">ERH 205 - British Literary Traditions </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13205',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10210~;}'); return false;">ERH 207 - Ethics </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13473',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10210~;}'); return false;">ELEC Foreign Language - Foreign Language Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13186',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10210~;}'); return false;">PE 300 - Principles of Physical Conditioning </a> Credit Hours: 1</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13451',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10210~;}'); return false;">ROTC Requirement - AS, MS, or NS </a> Credit Hours: 1</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs17"></a><a name="totalsemesterhrs17" id="core_10219"></a>Total Semester Hrs: 17</h4>
+                      <hr>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="SecondSemester"></a><a name="secondsemester" id="core_10214"></a>Second Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13293',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10214~;}'); return false;">ERH 103 - Fundamentals of Public Speaking </a> Credit Hours: 1</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13357',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10214~;}'); return false;">ERH 202 - Rhetorical Traditions II </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12826',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10214~;}'); return false;">ERH 203 - Ways of Reading </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12825',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10214~;}'); return false;">ERH 206 - American Literary Traditions </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13241',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10214~;}'); return false;">PS 344 - Leadership in Organizations </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13473',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10214~;}'); return false;">ELEC Foreign Language - Foreign Language Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13181',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10214~;}'); return false;">PE 101 - Basic Swimming and Survival </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13451',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10214~;}'); return false;">ROTC Requirement - AS, MS, or NS </a> Credit Hours: 1</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs175"></a><a name="totalsemesterhrs175" id="core_10220"></a>Total Semester Hrs: 17.5</h4>
+                      <hr>
+                     </div>
+                    </div>
+                    <div class="acalog-core">
+                     <h3><a name="SecondJuniorClass"></a><a name="secondjuniorclass" id="core_10207"></a>Second (Junior) Class</h3>
+                     <hr>
+                    </div>
+                    <div style="padding-left: 20px;">
+                     <div class="acalog-core">
+                      <h4><a name="FirstSemester"></a><a name="firstsemester" id="core_10211"></a>First Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13362',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10211~;}'); return false;">ERH 301 - Rhetoric and Public Address </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13363',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10211~;}'); return false;">ERH 302 - Civic Discourse </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13475',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10211~;}'); return false;">ELEC CIS - Computer and Information Sciences Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13471',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10211~;}'); return false;">ELEC Major - Major Elective </a> Credit Hours: 3 (Rhetoric/Writing)</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13474',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10211~;}'); return false;">ELEC Major - Major Elective </a> Credit Hours: 3 (Creative Expression)</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13457',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10211~;}'); return false;">PE Requirement - Elective </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13455',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10211~;}'); return false;">ROTC Requirement - AS,MS, or NS </a> Credit Hours: 2</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs175"></a><a name="totalsemesterhrs175" id="core_10221"></a>Total Semester Hrs: 17.5</h4>
+                      <hr>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="SecondSemester"></a><a name="secondsemester" id="core_10216"></a>Second Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13373',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10216~;}'); return false;">ERH 411 - Fieldwork </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13477',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10216~;}'); return false;">ELEC World - World Elective* </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13471',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10216~;}'); return false;">ELEC Major - Major Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13474',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10216~;}'); return false;">ELEC Major - Major Elective </a> Credit Hours: 3 (Rhetoric/Writing)</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13461',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10216~;}'); return false;">ELEC Free - Free Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13457',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10216~;}'); return false;">PE Requirement - Elective </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13455',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10216~;}'); return false;">ROTC Requirement - AS,MS, or NS </a> Credit Hours: 2</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs175"></a><a name="totalsemesterhrs175" id="core_10222"></a>Total Semester Hrs: 17.5</h4>
+                      <hr>
+                     </div>
+                    </div>
+                    <div class="acalog-core">
+                     <h3><a name="FirstSeniorClass"></a><a name="firstseniorclass" id="core_10208"></a>First (Senior) Class</h3>
+                     <hr>
+                    </div>
+                    <div style="padding-left: 20px;">
+                     <div class="acalog-core">
+                      <h4><a name="FirstSemester"></a><a name="firstsemester" id="core_10212"></a>First Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '12857',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10212~;}'); return false;">ERH 481 - Senior Capstone Course </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13471',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10212~;}'); return false;">ELEC Major - Major Elective </a> Credit Hours: 3 (400-level)</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13461',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10212~;}'); return false;">ELEC Free - Free Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13462',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10212~;}'); return false;">ELEC Free - Free Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13472',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10212~;}'); return false;">ELEC Free - Free Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13457',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10212~;}'); return false;">PE Requirement - Elective </a> Credit Hours: 0.5</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13455',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10212~;}'); return false;">ROTC Requirement - AS,MS, or NS </a> Credit Hours: 2</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs175"></a><a name="totalsemesterhrs175" id="core_10223"></a>Total Semester Hrs: 17.5</h4>
+                      <hr>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="SecondSemester"></a><a name="secondsemester" id="core_10215"></a>Second Semester</h4>
+                      <hr>
+                      <ul>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13368',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10215~;}'); return false;">ERH 323 - Philosophy and Literature </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13471',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10215~;}'); return false;">ELEC Major - Major Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13461',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10215~;}'); return false;">ELEC Free - Free Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13462',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10215~;}'); return false;">ELEC Free - Free Elective </a> Credit Hours: 3</span></li>
+                       <li class="acalog-course"><span><a href="#" onclick="showCourse('15', '13455',this, 'a:2:{s:8:~location~;s:7:~program~;s:4:~core~;s:5:~10215~;}'); return false;">ROTC Requirement - AS,MS, or NS </a> Credit Hours: 2</span></li>
+                      </ul>
+                     </div>
+                     <div class="acalog-core">
+                      <h4><a name="TotalSemesterHrs14"></a><a name="totalsemesterhrs14" id="core_10224"></a>Total Semester Hrs: 14</h4>
+                      <hr>
+                     </div>
+                    </div>
+                   </div>
+                   <div class="acalog-core">
+                    <h2><a name="TotalHoursMinimum136"></a><a name="totalhoursminimum136" id="core_10225"></a>Total Hours: minimum 136</h2>
+                    <hr>
+                    <p>*&nbsp;World literature in translation; OR a 300-level course in MLC; or any Cultures and Civilization elective in any academic department other than English, Rhetoric and Humanistic Studies (ERH) </p>
+                   </div>
+                   <div class="acalog-core">
+                    <h2><a name="ConcentrationsInEnglishRhetoricAndHumanisticStudies"></a><a name="concentrationsinenglishrhetoricandhumanisticstudies" id="core_10202"></a>Concentrations in English, Rhetoric, and Humanistic Studies</h2>
+                    <hr>
+                    <p>The following concentrations are available to cadets who major in English:&nbsp;</p> 
+                    <ul> 
+                     <li><a href="preview_program.php?catoid=15&amp;poid=1011">Art History and Visual Culture Concentration</a><span style="display: none !important">&nbsp;</span> </li> 
+                     <li><a href="preview_program.php?catoid=15&amp;poid=1013">Literary Studies Concentration</a><span style="display: none !important">&nbsp;</span></li> 
+                     <li><a href="preview_program.php?catoid=15&amp;poid=1007">Philosophy Concentration</a><span style="display: none !important">&nbsp;</span> </li> 
+                     <li><a href="preview_program.php?catoid=15&amp;poid=1009">Rhetoric and Writing Concentration</a><span style="display: none !important">&nbsp;</span> </li> 
+                    </ul>
+                   </div>
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <span class="print_degree_planner_link"><a href="#" onclick="acalogPopup('preview_degree_planner.php?catoid=15&amp;poid=959&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank">Print Degree Planner</a></span> | 
+               <a rel="nofollow" href="/preview_program.php?catoid=15&amp;poid=959&amp;print" onclick="acalogPopup('/preview_program.php?catoid=15&amp;poid=959&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=15" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script>   
+ </body>
+</html>

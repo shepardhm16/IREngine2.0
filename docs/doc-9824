@@ -1,0 +1,479 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta content="charset=utf-8"> 
+  <meta name="description" content="James Squire EE431 Digital Signal Processing"> 
+  <meta name="keywords" content="James Squire, Jim Squire, Professor James Squire, VMI, EE431, DSP, ECE"> 
+  <title>EE431</title> 
+  <link href="../../squire.css" rel="stylesheet"> 
+  <link href="../teaching.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <table id="outerTable"> 
+   <tbody>
+    <tr> 
+     <td class="titleRow1Col1"></td> 
+     <td class="titleRow1Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow2Col1" style="background-image: url('ee431.gif'); background-repeat:no-repeat"> </td> 
+     <td class="titleRow2Col2"> <h1>EE431: Discrete-Time Signal Processing</h1> </td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow3Col1"></td> 
+     <td class="titleRow3Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="menu"> <p><a href="../../Default.htm">Home</a></p> <p><a href="../teaching.htm">Teaching</a></p> <p><a href="../ee115/ee115.htm">EE115</a></p> <p><a href="../ee223/ee223.htm">EE223</a></p> <p><a href="../ee230/ee230.htm">EE230</a></p> <p><a href="../ee431/ee431.htm">EE431</a></p> <p><a href="../ee455/ee455.htm">EE455</a></p> <p><a href="../ee491/ee491.htm">EE491/2</a></p> </td> 
+     <td class="cellHoldingMainTable"> 
+      <table class="mainTable"> 
+       <tbody>
+        <tr> 
+         <td class="noBorder"> <p class="alignTop"> Introduction to the fundamentals of discrete-time signals and systems including the representation of discrete-time and digital signals, analysis of linear discrete-time signals and systems, frequency response, discrete Fourier transform, Z transform, and sampled data systems. The design and analysis of digital filters are examined. The laboratory emphasizes practical considerations involved with the implementation of DSP algorithms. MATLAB will be used for digital signal generation, plotting and the implementation and analysis of DSP operations. Prerequisite: EE230. (3 lecture hours, 2 lab hours, 4 credit hours).</p> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> 
+          <hr class="hrStyle"> <h3> Lecture Schedule</h3> <p>In the following table, the readings and homework are assigned on the day listed and due on the following lesson. The readings are taken from the custom-printed class textbook unless otherwise noted. </p> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> 
+          <table class="lectureTable"> 
+           <!-- The header row --> 
+           <tbody>
+            <tr> 
+             <td class="lectureTableCol1 bold"> # </td> 
+             <td class="lectureTableCol2 bold"> Date </td> 
+             <td class="lectureTableCol3 bold"> Title </td> 
+             <td class="lectureTableCol4 bold"> Read </td> 
+             <td class="lectureTableCol5 bold"> Homework &amp; Handouts</td> 
+            </tr> 
+            <!-- The lecture data rows ---------------------------> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 1</td> 
+             <td>1 Sep</td> 
+             <td>Laboratory 1: Matlab Review I</td> 
+             <td>&nbsp;</td> 
+             <td> <a href="materials/Lab1.zip">Lab 1 kit</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1"> 1 </td> 
+             <td>2</td> 
+             <td>Introduction to DSP</td> 
+             <td>Chap 1</td> 
+             <td> <a href="materials/EE431%20Syllabus.pdf">Syllabus</a>, <a href="materials/01%20HW%20Assignment.pdf">PS1</a>, <a href="materials/PS1_ecg.txt">PS1_ecg.txt</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1"> 2 </td> 
+             <td>4</td> 
+             <td>Discrete time signals overview</td> 
+             <td>2.1-2.1.2</td> 
+             <td><a href="materials/02%20HW%20Assignment.pdf">PS2</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">3</td> 
+             <td>7</td> 
+             <td>Discrete time signals: classification, power, energy</td> 
+             <td>2.1.3</td> 
+             <td><a href="materials/03%20HW%20Assignment.pdf">PS3</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 2</td> 
+             <td>8</td> 
+             <td>Laboratory 1: Matlab Review II</td> 
+             <td>&nbsp;</td> 
+             <td><a href="materials/Lab1.zip">Lab 1 kit</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">4</td> 
+             <td>9</td> 
+             <td>Common sequences, sampling</td> 
+             <td>2.3</td> 
+             <td><a href="materials/04%20HW%20Assignment.pdf">PS4</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">5</td> 
+             <td>11</td> 
+             <td>DT Systems, examples and types</td> 
+             <td>2.4</td> 
+             <td><a href="materials/05%20HW%20Assignment.pdf">PS5</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">6</td> 
+             <td>14</td> 
+             <td>Convolution</td> 
+             <td>2.5.1</td> 
+             <td><a href="materials/06%20HW%20Assignment.pdf">PS6</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 3</td> 
+             <td>15</td> 
+             <td>Laboratory 2: Time Domain Signals I</td> 
+             <td>&nbsp;</td> 
+             <td><a href="materials/Lab2.zip">Lab 2 kit</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">7</td> 
+             <td>16</td> 
+             <td>System Interconnections</td> 
+             <td>2.5 rest</td> 
+             <td><a href="materials/07%20HW%20Assignment.pdf">PS7</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">8</td> 
+             <td>18</td> 
+             <td>Solving difference equations</td> 
+             <td>2.6.1,2</td> 
+             <td><a href="materials/08%20HW%20Assignment.pdf">PS8</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">9</td> 
+             <td>21</td> 
+             <td>Finding h[n] given a difference equation</td> 
+             <td>2.6 rest</td> 
+             <td><a href="materials/09%20HW%20Assignment.pdf">PS9</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 4</td> 
+             <td>22</td> 
+             <td>Laboratory 2: Time Domain Signals II</td> 
+             <td></td> 
+             <td><a href="materials/Lab2.zip">Lab 2 kit</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">10</td> 
+             <td>23</td> 
+             <td>Review for Test I</td> 
+             <td>&nbsp;</td> 
+             <td><a href="materials/Test%20I%20Review%20sheet.pdf"> Test 1 study guide</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">11</td> 
+             <td>25</td> 
+             <td>Exam I: DT signals &amp; systems in the time domain</td> 
+             <td>&nbsp;</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">12</td> 
+             <td>28</td> 
+             <td>DTFT - intuition and math</td> 
+             <td>3.2</td> 
+             <td><a href="materials/12%20HW%20Assignment.pdf">PS12</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 5</td> 
+             <td>29</td> 
+             <td>Laboratory 3: Time Domain Systems I </td> 
+             <td>&nbsp;</td> 
+             <td><a href="materials/Lab3.zip">Lab 3 kit</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">13</td> 
+             <td>30</td> 
+             <td>DTFT - properties, Matlab</td> 
+             <td>3.3,6</td> 
+             <td><a href="materials/13%20HW%20Assignment.pdf">PS13</a></td> 
+             <td> </td>
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">14</td> 
+             <td>2 Oct</td> 
+             <td>DFT - intuition, math, and Matlab</td> 
+             <td>5.2</td> 
+             <td><a href="materials/14,15%20HW%20Assignment.pdf">PS14/15</a> due at start of lecture 16</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">15</td> 
+             <td>5</td> 
+             <td>Changing between the DTFT, DFT</td> 
+             <td>5.3</td> 
+             <td>&nbsp;</td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 6</td> 
+             <td>6</td> 
+             <td>Laboratory 3: Time Domain Systems II</td> 
+             <td>&nbsp;</td> 
+             <td><a href="materials/Lab3.zip">Lab 3 kit</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">16</td> 
+             <td>7</td> 
+             <td>DFT properties, linear convolution w/ DFT</td> 
+             <td>5.6,7,10</td> 
+             <td><a href="materials/16%20HW%20Assignment.pdf">PS16</a></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">17</td> 
+             <td>9</td> 
+             <td>Z transform - math, intuition, properties</td> 
+             <td>6.1,2</td> 
+             <td><a href="materials/17,18%20HW%20Problem%20Set.pdf">PS17/18</a> due at start of lecture 19, <a href="materials/Notation%20handout.pdf">notation handout</a></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">18</td> 
+             <td>12</td> 
+             <td>ROC of the z transform</td> 
+             <td>6.3</td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 7</td> 
+             <td>13</td> 
+             <td>Laboratory 4: Frequency Domain DTFT I</td> 
+             <td>&nbsp;</td> 
+             <td><a href="materials/Lab4.zip">Lab 4 kit</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">19</td> 
+             <td>14</td> 
+             <td>Inverse Z transform by math, PFD</td> 
+             <td>6.4</td> 
+             <td><a href="materials/19%20HW%20Problems.pdf">PS19</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">20</td> 
+             <td>16</td> 
+             <td>Inverse Z transform by properties</td> 
+             <td>6.5</td> 
+             <td><a href="materials/20%20HW%20Assignment.pdf">PS20</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">21</td> 
+             <td>19</td> 
+             <td>Review for Test II</td> 
+             <td>&nbsp;</td> 
+             <td>Prepare for Test II</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 8</td> 
+             <td>20</td> 
+             <td>Laboratory 4: Frequency Domain DTFT II</td> 
+             <td>&nbsp;</td> 
+             <td><a href="materials/Lab4.zip">Lab 4 kit</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">22</td> 
+             <td>21</td> 
+             <td>Test II: Signals in the frequency domain</td> 
+             <td>&nbsp;</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">23</td> 
+             <td>23</td> 
+             <td>Transfer function: 3 perspectives</td> 
+             <td>notes</td> 
+             <td>none</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">24</td> 
+             <td>26</td> 
+             <td>Steady-state vs causal responses</td> 
+             <td>notes</td> 
+             <td><a href="materials/24%20HW%20Assignment.pdf">PS24</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 9</td> 
+             <td>27</td> 
+             <td>Laboratory 5: Frequency Domain DFT I</td> 
+             <td>&nbsp;</td> 
+             <td><a href="materials/Lab%205.zip">Lab 5 kit</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">25</td> 
+             <td>28</td> 
+             <td>Geometric interpretation of pole/zero plots</td> 
+             <td>6.7</td> 
+             <td><a href="materials/25%20HW%20Assignment.pdf">PS25</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">26</td> 
+             <td>30</td> 
+             <td>Ideal and linear phase filters</td> 
+             <td>7.1, 7.2</td> 
+             <td>none</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">27</td> 
+             <td>2 Nov</td> 
+             <td>FIR Filters</td> 
+             <td>7.3</td> 
+             <td><a href="materials/27%20HW%20Assignment.pdf">PS27</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">28</td> 
+             <td>3</td> 
+             <td><strong>Wed classes meet</strong>: LP, HP FIR, IIR filters</td> 
+             <td>7.4</td> 
+             <td><a href="materials/28%20HW%20Assignment.pdf">PS28</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">29</td> 
+             <td>4</td> 
+             <td>BP, BS, comb filters, C code</td> 
+             <td>7.4</td> 
+             <td><a href="materials/29%20HW%20Assignment.pdf">PS29</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">30</td> 
+             <td>6</td> 
+             <td>Filter design using Matlab</td> 
+             <td><a href="materials/Lecture%2030%20minilab.pdf">notes</a></td> 
+             <td><a href="materials/Lecture%2030%20minilab.pdf">PS30</a> (includes class notes)</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">31</td> 
+             <td>9</td> 
+             <td>Allpass filters</td> 
+             <td>7.5</td> 
+             <td><a href="materials/31%20HW%20Assignment.pdf">PS31</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 10</td> 
+             <td>4</td> 
+             <td>Laboratory 5: Frequency Domain DFT II</td> 
+             <td></td> 
+             <td><a href="materials/Lab%205.zip">Lab 5 kit</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">&nbsp;</td> 
+             <td>11</td> 
+             <td>Founder's Day: No class</td> 
+             <td>&nbsp;</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">32</td> 
+             <td>13</td> 
+             <td>Review for Test III</td> 
+             <td>&nbsp;</td> 
+             <td>Prepare for Test III</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">33</td> 
+             <td>16</td> 
+             <td>was: Test III: DT systems in the frequency domain.&nbsp; <strong>Now, Project Lab 1</strong></td> 
+             <td>&nbsp;</td> 
+             <td> 
+              <!--   <a href="materials/Test%203Problem4.txt">Data as .txt</a> --> </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 11</td> 
+             <td>17</td> 
+             <td>Laboratory 6: Project Lab 1 - <strong>Now, Test III</strong></td> 
+             <td>&nbsp;</td> 
+             <td><a href="materials/Lab%206.pdf">Lab 6 instructions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">34</td> 
+             <td>18</td> 
+             <td>Introduction to sampling</td> 
+             <td>4.1</td> 
+             <td>work on Lab 6</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">35</td> 
+             <td>20</td> 
+             <td>Sampling of CT signals in the freq domain</td> 
+             <td>4.2</td> 
+             <td>work on Lab 6</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">36</td> 
+             <td>23</td> 
+             <td>Anti aliasing filters and A/D converters</td> 
+             <td>4.6-8</td> 
+             <td>work on Lab 6</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 12</td> 
+             <td>24</td> 
+             <td>Laboratory 6: Project Lab II</td> 
+             <td></td> 
+             <td><a href="materials/Lab%206.pdf">Lab 6 instructions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">37</td> 
+             <td>30</td> 
+             <td>D/A converters, reconstruction filters</td> 
+             <td>4.9-10</td> 
+             <td><a href="materials/37%20HW%20Assignment.pdf">PS37</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 13</td> 
+             <td>1 Dec</td> 
+             <td>Laboratory 6: Project Lab III</td> 
+             <td></td> 
+             <td><a href="materials/Lab%206.pdf">Lab 6 instructions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">38</td> 
+             <td>2</td> 
+             <td>DSP site visit</td> 
+             <td>&nbsp;</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">39</td> 
+             <td>4</td> 
+             <td>Modern topics in DSP</td> 
+             <td>&nbsp;</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">40</td> 
+             <td>7</td> 
+             <td>Course admin, review Exam Block I</td> 
+             <td>&nbsp;</td> 
+             <td> <a href="materials/Final%20Exam%20Study%20guide.pdf">Final exam study guide</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 14</td> 
+             <td>8</td> 
+             <td>Laboratory 6: Project Presentations</td> 
+             <td></td> 
+             <td><a href="materials/Lab%206.pdf">Lab 6 instructions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">41</td> 
+             <td>9</td> 
+             <td>Review Exam Block II</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">42</td> 
+             <td>11</td> 
+             <td>Review Exam Block III</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">&nbsp;</td> 
+             <td>17</td> 
+             <td>0830-1130: Final examination</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> <h3>Other</h3> 
+          <blockquote> 
+           <p> <a href="materials/Mitra%20errata.pdf">Mitra text errata</a> You may want to update your Mitra text with these before the first lesson. </p> 
+           <p> <a href="http://www.amazon.com/Supplied-Reference-Handbook-8th-2nd-revision/dp/1932613595"> FE Reference Handbook</a>. This printed book is an authorized reference in all my exams. You can download a free pdf version (not authorized for my exams unless you print the entire text) directly from the <a href="http://ncees.org/exams/study-materials/download-fe-supplied-reference-handbook"> NCEES website</a>, and it is a good general reference for homework (especially for integral equations).</p> 
+           <p> <a href="materials/Z-plane.exe">Z-Plane Simulator</a> Free software I wrote that lets one drag poles and zeros around the z-plane and plots the resulting frequency response and time response to an impulse, step, or sinuosoid.</p> 
+          </blockquote> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+   </tbody>
+  </table>  
+ </body>
+</html>

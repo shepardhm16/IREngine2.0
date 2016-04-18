@@ -1,0 +1,801 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta content="charset=utf-8"> 
+  <meta name="description" content="IC Datasheets"> 
+  <meta name="keywords" content="James Squire, Jim Squire, Professor James Squire, VMI, Research, IC Datasheets"> 
+  <title>IC Data</title> 
+  <link href="../../squire.css" rel="stylesheet"> 
+  <link href="ic_datasheets.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <table id="outerTable"> 
+   <tbody>
+    <tr> 
+     <td class="titleRow1Col1"></td> 
+     <td class="titleRow1Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow2Col1" style="background-image: url('ic_datasheets.png')"> </td> 
+     <td class="titleRow2Col2"> <h1>IC Datasheets</h1> </td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow3Col1"></td> 
+     <td class="titleRow3Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="menu"> <p><a href="../../Default.htm">Home</a></p> <p><a href="../../teaching/teaching.htm">Teaching</a></p> <p><a href="../research.htm">Research</a></p> <p class="smallMenuText"><a href="../Student_Pages/student_pages.htm">Student Pages</a></p> <p><a href="../../advising/advising.htm">Advising</a></p> </td> 
+     <td class="cellHoldingMainTable decorations"> <p id="intro" style="margin-top:0;padding-left:30px"> I have compiled a list of the common devices I use at the Virginia Military Institute in my courses, independent study supervision, and research. All values listed in tables are typical; see linked datasheets for details.</p> <p style="margin-top:0;padding-left:30px"> &nbsp;</p> <p style="margin-top:0;padding-left:30px"> An excellent general link for schematics is <a href="www.datasheets360.com"> datasheets360</a>.</p> 
+      <!--  Comparators !-----------------------------------> <h3>Comparators</h3> 
+      <table class="icTable"> 
+       <tbody>
+        <tr> 
+         <td>device</td> 
+         <td>#<sup>1</sup></td> 
+         <td>input signal</td> 
+         <td colspan="3" style="text-align:center">output signal</td> 
+         <td colspan="2">chip power<sup>6</sup></td> 
+        </tr> 
+        <tr> 
+         <td></td> 
+         <td></td> 
+         <td>I<sub>max</sub><sup>2</sup></td> 
+         <td>I<sub>max</sub><sup>3</sup></td> 
+         <td>V<sub>low</sub><sup>4</sup></td> 
+         <td>V<sub>high</sub><sup>5</sup></td> 
+         <td>V<sub>min</sub></td> 
+         <td>V<sub>max</sub></td> 
+        </tr> 
+        <tr> 
+         <td><a href="comparators/LM311.pdf">LM311</a></td> 
+         <td>1</td> 
+         <td>150nA</td> 
+         <td>50mA</td> 
+         <td>0.75V</td> 
+         <td>50V</td> 
+         <td>5V</td> 
+         <td>36V</td> 
+        </tr> 
+        <tr> 
+         <td><a href="comparators/LM193%20comparator%20x2.pdf">LM193</a></td> 
+         <td>2</td> 
+         <td>25nA</td> 
+         <td>16mA</td> 
+         <td>0.25V</td> 
+         <td>30V</td> 
+         <td>2V</td> 
+         <td>36V</td> 
+        </tr> 
+        <tr> 
+         <td><a href="comparators/LM339.pdf">LM339</a></td> 
+         <td>4</td> 
+         <td>25nA</td> 
+         <td>16mA</td> 
+         <td>0.25V</td> 
+         <td>36V</td> 
+         <td>2V</td> 
+         <td>36V</td> 
+        </tr> 
+       </tbody>
+      </table> <p class="notes">Notes</p> <p class="notesList"> 1. Number of comparators in one IC.<br> 2. Maximmum input current. Ideally zero.<br> 3. Maximum current that the output can sink. Ideally infinite. The devices are open-collector or open-drain and therefore cannot source any current.<br> 4. How close to ground the output voltage can go. Ideally zero, often one diode drop above.<br> 5. The maximum output voltage. Since comparators are open-collector or open-drain, the output is in a high-impedance state when the device is "on", so the output must be pulled up with a resistor. There is a maximum voltage that the output pin can be pulled up to without damaging the device.<br> 6. The chip must be powered from supplies between these two extremes. </p> 
+      <!--  D/A ------------------------------------> <h3>Digital to Analog Converters</h3> 
+      <table class="icTable"> 
+       <tbody>
+        <tr> 
+         <td>device</td> 
+         <td>bits</td> 
+         <td>data<sup>1</sup></td> 
+         <td>V<sub>low</sub><sup>2</sup></td> 
+         <td>V<sub>high</sub><sup>3</sup></td> 
+         <td>multiplying<sup>4</sup></td> 
+         <td>T<sub>conversion</sub></td> 
+        </tr> 
+        <tr> 
+         <td><a href="d_to_a/AD557.pdf">AD557</a></td> 
+         <td>8</td> 
+         <td>parallel</td> 
+         <td>0V</td> 
+         <td>2.56V</td> 
+         <td>no</td> 
+         <td>1us</td> 
+        </tr> 
+        <tr> 
+         <td><a href="d_to_a/DAC0830.pdf">DAC03830</a></td> 
+         <td>8</td> 
+         <td>parallel</td> 
+         <td>-10V<sup>5</sup></td> 
+         <td>10V<sup>5</sup></td> 
+         <td>yes<sup>6</sup></td> 
+         <td>1us</td> 
+        </tr> 
+       </tbody>
+      </table> <p class="notes">Notes</p> <p class="notesList"> 1. The data bus may be serial or parallel loading.<br> 2. The lowest possible voltage out, corresponding to an input of 00H.<br> 3. The highest possible voltage out.<br> 4. A multiplying D-A converter multiplies the analog output by a provided analog input. A 4 quadrant multiplier permits either the digital input or the analog multiplicand to be positive or negative. Usually the multiplier feature can be easily disabled if not desired.<br> 5. The output may be either configured to be a current or a voltage signal, and may be adjusted to provide minimum and maximum outputs anywhere in the -10V to +10V range.<br> 6. Four quadrant, -10V to +10V. </p> 
+      <!--  Diodes ------------------------------------> <h3>Diodes</h3> 
+      <table class="icTable"> 
+       <tbody>
+        <tr> 
+         <td>device</td> 
+         <td>I<sub>max</sub></td> 
+         <td>V<sub>max</sub><sup>1</sup></td> 
+         <td>comments</td> 
+        </tr> 
+        <tr> 
+         <td><a href="diode/1N4001.pdf">1N4001</a></td> 
+         <td>1A</td> 
+         <td>50V</td> 
+         <td>power</td> 
+        </tr> 
+        <tr> 
+         <td><a href="diode/1N4004.pdf">1N4004</a></td> 
+         <td>1A</td> 
+         <td>400V</td> 
+         <td>power</td> 
+        </tr> 
+        <tr> 
+         <td><a href="diode/1N914.pdf">1N914</a></td> 
+         <td>200mA</td> 
+         <td>100V</td> 
+         <td>small-signal (fast)</td> 
+        </tr> 
+       </tbody>
+      </table> <p class="notes">Notes</p> <p class="notesList"> 1. The maximum reverse voltage the diode can tolerate before it breaks down, ideally infinite.<br> </p> 
+      <!--  Digital CMOS Logic ------------------------------------> <h3>Digital CMOS Logic</h3> 
+      <table class="icTable"> 
+       <tbody>
+        <tr> 
+         <td>device</td> 
+         <td>#</td> 
+         <td>description</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC04%20Hex%20Inverter.pdf">74AHC04</a></td> 
+         <td>6</td> 
+         <td>Inverter</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC14%20Schmitt%20Inverter.pdf">74AHC14</a></td> 
+         <td>6</td> 
+         <td>Schmitt inverter<sup>1</sup></td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74LS47%20BCD%20to%207%20segment%20driver.pdf">74LS47</a></td> 
+         <td>1</td> 
+         <td>BCD to 7 segment decoder<sup>2</sup></td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC74%20dual%20D%20flip%20flop.pdf">74AHC74</a></td> 
+         <td>2</td> 
+         <td>D flip-flop</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC125%20quad%20tristate%201way%20buffer.pdf">74AHC125</a></td> 
+         <td>4</td> 
+         <td>Tristate 1-directional buffer</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC138%203%20to%208%20decoder.pdf">74AHC138</a></td> 
+         <td>1</td> 
+         <td>3 to 8 decoder</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC151%208%20input%20multiplexer.pdf">74AHC151</a></td> 
+         <td>1</td> 
+         <td>8 to 3 multiplexer</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC154%204%20to%2016%20decoder.pdf">74AHC154</a></td> 
+         <td>1</td> 
+         <td>4 to 16 decoder</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC161%20(asynch%20clear)%20and%20163%20(synch%20clear)%204%20bit%20up%20counter.pdf"> 74AHC161</a></td> 
+         <td>1</td> 
+         <td>4 bit up counter with asynchronous clear</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC161%20(asynch%20clear)%20and%20163%20(synch%20clear)%204%20bit%20up%20counter.pdf">74AHC163</a></td> 
+         <td>1</td> 
+         <td>4 bit up counter with synchronous clear</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC164%208bit%20serial%20to%20parallel%20shift%20register.pdf">74AHC164</a></td> 
+         <td>1</td> 
+         <td>8 bit parallel in, serial out shift register</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC165%20Parallel%20in,%20serial%20out%20shift%20register.pdf">74AHC165</a></td> 
+         <td>1</td> 
+         <td>8 bit serial in, parallel out shift register</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC241%20Octal%20tristate%201way%20buffer.pdf">74AHC241</a></td> 
+         <td>8</td> 
+         <td>Tristate 1-directional buffer</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC244%20Octal%20tristate%201way%20buffer.pdf">74AHC244</a></td> 
+         <td>8</td> 
+         <td>Tristate 1-directional buffer</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC245%20Octal%20tristate%202way%20buffer.pdf">74AHC245</a></td> 
+         <td>8</td> 
+         <td>Tristate 2-directional buffer</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC365%20hex%20tristate%201way%20buffer.pdf">74AHC365</a></td> 
+         <td>6</td> 
+         <td>Tristate 1-directional buffer</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/74HC374%20octal%20d%20flip%20flop.pdf">74AHC374</a></td> 
+         <td>8</td> 
+         <td>D flip-flop</td> 
+        </tr> 
+        <tr> 
+         <td><a href="digital_cmos/Write%20Only%20Memory.pdf">25120</a></td> 
+         <td>1</td> 
+         <td>Write-Only Memory (Very rare!)<sup>3</sup></td> 
+        </tr> 
+        <tr> 
+         <td colspan="3"> <a href="http://focus.ti.com/docs/logic/catalog/resources/technologyproducts.jhtml?templateId=5025&amp;navigationId=7979"> Other devices (external link)</a></td> 
+        </tr> 
+       </tbody>
+      </table> <p class="notes">Notes</p> <p class="notesList"> 1. Unlike conventional CMOS inputs that are designed to operate with relatively clean digital signals and suffer from output jitter and large current drains when faced with a non-logic input such as 2.5V, Schmitt inputs work well with analog inputs in the range of 0V to 5V, and display hysteresis.<br> 2. OK, this is a TTL and not a CMOS chip, but since it accepts CMOS inputs and it outputs directly to an LED display it works fine in an otherwise-CMOS circuit.<br> 3. Write-only memory can be written to, but not read from. This particular device has an excellent number-of-socket-insertions to number-of-pins-remaining characteristic. </p> 
+      <!--  Filters ------------------------------------> <h3>Filters</h3> 
+      <table class="icTable"> 
+       <tbody>
+        <tr> 
+         <td>Device</td> 
+         <td>SC/A<sup>1</sup></td> 
+         <td>Order<sup>2</sup></td> 
+         <td>Purpose<sup>3</sup></td> 
+         <td>Type<sup>4</sup></td> 
+         <td>V<sub>in</sub><sup>5</sup></td> 
+         <td>F<sub>min</sub><sup>6</sup></td> 
+         <td>F<sub>max</sub></td> 
+         <td>Comments</td> 
+        </tr> 
+        <tr> 
+         <td><a href="filters/MAX274%208th%20order%20analog%20LP-BP%20filter%201452,%20100Hz-1MHz.pdf">MAX274</a></td> 
+         <td>A</td> 
+         <td>8</td> 
+         <td>BP, LP</td> 
+         <td>BW, BL, C1</td> 
+         <td>±5V</td> 
+         <td>0Hz</td> 
+         <td>150kHz</td> 
+         <td></td> 
+        </tr> 
+        <tr> 
+         <td><a href="filters/MAX280%20filter.pdf">MAX280</a></td> 
+         <td>SC</td> 
+         <td>5</td> 
+         <td>LP</td> 
+         <td>BW</td> 
+         <td>±8V</td> 
+         <td>0Hz</td> 
+         <td>20kHz</td> 
+         <td>zero DC error</td> 
+        </tr> 
+        <tr> 
+         <td><a href="filters/MAX291,2%208th%20order%20Butterworth,%20Bessel%20(switched%20cap,%20DC-25kHz).pdf">MAX291</a></td> 
+         <td>SC</td> 
+         <td>8</td> 
+         <td>LP</td> 
+         <td>BW</td> 
+         <td>±5V</td> 
+         <td>0.1Hz</td> 
+         <td>25kHz</td> 
+         <td></td> 
+        </tr> 
+        <tr> 
+         <td><a href="filters/MAX291,2%208th%20order%20Butterworth,%20Bessel%20(switched%20cap,%20DC-25kHz).pdf">MAX292</a></td> 
+         <td>SC</td> 
+         <td>8</td> 
+         <td>LP</td> 
+         <td>BL</td> 
+         <td>±5V</td> 
+         <td>0.1Hz</td> 
+         <td>25kHz</td> 
+         <td></td> 
+        </tr> 
+        <tr> 
+         <td><a href="filters/MAX295%20filter.pdf">MAX295</a></td> 
+         <td>295</td> 
+         <td>8</td> 
+         <td>LP</td> 
+         <td>BW</td> 
+         <td>±5V</td> 
+         <td>0.1Hz</td> 
+         <td>50kHz</td> 
+         <td>&nbsp;</td> 
+        </tr> 
+        <tr> 
+         <td><a href="filters/MAX296%20filter.pdf">MAX296</a></td> 
+         <td>296</td> 
+         <td>8</td> 
+         <td>LP</td> 
+         <td>BL</td> 
+         <td>±5V</td> 
+         <td>0.1Hz</td> 
+         <td>50kHz</td> 
+         <td>&nbsp;</td> 
+        </tr> 
+        <tr> 
+         <td><a href="filters/UAF42%20LP-HP-BP-BS%206%20pole%20analog.pdf">UAF42</a></td> 
+         <td>A</td> 
+         <td>6</td> 
+         <td>all</td> 
+         <td>BW, BL, C1</td> 
+         <td>±15V</td> 
+         <td>0Hz</td> 
+         <td>100kHz</td> 
+         <td>See notes below<sup>7</sup></td> 
+        </tr> 
+       </tbody>
+      </table> <p class="notes">Notes</p> <p class="notesList"> 1. Filters may be either of the switched-capacitor variety (need no supporting capacitors or resistors but do require a clock source and introduce some noise at the switching frequency) or analog variety.<br> 2. The maximum possible order if all the chip is used to design a single filter. Many chips permit either a single high order filter or several lower-order filters to be constructed.<br> 3. Lowpass, Highpass, Bandpass, or Bandstop.<br> 4. Butterworth (BW), Bessel (BL), Chebyshev I (C1), Chebyshev II (C2), Elliptic (E).<br> 5. The maximum supply, input, and output voltages. Usually these can be operated on a single-sided supply (e.g. 0-5V) if the input signal is given a DC offset (e.g. 2.5V).<br> 6. Some filters have an uncontrolled DC offset. For these filters, F<sub>min </sub>is above the ideal 0Hz.<br> 7. To calculate the external components to build a filter using the UAF42, Burr-Brown provides the excellent software program Filter42 for <a href="filters/Filter42%20(for%20UAF42).EXE">download</a> and its associated <a href="filters/Filter42.pdf">documentation</a>. </p> 
+      <!--  Instrumentation Amplifiers ------------------------------------> <h3>Instrumentation Amplifiers </h3> 
+      <table class="icTable"> 
+       <tbody>
+        <tr> 
+         <td>device</td> 
+         <td colspan="3">general</td> 
+         <td colspan="2">V<sub>power</sub></td> 
+         <td colspan="3">input</td> 
+         <td colspan="2">output</td> 
+        </tr> 
+        <tr> 
+         <td></td> 
+         <td>CMRR<sup>1</sup></td> 
+         <td>gain</td> 
+         <td>BW</td> 
+         <td>low</td> 
+         <td>high</td> 
+         <td>I<sub>b</sub></td> 
+         <td>V<sub>off</sub></td> 
+         <td>Z<sub>in</sub></td> 
+         <td>V<sub>swing limit</sub><sup>2</sup></td> 
+         <td>I<sub>max</sub></td> 
+        </tr> 
+        <tr> 
+         <td><a href="instrumentation/ad620.pdf">AD620</a></td> 
+         <td>110dB</td> 
+         <td>1 to 1000</td> 
+         <td>120kHz</td> 
+         <td>±2.3V</td> 
+         <td>±18V</td> 
+         <td>0.5nA</td> 
+         <td>75uV</td> 
+         <td>10Gohm</td> 
+         <td>V<sub>supp</sub>±1.2V</td> 
+         <td>18mA</td> 
+        </tr> 
+        <tr> 
+         <td><a href="instrumentation/ad621.pdf">AD621</a></td> 
+         <td>110dB</td> 
+         <td>10, 100</td> 
+         <td>800kHz</td> 
+         <td>±2.3V</td> 
+         <td>±18V</td> 
+         <td>0.5nA</td> 
+         <td>75uV</td> 
+         <td>10Gohm</td> 
+         <td>V<sub>supp</sub>±1.2V</td> 
+         <td>18mA</td> 
+        </tr> 
+       </tbody>
+      </table> <p class="notes">Notes</p> <p class="notesList"> 1. Common Mode Rejection Ratio specifies the ratio of the output voltage caused by a differential input voltage vs. a common mode input voltage. Ideally infinite; 100dB = 100,000 the sensitivity to differential noise than common-mode noise. This is the fundamental reason to use instrumentation amplifiers: to amplify small differential signals that ride upon large and possibly varying common-mode signals, especially when the source impedance of the signal is high encouraging capacitive coupling of 60Hz powerline and radiofrequency noise.<br> 2. The output voltage swing is usually not rail-to-rail (i.e. cannot go entirely between the low and high chip supply voltages). Vswing limit refers to how close the output voltages can approach the positive and negative voltage supply rails (e.g. an AD620 powered from 0 and 5V can have an output that varies from 1.2 to 3.8V). </p> 
+      <!--  Miscellaneous ------------------------------------> <h3> Miscellaneous </h3> 
+      <table class="icTable"> 
+       <tbody>
+        <tr> 
+         <td>Device</td> 
+         <td>description</td> 
+        </tr> 
+        <tr> 
+         <td><a href="miscellaneous/HAL300%20Hall%20effect%20transistor.pdf">HAL300</a></td> 
+         <td>Hall effect magnetic field sensor</td> 
+        </tr> 
+        <tr> 
+         <td><a href="miscellaneous/LM331%20voltage%20to%20frequency.pdf">LM331</a></td> 
+         <td>Voltage to frequency converter</td> 
+        </tr> 
+        <tr> 
+         <td><a href="miscellaneous/LM34%20temperature%20sensor.pdf">LM34</a></td> 
+         <td>Temperature to voltage sensor</td> 
+        </tr> 
+        <tr> 
+         <td><a href="miscellaneous/LM386.pdf">LM386</a></td> 
+         <td>1W Audio power amplifier</td> 
+        </tr> 
+        <tr> 
+         <td><a href="miscellaneous/LM3914%20bargraph%20driver.pdf">LM3914</a></td> 
+         <td>10 LED bargraph driver, linear response</td> 
+        </tr> 
+        <tr> 
+         <td><a href="miscellaneous/LM3915%203dB%20bargraph%20driver.pdf">LM3915</a></td> 
+         <td>10 LED bargraph driver, logarthmic response</td> 
+        </tr> 
+        <tr> 
+         <td><a href="miscellaneous/LM565%20phase%20locked%20loop.pdf">LM565</a></td> 
+         <td>Phase locked loop (w/ frequency to voltage converter)</td> 
+        </tr> 
+        <tr> 
+         <td><a href="miscellaneous/LM567%20tone%20decoder.pdf">LM567</a></td> 
+         <td>Tone decoder</td> 
+        </tr> 
+        <tr> 
+         <td><a href="miscellaneous/OPL550%20optosensor.pdf">OPL550</a></td> 
+         <td>Buffered optosensor</td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <!--  Oscillators ------------------------------------> <h3> Oscillators </h3> 
+      <table class="icTable"> 
+       <tbody>
+        <tr> 
+         <td>Device</td> 
+         <td colspan="2">Frequency</td> 
+         <td>V<sub>out max</sub></td> 
+         <td>I<sub>out</sub></td> 
+         <td>comments</td> 
+        </tr> 
+        <tr> 
+         <td></td> 
+         <td>min</td> 
+         <td>max</td> 
+         <td></td> 
+         <td></td> 
+         <td></td> 
+        </tr> 
+        <tr> 
+         <td><a href="oscillators/LM555.pdf">LM555</a></td> 
+         <td>0</td> 
+         <td>2MHz</td> 
+         <td>2-15V</td> 
+         <td>200mA</td> 
+         <td>free design software available <a href="http://www.schematica.com/555_timer_design/555_timer_free.html">here</a></td> 
+        </tr> 
+        <tr> 
+         <td><a href="oscillators/LM556.pdf">LM556</a></td> 
+         <td>0</td> 
+         <td>2MHz</td> 
+         <td>2-15V</td> 
+         <td>200mA</td> 
+         <td>dual 555's</td> 
+        </tr> 
+        <tr> 
+         <td><a href="ocillators/ICL8038%20waveform%20generator.pdf">ICL8038</a></td> 
+         <td>0</td> 
+         <td>300kHz</td> 
+         <td>2-28V</td> 
+         <td>12mA</td> 
+         <td>sine, triangle, or squarewave outputs</td> 
+        </tr> 
+        <tr> 
+         <td> <a href="ocillators/Adjustable%20timer%20counter%20oscillator%20CD4060.pdf">CD4060</a></td> 
+         <td>690kHz</td> 
+         <td>12MHz</td> 
+         <td>5V</td> 
+         <td>CMOS digital</td> 
+         <td>self-contained, cheap</td> 
+        </tr> 
+       </tbody>
+      </table> <p class="notes">Notes</p> <p class="notesList">All outputs are squarewaves except for ICL8038</p> 
+      <!--  OPAMPS ------------------------------------> <h3>OPAMPS</h3> 
+      <table class="icTable"> 
+       <tbody>
+        <tr> 
+         <td>Device</td> 
+         <td colspan="2">General</td> 
+         <td colspan="2">V<sub>power</sub></td> 
+         <td colspan="2">Input</td> 
+         <td colspan="2">Output</td> 
+        </tr> 
+        <tr> 
+         <td style="height: 29px"></td> 
+         <td style="height: 29px">#<sup>1</sup></td> 
+         <td style="height: 29px">Slew</td> 
+         <td style="width: 39px; height: 29px">Low</td> 
+         <td style="width: 28px; height: 29px">High</td> 
+         <td style="height: 29px">I<sub>b</sub></td> 
+         <td style="height: 29px">V<sub>off</sub></td> 
+         <td style="height: 29px">V<sub>swing limit</sub><sup>2</sup></td> 
+         <td style="height: 29px">I<sub>max</sub></td> 
+        </tr> 
+        <tr> 
+         <td style="height: 19px"><a href="opamps/LM324%20quad.pdf">LM324</a></td> 
+         <td style="height: 19px">4</td> 
+         <td style="height: 19px">7V/us</td> 
+         <td style="width: 39px; height: 19px">3V</td> 
+         <td style="width: 28px; height: 19px">32V</td> 
+         <td style="height: 19px">45nA</td> 
+         <td style="height: 19px">2mV</td> 
+         <td style="height: 19px">V<sup>-</sup> to V<sup>+</sup>-1.5</td> 
+         <td style="height: 19px">20mA</td> 
+        </tr> 
+        <tr> 
+         <td style="height: 25px"><a href="opamps/LM741.pdf">LM741</a></td> 
+         <td style="height: 25px">1</td> 
+         <td style="height: 25px">0.5V/us</td> 
+         <td style="width: 39px; height: 25px;">5V</td> 
+         <td style="width: 28px; height: 25px;">44V</td> 
+         <td style="height: 25px">80nA</td> 
+         <td style="height: 25px">1mV</td> 
+         <td style="height: 25px">V<sup>-</sup>+2.1 to V<sup>+</sup>-2.1</td> 
+         <td style="height: 25px">25mA</td> 
+        </tr> 
+        <tr> 
+         <td style="height: 21px"><a href="opamps/LMC6081%20opamp.pdf">LMC6081</a></td> 
+         <td style="height: 21px">1</td> 
+         <td style="height: 21px">0.8V/us</td> 
+         <td style="height: 21px; width: 39px;">4.5V</td> 
+         <td style="height: 21px; width: 28px;">15V</td> 
+         <td style="height: 21px">10fA</td> 
+         <td style="height: 21px">0.15mV</td> 
+         <td style="height: 21px">V<sup>-</sup> to V<sup>+</sup></td> 
+         <td style="height: 21px">30mA</td> 
+        </tr> 
+        <tr> 
+         <td style="height: 21px"><a href="opamps/LMC6082%20opamp.pdf">LMC6082</a></td> 
+         <td style="height: 21px">2</td> 
+         <td style="height: 21px">0.8V/us</td> 
+         <td style="height: 21px; width: 39px;">4.5V</td> 
+         <td style="height: 21px; width: 28px;">15V</td> 
+         <td style="height: 21px">10fA</td> 
+         <td style="height: 21px">0.15mV</td> 
+         <td style="height: 21px">V<sup>-</sup> to V<sup>+</sup></td> 
+         <td style="height: 21px">30mA</td> 
+        </tr> 
+        <tr> 
+         <td><a href="opamps/LMC6084%20opamp.pdf">LMC6084</a></td> 
+         <td>4</td> 
+         <td>0.8V/us</td> 
+         <td style="height: 21px; width: 39px;">4.5V</td> 
+         <td style="height: 21px; width: 28px;">15V</td> 
+         <td>10fA</td> 
+         <td>0.15mV</td> 
+         <td>V<sup>-</sup> to V<sup>+</sup></td> 
+         <td style="height: 21px">30mA</td> 
+        </tr> 
+        <tr> 
+         <td style="height: 24px"><a href="opamps/LMC6482%20(2%20%20R-R).pdf">LMC6482</a></td> 
+         <td style="height: 24px">2</td> 
+         <td style="height: 24px">1.3V/us</td> 
+         <td style="width: 39px; height: 24px;">3V</td> 
+         <td style="width: 28px; height: 24px;">16V</td> 
+         <td style="height: 24px">20fA</td> 
+         <td style="height: 24px">0.9mV</td> 
+         <td style="height: 24px">V<sup>-</sup> to V<sup>+</sup></td> 
+         <td style="height: 24px">20mA</td> 
+        </tr> 
+        <tr> 
+         <td><a href="opamps/LMC6484%20(4%20R-R).pdf">LMC6484</a></td> 
+         <td>4</td> 
+         <td>1.3V/us</td> 
+         <td style="width: 39px">3V</td> 
+         <td style="width: 28px">16V</td> 
+         <td>20fA</td> 
+         <td>0.9mV</td> 
+         <td>V<sup>-</sup> to V<sup>+</sup></td> 
+         <td style="height: 24px">20mA</td> 
+        </tr> 
+        <tr> 
+         <td><a href="opamps/NJM3403.pdf">NJM3403</a></td> 
+         <td>4</td> 
+         <td>1.2V/us</td> 
+         <td style="width: 39px">4V</td> 
+         <td style="width: 28px">36V</td> 
+         <td>70nA</td> 
+         <td>2mV</td> 
+         <td>V<sup>-</sup>+1 to V<sup>+</sup>-1</td> 
+         <td>40mA</td> 
+        </tr> 
+        <tr> 
+         <td><a href="opamps/OPA548%20high%20current%20opamp.pdf">OPA548</a></td> 
+         <td>1</td> 
+         <td>10V/us</td> 
+         <td style="width: 39px">8V</td> 
+         <td style="width: 28px">60V</td> 
+         <td>100nA</td> 
+         <td>2mV</td> 
+         <td>V<sup>-</sup>+3.3 to V<sup>+</sup>-3.7</td> 
+         <td>3A !</td> 
+        </tr> 
+       </tbody>
+      </table> <p class="notes">Notes</p> <p class="notesList"> 1. Number of OPAMPs on each chip.<br> 2. The output voltage swing is usually not rail-to-rail (i.e. cannot go entirely between the low and high chip supply voltages). Vswing limit refers to how close the output voltages can approach the positive and negative voltage supply rails (e.g. an AD741 powered from -5V and 5V can have an output that varies from -3.9V to 3.9V). R-R, or Rail to rail, means that the output voltage can swing anywhere between the two power supply rails (i.e. same as specifying a Vswing limit = Vsupply ± 0V). </p> 
+      <!--  transistors ------------------------------------> <h3>Transistors</h3> 
+      <table class="icTable"> 
+       <tbody>
+        <tr> 
+         <td>Device</td> 
+         <td>type</td> 
+         <td>polarity</td> 
+         <td>V<sub>max</sub><sup>1</sup></td> 
+         <td>I<sub>max</sub><sup>2</sup></td> 
+         <td>R<sub>DS</sub><sup>3</sup></td> 
+        </tr> 
+        <tr> 
+         <td><a href="transistors/2N3904%20NPN%20gen%20purpose%20BJT.pdf">2N3904</a></td> 
+         <td>BJT</td> 
+         <td>NPN</td> 
+         <td>40V</td> 
+         <td>200mA</td> 
+         <td>-</td> 
+        </tr> 
+        <tr> 
+         <td><a href="transistors/2N3906%20PNP%20gen%20purpose%20BJT.pdf">2N3906</a></td> 
+         <td>BJT</td> 
+         <td>PNP</td> 
+         <td>40V</td> 
+         <td>200mA</td> 
+         <td>-</td> 
+        </tr> 
+        <tr> 
+         <td><a href="transistors/2N7000%2060V%200.4A%20gen%20purpose%20NMOS%20FET.pdf">2N7000</a></td> 
+         <td>FET</td> 
+         <td>NMOS</td> 
+         <td>60V</td> 
+         <td>400mA</td> 
+         <td>2 ohm</td> 
+        </tr> 
+        <tr> 
+         <td><a href="transistors/IRF510%20100V%205A%200.5ohm%20FET.pdf">IRF510</a></td> 
+         <td>FET</td> 
+         <td>NMOS</td> 
+         <td>100V</td> 
+         <td>5A</td> 
+         <td>0.5 ohm</td> 
+        </tr> 
+        <tr> 
+         <td><a href="transistors/IRF540%20100V%2033A%2040mohm%20FET.pdf">IRF540</a></td> 
+         <td>FET</td> 
+         <td>NMOS</td> 
+         <td>100V</td> 
+         <td>33A</td> 
+         <td>40 mohm</td> 
+        </tr> 
+        <tr> 
+         <td><a href="transistors/IRF3205%2055V%20110A%208mohm%20FET.pdf">IRF3205</a></td> 
+         <td>FET</td> 
+         <td>NMOS</td> 
+         <td>55V</td> 
+         <td>110A</td> 
+         <td>8 mohm</td> 
+        </tr> 
+       </tbody>
+      </table> <p class="notes">Notes</p> <p class="notesList"> 1. Vmax is the maximum VCE for BJT's or VDS for FET's.<br> 2. Imax is maximum collector current for BJT's or maximum drain current for FET's.<br> 3. Rds is for FET's when turned on. Ideally 0 ohms, this specifies how closely the FET looks like a closed switch. </p> 
+      <!--  voltage regulators ------------------------------------> <h3>Voltage Regulators</h3> 
+      <table class="icTable"> 
+       <tbody>
+        <tr> 
+         <td>device</td> 
+         <td colspan="2">output</td> 
+         <td colspan="2">input</td> 
+         <td>type<sup>1</sup></td> 
+         <td>error<sup>2</sup></td> 
+         <td>pkg</td> 
+         <td>comments</td> 
+        </tr> 
+        <tr> 
+         <td></td> 
+         <td>V<sub>reg</sub></td> 
+         <td>I<sub>max</sub></td> 
+         <td>V<sub>max</sub></td> 
+         <td>V<sub>d</sub><sup>3</sup></td> 
+         <td></td> 
+         <td></td> 
+         <td></td> 
+         <td></td> 
+        </tr> 
+        <tr> 
+         <td><a href="voltage_regulators/7805,%207812.pdf">78L05</a></td> 
+         <td>5V</td> 
+         <td>100mA</td> 
+         <td>30V</td> 
+         <td>1.7V@40mA</td> 
+         <td>L</td> 
+         <td>no</td> 
+         <td>TO92, SMT</td> 
+         <td>classic</td> 
+        </tr> 
+        <tr> 
+         <td style="height: 21px"> <a href="voltage_regulators/7805,7812.pdf">78L05</a></td> 
+         <td style="height: 21px">5V</td> 
+         <td style="height: 21px">1A</td> 
+         <td style="height: 21px">30V</td> 
+         <td style="height: 21px">2V@100mA</td> 
+         <td style="height: 21px">L</td> 
+         <td style="height: 21px">no</td> 
+         <td style="height: 21px">TO220, SMT</td> 
+         <td style="height: 21px">classic</td> 
+        </tr> 
+        <tr> 
+         <td> <a href="voltage_regulators/7905,%207912%20-5,-12%20100mA%20TO-92.pdf"> 79L05</a></td> 
+         <td>-5V</td> 
+         <td>100mA</td> 
+         <td>35V</td> 
+         <td>1.7V@40mA</td> 
+         <td>L</td> 
+         <td>no</td> 
+         <td>TO92, SMT</td> 
+         <td>classic</td> 
+        </tr> 
+        <tr> 
+         <td><a href="voltage_regulators/7905,%207912%20-5,-12%201A%20TO-220.pdf">79L12</a></td> 
+         <td>-12V</td> 
+         <td>1A</td> 
+         <td>35V</td> 
+         <td>2V@100mA</td> 
+         <td>L</td> 
+         <td>no</td> 
+         <td>TO220, SMT</td> 
+         <td>classic</td> 
+        </tr> 
+        <tr> 
+         <td style="height: 21px"> <a href="voltage_regulators/LM317%20adjustable%20(1.2-37V)%201.5A%20voltage%20regulator.pdf">LM317</a></td> 
+         <td style="height: 21px">1.2-37V</td> 
+         <td style="height: 21px">1.5A</td> 
+         <td style="height: 21px">40V</td> 
+         <td style="height: 21px">1.6V@100mA</td> 
+         <td style="height: 21px">L</td> 
+         <td style="height: 21px">no</td> 
+         <td style="height: 21px">TO220, SMT</td> 
+         <td style="height: 21px">variable</td> 
+        </tr> 
+        <tr> 
+         <td style="height: 21px"><a href="voltage_regulators/LP2953.pdf">LP2953</a></td> 
+         <td style="height: 21px">5V</td> 
+         <td style="height: 21px">250mA</td> 
+         <td style="height: 21px">30V</td> 
+         <td style="height: 21px">0.024V @80mA</td> 
+         <td style="height: 21px">L</td> 
+         <td style="height: 21px">yes</td> 
+         <td style="height: 21px">DIP, SMT</td> 
+         <td style="height: 21px"></td> 
+        </tr> 
+        <tr> 
+         <td style="height: 24px"><a href="voltage_regulators/LP3871%20(3.3V%20or%205V)%20800mA%20LDO.pdf">LP3871</a></td> 
+         <td style="height: 24px">5V<sup>4</sup></td> 
+         <td style="height: 24px">800mA</td> 
+         <td style="height: 24px">7V</td> 
+         <td style="height: 24px">0.024V@80mA</td> 
+         <td style="height: 24px">L</td> 
+         <td style="height: 24px">yes</td> 
+         <td style="height: 24px">TO220, SMT</td> 
+         <td style="height: 24px"></td> 
+        </tr> 
+        <tr> 
+         <td><a href="voltage_regulators/ICL7663.pdf">ICL7663</a></td> 
+         <td>1.6-16V</td> 
+         <td>50mA</td> 
+         <td>18V</td> 
+         <td>1V@10mA</td> 
+         <td>L</td> 
+         <td>no</td> 
+         <td>DIP, SMT</td> 
+         <td>&nbsp;</td> 
+        </tr> 
+        <tr> 
+         <td><a href="voltage_regulators/ICL7665.pdf">ICL7665</a></td> 
+         <td>1.6-16V</td> 
+         <td colspan="5">dual comparator w/ reference for V regs</td> 
+         <td>DIP, SMT</td> 
+         <td>&nbsp;</td> 
+        </tr> 
+        <tr> 
+         <td><a href="voltage_regulators/TLE2426%20ground%20splitter%20(digikey).pdf">TLE2426</a></td> 
+         <td>4-40V</td> 
+         <td colspan="5">Ground splitter<sup>5</sup>, 80mA max</td> 
+         <td>TO92</td> 
+         <td></td> 
+        </tr> 
+       </tbody>
+      </table> <p class="notes">Notes</p> <p class="notesList"> 1. Type can be L for linear or S for switching. Linear regulators have the least output ripple and won't inject noise in the system. They work by reducing the difference between the input and output voltage as heat, so they often require heat sinks. Switch mode power supplies work by turning on and off typically hundreds of thousands of times each second. They dissipate much less power, but introduce typically 10mV to 100mV of ripple into the output. <br> 2. Some chips have a pin that indicates if the output is in-regulation or not.<br> 3. V<sub>d</sub> is the dropout voltage, the minimum voltage that the input must exceed the output for the output to be regulated. It is a strong function of output current.<br> 4. 2.5V and 3.3V versions are also available.<br> 5. A ground splitter takes a ground and a Vcc supply, and creates a new supply output at Vcc/2. This is typically used as a virtual ground, giving the user ±Vcc/2 and the virtual ground supplies.</p> 
+      <!--  End -----------------------------------> </td> 
+    </tr> 
+   </tbody>
+  </table>  
+ </body>
+</html>

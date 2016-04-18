@@ -1,0 +1,350 @@
+<html>
+ <head> 
+  <title>VMI ScholarShare: About ScholarShare</title> 
+  <link type="text/css" href="http://digitalcollections.vmi.edu/ui/custom/default/collection/default/css/main.css?version=1425924586" rel="stylesheet"> 
+  <link type="text/css" href="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~bt~jquery.bt.css/version/1423204222/type/stylesheet" rel="stylesheet"> 
+  <link type="text/css" href="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~skins~tango~skin.css/version/1423204281/type/stylesheet" rel="stylesheet"> 
+  <link type="text/css" href="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~skins~cdm~skin.css/version/1423204222/type/stylesheet" rel="stylesheet"> 
+  <link href="http://digitalcollections.vmi.edu/ui/custom/default/collection/coll_p15821coll9/css/collection.css?version=1425924586" type="text/css" rel="stylesheet"> 
+  <style>
+    .line_breaker, pre {
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: pre-line;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -hp-pre-wrap;
+        word-wrap: break-word;
+    } 
+  </style> 
+  <style type="text/css">
+body{
+	background-color:#e6e6e6;
+}
+#header{
+	width:100%;
+	 background-image: url("images/background.png");
+    background-repeat: repeat-x;
+	height:175px;
+	text-align:center;
+	z-index:10;
+}
+#menubar{
+width:100%;
+background-color:#a9a9a9;	
+height:26px;
+-moz-border-top-right-radius: 10px;
+-webkit-top-right-radius: 10px;
+border-top-right-radius: 10px; 
+-moz-top-left-radius: 10px;
+-webkit-top-left-radius: 10px;
+border-top-left-radius: 10px; 
+line-height:26px;
+border-bottom:1px #000 solid;
+}
+#topmenu{
+-moz-top-left-radius: 10px;
+-webkit-top-left-radius: 10px;
+border-top-left-radius: 10px; 
+background-color:#666666;	
+padding-left:15px;
+float:left;
+margin-left:0;
+
+}
+
+.menuitem{
+color:#fff;
+float:left;
+font-weight:bold;
+background-color:#666666;
+border-right:1px #000 solid;
+padding-left:10px;
+padding-right:10px;	
+font-size:1.1em;
+}
+
+.menuitem a {
+color:#fff;
+font-weight:bold;
+text-decoration: none;
+}
+
+.menuitem:hover{
+background-color:#333;
+}
+
+.over  {
+background-color:#333;
+}
+
+
+
+#center {
+	z-index:2;
+max-width:1000px;
+width:75%;
+margin-right: auto;
+margin-left: auto;
+margin-top:15px;
+background-color:#fff;
+-webkit-box-shadow: 2px 2px 8px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    2px 2px 8px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         2px 2px 8px 0px rgba(50, 50, 50, 0.75);
+
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; 
+font-size:1em;
+	
+}
+
+#bottomcontent{
+	color:#000;
+	font-size:1.1em;
+    margin-left:0;
+	FLOAT:left;
+	width:95%;
+	padding:20px;
+
+
+}
+
+#bottomcontent a{
+color:#660000;
+}
+
+#bottomcontent hr{
+	border:0;
+	height:1px;
+ background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.65), rgba(0,0,0,0));
+ background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.65), rgba(0,0,0,0));
+  background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.65), rgba(0,0,0,0));
+ background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.65), rgba(0,0,0,0));
+
+ }
+
+ .clear {clear:both;}
+ 
+ 
+ .browse {
+	 font-size:1.3em;
+	 color:#000;
+	 border-bottom:#000 1px solid;
+	 font-weight:bold;
+	 width:300px;
+	 line-height:30px;
+	 
+	 
+ }
+ 
+ .browse a{
+	 text-decoration:none;
+	 color:#000;
+ }
+ 
+ #deptitems
+ {
+	display:none; 
+ }
+ 
+ #searchbox{
+	background-color:#fff;
+	border-top: #e7e7e7 0px solid; 
+	border-bottom: #e7e7e7 0px solid; 
+	margin-top:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+ }
+ 
+ #searchleft{
+	 	 background-image: url("images/graybackground.jpg");
+
+	float:left;
+	margin-left:0; 
+	width:47%; 
+	padding-left:1%;
+border: 5px solid #fff;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);	height:273px;
+	 }
+
+	 
+	 
+ 
+ #searchright{
+	 float:right;
+	   background-image: url("images/faculty.jpg");
+  background-repeat: no;
+  height:273px;
+  padding-right:1%;
+  width:48%;
+  max-width:451px;
+overflow:hidden;	
+border: 5px solid #fff;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); 
+	 }
+ 
+ #deposit{
+  background-image: url("images/deposit.png");
+  background-repeat: no;
+  width:175px;
+  height:75px;
+ }
+ 
+  #deposit:active{
+  background-image: url("images/deposit_over.png");
+  }
+  
+   #deposit a{
+	position:absolute;
+	width:175px;
+	height:75px;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+
+   }
+.float_bottom{
+	margin-left:0px;
+	padding-top:30px;
+}
+
+.redbutton{
+	
+ background-color: #7d0000;
+    border: 1px solid #330000;
+    color: #ffcc00;
+    cursor: pointer;
+    font-family: Verdana,Arial,Helvetica;
+    font-size: 10px;
+    font-weight: bold;
+    height: 25px;
+    margin: 0 5px 0 0;
+    padding: 0px 6px 0px;
+    text-align: center;
+	
+	}
+	
+	#bottomleft{
+		float:left;
+		margin-left:0;
+		width:65%;
+	}
+	
+	#bottomright{
+	float:right;
+		
+	}
+	
+	.browselist li{
+	font-size:1.4em;	
+	}
+	.browselist li a{
+color:#525252;
+text-decotration:none;
+	}
+	
+  .searchinput{
+	  width:75%;
+  }
+  
+  #contact{
+border: #dedede 4px solid;
+padding:10px;
+text-align:center;
+  }
+  
+  #findlist{
+	  margin-left:0px;
+	  padding-top:10px;
+  }
+  h3 {margin-left:25px;
+  }
+   p {margin-left:25px;
+   text-indent:-25px;> 
+  }
+  
+  
+
+#citations{
+	
+	float:left;
+	margin-left:0;
+	width: 100%;
+	padding-top:10px;
+}
+
+#bioinfo{
+	float:left;
+	width:175px;
+}
+#openheader{
+	
+	float:left;}
+	
+	  .tiny{
+	  color:#666;
+	  font-size:0.9em;
+  }
+</style> 
+ </head> 
+ <body> 
+  <div id="header"> 
+   <img src="images/masthead.png"> 
+  </div> 
+  <div id="center"> 
+   <div id="menubar"> 
+    <div id="topmenu"> 
+     <div class="menuitem">
+      <a href="index.php">ScholarShare Home</a>
+     </div> 
+     <div class="menuitem over">
+      <a href="browse.php">Browse/Search</a>
+     </div> 
+     <div class="menuitem">
+      <a href="deposit.php">Deposit Your Work</a>
+     </div> 
+     <div class="menuitem">
+      <a href="about.php">About ScholarShare</a>
+     </div> 
+    </div> 
+   </div> 
+   <div id="bottomcontent"> 
+    <div id="bottomleft"> 
+     <div id="openheader">
+      <h1>Reksulak, Michael</h1>
+     </div>
+     <div id="citations">
+      <p>Basuchoudhary, Atin; Reksulak, Michael. 2007. "<a href="http://digitalcollections.vmi.edu/utils/getdownloaditem/collection/p15821coll9/id/12/filename/13.pdf.pdf">Losing the Edge at the Final Frontier: A Relative Decline in Scientific Inputs and Its Consequence</a>." <em>Applied Econometrics and International Development</em> 7(2):23-36. <span class="tiny">(<a href="http://digitalcollections.vmi.edu/cdm/singleitem/collection/p15821coll9/id/12">View full record</a>)</span></p>
+      <hr>
+     </div> 
+    </div> 
+    <div id="bottomright"> 
+     <div id="deposit"> 
+      <a target="_parent" href="deposit.php"></a> 
+     </div> 
+     <h3>Quick Links</h3> 
+     <ul> 
+      <li><a href="gettingstarted.php">Getting Started</a></li> 
+      <li><a href="browse.php">Searching ScholarShare</a></li> 
+      <li><a href="http://libguides.vmi.edu/scholarshare">ScholarShare LibGuide</a></li> 
+     </ul> 
+     <div id="contact"> 
+      <p><strong>For assistance, please contact:</strong></p>
+      <br> ScholarShare
+      <br> Preston Library
+      <br> Virginia Military Institute
+      <br> 
+      <a href="mailto:scholarshare@vmi.edu">scholarshare@vmi.edu</a>
+      <br> 
+     </div> 
+    </div> 
+    <br class="clear"> 
+   </div> 
+   <br class="clear"> 
+  </div>   
+ </body>
+</html>

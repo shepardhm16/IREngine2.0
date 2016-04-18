@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>Federally Funded Research - ScholarShare - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noindex,nofollow,noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: ScholarShare: Federally Funded Research"> 
+  <meta name="DC.Creator" content="Accacia Mullen"> 
+  <meta name="DC.Subject" content=""> 
+  <meta name="DC.Description" content="Resources for anyone working on, or learning about, ScholarShare, the open-access institutional repository at Preston Library, Virginia Military Institute."> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=216797&amp;p=1444621"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Feb 4, 2015"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Oct 21, 2015"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px;
+                                -moz-border-radius: 4px;
+                                border-radius: 4px;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px;
+                                -moz-border-radius: 4px;
+                                border-radius: 4px;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px;
+                                -moz-border-radius: 4px;
+                                border-radius: 4px;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px;
+                                -moz-border-radius: 4px;
+                                border-radius: 4px;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 4px 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 4px 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 4px 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 4px 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 216797,
+				page_id: 1444621,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-1444621";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '216797',_st_page_id: '1444621'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '216797',_st_page_id: '1444621'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <!-- SIDE NAV --> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="ScholarShare" href="http://libguides.vmi.edu/ScholarShare">ScholarShare </a> </li> 
+     <li id="s-lib-bc-page" class="active">Federally Funded Research </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="216797"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">ScholarShare</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description">Resources for anyone working on, or learning about, ScholarShare, the open-access institutional repository at Preston Library, Virginia Military Institute.</span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Header --> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <div id="s-lg-side-nav-content" class="container s-lib-side-borders pad-top-med"> 
+   <div class="row"> 
+    <div class="col-md-3 s-lg-tabs-side pad-bottom-med"> 
+     <div id="s-lg-tabs-container"> 
+      <div id="s-lg-guide-tabs"> 
+       <ul class="nav nav-pills nav-stacked split-button-nav"> 
+        <li role="presentation"> <a title="" class="" href="/c.php?g=216797&amp;p=1431682"> <span>Home</span> </a> </li> 
+        <li role="presentation"> <a title="" class="" href="/c.php?g=216797&amp;p=1431683"> <span>What is an Institutional Repository?</span> </a> </li> 
+        <li role="presentation"> <a title="" class="" href="/c.php?g=216797&amp;p=1431684"> <span>What is Open Access?</span> </a> </li> 
+        <li role="presentation"> <a title="" class="" href="/c.php?g=216797&amp;p=1431691"> <span>Author's Rights</span> </a> </li> 
+        <li role="presentation" class="active"> <a title="" class="active" href="/c.php?g=216797&amp;p=1444621"> <span>Federally Funded Research</span> </a> </li>
+       </ul> 
+       <div class="s-lg-row margin-top-med"> 
+        <div id="s-lg-col-0"> 
+         <div class="s-lg-col-boxes"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="col-md-9"> 
+     <div class="s-lg-tab-content"> 
+      <div id="s-lg-guide-main" class="tab-pane active"> 
+       <div class="row s-lg-row"> 
+        <div id="s-lg-col-1" class="col-md-12"> 
+         <div class="s-lg-col-boxes"> 
+          <div id="s-lg-box-wrapper-5446149" class="s-lg-box-wrapper-5446149"> 
+           <div id="s-lg-box-4616653-container" class="s-lib-box-container"> 
+            <div id="s-lg-box-4616653" class="s-lib-box s-lib-box-std"> 
+             <h2 class="s-lib-box-title">General Information about Federally Funded Research </h2> 
+             <div id="s-lg-box-collapse-4616653"> 
+              <div class="s-lib-box-content"> 
+               <div class=""> 
+                <ul id="s-lg-link-list-10104627" class="s-lg-link-list s-lg-link-list-2">
+                 <li class=""> 
+                  <div id="s-lg-content-8975792" class=""> 
+                   <span><a href="http://www.arl.org/focus-areas/public-access-policies/federally-funded-research#.VP2mWKPD8zs" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '8975792'});">Association of Research Libraries (ARL)</a> </span>
+                   <div id="s-lg-link-desc-8975792" class="s-lg-link-desc">
+                    ARL provides the current status of access to federally funded research.
+                   </div> 
+                  </div></li> 
+                </ul> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div>
+          </div>
+          <div id="s-lg-box-wrapper-5162462" class="s-lg-box-wrapper-5162462"> 
+           <div id="s-lg-box-4381858-container" class="s-lib-box-container"> 
+            <div id="s-lg-box-4381858" class="s-lib-box s-lib-box-std"> 
+             <h2 class="s-lib-box-title">What is PubMed Central? </h2> 
+             <div id="s-lg-box-collapse-4381858"> 
+              <div class="s-lib-box-content"> 
+               <div id="s-lg-content-8436686" class="  clearfix"> 
+                <p><a href="http://www.ncbi.nlm.nih.gov/pmc/">PubMed Central® (PMC)</a> is a free full-text archive of biomedical and life sciences journal literature at the U.S. National Institutes of Health's National Library of Medicine (NIH/NLM).&nbsp; In keeping with NLM’s legislative mandate to collect and preserve the biomedical literature, PMC serves as a digital counterpart to NLM’s extensive print journal collection. Launched in February 2000, PMC was developed and is managed by NLM’s National Center for Biotechnology Information (NCBI).</p> 
+                <p>PMC is designed to provide permanent access to all of its content, even as technology evolves and current digital literature formats potentially become obsolete. NLM believes that the best way to ensure the accessibility and viability of digital material over time is through consistent and active use of the archive. For this reason, free access to all of its journal literature is a core principle of PMC.</p> 
+                <p>PMC provides free access to articles from journals that deposit their content in the archive. Although the articles are free, they are still protected by copyright. (See <a href="http://www.ncbi.nlm.nih.gov/pmc/about/copyright/"><u>PMC Copyright Information</u></a> for more information.)</p> 
+               </div>
+               <div class=""> 
+                <ul id="s-lg-link-list-9527461" class="s-lg-link-list s-lg-link-list-2">
+                 <li class=""> 
+                  <div id="s-lg-content-8437361" class=""> 
+                   <span><a href="http://www.ncbi.nlm.nih.gov/pmc/about/faq/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '8437361'});">PMC FAQs</a> </span>
+                   <div id="s-lg-link-desc-8437361" class="s-lg-link-desc">
+                    Answers to many of the questions PMC frequently receives.
+                   </div> 
+                  </div></li> 
+                </ul> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div>
+          </div>
+          <div id="s-lg-box-wrapper-5162522" class="s-lg-box-wrapper-5162522"> 
+           <div id="s-lg-box-4381907-container" class="s-lib-box-container"> 
+            <div id="s-lg-box-4381907" class="s-lib-box s-lib-box-std"> 
+             <h2 class="s-lib-box-title">How are articles provided to PMC? </h2> 
+             <div id="s-lg-box-collapse-4381907"> 
+              <div class="s-lib-box-content"> 
+               <div id="s-lg-content-8437028" class="  clearfix"> 
+                <p>Journal articles are deposited by participating publishers of PMC.&nbsp;</p> 
+                <p>Authors can submitt manuscripts that are in compliance with the <a href="http://www.ncbi.nlm.nih.gov/pmc/about/public-access-info/">Public Access Policy</a> mandated by NIH and similar policies of other research funding agencies.</p> 
+                <p>PMC is not a publisher and does not publish journal articles itself.</p> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div>
+          </div>
+          <div id="s-lg-box-wrapper-5162611" class="s-lg-box-wrapper-5162611"> 
+           <div id="s-lg-box-4381984-container" class="s-lib-box-container"> 
+            <div id="s-lg-box-4381984" class="s-lib-box s-lib-box-std"> 
+             <h2 class="s-lib-box-title">How are NIH-funded articles submitted to PMC? </h2> 
+             <div id="s-lg-box-collapse-4381984"> 
+              <div class="s-lib-box-content"> 
+               <div id="s-lg-content-8437059" class="  clearfix"> 
+                <p>The <i>final, published versions</i> of NIH-funded articles are supplied to PMC only through publishers who have formal <a class="link" href="http://www.ncbi.nlm.nih.gov/pmc/pub/pubinfo.html#agree" target="pmc_ext">PMC participation agreements</a>. NIH-funded <i>author manuscripts</i> must be submitted through the <a class="link" href="http://www.nihms.nih.gov/" target="pmc_ext">NIH Manuscript Submission (NIHMS) system</a>. The submission process may be initiated by either an author or a publisher, but must be completed by the author. For an overview of different submission methods, see this <a href="http://publicaccess.nih.gov/submit_process.htm/">NIH Public Access Policy page</a>.</p> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div>
+          </div>
+          <div id="s-lg-box-wrapper-5162651" class="s-lg-box-wrapper-5162651"> 
+           <div id="s-lg-box-4382022-container" class="s-lib-box-container"> 
+            <div id="s-lg-box-4382022" class="s-lib-box s-lib-box-std"> 
+             <h2 class="s-lib-box-title">NIH Public Access Policy </h2> 
+             <div id="s-lg-box-collapse-4382022"> 
+              <div class="s-lib-box-content"> 
+               <div class=""> 
+                <ul id="s-lg-link-list-9527225" class="s-lg-link-list s-lg-link-list-2">
+                 <li class=""> 
+                  <div id="s-lg-content-8437151" class=""> 
+                   <span><a href="http://publicaccess.nih.gov/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '8437151'});">NIH Public Access Policy</a> </span>
+                   <div id="s-lg-link-desc-8437151" class="s-lg-link-desc">
+                    The NIH public access policy requires scientists to submit final peer-reviewed journal manuscripts that arise from NIH funds to PubMed Central immediately upon acceptance for publication.
+                   </div> 
+                   <div class="s-lg-label-moreinfo"> 
+                    <a class="s-lg-label-more" id="s-lg-content-more-8437151" href="javascript:void();" style="display:block; font-style:italic;" onclick="
+								jQuery('#s-lg-content-moreinfo-8437151').toggle();
+								jQuery('#s-lg-content-less-8437151').toggle();
+								jQuery('#s-lg-content-more-8437151').toggle();">more...</a> 
+                    <a class="s-lg-label-less" id="s-lg-content-less-8437151" href="javascript:void();" style="display:none; font-style:italic;" onclick="
+								jQuery('#s-lg-content-moreinfo-8437151').toggle();
+								jQuery('#s-lg-content-more-8437151').toggle();
+								jQuery('#s-lg-content-less-8437151').toggle(); ">less...</a> 
+                   </div> 
+                   <div id="s-lg-content-moreinfo-8437151" class="s-lg-content-moreinfo" style="display:none;">
+                    Provides When &amp; How to Comply Information for the author. 
+                   </div> 
+                  </div></li> 
+                 <li class=""> 
+                  <div id="s-lg-content-8437164" class=""> 
+                   <span><a href="http://publicaccess.nih.gov/policy.htm" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '8437164'});">NIH Public Access Policy Details</a> </span>
+                   <div id="s-lg-link-desc-8437164" class="s-lg-link-desc">
+                    Provides applicability, guide notices, and testimony and other policy related communications.
+                   </div> 
+                  </div></li> 
+                 <li class=""> 
+                  <div id="s-lg-content-8437270" class=""> 
+                   <span><a href="http://publicaccess.nih.gov/faq.htm#754" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '8437270'});">FAQ</a> </span>
+                   <div id="s-lg-link-desc-8437270" class="s-lg-link-desc">
+                    Frequently Asked Questions about the NIH Public Access Policy.
+                   </div> 
+                  </div></li> 
+                </ul> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div>
+          </div>
+          <div id="s-lg-box-wrapper-5162717" class="s-lg-box-wrapper-5162717"> 
+           <div id="s-lg-box-4382071-container" class="s-lib-box-container"> 
+            <div id="s-lg-box-4382071" class="s-lib-box s-lib-box-std"> 
+             <h2 class="s-lib-box-title">Whose approval do I need to submit my final peer-reviewed manuscript to PubMed Central? </h2> 
+             <div id="s-lg-box-collapse-4382071"> 
+              <div class="s-lib-box-content"> 
+               <div id="s-lg-content-8437222" class="  clearfix"> 
+                <p>Authors own the original copyrights to materials they write. Consistent with individual arrangements with authors' employing institutions, authors often transfer some or all of these rights to the publisher when the journal agrees to publish their paper. Some publishers may ask authors to transfer these rights when the paper is first submitted to the journal.</p> 
+                <p>Authors should work with the publisher before any rights are transferred to ensure that all conditions of the NIH Public Access Policy can be met. Authors should avoid signing any agreements with publishers that do not allow the author to comply with the NIH Public Access Policy.</p> 
+                <p>Government works are not subject to copyright protection in the United States. NIH employees always must submit their final peer-reviewed manuscript to PubMed Central, even if all other authors of the article are not Federal employees.</p> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+      <li class="previous"> <a href="/c.php?g=216797&amp;p=1431691">&lt;&lt; <strong>Previous:</strong> Author's Rights</a> </li> 
+      <li class="next"> </li> 
+     </ul> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Oct 21, 2015 2:41 PM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/ScholarShare</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D216797%2526p%253D1444621&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

@@ -1,0 +1,836 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	Virginia Military Institute - Medieval Military History
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets,liberal arts, lexington, ncaa div. 1, competitive, civilian, commission, barracks, science, co-ed, public, university, ethics, honor, character, responsibility, undergraduate, leaders">
+  <meta name="Description" content="Virginia Military Institute is a small, public, nationally-ranked college committed to leadership development in a military environment in Lexington, Virginia. VMI instills values of honor, discipline, selflessness, commitment, duty, self-reliance, and service. VMI is recognized as one of America’s top colleges for liberal arts and sciences by US News &amp;amp; World Report, The Princeton Review, and Peterson’s Guide to Competitive Colleges. US News ranks VMI’s engineering programs among the twenty best in America. Men and women of VMI are free to choose military or civilian careers.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=10737427418" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BQx0aHJlZS1jb2x1bW5kAgkPDxYCHgtOYXZpZ2F0ZVVybAUBL2QWAmYPDxYCHghJbWFnZVVybAUdL2NvcmUvaW1hZ2VzL2NvbnRlbnQvbG9nby5qcGdkZAILD2QWAmYPZBYCZg9kFgQCAQ8PFgQeCENzc0NsYXNzBQxzZWFyY2gtaW5wdXQeBF8hU0ICAhYEHgdvbkZvY3VzBYYBaWYodGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVQaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7dGhpcy52YWx1ZT0nc2VhcmNoIHZtaS5lZHUnO31kAgMPEA9kFgIeBXN0eWxlBQxkaXNwbGF5Om5vbmUQFQEDVk1JFQEDVk1JFCsDAWdkZAIPDw8WAh4HVmlzaWJsZWhkZAITD2QWCAIBDw8WAh8IZ2RkAgMPDxYCHwhoZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfCGcWAgIBDw8WAh8CBTEvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvaGlzdG9yeS5qcGc/bj00ODM1ZGQCCQ8PFgIfCGdkZGQEfARwXA+rRYHzDhryTQ4W2rtOzC0+I8b9EtrGEnjfDw=="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAATEMGCPR/WUfFVX+MK446/gtVqhg79+cCaf2Muxgy28w6Ld5e0tb35jjra3L8Dofk5aGpeLsHyujys0vCNqhELeu2yHdQ7hrzOl8mxpyQ5qjSxUtBjROiz6dYX9ySa6Fi8="> 
+   </div> 
+   <div id="container" class="three-column"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities Division</a></li>
+        <li><a href="/Content.aspx?id=10737430629" target="_self">History Home</a></li>
+        <li><a href="/content.aspx?id=17225" target="_self">Degrees &amp; Programs</a></li>
+        <li><a href="http://vmi.catalog.acalog.com/preview_entity.php?catoid=15&amp;ent_oid=351&amp;returnto=448" target="_blank">Courses</a></li>
+        <li><a href="/Content.aspx?id=14041" target="_self">Referencing Papers</a></li>
+        <li><a href="/Content.aspx?id=1846" target="_self">History Advising</a></li>
+        <li><a href="/Content.aspx?id=1848" target="_self">Phi Alpha Theta</a></li>
+        <li><a href="/Content.aspx?id=1844" target="_self">Statement on Plagiarism</a></li>
+        <li><a href="/content.aspx?id=1850" target="_self">Faculty Publications</a></li>
+        <li><a href="/content.aspx?id=4013" target="_self">Adams Center Military History</a></li>
+        <li><a href="/Content.aspx?id=4294974237" target="_self">Faculty</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft1560"> 
+        <address><p><a href="mailto:shaferdp@vmi.edu" title="Deneise Shafer">Deneise Shafer</a><br> Administrative Assistant</p> <p>&nbsp;<a target="_blank" title="facebook" href="https://www.facebook.com/pages/VMI-Department-of-History/1613681962191979?ref=hl"><img border="0" src="/uploadedImages/Images/icons/facebook.png?n=469" alt="facebook" title="facebook"></a> <a href="https://twitter.com/VMIHistoryDept" title="twitter" target="_blank"><img border="0" src="/uploadedImages/Images/icons/twitter.png?n=8365" alt="twitter" title="twitter"></a><br><br> P: (540) 464-7338<br> F: (540) 464-7246</p> <p>Virginia Military Institute<br> 536 Scott Shipp Hall<br> Lexington, VA&nbsp; 24450</p> <p><a href="mailto:shaferdp@vmi.edu">Contact History</a></p> </address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/history.jpg?n=4835" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Medieval Military History</h1> 
+       <p>This bibliography is meant as a reference for undergraduates at VMI and does not represent an exhaustive list of available material. Most of the works are, therefore, in English. For those wishing a more comprehensive list of the periodical literature, please refer to the International Medieval Bibliography which has a section on military history for each year.</p> 
+       <p><strong>Reference Works</strong></p> 
+       <ul class="checklist"> 
+        <li>Higham, Robin (Ed.) <em>A Guide to the Sources of British Military History</em>, 1971.</li> 
+        <li>Bruce, Anthony, <em>A Bibliography of British Military History: From the Roman Invasions to the Restoration</em>, 1660 , 1981.</li> 
+        <li>Cambridge University Press, <em>Atlas on Medieval Warfare</em>,</li> 
+        <li>The text serves as a fine introduction to this subject.</li> 
+        <li><em>The Hutchinson Dictionary of Ancient and Medieval Warfare</em> (Matthew Bennett, ed.) , 1998.</li> 
+       </ul> 
+       <p><strong>General</strong></p> 
+       <ul class="checklist"> 
+        <li>"Medieval Military Historiography," in: M. Bentley (ed.) <em>Companion to History</em>, London: Routledge, 1997, 203-220.</li> 
+        <li>Bachrach, B.S. "Early Medieval Europe," K. Raaflaub and N. Rosenstein, <em>War and Society in the Ancient and Medieval Worlds</em>, Cambridge: Harvard University Press, 1999, pp. 271-307.</li> 
+        <li>Bachrach, B.S., "Early Military Demography,: Some Observations on the Methods of Hans Delbrueck," in D. Kagay and L.J. Villalon, <em>The Circle of War</em>, Woodbridge: Boydell, 1999, pp. 3-20.</li> 
+        <li>Bachrach, B.S. , <em>Religion and the Conduct of War</em> c. 300-1215, Boydell &amp; Brewer, 2003.</li> 
+        <li>Contamine, Philippe, <em>War in the Middle Ages</em>, 1993. (Jones translation of La Guerre au Moyen Age)</li> 
+        <li>An excellent survey of Medieval warfare. It provides a general overview of the development of warfare in Europe during the Middle Ages, a series of discussions of some important topics (such as the introduction of gunpowder artillery, the impact of military theory, the concept of courage, and opposition to war), and an extensive bibliography.</li> 
+        <li>Gillingham, J. and Holt, J.C. (eds) <em>War and Government in the Middle Ages: Essays in Honour of J. O. Prestwich</em>, Woodbridge: Boydell, 1984.</li> 
+        <li>Hooper, Nicholas and Bennett, Matthew, <em>Warfare: The Middle Ages, 762-1487</em>, 1996.</li> 
+        <li>Jorgensen, A. Norgarfd and Clausen, B.L. , Military <em>Aspects of Scandinavian Society in a European Perspective AD 1-1300</em>, Copenhagen, 1997.</li> 
+        <li>Keen, M. (ed.) <em>Medieval Warfare</em></li> 
+        <li>Morillo, Stephen, "Battle Seeking: The Contexts and Limits of Vegetian Strategy," <em>Journal of Medieval Military History</em> 1 (2002), pp. 21-41.</li> 
+        <li>Rogers, Clifford J., "The Vegetian Science of Warfare in the Middle Ages," <em>Journal of Medieval Military History</em> 1 (2202) pp. 1-19.</li> 
+       </ul> 
+       <p><strong>Medieval Warfare</strong></p> 
+       <ul class="checklist"> 
+        <li><em>The New Cambridge Medieval History</em>, vol. 2 c. 700-c. 900. Ed. M. McKitterick,</li> 
+        <li>Sir Charles Oman's <em>The Art of War in the Middle Ages</em>, 1885 (in both abridged single volume, and full two volume editions)</li> 
+        <li>While in many respects Oman's study remains valuable, scholarship in the second half of this century has demonstrated that many of his assumptions and conclusions were seriously flawed, particularly with regard to the level of competency of Medieval commanders.</li> 
+        <li>McGlynn, Sean "The Myths of Medieval Warfare" <em>History Today</em>, 44,1 (January 1994) pp. 28-34.</li> 
+        <li>Verbruggen, J.F. <em>The Art of Warfare in Western Europe During the Middle Ages</em>, 1977.</li> 
+        <li>Nicholson, Helen, <em>Medieval Warfare: theory and practice of war in Europe, 300-1500</em> Palgrave, 2004.</li> 
+        <li>Nicolle, David, <em>Medieval Warfare Source Book</em>, 1995, 2 vols.</li> 
+        <li>Vegetius: <em>Epitome of Military ScienceVegetius: Epitome of Military Science</em>, trans. Milner, N.P. 1993.</li> 
+        <li>Recently has produced the best translation of the most commonly relied upon military manual in the Middle Ages,</li> 
+       </ul> 
+       <p><strong>Medieval Technology and Weapons</strong></p> 
+       <ul class="checklist"> 
+        <li>Bachrach, Bernard S., "Charles Martel, Shock Combat, the Stirrup and Feudalism" <em>Studies in Medieval and Renaissance History</em>, Vol.7 (1970) 49-75 (reprinted in Bachrach's Armies and Politics in the Early Medieval West, cited below).</li> 
+        <li>Demonstrates that White's conclusions were based on a flawed interpretation of the evidence.</li> 
+        <li>Buttin, F. <em>Du costume militaire au Moyen Age et Pendant la Renaissance, Barcelona: Memorias de la Real Academia de Buenas Letras de Barcelona</em> 12 (1971).</li> 
+        <li>Bradbury, James, <em>The Medieval Archer</em>, Woodbridge: Boydell, 1985.</li> 
+        <li>Bradbury, James, <em>The Medieval Siege</em>, Woodbridge: Boydell, 1992.</li> 
+        <li>Cathcart-King, D.J., "The Trebuchet and Other Siege Engines,"<em> Chateau Gaillard</em> 9/10 (1982), pp. 456-70.</li> 
+        <li>Corfis, I.A., and Wolfe, M. (ed.) <em>The Medieval City Under Siege</em>, Woodbridge: Boydell, 1995.</li> 
+        <li>Coupland, S., "Carolingian Arms and Armour," <em>Viator</em> 21 (1990), pp. 29-50.</li> 
+        <li>Davies, R.H.C., <em>The Medieval Warhorse</em> London: Thames and Hudson, 1989.</li> 
+        <li>De Vries, Kelly, <em>Medieval Military Technology</em>, Ontario: Broadview, 1992.</li> 
+        <li>Edge, David and Paddock, John Miles, <em>Arms and Armor of the Medieval Knight: An Illustrated History of Weaponry in the Middle Ages</em>, 1988.</li> 
+        <li>Ffoulkes', Charles, <em>The Armourer and His Craft from the 11th to the 16th Century</em>, 1967.</li> 
+        <li>On the manufacture of armor.</li> 
+        <li>Gillmor, C.M., "The Introduction of the Traction-Trebuchet into the Latin West," <em>Viator</em> 12 (1981), pp. 1-8.</li> 
+        <li>Hardy, Robert, <em>Longbow: A Social and Military History</em>, 1977.</li> 
+        <li>Examines a common type of foot soldier that was present in Western European armies during this period, although the focus is on England.</li> 
+        <li>Hewitt, H.J. , <em>The Horse in Medieval England</em>, 1983.</li> 
+        <li>Provides a fine introduction to the Medieval warhorse of Western Europe, one of the most important items used by Medieval warriors of all different periods and cultures (particularly the knight of Western Europe) and yet neglected by writers.</li> 
+        <li>Hill. D..R. "Trebuchets," <em>Viator</em> 4 (1973), pp. 99-114.</li> 
+        <li>Hyland, Ann, <em>The Medieval Warhorse from Byzantium to the Crusades Stroud</em>: Sutton, 1994.</li> 
+        <li>Actually more up-to-date and broader in scope (both are far superior to</li> 
+        <li>R.H.C. Davis' flawed study.</li> 
+        <li>Lot, Ferdinand, <em>L’Art militaire et les armees au moyen age en Europe et dans le proche Orient</em>, Paris: Payot, 1946, 2 vols.</li> 
+        <li>Needham, J., "China’s Trebuchets, Manned and Counterweighted," in B.S. Hall and D.C. West (eds) <em>On Pre-Modern Technology and Science: Studies in Honour</em> of Lynn White, Jr., Malibu, Ca Udena, 1976.</li> 
+        <li>Nicolle, David, <em>Warriors and their Weapons around the Time of the Crusades</em>. Relationships Between Byzantium, the West and the Islamic World, Ashgate, 2002.</li> 
+        <li>Norman, A.V.B. and Pottinger, Don, <em>English Weapons and Warfare 449-1660</em>, 1979.</li> 
+        <li>Despite its title it provides an excellent general introduction.</li> 
+        <li>Oakeshott, R. Ewart, <em>The Sword in the Age of Chivalry</em>, 1981.</li> 
+        <li>The best study of the knight's principal weapon.</li> 
+        <li>Patterson, W.F.A., <em>A Guide to the Crossbow</em> (ed. A.G. Credland) Burnham Society of Archer Antiquaries, 1990.</li> 
+        <li>Pierce, I., "The Knight, His Arms and Armour in the Eleventh and Twelfth Centuries," in C. Harper-Bill and R. Harvey (eds). <em>Ideals and Practice of Medieval Knighthood</em>, Woodbridge: Boydell, 1986, pp. 152-64.</li> 
+        <li>Pierce, I., "Arms and Armour in Warfare in the Eleventh Century," <em>Battle</em> 10 (1987), pp. 237-57.</li> 
+        <li>Sawyer, P. and Hilton, R. "Technical Determinism, the Stirrup, and the Plough," <em>Past and Present</em> 24 (1963), pp. 90-100.</li> 
+        <li>White, Lynn, <em>Medieval Technology and Social Change</em>, 1962.</li> 
+       </ul> 
+       <p><strong>Medieval Fortifications, Castles</strong></p> 
+       <ul class="checklist"> 
+        <li>Bachrach, B.S., "Early Medieval Fortifications in the West of France," <em>Technology and Culture</em> 16 (1975), pp. 531-69.</li> 
+        <li>Bachrach, B.S., "Fortifications and Military Tactics: Fulk Nerra’s Strongholds ca. 1000," <em>Technology and Culture</em> 20 (1979), pp. 531-49.</li> 
+        <li>Bachrach, B.S., "The Angevin Strategy of Castle Building in the Reign of Fulk Nerra, 987-1040," <em>American Historical Review</em> 88 (1983), pp. 533-60.</li> 
+        <li>Bachrach, B.S., "The Cost of Castle Building: The Case of the Tower at Langeais 992-94," in K. Reyerson and F. Powe, eds. <em>The Medieval Castle: Romance and Reality</em>, 1984.W. Anderson's, Castles of Europe from Charlemagne to the Renaissance 1970.</li> 
+        <li>Brown, R.A., <em>English Castles</em>, London, 1976.</li> 
+        <li>Corfis , Ivy A. and Wolf , Michael (ed) <em>The Medieval City under Siege</em>, 1995.</li> 
+        <li>Coulson, Charles L.H., <em>Castles in Medieval Society: Fortresses in England, France, and Ireland in the Central Middle Ages,</em> Oxford, 2003.</li> 
+        <li>Coulson, C., "Hierarchism in Conventional Crenellation: An Essay in the Sociology and Metaphysics of Medieval Fortification," <em>Medieval Archaeology</em> 26 (1982), pp. 69-100.</li> 
+        <li>Coulson, C., "Fortress Policy in Capetian Tradition and Angevin Practice: Aspects of the Conquest of Normandy by Phillip II," <em>Battle</em> 6 (1983), pp. 13-38.</li> 
+        <li>Coulson, C., "Cultural Realities and Reappraisals in English Castle-Study," Journal <em>of Medieval History</em> 22 (1996), pp. 171-207.</li> 
+        <li>Higham, R. and Barker P., <em>Timber Castles</em>, London, Batsford, 1992.</li> 
+        <li>Pounds, J.G., <em>The Medieval Castle in England and Wales: A Social and Political History</em>, Cambridge, 1990.</li> 
+        <li>Thompson, M.W., <em>The Rise of the Castle</em>, Cambridge, 1991.</li> 
+       </ul> 
+       <p><strong>Siege Operations</strong></p> 
+       <ul> 
+        <li>Bradbury, Jim, <em>The Medieval Siege</em>, 1992.</li> 
+        <li>Gravett, Christopher, <em>Medieval Siege Warfare</em>, 1990.</li> 
+        <li>Lynn, John A (ed.) <em>Feeding Mars: Logistics in Western Warfare from the Middle Ages to the Present</em>, 1993.</li> 
+        <li>Contains essays on the supply of armies in Early Medieval Europe, Byzantine supply systems, and the supplying of fleets during the Hundred Years War.</li> 
+       </ul> 
+       <p><strong>Naval operations</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Bachrach, B.S., "On the Origins of William the Conqueror’s Horse Transports," <em>Battle</em> 26 (1985), pp. 505-31.</li> 
+        <li>Bennett, M. "Normal Naval Activity in the Mediterranean, c. 1060-1108," <em>Battle</em> 15 (1993), pp. 41-58.</li> 
+        <li>Ehrenkreutz, "The Place of Saladin in the Naval History of the Mediterranean Sea in the Middle Ages," <em>Journal of the American Oriental Society</em> 75 (1955), pp. 100-116.</li> 
+        <li>Fernandez-Armesto, F., "Naval Warfare After the Viking Age c. 1100-1500," in M. Keen (ed.) <em>Medieval</em> <em>Warfare. A History</em>, Oxford: Oxford University press, 1999, pp. 230-52.</li> 
+        <li>Gillingham, J. "Richard I, <em>Galley Warfare and Portsmouth: The Beginnings of a Royal Navy</em>," in M. Prestwich, R.H. Britnell, and R. Frame (eds) Thirteenth Century England VI ,Woodbridge: Boydell, 1986.</li> 
+        <li>Gillmor, C.M., "Naval Logistics of the Cross-Channel Operation 1066," <em>Battle</em> 7 (1984)., pp. 105-31.</li> 
+        <li>Houts, E. van, "Shiplist of Willliam the Conqueror," <em>Battle</em> 10 (1987), pp. 159-84.</li> 
+        <li>Hutchinson, G. <em>Medieval Ships and Shipping</em>, Leicester: leicester University press, 1994.</li> 
+        <li>Lewis, Archibald R. Runyan, and Timothy J. <em>European Naval and Maritime History, 300-1500</em>, 1985.</li> 
+        <li>Lewis, Archibald, <em>Naval Power and Trade in the Mediterranean 500-1100</em>, Princeton University Press, 1951.</li> 
+        <li>Mott, L.V., "The Battle of Malta 1283: Prelude to Disaster," Kagay and Villalon, <em>Circle of War</em>, pp. 145-72.</li> 
+        <li>Neumann, J. "Hydrographic and Ship-Hydrodynamic Aspects of the Norman Invasion 1066," <em>Battle</em> 11 (1988), pp.221-44.</li> 
+        <li>Pryor, J.H., <em>Geography, Technology and War: Studies in the Maritime History of the Mediterranean 649-1571</em>, Cambridge: Cambridge University Press, 1992.</li> 
+        <li>Pryor, J.H, "The Naval Battles of Roger of Lauria," <em>Journal of Medieval History</em> 9 (1983) pp. 179-216.</li> 
+        <li>Pryor, J.H, "The Galleys of Charles I, King of Sicily 1264-84," <em>Studies in Medieval and Renaissance History</em> 14 (1993), pp. 34-103.</li> 
+        <li>Pryor, J.H., "Transportation of Horses by Sea During the Era of the Crusades: Eighth Century to A.D. 1285," <em>Mariner’s Mirror</em> 68 (1982), pp. 9-27.,"</li> 
+        <li>Reid, W.S., "Sea Power in the Anglo-Scottish War 1296-1328," <em>Mariner’s Mirror</em> 46 (1960), pp. 7-23.</li> 
+        <li>Roger, N.A.M., <em>The Safeguard of the Sea: A Naval History of Britain 660-1649</em>, London: Harper Collins, 1997.</li> 
+        <li>Rodgers, William Ledyard. <em>Naval Warfare Under Oars, 4th to 16th Centuries: A Study of Strategy, Tactics and Ship Design</em>, , 1940.</li> 
+        <li>Rose, Susan, <em>Medival Naval Warfare 1000-1500</em>, New York: Routledge, 2002.</li> 
+        <li>Unger, R.W. <em>The Ship in the Medieval Economy 600-1600</em>, London: Croom Helm, 1980.</li> 
+        <li>Villain-Gandossi, C., Busuttil and P. Adams, <em>Medieval Ships and the Birth of Technological Societies</em>, Valetta: Foundation for International Studies, 1989-91, 2 vols.</li> 
+        <li>Waley, D. "Combined Operations in Sicily 1060-78," <em>Proceedings of the British School at Rome</em> 22 (1954), pp. 124-35.</li> 
+       </ul> 
+       <p><strong>WESTERN EUROPE: The Early Middle Ages, 400-1100.</strong></p> 
+       <p><strong>General</strong></p> 
+       <ul class="checklist"> 
+        <li>The Early Middle Ages are probably the worst served subdivision of the Medieval period with respect to the study of military affairs. Most notably, there is no general survey of the conduct of warfare in Early Medieval Europe, though Nicholas Hooper's brief introduction to the chapter on the 'Dark Ages', 32-39, in <em>The Dictionary of Battles</em> (1987), edited by David Chandler, is useful.</li> 
+        <li>Charles Edwards, Thomas M. "Irish Warfare Before 1100," <em>A Military History of Ireland</em> (Collected Essays), pp. 26-51.</li> 
+        <li>Damon, John E., <em>Soldiers, Saints and Holy Warriors. Warfare and Sanctity in the Literature of Early England</em>, Variorum, 2003.</li> 
+       </ul> 
+       <p><strong>Anglo-Saxons, Normans</strong> &nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Abels, Richard P., <em>Lordship and Military Obligation in Anglo-Saxon England</em>, 1988.</li> 
+        <li>Bachrach, B.S. "Some Observations on the military Administration of the Norman Conquest," <em>Battle</em> 8 (1985), pp. 1-26.</li> 
+        <li>Davidson, H.R. Ellis, <em>The Sword in Anglo-Saxon England: Its Archaeology and Literature</em>, 1962.</li> 
+        <li>Haywood , John, <em>Dark Age Naval Power: A Reassessment of Frankish and Anglo-Saxon Seafaring Activity</em>, 1991.</li> 
+        <li>Hawkes, Sonia Chadwick, (Ed.) <em>Weapons and Warfare in Anglo-Saxon England</em>, , Oxford, 1989.</li> 
+        <li>Hollister, Charles Warren , <em>Anglo-Saxon Military Institutions on the Eve of the Norman Conquest</em>, 1962.</li> 
+        <li>Morillo, S., <em>Warfare Under the Anglo-Norman Kings 1066-1135</em>, Woodbirdge: Boydell, 1994.</li> 
+        <li>Morillo , Stephen, <em>The Battle of Hastings: Sources and Interpretations</em>, 1991.</li> 
+        <li>Scragg, Donald, <em>The Battle of Maldon</em>,<em> AD 991</em>, 1991.</li> 
+        <li>Strickland, Matthew, (Ed.) <em>Anglo-Norman Warfare: Studies in Late Anglo-Saxon and Anglo-Norman Military Organization and Warfare</em>, 1992.</li> 
+        <li>Brings together a number of excellent, previously published articles on this period.</li> 
+       </ul> 
+       <p><strong>Medieval Spain</strong></p> 
+       <ul class="checklist"> 
+        <li>Lomax, D.W. <em>The Reconquest of Spain</em>, 1978.</li> 
+        <li>Nicolle, David, <em>El Cid and the Reconquista 1050-1492</em>, 1988.</li> 
+        <li>Powers, James F. <em>A Society Organized for War: The Iberian Municipal Militias in the Central Middle Ages, 1000-1284</em>, 1988.</li> 
+       </ul> 
+       <p><strong>France – Merovingians and Carolingians</strong></p> 
+       <ul class="checklist"> 
+        <li>Bachrach, Bernard S., <em>Merovingian Military Organization 481-751</em>, 1972.</li> 
+        <li>Bachrach, Bernard S. "Military Organization in Aquitaine Under the Early Carolingians," <em>Speculum</em> 49 (1974), pp. 1-33.</li> 
+        <li>Bachrach, B.S. "Charlemagne’s Cavalry: Myth and Reality," <em>Military Affairs</em> 47 (1983) pp. 181-87.</li> 
+        <li>Bachrach, B.S. <em>Early</em> <em>Carolingian Warfare: Prelude to Empire</em>, University of Pennsylvania Press, forthcoming.</li> 
+        <li>Contamine, Philippe, <em>Histoire militaire de la France</em>, Paris: Presses Universitaires de France, 1992-94, 4. Vols.</li> 
+        <li>Contamine, P., "L’espace Carolingien: dilation, dislocation, invasion," in <em>Histoire Militaire de la France,</em> Vol. 1, pp. 27-29.</li> 
+        <li>France, J "La guerre dans la France feodale a la fin du ix et au x siecle," and "The Military History of the Carolingian Period," <em>Revue Belge d’Histoire Militaire</em> 23 (1979) pp. 177-98 and 26 (1985) pp. 81-99.</li> 
+        <li>France, John, "The Composition and Raising of the Armies of Charlemagne," <em>Journal of Medieval Military History</em> 1 (2002), pp. 61-82.</li> 
+        <li>Nelson, Janet L. "Violence in the Carolingian World and the Ritualization of ninth-century warfare," <em>Violence and Society in the Early Medieval West</em> (Collected essays), pp. 90-107.</li> 
+        <li>Nicolle, David, <em>The Age of Charlemagne: Warfare in Western Europe 750-1000 AD</em>, 1984.</li> 
+        <li>Reuter, T. "Plunder and Tribute in the Carolingian Empire," <em>Transactions of the Royal Historical Society</em> 35 (1985), pp. 75-94.</li> 
+        <li>Reuter, T., "The End of the Carolingian Military Expansion," in P. Goodman and R. Collins (eds) <em>Charlemagne’s Heir: New Perspectives on the Reign of Louis the Pious</em> (814-40), Oxford: The Clarendon Press, 1990, pp. 391-405.</li> 
+        <li>Reuter, T., "Carolingian and Ottonian Warfare," in M. Keen (ed.) <em>Medieval Warfare: A History, Oxford</em>: Oxford University Press, 1999, pp. 13-35.</li> 
+        <li>Verbruggen, J.F. "L’art militaire dans l’empire carolingien, 714 1000," <em>Revue Belge d’histoire militatire</em> 23 (1979), pp. 289-310 and 393-411.</li> 
+       </ul> 
+       <p><strong>FEUDALISM</strong></p> 
+       <ul class="checklist"> 
+        <li>Abels, R. <em>Lordship and Military Organization in Anglo-Saxon England</em>, London, 1988.</li> 
+        <li>Bisson, T. N., "The ‘Feudal Revolution’," Past and Present 142 (1994), pp. 6-42.</li> 
+        <li>Barthelmy, D. and White, S.D. "Debate: The Feudal Revolution" <em>Past and Present</em> 152 (1996), pp. 196-223.</li> 
+        <li>Brown, A.E.R. "The Tyranny of a Construct,: Feudalism and Historians of Medieval Europe," <em>American Historical Review</em> 79 (1974), pp. 1063-88 reprinted in Little and Rosenwein, Debating the Middle Ages 148-69.</li> 
+        <li>Duby, G., <em>The Chivalrous Society</em>, trans C. Postan, London, 1977.</li> 
+        <li>Duby, G., <em>The Three Orders: Feudal Society Imagined</em>, trans. A. Goldhammer, Chicago, 1980.</li> 
+        <li>Poly, J.P., <em>The Feudal Transformation 900-1200</em>, (trans. C. Higgett), New York, 1991.</li> 
+        <li>Reuter, T., Wickham, C. and Bisson, T.N., "Debate: The Feudal Revolution," <em>Past and Present</em> 155 (1997), pp. 177-225.</li> 
+        <li>Reuter, T. ed. <em>The New Cambridge Medieval History</em> vol. 3 c. 900-c.1021, Cambridge, 1999.</li> 
+        <li>Strickland, M. , <em>War and Chivalry: The Conduct and Perception of War in England and Normandy 1066-1217</em>, Cambridge, 1966.</li> 
+        <li>Strickland, M. "Military Technology and Conquest: The Anomaly of Anglo-Saxon England," <em>Battle</em> 19 (1996), pp. 353-82.</li> 
+       </ul> 
+       <p><strong>VIKINGS</strong></p> 
+       <ul> 
+        <li>Clark, H.B., "The Vikings," in M. Keen ed. <em>Medieval Warfare</em>, pp. 36-58.</li> 
+        <li>Coupland, S., "Charles the Bald and the Defense of the West Frankish Kingdom against the Viking Invasions 846-77," <em>Ph.D. Dissertation</em>, Cambridge University, 1987.</li> 
+        <li>Fernandex-Armesto, F., "Naval Warfare after the Viking Age c. 1100-1500," in M. Keen (ed) <em>Medieval Warfare: A History, Oxford</em>, 1999, pp. 230-252.</li> 
+        <li>Foote, V. and Wilson, David M. , <em>The Viking Achievement: The Society and Culture of Early Medieval Scandinavia</em>, 1970.</li> 
+        <li>Griffith, Paddy, <em>The Viking Art of War</em>, London, 1995.</li> 
+        <li>Harrison, M., <em>The Viking Hersir 793-1066</em>, London, 1993.</li> 
+        <li>Heath, Ian,<em> The Vikings</em>, 1985.</li> 
+        <li>Sawyer, P.H., <em>Age of the Vikings</em>, London, 1971, 2nd edition.</li> 
+        <li>Simpson, J. , <em>Everyday Life in the Viking Age</em>, 1967.</li> 
+       </ul> 
+       <p><strong>WESTERN EUROPE: The High Middle Ages, 1100-1300.</strong></p> 
+       <ul class="checklist"> 
+        <li>Although there is no general survey of the military aspects of this period, there are a number of works that focus on the experiences of specific kingdoms (in addition, many of the works dealing with the Crusades that are cited in the section below contain useful information about the conduct of warfare practiced by Western Europeans during the High Middler Ages).</li> 
+        <li>Beeler, John, <em>Warfare in England 1066-1189</em>, 1966.</li> 
+        <li>Brooks, F.W., <em>The English Naval Forces 1199-1272</em>, 1932.</li> 
+        <li>Currey, Anne, "Medieval Warfare. England and Her Continental Neighbors, eleventh to fourteenth centuries," <em>Journal of Medieval History</em> 24,1 (1998), pp.81-202.</li> 
+        <li>Flanagan, Marie Therese, "Irish and Anglo-Norman Warfare in Twelfth Century Ireland," <em>A Military History of Ireland</em>, pp. 52-75.</li> 
+        <li>Hollister, C. Warren, <em>The Military Organization of Norman England</em>, 1965.</li> 
+        <li>Prestwich, Michael , <em>Armies and Warfare in the Middle Ages: The English Experience New Haven</em>: Yale University Press, 1996.</li> 
+        <li>Schlight, John, <em>Monarchs and Mercenaries: A Reappraisal of the Importance of Knight Service in Norman and Early Angevin England</em> (1968).</li> 
+        <li>Simms, Katharine, "Gaelic Warfare in the Middle Ages," <em>A Military History of Ireland</em> pp. 99-115.</li> 
+        <li>There are few English language works on French military affairs during the High Middle Ages, though David Nicolle's French Medieval Armies 1000-1300 (1991), despite being part of a popular series, helps to fill the gap. An excellent study of a particular engagement on the continent during this period that touches upon the composition and performance of the military forces of France and the Holy Roman Empire (Germany), along with the broader context of war in Europe at this time, is:</li> 
+        <li>Duby, Georges, <em>The Legend of Bouvines [1214]: War, Religion and Culture in the Middle Ages</em>, 1973.</li> 
+        <li>For the conduct of warfare in Spain during the High Middle Ages, see the works cited on Spain in the previous section.</li> 
+       </ul> 
+       <p><strong>WESTERN EUROPE: The Later Middle Ages, 1300-1500.</strong></p> 
+       <ul class="checklist"> 
+        <li>Although there is no general survey of this period, C.T. Allmand's (Ed.) War, Literature and Politics in the Late Middle Ages (1976) contains some useful essays, while Malcolm Vale explores the impact of the changing nature of warfare on European nobility in War and Chivalry:</li> 
+        <li>Vale, Malcolm, <em>Warfare and Aristocratic Culture in England, France and Burgundy at the End of the Middle Ages</em> (1981).</li> 
+        <li>DeVries, Kelly, <em>Infantry Warfare in the Early Fourteenth Century</em>, 1996.</li> 
+        <li>The Later Middle Ages in Western Europe was dominated by the conflict between England and France known as the Hundred Years War, 1337-1457. While there are numerous histories of this conflict in English, for a helpful, popular introduction,see:</li> 
+        <li>Seward, Desmond, The Hundred Years War: The English in France, 1337-1453, 1978.</li> 
+        <li>Allmand, Christopher, <em>The Hundred Years War: England and France at War c.1300-c.1450</em>, 1988.</li> 
+        <li>Provides an excellent introduction on a more scholarly level, with analysis of different aspects of the war, including a great deal on the military.</li> 
+        <li>Burne, Alfred H. , <em>The Crecy War: A Military History of the Hundred Years War from 1337 to the Peace of Bretigny, 1360</em>, 1955.</li> 
+        <li>Burne, Alfred H. ,<em> The Agincourt War: A Military History of the Latter Part of the Hundred Years War, 1369 to 1453</em>, 1956.</li> 
+        <li>Curry, Anne and Hughes Michael, (edd.) <em>The Hundred Years</em>, 1994.</li> 
+        <li>Older work that still retains value, but should be approached only after exposure to more recent scholarship.</li> 
+        <li>Curry, Anne and Hughes, Michael (edd) <em>Arms, Armies, and Fortifications in the Hundred Years War</em>.</li> 
+        <li>Seward, Desmond, <em>The Hundred Years War : the English in France, 1337-1453</em>.New York : Penguin Books, 1999.</li> 
+        <li>The most recent military study of the conflict. It offers useful essays on the tactics and organization of English armies, the introduction of gunpowder artillery, and the role of naval forces.</li> 
+        <li>Hewitt, H.J. <em>The Organization of Warfare Under Edward III, 1338-1362</em>, 1966.</li> 
+        <li>Provides an excellent account of the way in which English armies were raised and sustained during the first half of the war. Despite their numerous victories during this conflict and the fact that it was the French who won the Hundred Years War, the most famous incident of the war remembered by the English speaking peoples (thanks largely to the efforts of Mr. Shakespeare) is the Battle of Agincourt, 1415. Although it is part of a popular series, the most thorough up-to-date account of this engagement is:</li> 
+        <li>Bennett, Matthew, <em>Agincourt 1415: Triumph Against the Odds</em>, 1991.</li> 
+        <li>Keegan, John, <em>The Face of Battle</em>, 1976.</li> 
+        <li>Provides an excellent explanation of the mechanics of Medieval combat and the experience of Medieval soldiers in battle.</li> 
+        <li>Goodman, Anthony, <em>The War of the Roses: Military Activity and English Society, 1452- 1497</em>, 1990.</li> 
+        <li>Michael, Nicholas, <em>The Armies of Medieval Burgundy 1364-1477</em>, 1983.</li> 
+        <li>Miller, Douglas, <em>The Swiss at War 1300-1500</em>, 1979.</li> 
+        <li>Nicolle, David, <em>Italian Medieval Armies 1300-1500</em>, 1983.</li> 
+        <li>From a popular series; provides good coverage of the development of the armies of the Italian city-states during this period:</li> 
+        <li>Trease, G. , <em>The Condottieri: Soldiers of Fortune</em>,1970.</li> 
+       </ul> 
+       <p><strong>BYZANTIUM</strong></p> 
+       <ul class="checklist"> 
+        <li>Ahrweiler, H. <em>Byzance et la Mer: la marine de guerre, la politique et les institutions maritime de Byzance aux vii-xv siecles</em>, Paris: Presses Universitaires de France, 1966.</li> 
+        <li>Antoniadis-Bibicou, Helene, Etudes d’histoire Maritime de Byzance. A propos du "Theme des Caravisiens", Paris: <em>S.E.V.P.E.N</em>. 1966.</li> 
+        <li>Antonucci, Michael, "Barbarians Sought Out. Byzantium's systematic intelligence bureau lasted for 800 years." <em>Military History</em>, October 1992, pp. 12ff.</li> 
+        <li>A popular article about the Byzantine Bureau of Barbarians. Unfortunately, the spy stories related in the article do not always involve members of this bureau which makes the thesis that this was an effective, centralized intelligence service which lasted 800 years hard to establish. With no notes or suggestions for further reading, the reader is left at the mercy of the author’s conclusions.</li> 
+        <li>Aschoff, Volker, <em>Über den byzantinischen Feuertelegraphen und Leon den Mathematiker</em>, Münschen: R. Oldenbourg, Düsseldorf: VDI-Verlag, 1980, 41 pp.</li> 
+        <li>During the reign of Theophilus (AD 829-842), Leo the Mathematician was supposed to have invented a telegraphic system based on fire signals. There have been many interpretations of how this system actually worked; Aschoff’s is one of the most detailed. He lists the ancient sources and discusses them each in detail. Aschoff also provides maps and topographical charts of the areas where this system was to have operated, and graphs plotting th strength of the light used and the distance it could cover. See also Dvornik, pp. 142-3.</li> 
+        <li>For the primary sources on Byzantine signaling systems, see:</li> 
+        <li><em>Theophanes Continuatus</em>, (ed. I. Bekker, CSHB, Bonn, 1838, pp. 197-8=PG, 109, col. 211 C-D.</li> 
+        <li>Constantine Porphyrogenitus, <em>De ceremoniis</em> (ed. J.J. Reiske, CSBH, Bonn, 1829, I, pp. 492-3 = PG 112, col. 932C-933B</li> 
+        <li>John Scylitzes, <em>Synopsis Historiarum</em>, ed. J. Thurn (Berlin, New York, 1973), pp. 107-8</li> 
+        <li>George Cedrenus, (ed. I. Bekker, CSBH ,Bonn, 1839, II, pp. 174-5 = PG 121, col 1060 A-C</li> 
+        <li>Zonaras, ed. L. Dindorf (<em>Teubner, Leipzig</em>) IV 1871, p. 16 (=M. Pinder, CSHB , Bonn) III (1897)pp. 404-406 = PG 135, 28B-29A.</li> 
+        <li>Pseudo-Symeon , <em>Symeon Magister et Logotheta</em> (ed. I. Bekker, CSHB, Bonn 1838, pp. 681-2 = PG 109, col. 743 B-D.</li> 
+        <li>Audollent, Aug., "Les Veredarii émissaires impériaux sous les Bas Empire," <em>Mélanges d'archéologie et d'histoire</em> 9 (1889), pp. 249-278.</li> 
+        <li>Audollent describes the duties of the veredarii - - imperial couriers of the late empire. He compares them, in turn, to the speculatores, the agentes in rebus and notes that they had duties as both couriers and certain police functions.</li> 
+        <li>Aussaresses, F. L"<em>Armée byzantine à la fin du VIe siècle d’après le Stratégicon de l’empereur Maurice</em> (Bibliothèque des Universités du Midi 14), Paris, 1909.</li> 
+        <li>Bartusis, Mark C. <em>The Late Byzantine Army: Arms and Society</em>, 1204-1453, University of Pa. Press, 1992.</li> 
+        <li>Examines the long neglected military affairs of the latter period of the Empire.</li> 
+        <li>Bartusis, Mark C., <em>The Late Byzantine Soldier: A Socialand Administrative Study</em>, Ph.D. Dissertation, Rutgers University, 1984.</li> 
+        <li>Birkenmeier, John, <em>The Development of the Comnenian Army</em>. Ph.D. Diss. Catholic University of America, 1998.</li> 
+        <li>Brown, T.S. <em>Social Structure and the Hierarchy of Officaldom in Byzantine Italy, 554-800 A.D</em>. Ph.D. thesis, University of Nottingham, 1976,</li> 
+        <li>Brown, T.S. , <em>Gentlemen and Officers. Imperial Administration and Aristocratic Power in Byzantine Italy A.D. 554-800</em>., Rome, 1984</li> 
+        <li>Cecaumenos, <em>Strategicon</em>, ed. H.G. Beck, Graz, 1956.</li> 
+        <li>Cheynet, J.C., "Les effectifs de l’armee byzantine au x-xii siecles," <em>Cahiers de Civilization Medievales</em> 38 (1995), pp. 319-35.</li> 
+        <li>Cheynet, Jean-Claude, <em>The Byzantine Aristocracy and its Military Function</em>, Ashgate, 2006.</li> 
+        <li>Dain, A and Foucault, J.A., "Les stratégistes byzantins, <em>Trauvaux et mémoires</em> 2 (1967), pp. 317-92.</li> 
+        <li>Dennis, George T. , translator, <em>Three Byzantine Military Treatises</em>, Corpus Fontium Historiae Byzantinae 25: Washington, D.C.: Dumbarton Oaks, 1985, 380pp.</li> 
+        <li>Dvornik, Francis, <em>Origins of Intelligence Services</em>, 1974.</li> 
+        <li>Glyzkatzi-Ahrweiler, H., <em>Recherches sur l’administration de l’empire byzantin aux IX-XIe siècles</em>, Bulletin de Correspondence Hellenique 84 (1960), pp. 1-109,</li> 
+        <li>Grosse, R. <em>Römische Militärgeschichte von Gallienus bis zum Beginn der byzantinischen Themenverfassung</em>, Berlin, 1920.</li> 
+        <li>Chapter A, VI discusses the protectores domestici. From AD354 they a separate corps based at the imperia l court and charged with protecting the emperor. See also J.F. Haldon below. Chapter B, III on the scholae palatini, and the agentes in rebus., IV on the domestici and protectores.</li> 
+        <li>Haldon, John F "Some Aspects of Byzantine Military Technology from the Sixth to the Tenth Centuries" <em>Byzantine and Modern Greek Studies</em> 1(1975), pp. 11-47.</li> 
+        <li>Haldon, John F., <em>Recruitment and Conscription in the Byzantine Army c. 550-950: A Study on the origins of the stratiotika Ktemata</em>, Vienna, 1979.</li> 
+        <li>Haldon, John F. , "Military Service, Military Lands,and the Status of Soldiers: Current Problems and Interpretations," <em>Dumbarton Oaks Papers</em> 47 (1993), pp. 1-67.</li> 
+        <li>Haldon, John F., "The Organization and Support of an Expeditionary Force: Manpower and Logistics in the Middle Byzantine Period," in <em>N. Oikonomides</em>, To empolemo Byzantino, Athens: National Research Foundation, 1997) pp. 111-51.</li> 
+        <li>Haldon, John F, "De Ceremoniis, Theory and Practice in Tenth Century Military Administration," <em>Travaux et Memoires</em> 13</li> 
+        <li>Haldon, John F., <em>Byzantine Praetorians: An Administrative, Institutional and Social Survey of the Opsikion and Tagmata c. 580-900</em>, Bonn: R. Habelt, 1984, 669 pp.</li> 
+        <li>Haldon, John F., <em>Aspects of Byzantine Military Administration: the EliteCorps, the Opsikion, and the Imperial Tagmata from the Sixth to the Ninth Century</em>, D. Phil. Dissertation, University of Birmingham, 1975.</li> 
+        <li>Haldon, John F, <em>Byzantine Warfare</em>, Ashgate, 2007.</li> 
+        <li>Heath, Ian and McBride, <em>Angus, Byzantine Armies 886-1118</em>, Osprey</li> 
+        <li>Hirschfeld, Otto, Die <em>agentes in rebus. Könglisch Preussischen Akademie der Wissenschaften</em>, Berlin, Philosophisch-historische klasse, Sitzungsberichte (1893), pp. 421-441.</li> 
+        <li>Hirschfeld, Otto, <em>Die Sicherheitspolizei im römischen Kaiserreich. Sitzungsberichte der könglischen Preussischen Akademie der Wissenschaften in Berlin</em>, Phil. Hist. Klasse vom 30 Juli (1891), pp. 845-877; Kleine Schriften (Berlin (1913), pp. 576-612.</li> 
+        <li>Howard-Johnston, J.D. <em>Studies in the Organization of the Byzantine Army in the tenth and Eleventh Centuries</em>, D.Phil. dissertation, Oxford University, 1971</li> 
+        <li>Kaegi W.E., Army, <em>Society and Religion in Byzantium</em>, 1982.</li> 
+        <li>Kaegi, Walter E., <em>Some Thoughts on Byzantine Military Strategy</em>. Brookline, MA : Hellenic College Press, 1983, 18pp.</li> 
+        <li>Kaegi, Walter E., "Constantine’s and Julian’s Strategies of Strategic Surprise Against the Persians," <em>Athenaeum</em> pp. 209-213.</li> 
+        <li>Walter E. Kaegi, <em>Byzantine Military Unrest 471-843. An Interpretation</em>. Amsterdam: Hakkert, 1981, 373pp.</li> 
+        <li>Kaegi, Walter E.,<em> Army, Society</em> <em>and Religion in Byzantium</em>, London: Variorum Reprints, 1982. (Collected Essays)</li> 
+        <li>Kennedy, H. "The Arab-Byzantine Frontier in the Eighth and Ninth Centuries: Military Organization and Society in the Borderlands," <em>Zbornik Radova Vizantoloshkog Instituta</em> 19 (1980), pp. 79-116.</li> 
+        <li>Kolbaba, Tia M., "Fighting for Christianity: holy war in the Byzantine Empire,"<em> Byzantion</em> 68,1 (1988), pp. 194-221.</li> 
+        <li>Argues against the common belief that Byzantines did not comprehend the concept of a holy war. With discussion of the historiography of holy war in Byzantium and reactions to western Crusades.</li> 
+        <li>Koutrakou, N. "Diplomacy and Espionage: Their Role in the Byzantine Foreign Relations," <em>Graeco-Arabica</em> 6 (1995), pp. 125-144.</li> 
+        <li>Lee, A.D. "Procopius, Justinian and the kataskopoi," <em>Classical Quarterly</em> 83 (1989), pp. 569-572.</li> 
+        <li>Lee. A.D., "Embassies as Evidence for Movement of Military Intelligence Between the Roman and Sassanian Empires," in P. Freeman and D. Kennedy, "The Defense of the Roman and Byzantine East" Proceedings of a colloquium held at the University of Sheffield in April 1986, <em>British Archaeological Reports International Series</em> 297, 1986, pp. 455-461.</li> 
+        <li>Lewis, Archibald R., <em>Naval Power and Trade in the Mediterranean AD 500-1100</em>, 1951).</li> 
+        <li>Macris, Georgios, <em>Studien zur Spatbyzantinisschen Schiffahrt</em>, Genoa, 1988.</li> 
+        <li>McGeer, Eric, <em>Sowing the Dragon's Teeth: Byzantine Warfare in the Tenth Century</em>, Washington, D.C.: Dumbarton Oaks Research Library and Collection, 1995, 405pp.</li> 
+        <li>Mommsen, Theodor, "Das römische Militärwesen seit Diocletian," <em>Hermes</em> 24 (1889), pp. 195-279.</li> 
+        <li>Müller, A. <em>Der Amt des Logotheten</em>, Munich dissertation, 1914.</li> 
+        <li>Nicephorus II, <em>On Skirmishing</em></li> 
+        <li>Nicolle, D. <em>Arms and Armour of the Crusading Era</em></li> 
+        <li>Pattenden, T., "The Byzantine Early Warning System," <em>Byzantion</em> 53 (1983), pp. 258-299.</li> 
+        <li>Papasotiriou, Charalambos, <em>Byzantine Grand Strategy</em>, Ph.D. Dissertation, 1992.</li> 
+        <li>Ravegnani, Giorgio, <em>Soldati di Bisanzio in Eta Giustinianea</em>,</li> 
+        <li>Sheldon, R. M. "Byzantine Counterintelligence and the Bulgarians" <em>Intelligence Quarterly</em> 1,4 February 1986.</li> 
+        <li>Sigfus Blondal and Benedikt S. Benedikz, <em>The Varangians of Byzantium: An Aspect of Byzantine Military History</em> (1978).</li> 
+        <li>Sullivan, Denis F. (ed.) <em>Siegecraft: Two Tenth Century Instructional Manuals</em>, 2000</li> 
+        <li>Treadgold, Warren, <em>Byzantium and its Army 284-1081</em>, Stanford: Stanford University Press, 1995, 250pp.</li> 
+        <li>Tsangadas, Bryon C.P. <em>The Fortifications and Defense of Constantinople</em> (1980).</li> 
+        <li>Wiita, John Earl, <em>The Ethnika in Byzantine Miliary Treatises</em>, Ph.D. Dissertation, University of Minnesota, 1977.</li> 
+       </ul> 
+       <p><strong>Greek Fire</strong></p> 
+       <ul class="checklist"> 
+        <li>Berthelot, M., <em>La chimie au moyen age</em>, Paris, 1893.</li> 
+        <li>Bradbury, Greek Fire in the West," <em>History Today</em> 29 (1979) p. 326ff.</li> 
+        <li>Byrne, M., and Haldon, J. "A Possible Solution to the Problem of Greek Fire," <em>Byzantinische Zeitschrift</em> 70 (1977), pp. 91-99.</li> 
+        <li>Cheronis, Nicholas D., "Chemical Warfare in the Middle Ages; Kallinikos' 'Prepared Fire'," <em>Journal of Chemical Education</em> (Aug. 1937), pp. 360-365.</li> 
+        <li>Dain, A. "Appellations grecques du feu gregeois," <em> Melanges offerts a Alfred Ernout</em>, Paris, 1940, pp. 1221-27.</li> 
+        <li>Ellis-Davidson, H.R., "The Secret Weapon of Byzantium," <em>Byzantinische Zeitschrift</em> 66 (1973) pp. 61-74.</li> 
+        <li>Korres, Theodore K., <em>Hyrgon Pyr, Thessaloniki</em>, 1995 3rd edition</li> 
+        <li>Lalanne, Ludovic, <em>Recherches sur le feu gregeois, et sur l'introduction de la poudre a canon en Europe; memoire auquel l'Academie des inscriptions et belles-lettres a decerne une medaille d'or, le</em> 25 septembre 1840, 2. ed., cor. et entierement refondue.Paris, J. Correard, 1845, 96 p</li> 
+        <li>Mercier, M., <em>Le feu grégeois, les feux de guerre depuis l'antiquité, la poudre à canon. Ouvrage publié avec le concours du Centre national de la recherche scientifique</em>, Paris, P. Geuthner, 1952, 641 pp.</li> 
+        <li>Pentz, Peter , "A medieval workshop for producing 'Greek fire' grenades" <em>Antiquity</em> 62:234 (1988:Mar.) 89</li> 
+        <li>Partington, J.R. , <em>A History of Greek Fire and Gunpowder</em>, Cambridge, 1960.</li> 
+        <li>Partington, J.R., "Greek Fire," <em>Technology and Culture</em> 33, 4 (October 1992), p.162-166.</li> 
+        <li>Paaszthory, Emmerich, "Uber das Griechische Feuer," <em>Antike Welt</em> 2 (1986), pp. 27-37.</li> 
+        <li>Roland, Alex, "Greek Fire," <em>Military History Quarterly</em> 2( Spring 1990), pp. 16-19.</li> 
+        <li>Roland, Alex, "Secrecy, Technology and War Greek Fire and the Defense of Byzantium," <em>Technology and Culture</em> 33,4 (Octrober 1992), 655-679</li> 
+        <li>Zenghleis, C. "Le few gregeois et les armes a feu des Byzantines," <em>Byzantion</em> 8 (1932), pp. 265-86.</li> 
+       </ul> 
+       <p><strong>CENTRAL AND EASTERN EUROPE, 600-1500</strong></p> 
+       <ul class="checklist"> 
+        <li>Lindner, R. "Nomadism, Horse and Huns," <em>Past and Present</em> 92 (1981), pp. 3-19.</li> 
+        <li>Nicolle, David, <em>Hungary and the Fall of Eastern Europe 1000-1568</em>, 1988.</li> 
+        <li>Although part of a popular series, it offers a useful general survey of the conduct of warfare in South-Eastern Europe during the Middle Ages.</li> 
+        <li>Nicolle, David, <em>[The Battle of] Yarmuk 636 AD</em>, 1994.</li> 
+        <li>A detailed account of one of the Empire most significant defeats in the face of their Muslim opponents.</li> 
+        <li>Ronas-Tas, A., <em>Hungarians and Europe in the Early Middle Ages: An Introduction to Early Hungarian History</em>, Budapest: Central European University Press, 1999.</li> 
+        <li>Tihamer Komjathy, Anthony, <em>A Thousand Years of the Hungarian Art of War</em>, 1982.</li> 
+        <li>Bak, V and. Kiraly, Bela K. (edd.) <em>From Hunyadi to Rakoczi: War and Society in Late Medieval and Early Modern Hungary</em>, 1982.</li> 
+        <li>Omrcanin, Ivo, , <em>Military History of Croatia</em>, 1984.</li> 
+        <li>Examines the use of fortifications among the Balkan Kingdoms in particular.</li> 
+        <li>Christiansen, Eric, <em>The Northern Crusades: The Baltic and the Catholic Frontier, 1100-1525</em>, 1980.</li> 
+        <li>A general survey, but it covers North-Central Europe where the main source of conflict was the eastward expansion of the German principalities into pagan and slavic Christian lands.</li> 
+        <li>Urban, William, <em>The Baltic Crusade</em>, 1975.</li> 
+        <li>Urban, William , <em>The Prussian Crusade</em>, 1980.</li> 
+        <li>Urban, William, <em>The Livonian Crusade</em>, 1981.</li> 
+        <li>Urban, William, <em>The Samogitian Crusade</em>, 1989.</li> 
+        <li>The leading element in these crusades was the military religious order of the Teutonic Knights, the organization and history of which are outlined in:</li> 
+        <li>Krollmann, C., <em>The Teutonic Order in Prussia</em>, 1938.</li> 
+        <li>By contrast, the only work in English that examines the nature of Medieval German armies in general is a volume in a popular series:</li> 
+        <li>Gravett, Christopher, <em>German Medieval 1300-1500</em>, 1985.</li> 
+        <li>Evans, Geoffrey, <em>[The Battles of] Tannenburg</em> 1410/1914, 1971.</li> 
+        <li>In the first half of this book, he describes the decisive clash between the Teutonic Order and their allied Polish and Lithuanian opponents.</li> 
+        <li>There are far fewer works in English on Medieval Russian warfare.</li> 
+        <li>Onacewicz, Wlodzimierz, <em>Empires by Conquest</em>, Vol.I: 9th Century – 1905, 1985.</li> 
+        <li>Hellie, Richard, <em>Enserfment and Military Change in Muscovy</em>, 1971)</li> 
+        <li>Gorelik, Mikhael V. , <em>Warriors of Eurasia: From the 8th Century BC to the 17th Century AD</em>, 1995.</li> 
+        <li>Bellamy, Christopher, "The Firebird: 600 Years of the Russian Artillery" <em>History Today</em>, Vol.32, No.9 (September 1982), pp. 16-20.</li> 
+        <li>Kotker, Norman, "Kulikovo Field [1380]" <em>MHQ: The Quarterly Journal of Military History</em>, Vol.6, No.1 (Autumn 1993), pp. 20-31.</li> 
+       </ul> 
+       <p><strong>THE MIDDLE EAST, NORTH AFRICA, 600-1500.</strong></p> 
+       <ul class="checklist"> 
+        <li>Abou el Fadl, Khaled, "The rules of Killing at War; an inquiry into classical sources," <em>The Muslim World</em> 89,2 (1999), pp. 144-157.</li> 
+        <li>Examines the views of Muslim jurists such as Averroes concerning attitudes to killing and other aspects of warfare, with respect to correct treatment of other Muslims.</li> 
+        <li>Al-Tabari, <em>The Challenge to the Empires</em>. Trans. Blankenship, K.Y. (SUNY, 1989).</li> 
+        <li>al-Tabari, <em>The Battle of al-Qadissayah and the Conquest of Syria and Palestine</em>, Trans. Friedmann, Y. (SUNY 1992).</li> 
+        <li>Al-Tabari, <em>The Conquest of Iraq</em>, Southwestern Persia and Egypt, Trans. Juynboll. G.H.A. (SUNY, 1991).</li> 
+        <li>Bachrach, B.S. "The Siege of Antioch: A Study in Military Demography," <em>War in History</em> 6 (1999), pp. 127-46.</li> 
+        <li>Contains a large selection of excellent essays dealing with various aspects of this topic.</li> 
+        <li>Bagot, Sir John, <em>The Great Arab Conquests</em>, 1963.</li> 
+        <li>Elgood, R. (ed) <em>Islamic Arms and Armour</em>, London: Scolar, 1979.</li> 
+        <li>Nicolle, David, <em>Armies of the Muslim Conquest</em> [570-861] , 1993.</li> 
+        <li>Nicolle, David, <em>The Armies of Islam, 7th to 11th Centuries</em>, 1982.</li> 
+        <li>Nicolle, David, "Early Medieval Islamic Arms and Armour," <em>Gladius</em>, special volume (Madrid: Instituto de Estudios sobre armas antiguas, 1976.</li> 
+        <li>Parry, V.J. and Yapp, M.E. (edd.) <em>War, Technology and Society in the Middle East</em> 1975.</li> 
+        <li>Pipes, Daniel, <em>Slave Soldiers and Islam: The Genesis of a Military System</em>, 1981.</li> 
+        <li>The author describes the development of a system of military organization unique to the Muslims.</li> 
+        <li>Robinson, H. Russell ,<em> Oriental Armour</em>, 1967.</li> 
+        <li>An indispensable ground-breaking work.</li> 
+        <li>Wilcox, Peter, <em>Rome's Enemies (3): Parthians and Sassanid Persians</em>, 1986.</li> 
+       </ul> 
+       <p><strong>Muslim Naval Forces</strong></p> 
+       <ul> 
+        <li>Fahmy, A.M. <em>Muslim Sea Power in the Eastern Mediterranean from the 7th to the 10th Century AD</em>, 1966.</li> 
+        <li>Pryor, John H., <em>Geography, Technology and War: Studies in the Maritime History of the Mediterranean 649-1571</em>, 1988.</li> 
+        <li>Santi-Mazzini, Giovanni, "A Sea Fight 500 years Ago," <em>Mariner’s Mirror</em> 85,1 (1999), pp. 76-79</li> 
+        <li>Describes the type of ships and methods of warfare in the Battle of Zonchio , 1499. between Venetian and Turkish roundships.</li> 
+        <li>Scanlon, George T. , ( translator) <em>A Muslim Manual of War</em>, 1961.</li> 
+        <li>The fortifications erected by the Crusaders (as well as those employed by their Muslim opponents) is described in:</li> 
+        <li>Kennedy, Hugh, <em>Crusader Castles</em>, 1994.</li> 
+        <li>Rogers, Randell, <em>Latin Siege Warfare in the 12th Century</em>, Oxford, Clarendon Press, 1992.</li> 
+        <li>Examines the development of the procedures for taking fortresses among the Crusaders (in Spain as well as the Holy Land.</li> 
+        <li>Finucane, Ronald C. , <em>Soldiers of the Faith: Crusaders and Muslims at War</em> (1983).</li> 
+        <li>Describes the experiences of the soldiers of the opposing sides.</li> 
+        <li>While the approach to conducting warfare among the Western European Crusaders is covered in the works cited in the previous sections on this region, there are fewer studies in English devoted exclusively to the armies of their Muslim opponents outside of popular works such as:</li> 
+        <li>Nicolle, David, <em>Saladin and the Saracens 1071-1300</em>, 1986.</li> 
+        <li>Nicolle, David, <em>Saracen Faris [Cavalry] 1050-1250 AD</em>, 1994.</li> 
+        <li>Nicolle, David , <em>[The Battle of] Hattin</em> 1187 , 1993.</li> 
+        <li>Another popular work by David Nicolle describing the Crusader's disastrous defeat.</li> 
+        <li>In the thirteenth century a new force in the Muslim world emerged that expelled the last remnants of the Crusaders from the Holy Land. The Mamluks were originally slave soldiers who overthrew their masters in Syria and Egypt.</li> 
+        <li>Glubb, Sir John Bagot, <em>Soldiers of Fortune: The Story of the Mamlukes</em> (1973).</li> 
+        <li>Nicolle, David, <em>The Mamluks 1250-1517</em> (1993).</li> 
+        <li>Focuses on the Mamluk military forces.</li> 
+        <li>Amitai-Preiss, Reuven, <em>Mongols and Mamluks: The Mamluk-Ilkhanid War, 1260-1281</em> (1995).</li> 
+        <li>The Mamluks have the distinction of having been the only opponents who defeated the Mongols in battle during the height of their conquests.</li> 
+        <li>Mongol power, however, remained an element in the Middle East under the ruler Tamerlane, who's career, including his military campaigns, is examined by:</li> 
+        <li>Manz, Beatrice Forbes, <em>The Rise and Rule of Tamerlane</em> (1989).</li> 
+        <li>Nicolle, David, <em>The Age of Tamerlane: Warfare in the Middle East c.1350-1500</em> (1990).</li> 
+        <li>Nicolle, David, <em>The Byzantine Empire in Armies of the Ottoman Turks 1300-1774</em> (1983).</li> 
+        <li>Burns, R.I. and Chevedden, P., <em>Negotiating Cultures: Bilingual Surrender Treaties in Muslim-Crusader Spain under James the Conqueror</em>, Leiden: Brill, 1999.</li> 
+        <li>Ayalon, David, [Newstadt] <em>Gunpowder and Firearms in the Mamluk Kingdom: A Challenge to Medieval Society</em> (1956).</li> 
+        <li>Cook, Weston F., <em>The Hundred Years War for Morocco: Gunpowder and the Revolution in the Early Modern Muslim World</em> (1994).</li> 
+       </ul> 
+       <p><strong>CRUSADES</strong></p> 
+       <ul class="checklist"> 
+        <li>Bachrach, Bernard S., <em>Warfare and Military Organization</em>, Variorum, 2002.</li> 
+        <li>Barber, M., "Supplying the Crusader States: The Role of the Templars," in B.Z. Kedar, ed. <em>The Horns of Hatti</em>, London: Variorum, 1992. pp.314-26.</li> 
+        <li>Chevedden, P., "Fortifications and the Development of Defensive Policy during the Crusader Period," in D. Kagay and L.J. Villalon eds. <em>The Circle of War</em>, Woodbridge: Boydell, 1999.</li> 
+        <li>Christiansen, E., <em>The Northern Crusades: The Baltic and the Catholic Frontier, 1000-1525</em>, London: Macmillan, 1980.</li> 
+        <li>DeVries, Kelly, <em>Guns and Men in Medieval Europe 1200-1500</em>. Studies in Military History and Technology, Variorum, 2002.</li> 
+        <li>Edbury, P., <em>The Kingdom of Cyprus and the Crusades 1191-1374</em>, Cambridge: Cambridge University Press, 1991.</li> 
+        <li>Edbury, <em>The Conquest of Jerusalm and the Third Crusade</em>, Ashgate, 1996.</li> 
+        <li>France, John, <em>Western Warfare in the Age of the Crusades, 1000-1300</em>, London: UCL Press, 1999.</li> 
+        <li>France, John, <em>Victory in the East : a military history of the First Crusade</em></li> 
+        <li>France, John and Zajac, William G. (edd.) <em>The Crusades and their sources : essays presented to Bernard Hamilton</em></li> 
+        <li>Fudge, Thomas A., <em>The Crusade Against Heretics in Bohemia 1418-1437. Sources and Documents for the Hussite Crusades</em>, Ashgate, 2002.</li> 
+        <li>Marshall, Christopher <em>Warfare in the Latin East, 1192-1291</em> Cambridge: Cambridge University Press, 1992.</li> 
+        <li>Nicolle, D. <em>Arms and Armour of the Crusading Era 1050-1350</em>, Mechanicsburg,Pa. Stackpole Books, 1999 2 vols.</li> 
+        <li>Nicolle, David, <em>Warriors and their Weapons around the Time of the Crusades. Relationships between Byzantium, the West and the Islamic World</em>, Variorum: 2003.</li> 
+        <li>Nicholson, Helen, <em>The Chronicle of the Third Crusade</em>. The Itinerarium Peregrinorum et Gesta Regis Ricardi, Ashgate: 2001.</li> 
+        <li>Payne, Robert, <em>The Dream and the Tomb. A History of the Crusades</em>, New York: Dorset Press, 1984.</li> 
+        <li>Richard, J. "Le financement des Croisades," <em>Pouvoir et Gestion</em> 5 (1996), pp. 63-71.</li> 
+        <li>Riley-Smith (ed.) , Jonathan, <em>The Atlas of the Crusades</em> (1990).</li> 
+        <li>Shirley, Janet (trans) <em>Crusader Syria in the Thirteenth Century</em>. The Rothelin Continuation of the History of William of Tyre with Part of the Eracles or Acre text, Ashgate, 1999.</li> 
+        <li>Smail, R.C., <em>Crusading Warfare 1097-1193</em>. ed. C. Marshall, Cambridge: Cambridge University Press, 1992.</li> 
+       </ul> 
+      </div> 
+      <div id="ctl00_pageContent_rightColumn"> 
+       <div id="content-2" class="column last"> 
+        <div id="ctl00_pageContent_relatedRight10737427402" class="mod"> 
+         <p><strong>Col. Sheldon</strong></p> 
+         <ul class="arrowlist"> 
+          <li><a title="Rose Mary Sheldon, Ph.D." href="/Content.aspx?id=10737427403">Home</a></li> 
+          <li><a title="Bio" href="/Content.aspx?id=10737427404">Bio</a></li> 
+          <li><a title="Publications" href="/Content.aspx?id=10737427405">Publications</a></li> 
+          <li><a title="Public Addresses" href="/Content.aspx?id=10737427410">Public Addresses</a></li> 
+          <li><a title="Bibliographies" href="/Content.aspx?id=10737427411">Bibliographies</a></li> 
+          <li><a title="634th Tank Battalion" href="/Content.aspx?id=10737427419">634th Tank Battalion</a></li> 
+          <li><a title="AHA Statement" href="http://www.historians.org/about-aha-and-membership/governance/policies-and-documents/statement-on-standards-of-professional-conduct" target="_blank">AHA Statement</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

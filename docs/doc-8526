@@ -1,0 +1,335 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	Virginia Military Institute - Medal of Honor
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/museumsystem/default.1.css" type="text/css" rel="stylesheet">
+  <link href="App_Themes/museumsystem/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets">
+  <meta name="Description" content="Building leaders. Leaders in industry, leaders in government, leaders in the military, leaders in life. Virginia Military Institute is the nation&amp;#39;s oldest state-supported military college. Great Challenge. Lifetime Reward.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?tid=21185&amp;id=18617" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWDgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFDi9NdXNldW1TeXN0ZW0vZBYCZg8PFgIeCEltYWdlVXJsBSkvY29yZS9pbWFnZXMvY29udGVudC9tdXNldW1zeXN0ZW1sb2dvLnBuZ2RkAgsPZBYCZg9kFgJmD2QWBAIBDw8WBB4IQ3NzQ2xhc3MFDHNlYXJjaC1pbnB1dB4EXyFTQgICFgQeB29uRm9jdXMFhgFpZih0aGlzLnZhbHVlPT0nc2VhcmNoIHZtaS5lZHUnKXsgdGhpcy52YWx1ZT0nJzt0aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQnKTt9dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0ICcpOx4Gb25CbHVyBVBpZih0aGlzLnZhbHVlPT0nJyB8fCB0aGlzLnZhbHVlPT0nc2VhcmNoIHZtaS5lZHUnKXt0aGlzLnZhbHVlPSdzZWFyY2ggdm1pLmVkdSc7fWQCAw8QD2QWAh4Fc3R5bGUFDGRpc3BsYXk6bm9uZRAVAQNWTUkVAQNWTUkUKwMBZ2RkAg8PDxYCHgdWaXNpYmxlaGRkAhMPZBYEAgEPDxYCHwhnZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfCGcWAgIBDw8WAh8CBSkvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvbXVzZXVtLmpwZ2RkAhcPDxYGHgVUaXRsZQUVSG9tZXBhZ2UgRm9vdGVyIFJpZ2h0HhNDYXRhbG9nSWNvbkltYWdlVXJsBS4vV29ya0FyZWEvaW1hZ2VzL2FwcGxpY2F0aW9uL2ljb25fZG9jdW1lbnQuZ2lmHhFUaXRsZUljb25JbWFnZVVybGVkZAIZDw8WBh8JBRRIb21lcGFnZSBGb290ZXIgTGVmdB8KBS4vV29ya0FyZWEvaW1hZ2VzL2FwcGxpY2F0aW9uL2ljb25fZG9jdW1lbnQuZ2lmHwtlZGRk6qcJTQBd/b7XDWVKuv8NWnBl7KgGYpyZxViGVdaFkVo="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAT6SLLBskzcCh+JSIte7jl7tVqhg79+cCaf2Muxgy28w6Ld5e0tb35jjra3L8Dofk5aGpeLsHyujys0vCNqhELeeU8FioZHEYPPLNOr9LghhH0dwcQFJUOdBBGkxjfYGQU="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/MuseumSystem/"><img id="ctl00_imgLogo" src="/core/images/content/museumsystemlogo.png" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/keydetclub/" target="_self" class="first">Keydet Club</a></li>
+         <li><a href="http://www.vmialumni.org/" target="_self">Alumni</a></li>
+         <li class="last"><a href="http://www.vmi.edu" target="_self">Virginia Military Institute</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/MuseumSystem/" target="_self">Home</a></li>
+        <li><a href="/VMI_Museum/" target="_self">VMI Museum</a></li>
+        <li><a href="/vmcw/" target="_self">Virginia Museum of the Civil War</a></li>
+        <li class="rt"><a href="http://www.stonewalljackson.org/" target="_blank">Stonewall Jackson House</a></li>
+        <li class="rt last"><a href="https://www.vmialumni.org/donate" target="_blank">Donate</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/VMI_Museum/" target="_self">VMI Museum Home</a></li>
+        <li><a href="/VMI_Museum/10737428748/" target="_self">VMI 175th Anniversary</a></li>
+        <li><a href="/VMI_Museum/12445/" target="_self">Planning a Visit</a></li>
+        <li><a href="/VMI_Museum/12447/" target="_self">Permanent Collection</a></li>
+        <li><a href="/VMI_Museum/12453/" target="_self">For Teachers</a></li>
+        <li><a href="/VMI_Museum/12455/" target="_self">Research</a></li>
+        <li><a href="/VMI_Museum/12457/" target="_self">Shaara Scholar</a></li>
+        <li><a href="/VMI_Museum/12459/" target="_self">Museum Shop</a></li>
+        <li><a href="/VMI_Museum/12465/" target="_self">Related Links</a></li>
+        <li><a href="/VMI_Museum/10737428767/" target="_self">Staff</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft21179"> 
+        <a href="mailto:skillmanbe@vmi.edu" title="For Group Tours, Store and General Information">Tours, store&nbsp;&amp; general inquiries</a>
+        <br>
+        <a href="mailto:blakeybj@vmi.edu">Research/collection inquires</a>
+        <br>(540) 464-7334
+        <br>
+        <br>VMI Museum
+        <br>Virginia Military Institute
+        <br>415 Letcher Avenue
+        <br>Lexington, Virginia, 24450
+        <br> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/VMI_Museum/permanetcollection/18617/" title="<p>Medal of Honor Seven VMI alumni have received the Medal of Honor, the highest and most rarely awarded decoration conferred by the United States. The medal is presented for " personal bravery or self sacrifice...involving the risk of life." photographs and<>"&gt;Medal of Honor</a></span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/museum.jpg" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Medal of Honor</h1> 
+       <p>Seven VMI alumni have received the Medal of Honor, the highest and most rarely awarded decoration conferred by the United States. The medal is presented for "personal bravery or self sacrifice...involving the risk of life." Photographs and full citations of the VMI recipients are viewed by clicking on their name.&nbsp;</p> 
+       <p style="MARGIN-RIGHT: 0px" dir="ltr"></p> 
+       <table border="0" cellspacing="10" cellpadding="0" width="60%"> 
+        <tbody> 
+         <tr> 
+          <td>&nbsp;</td> 
+          <td>&nbsp;<strong>Clarence E Sutton, VMI 1890<br></strong>Rank and organization: Sergeant, U.S. Marine Corps<br> Born: 18 February 1871, Middlesex County, Va.<br> Accredited to: Washington, D.C. G.O. No.: 55, 19 July 1901 
+           <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <p style="MARGIN-RIGHT: 0px" dir="ltr">Citation: In action during the battle near Tientsin, China, 13 July 1900. Although under heavy fire from the enemy, Sutton assisted in carrying a wounded officer from the field of battle.</p> 
+           </blockquote> </td> 
+         </tr> 
+         <tr> 
+          <td><a title="mh_ck" onkeypress="this.onclick();" onclick="try{window.open('/assets/0/1573/2135/4294969099/f8399453-ca93-4029-90f6-19dd63a4ab96.jpg', 'MyImage', 'resizable=yes, scrollbars=yes, width=790, height=580')}catch(e){};return false;" href="#"><img title="mh_ck" border="0" alt="mh_ck" src="/assets/0/1573/2135/4294969099/thumb_f8399453-ca93-4029-90f6-19dd63a4ab96.jpg"></a>&nbsp;</td> 
+          <td>&nbsp; <p><strong>Charles E. Kilbourne, VMI 1894<br></strong>Rank and organization: First Lieutenant, U.S. Volunteer Signal Corps<br> Place and date: At Paco Bridge, Philippine Islands, 5 February 1899<br> Entered service at. Portland. Oreg. Birth: Fort Myer, Va.<br> Date of issue: 6 May 1905</p> 
+           <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <p>Citation: Within a range of 250 yards of the enemy and in the face of a rapid fire climbed a telegraph pole at the east end of the bridge and in full view of the enemy coolly and carefully repaired a broken telegraph wire, thereby reestablishing telegraphic communication to the front.</p> 
+           </blockquote> </td> 
+         </tr> 
+         <tr> 
+          <td><a title="/assets/0/1573/2135/4294969099/40d449f1-5185-4990-8138-e1734117b826.jpg" onkeypress="this.onclick();" onclick="function onclick()
+{
+try{window.open('/assets/0/1573/2135/4294969099/40d449f1-5185-4990-8138-e1734117b826.jpg', 'MyImage', 'resizable=yes, scrollbars=yes, width=790, height=580')}catch(e){};return false;
+}" href="#"><img title="/assets/0/1573/2135/4294969099/40d449f1-5185-4990-8138-e1734117b826.jpg" border="0" alt="/assets/0/1573/2135/4294969099/40d449f1-5185-4990-8138-e1734117b826.jpg" src="/assets/0/1573/2135/4294969099/thumb_40d449f1-5185-4990-8138-e1734117b826.jpg"></a>&nbsp;</td> 
+          <td>&nbsp; <p style="MARGIN-RIGHT: 0px" dir="ltr"><strong>Cary D. Langhorne,&nbsp; VMI 1894</strong>&nbsp;<br> Rank and organization: Surgeon, U.S. Navy. Born: 14 May 1873, Lynchburg, Va.<br> Accredited to: Virginia. G.O. No.: 177, 4 December 1915</p> 
+           <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <p style="MARGIN-RIGHT: 0px" dir="ltr">Citation: For extraordinary heroism in battle, engagement of Vera Cruz, 22 April 1914. Surg. Langhorne carried a wounded man from the front of the Naval Academy while under heavy fire.</p> 
+           </blockquote> </td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;</td> 
+          <td>&nbsp; <p style="MARGIN-RIGHT: 0px" dir="ltr"><strong>Aldophus Staton, VMI 1899</strong>&nbsp;<br> Rank and organization: Lieutenant , U.S. Navy<br> Born: 28 August 1879, Tarboro, NC</p> 
+           <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <p style="MARGIN-RIGHT: 0px" dir="ltr">Citation: For distinguished conduct in battle, engagement of Vera Cruz, Mexico, 22 April 1914; was eminent ans conspicuous in command of his battalion. He exhibited courage and skill in leading his men through the action of the 22nd and in the final occupation of the city.</p> 
+           </blockquote> </td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;</td> 
+          <td>&nbsp; <p><strong>William P. Upshur,VMI 1902</strong>&nbsp;<br> Rank and organization: Captain, U.S. Marine Corps<br> Born: 28 October 1881, Richmond, Va. Appointed from: Virginia</p> 
+           <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <p style="MARGIN-RIGHT: 0px" dir="ltr">Citation: In company with members of the 15th Company of Marines, all mounted, Capt. Upshur left Fort Liberte, Haiti, for a 6-day reconnaissance. After dark on the evening of 24 October 1915, while crossing the river in a deep ravine, the detachment was suddenly fired upon from 3 sides by about 400 Cacos concealed in bushes about 100 yards from the fort. The marine detachment fought its way forward to a good position which it maintained during the night, although subjected to a continuous fire from the Cacos. At daybreak, Capt. Upshur, in command of one of the 3 squads which advanced in 3 different directions led his men forward, surprising and scattering the Cacos, and aiding in the capture of Fort Dipitie.</p> 
+           </blockquote> </td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;<a title="/assets/0/1573/2135/4294969099/5e6a6b8e-e305-4bc0-8cdf-c58c68ec978b.jpg" onkeypress="this.onclick();" href="#" protectclick="function onclick()
+{
+try{window.open('/assets/0/1573/2135/4294969099/5e6a6b8e-e305-4bc0-8cdf-c58c68ec978b.jpg', 'MyImage', 'resizable=yes, scrollbars=yes, width=790, height=580')}catch(e){};return false;
+}"><img title="/assets/0/1573/2135/4294969099/5e6a6b8e-e305-4bc0-8cdf-c58c68ec978b.jpg" border="0" alt="/assets/0/1573/2135/4294969099/5e6a6b8e-e305-4bc0-8cdf-c58c68ec978b.jpg" src="/assets/0/1573/2135/4294969099/thumb_5e6a6b8e-e305-4bc0-8cdf-c58c68ec978b.jpg"></a></td> 
+          <td>&nbsp; <p style="MARGIN-RIGHT: 0px" dir="ltr"><strong>Richard E. Byrd, VMI 1908</strong>&nbsp;<br> Rank and organization: Commander, U.S. Navy.<br> Born: 25 October 1888, Winchester, Va.&nbsp;&nbsp; Appointed from: Virginia.</p> 
+           <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <p style="MARGIN-RIGHT: 0px" dir="ltr">Citation: For distinguishing himself conspicuously by courage and intrepidity at the risk of his life, in demonstrating that it is possible for aircraft to travel in continuous flight from a now inhabited portion of the earth over the North Pole and return</p> 
+           </blockquote> </td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;</td> 
+          <td>&nbsp; <p style="MARGIN-RIGHT: 0px" dir="ltr"><strong>Edward R. Schowalter, Jr., VMI 1951<br></strong>Rank and organization: First Lieutenant, U.S. Army, Company A, 31st Infantry Regiment, 7th Infantry Div.<br> Place and date: Near Kumhwa, Korea, 14 October 1952<br> Entered service at: Metairie, La. Born: 24 December 1927, New Orleans, La.<br> G.O. No.: 6, 28 January 1954.</p> 
+           <blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+            <p style="MARGIN-RIGHT: 0px" dir="ltr">Citation: 1st Lt. Schowalter, commanding, Company A, distinguished himself by conspicuous gallantry and indomitable courage above and beyond the call of duty in action against the enemy. Committed to attack and occupy a key-approach to the primary objective, the 1st Platoon of his company came under heavy vicious small-arms, grenade, and mortar fire within 50 yards of the enemy-held strongpoint, halting the advance and inflicting several casualties.</p> 
+            <p style="MARGIN-RIGHT: 0px" dir="ltr">The 2d Platoon moved up in support at this juncture, and although wounded, 1st Lt. Schowalter continued to spearhead the assault. Nearing the objective he was severely wounded by a grenade fragment but, refusing medical aid, he led his men into the trenches and began routing the enemy from the bunkers with grenades. Suddenly from a burst of fire from a hidden cove off the trench he was again wounded. Although suffering from his wounds, he refused to relinquish command and continued issuing orders and encouraging his men until the commanding ground was secured and then he was evacuated.</p> 
+            <p style="MARGIN-RIGHT: 0px" dir="ltr">1st Lt. Schowalter's unflinching courage, extraordinary heroism, and inspirational leadership reflect the highest credit upon himself and are in keeping with the highest traditions of the military service.</p> 
+           </blockquote> </td> 
+         </tr> 
+        </tbody> 
+       </table> 
+       <p style="MARGIN-RIGHT: 0px" dir="ltr">&nbsp;</p> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>VMI MUSEUMS</strong>&nbsp; </p> 
+      <p align="right"><a href="/VMI_Museum/12469/" title="VMI Museum">VMI Museum</a> | <a href="/vmcw/10737422550/" title="Virginia Museum of the Civil War">Virginia Museum of the Civil War</a> | <a href="http://www.stonewalljackson.org/" title="Stonewall Jackson House" target="_blank">Stonewall Jackson House</a></p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/tpu1wxe.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

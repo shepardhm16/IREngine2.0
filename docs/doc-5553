@@ -1,0 +1,1609 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head> 
+  <meta name="keywords" content="">
+  <meta name="description" content=""> 
+  <title>Ashleigh Smythe - News - Hamilton College</title> 
+  <link type="text/css" href="styles/personaltemplate1.css" rel="stylesheet" media="screen"> 
+  <link type="text/css" href="styles/jquery-ui-1.8.16.custom.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/formstyle.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/cluetip.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/page.css" rel="stylesheet" media="screen"> 
+  <link type="text/css" href="styles/jqModal.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/prettyPhoto.css" rel="stylesheet" media="all"> 
+  <script type="text/javascript" src="scripts/jquery/jquery.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/ui/1.8.4/js/jquery-ui-1.8.4.custom.min.js"></script> 
+  <script type="text/javascript" src="scripts/page.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jquery.cluetip.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqModal.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqDnR.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqForms.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jQuery.prettyPhoto.min.js"></script> 
+  <script type="text/javascript" src="scripts/modules/multimedia.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jquery.cycle.min.js"></script> 
+  <script type="text/javascript" src="scripts/modules/slideshow.js"></script> 
+ </head> 
+ <body id="student1body" class="generic"> 
+  <script language="JavaScript" type="text/javascript">
+			<!--
+			$(document).ready(function() {
+				bodyHeight();
+				$(window).resize(bodyHeight);
+			});
+			bodyHeight = function() {
+				if($('body').height() < $(window).height()) $('body').height($(window).height());
+			};
+		// -->
+		</script> 
+  <div id="siteStructure"> 
+   <div id="siteHeader" class="pagecolumn"> 
+    <div id="719673A6-D849-772B-78137E28B676BC7D" class="sm-area"> 
+     <div id="6731D64C-EE26-A225-76346BDDE1B7D058" class="module full"> 
+      <div class="content "> 
+       <div class="modulecontent"> 
+        <h2 class="h3b"> &nbsp;</h2> 
+        <h2 class="h3b"> &nbsp;Lab News</h2> 
+        <p> &nbsp;</p> 
+        <!-- Import jQuery and SimpleModal source files --> 
+        <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+        <div id="newwindow" class="jqmDialog"> 
+         <a href="#" class="jqmdX jqmClose"></a> 
+         <div class="jqmdTL jqDrag">
+          <h3 class="jqmdTC" id="newwindow_title"></h3>
+         </div> 
+         <div class="lowerWindow"> 
+          <div class="jqmdMSG" id="newwindow_content"> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="siteNav"> 
+    <div id="71967404-BD36-313B-FE27E841D8710FF9" class="sm-area"> 
+    </div> 
+   </div> 
+   <div id="pageContent"> 
+    <div id="left" class="pagecolumn"> 
+     <div id="71967440-E9D5-C21E-1BACA9C85CF22DD7" class="sm-area"> 
+      <div id="899C8388-C674-5109-89DE3ED9BAC3A1CD" class="module full"> 
+       <div class="content module-style-0 " style="text-align:center; margin-top:-80px;"> 
+        <div class="modulecontent"> 
+         <!-- insert menu here --> 
+         <h4 class="h4a"> &nbsp;</h4> 
+         <h4 class="h4a"> <a href="Default.asp">Home</a></h4> 
+         <h4 class="h4a"> <a href="news.asp">News</a></h4> 
+         <h4 class="h4a"> <a href="marine-nematode-research.asp">Marine Nematode Research</a></h4> 
+         <h4 class="h4a"> <a href="parasitology-research.asp">Parasitology Research</a></h4> 
+         <h4 class="h4a"> <a href="thesis-research.asp">Student Research</a></h4> 
+         <h4 class="h4a"> <a href="teaching.asp">Teaching</a></h4> 
+         <h4 class="h4a"> <a href="publications.asp">Publications</a></h4> 
+         <h4 class="h4a"> <a href="education2.asp">Education</a></h4> 
+         <h4 class="h4a"> <a href="http://www.vmi.edu/Content.aspx?id=10737425148&amp;libID=10737425142" target="_blank">VMI Biology</a><br> </h4> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="89D3F05D-D479-BA05-C7FFF9AA4CC6D675" class="module full"> 
+       <div class="content module-style-0 " style="text-align:center;"> 
+        <div class="modulecontent"> 
+         <h5> <span class="imagecaptions"> Ashleigh B. Smythe<br> Virginia Military Institute<br> Lexington, VA 24450<br> Office: 301 Maury-Brooke Hall<br> Office Phone: 540-464-7054<br> Email: <a href="mailto:smytheab@vmi.edu">smytheab@vmi.edu </a> </span> </h5> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="wideright" class="pagecolumn"> 
+     <div id="71967479-AE95-A645-7E5245EADB82E4FA" class="sm-area"> 
+      <div id="2F5CAEDC-A921-D41A-A2EBE4BC35D40760" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> <em>Xiphinema</em> <em>americanum</em> collaboration published</h3> 
+         <p> In February, 2014 my collaboration with the laboratories of Inga Zasada (USDA-ARS, Corvallis, Oregon) and Dee Denver (Oregon State U.) was published in PLoSOne:&nbsp; <a href="http://www.plosone.org/article/authors/info%3Adoi%2F10.1371%2Fjournal.pone.0090035;jsessionid=1AD67CEA83D8FCDFCE5371AC25E72FC4" target="_blank">Using Mitogenomic and Nuclear Ribosomal Sequence Data to Investigate the Phylogeny of the Xiphinema americanum Species Complex.</a></p> 
+         <p> &nbsp;</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="050C9DB4-A7DD-25BC-56E3BAC13A975542" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div class="mod_multimedia"> 
+          <div class="mod_multimedia_media"> 
+           <a href="/assets/mmlibrary/images/original/xiam15.jpg" title="" rel="prettyPhoto[051578B7-DF41-D462-1F47C0AAC8305223]"> <img src="images/medium/xiam15.jpg" alt="" title="Xiphinema americanum" border="0"> </a> 
+          </div> 
+          <div class="mod_multimedia_footer"> 
+           <div class="mod_multimedia_attribution" style="width:300px;">
+            <small>PHOTO: Peter Mullin</small>
+           </div> 
+          </div> 
+          <div style="clear:both;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="255873DE-CF87-19D6-8538C130DD92159E" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Ontologies Workshop at NESCent</h3> 
+         <p> I spent the week of July 29- August 2, 2013 at the<a href="http://www.nescent.org/" target="_blank"> National Evolutionary Synthesis Center</a> attending the <a href="https://academy.nescent.org/wiki/Ontologies_for_evolutionary_biology" target="_blank">Ontologies for Evolutionary Biology workshop</a>.&nbsp; Ontologies are controlled, relational vocabularies that can be used to organize biological data so it can be easily searched and linked to other data.&nbsp; I am interested in extending what's already been done for the <a href="http://www.wormbase.org/tools/ontology_browser" target="_blank">C. elegans anatomy ontology </a>to include the diversity of other nematodes.&nbsp;</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="7C5DC943-CD77-8300-AA538E07005CF302" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div id="ss7C5DC943-CD77-8300-AA538E07005CF302" class="mod_slideshow"> 
+          <div class="mod_slideshow_inplace"> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/ontologiesworkshopgroupphoto.jpg" width="500" height="375" alt="The Ontologies for Evolutionary Biology Workshop, 2013<br />Carrinne Blank" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/ontologiesworkshopclassworking.jpg" width="500" height="375" alt="Ontologies workshop attendees working hard to learn OWL and Protege.<br />Christina Diaz" border="0" style="margin-bottom:0px;"> 
+           </div> 
+          </div> 
+          <div class="mod_slideshow_controls"> 
+           <span class="mod_slideshow_duration duration_8000"></span> 
+           <img src="images/icons/slideshow-prev.png" class="mod_slideshow_prev" alt="prev"> 
+           <img src="images/icons/slideshow-next.png" class="mod_slideshow_next" alt="next"> 
+           <span class="mod_slideshow_pager"></span> 
+          </div> 
+          <div class="mod_slideshow_caption" style="display:none;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="D7414876-C03D-95CB-71A3087982E0CD2C" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> American Society of Parasitologists meeting</h3> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="EB27928D-9E23-EC11-DB155336C6D4DE7D" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <p> In late June, 2013 I attended the American Society of Parasitologists meeting in Quebec City, Canada.&nbsp; I presented some research done collaboratively with one of my undergraduate students, Kristin Forgrave '12, and colleagues at U. Mass. Lowell and U. New Hampshire : "Ecology, Taxonomy, and Evolution of the <em>Chaetogaster limnaei</em> (Oligochaeta, Annelida) Species Complex."&nbsp; I also managed to finally get a picture with both my graduate school mentors, Bill Font (masters) and Steve Nadler (Ph.D.) - two people who have made a huge and positive impact on my life.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="EB05A26C-BF0A-779C-B519C0D7B7EC4C62" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div class="mod_multimedia"> 
+          <div class="mod_multimedia_media"> 
+           <a href="/assets/mmlibrary/images/original/img_0653.jpg" rel="prettyPhoto[EB1993F2-9BAC-8A65-71AE7B7FA4A39501]" title="Bill Font, Ashleigh Smythe, and Steve Nadler at the 2013 ASP meeting in Quebec City, Canada."> <img src="images/large/img_0653.jpg" alt="Bill Font, Ashleigh Smythe, and Steve Nadler at the 2013 ASP meeting in Quebec City, Canada." title="Font, Smythe, Nadler ASP 2013" border="0"> </a> 
+          </div> 
+          <div class="mod_multimedia_footer"> 
+           <div class="mod_multimedia_caption" style="width:500px;">
+            Bill Font, Ashleigh Smythe, and Steve Nadler at the 2013 ASP meeting in Quebec City, Canada.
+           </div> 
+          </div> 
+          <div style="clear:both;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="D7318D44-AE0D-4908-FC0903FFCCE0206D" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Smythe lab students present their research</h3> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="18B3CFEA-D1F3-8D3A-90AA371ED585C124" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <p> In April, 2013 I took my three senior research students to present their research to the Helminthological Society of Washington meeting at Gettysburg College in Pennsylvania.&nbsp; HelmSoc is the oldest parasitology research society in America.&nbsp; Rebecca Knipp '13 gave a talk titled "Oxyurid nematodes from the Madagascar Hissing Cockroach (<em>Gromphadorhina portentosa</em>)", Ethan Ayres '13 presented "Helminth parasites of the American mink (<em>Neovison vison</em>) from central New York state" and Matt Combs '13 presented "Testing the Hygiene Hypothesis: <em>Heligmosomoides bakeri </em>as potential preventative for multiple low dose streptozotocin induced insulitis in mice."&nbsp; They all did a super job on their talks, and Matt even won the best student paper competition!&nbsp;</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="1908F6F6-CAB2-9FB6-01EF2EAC70473A60" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div class="mod_multimedia"> 
+          <div class="mod_multimedia_media"> 
+           <a href="/assets/mmlibrary/images/original/smythelabathelmsoc.jpg" title="Smythe lab at the spring HelmSoc meeting:  L to R:  Matt Combs '13, Ethan Ayeres '13, Ashleigh Smythe, and Rebecca Knipp '13." rel="prettyPhoto[1919C7B7-CEA8-08E9-5F40F641D9433336]"> <img src="images/large/smythelabathelmsoc.jpg" alt="Smythe lab at the spring HelmSoc meeting:  L to R:  Matt Combs '13, Ethan Ayeres '13, Ashleigh Smythe, and Rebecca Knipp '13." title="SmytheLabHelmSoc13" border="0"> </a> 
+          </div> 
+          <div class="mod_multimedia_footer"> 
+           <div class="mod_multimedia_caption" style="width:500px;">
+            Smythe lab at the spring HelmSoc meeting: L to R: Matt Combs '13, Ethan Ayeres '13, Ashleigh Smythe, and Rebecca Knipp '13.
+           </div> 
+           <div class="mod_multimedia_attribution" style="width:500px;">
+            <small>PHOTO: Maria Roberts</small>
+           </div> 
+          </div> 
+          <div style="clear:both;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="D720E6D1-E667-446B-0D037FFE3D5D2CD7" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Scenes from Parasitology, Spring 2013</h3> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="6A8FF26A-DB1B-C141-533388D9F0FE47CE" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Scenes from Invertebrate Biology Class, fall 2012!</h3> 
+         <p> &nbsp;</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="69DD5283-0229-D07E-68013A807D1A64E7" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div id="ss69DD5283-0229-D07E-68013A807D1A64E7" class="mod_slideshow"> 
+          <div class="mod_slideshow_inplace"> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0529.jpg" width="375" height="500" alt="Invertebrate Biology class posing as their favorite invertebrate.  I am of course, a nematode.<br />Pearl Gapp" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/photo5.jpg" width="375" height="500" alt="Emma Lonadier '15 enjoys our new lab tarantula.<br />Felipe Garcia" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/photo12.jpg" width="375" height="500" alt="Felipe Garcia '14 holds the tarantula.<br />Emma Lonadier" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/photo4.jpg" width="375" height="500" alt="Lily Marks '15 shows off our beautiful tarantula.<br />Felipe Garcia" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/photo2.jpg" width="375" height="500" alt="Austin Durham '15 shows the tarantula what's what.<br />Felipe Garcia" border="0" style="margin-bottom:0px;"> 
+           </div> 
+          </div> 
+          <div class="mod_slideshow_controls"> 
+           <span class="mod_slideshow_duration duration_8000"></span> 
+           <img src="images/icons/slideshow-prev.png" class="mod_slideshow_prev" alt="prev"> 
+           <img src="images/icons/slideshow-next.png" class="mod_slideshow_next" alt="next"> 
+           <span class="mod_slideshow_pager"></span> 
+          </div> 
+          <div class="mod_slideshow_caption" style="display:none;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="87C67CD9-B3BF-5199-28CB2BB0E62DDD84" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Field Work in Tobago</h3> 
+         <p> I spent two weeks in late summer of 2012 collecting marine nematodes on the island of Tobago (Republic of Trinidad and Tobago).&nbsp; I joined three other meiofauna researchers: Rick Hochberg and his student Sarah Atherton of U. Massachusetts, Lowell, and Julian Smith of Winthrop University.&nbsp; Rick's NSF grant to study gastrotrichs provided the funding for the trip, and luckily Rick invited Julian and me along to study our own animals that also live in the sand - nematodes for me and flatworms for Julian.&nbsp; More pictures coming soon!</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="882C1BAD-99E0-8BBC-91AC8F30C03AC432" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div id="ss882C1BAD-99E0-8BBC-91AC8F30C03AC432" class="mod_slideshow"> 
+          <div class="mod_slideshow_inplace"> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/p7310039.jpg" width="500" height="375" alt="Ashleigh swimming over a barrel sponge.<br />Cheryl Thacker" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_1103.jpg" width="500" height="375" alt="Little Tobago and Goat Islands, seen from Tobago, and the site of much of our diving and sand collecting.<br />Ashleigh Smythe" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/dsc05408.jpg" width="500" height="281" alt="The head region of the marine nematode Siphonolaimus sp. from Tobago.<br />Ashleigh Smythe" border="0" style="margin-bottom:94px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/p8070269.jpg" width="375" height="500" alt="An octopus we found hiding in a barrel sponge.<br />Cheryl Thacker" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_1092.jpg" width="500" height="375" alt="Bird of Paradise Flower in the Gilpin Trace Forest Preserve, Tobago.<br />Ashleigh Smythe" border="0" style="margin-bottom:125px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_1078.jpg" width="500" height="375" alt="The freshwater land crab Eudaniela garmani in Gilpin Trace Forest Preserve, Tobago.<br />Ashleigh Smythe" border="0" style="margin-bottom:125px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/dsc03166.jpg" width="500" height="375" alt="The giant river prawn, Macrobrachium carcinus, from a river on the north end of the island.<br />Cheryl Thacker" border="0" style="margin-bottom:125px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/p7310052.jpg" width="500" height="375" alt="Ashleigh collecting sand.<br />Cheryl Thacker" border="0" style="margin-bottom:125px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/p8030171.jpg" width="500" height="375" alt="A sand sample, with depth reading of 87 feet, Bookends dive site, Tobago.<br />Cheryl Thacker" border="0" style="margin-bottom:125px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/p8100364.jpg" width="500" height="375" alt="Ashleigh with an arrow crab (Stenorhynchus seticornis) on her mask.<br />Danny Gouge" border="0" style="margin-bottom:125px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/p8100433.jpg" width="500" height="375" alt="Our dive team in Tobago:  Ashleigh Smythe, Sarah Atherton, Danny Gouge and Cheryl Thacker.<br />Arthur of Manta Lodge" border="0" style="margin-bottom:125px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/dsc03201.jpg" width="500" height="375" alt="Our entire dive team: (L to R) Boat captan Silton, Cheryl Thacker, Tobago Dive Experience Dive Master Arthur, Ashleigh, Tobago Dive Experience Dive Master Swiss Robinson, Sarah Atherton and Danny Gouge." border="0" style="margin-bottom:125px;"> 
+           </div> 
+          </div> 
+          <div class="mod_slideshow_controls"> 
+           <span class="mod_slideshow_duration duration_7000"></span> 
+           <img src="images/icons/slideshow-prev.png" class="mod_slideshow_prev" alt="prev"> 
+           <img src="images/icons/slideshow-next.png" class="mod_slideshow_next" alt="next"> 
+           <span class="mod_slideshow_pager"></span> 
+          </div> 
+          <div class="mod_slideshow_caption" style="display:none;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="D2633C0D-027C-FB55-600BEEC44904C2F6" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3 class="h3c"> Summer Student Research</h3> 
+         <p> This summer (2012), three Hamilton College students have been hard at work in my lab for a few weeks now:&nbsp; Rebecca Knipp '13, Doug Santoro '14 and Ethan Ayres '13.&nbsp; Ethan has been focusing on helminth parasites of mink, provided by local trappers.&nbsp; Rebecca and Doug have been working to collect and identify predatory soil nematodes of the order Mononchida.&nbsp; Doug is also doing some work on soil nematodes from invasive garlic mustard habitats, and Rebecca is getting started on a project involving nematodes from the Madagascar hissing cockroach.&nbsp;</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="D2C66F88-0D41-C43E-0D12C64D2F87E7A1" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div id="ssD2C66F88-0D41-C43E-0D12C64D2F87E7A1" class="mod_slideshow"> 
+          <div class="mod_slideshow_inplace"> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/summerresearchteam2012.jpg" width="500" height="333" alt="Summer research team, 2012:  L to R: Rebecca Knipp '13, Doug Santoro '14, Ashleigh Smythe, Ethan Ayres '13." border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0453.jpg" width="500" height="375" alt="Doug Santoro '13, Rebecca Knipp '13 and Ethan Ayres '13, hard at work looking at worms in the microscope." border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/mononchatridentatisfeeding20xobj1colored.jpg" width="500" height="376" alt="The predatory soil nematode Anatonchus tridentatus feeding on another nematode." border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/mononchatridentatisdorsaltooth40xobj1edit.jpg" width="242" height="500" alt="The mouth region of the predatory soil nematode Anatonchus tridentatus." border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0459.jpg" width="500" height="375" alt="Kindeys of a mink, one of which is infected with 7 giant kidney worms, Dioctophyme renale." border="0" style="margin-bottom:125px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0463.jpg" width="375" height="500" alt="Giant kidney worms, Dioctophyme renale, removed from a mink kidney." border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0462.jpg" width="500" height="375" alt="Ethan Ayres, '13, removes giant kidney worms from a mink." border="0" style="margin-bottom:125px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/richardsonwithroach.jpg" width="318" height="424" alt="My collaborator Dennis Richardson of Quinnipiac University with one of his favorite creatures, a hissing cockroach.<br />Dennis Richardson" border="0" style="margin-bottom:76px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/leidyexgromphjuv_001.tif.jpg" width="500" height="460" alt="Scanning electron micrograph of Leidynema porentosae from the Madagascar Hissing Cockroach, showing details of the cuticle and lateral alae.<br />Rebecca Knipp '13" border="0" style="margin-bottom:40px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/leidyexgromphjuv.tif.jpg" width="500" height="460" alt="Scanning electron micrograph of Leidynema porentosae from the Madagascar Hissing Cockroach.<br />Rebecca Knipp" border="0" style="margin-bottom:40px;"> 
+           </div> 
+          </div> 
+          <div class="mod_slideshow_controls"> 
+           <span class="mod_slideshow_duration duration_7000"></span> 
+           <img src="images/icons/slideshow-prev.png" class="mod_slideshow_prev" alt="prev"> 
+           <img src="images/icons/slideshow-next.png" class="mod_slideshow_next" alt="next"> 
+           <span class="mod_slideshow_pager"></span> 
+          </div> 
+          <div class="mod_slideshow_caption" style="display:none;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="AB0B6C55-E44D-9310-C818CEF18E33060A" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Field work in Panama</h3> 
+         <p> I recently returned from 2 weeks collecting marine nematodes on the Pacific coast of Panama in December, 2011.&nbsp; I joined 9 other researchers studying meiofauna, tiny animals found in sediment.&nbsp; Working out of the <a href="http://www.stri.si.edu/english/research/facilities/marine/naos/index.php" target="_blank">Smithsonian Tropical Research Institute's Naos Laboratory</a> in Panama City, we collected in nearby coastal habitats as well as islands offshore, including Las Perlas archipelago and Isla Taboga.&nbsp; This was the third collecting trip for this meiofauna team, led by <a href="http://invertebrates.si.edu/staff/norenburg.cfm" target="_blank">John Norenburg</a> of the Smithsonian's NMNH, and our long run goal is to compare the diversity we find in Pacific Panama to that of the Caribbean side and our site in Belize, <a href="http://ccre.si.edu/" target="_blank">Carrie Bow Cay</a>.&nbsp; The classic biogeographic trans-isthmus comparison has never been made with meiofauna, and we think these understudied little animals are a great way to explore patterns of diversity and evolution.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="B6526B0E-E204-1F18-FCE94C882FEA298F" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div id="ssB6526B0E-E204-1F18-FCE94C882FEA298F" class="mod_slideshow"> 
+          <div class="mod_slideshow_inplace"> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0392.jpg" width="500" height="375" alt="View from our laboratory window of Panama Bay and Panama City.<br />" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/pacificpanamateamphoto.jpg" width="500" height="375" alt="Our research team: Standing, L to R,  Marco Curini-Galletti, Tom Artois, Ashleigh Smythe, Maikon Di Domenico, Jon Norenburg, Susel Castellanos, Francesca Leasi, Alberto Navarrete.  Kneeling:  Sonya Pyataeva and Fernando Pardos.<br />" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/dsc05585copy.jpg" width="500" height="375" alt="Team leader Jon Norenburg with RV Anibal, our dive/collecting boat." border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0999.jpg" width="500" height="375" alt="Isla Contadora in the Las Perlas Archipelago, Panama." border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0386.jpg" width="500" height="375" alt="A Panamax ship about to enter the Panama Canal." border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/dsc05662copy.jpg" width="500" height="375" alt="Sediment samples awaiting processing." border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/dscn0295panamabay.jpg" width="500" height="375" alt="Panama Bay and Panama City with an approaching storm." border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_1008.jpg" width="500" height="375" alt="Isla Contadora in the Las Perlas Archipelago, Panama." border="0" style="margin-bottom:0px;"> 
+           </div> 
+          </div> 
+          <div class="mod_slideshow_controls"> 
+           <span class="mod_slideshow_duration duration_5000"></span> 
+           <img src="images/icons/slideshow-prev.png" class="mod_slideshow_prev" alt="prev"> 
+           <img src="images/icons/slideshow-next.png" class="mod_slideshow_next" alt="next"> 
+           <span class="mod_slideshow_pager"></span> 
+          </div> 
+          <div class="mod_slideshow_caption" style="display:none;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="86FC0465-9B06-2FA0-066132D8DCF1A3CD" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Summer Student Field Parasitology Research</h3> 
+         <p> Five Hamilton students have been hard at work in the lab for the past few weeks, studying the ecology of a variety of parasites.&nbsp; Kristin Forgrave has been working on a project, now joint with <a href="http://faculty.uml.edu/rhochberg/hochberglab/index.html" target="_blank">Rick Hochberg </a>at U. Mass. Lowell, to understand the relationship between the ectoparasitic and endoparasitic forms of the oligochaete <em>Chaetogaster limnaei</em>, associates of physid snails.&nbsp; Chris Kline and JJ Liebow have been exploring larval trematodes in physid snails, using DNA to identify taxa that we find as adults in muskrats.&nbsp; Jackie Specht and Abby Koppa are working to understand the ecological distribution of a new species of nematode found in the branchial chamber of crayfish.&nbsp; Jackie, Chris, and Kristin will continue their research this fall as senior thesis projects.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="B01A8C0C-0E0C-73BD-DDAFB0FED85A6062" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div class="mod_multimedia"> 
+          <div class="mod_multimedia_media"> 
+           <a href="/assets/mmlibrary/images/original/nickslakecanoetrip812011smythelab.jpg" title="Left to right, Chris Kline, Abby Koppa, Jackie Specht, Ashleigh Smythe, Kristin Forgrave and JJ Liebow at Nick's Lake in the Adirondacks." rel="prettyPhoto[B080988D-0317-7743-35668ED0AF14BC4E]"> <img src="images/large/nickslakecanoetrip812011smythelab.jpg" alt="Left to right, Chris Kline, Abby Koppa, Jackie Specht, Ashleigh Smythe, Kristin Forgrave and JJ Liebow at Nick's Lake in the Adirondacks." title="Nick's Lake Canoe Trip 8.1.2011" border="0"> </a> 
+          </div> 
+          <div class="mod_multimedia_footer"> 
+           <div class="mod_multimedia_caption" style="width:500px;">
+            Left to right, Chris Kline, Abby Koppa, Jackie Specht, Ashleigh Smythe, Kristin Forgrave and JJ Liebow at Nick's Lake in the Adirondacks.
+           </div> 
+           <div class="mod_multimedia_attribution" style="width:500px;">
+            <small>PHOTO: JJ Liebow</small>
+           </div> 
+          </div> 
+          <div style="clear:both;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="7FE68E32-C713-E0A4-78C37EC000FF8C19" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Society of Nematologists Meeting</h3> 
+         <p> In mid July, 2011 I attended the 50th Anniversary Meeting of the <a href="http://www.nematologists.org/" target="_blank">Society of Nematologists</a> in Corvallis, Oregon.&nbsp; I was kindly invited to speak in a symposium titled “Freshwater and Marine Nematodes”.&nbsp; My talk was titled “Molecular Phylogeny of Enoplia: Implications for Classification and Stoma Evolution.”&nbsp; This project seeks to understand the evolutionary relationships and morphological evolution of a group of marine nematodes, the Enoplia.&nbsp; Enoplid nematodes are evolutionarily important as they may represent the earliest lineage of all nematodes, and understanding their evolution improves our understanding of the entire phylum, including important human, animal and plant parasites.&nbsp; Enoplids also display a wide variety of morphological features of the mouth region, including adaptations for predatory, algal, and bacterial feeding, and my work aims to understand the evolution of these morphologies.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="800C524A-B89B-FCE2-9B37BA633DE39C65" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div class="mod_multimedia"> 
+          <div class="mod_multimedia_media"> 
+           <a href="/assets/mmlibrary/images/original/epacanthionsmythe2.jpg" title="The marine enoplid nematode Epacanthion sp." rel="prettyPhoto[8015567A-FA7A-FB1E-020434B90C25A2AA]"> <img src="images/medium/epacanthionsmythe2.jpg" alt="The marine enoplid nematode Epacanthion sp." title="Epacanthion" border="0"> </a> 
+          </div> 
+          <div class="mod_multimedia_footer"> 
+           <div class="mod_multimedia_caption" style="width:225px;">
+            The marine enoplid nematode Epacanthion sp.
+           </div> 
+           <div class="mod_multimedia_attribution" style="width:225px;">
+            <small>PHOTO: Ashleigh Smythe</small>
+           </div> 
+          </div> 
+          <div style="clear:both;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="65CFD190-E4F2-0948-C284F6AC1763776F" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> International Congress on Invertebrate Morphology</h3> 
+         <p> June 20th through the 23rd, 2011, I attended the<a href="http://icim.harvard.edu/" target="_blank"> 2nd International Congresss on Invertebrate Morphology </a>at Harvard University.&nbsp; I gave an invited talk in a symposium titled <a href="http://icim.harvard.edu/program-and-schedule/Meiofauna-comparative-morphology-and-evolution" target="_blank">"Meiofauna - Comparative Morphology and Evolution."</a>&nbsp; There were about 250 invertebrate zoologists in attendance, mostly from Europe and North America, all with interests in the evolution and morphology of a variety of inverts, from worms to snails to crustaceans and on and on.&nbsp; It was a great chance to talk to loads of interesting and smart folks about invertebrate animals, the latest techniques, etc. - very fun.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="665B98A1-B739-F18D-89D2743C9E2D0885" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div class="mod_multimedia"> 
+          <div class="mod_multimedia_media"> 
+           <a href="/assets/mmlibrary/images/original/dsc_3202.jpg" title="Participants in the 2nd ICIM at Harvard University.  What's that vertebrate doing there?" rel="prettyPhoto[6671CECF-9928-FFEE-BA296F60176E2DE1]"> <img src="images/large/dsc_3202.jpg" alt="Participants in the 2nd ICIM at Harvard University.  What's that vertebrate doing there?" title="ICIMgroupPhotoJune2011" border="0"> </a> 
+          </div> 
+          <div class="mod_multimedia_footer"> 
+           <div class="mod_multimedia_caption" style="width:333px;">
+            Participants in the 2nd ICIM at Harvard University. What's that vertebrate doing there?
+           </div> 
+           <div class="mod_multimedia_attribution" style="width:333px;">
+            <small>PHOTO: Gonzolo Giribet</small>
+           </div> 
+          </div> 
+          <div style="clear:both;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="66BE6234-F1FA-EB17-4A15E5DC4A12E26C" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Field work on Bay of Fundy</h3> 
+         <p> In mid June, 2011 I joined fellow meiobenthologists Fernando Pardos, Kevin Kocot, and Chris Laumer for a few days of sampling meiofauna animals in the Bay of Fundy region in "downeast" Maine.&nbsp; The large tides of the Bay of Fundy allow sampling of rarely-exposed sediment, and I was able to collect a number of nematode taxa for phylogenetic work. Kevin and I also enjoyed a mud flat adventure finding lots of hemichordates (acorn worms, S<em>accoglossus kowalevskii</em>) as well as a single priapulid (penis worm, <em>Priapulus caudatus</em>) after several hours of digging in the mud.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="6BD8F1C3-9248-EFCC-5FCBF4F196001C1A" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div id="ss6BD8F1C3-9248-EFCC-5FCBF4F196001C1A" class="mod_slideshow"> 
+          <div class="mod_slideshow_inplace"> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/dscf0419.jpg" width="500" height="375" alt="Ashleigh holding <em>Priapulus caudatus</em> on a mud flat at Cobskook Bay, Maine.<br />Kevin Kocot" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/dscf0420.jpg" width="500" height="375" alt="<em>Priapulus caudatus</em><br />Kevin Kocot" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0237.jpg" width="500" height="375" alt="Sampling at Reid State Park, Maine, on our way north.<br />Ashleigh Smythe" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0261.jpg" width="500" height="375" alt="The moon snail, <em>Euspira heros</em>, at Crows Neck Rd., near Reversing Falls State Park, Maine.<br />" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0281.jpg" width="375" height="500" alt="Egg casings of the moon snail.<br />Ashleigh Smythe" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0289.jpg" width="500" height="375" alt="Suffolk University's R.S. Friedman Field Station, our base of operations.<br />Ashleigh Smythe" border="0" style="margin-bottom:125px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0271.jpg" width="500" height="375" alt="Chris Laumer, searching for flatworms.<br />Ashleigh Smythe" border="0" style="margin-bottom:125px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0273.jpg" width="375" height="500" alt="The green sea urchin, <em>Strongylocentrotus droebachiensis</em>." border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0265.jpg" width="375" height="500" alt="Kevin Kocot with the tide way out at Crows Neck.<br />" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_02752.jpg" width="375" height="500" alt="Fernando Pardos, sieving for kinorhynchs.<br />" border="0" style="margin-bottom:0px;"> 
+           </div> 
+          </div> 
+          <div class="mod_slideshow_controls"> 
+           <span class="mod_slideshow_duration duration_7000"></span> 
+           <img src="images/icons/slideshow-prev.png" class="mod_slideshow_prev" alt="prev"> 
+           <img src="images/icons/slideshow-next.png" class="mod_slideshow_next" alt="next"> 
+           <span class="mod_slideshow_pager"></span> 
+          </div> 
+          <div class="mod_slideshow_caption" style="display:none;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="6FCAB841-0047-8880-2955CAF33C35EBBB" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Beaver necropsy</h3> 
+         <p> Parasitology student Ethan Ayres found a road kill beaver near his hometown of Cooperstown, NY in late May, 2011.&nbsp; He asked if he could examine it for parasites, "just for fun."&nbsp; Yeah, that's my kind of fun!&nbsp; He found a great trichostrongyl nematode, <em>Travassosius americanus</em>, in the stomach and several specimens of a big trematode, <em>Stichorchis subtriquetrus</em> in the cecum.&nbsp; Parasite pictures coming soon.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="70667E84-C308-3CF8-D11C6845EFCBFC71" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <div id="ss70667E84-C308-3CF8-D11C6845EFCBFC71" class="mod_slideshow"> 
+          <div class="mod_slideshow_inplace"> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/img_0221.jpg" width="375" height="500" alt="Ethan Ayres, Hamilton '13, with a beaver, ready for necropsy." border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/beavertailbywilliams.jpg" width="335" height="500" alt="Beaver tail.<br />Ernest Williams" border="0" style="margin-bottom:0px;"> 
+           </div> 
+           <div class="mod_slideshow_slide "> 
+            <img src="images/large/ethanandashleighwithbeaver42011.jpg" width="335" height="500" alt="Ethan Ayres and Ashleigh Smythe show off a great parasite host.<br />Ernest Williams" border="0" style="margin-bottom:0px;"> 
+           </div> 
+          </div> 
+          <div class="mod_slideshow_controls"> 
+           <span class="mod_slideshow_duration duration_7000"></span> 
+           <img src="images/icons/slideshow-prev.png" class="mod_slideshow_prev" alt="prev"> 
+           <img src="images/icons/slideshow-next.png" class="mod_slideshow_next" alt="next"> 
+           <span class="mod_slideshow_pager"></span> 
+          </div> 
+          <div class="mod_slideshow_caption" style="display:none;"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="pageFooter">
+     The material on this personal site may not necessarily reflect the views of Virginia Military Institute.
+    </div> 
+   </div> 
+  </div>   
+ </body>
+</html>

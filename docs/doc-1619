@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <!-- BEGIN: head_admin --> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <title>
+			Library/Research - LibGuides at Virginia Military Institute
+			</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+					<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+			<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <!-- BEGIN: CUSTOM HEAD JS/CSS --> 
+  <!-- END: CUSTOM HEAD JS/CSS --> 
+  <script src="/web/chosen-1.4/chosen.jquery.min.js"></script>
+  <script src="/sa.php?site_id=807"></script> 
+  <script type="text/javascript">
+                //====================================================
+                jQuery(document).ready(function() {
+                    jQuery(".chosen-select").chosen();
+					loadSubjectGuides(9746);
+                });	
+                //====================================================
+				loadSubjectGuides=function(subject_id) {
+					var is_subject = (subject_id != 0);
+					jQuery("#s-lg-sb-content-guides").html("<div class=\"bold s-lib-color-lt-grey pad-top-med text-center\">Loading...</div>");
+					jQuery("#s-lg-sb-content-databases").html("<div class=\"bold s-lib-color-lt-grey pad-top-med text-center\">Loading...</div>");
+					jQuery("#s-lg-sb-experts-div").html("<div class=\"bold s-lib-color-lt-grey pad-top-med text-center\">Loading...</div>");
+					
+					if (is_subject) {
+						xhr = jQuery.ajax({
+							url: "/sb_process.php",
+							type: "POST",
+							dataType: "json",
+							data: {
+								action: 540,
+								subject_id: subject_id,
+								key: "auth_key",
+							},
+							success: function(response, textStatus) {
+								if ( response.errCode == 200 ) {
+									jQuery("#s-lg-sb-content-guides").html(response.data.guides);
+									jQuery("#s-lg-sb-content-databases").html(response.data.databases);
+									jQuery("#s-lg-sb-experts-div").html(response.data.experts);
+								} 
+								 // Init popovers.
+								springSpace.UI.xhrPopover();
+								springSpace.UI.initPopOvers();
+							},
+							error: function (jqXHR, textStatus, errorThrown) {
+								alert("Oops, sorry! Something unexpected happened: " + errorThrown + " \n\nThat might not mean much to you, but it probably does " + 
+								"to the Springy Techs...you can let them know at support@springshare.com.");
+							}
+						});		
+					}
+					
+					//jQuery("#s-lg-sb-cols").toggle(is_subject);
+				}
+                //====================================================
+                loadSubjectPage=function(subject_page) {
+					window.location.href = subject_page;
+                }
+                //====================================================
+				springSpace.springTrack.init({_st_site_id: '807'});
+				jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '21'});
+				});
+            </script> 
+  <link rel="stylesheet" href="/web/chosen-1.4/chosen.min.css"> 
+  <style>
+			.chosen-select { width:400px; }
+			.chosen-container { 
+				border-radius: 4px;
+				box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+				margin-top:3px;
+			}
+			.chosen-container-single .chosen-single { height:28px; }
+		</style> 
+  <!-- END: head_admin --> 
+ </head> 
+ <body class="s-lib-public-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lib-public-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Content Header --> 
+  <div id="s-lib-public-header" class="s-lib-header container s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-index"> <a href="/sb.php">Subjects </a> </li> 
+     <li id="s-lib-bc-page" class="active">Library/Research </li> 
+    </ol> 
+   </div> 
+   <h1 id="s-lib-public-header-title">Library/Research</h1> 
+   <div id="s-lib-public-header-desc">
+    Browse our best resources, organized by subject
+   </div> 
+  </div> 
+  <!-- END: Content Header --> 
+  <!-- BEGIN: Nav Bar --> 
+  <div id="s-lib-public-nav" class="container s-lib-side-borders"> 
+  </div> 
+  <!-- END: Nav Bar --> 
+  <!-- BEGIN: content --> 
+  <div id="s-lib-public-main" class="s-lib-main container s-lib-side-borders"> 
+   <section> 
+    <div id="s-lg-sb-search-bar" class="row"> 
+     <div id="sb-search-col-1" class="col-md-12 center"> 
+      <nav class="navbar navbar-default" role="navigation"> 
+       <div class="container-fluid"> 
+        <!-- Brand and toggle get grouped for better mobile display --> 
+        <div class="navbar-header"> 
+         <button type="button" class="navbar-toggle pad-right-med" data-toggle="collapse" data-target="#s-lg-sb-nav-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+         <div id="s-lg-sb-label" class="navbar-brand"> 
+          <span id="s-lg-sb-count" class="badge" style="margin-left:10px;">14</span> 
+          <span id="s-lg-sb-label-text">SUBJECTS</span> 
+         </div> 
+        </div> 
+        <!-- Collect the nav links, forms, and other content for toggling --> 
+        <div class="collapse navbar-collapse" id="s-lg-sb-nav-1"> 
+         <form class="navbar-form navbar-left" role="search" style="margin-top:8px;"> 
+          <div class="form-group"> 
+           <label class="control-label sr-only" for="sel-guide-drop">Guide Subject Filter</label> 
+           <select name="sel-guide-drop" id="sel-guide-drop" class="chosen-select" data-placeholder="Select a Subject..." onchange="loadSubjectPage(jQuery(this).val());"> <option selected value=""></option> <option value="/Math">Applied Mathematics </option> <option value="/Biology">Biology </option> <option value="/Chemistry">Chemistry </option> <option value="/Chinese">Chinese </option> <option value="/EC_BU">Economics &amp; Business - EC BU </option> <option value="/Engineering">Engineering </option> <option value="sb.php?subject_id=9743">English/Rhetoric/Humanistic Studies - ERH </option> <option value="/French">French </option> <option value="/History">History </option> <option value="/IS">International Studies (IS) </option> <option value="/Research" selected>Library/Research </option> <option value="/Languages">Modern Languages </option> <option value="/PhysicsAstronomy">Physics/Astronomy </option> <option value="/Psychology">Psychology </option> </select> 
+          </div> 
+         </form> 
+        </div> 
+       </div> 
+      </nav> 
+     </div> 
+    </div> 
+   </section> 
+   <section> 
+    <div id="s-lg-sb-cols" class="row"> 
+     <div id="col1" class="col-md-8 center"> 
+      <ul class="nav nav-tabs margin-bottom-med"> 
+       <!-- Guide tab --> 
+       <li class="active"> <a href="#s-lg-sb-guides" data-toggle="tab">Guides</a> </li> 
+       <!-- Databases tab --> 
+       <li class=""> <a href="#s-lg-sb-databases" data-toggle="tab">Databases</a> </li> 
+      </ul> 
+      <!-- Tab panes --> 
+      <div class="tab-content margin-bottom-med"> 
+       <div class="tab-pane active" id="s-lg-sb-guides"> 
+        <!-- Guides content --> 
+        <div id="s-lg-sb-content-guides" class="pad-right-sm"></div> 
+       </div> 
+       <div class="tab-pane " id="s-lg-sb-databases"> 
+        <!-- Databases content --> 
+        <div id="s-lg-sb-content-databases" class="pad-right-sm"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="col2" class="col-md-4 center"> 
+      <div style="padding-top: 9px;"></div> 
+      <div class="margin-bottom-xlg"> 
+       <div class="s-lib-public-side-header"> 
+        <div class="pad-bottom-sm">
+         Search 
+        </div> 
+       </div> 
+       <div class="txt pad-top-sm">
+        <div class="margin-bottom-med">
+         Search the full text of this site. Results will link to pages containing your terms; results from subject page searches are automatically filtered by that subject.
+        </div> 
+       </div> 
+       <div class="input-append"> 
+        <form role="search" method="GET" action="/srch.php">
+         <input type="hidden" name="subject" value="Library/Research"> 
+         <label class="control-label sr-only" for="s-lg-guide-search">Guide Search Terms</label> 
+         <input class="form-control" name="q" id="s-lg-guide-search" type="text" placeholder="Enter Search Words"> 
+         <button class="btn btn-info" type="submit" style="margin-top:2px;">Search</button> 
+        </form> 
+       </div> 
+      </div> 
+      <div id="s-lg-sb-experts-div"> 
+       <div class="bold s-lib-color-lt-grey pad-top-med text-center">
+        Loading...
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </section> 
+  </div> 
+  <!-- END: content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div> 
+    <div id="s-lib-footer-brand">
+      Powered by Springshare. 
+    </div> 
+    <div id="s-lib-footer-rights">
+      All rights reserved. 
+    </div> 
+    <div id="s-lib-footer-login-link"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div> 
+    <!--
+					<div id="s-lib-footer-print-link">
+						~[23]~
+					</div>
+					--> 
+    <div id="s-lib-footer-support-link"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <div id="s-lib-popover-title" class="hide"> 
+   <span class="text-info"><strong>title</strong></span> 
+   <button type="button" id="popclose" class="close" onclick="jQuery('.s-lib-popover').popover('hide')">×</button> 
+  </div> 
+  <div id="s-lib-popover-content" class="hide">
+   <i class="fa fa-refresh fa-spin"></i> Loading... 
+   <button class="btn btn-default btn-sm popclose" type="button">Close</button> 
+  </div> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer --> 
+ </body>
+</html>

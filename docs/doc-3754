@@ -1,0 +1,648 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	Virginia Military Institute - Guidelines for Referencing Papers
+</title>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Guidelines for Referencing Papers;Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni">
+  <meta name="Description" content="Guidelines for Referencing Papers">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=14041&amp;libID=13963" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCDw8PFgIeB1Zpc2libGVoZGQCEw9kFgQCAQ8PFgIfCGdkZAIFD2QWAgIBD2QWAmYPZBYCZg8WAh8IZxYCAgEPDxYCHwIFMS91cGxvYWRlZEltYWdlcy9JbWFnZXMvSGVhZGVycy9oaXN0b3J5LmpwZz9uPTQ4MzVkZGTpk+Wv8xNlObrE4Y2/Bmu+pI/Iwoy5nbZguFd0XiBLTw=="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAATLU4XcmYfmmGxrBr54sygqg7Z1sS2zTNHf3/IxWgcxRFSOGbegovGRRqrbhyvyJGWQuO5O7PDGe2zLg4RZuxgsvjbFpybsTMM4yuTiLBeEgapnXD5fS6uSC9GDIDrrTms="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities Division</a></li>
+        <li><a href="/Content.aspx?id=10737430629" target="_self">History Home</a></li>
+        <li><a href="/content.aspx?id=17225" target="_self">Degrees &amp; Programs</a></li>
+        <li><a href="http://vmi.catalog.acalog.com/preview_entity.php?catoid=15&amp;ent_oid=351&amp;returnto=448" target="_blank">Courses</a></li>
+        <li class="selected"><strong><a href="/Content.aspx?id=14041" target="_self">Referencing Papers</a></strong></li>
+        <li><a href="/Content.aspx?id=1846" target="_self">History Advising</a></li>
+        <li><a href="/Content.aspx?id=1848" target="_self">Phi Alpha Theta</a></li>
+        <li><a href="/Content.aspx?id=1844" target="_self">Statement on Plagiarism</a></li>
+        <li><a href="/content.aspx?id=1850" target="_self">Faculty Publications</a></li>
+        <li><a href="/content.aspx?id=4013" target="_self">Adams Center Military History</a></li>
+        <li><a href="/Content.aspx?id=4294974237" target="_self">Faculty</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft1560"> 
+        <address><p><a href="mailto:shaferdp@vmi.edu" title="Deneise Shafer">Deneise Shafer</a><br> Administrative Assistant</p> <p>&nbsp;<a target="_blank" title="facebook" href="https://www.facebook.com/pages/VMI-Department-of-History/1613681962191979?ref=hl"><img border="0" src="/uploadedImages/Images/icons/facebook.png?n=469" alt="facebook" title="facebook"></a> <a href="https://twitter.com/VMIHistoryDept" title="twitter" target="_blank"><img border="0" src="/uploadedImages/Images/icons/twitter.png?n=8365" alt="twitter" title="twitter"></a><br><br> P: (540) 464-7338<br> F: (540) 464-7246</p> <p>Virginia Military Institute<br> 536 Scott Shipp Hall<br> Lexington, VA&nbsp; 24450</p> <p><a href="mailto:shaferdp@vmi.edu">Contact History</a></p> </address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/" title="">Home</a> &gt; <a target="_self" href="/Content.aspx?id=54" title="">Academics</a> &gt; <a target="_self" href="/content.aspx?id=64" title="">Areas of Study</a> &gt; <a target="_self" href="/content.aspx?id=78" title="">Arts &amp; Humanities</a> &gt; <a target="_self" href="/content.aspx?id=96" title="">History</a> &gt; <a target="_self" href="/Content.aspx?id=14041" title="Guidelines for Referencing Papers Welcome &nbsp; The bookmarks below have been arranged to provide an introduction to the History Department and basic information about the study of history at VMI. Guidelines for Referencing Papers Why Acknowledge Your Sources? Types of">Guidelines for Referencing Papers</a></span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/history.jpg?n=4835" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Guidelines for Referencing Papers</h1> 
+       <p>The bookmarks below have been arranged to provide an introduction to the History Department and basic information about the study of history at VMI.</p> 
+       <p><strong>Guidelines for Referencing Papers</strong></p> 
+       <ul class="checklist"> 
+        <li><a href="#Why_Acknowledge_Your_Sources?" title="Why Acknowledge Your Sources?">Why Acknowledge Your Sources?</a></li> 
+        <li type="A"><a href="#Types_of_Reference_and_Notes" title="Types of References and Notes">Types of References and Notes</a></li> 
+        <li type="A"><a href="#Bibliographies" title="Bibliographies">Bibliographies</a></li> 
+       </ul> 
+       <p><strong>Other Useful Guidelines for Writing Papers in History Courses</strong></p> 
+       <ul class="checklist"> 
+        <li><a href="#Descriptive_Writing_vs._An_Analytic_or_Critical_Approach" title="Descriptive vs. Analytic Writing">Descriptive vs. Analytic Writing</a></li> 
+        <li><a href="#General_Format_and_Presentation" title="General Format &amp; Presentation">General Format &amp; Presentation</a></li> 
+        <li><a href="#Clarity_of_Organization_and_Paragraph_Structure" title="Organization &amp; Paragraph Structure">Organization &amp; Paragraph Structure</a></li> 
+        <li><a href="#Acknowledging_Your_Sources_(Referencing)_and_Academic_Honesty" title="Acknowledging Sources">Acknowledging Sources</a></li> 
+        <li><a href="#Primary_Sources_vs._Secondary_Works" title="Primary vs. Secondary Sources">Primary vs. Secondary Sources</a></li> 
+        <li><a href="#Use_of_Direct_Quotations" title="Use of Direct Quotations">Use of Direct Quotations</a></li> 
+        <li><a href="#Writing_in_Formal_English" title="Writing in Formal English">Writing in Formal English</a></li> 
+        <li><a href="#Common_Problems_in_Writing_Mechanics_and_Style" title="Common Problems in Writing Mechanics and Style">Common Problems in Writing Mechanics and Style</a></li> 
+       </ul> 
+       <p><strong>Guidelines for Referencing Paper</strong></p> 
+       <p><strong>A.&nbsp; Why Acknowledge Your Sources?</strong></p> 
+       <p align="justify">Every paper that you submit should be based upon your own research and analysis. Any factual material or ideas you take from another source must be acknowledged in a reference, unless it is common knowledge (e.g., President Kennedy was killed in 1963). This is normally done through a combination of notes and a bibliography. Your method of referencing must tell your reader where you got all the specific information in your paper, and where any ideas or interpretations came from that are not your own thinking.</p> 
+       <p align="justify">Plagiarism consists of presenting another person's words, research, or ideas as if they were your own. This applies not only to direct quotations (each of which must be placed in quotation marks and have its own reference) but also to the use of facts, interpretations, or approaches you have gained from someone else's work. Any information or ideas you have taken from another book, article, or person must therefore be referenced too. Submitting a paper written by another student or one you ordered from a catalog is likewise plagiarism. The Institute treats plagiarism as a serious academic offense, and your instructor is obliged to impose severe punishments should this problem occur, plus report cases to the Department Chairman who will pass it on to the Dean’s Office for possible Honor Court action.</p> 
+       <p><strong>B.&nbsp; Types of Reference and Notes</strong></p> 
+       <p align="justify">Different styles of referencing are used in different disciplines. The one most commonly found in historical writing utilizes notes, placed either at the bottom of the page as footnotes or at the back of the paper as endnotes, coupled with a bibliography at the end that lists all the works used for the project.</p> 
+       <p align="justify">Historians do not normally use a format that gives references in the text, with the author's name and a reference put into parentheses. Occasionally, however, an instructor may suggest that you use this style, especially if your paper is a discussion of just a few works. In that case you need also to provide in a bibliography the full reference to every work cited. Do not use references in the text unless your instructor has approved this format.</p> 
+       <p><strong>Use of notes</strong></p> 
+       <ol> 
+        <li><strong>Simple notes -&nbsp;</strong>They provide a reference to the source for the material, interpretation, or direct quotation given in the text.</li> 
+        <li><strong>Collective notes </strong>-&nbsp;To avoid the extreme case of having a note at the end of every sentence or two, you can put a collective note at the end either of the first sentence or of the last sentence of a given paragraph, indicating where the material in that paragraph comes from (if it is taken from just a few sources). Even then, however, any direct quotation within the paragraph will need its own reference in addition to the collective note.</li> 
+        <li><strong>Notes to provide supplementary material - </strong>Another use of notes is to provide additional information or comment: facts or explanations which you feel would interrupt the flow of your discussion in the text itself. You could, for example, offer evidence to support a statement made in the text, or you could explain why you are not persuaded by another historian's differing argument on this point.</li> 
+       </ol> 
+       <p><strong>Format for notes</strong></p> 
+       <p align="justify">Type the number of the note at the end of the sentence to which it applies normally up half a space above the line of text. The notes themselves are usually typed single-spaced, with double spaces between them. Notes may be placed either at the bottom of each page (footnotes) or all together at the end of the paper (endnotes). If the notes are on the same page as the text, they may either be numbered consecutively throughout the paper or start again with number one on each new page. Notes at the end of the paper must be numbered in sequence throughout the paper.</p> 
+       <p align="justify">The most important features of notes are (1) that they provide the necessary information (2) in a consistent format. The information to be given the first time you refer to a given printed work is: author's full name, title of the work, publication information in parentheses, and the page(s) which you are citing. There are several acceptable formats used by historians. Unless your instructor tells you to do something different, use the following style. It is drawn from the Turabian Manual cited below, based upon <em>The Chicago Manual of Style</em>.</p> 
+       <p><strong>The first reference to a book</strong>:</p> 
+       <p align="justify">The author's name, with first name(s) before last name; the title of the book underlined or in italics; the town in which the book was published followed by a colon and two spaces, then the publisher followed by a comma and a space, then the date of publication, with all of this publication information enclosed within parentheses; and finally if the place of publication is a U.S. city that is not generally known, give a brief state abbreviation too. Thus:</p> 
+       <p align="justify">Eric W. Osborne, <em>Britain's Economic Blockade of Germany, 1914-1919 </em>(London:&nbsp; Frank Cass, 2004), 52-53.</p> 
+       <p align="justify">Bruce Vandervort, <em>Wars of Imperial Conquest in Africa, 1830-1914</em> (London: University College of London Press, 1998), 1-12.</p> 
+       <ol> 
+        <li><strong>The first reference to an article in a journal</strong>:</li> 
+       </ol> 
+       <p align="justify">The author's name, with first name(s) before last name, followed by a comma; the title of article in quotation marks with a comma before the closing quotation mark; the title of the journal underlined or in italics with no comma after it; the volume number of the journal; the year of publication in parentheses followed by a comma and a space; and the page numbers. Thus:</p> 
+       <p>Spencer C. Tucker, "The Carronade," <u>The Nautical Research Journal</u> 42,1 (April 1997), 40-44.</p> 
+       <p>A. Cash Koeniger, "Climate and Southern Distinctiveness," <u>Journal of Southern History</u> 54 (February, 1988), 21-44.</p> 
+       <p>David W. Coffey, ed., "Into the Valley of Virginia: The 1852 Travel Account of Curran Swaim,"<u>Virginia Cavalcade</u> 40 (Summer 1990), 14-27.</p> 
+       <p>Bruce Vandervort, "Nouvelles perspectives sur Victor Griffuelhes," <em>Le Mouvement Social</em>, 172 (juillet-septembre, 1995), 51-62.</p> 
+       <ol> 
+        <li value="2"><strong>A multi-volume set:</strong></li> 
+       </ol> 
+       <p align="justify">In the simplest case, after the parenthesis and the comma, say which volume you used, followed by a colon, and then the page(s). E.g., <em>Statutes of the Realm</em> (London: Her Majesty's Stationery Office, 1879), 4:24-7. For more complex cases, see the Turabian Manual cited below.</p> 
+       <ol> 
+        <li value="3"><strong>A component part by one author in a work by another:</strong></li> 
+       </ol> 
+       <p align="justify">Give the author and title of the chapter or article you used, then "in" followed by the name of the volume. List the editor's name after the title, before the parenthesis. The rest is as for other books.</p> 
+       <p align="justify">Kenneth E. Koons, "The Staple of Our Country: Wheat in the Regional Farm Economy of the Nineteenth Century Valley of Virginia," in&nbsp;<u>After the Backcountry. Rural Life in the Great Valley of Virginia 1800-1900</u> Kenneth E. Koons and Warren R. Hofstra (Knoxville: The University of Tennessee Press, 2000) 2-44.</p> 
+       <p>Kenneth E. Koons, ""The Colored Laborers Work as Well as When Slaves. African Americans in the Breadbasket of the Confederacy, 1850-1880," in <u>To Peel This Earth: Historical Archaeology and the War Between the States</u>, ed. Clarence R. Geier and Stephen Potter (Miami University Press of Florida, 2000).</p> 
+       <ol> 
+        <li value="4"><strong>Translated works:</strong></li> 
+       </ol> 
+       <p>Give the translator's name after the title, before the parenthesis. E.g.,</p> 
+       <p>Author, Title, trans. Henry Jones (New York, etc.).</p> 
+       <ol> 
+        <li value="5"><strong>A collective note might be worded as follows</strong>:</li> 
+       </ol> 
+       <p>All information in this paragraph is drawn from Jane Osikawa, <em>Women in the Japanese Textile Industry, 1880-1954</em> (Berkeley, CA: Univ. of California Press, 1985), 64-78, and Nagato Takeuchi, Earl, <em>Japanese Linen Production</em> (Tokyo: Masakawi Press, 1962), 209-51.</p> 
+       <ol> 
+        <li value="6"><strong>Modern edition of a primary source or collection of sources:</strong></li> 
+       </ol> 
+       <p align="justify">Your format here must distinguish between the actual words of a primary source and any discussion written by the modern editor in her or his introduction to the work. If, for instance, you refer to a statement by Sitting Bull, your reference will normally be to the source of his own words. But if you are quoting a modern editor's comments about Sitting Bull's statement, your format must make that plain. These two cases might be referenced:</p> 
+       <p>1. Sitting Bull, Interview about the Ghost Dance, January 7, 1890, in <em>Native American Voices</em>, ed. Margaret Strong Woman (Boston: Atlantic, 1983), 136.</p> 
+       <p>2. Margaret Strong Woman, introduction to <em>Native American Voices</em>, ed. Margaret Strong Woman (Boston: Atlantic, 1983), iii.</p> 
+       <p>Thomas W. Davis, ed. <u>Committees for Repeal of the Test and Corporation Acts: Minutes 1786-90 and 1827-8</u>. (London: London Record Society, 1978).</p> 
+       <ol> 
+        <li value="7"><strong>Indirect quotations</strong> (when you have cited person A through author B's work):</li> 
+       </ol> 
+       <p>First give the original author of the quotation, with the source of the quotation, its publication information, and page number; then say "cited by" or "as quoted by" and give the full reference to the book in which you found the quotation. If author B does not provide a reference saying where he or she found the quotation, indicate that absence in your own note.</p> 
+       <ol> 
+        <li>Thomas More, <em>Utopia</em>, ed. Henry Smith (London: Longmans, 1873), as quoted by Susan Williams, <em>English Reform Literature of the Sixteenth Century</em> (Boston: Little Brown, 1991), 523.</li> 
+       </ol> 
+       <ol> 
+        <li value="2">Henry VIII, letter to Charles V, date and reference not provided, as cited by Lucille Careless, <em>Early European Diplomacy</em> (Paris: Drois, 1897), 76.</li> 
+       </ol> 
+       <ol> 
+        <li value="8"><strong>Later references to a work already cited</strong>:</li> 
+       </ol> 
+       <p align="justify">After the first, full reference to a given work, save time and space by referring to that work in an abbreviated form. A standard format is to give the author's last name (not the first, unless you have cited works by two different authors with the same last name, when you will have to give at least their first initials as well), a short form of the title, and page number(s). Thus: Thomas, <em>Diesel</em>, 68-70.</p> 
+       <p>The forms "op. cit." and "loc. cit." should not be used.</p> 
+       <ol> 
+        <li value="9"><strong>Consecutive references to the same work</strong>:</li> 
+       </ol> 
+       <p align="justify">If you are citing a work in one note which you cited in the note immediately before it, there is a further shortcut. Here one uses the Latin abbreviation <em>ibid</em>. (meaning "the same"), plus a new page number if the second reference is different from the page given in the previous note. Because ibid. is an abbreviation, it always needs a period. When ibid. is used in the middle of a sentence, it is not capitalized. Thus:</p> 
+       <p>1. Stanislaus Serevski, <em>Polish Workers in World War II</em>, trans. Ignatius Gazda (Oxford: Blackwell, 1993), 39.</p> 
+       <p>2. <em>Ibid</em>. [With no further page number, this means p. 39 again.]</p> 
+       <p>3. For a detailed discussion of this change, see <em>ibid</em>., 41-2.</p> 
+       <p><strong>References to interviews</strong>:</p> 
+       <p>If you are using interviews as a source for a paper, ask your instructor for a copy of the separate handout Interviewing Guidelines.</p> 
+       <p><strong>C.&nbsp; Bibliographies</strong></p> 
+       <p><strong>The Purpose of a Bibliography</strong></p> 
+       <p align="justify">A bibliography should list all the books, articles, and interviews which you found helpful while doing research for your paper, even if you did not end up citing them individually in notes. It should not include works which you looked at but did not contain any useful information on your subject.</p> 
+       <p align="justify"><strong>Format For a Bibliography&nbsp;</strong></p> 
+       <p>Book titles may be underlined or italicized as long as you are consistent throughout the bibliography.&nbsp; </p> 
+       <p>The bibliography is placed at the very end of the paper.</p> 
+       <p>A bibliography is generally typed single-spaced within each entry but double-spaced between entries.</p> 
+       <p align="justify">If you have a long and complicated bibliography, you may want to subdivide it on the basis of primary sources and secondary materials. Books and articles should be entered together, not grouped separately.</p> 
+       <p>Entries within a bibliography are arranged alphabetically by the author's last name and are not numbered.</p> 
+       <ul> 
+        <li>The author's last name is typed first, followed by his or her given names (the reverse of the format for notes). Use a period after the author's full name (not a comma as in notes).</li> 
+       </ul> 
+       <ul> 
+        <li><p align="justify">If you list several works by a given author, arrange them alphabetically by title after the author's name. Use an underscore in place of the author's name for the second and later items to indicate the same author.</p> </li> 
+        <li>Book titles are followed by a period. The publication information to be given is the same as for notes but is not put into parentheses.</li> 
+       </ul> 
+       <ul> 
+        <li>Article format is the same as for notes, except that the author's last name comes first, the author's name is followed by a period, and the title of the journal is followed by a period.</li> 
+       </ul> 
+       <p>Books or articles for which no author was given should be listed under title.</p> 
+       <ul> 
+        <li>When describing a book, do not give the page numbers of the sections you used. The page numbers of articles in journals or chapters in books should, however, be given.</li> 
+       </ul> 
+       <p><strong>Examples:</strong></p> 
+       <p>Sheldon, Rose Mary. "Clandestine Operations and Covert Action: The Roman Imperative."&nbsp;<u>International Journal of Intelligence and Counterintelligence</u>, Vol. 10, No. 3 (Fall 1997), 299-315.</p> 
+       <p>Vandervort, Bruce.&nbsp; <u>Wars of Imperial Conquest in Africa, 1830-1914</u>.&nbsp; Bloomington, IN: Indiana University Press, 2009.</p> 
+       <p>Davis, Thomas W. "The Influence of Richard Price on the Burke-Paine Debates," <u>Proceedings of the Consortium on Revolutionary Europe</u>&nbsp;19 (1989), 800-806.</p> 
+       <p>For more information on referencing, see: Kate L. Turabian, <u>A Manual for Writers of Term Papers</u>.</p> 
+       <p align="left" dir="ltr"><strong>Other Useful Guidelines for Papers</strong></p> 
+       <p align="left"><strong>A.&nbsp; Descriptive Writing vs. An Analytic or Critical Approach</strong></p> 
+       <ol> 
+        <li>Descriptive writing merely says what happened or what another author has discussed; it provides an account of the topic.</li> 
+        <li>An analytic (or critical) approach asks and answers questions, makes comparisons, and presents and defends a thesis or argument. Rather than just stating the facts, this approach explains and interprets them. Why did events take place, what were their consequences, how did they relate to other developments? Why did the authors you read take differing stands? What is your own interpretation of the issues?</li> 
+        <li>Few assignments in history courses will be simply descriptive. Rather than just summarizing what happened or what you read, you will usually be asked to provide your own analysis of the topic or issue about which you are writing and to argue a thesis or conclusion. Be sure that you understand what each assignment requires, in terms of the balance between description, analysis, and argument.</li> 
+        <li>You must provide evidence and examples to buttress your analysis and arguments.</li> 
+        <li>If you encounter material that does not agree with your position, you cannot just ignore it; instead you need to explain why you think that evidence is less important or persuasive.</li> 
+       </ol> 
+       <p><strong>B.&nbsp; General Format and Presentation</strong></p> 
+       <ol> 
+        <li>The paper's title, your name, the course number, and the date should appear on a separate first page for long papers and at the top of the first page of text for short papers.</li> 
+        <li>Your paper needs an introduction, a middle section, and a conclusion. These sections do not need to be set off with individual headings in a short paper but may be separated in a longer one.</li> 
+       </ol> 
+       <ol> 
+        <li type="a">The introduction lays out your topic, states what your particular thesis or argument will be, and tells your reader how the paper will be structured--what points you will consider. You may also need to provide some background or context in the introduction.</li> 
+        <li type="a">The middle section presents your information and develops your analysis and argument.</li> 
+        <li type="a">The conclusion pulls together the main points, reasserts the thesis, and may relate the topic back to wider historical issues. </li> 
+       </ol> 
+       <ol> 
+        <li value="3">Number the pages so your instructor can refer to them.</li> 
+        <li>Depending on the nature of the assignment, your paper may need footnotes (at the bottom of the page) or endnotes (at the back of the paper). It will almost certainly need at the end bibliography of the works you used for the project. See the Referencing Guidelines.</li> 
+        <li>Unless your instructor has given you other instructions, type your papers double-spaced, with margins of standard width (usually 1 inch on the sides and bottom and 1 1/2 inch on the top). Use standard fonts. Professors are fully aware that different fonts may be used to make a paper seem larger or smaller than it really is. Also, exotic fonts may be hard to read and grade.</li> 
+        <li>Indent the start of each paragraph 5 spaces from the left margin.</li> 
+        <li>Proofread your paper carefully for spelling and typing mistakes. A sloppy paper distracts attention from what you are saying and makes the reader wonder if your preparation for the paper and your thinking were careless too. If your word-processor has a spell-checker, use it, but remember that it will not catch typos that happen to be words (e.g., "marital" vs. "martial"). Correct any last-minute changes neatly in ink.</li> 
+        <li>Staple your paper together (not paper clips or folded at one corner).</li> 
+        <li>Keep a copy of your paper, either on disk or photocopied.</li> 
+        <li>If your instructor has given any special instructions about the format of the paper, be sure to follow them.&nbsp;</li> 
+       </ol> 
+       <p dir="ltr"><strong>C.&nbsp; Clarity of Organization and Paragraph Structure</strong></p> 
+       <ol> 
+        <li><p align="justify">The body of your paper should be organized into several main sections, each of which deals with a given sub-topic, issue, or question within your general subject. In each section, you will have one or more paragraphs focusing on individual aspects of that topic.</p> </li> 
+        <li><p align="justify">A paragraph consists of a block of material about a particular subject or about a specific point, one of the issues that contributes to the development of the analysis or argument of the paper.</p> </li> 
+        <li><p align="justify">Each paragraph should begin with a general topic sentence that indicates what subject the rest of the paragraph will discuss, what issue it will explore, or what point it will make. By reading just the topic sentences of the paper, your reader should be able to get a summary of the subjects you are addressing and the position you are defending.</p> </li> 
+        <li><p align="justify">If your paragraph talks about several different subjects, it must either be divided up, so you can develop each point separately and effectively in its own paragraph, or be opened by a topic sentence that makes it clear that you want to mention briefly a variety of lesser points.</p> </li> 
+        <li><p align="justify">The remaining sentences in each paragraph provide more detail or evidence about the main topic. A paragraph should develop the subject or point it is making; hence it normally contains at least three sentences in addition to the topic sentence and may have a concluding sentence as well. (Here formal writing differs from journalistic style, which often uses shorter paragraphs.)</p> </li> 
+        <li>Transitions:</li> 
+       </ol> 
+       <ol> 
+        <li type="a"><p align="justify">Between sections you will need a transition or linking statement, indicating that you are moving on to a new topic.</p> </li> 
+        <li type="a"><p align="justify">Each paragraph within a section should also be clearly related to the one before and the one after, creating an even, logical flow. If the link is not readily apparent, you should include a sentence which describes the transition.</p> </li> 
+       </ol> 
+       <p dir="ltr"><strong>D.&nbsp; Acknowledging Your Sources (Referencing) and Academic Honesty</strong></p> 
+       <ol> 
+        <li><p align="justify">You must acknowledge the sources of all your information and any ideas or interpretations you have taken from other works. These references are usually placed into notes, with a bibliography at the end of the paper that lists all works used. See the Referencing Guidelines above.</p> </li> 
+        <li><p align="justify">Plagiarism. This serious academic offense can take many forms, including using another writer's phrase without putting it into quotation marks, not giving the source for a quotation, taking information from other works without acknowledgment, presenting other people's ideas as if they were your own, or submitting a paper that you did not write.</p> </li> 
+        <li>You may not use a paper you wrote for one course to fill an assignment in another class.</li> 
+       </ol> 
+       <p dir="ltr"><strong>E.&nbsp; Primary Sources vs. Secondary Works</strong></p> 
+       <ol> 
+        <li><p align="justify">A primary source is a record left by a person (or group) who participated in or witnessed the events you are studying or who provided a contemporary expression of the ideas or values of the period under examination. Letters, autobiographies, diaries, government documents, minutes of meetings, newspapers, or books written about your topic at that time are examples; non-written sources include interviews, films, photos, recordings of music, and clothing, buildings, or tools from the period.</p> </li> 
+        <li><p align="justify">Secondary works are accounts written by people who were not themselves involved in the events or in the original expression of the ideas under study. Written after the events/ideas they describe, they are based upon primary sources and/or other secondary works. Thus, an early 20th-century historian could prepare a secondary study of the American Civil War through her reading of documents from that period, interviews with veterans, examination of weapons, and so on.</p> </li> 
+       </ol> 
+       <p dir="ltr"><strong>F.&nbsp; Use of Direct Quotations</strong></p> 
+       <ol> 
+        <li><p align="justify">When working with secondary accounts, limit your use of direct quotations. In general, your paper will flow better if you paraphrase the statement, putting it into your own words. Quote only when you wish to call attention to the author's precise phrasing.</p> </li> 
+        <li><p align="justify">When using primary sources, you may want to use a few more direct quotations to illustrate the mood, language, or "flavor" of your sources. But even here, be sparing. A good rule of thumb is to quote only when you plan to analyze or interpret the passage; otherwise, paraphrase.</p> </li> 
+        <li>Do not use a direct quotation as the topic sentence of a paragraph.</li> 
+        <li><p align="justify">Every direct quotation must be put into quotation marks and given its own individual reference, normally in a note.</p> </li> 
+        <li><p align="justify">An indirect quotation is when you present a direct quotation of the words of person A that you found in a book written by author B (that is, author B was himself quoting person A). In such cases, you must give both sources in the reference that accompanies the quotation.</p> </li> 
+        <li><p align="justify">Quotations of five or more lines need to be indented 5-8 spaces on each side and single spaced. When you use this format, do not use quotation marks (but do still give the reference in a note). Shorter quotations should be typed as part of the regular paragraph.</p> </li> 
+        <li><p align="justify">Punctuation with quotation marks. When ending a quotation in the text, a final comma or period always precedes the closing quotation marks, whether or not it is part of the quoted matter. Question marks and exclamation marks precede the quotation marks if they are part of the quoted matter but follow the quotation marks if they are part of the entire sentence of which the quotation is a part. Thus: The newspaper reported that "150,000 young people gathered in Lexington." Should we accept its account of "a stupendous congregation"?</p> </li> 
+        <li><p align="justify">If you leave out words from a quotation, to shorten it or to make it fit into the grammar of your own sentence, indicate the omission by using periods with a space between each one. For gaps in the middle of a sentence, use three periods; for omissions at the end of the sentence, use four periods. E.g., "History can be fantastic . . . ."</p> </li> 
+        <li><p align="justify">If you insert a word into a quotation, to increase clarity or adjust it to your own presentation, put the insertion into square brackets. E.g.: She commented that "by January . . . [the trees] looked sickly."</p> </li> 
+       </ol> 
+       <p dir="ltr"><strong>G.&nbsp; Writing in Formal English</strong></p> 
+       <p align="justify">While most of us speak in casual or colloquial English, it is important to learn how to write formal English too. Our normal conversational style differs in many respects from formal written English. Your ability to write effectively will be one of the most critical factors in getting a job or being accepted for further training. Hence it is worth working on your formal writing skills while you are in college.</p> 
+       <p dir="ltr"><strong>H.&nbsp; Common Problems in Writing Mechanics and Style</strong></p> 
+       <ol> 
+        <li><strong>Misspelled words</strong>: Use dictionary (and/or spelling checker) and correct.</li> 
+        <li><strong>Typing error</strong>(s): Proofread more carefully and correct.</li> 
+        <li><strong>Contraction</strong>: Do not use contractions (e.g., "wasn't" or "isn't") in formal writing.</li> 
+        <li><strong>Commas</strong>&nbsp;omitted or in wrong place:</li> 
+       </ol> 
+       <ol> 
+        <li type="a">Set off every parenthetical phrase (one that could be put into parentheses or removed from the sentence) by a pair of commas, one before and one after it.</li> 
+        <li type="a">Use a comma after each item in a sequence of three or more items including the next-to-last. (E.g., "The Velociraptor likes apples, oranges, and pears.")</li> 
+       </ol> 
+       <ol> 
+        <li value="5"><strong>Capitalization incorrect</strong>:</li> 
+        <li><strong>Possessives</strong>:</li> 
+       </ol> 
+       <ol> 
+        <li type="a">Insert an apostrophe when a noun is used as a possessive. (E.g., "the dog's ear," or "the girls' running shoes.")</li> 
+        <li type="a">Do not use an apostrophe for "its" as a possessive. (E.g., "The dog shook its head.") "It's" with an apostrophe is a contraction of "it is" and hence should not be used in formal writing.</li> 
+       </ol> 
+       <ol> 
+        <li value="7"><strong>Prepositions</strong>:</li> 
+       </ol> 
+       <ol> 
+        <li type="a">Check the phrase marked for an incorrect preposition.</li> 
+        <li type="a"><p align="justify">Reword to avoid a preposition at the end of the sentence. (Wrong: "That is an idea I have never thought about." Better: "That is an idea I have never considered," or "I have never thought about that idea.")</p> </li> 
+       </ol> 
+       <ol> 
+        <li value="8"><p align="justify"><strong>Dangling participle</strong>: Reword to eliminate an opening or closing phrase with no subject or the wrong one. When a sentence starts with a participle, the (understood) subject of the participle must be the same as the first word (subject) of the main clause that follows. (Wrong: "Flying through the trees, John watched the lovely bird." [This means that John was flying.] Correct usage: "Checking through his notes, Buford decided to focus on the problem of low intensity conflict.")</p> </li> 
+        <li><p align="justify"><strong>Adverbs vs. adjectives</strong>: Use an adverb, not an adjective, to modify a verb. (Wrong: "Mary plays squash good." Right: "She plays it well.")</p> </li> 
+        <li><p align="justify"><strong>Pronoun</strong>: Use "who/whom" when referring to people, "that/which" for others.</p> </li> 
+        <li><p align="justify"><strong>Hyphen</strong>&nbsp;with century: Insert a hyphen when you use a century term to modify a noun. (E.g., "important to seventeenth-century science.") If the century term stands alone, do not use a hyphen. (E.g., "in the fifth century.")</p> </li> 
+        <li><p align="justify"><strong>Wrong word or nonexistent word</strong>: Check a dictionary to be sure this word exists and what its meaning is.</p> </li> 
+        <li><strong>Verb tense</strong>:</li> 
+       </ol> 
+       <ol> 
+        <li type="a">Use the past tense, not the present, for historical descriptions.</li> 
+        <li type="a">Stay in the same tense throughout a given discussion.</li> 
+       </ol> 
+       <ol> 
+        <li value="14">Disagreement between singular and plural forms in verbs or pronouns</li> 
+       </ol> 
+       <ol> 
+        <li type="a"><strong>Subject and verb</strong>. (E.g., "He and his dog walk," not "He and his dog walks.")</li> 
+        <li type="a"><p align="justify"><strong>Noun and pronoun</strong>. (Wrong: "The country went to war when an enemy attacked them." Right: ". . . when an enemy attacked it.")</p> </li> 
+       </ol> 
+       <ol start="15"> 
+        <li><p align="justify"><strong>Parallel wording</strong>: When using the constructions "both . . . and" or "not only . . also," use the same grammatical form after each of those terms. That is, the word or phrase immediately following both terms must be a subject, a verb, or a prepositional phrase. (Wrong: "Naboru likes both dancing and a quiet evening at home." Right: "Naboru likes both dancing and having a quiet evening at home.")</p> </li> 
+        <li><p align="justify"><strong>Run-on sentence</strong>: Do not join two separate sentences by a comma. To solve this problem, either: (1) add a conjunction (e.g., "and," "but," "or"); (2) substitute a semi-colon for the comma; or (3) divide it into two sentences using a period in the middle.</p> </li> 
+        <li><p align="justify"><strong>Incomplete sentence</strong>: Reword this phrase so that it becomes a full sentence, with a subject and a main verb.</p> </li> 
+        <li><strong>Unclear meaning</strong>:</li> 
+       </ol> 
+       <ol type="a"> 
+        <li>Undefined term. Make clear to your reader what exact definition you intend when using this term, which can be used in a variety of different ways.</li> 
+        <li>Unclear reference. Re-write to indicate to whom or what this word refers. Be especially careful with "this" and "that."</li> 
+        <li>Confusing wording. Re-write so as to communicate a clear point to your reader, so that no one can misunderstand you.</li> 
+        <li><p align="justify">Idea cannot be followed&nbsp;because it is undeveloped. Explain and discuss this point more fully.</p> </li> 
+       </ol> 
+       <ol start="19"> 
+        <li><p align="justify"><strong>Wordiness</strong>. Eliminate unnecessary language; see how briefly you can express this point.</p> </li> 
+        <li><p align="justify"><strong>Awkward phrasing</strong>. Re-write to convert this lumpy, uncomfortable wording into a smoother statement.</p> </li> 
+        <li><p align="justify"><strong>Repetitious wording</strong>. Vary your wording to add interest, rather than using the same terms or phrases several times within a few paragraphs, as you have done here.</p> </li> 
+        <li><strong>Passive voice</strong>. Re-write to avoid passive wordings, which are often imprecise, wordy, and/or wimpy; further, they seldom say who committed the action. (E.g.,"Many orders were issued.") Use the active voice to achieve a more direct and forceful statement. (E.g., "The Queen Mother of Benin issued many orders.")</li> 
+        <li><strong>Indirect opening phrase</strong>. Re-word for a more vigorous effect, eliminating round-about or vague opening phrases like "there is/are/was/were" or "it seems that".</li> 
+        <li><strong>Repetition of ideas/information</strong>. Do not state the same point twice. Discuss each idea or topic fully in one part of your paper, then move on; delete unnecessary repetition.</li> 
+        <li><strong>Overly broad generalization</strong>. Stick to the evidence you have before you, that you can defend effectively.</li> 
+        <li><p align="justify"><strong>Gender-specific (or sexist) language</strong>. In contemporary American usage, we no longer follow the traditional but biased practice of using masculine nouns and pronouns to refer to everyone. Instead, we try to use "gender-neutral" language, finding wordings that are inclusive or introduce both male and female terms. (Biased: "Every student is responsible for his own schedule." Recast: "Every student is responsible for his or her own schedule," or, better, "Students are responsible for their own schedules.")</p> </li> 
+       </ol> 
+       <p align="justify" dir="ltr">For more explanation about writing mechanics and grammar, see Diana Hackett's, <strong>A Pocket Style Manual</strong>; for help with your style, consult William Strunk and E. B. White, <strong>Elements of Style&nbsp;</strong></p> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

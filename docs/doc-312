@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>Costs and Payment Schedule - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/vmi/img/favicon/favicon.ico"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules">
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]--> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript> 
+  <a href="#accesskeys" accesskey="k"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="The page uses Browser Access Keys to help with keyboard navigation. Click to learn more" style="height: 0px"></a>
+  <a href="#acalog-nav" accesskey="n"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a>
+  <a name="accesskeys"></a>
+  <div class="accesskeys"> 
+   <p>Different browsers use different keystrokes to activate accesskey shortcuts. Please reference the following list to use access keys on your system.</p> 
+   <dl> 
+    <dt>
+     Alt and the accesskey, for Internet Explorer on Windows
+    </dt> 
+    <dt>
+     Shift and Alt and the accesskey, for Firefox on Windows
+    </dt> 
+    <dt>
+     Shift and Esc and the accesskey, for Windows or Mac
+    </dt> 
+    <dt>
+     Ctrl and the accesskey, for the following browsers on a Mac: Internet Explorer 5.2, Safari 1.2, Firefox, Mozilla, Netscape 6+.
+    </dt> 
+   </dl> 
+   <p>We use the following access keys on our gateway</p> 
+   <dl> 
+    <dt>
+     n Skip to Navigation
+    </dt> 
+    <dt>
+     k Accesskeys description
+    </dt> 
+    <dt>
+     h Help
+    </dt> 
+   </dl> 
+  </div>
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"><span class="n1_header"> Virginia Military Institute</span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2013-2014 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15">2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5" selected>2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1">2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="5"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=5" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=5" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=113" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=110" class="navbar" tabindex="107">Institute Calendar 2013-2014</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=111" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=112" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=109" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=114" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=115" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=117" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=118" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=119" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=120" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=116" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=123" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=125" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=121" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=5&amp;navoid=124" class="navbar" tabindex="121">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td> 
+                  <div class="help_block" style="float: right">
+                   <a href="help.php?catoid=5" onclick="javascript:acalogPopup('help.php?catoid=5', 'help', 770, 530, 'yes');return false;" class="help" tabindex="203" accesskey="h" target="_blank"><b>HELP</b></a>
+                  </div> <span class="acalog_archived_catalog"><span class="acalog_catalog_name">2013-2014 Academic Catalogue</span></span> <span class="n1_archived acalog-highlight-ignore" style="padding: 0px">[ARCHIVED CATALOG]</span><br> <h1 id="acalog-content"> Costs and Payment Schedule </h1> 
+                  <div style="float: right">
+                   <a rel="nofollow" href="/content.php?catoid=5&amp;navoid=114&amp;print" onclick="acalogPopup('/content.php?catoid=5&amp;navoid=114&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                  </div>
+                  <div class="acalog-social-media-links" style="float: right;"> 
+                  </div> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <hr> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <table class="acalog-export-remove" border="0" cellspacing="0" cellpadding="0" width="100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="50%"> 
+                      <ul> 
+                       <li><a href="#Tuition__Fees__and_Deposits_2012-2013_Session">Tuition, Fees, and Deposits 2013-2014 Session</a></li> 
+                       <li><a href="#Payment_Schedule">Payment Schedule</a></li> 
+                       <li><a href="#Reservation_Fee">Reservation Fee</a></li> 
+                       <li><a href="#Other_Costs">Other Costs</a></li> 
+                      </ul> </td> 
+                     <td valign="top" width="49%" align="left"> 
+                      <ul> 
+                       <li><a href="#Refund_Policy">Refund Policy</a></li> 
+                       <li><a href="#Residency">Residency</a></li> 
+                       <li><a href="#ROTC_Benefits">ROTC Benefits</a></li> 
+                       <li><a href="#Senior_Citizens">Senior Citizens</a></li> 
+                      </ul> </td> 
+                    </tr> 
+                   </tbody> 
+                  </table> 
+                  <hr> <h2><a name="Tuition__Fees__and_Deposits_2012-2013_Session"></a>Tuition, Fees, and Deposits 2013-2014 Session</h2> 
+                  <table border="0" cellspacing="0" cellpadding="0" width="100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="488" colspan="2">&nbsp;</td> 
+                     <td width="262" style="text-align: right">Virginia Cadets</td> 
+                     <td width="204" style="text-align: right">Non-Virginia Cadets</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="488" colspan="2">Tuition</td> 
+                     <td width="262" style="text-align: right">7,080</td> 
+                     <td width="204" style="text-align: right">28,068</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="488" colspan="2">Room and Board</td> 
+                     <td width="262" style="text-align: right">8,088</td> 
+                     <td width="204" style="text-align: right">8,088</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="488" colspan="2">Auxiliary Fee</td> 
+                     <td width="262" style="text-align: right"><u>4,406</u></td> 
+                     <td width="204" style="text-align: right"><u>4,406</u></td> 
+                    </tr> 
+                    <tr> 
+                     <td width="37">&nbsp;</td> 
+                     <td width="451">Total tuition and fees</td> 
+                     <td width="262" style="text-align: right">$19,574</td> 
+                     <td width="204" style="text-align: right">$40,562</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="488" colspan="2">Quartermaster charge</td> 
+                     <td width="262" style="text-align: right"><u>2,918</u></td> 
+                     <td width="204" style="text-align: right"><u>&nbsp;2,918</u></td> 
+                    </tr> 
+                    <tr> 
+                     <td width="37">&nbsp;</td> 
+                     <td width="451">Sub-Total</td> 
+                     <td width="262" style="text-align: right">&nbsp;$22,492</td> 
+                     <td width="204" style="text-align: right">$43,480</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="488" colspan="2">Security deposit&nbsp; (applies to new &amp; readmitted cadets only)</td> 
+                     <td width="262" style="text-align: right"><u>200</u></td> 
+                     <td width="204" style="text-align: right"><u>200</u></td> 
+                    </tr> 
+                    <tr> 
+                     <td width="37">&nbsp;</td> 
+                     <td width="451">TOTAL DUE</td> 
+                     <td width="262" style="text-align: right">$22,692</td> 
+                     <td width="204" style="text-align: right">$43,680</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <p>&nbsp;</p> 
+                  <table border="0" cellspacing="0" cellpadding="3" width="100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td bgcolor="#cccccc"><strong>Tuition and fees are based upon appropriations by the General Assembly. These appropriations are subject to state revenue collections; therefore, appropriations may be reduced by the Governor should there be a shortfall in state revenue. Accordingly, the VMI Board of Visitors reserves the right to adjust tuition and fees at any time during the year.</strong></td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <p><strong>Room and board fees</strong> are required since all cadets live in Barracks and are provided twenty-one meals per week.</p> <p>The<strong> auxiliary fee</strong> covers the cadet’s share of the costs of medical services, cadet activities/facilities, athletics and other services.</p> <p>The<strong> quartermaster charge</strong> covers haircuts and the issuing, tailoring, laundering, and pressing of uniforms. Cadet uniforms are state property and must be returned to the Institute. These costs are rarely included in cost figures at other colleges, but should be taken into account when comparing college costs.</p> <p>Qualified cadets will receive an ROTC uniform allowance from the Federal Government to help defray the cost of cadet uniforms. The annual allowance ranges from about $800 to $1,000.</p> <p>The<strong> security deposit</strong> covers property damages, lost property, and unpaid obligations to VMI. The deposit shall equal $200 at the beginning of each academic year; accordingly, any shortfall is billed at the beginning of each year. VMI returns this deposit, less any deductions and without interest, upon graduation or termination of the cadetship.</p> <h2><a name="Payment_Schedule"></a>Payment Schedule</h2> 
+                  <table border="0" cellspacing="0" cellpadding="0" width="100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="495">&nbsp;</td> 
+                     <td width="263" style="text-align: right"><strong>Virginia Cadets</strong></td> 
+                     <td width="208" style="text-align: right"><strong>Non-Virginia Cadets</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td width="495"><strong>New and Readmitted Cadets</strong></td> 
+                     <td width="263" style="text-align: right">&nbsp;</td> 
+                     <td width="208" style="text-align: right">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="495">Reservation Fee</td> 
+                     <td width="263" style="text-align: right">$300</td> 
+                     <td width="208" style="text-align: right">$300</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="495">Due August 1</td> 
+                     <td width="263" style="text-align: right">$11,146</td> 
+                     <td width="208" style="text-align: right">$21,640</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="495">Due December 13</td> 
+                     <td width="263" style="text-align: right">$11,246</td> 
+                     <td width="208" style="text-align: right">$21,740</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="495">&nbsp;</td> 
+                     <td width="263" style="text-align: right">&nbsp;</td> 
+                     <td width="208" style="text-align: right">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="495"><strong>Returning Cadets</strong></td> 
+                     <td width="263" style="text-align: right">&nbsp;</td> 
+                     <td width="208" style="text-align: right">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="495">Due August 1</td> 
+                     <td width="263" style="text-align: right">11,246</td> 
+                     <td width="208" style="text-align: right">21,740</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="495">Due December 13</td> 
+                     <td width="263" style="text-align: right">11,246</td> 
+                     <td width="208" style="text-align: right">21,740</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <p>On or about 2 July and 7 November, VMI will send an email message to cadets and authorized bill payers indicating that bills and payment instructions are available for viewing on VMI's website (the message will contain instructions for accessing this information).</p> <p><strong>VMI shall assess a late fee of $100 or 10% of the unpaid balance, if less, for failure to pay tuition, fees, and deposits by the due date. VMI may dismiss cadets from the Institute for failure to pay tuition and fees or any other financial obligation to the Institute as required. The Institute also reserves the right to hold grades, credits, transcripts, and diplomas until all financial obligations to the Institute have been satisfied. Cadets must satisfy all financial obligations to the Institute for past semesters or terms before they are allowed to register for any succeeding semester or term.</strong></p> <h2><a name="Reservation_Fee"></a>Reservation Fee</h2> <p>A reservation fee of $300 is required of&nbsp;new cadets and is applied toward total costs. It is refundable to those who do not enroll if requested in writing before May 1. Refunds after that date will be made only to cadets who withdraw because of academic or medical deficiencies prior to matriculation.</p> <h2><a name="Other_Costs"></a>Other Costs</h2> <p>Other costs include textbooks, supplies, automobile registration, and non-issue clothing. Cadets must pay for such items with cash, check, or debit/credit card at the time of purchase.</p> <p>The cadet newspaper, yearbook and literary magazine are optional and are billed separately by the various cadet organizations.</p> <h2><a name="Refund_Policy"></a>Refund Policy</h2> <p>Tuition and fees are refundable in part only upon official notice of withdrawal to the Commandant.</p> 
+                  <ol> 
+                   <li>Full refunds, less $1,000 are made for withdrawals prior to the first day of classes.</li> 
+                   <li>On or after the first day of classes, refunds are prorated through the fifth week.</li> 
+                   <li>No refunds are made after the fifth week of classes.</li> 
+                   <li>Cadets receiving Title IV financial aid will receive a refund in accordance with applicable federal law.</li> 
+                  </ol> <p><strong>Exceptions to the refund policy are made only in extraordinary circumstances. </strong>Appeals for exception will be considered by the Tuition Appeals Committee upon written request to the Comptroller, no later than 90 days after withdrawal from the Institute.</p> <p>No refunds will be made until all issued military uniforms and equipment required to be returned have been received in good condition by the Commandant and the Military Store. <strong>Cadets will be charged for issued military uniforms and equipment which are not returned as required.</strong></p> <h2><a name="Residency"></a>Residency</h2> <p>All students who wish to apply for in-state tuition rates must submit the two-page Application for Virginia In-State Tuition Rates that accompanies the application for admission. Entitlement to in-state tuition rates must be demonstrated in accordance with Section 23-7.4 of the Code of Virginia.</p> <p>After admission, it is the duty of the cadet to provide written notification within 30 days to the VMI Registrar of any changes of address or domiciliary status affecting the cadet or his/her parents.</p> <p>Cadets will be required to provide a yearly affirmation of their permanent residence address, as well as their parents' permanent residence address. Changes from out-of-state to in-state status requests are reviewed by the Registrar. All changes require the completed application for Virginia In-State Tuition Rates and accompanying documentation (if requested). Residence in the Commonwealth for purposes of obtaining an education does not qualify a cadet for Virginia residency status. For more information, please visit the VMI website at: <a target="_blank" href="http://www.vmi.edu/registrar">http://www.vmi.edu/registrar</a>, or call 540-464-7213, or write to:</p> <p style="margin-left: 40px">Registrar<br> Virginia Military Institute<br> 303 Shell Hall <br> Lexington, Virginia 24450-0304</p> <h2><a name="ROTC_Benefits"></a>ROTC&nbsp;Benefits</h2> <p>The cost of attending VMI should be viewed together with the other benefits a qualified ROTC cadet receives. Currently, these benefits include:</p> 
+                  <ul> 
+                   <li>Uniform allowance&nbsp;averaging $3,600 over four years.</li> 
+                   <li>Tax-free subsistence allowance of about $250 to $500 per month when contracted in a ROTC program.</li> 
+                   <li>Summer/training pay which varies with type and length of training and cadet status (contracted/non-contracted).</li> 
+                  </ul> <h2><a name="Senior_Citizens"></a>Senior Citizens</h2> <p>Pursuant to Virginia Senior Citizen's Higher Education Act, any individual over the age of 60, who is a Virginia domiciliary and earns less than $15,000 annually, and who otherwise meets the admission criteria of the Virginia Military Institute (See <a href="content.php?catoid=5&amp;navoid=109">admission section</a><span style="display: none !important">&nbsp;</span>) may attend free of tuition and fees. The admission criteria for summer session are substantially more lenient than the criteria for VMI's full time, academic year, program. VMI does not offer a part-time enrollment option during the regular academic year.</p> </td> 
+                </tr> 
+               </tbody>
+              </table> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <a rel="nofollow" href="/content.php?catoid=5&amp;navoid=114&amp;print" onclick="acalogPopup('/content.php?catoid=5&amp;navoid=114&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=5" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script>  
+ </body>
+</html>

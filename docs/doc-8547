@@ -1,0 +1,578 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	VMI Comptroller - Fixed Asset Accounting
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets">
+  <meta name="Description" content="Building leaders. Leaders in industry, leaders in government, leaders in the military, leaders in life. Virginia Military Institute is the nation&amp;#39;s oldest state-supported military college. Great Challenge. Lifetime Reward.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?tid=21259&amp;id=21403" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BQx0aHJlZS1jb2x1bW5kAgkPDxYCHgtOYXZpZ2F0ZVVybAUBL2QWAmYPDxYCHghJbWFnZVVybAUdL2NvcmUvaW1hZ2VzL2NvbnRlbnQvbG9nby5qcGdkZAILD2QWAmYPZBYCZg9kFgQCAQ8PFgQeCENzc0NsYXNzBQxzZWFyY2gtaW5wdXQeBF8hU0ICAhYEHgdvbkZvY3VzBYYBaWYodGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVQaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7dGhpcy52YWx1ZT0nc2VhcmNoIHZtaS5lZHUnO31kAgMPEA9kFgIeBXN0eWxlBQxkaXNwbGF5Om5vbmUQFQEDVk1JFQEDVk1JFCsDAWdkZAIPDw8WAh4HVmlzaWJsZWhkZAITD2QWBgIBDw8WAh8IZ2RkAgUPZBYCAgEPZBYCZg9kFgJmDxYCHwhnFgICAQ8PFgIfAgU1L3VwbG9hZGVkSW1hZ2VzL0ltYWdlcy9IZWFkZXJzL2NvbXB0cm9sbGVyLmpwZz9uPTIxNDJkZAIJDw8WAh8IZ2RkZPbxLbGtUv1k/glix089OiciWGCg0tzlOwrPQlvtBfM3"> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAARDFb0Gr9raUaRTMz82irortVqhg79+cCaf2Muxgy28w6Ld5e0tb35jjra3L8Dofk5aGpeLsHyujys0vCNqhELeKP7SfVTGYdwjwxxOSSJgHQoEjeEznf2PbcDcKrzJ16Y="> 
+   </div> 
+   <div id="container" class="three-column"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Administration/Finance_Administration_Support/Deputy_Supt__for_Finance,_Administration___Support/" target="_self">Finance Administration Home</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Comptroller_s_Office/" target="_self">Comptroller's Home</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Colleague_Finance_Departmental_Manual/" target="_self">Colleague Dept Manual</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Forms_Directory/" target="_self">Forms Directory</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Financial_Statements/" target="_self">Financial Statements</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Quarterly_Newsletter/" target="_self">Newsletter</a></li>
+        <li><a href="/content.aspx?id=1196" target="_self">Our Offices</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Comptroller_s_Staff/" target="_self">Staff</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft786"> 
+        <address><a href="mailto:ryanka@vmi.edu">Lt. Col. Kevin A. Ryan</a><br>Comptroller<br><br>Ph: (540) 464-7270<br>Fax: (540) 464-7794<br><br>Smith Hall, 3rd Floor<br>Virginia Military Institute<br>Lexington, Virginia 24450<br><br><a href="mailto:comptroller@vmi.edu">Contact Comptrollers Office</a><br><br></address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/Administration/Finance_Administration_Support/Comptrollers_Office/Colleague_Manual/Fixed_Asset_Accounting/" title="Fixed Asset Accounting">Fixed Asset Accounting</a></span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/comptroller.jpg?n=2142" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Fixed Asset Accounting</h1> 
+       <p><span class="infomsg">NOTICE TO READER:</span>&nbsp;&nbsp;</p> 
+       <p>Segments of this document in bold, italic print represent policy which can be changed only by authorization of the VMI Board of Visitors.&nbsp; All other segments represent procedures which may be changed by authorization of the Superintendent.</p> 
+       <h3>Section 80000</h3> 
+       <p>TABLE OF CONTENTS</p> 
+       <p><strong>80100&nbsp;&nbsp;&nbsp;&nbsp;</strong><a title="Overview of the Datatel Colleague Fixed Asset Module" href="#80100"><strong>Overview of the Datatel Colleague Fixed Asset Module</strong></a></p> 
+       <ul class="checklist"> 
+        <li><strong>80110</strong>&nbsp;&nbsp;&nbsp;&nbsp;<a title="Land, Buildings, Equipment and Intangible Assets" href="#80110"><strong>Land, Buildings, Equipment and Intangible Assets</strong></a></li> 
+        <li><strong>80120</strong>&nbsp;&nbsp;&nbsp;&nbsp;<a title="Institute Owned Art and Historical Treasures" href="#80120"><strong>Institute Owned Art and Historical Treasures</strong></a></li> 
+       </ul> 
+       <p><strong>80200&nbsp;&nbsp;&nbsp;&nbsp;</strong><a title="Asset Acquisition" href="#80200"><strong>Asset Acquisition</strong></a></p> 
+       <p><strong>80210&nbsp;&nbsp;&nbsp;&nbsp;</strong><a title="New Purchases" href="#80210"><strong>New Purchases</strong></a></p> 
+       <ul class="checklist"> 
+        <li><strong>80220&nbsp;&nbsp;</strong><a title="Acquisition Cost" href="#80220"><strong>Acquisition Cost</strong></a><strong>&nbsp;</strong></li> 
+       </ul> 
+       <p><strong>&nbsp;</strong><strong>80300&nbsp;&nbsp;&nbsp;&nbsp;</strong><a title="Asset Classification" href="#80300"><strong>Asset Classification</strong></a></p> 
+       <ul class="checklist"> 
+        <li><strong>80310&nbsp;&nbsp;</strong><a title="Components" href="#80310"><strong>Components</strong></a></li> 
+       </ul> 
+       <p><strong>80400&nbsp;&nbsp;&nbsp;&nbsp;</strong><a title="Asset Control and Management" href="#80400"><strong>Asset Control and Management</strong></a></p> 
+       <ul class="checklist"> 
+        <li><strong>80410&nbsp;&nbsp;</strong><a title="Guidelines" href="#80410"><strong>Guidelines</strong></a></li> 
+        <li><strong>80420</strong>&nbsp;&nbsp;<a title="Compliance Reporting" href="#80420"><strong>Compliance Reporting</strong></a></li> 
+        <li><strong>80430&nbsp;&nbsp;</strong><a title="Inventory Staffing" href="#80430"><strong>Inventory Staffing</strong></a></li> 
+        <li><strong>80440&nbsp;&nbsp;</strong><a title="Tagging" href="#80440"><strong>Tagging</strong></a></li> 
+       </ul> 
+       <p><strong>80500&nbsp;&nbsp;&nbsp;&nbsp;</strong><a title="Surplus Property" href="#80500"><strong>Surplus Property</strong></a></p> 
+       <p><strong>80600&nbsp;&nbsp;&nbsp;&nbsp;</strong><a title="Asset Disposal" href="#80600"><strong>Asset Disposal</strong></a></p> 
+       <ul class="checklist"> 
+        <li><strong>80610&nbsp;&nbsp;</strong>&nbsp;<a title="Sell or Trade-In" href="#80610"><strong>Sale or Trade-In</strong></a></li> 
+        <li><strong>80620</strong>&nbsp;&nbsp;&nbsp;<a title="Abandonment" href="#80620"><strong>Abandonment</strong></a></li> 
+        <li><strong>80630&nbsp;&nbsp;</strong>&nbsp;<a title="Transfer" href="#80630"><strong>Transfer</strong></a></li> 
+        <li><strong>80640&nbsp;&nbsp;</strong>&nbsp;<a title="Casualty Loss" href="#80640"><strong>Casualty Loss</strong></a><strong>&nbsp;</strong></li> 
+        <li><strong>80650</strong>&nbsp;&nbsp;&nbsp;<a title="Cannibalization" href="#80650"><strong>Cannibalization</strong></a></li> 
+       </ul> 
+       <p>&nbsp;<strong>80700&nbsp;&nbsp;&nbsp;&nbsp;</strong><strong><a title="Lost or Stolen" href="#80700-">Lost or Stolen</a></strong></p> 
+       <ul class="checklist"> 
+       </ul> 
+       <hr> 
+       <p>&nbsp;<a name="80100" title="80100" class="bookmark" id="80100"></a><strong>80100&nbsp;&nbsp; Overview of the Datatel Colleague Fixed Asset Module</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>The Datatel Colleague Fixed Assets Module is in place to ensure that fixed assets are acquired, controlled, accounted for and disposed of in the best interest of the Institute, and in accordance with State policy.</p> 
+       <p>A fixed asset is defined as Institute property of any kind that is complete in and of itself, does not lose its identity or become a component of another fixed asset, and is of a durable nature with an expected service life of more than one year.</p> 
+       <p>Categories of fixed assets include land, buildings, equipment,&nbsp;and intangible assets.&nbsp;&nbsp;The policies and procedures in this section apply primarily to equipment.</p> 
+       <p><a name="80110" title="80110" class="bookmark" id="80110"></a><strong>80110&nbsp;&nbsp; Land,&nbsp;Buildings, Equipment,&nbsp;and Intangible Assets&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>Capital assets include land, buildings and other improvements, library materials, equipment,&nbsp; infrastructure assets such as sidewalks, steam tunnels, and electrical and computer network cabling systems, and intangible assets.&nbsp; The Institute capitalizes construction costs that have a value or cost in excess of $100,000 at the date of acquisition.&nbsp; Renovations in excess of $100,000 are capitalized if they significantly extend the useful life of the existing asset.&nbsp; Expenses for major capital assets and improvements are capitalized (construction in progress) as projects are constructed.&nbsp; Routine repairs and maintenance are charged to operating expense in the year the expense is incurred.&nbsp; Interest expense relating to construction is capitalized net of interest income earned on resources set aside for this purpose.&nbsp; The costs of normal maintenance and repairs that do not add to an asset’s value or materially extend its useful life are not capitalized.&nbsp;</p> 
+       <p>The Institute capitalizes moveable equipment at a value or initial cost of $5,000 or more and an estimated useful life in excess of two years.&nbsp; Buildings and equipment are stated at appraised value or actual cost where determinable.&nbsp; Land is stated at cost.&nbsp; Library materials are valued using published average prices for library acquisitions.&nbsp; &nbsp;</p> 
+       <p>Intangible assets are those assets that have no physical existence such as computer software, water rights, timber rights, patents, copyrights, and trademarks.&nbsp; Intangible assets that are developed or purchased, have a useful life of one or more years, and have an acquisition cost of $100,000 or more will be capitalized under this policy.&nbsp;</p> 
+       <p>Depreciation is computed using the straight-line method over the estimated useful life of the asset.&nbsp; Average useful lives by asset categories are listed below:&nbsp;</p> 
+       <table border="0" cellspacing="0" cellpadding="0"> 
+        <tbody> 
+         <tr> 
+          <td width="169" valign="top"><p>Buildings&nbsp;</p> <p>Other improvements&nbsp;</p> <p>Equipment&nbsp;</p> <p>Library materials&nbsp;</p> <p>Intangible assets&nbsp;</p> </td> 
+          <td width="174" align="right" valign="top"><p align="right">50 years&nbsp;</p> <p align="right">10-30 years&nbsp;</p> <p align="right">5-25 years&nbsp;</p> <p align="right">10 years&nbsp;</p> <p align="right">5 years to indefinite&nbsp;</p> </td> 
+         </tr> 
+        </tbody> 
+       </table> 
+       <p>Generally the acquisition of land, land improvements, buildings and building improvement assets require the special approvals, authorizations, and appropriations of the Commonwealth of Virginia’s capital outlay projects policies and procedures.&nbsp;&nbsp;These special procedures are necessary for all such acquisitions in excess of $1,000,000 or as amended by the Commonwealth, in compliance with the 2008 Acts of Assembly, Chapter 879, Section 4-4.01m.6.a.&nbsp; The Comptroller’s office will review all of these project expenditures and uses the general contractor’s “schedule of values” to determine how to capitalize these projects.&nbsp; Construction project costs are accumulated and reported in the “Construction-In-Progress” asset category until the project is substantially complete and the related asset is actually put into service.&nbsp; The costs in the construction-in-progress account are reclassified into the various fixed asset categories as appropriate (buildings which includes building improvements, land improvements and equipment.)&nbsp; Buildings, land improvements and equipment are recorded in the Colleague Finance General Ledger.&nbsp; Land and construction-in-progress are not recorded in Colleague Finance; however, journal entries are prepared to update the general ledger with summary totals.</p> 
+       <p><a name="80120" title="80120" class="bookmark" id="80120"></a><strong>80120&nbsp;&nbsp; Institute Owned Works of Art, Historical Treasurers and Similar Assets</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><strong><em>The Institute does not capitalize works of art, historical treasurers and similar assets.&nbsp; Such items are held for public exhibition, education or research in the furtherance of public service rather than financial gain.&nbsp; Institute collections may be sold but the proceeds must be used for the acquisition of similar type Institute collections.&nbsp; Exceptions to this requirement must be pre-approved by the Deputy Superintendent for Finance, Administration and Support.</em></strong></p> 
+       <p><a name="80200" title="80200" class="bookmark" id="80200"></a><strong>80200&nbsp;&nbsp; Asset Acquisition</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>Equipment items that meet the criteria for inclusion in the Fixed Asset System can be acquired in the following ways:</p> 
+       <ul class="checklist"> 
+        <li>New Purchases</li> 
+        <li>Donations</li> 
+        <li>Transfer from other State Agencies</li> 
+       </ul> 
+       <p>Departments are responsible for making sure the equipment information is reported to the property management personnel in the Comptroller’s Office, using an equipment record form.&nbsp;All recordable assets should be reported to the Comptroller’s Office upon receipt and acceptance.&nbsp; For equipment purchases, title is considered to pass at the date the equipment is received.&nbsp; Similarly, for donated assets, title is considered to pass when the asset is available for use by the Institute and when the Institute assumes responsibility for maintaining the asset.</p> 
+       <p><a name="80210" title="80210" class="bookmark" id="80210"></a><strong>80210&nbsp;&nbsp; New Purchases</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><strong><em>New purchases must be recorded in the Fixed Asset System if the asset meets the capitalization criteria or if the Institute determines it is a controllable asset, an asset that does not meet the capitalization criteria but because of its nature is more susceptible to theft or abuse.</em></strong></p> 
+       <p><strong><em>Equipment acquired with Equipment Trust Funds (Category I) must be recorded, regardless of the purchase amount as these assets serve as collateral for the bonds sold to acquire them; however, Category I assets must cost $500 or more and have a useful life of 3 years or more.&nbsp;&nbsp;Equipment acquired with state or local funds other than Equipment Trust Funds (Category II), will be recorded if the purchase price is $2,000 or above.&nbsp; All computers will be recorded and tagged regardless of purchase cost.</em></strong></p> 
+       <p><strong><em>It is the responsibility of departments as well as the property management personnel to ensure that all asset acquisitions are recorded at the proper amount.&nbsp;&nbsp;Documentation must be maintained in support of each asset amount assigned.</em></strong></p> 
+       <p><a name="80220" title="80220" class="bookmark" id="80220"></a><strong>80220&nbsp;&nbsp; Acquisition Cost</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>Acquisition cost includes the purchase price, as well as cost incurred to place an asset in its intended location and in an operable condition.&nbsp;&nbsp;Such costs associated with an asset would include freight and transportation charges, and/or installation costs.&nbsp; Add any appropriate cost detailed above to the actual cost of the equipment.</p> 
+       <p>Acquisition cost is based on individual unit prices.&nbsp;&nbsp;Assets should not be grouped.&nbsp; For example, three personal computers (PC) acquired for $2,000 each on one requisition would not be considered one capital asset with a value of $6,000.&nbsp; Instead, each would be considered a separate acquisition of $2,000.&nbsp; Each PC would be entered into the Fixed Asset System as a separate controllable item.</p> 
+       <p>Donated assets should be recorded in the Fixed Asset System if their fair market value is $2,000 or more.</p> 
+       <p><a name="80300" title="80300" class="bookmark" id="80300"></a><strong>80300&nbsp;&nbsp; Asset Classification</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>Assets with an expected useful life of greater than one year and a value or cost of $5,000 or more at the date of acquisition are considered capitalizable assets.</p> 
+       <p>Assets with an expected life of greater than one year and a value between $2,000 and $5,000 at the date of acquisition are considered controllable assets.&nbsp;&nbsp;As explained earlier, equipment acquired with Equipment Trust Funds is entered into the fixed asset module even if its value is less than $2,000.&nbsp; Certain other assets may be controlled when their value is less than $2,000 if they are more susceptible to theft or abuse such as PC’s, camera equipment or firearms.</p> 
+       <p><a name="80310" title="80310" class="bookmark" id="80310"></a><strong>80310&nbsp;&nbsp; Components</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>Due care and diligence should be exercised in determining whether an item is a separate piece of equipment having its own recorded cost and description, or is a component included as part of the cost and description of the overall asset.&nbsp;&nbsp;The majority of items fall into the first category.</p> 
+       <p>A component part is a part of a unit of equipment that cannot be used independently of another piece of equipment or is physically connected to another asset.&nbsp;&nbsp;This definition applies even though the component part may meet the capitalization criteria by itself.&nbsp; For example, a personal computer (PC) consists of a Central Processing Unit (CPU), monitor, and keyboard.&nbsp; This is considered to be one unit consisting of three parts or components, none of which is typically used independently.&nbsp; Therefore, the total cost of the three components of the PC should be recorded with a tag attached to the CPU.&nbsp; Under normal conditions, if one of the pieces had to be replaced, it would either be covered under a maintenance contract and no cost would be incurred or the cost would be comparable to the piece being replaced, and there would be no change to the recorded asset value.&nbsp;</p> 
+       <p>Certain types of equipment may be used with a number of other types of equipment.&nbsp;&nbsp;For example, a telephoto camera lens may be used on any of a number of cameras separately inventoried and tagged.&nbsp; ADP equipment is another area in which there may be equipment components, such as a printer connected to a mainframe.&nbsp; The key difference is that these items can operate on many different pieces of equipment, and the equipment to which they are attached can operate independent of the component (e.g., the camera can operate with or without the telephoto lens and the mainframe can operate with or without the printer).&nbsp; Therefore, in the truest sense, the item is not a component of the system.&nbsp; It is a separate piece of equipment.&nbsp; In these instances, if the item meets the criteria for capitalization or control as an individual item, it should be separately recorded and tagged as a fixed asset equipment item.</p> 
+       <p><a name="80400" title="80400" class="bookmark" id="80400"></a><strong>80400&nbsp;&nbsp; Asset Control and Management</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>As stewards of the Commonwealth’s assets, we are required to perform periodic physical inventories.&nbsp;&nbsp;The objectives of a physical inventory are to ensure that the fixed assets physically exist, to determine if unrecorded or improperly recorded transactions have occurred, and to identify any excess, defective or obsolete assets on hand.&nbsp; An effective inventory results in an accurate accounting of fixed assets, and indicates the reliability of the system of accountability for the acquisition, use, and disposal of those assets.</p> 
+       <p><strong><em>A physical inventory of fixed assets will be conducted every year in order to properly safeguard assets and maintain fiscal accountability.</em></strong>&nbsp;&nbsp;Each department will be assigned an anniversary month when the inventory will either be completed by the Comptroller’s Office or the department itself.&nbsp; Inventories of assets which are susceptible to error or irregularities should be conducted on a more frequent basis.</p> 
+       <p>Circumstances may arise that require VMI employees to use State owned equipment at their home or some location other than the VMI Post.&nbsp;&nbsp;With the exception of notebook computers taken on VMI business trips, such occurrences should be rare.&nbsp; However, if such a need does arise, an Off-Post Equipment Agreement Form should be completed.&nbsp; This form documents the need as well as the authorization for such use.&nbsp; It should be completed and forwarded to the Comptroller’s Office.&nbsp; During the process of conducting physical inventories, employees with state-owned equipment in their home may be required to temporarily return them for inspection.</p> 
+       <p><a name="80410" title="80410" class="bookmark" id="80410"></a><strong>80410&nbsp;&nbsp;&nbsp;&nbsp; Guidelines for Conducting Physical Inventories</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>The following general guidelines have been established to ensure that a physical inventory will be effectively implemented and performed:</p> 
+       <ul class="checklist"> 
+        <li>Property management personnel will establish a timetable and coordinate the effort necessary to conduct the inventory;</li> 
+        <li>Responsible persons should assist in conducting physical inventories in their respective area;</li> 
+        <li>Discrepancies between recorded and actual inventories must be resolved in a timely manner through the submission of revised input forms and tagging, if necessary;</li> 
+        <li>Each item recorded is physically inspected for changes in condition or location.</li> 
+       </ul> 
+       <p>The physical inventory must verify the asset’s existence, and should provide a reference to lists and/or other documents evidencing the existence and cost of the asset examined.&nbsp;&nbsp;Procedures must include verification from the list to ensure the physical existence of listed assets and from the physical assets back to the list to ensure all assets physically in existence are recorded in the inventory records.</p> 
+       <p>The following detailed guidelines are provided for conducting the inventory:&nbsp;</p> 
+       <ul class="checklist"> 
+        <li>Property management personnel will be permitted access to all areas where assets may be stored or located;</li> 
+        <li>All equipment located in an area will be examined for an asset tag number and traced back to the inventory listing.&nbsp;&nbsp;Tagged items in a room which are reported on the inventory report as located elsewhere will require a revision to record the change of location;</li> 
+        <li>If tagged items are missing from the inventory listing, or if untagged items are identified as meeting the fixed asset criteria as a capitalized or controlled asset, inventory information must be provided at that time for subsequent entry into the system;</li> 
+        <li>Items that are identified during the inventory as unrecorded or listed as a discrepancy will be sent by property management personnel, &nbsp;via email, to the departmental equipment coordinator for investigation.&nbsp; Responses are to be returned to&nbsp;property management personnel within a two week time period.&nbsp; If no response is received after two weeks, property management personnel will again&nbsp;contact the departmental equipment coordinator in addition to the department head via email&nbsp;for immediate response.&nbsp;&nbsp;Departments failing to respond after two notifications will be reported to the Comptroller for further action.</li> 
+        <li>For items removed from the inventory because they are unaccounted for, an amount equivalent to the remaining book value&nbsp;may be deducted from the respective department's operating budget during the subsequent fiscal year.</li> 
+        <li>All areas will be examined for tagged, untagged, recorded or unrecorded items and the necessary changes processed by property management within 60 days from the start of the inventory process.</li> 
+        <li>Any items acquired with ETF monies that are lost, stolen, or broken, must be replaced within 90 days of the date they were discovered missing or broken.&nbsp; They must also be replaced with like equipment having a cost equal to or greater than the remaining book value of the original item.&nbsp; The replacement item will use the same tag ID and will not require a new one.&nbsp; However, a reason for the need of a replacement item must be documented.</li> 
+       </ul> 
+       <p><strong><em>Departments must submit revisions to the individual responsible for the property management function whenever permanent changes to the below listed information fields occur:</em></strong></p> 
+       <ul class="checklist"> 
+        <li><strong><em>Ownership</em></strong></li> 
+        <li><strong><em>Location</em></strong></li> 
+        <li><strong><em>Responsible Person</em></strong></li> 
+        <li><strong><em>Asset Operability</em></strong></li> 
+       </ul> 
+       <p><a name="80420" title="80420" class="bookmark" id="80420"></a><strong>80420&nbsp;&nbsp; Compliance Reporting</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>The Deputy Superintendent for Finance, Administration and Support reports semi-annually, in December and May of each fiscal year, to the Audit, Finance and Planning Committee of the Board of Visitors on the status of VMI’s compliance with the policies set forth in this Manual.&nbsp;&nbsp;All departments will have 60 working days to complete their inventories. &nbsp;Departments that do not complete their inventory within this allocated time and make no other arrangements due to extenuating circumstances,&nbsp;will be considered noncompliant with these policies and procedures and will be cited in this report</p> 
+       <p><a name="80430" title="80430" class="bookmark" id="80430"></a><strong>80430&nbsp;&nbsp; Inventory Staffing</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>A responsible person must be assigned to each asset item recorded in the Fixed Asset System.&nbsp;&nbsp;This is to ensure that an individual within the Institute has responsibility for maintaining and safeguarding the asset.&nbsp; The responsible person may or may not be directly involved in using the asset, but is typically responsible for asset acquisition or disposition within a given area or department.</p> 
+       <p>Each department’s inventory is available in Entrinsik.</p> 
+       <p><strong>80440&nbsp;&nbsp; Tagging</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>Tagging provides a method of assigning a unique identification number to each fixed asset equipment item, in order for the item to be accounted for and identified within the Fixed Asset System.&nbsp;&nbsp;Numbers will be assigned in consecutive order without regard to asset type or location.&nbsp; Bar coded tags have been integrated to facilitate the inventory process.</p> 
+       <p>Equipment Trust Fund purchases will be tagged with a yellow tag and will always begin with a “T”.&nbsp;&nbsp;All other equipment will be tagged with a silver tag.</p> 
+       <p>The consecutive numbering allows each asset item within the Fixed Asset System to carry a unique number throughout its entire life regardless of change in location, responsible person, or other data elements assigned to the asset item, until such asset is retired or disposed.&nbsp;&nbsp;Once disposal or retirement has occurred, the number is also retired.&nbsp;</p> 
+       <p>Assets to be entered into the Fixed Asset System should be tagged at the time of physical receipt, or as soon thereafter as possible.</p> 
+       <p>It is sometimes impractical to physically tag certain equipment items such as camera lenses and data boards.&nbsp;&nbsp;Such assets may include heat-sensitive or finely tuned components that might become impaired if an inventory tag is placed on them.&nbsp; These assets will still be assigned a unique identification number for input purposes but will not be physically tagged.</p> 
+       <p><a name="80500" title="80500" class="bookmark" id="80500"></a><strong>80500&nbsp;&nbsp; Surplus Property</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><span>All Institute property that is no longer&nbsp;used by the Department is considered surplus property.&nbsp;&nbsp;This does not include broken, cannibalized, or otherwise non-functional items unless those items are fixed assets or retain a market value for use as spare parts, scrap metal, etc.&nbsp; Assets not in operable condition may also be classified as surplus.&nbsp; Ultimately, surplus property will be sold, repaired, scrapped, transferred to another department or state agency, sold to an institute of Higher Education, or donated to an approved 501(c) (3) organization or another governmental agency. </span></p> 
+       <p><span>Procurement Services is responsible for the disposition of surplus property and Physical Plant is responsible for the relocation of surplus for the Institute into secure storage areas obtained by the requesting department.<span>&nbsp; </span></span></p> 
+       <p><span>Disposition methods for surplus property are:</span></p> 
+       <ul> 
+        <li><span>Transfer to another VMI department;</span></li> 
+        <li><span></span><span><span><span>&nbsp;</span></span></span>
+         <!--[endif]--><span>Sell or transfer to another state agency;</span></li> 
+        <li><span><span><span>&nbsp;</span></span></span>
+         <!--[endif]--><span>Sell or transfer to local governmental entity;</span></li> 
+        <li><span><span><span>&nbsp;</span></span></span>
+         <!--[endif]--><span>Sell to a recycler if the items have no functional market value;</span></li> 
+        <li>
+         <!--[endif]--><span>Donate to a qualifying IRC 501(c)(3) organization; and</span></li> 
+        <li>
+         <!--[endif]--><span>Public sale by various methods.</span></li> 
+       </ul> 
+       <p><span>All assets must be formally reclassified once VMI determines they:</span></p> 
+       <p><span>(a)&nbsp;&nbsp;&nbsp;&nbsp;Have served their useful purpose;</span></p> 
+       <p><span></span><span>(b)&nbsp;&nbsp;&nbsp; Are no longer functional;</span></p> 
+       <p><span>(c)&nbsp;&nbsp;&nbsp;&nbsp;Cannot be repaired or improved in a cost-effective manner; and/or</span></p> 
+       <p><span>(d)&nbsp;&nbsp;&nbsp; Are not needed for use at the Institute.</span></p> 
+       <p><span>Those assets so categorized will be classified as surplus and moved to Institute storage.&nbsp;</span></p> 
+       <p><b><i><span>Departments must complete a </span></i></b><a href="http://www.vmi.edu/WorkArea/DownloadAsset.aspx?id=10737424425&amp;libID=10737424421"><b><i><span><font color="#0000ff">Disposition of Equipment</font></span></i></b></a><b><i><span> Form&nbsp;in its entirety and attach surplus property labels to equipment to be surplused.&nbsp;&nbsp;The completed form shall be submitted to the Surplus Property Officer in Procurement Services.</span></i></b><span>&nbsp;</span></p> 
+       <p><span>The Surplus Property Officer will review these forms and determine whether the items meet the definition of surplus property.&nbsp; In some cases, the Surplus Property Officer will physically examine the items before making a determination.&nbsp; Computers and printers will be evaluated by Information Technology before disposition is determined.</span></p> 
+       <p><span>If the items are deemed to be surplus property as defined herein, the Surplus Property Officer will send a surplus property label to the department to attach to the top front of the equipment in plain view.<span>&nbsp; </span>The disposing department will initiate a Physical Plant Work Order to have the item picked up.&nbsp;&nbsp;In&nbsp;some cases,&nbsp;large or bulky items may be left in the department until final disposition.&nbsp; Items tagged to be sold will be sold on an "as is where is" basis.&nbsp; Departments will be responsible for providing clear pictures and pertinent details of equipment to be sent to Procurement. </span></p> 
+       <p><span>If the items&nbsp;do not&nbsp;meet the definition of surplus property, they will be disposed of in accordance with the appropriate method for scrap or salvage.<span>&nbsp; </span>Notification of pending disposal must be emailed to </span><a href="mailto:surplus@vmi.edu"><span>surplus@vmi.edu</span></a><span> by the responsible Equipment Coordinator.<span>&nbsp; </span>Upon approval from the Surplus Property Officer and the Department Head, a Physical Plant Work Order will be submitted for disposal by the originator of the request.<span>&nbsp; </span></span></p> 
+       <p><span>Upon final disposition of a fixed asset, the Surplus Property Officer will complete and sign the </span><a href="http://www.vmi.edu/WorkArea/DownloadAsset.aspx?id=10737424425&amp;libID=10737424421"><span><font color="#0000ff">Disposition of Equipment</font></span></a><span> Form, attach any relevant documentation, and send&nbsp;the complete packet to the Fixed Assets Officer for entry into the accounting records.</span></p> 
+       <p><span>If the equipment is being transferred between departments, an </span><a href="http://www.vmi.edu/WorkArea/linkit.aspx?LinkIdentifier=id&amp;ItemID=1030"><span><font color="#0000ff">Equipment Transfer-Replacement Form</font></span></a><span> must be completed and forwarded&nbsp;directly to the Comptroller’s Office for processing.&nbsp;&nbsp;Computers that are returned to Information Technology must have the Transfer Form attached to the computer.&nbsp; The department receiving the equipment shall sign and forward the form to the Fixed Asset Officer.</span></p> 
+       <p><span>A </span><a href="http://www.vmi.edu/WorkArea/DownloadAsset.aspx?id=10737424425&amp;libID=10737424421"><span><font color="#0000ff">Disposition of Equipment</font></span></a><span> Form shall be completed when damaged equipment will be replaced by the original vendor.</span></p> 
+       <p><span>Surplus records will be reviewed routinely and equipment will be disposed as necessary.&nbsp; A list of surplus items that are available can be requested from the Surplus Property Officer.</span></p> 
+       <p><span>Surplus property will be distributed to the departments on a first come, first serve basis.&nbsp;</span></p> 
+       <p><a name="80600" title="80600" class="bookmark" id="80600"></a><strong>80600&nbsp;&nbsp; Asset Disposal</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><span>As determined by the Surplus Property Officer, Fixed Assets can be disposed of in one of five ways:&nbsp;&nbsp;</span></p> 
+       <ul> 
+        <li><span>Sell or Trade-in</span></li> 
+        <li>A<span>bandonment (Scrapped/Salvaged)</span></li> 
+        <li><span>Transfer</span></li> 
+        <li><span>Casualty Loss</span></li> 
+        <li><span></span><span>Cannibalization</span></li> 
+       </ul> 
+       <p> A<span>ssets no longer in possession of the department as a result of one of these five means of disposal will be removed from the Fixed Asset system and considered disposed.</span></p> 
+       <p><span>All disposals of assets must be carefully controlled and approved by the Surplus Property Officer in Procurement Services.</span></p> 
+       <p><span>Although each specific method of disposal contains some slight variation, the basic disposal procedures are the same.&nbsp;&nbsp;The department controlling the Fixed Asset at the time of disposal is responsible for notifying the Surplus Property Officer and the Fixed Assets Officer using a </span><a href="http://www.vmi.edu/WorkArea/DownloadAsset.aspx?id=10737424425&amp;libID=10737424421"><span><font color="#0000ff">Disposition of Equipment</font></span></a><span> Form</span></p> 
+       <p><strong>80610&nbsp;<a name="80610" title="80610" id="80610"></a>&nbsp; Sell or Trade-In</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><span>Surplus assets may be</span><font face="Calibri"> </font><span>sold to another state agency, local governmental entity, or through a public auction.&nbsp;&nbsp;The Institute may be able to upgrade existing items by trading-in one asset for another.&nbsp; The trade-in of the old asset is processed as a disposal and the new asset is entered into the Fixed Asset System at the invoiced price, which should reflect not only the cash paid but the undepreciated&nbsp;value of the asset traded-in.</span></p> 
+       <p><strong>80620<a name="80620" title="80620" id="80620"></a>&nbsp;&nbsp; Abandonment</strong><a title=" [Return to top]" href="#Top"> [Return to top]</a></p> 
+       <p><span>Fixed assets retaining no salvage or disposal value will occasionally be discarded or abandoned as scrap as determined by the Surplus Property Officer and/or the Fixed Assets Officer.</span></p> 
+       <p><span><strong>80630&nbsp;<a name="80630" title="80630" id="80630"></a>&nbsp;&nbsp;Transfers</strong><a title=" [Return to top]" href="#Top"> [Return to top]</a>&nbsp;</span></p> 
+       <span><p><span>Permanent transfer of fixed assets within the Institute must be identified by the department as transfers are made.&nbsp;&nbsp;Any changes need to be reported to Fixed Assets Officer using an </span><a href="http://www.vmi.edu/WorkArea/linkit.aspx?LinkIdentifier=id&amp;ItemID=1030"><span><font color="#0000ff">Equipment Transfer-Replacement Form</font></span></a><span>.&nbsp; These modifications include changes in room number, building, department, responsible person, etc.</span></p> <p><span><strong>80640<a name="80640" title="80640" id="80640"></a>&nbsp;&nbsp;&nbsp;Casualty Loss</strong><a title=" [Return to top]" href="#Top"> [Return to top]</a>&nbsp;</span></p> </span>
+       <p><span>Fixed Asset items that are destroyed by fire or other catastrophic circumstances must be removed from the records by submitting the </span><a href="http://www.vmi.edu/WorkArea/DownloadAsset.aspx?id=10737424425&amp;libID=10737424421"><span><font color="#0000ff">Disposition of Equipment</font></span></a><span> Form to the Surplus Property Officer and the Fixed Assets Officer.<span>&nbsp; </span></span></p> 
+       <p><strong>80650<a name="80650" title="80650" id="80650"></a>&nbsp;&nbsp; Cannibalization</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p><span>In some cases, fixed assets which are no longer functional are cannibalized to obtain parts that can be utilized to repair other like assets.&nbsp;&nbsp;The original item is considered surplus and disposed of by cannibalization after approval from the Surplus Property Officer or the Fixed Asset Officer.</span></p> 
+       <p><a name="80700-" title="80700-" id="80700-"></a><strong>80700&nbsp;&nbsp;&nbsp;Lost or Stolen</strong>&nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <div id="_com_1" language="JavaScript" onmouseover="msoCommentShow('_anchor_1','_com_1')" onmouseout="msoCommentHide('_com_1')">
+        <p><b><i><span>Fixed asset items which are unaccounted for following verification of the inventory report must be removed from the inventory database.&nbsp;&nbsp;Items that are known to be lost or stolen must be reported to Post Police immediately and the appropriate theft report information must be forwarded to the Surplus Property Officer and the Fixed Assets Officer.</span></i></b></p> 
+       </div> 
+      </div> 
+      <div id="ctl00_pageContent_rightColumn"> 
+       <div id="content-2" class="column last"> 
+        <div id="ctl00_pageContent_relatedRight21409" class="mod"> 
+         <p><strong>Fixed Assets Forms</strong></p> 
+         <ul class="arrowlist"> 
+          <li><a title="VMI Equipment Record" href="/Form.aspx?ekfrm=13109">Equipment Record</a></li> 
+          <li><a title="Comptroller Fixed Asset Equipment Disposition Form" href="/WorkArea/DownloadAsset.aspx?id=1028&amp;libID=1048">Disposition of Equip Form</a></li> 
+          <li><a title="Comptroller Fixed Asset Equipment Transfer-Replacement Form" href="/WorkArea/DownloadAsset.aspx?id=1030&amp;libID=1050">Transfer/Replace Equip Form</a></li> 
+          <li><a title="Comptroller Fixed Asset Off-Post Equipment Agreement" href="/WorkArea/DownloadAsset.aspx?id=24125&amp;libID=23101">Off-Post Equip Agree Form</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

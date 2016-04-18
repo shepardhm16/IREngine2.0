@@ -1,0 +1,725 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	Virginia Military Institute - Greek Military History
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets,liberal arts, lexington, ncaa div. 1, competitive, civilian, commission, barracks, science, co-ed, public, university, ethics, honor, character, responsibility, undergraduate, leaders">
+  <meta name="Description" content="Virginia Military Institute is a small, public, nationally-ranked college committed to leadership development in a military environment in Lexington, Virginia. VMI instills values of honor, discipline, selflessness, commitment, duty, self-reliance, and service. VMI is recognized as one of America’s top colleges for liberal arts and sciences by US News &amp;amp; World Report, The Princeton Review, and Peterson’s Guide to Competitive Colleges. US News ranks VMI’s engineering programs among the twenty best in America. Men and women of VMI are free to choose military or civilian careers.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=10737427416" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BQx0aHJlZS1jb2x1bW5kAgkPDxYCHgtOYXZpZ2F0ZVVybAUBL2QWAmYPDxYCHghJbWFnZVVybAUdL2NvcmUvaW1hZ2VzL2NvbnRlbnQvbG9nby5qcGdkZAILD2QWAmYPZBYCZg9kFgQCAQ8PFgQeCENzc0NsYXNzBQxzZWFyY2gtaW5wdXQeBF8hU0ICAhYEHgdvbkZvY3VzBYYBaWYodGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVQaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7dGhpcy52YWx1ZT0nc2VhcmNoIHZtaS5lZHUnO31kAgMPEA9kFgIeBXN0eWxlBQxkaXNwbGF5Om5vbmUQFQEDVk1JFQEDVk1JFCsDAWdkZAIPDw8WAh4HVmlzaWJsZWhkZAITD2QWCAIBDw8WAh8IZ2RkAgMPDxYCHwhoZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfCGcWAgIBDw8WAh8CBTEvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvaGlzdG9yeS5qcGc/bj00ODM1ZGQCCQ8PFgIfCGdkZGQEfARwXA+rRYHzDhryTQ4W2rtOzC0+I8b9EtrGEnjfDw=="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAATEMGCPR/WUfFVX+MK446/gtVqhg79+cCaf2Muxgy28w6Ld5e0tb35jjra3L8Dofk5aGpeLsHyujys0vCNqhELeu2yHdQ7hrzOl8mxpyQ5qjSxUtBjROiz6dYX9ySa6Fi8="> 
+   </div> 
+   <div id="container" class="three-column"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities Division</a></li>
+        <li><a href="/Content.aspx?id=10737430629" target="_self">History Home</a></li>
+        <li><a href="/content.aspx?id=17225" target="_self">Degrees &amp; Programs</a></li>
+        <li><a href="http://vmi.catalog.acalog.com/preview_entity.php?catoid=15&amp;ent_oid=351&amp;returnto=448" target="_blank">Courses</a></li>
+        <li><a href="/Content.aspx?id=14041" target="_self">Referencing Papers</a></li>
+        <li><a href="/Content.aspx?id=1846" target="_self">History Advising</a></li>
+        <li><a href="/Content.aspx?id=1848" target="_self">Phi Alpha Theta</a></li>
+        <li><a href="/Content.aspx?id=1844" target="_self">Statement on Plagiarism</a></li>
+        <li><a href="/content.aspx?id=1850" target="_self">Faculty Publications</a></li>
+        <li><a href="/content.aspx?id=4013" target="_self">Adams Center Military History</a></li>
+        <li><a href="/Content.aspx?id=4294974237" target="_self">Faculty</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft1560"> 
+        <address><p><a href="mailto:shaferdp@vmi.edu" title="Deneise Shafer">Deneise Shafer</a><br> Administrative Assistant</p> <p>&nbsp;<a target="_blank" title="facebook" href="https://www.facebook.com/pages/VMI-Department-of-History/1613681962191979?ref=hl"><img border="0" src="/uploadedImages/Images/icons/facebook.png?n=469" alt="facebook" title="facebook"></a> <a href="https://twitter.com/VMIHistoryDept" title="twitter" target="_blank"><img border="0" src="/uploadedImages/Images/icons/twitter.png?n=8365" alt="twitter" title="twitter"></a><br><br> P: (540) 464-7338<br> F: (540) 464-7246</p> <p>Virginia Military Institute<br> 536 Scott Shipp Hall<br> Lexington, VA&nbsp; 24450</p> <p><a href="mailto:shaferdp@vmi.edu">Contact History</a></p> </address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/history.jpg?n=4835" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Greek Military History</h1> 
+       <p><strong>General</strong></p> 
+       <ul class="checklist"> 
+        <li>Adcock, F.E. <em>The Greek and Macedonian Art of War</em>, Berkeley, 1957.</li> 
+        <li>Anderson, J.K. <em>Military Theory and Practice in the Age of Xenophon</em>, Berkeley, 1970.</li> 
+        <li>Best, J.G.P. <em>Thracian Peltasts and Their Influence on Greek Warfare</em>, Groeningen, 1969.</li> 
+        <li>Bettalli, M. "Enea Tattico e l'insegnamento dell'arte militare," <em>AFLS</em> 7 (1986) 73-89.</li> 
+        <li>Chase, G.H., <em>Shield Devices of the Greeks in Art and Literature</em></li> 
+        <li>Connor, W.R., "Early Greek Land Warfare as Symbolic Expression," <em>Past and Present</em> 119 (1988), pp. 3-28.</li> 
+        <li>Delbrueck, Hans, <em>History of the Art of War</em>, Vol. 1, Warfare in Antiquity (Trans. 1975).</li> 
+        <li>DeSouza, Philip, <em>Piracy and the Graeco-Roman World</em>, Cambridge, 1999.</li> 
+        <li>Ferrill, Arther, The Origins of War: From the Stone Age to Alexander the Great, reviewed by A.M. Devine in <em>CW</em> 81 (1987-88).</li> 
+        <li>Gabriel, R.A. and Metz, K., <em>From Sumer to Rome: The Military Capabilities of Ancient Armies</em>, 1991.</li> 
+        <li>Garlan, Yvon, <em>Recherches de Poliorcetique Grecque</em>, Paris: Boccard, 1974.</li> 
+        <li>Greenhalgh, P.A.L. <em>Early Greek Warfare</em>, Cambridge, 1973.</li> 
+        <li>Griffith, G.T. <em>The Mercenaries of the Hellenistic World</em> Groningen, 1968.</li> 
+        <li>Hackett, J., <em>Warfare in the Ancient World</em>, 1989.</li> 
+        <li>Hanson, Victor Davis, <em>The Western Way of War: Infantry Battle in Classical Greece</em>, 1989.</li> 
+        <li>Hanson, Victor Davis, <em>The Wars of the Greeks</em>, London: Cassell, 1999.</li> 
+        <li>Havelock, Eric, "War as a way of life in Classical Culture," in <em>Classical Values and the Modern World</em>. Vannier Lectures, Ottawa 1972 19-78.</li> 
+        <li>Hunt, P. Slaves, <em>Warfare and Ideology in the Greek Historians</em></li> 
+        <li>Kern, P.B., <em>Ancient Siege Warfare</em>, Bloomington: Indiana University Press, 1999.</li> 
+        <li>Kromayer, J. and Veith, G., Heerwesen und Kriegfuhrung der Griechen und Romer, 1928.</li> 
+        <li>Lawrence, Arnold Walter, <em>Greek Aims in Fortification</em>, Oxford, 1980</li> 
+        <li>Lazenby, J. F. <em>The Spartan Army</em>, Warminster England: Aris &amp; Phillips, 1985.</li> 
+        <li>Marsden, E.W. <em>Greek and Roman Artillery. Historical Development and Technical Treatises</em>, 2 vols. Oxford</li> 
+        <li>Plasart, A., "Les archers d'Athenes," <em>REG</em> 26 (1913) pp. 151-213.</li> 
+        <li>Pritchett, W.K. <em>The Greek State at War</em>, Berkeley &amp; Los Angeles, 1971-1991, Vols. 1-5</li> 
+        <li>Sage, Michael, <em>Warfare in Ancient Greece. A Sourcebook</em>, London, 1996.</li> 
+        <li>Sekunda, Nick "Greek Siege Warfare" Popular <em>Archaeology</em> Vol. 1, nr. 9 (March 1980) 10-14.</li> 
+        <li>---------- &amp; McBride, Angus, <em>The Ancient Greeks, Armies of Classical Greece 5th &amp; 4th Centuries B.C.</em> (London, 1986), Osprey Publishing.</li> 
+        <li>----------, "Warriors of Ancient Greece" <em>Archaeology Today</em> Vol. 8, nr. 1 (Feb. 1987) p. 6-10.</li> 
+        <li>----------, "The Organization of the Lakedaimonian Army" monograph in preparation</li> 
+        <li>----------. The Army of Alexander the Great London: Osprey 1984. Reviewed by Fisher <em>G&amp;R</em> 32 (1985) 90.</li> 
+        <li>----------."Regimental Uniforms: A look at the Army of Alexander the Great" <em>Popular Archaeology</em> Vol. 5, No. 12, June 1984 15-16.</li> 
+        <li>Snodgrass, A.M. <em>Arms and Armour of the Greeks</em>, London, 1967.</li> 
+        <li>Snodgrass, A.M. <em>Early Greek Armour and Weapons</em>, Edinburgh, 1964.</li> 
+        <li>Spaulding, Col. Oliver, <em>Pen and Sword in Ancient Greece</em>, Princeton, 1937.</li> 
+        <li>Vernant, J.-P. <em>Problèmes de la Guerre en Grèce Ancienne</em>, Paris, 1968.</li> 
+        <li>Warry, J., <em>Warfare in the Classical World</em>, 1980.</li> 
+        <li>Wees, H. V., <em>Greek Warfare: Myth and Realities</em>, Duckworth, 2002.</li> 
+        <li>Wees, H.V.,<em>War and Violence in Ancient Greece</em>, Duckworth, 2002.</li> 
+        <li>Wheeler, E., "Ephorus and the Prohibition of Missiles,"<em> TAPA</em> 117 (1987), pp. 157-182.</li> 
+        <li>Wheeler, Everett, <em>The Armies of Classical Greece</em>, Ashgate, 2007.</li> 
+        <li>Whitehead, David, "Who Equipped Mercenary Troops in Classical Greece?" <em>Historia</em> 40 (1991), pp. 105-113.</li> 
+       </ul> 
+       <p><strong>Prehistoric</strong></p> 
+       <ul class="checklist"> 
+        <li>Childe, V.G., The Significance of the Sling for Greek Prehistory," <em>Studies Presented to David Moore Robinson</em> I, St. Louis, 1951.</li> 
+        <li>Hood, M.S.F., "A Mycenaean Cavalryman," Mycenae 1939-1952) <em>Annual of the British School of Archaeology at Athens</em> 48 (1953).</li> 
+        <li>Sandars, N.K.," Later Aegean Swords," <em>AJA</em> 67 (1963) pp. 117-153.</li> 
+        <li>Schachermeyer, Fr., "Streitwagen und Streitwagenbild im alten Orient und bei den mykenischen Griechen," <em>Anthropos</em> 46 (1951).</li> 
+       </ul> 
+       <p><strong>Homeric Warfare</strong></p> 
+       <ul class="checklist"> 
+        <li>Calder, C.M., "The Geography of the Beacon Passage in the Agamemnon," <em>Classical Review</em> (old series) 36 (1922) 36, 155.</li> 
+        <li>B. Fenik, <em>Typical Battle Scenes in the Iliad</em></li> 
+        <li>Wees, H. van, "Heroes, knights and nutters: warrior mentality in Homer," in Lloyd, Battle in Antiquity (1996).</li> 
+        <li>Wees, H. van, "Kings in Combat: battles and heroes in the Iliad," <em>Classical Quarterly</em> 38/1 (1988)</li> 
+       </ul> 
+       <p><strong>Cavalry</strong></p> 
+       <ul class="checklist"> 
+        <li>Bugh, Glenn R. <em>The Horsemen of Athens</em>, Princeton, 1988.</li> 
+        <li>Gaebel, Robert E., <em>Cavalry Operations in the Ancient Greek World</em>, Oklahoma, 2002.</li> 
+        <li>Helbig, Wolfgang, <em>Les hippeis atheniens</em>, Paris: Klincksieck, 1902.</li> 
+       </ul> 
+       <p><strong>Hoplite Phalanx</strong></p> 
+       <ul class="checklist"> 
+        <li>Anderson, J.K. "Hoplite Weapons and Offensive Arms," in V.D. Hanson, <em>Hoplites</em> pp. 15-37.</li> 
+        <li>Carney, T.F., <em>The Shape of the Past: Models and Antiquity</em>, Lawrence, KS: Coronado Press, 1975.</li> 
+        <li>Goldsworthy, A.K., "The othismos, myths and heresies: the nature of hoplite battle," <em>War in History</em> 4/1 (1997), 1-26.</li> 
+        <li>Hanson, Victor Davis, <em>The Western Way of War: Infantry Battle in Classical Greece</em>, New York: Knopf, 1989.</li> 
+        <li>Hanson, Victor Davis, (ed.) <em>Hoplites: The Classical Greek Battle Experience</em>, 1991.</li> 
+        <li>Hanson, Victor Davis, "Hoplite Technology in hoplite battle," in V.D. Hanson,<em> Hoplites</em>, pp. 63-84.</li> 
+        <li>Hanson, V.D., "Hoplite Battle as Ancient Greek Warfare: When, Where and Why?," in H. van Wees, <em>War and Violence in Ancient Greece</em>, (Duckworth, 2002), pp. 167-200.</li> 
+        <li>Jackson, A.H. "Hoplites and the Gods: The Dedication of Captured Arms and Armour," in V.D. Hanson, <em>Hoplites: The Classical Greek Battle Experience</em>, London, 1991, pp. 228-249.</li> 
+        <li>P. Krentz, "The Nature of Hoplite Battle" <em>Classical Antiquity</em> 4/1 (1985) 50-61.</li> 
+        <li>P. Krentz, "Casualties in Hoplite Battle" <em>GRBS</em> 26, 1 (1985) 13-20.</li> 
+        <li>Krentz, Peter, "Fighting by the Rules: the Invention of the Hoplite Agon," <em>Hesperia</em> 71 (2002), pp. 23-39.</li> 
+        <li>Lorimer, H. L., "The Hoplite Phalanx," <em>ABSA</em> 42 (1947) ***</li> 
+        <li>Luginbill, R.D., "Othismos: the importance of the mass-shove in hoplite warfare,"<em> Phoenix</em> 48/1 (1994), 651-61.</li> 
+        <li>Manti, Peter A., "The Sarissa of the Macedonian Infantry," <em>Ancient World</em> 23 (1992), pp. 30-42.</li> 
+        <li>Mixter, John R., "The Length of the Macedonian Sarissa During the Reigns of Philip II and Alexander the Great," <em>Ancient World</em> 23 (1992), pp. 21-29.</li> 
+        <li>Ober, Josiah, "Hoplites and Obstacles," in V.D. Hanson, <em>Hoplites</em></li> 
+        <li>Snodgrass, A.M., "The Hoplite Reform Revisisted," <em>Dialogues d'histoire ancienne</em> 19 (1993), pp. 47-61.</li> 
+        <li>van Wees, H., "The Development of the Hoplite Phalanx: Iconography and Reality in the Seventh Century," in H. van Wees (ed.), <em>War and Violence in Classical Greece</em>, London 2000., pp. 125-166.</li> 
+       </ul> 
+       <p><strong>Naval History</strong></p> 
+       <ul class="checklist"> 
+        <li>Brewster, Frank, "The Arrangement of Oars in the Trireme," <em>Harvard Studies in Classical Philology</em> 44 (1933) 205-225.</li> 
+        <li>Cartault, A., <em>La Trière athénienne</em>, Paris, 1881.</li> 
+        <li>Cook, A.B. &amp; Richardson, W. "Triremes," in<em> Classical Review</em> 19 (1905) 371-77.</li> 
+        <li>Holladay, A.J. "Further Thoughts on Trireme Tactics" <em>G&amp;R</em> Oct., 1988 35,2 149-151.</li> 
+        <li>Jordan, Boromir, <em>The Athenian Navy in the Classical Period</em>: A Study of Athenian Naval Administration and Military Organization in the Fifth and Fourth centuries B.C. University of California Publications in Classical Studies 13, Berkeley: The University of California Press, 1975, 293pp.</li> 
+        <li>Kopecky, Josef, <em>Die attischen Trieren</em>, Leipzig, 1890.</li> 
+        <li>Köster, August, <em>Das Antike Seewesen</em>, Berlin, 1923.</li> 
+        <li>Rogers, W.L., <em>Greek and Roman Naval Warfare</em>, Annapolis, 1937.</li> 
+        <li>Starr,Chester, "The Ancient Warship," <em>Classical Philology</em> 35, 4 (Oct. 1940), pp. 353-374.</li> 
+        <li>Tarn, W.,W., "The Greek Warship," <em>Journal of Hellenic Studies</em> 25 (1905), pp. 137-56; 204-24.</li> 
+        <li>Tarn, W.W., <em>Hellenistic Military and Naval Developments</em>, Cambridge, 1930.</li> 
+        <li>Tarn, W.,W, "The Oarage of Greek Warships," <em>Mariner's Mirror</em> 19 (1933), pp.52-74.</li> 
+        <li>Torr, Cecil, <em>Ancient Ships</em>, Cambridge, 1894.</li> 
+        <li>Welsh, Frank, <em>Building a Trireme</em>, London, 1988.</li> 
+       </ul> 
+       <p><strong>lntelligence</strong></p> 
+       <ul class="checklist"> 
+        <li>Gerolymatos, Andre, <em>Espionage and Treason. A Study of the Proxenia in Political and Military Intelligence Gathering in Classical Greece</em>, Amsterdam, 1986.</li> 
+        <li>Krentz, Peter, "Deception in Archaic and Classical Greek Warfare, in H. van Wees (ed.) <em>War and Violence in Ancient Greece</em>, (Duckworth, 2000), pp. 201-32.</li> 
+        <li>Roisman, Joseph, <em>The General Demosthenes and His Use of Military Surprise</em>, Stuttgart, 1993.</li> 
+        <li>Russell, Frank Santi, <em>Information Gathering in Classical Greece</em>. Ann Arbor: University of Michigan Press. 1999</li> 
+        <li>Wheeler, E.L., <em>Stratagem and the Vocabulary of Military Trickery</em>, (Leiden, Brill)</li> 
+       </ul> 
+       <p><strong>Persian Wars - General</strong></p> 
+       <ul class="checklist"> 
+        <li>Caspari, M.O.B. "Stray Notes of the Persian Wars, <em>JHS</em> 31 (1911), pp. 100-109.</li> 
+        <li>Grundy, G.B. <em>The Great Persian War</em>, London, 1901.</li> 
+        <li>Highnett, C., <em>Xerxes' Invasion of Greece</em>, Oxford, 1963.</li> 
+        <li>How, W.W. "Arms, Tactics and Strategy in the Persian War" <em>JHS</em> (1923) , pp. 117-133.</li> 
+        <li>How, W.W., "Cornelius Nepos on Marathon and Paros," <em>JHS</em> 39 (1919)</li> 
+        <li>Munro, J.A. R."Some Observations on the Persian Wars" <em>JHS</em> 19 (1899), pp. 185-197.</li> 
+        <li>Munro, J.A. R."Some Observations on the Persian Wars" <em>JHS</em> 22 (1902), pp. 294-332.</li> 
+        <li>Tarn, W.W. "The Fleet of Xerxes" <em>JHS</em> 28 (1908) 202-223.</li> 
+        <li>Wardman, A.E. "Tactics and Tradition of the Persian Wars" <em>Historia</em> 8 (1959), pp. 49-60.</li> 
+        <li>West, W.C., "The Trophies of the Persian Wars," <em>CP</em> 64 (1969), pp. 7-19.</li> 
+       </ul> 
+       <p><strong>Marathon</strong></p> 
+       <ul class="checklist"> 
+        <li>Baillie Reynolds, P.K. "The Shield Signal at the Battle of Marathon," <em>JHS</em> 49 (1929), 100-105.</li> 
+        <li>Barron, J. P. "The Liberation of Greece," <em>CAH</em> 42, pp. </li> 
+        <li><em>ABSA</em> 80 (1985) 99-113.</li> 
+        <li>Gomme, A.W. "Herodotus and Marathon" <em>Phoenix</em> 6(1952) 79.</li> 
+        <li>Hammond, N.G.L. "The Campaign and Battle of Marathon," <em>JHS</em> 88(1968) 13-57.</li> 
+        <li>Hammond, N.G.L. , "The Expedition of Datis and Artaphernes," <em>CAH</em> 42 , 491-506.</li> 
+        <li>Hammond, N.G.L. , "The Expedition of Xerxes," <em>CAH</em> 42, 518ff.</li> 
+        <li>How, W.W. , Cornelius Nepos on Marathon and Paros" <em>JHS</em> 39 (1919) 48-61.</li> 
+        <li>Hudson, Harris Gary, "The Shield Signal at Marathon," <em>American Historical Review</em> 42 (1936-37), pp. 359-443.</li> 
+        <li>McCulloch, H. Jr., "Herodotus, Marathon, and Athens" <em>Symbolae Osloenses</em> 57(1982) 35-55.</li> 
+        <li>Markov,Walter, <em>Battles of World History</em>, New York, 1979.</li> 
+        <li>Maurice, F., "The Campaign of Marathon," <em>JHS</em> 52 (1932).</li> 
+        <li>Munro, J.A.R. "Marathon" in <em>CAH</em> IV, 229-67.</li> 
+        <li>Oliver, James H., "the Monument with the Marathon Epigrams," <em>Hesperia</em> 5 (1936), pp. 225-234.</li> 
+        <li>Oliver, James H., "The Marathon Epigrams," <em>AJPh</em> 56 (1936) 193-201.</li> 
+        <li>Prost, F., "Les combatants de Marathon: Ideologie et societe hoplitiques a Athenes au Ve siecle," in F. Prost, <em>Armees et societees de la Grece classique</em>, Paris, 1999, pp. 69-88.</li> 
+        <li>Vanderpool, E., "A Monument to the Battle of Marathon," <em>Hesperia</em> 35 (1966), p. 93-106.</li> 
+        <li>van Wees, H., "The Homeric Way of War: <em>The Iliad</em> and the Hoplirtwe Phalanx," <em>G&amp;R</em> 41 (1994), pp. 1-18, 131-155.</li> 
+        <li>Whatley, N. "On the Possibility of Reconstructing Marathon and Other Ancient Battles" <em>JHS</em> 84 (1964) 119-139.</li> 
+       </ul> 
+       <p><strong>Thermopylae</strong></p> 
+       <ul class="checklist"> 
+        <li>Bradford, Ernle, <em>Thermopylae</em>: The Battle for the West</li> 
+        <li>Buck, Robert J., "Boeotians at Thermopylae," <em>AHB</em> 1,3 (May 1987), 54ff.</li> 
+        <li>Bury, J.B. "The Campaign of Artemesium and Thermopylae," <em>Annual of the British School at Athens</em> 2 (1895/96), 83ff.</li> 
+        <li>Curchin, L.A., "The Unburied Dead at Thermopylae," <em>AHB</em> 9,2 (April/June1995), 68ff.</li> 
+        <li>Evans, J.A.S., "The Final Problem at Thermopylae," <em>GRBS</em> 5,4 (Winter, 1964), pp. 231ff.</li> 
+        <li>Kraft, John C., "The Pass at Thermopylae, Greece," <em>Journal of Field Archaeology</em> 14,2 (Summer, 1987) pp. 181ff.</li> 
+        <li>Last, Hugh,M. "Thermopylae," <em>Classical Review</em> 57 (1943) pp. 63ff.</li> 
+        <li>Martin, Hugh, "The Beaten Army at Thermpylae," <em>United Service Magazine</em> n.s. 15 =121 ((April 1987), pp. 576 ff.</li> 
+        <li>Prentice, W.K., "Thermopylae," <em>Classical Review</em> 57,2 (Sept. 1943), 63-66.</li> 
+        <li>Pritchett, W. Kendrick, "New Light on Thermypylae," <em>AJA</em> 62,2 (April, 1958), 203-213.</li> 
+        <li>Rosser, J. "The role of the Great Isthmus corridor in the Slavonic invasions of Greece" <em>ByzF</em> 9 (1985) 245-253.</li> 
+        <li>Sacks, Kenneth K., "Herodotus and the Dating of the Battle of Thermopylae," <em>Classical Quarterly</em> n.s. 26,2 (1976) pp. 232ff.</li> 
+        <li>Stanford, W.B., "Epitaph on the Slain at Thermopylae," <em>Hermathena</em> 55 (1940), pp. 90ff.</li> 
+        <li>Szemler, G.J., Cherf, W.J. and Kraft, J.C., <em>Thermopylai. Myth and Reality in 480 B.C.,</em> Chicago: Ares, 1996.</li> 
+        <li>Wallace, Paul W., "The Anopaia Path and Thermopylae," <em>AJA</em> 84,1 (January 1980), pp. 15-23.</li> 
+       </ul> 
+       <p><strong>Artemesium</strong></p> 
+       <ul class="checklist"> 
+        <li>Wallace, P.W. "Aphetai and the Battle of Artemesion": <em>Stud pres. to S. Dow</em> 305-310 Rigsby, K.J. <em>GRBS</em> Suppl 1984.</li> 
+       </ul> 
+       <p><strong>Salamis</strong></p> 
+       <ul class="checklist"> 
+        <li>cf. Markov, <em>Battles of World History</em>, New York, 1979.</li> 
+        <li>Green, Peter <em>The Year of Salamis</em>, London, 1970.</li> 
+        <li>- - - - - - - - - - - . <em>Xerxes at Salamis</em></li> 
+       </ul> 
+       <p><strong>Plataea</strong></p> 
+       <ul class="checklist"> 
+        <li>Grundy, G. B. <em>The Topography of the Battle of Plataea</em>, London, 1894.</li> 
+        <li>Hunt, P., "Helots at the Battle of Plataea," <em>Historia</em> 46 (1997), pp. 129-144.</li> 
+        <li>J.F. Lazenby, <em>The Spartan Army</em>, Warminster, England, Aris &amp; Phillips 1985, Chapter 5</li> 
+        <li>H.B. Wright, <em>The Campaign of Plataea</em>, New Haven, 1904.</li> 
+       </ul> 
+       <p><strong>Mycale</strong></p> 
+       <ul class="checklist"> 
+        <li>MacDougall, I., "The Persian Ships at Mycale," in <em>Essays Presented to K.J.Dover</em>, pp. 143-149.</li> 
+       </ul> 
+       <p><strong>Peloponnesian Wars</strong></p> 
+       <ul class="checklist"> 
+        <li>Kagan, Donald,<em> The Archidamian War</em>, Ithaca, 1974.</li> 
+        <li>Kagan, Donald, <em>The Peace of Nicias and the Sicilian Expedition</em></li> 
+        <li>Kagan, Donald, <em>The Fall of the Athenian Empire</em></li> 
+        <li>Kagan, Donald, <em>The Outbreak of the Peloponnesian War</em></li> 
+        <li>Panagopoulos, "Fugutives and Refugees in the PeloponnesianWar" <em>EEAth</em> xxvii 1979 [1980] 247-296.</li> 
+        <li>Strauss, B.S. <em>Athens After the Peloponnesian War</em>, reviewed by A.M. Devine in CP 83(1988).</li> 
+       </ul> 
+       <p><strong>Sphacteria</strong></p> 
+       <p><strong>Sicilian Expedition</strong></p> 
+       <ul class="checklist"> 
+        <li>Green, Peter <em>The Armada from Athens</em> London, 1971.</li> 
+        <li>Kagan, Donald, <em>The Peace of Nicias and the Sicilian Expedition</em> Ithaca, 1981.</li> 
+       </ul> 
+       <p><strong>Arginuae</strong></p> 
+       <p><strong>Aegospotami</strong></p> 
+       <ul class="checklist"> 
+        <li>Bourriot, Felix, "Xenophon et la bataille d'Aegos Potamos," <em>SEJG</em> 31 (1989-1990), pp. 49-64.</li> 
+        <li>Strauss, B.S. "Aegospotami reexamined" <em>AJPh</em> 104(1983) 24-35.</li> 
+        <li>Strauss, B.S. "A Note on the Topography and Tactics of the Battle of Aegospotami" <em>AJPh</em> 108/4(1987) 741-745.</li> 
+        <li>Wylie, G. "What really happened at Aegospotami?" <em>AC</em> 55 (1986) 125-141.</li> 
+       </ul> 
+       <p><strong>Xenophon</strong></p> 
+       <ul class="checklist"> 
+        <li>Prevas, John, <em>Xenophon's March into the Lair of the Persian Lion</em>, Da Cap Press, 2002.</li> 
+       </ul> 
+       <p><strong>Sparta and the Spartan Hegemony</strong></p> 
+       <ul class="checklist"> 
+        <li>Cadmea</li> 
+        <li>Leuctra</li> 
+        <li>Cartledge, Paul, <em>The Spartans: the world of the warrior-heroes of ancient Greece from utopia to crisis and collapse</em>. Overlook Press, 2003.</li> 
+        <li>David, E. <em>Sparta Between Empire and Revolution (404-243 B.C.)</em> International Problems and their impact on centemporary Greek consciousness, Monograph in Class. Stud. New York, Arno Press 1981.</li> 
+        <li>Westlake, H.D. "Spartan Intervention in Asia 400-397 B.C. <em>Historia</em> 35 (1986) 405-426.</li> 
+       </ul> 
+       <p><strong>Theban Hegemony</strong></p> 
+       <ul class="checklist"> 
+        <li>Mantinea</li> 
+        <li>Buckler, J. "Epaminondas and the embolon" <em>Phoenix</em> 39 (1985) 134-143.</li> 
+        <li>Buckler, John <em>The Theban Hegemony 371-362 B.C.</em> Cambridge, MA 1980.</li> 
+        <li>Devine, A.M. "EMBOLON: A Study in Tactical Terminology," <em>Phoenix</em> 37 (1983) 201-217.</li> 
+       </ul> 
+       <p><strong>Macedonia - General</strong></p> 
+       <ul class="checklist"> 
+        <li>Andronicos, M., "Sarissa", <em>BCH</em> 94 (1970) 91-107.</li> 
+        <li>Hammond, N. G. L., "Training in the Use of Sarissa and its Effects in Battle," <em>Journal of the Australian Society for Classical Studies</em> 14 (1980).</li> 
+        <li>Hammond, N. G. L. "The Macedonian Defeat Near Samarkand," <em>Ancient World</em> 22,2 (1991) 41-47.</li> 
+        <li>Hammond, N. G. L., "The Various Guards of Philip II and Alexander III," <em>Historia</em> 40 (1991) 396-418.</li> 
+        <li>Head, D. Armies of the Macedonian and Punic Wars, 359 BC to 146 BC, 1982.</li> 
+        <li>Manti, Peter A. , "The Sarissa of the Macedonian Infantry," <em>The Ancient World</em> 23, 2 (1992) 31-42.</li> 
+        <li>Manti, Peter A. , "The Cavalry Sarissa," <em>The Ancient World</em> 8 (1983) 73-80.</li> 
+        <li>Markle, Minor M. III, "The Macedonian Sarissa , Spear , and Related Armor," <em>AJA</em> 81 (1977) 323</li> 
+        <li>Sacred Wars</li> 
+        <li>Olynthian Wars</li> 
+       </ul> 
+       <p><strong>Chaeronea</strong></p> 
+       <ul class="checklist"> 
+        <li>Soteriades, G. "Das Schlachtfeld von Charonea," <em>Att.Mitt</em>. 29 (1903) 301-330.</li> 
+       </ul> 
+       <p><strong>Alexander - General</strong></p> 
+       <ul class="checklist"> 
+        <li>Adams, W.L.T. "Antipater and Cassander. Generalship on restricted sources in the 4th century" <em>Ancient World</em> 10, (1984) 79-88.</li> 
+        <li>Barker, Philip, <em>Alexander the Great's Campaigns</em>, Cambridge, 1979.</li> 
+        <li>Baynham, E., <em>Alexander the Great: The Unique History of Quintus Curtius,</em> Ann Arbor: University of Michigan Press, 1998.</li> 
+        <li>Bose, Partha, <em>Alexander the Great's Art of Strategy</em>, Penguin, 2003.</li> 
+        <li>Devine, A.M. <em>The Tactical Terminology of Arrian and Diodorus Siculus: Towards a Reappraisal of the Generalship of Alexander the Great and His Successors</em> (Diss. Cambridge, 1984.</li> 
+        <li>Hammond, N.G.L. <em>Alexander, the Great: King, Commander and Statesman</em>, Park Ridge, NJ 1980.</li> 
+        <li>Engels, Donald W. Alexander <em>the Great and the Logistics of the Macedonian Army</em> Berkeley, 1978.</li> 
+        <li>Fuller, J.F.C. <em>The Generalship of Alexander the Great</em>, London, 1958 and Rutgers 1960.</li> 
+        <li>Milns, R. D., Alexander's Macedonian Cavalry and Diodorus xvii 17.4 , <em>The Journal of Hellenic Studies</em>, Vol. 86. (1966), pp. 167-168.</li> 
+        <li>Sekunda, Nick &amp; McBride, Angus, <em>The Army of Alexander the Great</em> London, Osprey Men-at-War Series No. 148.</li> 
+       </ul> 
+       <p><strong>Aegean</strong></p> 
+       <ul class="checklist"> 
+        <li>Thomassen, L.A. "The Aegean War of Alexander the Great 333-331 B.C." Thesis, Pennsylvania State University, 1984. Summary in MAb 24 (1986) 26.</li> 
+       </ul> 
+       <p><strong>Egypt</strong></p> 
+       <ul class="checklist"> 
+        <li>Devine, A.M. "Diodorus' Account of the Battle of Gaza" <em>Acta Classica</em> 27 (1984) 31-40.</li> 
+        <li>Romane, Patrick, "Alexander's Siege of Gaza," <em>Ancient World</em> 18 (Fall, 1988) 21-20.</li> 
+       </ul> 
+       <p><strong>Tyre</strong></p> 
+       <ul class="checklist"> 
+        <li>Patrick Romane, "Alexander's Siege of Tyre", <em>Ancient World</em> Vol. 6, No. 3-4 (Winter, 1987) 79-90.</li> 
+       </ul> 
+       <p><strong>Granicus</strong></p> 
+       <ul class="checklist"> 
+        <li>Barker, Philip, <em>Alexander the Great's Campaigns</em>, Cambridge, 1979.</li> 
+        <li>Devine, A.M. "Demythologizing the Battle of the Granicus," <em>Phoenix</em> 40 (1986).</li> 
+        <li>Devine, A.M., "A Pawn Sacrifice at the Battle of the Granicus," <em>Ancient World</em> 18, 1-2 (Fall, 1988) 3-20</li> 
+        <li>E. Badian, "The Battle of the Granicus: A New Look" <em>Ancient Macedonia</em> 2 (Institute for Balkan Studies 155: Thessaloniki 1977 271-293.</li> 
+        <li>Nikolitsis, N. T., "The Battle of Granicus," Skrifter Utgivna av Svenska Institute i Athen XXI n. 4 (1974)</li> 
+       </ul> 
+       <p><strong>Issus</strong></p> 
+       <ul class="checklist"> 
+        <li>Barker, Philip, <em>Alexander the Great's Campaigns</em>, Cambridge, 1979.</li> 
+        <li>Devine, A.M. "The Location of the Battle of Issus" <em>LCM</em> 5(1980) 3-10.</li> 
+        <li>Devine, A.M. "The Strategies of Alexander the Great and Darius III in the Battle of Issus campaign" <em>Ancient World</em> 12(1985) 25-38.</li> 
+        <li>Devine,A.M. "Grand Tactics at the Battle of Issus" <em>Ancient World</em> 12 (1985) 39-59.</li> 
+        <li>Glover, R.F. "The Tactical Handling of the Elephant" <em>G&amp;R</em> 17 (1948) 1-11.</li> 
+        <li>Glover,R. "The Elephant in Ancient Warfare" <em>CJ</em> 39 (1943-44) 257-269.</li> 
+        <li>Janke, A. "Die Schlacht bei Issus" <em>Klio</em> 10 (1910) 137-177.</li> 
+       </ul> 
+       <p><strong>Gaugamela</strong></p> 
+       <ul class="checklist"> 
+        <li>cf. Markov</li> 
+        <li>Barker, Philip, <em>Alexander the Great's Campaigns</em>, Cambridge, 1979.</li> 
+        <li>Devine, A.M. "The Battle of Gaugamela: A Tactical and Source-Critical Study," <em>Ancient World</em> 13 (1986) 87-116.</li> 
+        <li>Fuller, J.F. C., <em>The Generalship of Alexander the Great</em>, (1960) pp. 167-74.</li> 
+        <li>Griffith,G.T. "Alexander's Generalship at Gaugamela", <em>JHS</em> 67 (1947) 77-89.</li> 
+        <li>Marsden, E.W. <em>The Campaign of Gaugamela</em>, Liverpool, 1964.</li> 
+       </ul> 
+       <p><strong>Indian Campaign</strong></p> 
+       <ul class="checklist"> 
+        <li>Eggermont, <em>Alexander's Campaigns in Sind and Baluchistan and the Siege of the Brahmin Town of Harmatelia</em>, Louvain, 1975.</li> 
+        <li>Devine, A.M. "The Battle of Hydaspes: A Tactical and Source Critical Study," <em>AncW</em> 14 (1987).</li> 
+       </ul> 
+       <p><strong>Ipsus</strong></p> 
+       <ul class="checklist"> 
+        <li>B. Bar Kockva, <em>The Seleucid Army: Organization and Tactics in the Great Campaigns</em> Cambridge, 1976.</li> 
+       </ul> 
+       <p><strong>Paraitacene</strong></p> 
+       <ul class="checklist"> 
+        <li>Devine, A.M. "Diodorus' Account of the Battle of Paraitacene (317 B.C.) <em>Ancient World</em> 12 (1985) 75-86.</li> 
+       </ul> 
+       <p><strong>Gabiene</strong></p> 
+       <ul class="checklist"> 
+        <li>Devine, A.M. "Diodorus' Account of the Battle of Gabiene" <em>Ancient World</em> 12 (1985) 87-96.</li> 
+       </ul> 
+       <p><strong>Hellenistic Age - General</strong></p> 
+       <ul class="checklist"> 
+        <li>Austin, M.M. "Hellenistic kings, war, and the economy" <em>CQ</em> 36 (1986) 450-466.</li> 
+        <li>Gabbert, J.J., "Piracy in the early Hellenistic Period," <em>G&amp;R</em> 33 (1986) 156-163.</li> 
+       </ul> 
+       <p><strong>War of the Successors</strong></p> 
+       <ul class="checklist"> 
+        <li>Billows, R.A. <em>Antigonos the One-Eyed and the Creation of the Hellenistic State Diss</em>. University of California, Berkeley, 1985 DA XLVI 1986 2779 A.</li> 
+       </ul> 
+      </div> 
+      <div id="ctl00_pageContent_rightColumn"> 
+       <div id="content-2" class="column last"> 
+        <div id="ctl00_pageContent_relatedRight10737427402" class="mod"> 
+         <p><strong>Col. Sheldon</strong></p> 
+         <ul class="arrowlist"> 
+          <li><a title="Rose Mary Sheldon, Ph.D." href="/Content.aspx?id=10737427403">Home</a></li> 
+          <li><a title="Bio" href="/Content.aspx?id=10737427404">Bio</a></li> 
+          <li><a title="Publications" href="/Content.aspx?id=10737427405">Publications</a></li> 
+          <li><a title="Public Addresses" href="/Content.aspx?id=10737427410">Public Addresses</a></li> 
+          <li><a title="Bibliographies" href="/Content.aspx?id=10737427411">Bibliographies</a></li> 
+          <li><a title="634th Tank Battalion" href="/Content.aspx?id=10737427419">634th Tank Battalion</a></li> 
+          <li><a title="AHA Statement" href="http://www.historians.org/about-aha-and-membership/governance/policies-and-documents/statement-on-standards-of-professional-conduct" target="_blank">AHA Statement</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

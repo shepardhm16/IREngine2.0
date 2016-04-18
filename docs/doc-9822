@@ -1,0 +1,476 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta content="charset=utf-8"> 
+  <meta name="description" content="James Squire EE223 Circuits II"> 
+  <meta name="keywords" content="James Squire, Jim Squire, Professor James Squire, VMI, EE223, Circuits II, ECE"> 
+  <title>EE223</title> 
+  <link href="../../squire.css" rel="stylesheet"> 
+  <link href="../teaching.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <table id="outerTable"> 
+   <tbody>
+    <tr> 
+     <td class="titleRow1Col1"></td> 
+     <td class="titleRow1Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow2Col1" style="background-image: url('ee223.gif'); background-repeat:no-repeat"> </td> 
+     <td class="titleRow2Col2"> <h1>EE223: Circuits II</h1> </td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow3Col1"></td> 
+     <td class="titleRow3Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="menu"> <p><a href="../../Default.htm">Home</a></p> <p><a href="../teaching.htm">Teaching</a></p> <p><a href="../ee115/ee115.htm">EE115</a></p> <p><a href="../ee223/ee223.htm">EE223</a></p> <p><a href="../ee230/ee230.htm">EE230</a></p> <p><a href="../ee431/ee431.htm">EE431</a></p> <p><a href="../ee455/ee455.htm">EE455</a></p> <p><a href="../ee491/ee491.htm">EE491/2</a></p> </td> 
+     <td class="cellHoldingMainTable"> 
+      <table class="mainTable"> 
+       <tbody>
+        <tr> 
+         <td class="noBorder"> <p class="alignTop"> EE223, Electrical Circuit Analysis II, is the second course in a series designed to provide engineering majors the tools to analyze and design passive analog circuits. This course introduces capacitors and inductors, and develops the natural and forced responses of circuits containing these elements. It introduces complex phasor notation in the context of sinusoidal steady-state analysis, and then further develops these concepts in the analysis of single and three-phase AC power. The laboratory portion of the course introduces the practical skills of designing, building, and debugging physical circuits in the context of relevant contemporary examples. It includes a major design 4-lab sequence in which cadets design and build a project of their choice. Prerequisite: C or better in EE 122. Corequisite: MA311. (3 lecture hours, 2 lab hours, 4 credit hours). </p> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> 
+          <hr class="hrStyle"> <h3> Lecture Schedule</h3> <p>In the following table, the readings and homework are assigned on the day listed and due on the following lesson. Some problem sets are downloaded below and completed by the student on graph paper. Others are links to online electronically-graded problems that are due 10 minutes prior to the start of class - make sure you have saved your work by then. The e-text, which is bundled with access to the online problems, is required and is available <a href="http://connect.mheducation.com/connect/shortUrl.do?accessUrl=vmi_col_s_2015_preview"> here</a> for $60. If you prefer a printed text in addition, it is available in the bookstore. </p> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> 
+          <table class="lectureTable"> 
+           <!-- The header row --> 
+           <tbody>
+            <tr> 
+             <td class="lectureTableCol1 bold"> # </td> 
+             <td class="lectureTableCol2 bold"> Date </td> 
+             <td class="lectureTableCol3 bold"> Title </td> 
+             <td class="lectureTableCol4 bold"> Read </td> 
+             <td class="lectureTableCol5 bold"> Homework &amp; Handouts</td> 
+            </tr> 
+            <!-- The lecture data rows ---------------------------> 
+            <tr> 
+             <td class="lectureTableCol1"> 1 </td> 
+             <td>2 Sep</td> 
+             <td>Integration review</td> 
+             <td>none</td> 
+             <td> <a href="materials/EE223%202014%20Syllabus.pdf">Syllabus</a><br> <a href="materials/01%20HW%20Assignment.pdf">PS1</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1"> 2 </td> 
+             <td>4</td> 
+             <td>Capacitors #1</td> 
+             <td>6.1-6.2</td> 
+             <td><a href="materials/02%20HW%20Assignment.pdf">PS2</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">3</td> 
+             <td>7</td> 
+             <td>Capacitors #2</td> 
+             <td>6.3, 6.6 (not 6.6.3)</td> 
+             <td><a href="materials/03%20HW%20Assignment.pdf">PS3</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 1</td> 
+             <td>7</td> 
+             <td>Basic instrumentation, build a DAC</td> 
+             <td>Lab 1</td> 
+             <td> <a href="materials/Lab%20report.pdf">Lab report format</a>,<br> <a href="materials/Lab%201%20D%20to%20A.pdf">Lab1</a>,<br> <a href="materials/LTspice%20walkthrough.pdf">LTSpice walkthrough</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">4</td> 
+             <td>9</td> 
+             <td>Inductors</td> 
+             <td>6.4, 6.5, 6.7</td> 
+             <td> <a href="http://connect.mheducation.com/connect/hmInstructorSectionHomePortal.do?sectionId=28016555"> E-Assignment</a> Try the ungraded example HW first.<br> Hint: Problem 1's answer is a function, not a number.&nbsp; Click the placeholder to enter the function-entering mode.</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">5</td> 
+             <td>11</td> 
+             <td>1<sup>st</sup> order circuits #1</td> 
+             <td>7.1, 7.2</td> 
+             <td><a href="materials/05%20HW%20Assignment.pdf">PS5</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">6</td> 
+             <td>14</td> 
+             <td>1<sup>st</sup> order circuits #2</td> 
+             <td>7.3</td> 
+             <td><a href="http://connect.mheducation.com/connect/hmInstructorSectionHomePortal.do?sectionId=28016555"> E-Assignment</a>.&nbsp; </td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 2</td> 
+             <td>14</td> 
+             <td>Use of the oscilloscope</td> 
+             <td>Lab 2</td> 
+             <td><a href="materials/Lab%202%20-%20Scopes.pdf">Lab 2</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">7</td> 
+             <td>16</td> 
+             <td>Singularity functions</td> 
+             <td>7.4</td> 
+             <td><a href="materials/07%20HW%20Assignment.pdf">PS7</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">8</td> 
+             <td>18</td> 
+             <td>Step response of RC circuits</td> 
+             <td>7.5</td> 
+             <td>&nbsp;dWork on next lecture's assignment</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">9</td> 
+             <td>20</td> 
+             <td>Step response of RL circuits, 1<sup>st</sup> order opamps</td> 
+             <td>7.6, 7.7</td> 
+             <td><a href="materials/08-9%20HW%20Assignment.pdf">PS8-9</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 3</td> 
+             <td>20</td> 
+             <td>First order circuits</td> 
+             <td>Lab 3</td> 
+             <td><a href="materials/Lab%203%20-%20First%20Order%20Circuits.pdf">Lab 3</a>,<br> <a href="materials/LTspice%20walkthrough.pdf">LTSpice walkthrough</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">10</td> 
+             <td>22</td> 
+             <td>Spice and applications</td> 
+             <td>7.8, 7.9, 7.10</td> 
+             <td><a href="materials/10%20HW%20Assignment.pdf">PS10</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">11</td> 
+             <td>24</td> 
+             <td>Review for Test 1</td> 
+             <td><a href="materials/Test%20I%20Review%20sheet.pdf">Review sheet</a></td> 
+             <td>Review Chapter 6 (not 6.6.3) and Chapter 7</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">12</td> 
+             <td>27</td> 
+             <td>Test 1</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 4</td> 
+             <td>27</td> 
+             <td>Test 1 postmortem</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">13</td> 
+             <td>29</td> 
+             <td>Initial conditions</td> 
+             <td>8.1, 8.2</td> 
+             <td>work on next lecture's E-assignment</td> 
+             <td> </td>
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">14</td> 
+             <td>Oct 2</td> 
+             <td>Initial, final values</td> 
+             <td>8.1,8.2</td> 
+             <td><a href="http://connect.mheducation.com/connect/hmInstructorSectionHomePortal.do?sectionId=28016555">E-Assignment</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">15</td> 
+             <td>5</td> 
+             <td>Source-free series RLC</td> 
+             <td>8.3</td> 
+             <td><a href="materials/15%20HW%20Assignment.pdf">PS15</a></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 5</td> 
+             <td>5</td> 
+             <td>Comparators</td> 
+             <td>Lab 5</td> 
+             <td><a href="materials/Lab%204%20-%20Comparators.pdf">Lab 5</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">16</td> 
+             <td>8</td> 
+             <td>Source-free parallel RLC</td> 
+             <td>8.4</td> 
+             <td><a href="materials/16%20HW%20Assignment.pdf">PS16</a></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">17</td> 
+             <td>9</td> 
+             <td>Step response series RLC</td> 
+             <td>8.5</td> 
+             <td>&nbsp;work on next lecture's E-assignment</td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">18</td> 
+             <td>12</td> 
+             <td>Step resonse parallel RLC</td> 
+             <td>8.6</td> 
+             <td><a href="http://connect.mheducation.com/connect/hmInstructorSectionHomePortal.do?sectionId=28016555">E-Assignment</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 6</td> 
+             <td>12</td> 
+             <td>Comparators</td> 
+             <td>Lab 6</td> 
+             <td><a href="materials/Lab%204%20-%20Comparators.pdf">Lab 5</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">19</td> 
+             <td>14</td> 
+             <td>General 2<sup>nd</sup> order circuits</td> 
+             <td>8.7, 8.11</td> 
+             <td>Prepare for Test 2</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">20</td> 
+             <td>16</td> 
+             <td>Spice, applications</td> 
+             <td>8.9,8.11, 8.12</td> 
+             <td><a href="materials/20%20HW%20Assignment.pdf">PS20</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">21</td> 
+             <td>19</td> 
+             <td>General 2nd order practice</td> 
+             <td>none</td> 
+             <td><a href="materials/21%20HW%20Assignment.pdf">PS21</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 7</td> 
+             <td>19</td> 
+             <td>Design Lab: introduction</td> 
+             <td>Design Lab</td> 
+             <td><a href="materials/Design%20Lab.pdf">Design Lab</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">22</td> 
+             <td>21</td> 
+             <td>Sinusoids</td> 
+             <td>9.1, 9.2</td> 
+             <td><a href="materials/22%20HW%20Assignment.pdf">PS22</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">23</td> 
+             <td>23</td> 
+             <td>Phasors</td> 
+             <td>9.3</td> 
+             <td><a href="materials/23%20HW%20Assignment.pdf">PS23</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">24</td> 
+             <td>26</td> 
+             <td>RLC impedance</td> 
+             <td>9.4-7, 9.9</td> 
+             <td><a href="materials/24%20HW%20Assignment.pdf">PS24</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 8</td> 
+             <td>26</td> 
+             <td>Design Lab I: Decide project</td> 
+             <td>Design Lab</td> 
+             <td><a href="materials/Design%20Lab.pdf">Design Lab</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">25</td> 
+             <td>28</td> 
+             <td>Phasor nodal analysis</td> 
+             <td>10.1, 10.2</td> 
+             <td><a href="materials/25%20HW%20Assignment.pdf">PS25</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">26</td> 
+             <td>30</td> 
+             <td>Phasor mesh analysis</td> 
+             <td>10.3</td> 
+             <td><a href="materials/26%20HW%20Assignment.pdf">PS26</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">27</td> 
+             <td>2 Nov</td> 
+             <td>More phasor analysis techniques</td> 
+             <td>10.4, 10.5</td> 
+             <td><a href="materials/27%20HW%20Assignment.pdf">PS27</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 9</td> 
+             <td>2</td> 
+             <td>Design Lab II: Statement of Work due</td> 
+             <td>Design Lab</td> 
+             <td><a href="materials/Design%20Lab.pdf">Design Lab</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">28</td> 
+             <td>3</td> 
+             <td>Phasors: Thevenin &amp; Norton</td> 
+             <td>10.6</td> 
+             <td><a href="materials/28%20HW%20Assignment.pdf">PS28</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">29</td> 
+             <td>4</td> 
+             <td>Opamps and Spice</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">30</td> 
+             <td>6</td> 
+             <td>Review for Test III</td> 
+             <td> <a href="materials/Test%20III%20Student%20Objectives%20sheet.pdf">Review sheet</a></td> 
+             <td> <a href="materials/Test%20III%20practice%20test.pdf"> Practice test</a><br> <a href="materials/Test%20III%20practice%20test%20solutions.pdf"> Practice test solutions</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 10</td> 
+             <td>9</td> 
+             <td>Design Lab III: Debug</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">31</td> 
+             <td>9</td> 
+             <td>Test III</td> 
+             <td>Design Lab</td> 
+             <td><a href="materials/Design%20Lab.pdf">Design Lab</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">32</td> 
+             <td>13</td> 
+             <td>Instant &amp; average power</td> 
+             <td>11.1, 11.2</td> 
+             <td><a href="materials/32%20HW%20Assignment.pdf">PS32</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 11</td> 
+             <td>16</td> 
+             <td>Design Lab IV: Final Debug</td> 
+             <td>Design Lab</td> 
+             <td><a href="materials/Design%20Lab.pdf">Design Lab</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">33</td> 
+             <td>16</td> 
+             <td>Maximum power transfer and RMS</td> 
+             <td>11.3, 11.4</td> 
+             <td><a href="materials/33%20HW%20Assignment.pdf">PS33</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">34</td> 
+             <td>18</td> 
+             <td>Apparant power and power factor</td> 
+             <td>11.5</td> 
+             <td><a href="materials/34%20HW%20Assignment.pdf">PS34</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">35</td> 
+             <td>20</td> 
+             <td>Complex power </td> 
+             <td>11.6</td> 
+             <td><a href="http://connect.mheducation.com/connect/hmInstructorSectionHomePortal.do?sectionId=28016555">E-Assignment</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">36</td> 
+             <td>23</td> 
+             <td>Complex power correction</td> 
+             <td>11.8</td> 
+             <td><a href="http://connect.mheducation.com/connect/hmInstructorSectionHomePortal.do?sectionId=28016555">E-Assignment</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 12</td> 
+             <td>23</td> 
+             <td>Design Lab V: Construction</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">37</td> 
+             <td>30</td> 
+             <td>Polyphase power</td> 
+             <td>12.1,12.2</td> 
+             <td>none</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 13</td> 
+             <td>30</td> 
+             <td>Design Lab VI: Oral presentations, written Statement of Work</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">38</td> 
+             <td>2</td> 
+             <td>Ideal transformers</td> 
+             <td>13.5,13.9</td> 
+             <td>review for final exam</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">39</td> 
+             <td>4</td> 
+             <td>Field trip: polyphase power at VMI</td> 
+             <td>none</td> 
+             <td>review for final exam</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">40</td> 
+             <td>7</td> 
+             <td>Final exam review, Test Block 1, admin</td> 
+             <td><a href="materials/40%20Final%20Exam%20student%20objectives.pdf">Review sheet</a></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 14</td> 
+             <td>7</td> 
+             <td>Clean lab, return components</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">41</td> 
+             <td>9</td> 
+             <td>Final exam review, Test Block 2</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">42</td> 
+             <td>11</td> 
+             <td>Final exam review, last test block (power)</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">&nbsp;</td> 
+             <td>15</td> 
+             <td>0830-1130: Final examination</td> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> <h3>Other</h3> 
+          <blockquote> 
+           <p> <a href="http://www.mathworks.com/academia/student_version/">Student Edition of Matlab</a> costs about $100 and does everything the ones that cost $2,000 for a commercial license do! </p> 
+           <p> <a href="http://www.amazon.com/Supplied-Reference-Handbook-8th-2nd-revision/dp/1932613595"> NCEES Reference Handbook</a>. The printed book is an authorized reference in all my exams. You can download a free pdf version (not authorized for my exams since you can't read it) directly from the <a href="http://ncees.org/exams/study-materials/download-fe-supplied-reference-handbook"> NCEES website</a>, and it is a good reference for homework (especially for integral equations). </p> 
+           <p> <a href="../../research/IC_Datasheets/ic_datasheets.htm">IC Datasheets</a>. This is a listing of all common integrated circuits that we use in this course, as well as in entire curriculum at VMI. You may find it useful during the design lab. </p> 
+           <p> <a href="http://www.linear.com/designtools/software/">LTSpice</a> Free circuit simulator</p> 
+           <p> <a href="http://www.schematica.com/555_timer_design/555_timer_free.html">555 Designer</a> Free 555 oscillator design software</p> 
+           <p> <a href="http://www.schematica.com/active_filters/fwlite.html">Filter Designer Lite</a> Free Active (opamp) filter design software</p> 
+           <p> <a href="materials/VariableResistorDesign.exe">Variable voltage divider designer</a> Variable resistor voltage divider design</p> 
+           <p> <a href="materials/ThreePhase.exe">Three Phase Power</a> interactive demonstration</p> 
+          </blockquote> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+   </tbody>
+  </table>  
+ </body>
+</html>

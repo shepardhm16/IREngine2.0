@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>U.S. Census - HI 200 Historical Methods - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: HI 200 Historical Methods: U.S. Census"> 
+  <meta name="DC.Creator" content="Janet Holly"> 
+  <meta name="DC.Subject" content="History"> 
+  <meta name="DC.Description" content="This guide is designed as a starting point for doing research in the many areas of history."> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=36307&amp;p=3019465"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Mar 21, 2014"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Mar 30, 2016"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 36307,
+				page_id: 3019465,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-3019465";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '36307',_st_page_id: '3019465'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '36307',_st_page_id: '3019465'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Info Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="HI 200 Historical Methods" href="http://libguides.vmi.edu/HI200">HI 200 Historical Methods </a> </li> 
+     <li id="s-lib-bc-page" class="active">U.S. Census </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="36307"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">HI 200 Historical Methods: U.S. Census</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description">This guide is designed as a starting point for doing research in the many areas of history.</span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Info Header --> 
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med"> 
+   <div id="s-lg-guide-tabs" class="tabs"> 
+    <ul class="nav nav-tabs split-button-nav"> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36307&amp;p=229577"> <span>HI 200</span> </a> </li> 
+     <li role="presentation"> <a title="Find books and other materials by using Preston Library's online catalog as well as other library catalogs." class="" href="/c.php?g=36307&amp;p=229578"> <span>Find Books</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36307&amp;p=229579"> <span>Find Articles</span> </a> </li> 
+     <li role="presentation"> <a title="Find current and historical newspapers" class="" href="/c.php?g=36307&amp;p=2836405"> <span>Find News Articles</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36307&amp;p=3153550"> <span>Government Publications</span> </a> </li> 
+     <li role="presentation" class="active"> <a title="" class="active" href="/c.php?g=36307&amp;p=3019465"> <span>U.S. Census</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36307&amp;p=2838203"> <span>Interlibrary Loan</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=36307&amp;p=958875"> <span>Citation Guides</span> </a> </li> 
+     <li role="presentation"> <a title="Return to Preston Library's Homepage" class="" href="http://www.vmi.edu/content.aspx?id=312"> <span>Library Homepage</span> </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <!-- BEGIN: Guide Content --> 
+  <div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders"> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-126" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-1" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-10942885" class="s-lg-box-wrapper-10942885"> 
+       <div id="s-lg-box-9286806-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-9286806" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Virginia Census </h2> 
+         <div id="s-lg-box-collapse-9286806"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-18836962" class="  clearfix"> 
+            <p>Preston Library has Virginia population census information for&nbsp;Rockbridge County, which includes the City of Lexington.&nbsp; This data was microfilmed by the National Archives.&nbsp;</p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-21329799" class="s-lg-link-list s-lg-link-list-2">
+             <li class=""> 
+              <div id="s-lg-content-18835679" class=""> 
+               <span><a href="http://vmi.worldcat.org/oclc/9497753" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '18835679'});">Population Schedules of the First Census of the United States, 1790</a> </span>
+               <div id="s-lg-link-desc-18835679" class="s-lg-link-desc">
+                From the National Archives find census data on the states of Rhode Island, South Carolina, Vermont, and Virgina.
+               </div> 
+               <div class="s-lg-label-moreinfo"> 
+                <a class="s-lg-label-more" id="s-lg-content-more-18835679" href="javascript:void();" style="display:block; font-style:italic;" onclick="
+								jQuery('#s-lg-content-moreinfo-18835679').toggle();
+								jQuery('#s-lg-content-less-18835679').toggle();
+								jQuery('#s-lg-content-more-18835679').toggle();">more...</a> 
+                <a class="s-lg-label-less" id="s-lg-content-less-18835679" href="javascript:void();" style="display:none; font-style:italic;" onclick="
+								jQuery('#s-lg-content-moreinfo-18835679').toggle();
+								jQuery('#s-lg-content-more-18835679').toggle();
+								jQuery('#s-lg-content-less-18835679').toggle(); ">less...</a> 
+               </div> 
+               <div id="s-lg-content-moreinfo-18835679" class="s-lg-content-moreinfo" style="display:none;">
+                On microfilm located in the microform area of the 500 level. 
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-18836339" class=""> 
+               <span><a href="http://vmi.worldcat.org/oclc/13960737" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '18836339'});">Heads of Families at the First Census of the United States Taken in the Year 1790</a> </span>
+               <div id="s-lg-link-desc-18836339" class="s-lg-link-desc">
+                Records of the State Enumerations: 1782 to 1785 - Virginia.
+               </div> 
+               <div class="s-lg-label-moreinfo"> 
+                <a class="s-lg-label-more" id="s-lg-content-more-18836339" href="javascript:void();" style="display:block; font-style:italic;" onclick="
+								jQuery('#s-lg-content-moreinfo-18836339').toggle();
+								jQuery('#s-lg-content-less-18836339').toggle();
+								jQuery('#s-lg-content-more-18836339').toggle();">more...</a> 
+                <a class="s-lg-label-less" id="s-lg-content-less-18836339" href="javascript:void();" style="display:none; font-style:italic;" onclick="
+								jQuery('#s-lg-content-moreinfo-18836339').toggle();
+								jQuery('#s-lg-content-more-18836339').toggle();
+								jQuery('#s-lg-content-less-18836339').toggle(); ">less...</a> 
+               </div> 
+               <div id="s-lg-content-moreinfo-18836339" class="s-lg-content-moreinfo" style="display:none;">
+                Located in reference: Ref. F 225.U6 
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+           <div id="s-lg-content-18837406" class="  clearfix"> 
+            <p>Search the library's catalog with subject headings such as:</p> 
+            <p>Virginia - Census, <em>year</em>&nbsp; i.e. Virginia - Census, 1900</p> 
+            <p>Virginia - Populations</p> 
+            <p>United States - Census, <em>number of census</em>, <em>year</em>&nbsp; i.e. United States - Census, 12th, 1900</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-2" class="col-md-6"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-10942887" class="s-lg-box-wrapper-10942887"> 
+       <div id="s-lg-box-9286808-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-9286808" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">U.S. Census </h2> 
+         <div id="s-lg-box-collapse-9286808"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-18835297" class="  clearfix"> 
+            <p>The <a href="http://www.census.gov/en.html">Census Bureau</a> is part of the <a href="http://www.commerce.gov/" id="anch_538">U. S. Department of Commerce</a>. The U. S. Census Bureau is overseen by the <a href="http://www.esa.doc.gov/" id="anch_539">Economics and Statistics Administration (ESA)</a> within the Department of Commerce. The Economics and Statistics Administration provides high-quality economic analysis and fosters the missions of the U. S. Census Bureau and the <a href="http://www.bea.gov/" id="anch_540">Bureau of Economic Analysis</a>.</p> 
+            <p>The Census Bureau's <em>mission</em> is to serve as the leading source of quality data about the nation's people and economy - honoring privacy, protecting confidentiality, sharing its expertise globally, and conducting its work openly.</p> 
+            <p>The first Federal Population Census was taken in 1790, and has been taken every ten years since. However, data from recent censuses are not available after 1940 because of a 72-year restriction on access to the Census. Most researchers find it most helpful to begin with the 1940 Census and work backwards to locate people in earlier generations.</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-10943294" class="s-lg-box-wrapper-10943294"> 
+       <div id="s-lg-box-9287155-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-9287155" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Reference Books </h2> 
+         <div id="s-lg-box-collapse-9287155"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-21330179" class="s-lg-link-list s-lg-link-list-5">
+             <li class=""> 
+              <div id="s-lg-content-18836064" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-18836064" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/28213551" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '18836064'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780313283093/LC.GIF&amp;client=springshare" title="Historical Statistics of the States of the United States" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/28213551" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '18836064'});"><span id="s-lg-book-title-18836064" class="s-lg-book-title">Historical Statistics of the States of the United States</span> by <span id="s-lg-book-author-18836064" class="s-lg-book-author">Donald B. Dodd</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. HA 214 .D63 1993
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780313283093
+                </div>
+                <div class="s-lg-book-prop-pubdate">
+                 Publication Date: 1993-11-30
+                </div>
+                <div id="s-lg-book-desc-18836064" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-18836064" class="s-lg-link-desc">
+                  This volume is a census-focused compilation of state-level population, agriculture, and manufacturing data for the fifty states and the District of Columbia. It also includes population figures for the largest 1990 cities from 1790 to 1990. Thus it fills a gap in the historical statistics provided by the government publication, "Historical Statistics of the United States" (1975), which provides national statistics, and the county-level data compiled by the Interuniversity Consortium for Political and Social Research. In addition to the statistical tables, the volume includes a glossary explaining the different definitions used by the Census Bureau.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-19661158" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-19661158" class="s-lg-book-cover">
+                <a id="book_0" href="http://hsus.cambridge.org/HSUSWeb/HSUSEntryServlet" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '19661158'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=0511132972/LC.GIF&amp;client=springshare" title="Historical Statistics of the United States" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://hsus.cambridge.org/HSUSWeb/HSUSEntryServlet" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '19661158'});"><span id="s-lg-book-title-19661158" class="s-lg-book-title">Historical Statistics of the United States</span><span id="s-lg-book-author-19661158" class="s-lg-book-author"></span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: eBook
+                </div>
+                <div class="s-lg-book-prop-pubdate">
+                 Publication Date: 2006
+                </div>
+                <div id="s-lg-book-desc-19661158" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-19661158" class="s-lg-link-desc">
+                  Utilizing information from the 2000 Census, this essential reference has been updated for the new Millennium providing rich materials for both contemporary and historical researchers.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-18837479" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-18837479" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/2112214" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '18837479'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780806306964/LC.GIF&amp;client=springshare" title="Index to the 1820 Census of Virginia" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/2112214" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '18837479'});"><span id="s-lg-book-title-18837479" class="s-lg-book-title">Index to the 1820 Census of Virginia</span> by <span id="s-lg-book-author-18837479" class="s-lg-book-author">Jeanne Robey Felldin</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. F 230 .F44
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780806306964
+                </div>
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-3" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-10943520" class="s-lg-box-wrapper-10943520"> 
+       <div id="s-lg-box-9287344-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-9287344" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Databases </h2> 
+         <div id="s-lg-box-collapse-9287344"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-21330582" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268447" class=""> 
+               <a href="http://ancestrylibrary.proquest.com" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268447'});">Ancestry Library Edition </a> 
+               <div id="s-lg-database-desc-1268447" class="s-lg-database-desc">
+                Contains genealogical information from 1.2 billion records in 3,000 databases. U.S. Federal Census from 1790, American Genealogical Biographical Index, Passenger and Immigration Lists Index are included.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-1268583" class=""> 
+               <a href="http://www.heritagequestonline.com" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268583'});">HeritageQuest </a> 
+               <div id="s-lg-database-desc-1268583" class="s-lg-database-desc">
+                The database for census data, family records, and local histories. This collection assembles every extant U.S. federal census, family genealogies, local histories, tax lists, city directories, land and probate records, birth, marriage and death records, genealogical and local history serials, and more.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-21331281" class="s-lg-link-list s-lg-link-list-2">
+             <li class=""> 
+              <div id="s-lg-content-18837092" class=""> 
+               <span><a href="http://www.archives.gov/research/census/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '18837092'});">National Archives</a> </span>
+               <div id="s-lg-link-desc-18837092" class="s-lg-link-desc">
+                The National Archives has the census schedules on microfilm available from 1790 to 1940. (Note: Most of the 1890 Census was destroyed in a Department of Commerce fire, though partial records are available for some states.)
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-20553681" class=""> 
+               <span><a href="http://proquest.libguides.com/ancestrylibraryedition" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '20553681'});">ProQuest LibGuide - Ancestry Library Edition</a> </span>
+               <div id="s-lg-link-desc-20553681" class="s-lg-link-desc">
+                Find tips to search billions of records in census data, vital records, directories, photos, and more from countries all over the world.
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-20553817" class=""> 
+               <span><a href="http://proquest.libguides.com/heritagequestonline" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '20553817'});">ProQuest LibGuide - HeritageQuest Online</a> </span>
+               <div id="s-lg-link-desc-20553817" class="s-lg-link-desc">
+                Provides insight into the content, features, and functionality of the NEW HeritageQuest Online.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-127" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+    <li class="previous"> <a href="/c.php?g=36307&amp;p=3153550">&lt;&lt; <strong>Previous:</strong> Government Publications</a> </li> 
+    <li class="next"> <a href="/c.php?g=36307&amp;p=2838203"><strong>Next:</strong> Interlibrary Loan &gt;&gt;</a> </li> 
+   </ul> 
+  </div> 
+  <!-- END: Guide Content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Mar 30, 2016 4:17 PM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/HI200</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D36307%2526p%253D3019465&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+     <span class="s-lg-guide-label">Subjects: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/sb.php?subject_id=9744">History</a></span> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+     <span class="s-lg-guide-label">Tags: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/srch.php?tag=history&amp;default_lg=1">history</a>, <a href="http://libguides.vmi.edu/srch.php?tag=world history&amp;default_lg=1">world history</a></span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

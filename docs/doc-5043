@@ -1,0 +1,383 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	Campaign Cabinet
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="../../master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="../../royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="../../royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="../../App_Themes/campaign/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="cabinet, campaign, give, donor, support">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/Campaign/10737430813/" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWDAIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFES9VbmNvbW1vblB1cnBvc2UvZBYCZg8PFgIeCEltYWdlVXJsBSUvY29yZS9pbWFnZXMvY29udGVudC9jYW1wYWlnbmxvZ28ucG5nZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCEw9kFgYCAQ8PFgIeB1Zpc2libGVnZGQCAw8PFgIfCGhkZAIFD2QWAgIBD2QWAmYPZBYCZg8WAh8IZxYCAgEPDxYCHwIFLi91cGxvYWRlZEltYWdlcy9DYW1wYWlnbi9pbnN0aXR1dGUtc29jaWV0eS5qcGdkZAIXDw8WBh4FVGl0bGUFFUhvbWVwYWdlIEZvb3RlciBSaWdodB4TQ2F0YWxvZ0ljb25JbWFnZVVybAUuL1dvcmtBcmVhL2ltYWdlcy9hcHBsaWNhdGlvbi9pY29uX2RvY3VtZW50LmdpZh4RVGl0bGVJY29uSW1hZ2VVcmxlZGQCGQ8PFgYfCQUUSG9tZXBhZ2UgRm9vdGVyIExlZnQfCgUuL1dvcmtBcmVhL2ltYWdlcy9hcHBsaWNhdGlvbi9pY29uX2RvY3VtZW50LmdpZh8LZWRkZMJE+43B/HdzhfSlhqk7iIdSkLGQ8TmgIznmWAuaSCJY"> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAARA2gGotV+uz4u7sHLaIBKOnBk33wxtu2i+2fT2dMA1hJu2RGmitekZszaXPD+r8vWoLSOYNaUNMMHRWE36gW3e9iVJfGDwHCxVdtrd59jJw85ibcZdaaOwWt0Vaq+IxEY="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/UncommonPurpose/"><img id="ctl00_imgLogo" src="/core/images/content/campaignlogo.png" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl28_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl28$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl28_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl28$ddlSearchCatalogs" id="ctl00_ctl28_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl28$btnSearch" value="search" id="ctl00_ctl28_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li class="last"><a href="http://www.vmi.edu" target="_blank" class="first">Virginia Military Institute Website</a></li>
+        </ul> 
+       </div> 
+       <div id="ctl00_pnlCart"> 
+        <div class="cart column"> 
+         <a href="https://www.vmicampaign.org/my-gifts"> <i class="cart-icon">Shopping Cart</i> <span class="count"> 
+           <div id="cartList"></div> </span> </a> 
+        </div> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/Campaign/10737427179/" target="_self">Home</a></li>
+        <li><a href="/Campaign/10737429235/" target="_self">Why VMI Matters</a></li>
+        <li><a href="/Campaign/10737427286/" target="_self">Priorities</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>How you can help.</h5></li>
+            <li><a href="/Campaign/10737429236/" target="_self">Strengthen Academics</a></li>
+            <li><a href="/Campaign/10737429561/" target="_self">Prepare Leaders</a></li>
+            <li><a href="/Campaign/10737429566/" target="_self">Support the Team</a></li>
+            <li><a href="/Campaign/10737429564/" target="_self">Provide Opportunity</a></li>
+            <li><a href="/Campaign/10737429560/" target="_self">Believe in the Mission</a></li>
+            <li><a href="/Campaign/10737429563/" target="_self">Preserve Our Legacy</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Campaign/10737430067/" target="_self">Get Involved</a></li>
+        <li><a href="/Campaign/10737430174/" target="_self">About Giving</a></li>
+        <li><a href="/Campaign/10737431176/" target="_self">Videos</a></li>
+        <li><a href="/Campaign/10737433029/" target="_self">Stories</a></li>
+        <li class="rt"><a href="/Campaign/10737427566/" target="_self">Progress</a></li>
+        <li class="rt last"><a href="https://www.vmicampaign.org/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Campaign/10737427179/" target="_self">Home</a></li>
+        <li><a href="/Campaign/10737429235/" target="_self">Why VMI Matters</a></li>
+        <li><a href="/Campaign/10737427286/" target="_self">Priorities</a></li>
+        <li><a href="/Campaign/10737430067/" target="_self">Get Involved</a></li>
+        <li><a href="/Campaign/10737430174/" target="_self">About Giving</a></li>
+        <li><a href="/Campaign/10737431176/" target="_self">Videos</a></li>
+        <li><a href="/Campaign/10737433029/" target="_self">Stories</a></li>
+        <li><a href="/Campaign/10737427566/" target="_self">Progress</a></li>
+        <li><a href="https://www.vmicampaign.org/" target="_blank">Give</a></li>
+       </ul> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Campaign/institute-society.jpg" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <div class="content1">
+        <h1>Campaign Cabinet</h1>
+        <p>&nbsp;The unique experiences of the cabinet members, their professional expertise, and their knowledge of the Institute are invaluable in developing the vision to guide the campaign.</p>
+        <table align="center" cellspacing="15">
+         <tbody>
+          <tr>
+           <td>&nbsp;<img src="/uploadedImages/Campaign/Campaign Cabinet 08 2015 Cropped.jpg?n=2552" alt="Campaign Cabinet" title="Campaign Cabinet" align="middle" style="width: 700px;"></td>
+          </tr>
+          <tr>
+           <td><p>&nbsp;</p>
+            <div style="text-align: center;">
+             &nbsp;
+            </div><span class="caption">
+             <div style="text-align: center;">
+              The Campaign Cabinet (left toright): &nbsp;
+             </div>
+             <div style="text-align: center;">
+              John P. Jumper ’66; Thomas G.Slater Jr ’66; J.H. Binford Peay III ’62, Superintendent; &nbsp;
+             </div>
+             <div style="text-align: center;">
+              Donald M. Wilkinson Jr ’61,Chairman, Walter C. Perrin II ’62; William A. Paulette ’69; &nbsp;
+             </div>
+             <div style="text-align: center;">
+              James E. Rogers ’67, ViceChairman; and Conrad M. Hall ’65, Vice Chairman.&nbsp;
+             </div></span>
+            <div style="text-align: center;">
+             &nbsp;
+            </div><p>&nbsp;</p></td>
+          </tr>
+         </tbody>
+        </table>
+        <br>
+        <p>&nbsp;</p>
+       </div>
+       <div class="accordion">
+        <div>
+         <a href="#" class="readMore">Donald M. Wilkinson, Jr. ’61 – Chairman </a>
+         <div class="more">
+          <p><strong>Donald M. Wilkinson, Jr. ’61 – Chairman </strong></p>
+          <p>A founder and former president and chairman of the board of the New York-based, Mr. Wilkinson began actively serving VMI as a volunteer with VMI’s Sesquicentennial Challenge in the 1980s. From 1989 to 1997, he served on the VMI Foundation’s Board of Trustees.&nbsp;</p>
+          <p>From 2000 to 2005, he was the vice chairman of VMI’s latest capital campaign, Reveille: A Call to Excel. From 1999 to 2007, he was a member of the VMI Board of Visitors. He was instrumental in the establishment of the Jackson-Hope Fund and has been a member of its Board of Overseers since 2002. <br><br>In November 2010, the VMI Foundation presented him with its highest honor, the Distinguished Service Award.</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore"> James E. (Jimmy) Rogers ’67 – Vice Chairman </a>
+         <div class="more">
+          <p><strong>James E. (Jimmy) Rogers ’67 – Vice Chairman</strong></p>
+          <p>Mr. Rogers retired as the president of SCI Investors, Inc., a private equity investment firm, in 2011.&nbsp; His long record of service to the Institute includes serving as the president of the VMI Foundation from 2000 to 2002 and as a member of the VMI Board of Visitors from 2004 to 2012. He has served on the Jackson-Hope Fund’s Board of Overseers from 2002 to the present. </p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore"> Conrad M. Hall ’65 – Vice Chairman </a>
+         <div class="more">
+          <p><strong>Conrad M. Hall ’65 – Vice Chairman </strong></p>
+          <p>Currently, the Managing Director of Jamestown Capital, LLC and, formerly, the president and CEO of Dominion Enterprises, a leading media and marketing information services company, Mr. Hall has actively supported VMI for many years.&nbsp; </p>
+          <p>He was a trustee of the VMI Foundation from 1996 to 2004, and, from 2002 to 2004, the Foundation’s president.&nbsp; He rejoined the Foundation’s Board of Trustees in 2008, and he was the chairman of the VMI Investment Committee from 2008 to 2009.&nbsp; </p>
+          <p>From 2009 to 2010, he was the chairman of VMI Investments, LLC. He was appointed to the Institute’s Board of Visitors in 2014.</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">John P. Jumper’66</a>
+         <div class="more">
+          <p><strong>John P. Jumper’66</strong></p>
+          <p>General Jumper served in the U.S. Air Force for 39 years, closing his career as its 17th Chief of Staff from 2001 to 2005.&nbsp; While in the Air Force, he often returned to Post, acting as the Air Force commissioning officer several times and speaking on numerous occasions, including the 2001 Institute Society Dinner. Joining the VMI Foundation’s Board of Trustees in 2008, he was appointed to the Institute’s Board of Visitors in 2009. &nbsp; </p>
+          <p> He is the former Chairman of the Board and Chief Executive Officer of Leidos, a Fortune 500 science and technology company, and serves on the boards of numerous corporations and non-profit organizations.</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">William A. (Bill) Paulette ’69 </a>
+         <div class="more">
+          <p><strong>William A. (Bill) Paulette ’69</strong></p>
+          <p>Mr. Paulette is the founder and president of KBS, Inc., the largest locally owned construction firm in Central Virginia. He was a member of the VMI Board of Visitors from 2002 to 2010, and he served as one of the Board’s three vice presidents from 2008 to 2010. A strong supporter of VMI athletics, he has devoted many years to the VMI Keydet Club. </p>
+          <p>He served on its board from 1990 to 2002; he rejoined the Keydet Club after leaving the Board of Visitors and now is the organization’s president.</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Walter C. Perrin II '62</a>
+         <div class="more">
+          <p><strong>Walter C. Perrin II ’62</strong></p>
+          <p>Like his father, David B. Perrin ’25, Mr. Perrin is strongly devoted to VMI. He was on the Foundation’s Board of Trustees from 1997 to 2005, service that included a stint as a vice president from 2003 to 2005. He returned to the Board of Trustees in July 2006, and his fellow trustees elected him as president in 2008, a position in which he served for three years.&nbsp; </p>
+          <p>He is a retired senior vice president for Atlanta, Georgia-based McKesson, a national healthcare supply distribution and technology company, and he is involved with alumni activities in the Atlanta area.</p>
+         </div>
+        </div>
+        <div>
+         <a href="#" class="readMore">Thomas G. Slater, Jr. ’66</a>
+         <div class="more">
+          <p><strong>Thomas G. Slater, Jr. ’66</strong></p>
+          <p>A partner in the Richmond, Virginia-based law firm, Hunton &amp; Williams, Mr. Slater has a long record of service to VMI. A member of the Richmond chapter of the VMI Alumni Association since 1969, he was its president from 1978 to 1979. He was on the board of the VMI Alumni Association from 1975 to 1987 and its president from 1985 to 1987. Joining the VMI Foundation’s board in 1991, he was the organization’s president from 1996 to 1998. </p>
+          <p>He was a member of the Executive Committee of VMI’s previous capital campaign, <em>Reveille: A Call to Excel</em>. </p>
+          <p>In 2003, he joined the Institute’s Board of Visitors, and he served as its president from 2008 to 2011.&nbsp; Mr. Slater received the Distinguished Service Award from the VMI Foundation in 2012.</p>
+         </div>
+        </div>
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>CAMPAIGN RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a href="/Campaign/10737430615/" title="Video Gallery">Video</a> | <a href="/Campaign/10737430813/" title="Campaign Cabinet">Campaign Cabinet</a> | <a title="About Giving" href="/Campaign/10737430174/">Policies</a><br><a href="http://www.vmi.edu" title="VMI" target="_blank">VMI</a> |&nbsp; <a href="/Content.aspx?id=10737426716" title="Foundation" target="_blank">Foundation</a> | <a href="http://www.vmialumni.org/" title="Alumni" target="_blank">Alumni</a>&nbsp; | <a href="http://vmi.edu/keydetclub" title="Keydet Club" target="_blank">Keydet Club</a> <br><br></p> 
+      <p style="text-align: right;"><strong>UNCOMMON PURPOSE</strong> &nbsp;</p> 
+      <p align="right">In 1839, VMI set an uncommon course: to prepare young people for lives of service, leadership, and character. VMI cadets learn – through a rigorous military system, a demanding academic curriculum, and a robust athletic program. They leave VMI prepared to lead lives of strength, honor, and integrity – to serve their country and their communities as citizen-soldiers, in times of peace and in times of deepest peril.<br></p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <strong>THE CAMPAIGN FOR VMI</strong>
+      <br>
+      <p align="left">Neikirk Hall | 304 Letcher Avenue<br> P.O. Box 932 | Lexington, VA 24450</p> 
+      <p align="left">P: 800-444-1839 | 540-464-7287<br> F: 540-464-4545<br><a href="mailto:give@vmiaa.org">give@vmiaa.org</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a target="_blank" href="/rss/folder/905/"><img title="News Feed" alt="News Feed" src="/uploadedImages/Images/icons/rss.png?n=8698"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img title="Facebook" alt="facebook" src="/uploadedImages/Images/icons/facebook.png?n=3457"></a> &nbsp;
+        <a target="_blank" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" title="VMI You Tube Channel"><img border="0" title="VMI You Tube Channel" alt="VMI You Tube Channel" src="/uploadedImages/Images/icons/youtube.png?n=7302"></a>&nbsp;
+        <a target="_blank" title="Instagram" href="http://instagram.com/virginia_military_institute#"><img border="0" src="/uploadedImages/Images/icons/instagram-flat.png" alt="Instagram" title="Instagram"></a>&nbsp;
+        <a target="_blank" href="https://twitter.com/vminews/" title="twitter"> <img title="Twitter" alt="Twitter" src="/uploadedImages/Images/icons/twitter.png?n=68"></a> &nbsp;
+        <a href="http://vminews.tumblr.com" title="tumblr" target="_blank"><img border="0" title="tumblr" alt="tumblr" src="/uploadedImages/Images/icons/tumblr.png?n=834"></a> &nbsp;
+        <a href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title" title="linkedin" target="_blank"><img title="Linkedin" alt="Linkedin" src="/uploadedImages/Images/icons/linkedin.png"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.net/onr7aum.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

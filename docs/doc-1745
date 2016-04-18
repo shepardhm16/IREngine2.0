@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en-US" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:addthis="http://www.addthis.com/help/api-spec" class="no-js">
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Virginia Military Institute ePortfolio | Designing ePortfolio Assignments for Your Courses</title> 
+  <link rel="profile" href="http://gmpg.org/xfn/11"> 
+  <link rel="pingback" href="http://sites.vmi.edu/xmlrpc.php"> 
+  <link rel="alternate" type="application/rss+xml" title="Virginia Military Institute ePortfolio » Feed" href="http://sites.vmi.edu/feed/"> 
+  <link rel="alternate" type="application/rss+xml" title="Virginia Military Institute ePortfolio » Comments Feed" href="http://sites.vmi.edu/comments/feed/"> 
+  <link rel="alternate" type="application/rss+xml" title="Virginia Military Institute ePortfolio » Designing ePortfolio Assignments for Your Courses Comments Feed" href="http://sites.vmi.edu/designing-eportfolio-assignments-for-your-courses/feed/"> 
+  <script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/sites.vmi.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script> 
+  <style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style> 
+  <link rel="stylesheet" id="open-sans-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&amp;subset=latin%2Clatin-ext&amp;ver=4.4.2" type="text/css" media="all"> 
+  <link rel="stylesheet" id="dashicons-css" href="http://sites.vmi.edu/wp-includes/css/dashicons.min.css?ver=4.4.2" type="text/css" media="all"> 
+  <link rel="stylesheet" id="admin-bar-css" href="http://sites.vmi.edu/wp-includes/css/admin-bar.min.css?ver=4.4.2" type="text/css" media="all"> 
+  <link rel="stylesheet" id="campus-public-styles-css" href="http://sites.vmi.edu/wp-content/mu-plugins/campus-files/css/campus-public.css?ver=8" type="text/css" media="all"> 
+  <link rel="stylesheet" id="wdcab-admin-bar-css" href="http://sites.vmi.edu/wp-content/mu-plugins/campus-files/plugins-mods/ultimate-branding/assets/admin-bar-public.css?ver=20150323" type="text/css" media="all"> 
+  <link rel="stylesheet" id="dd-formailer-css" href="http://sites.vmi.edu/wp-content/plugins/dd-formmailer/dd-formmailer.css?ver=4.4.2" type="text/css" media="all"> 
+  <link rel="stylesheet" id="live-stream-style-css" href="http://sites.vmi.edu/wp-content/plugins/live-stream-widget/css/live-stream-style.css?ver=4.4.2" type="text/css" media="all"> 
+  <link rel="stylesheet" id="magazino_style-css" href="http://sites.vmi.edu/wp-content/themes/magazino/style.css?ver=4.4.2" type="text/css" media="all"> 
+  <link rel="stylesheet" id="subscribe-by-email-widget-css-css" href="http://sites.vmi.edu/wp-content/mu-plugins/subscribe-by-email/assets/css/widget.css?ver=20131002" type="text/css" media="all"> 
+  <script type="text/javascript" src="http://sites.vmi.edu/wp-includes/js/jquery/jquery.js?ver=1.11.3"></script> 
+  <script type="text/javascript" src="http://sites.vmi.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var live_stream_data = {"ajaxurl":"http:\/\/sites.vmi.edu\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="http://sites.vmi.edu/wp-content/plugins/live-stream-widget/js/live-stream.js?ver=4.4.2"></script> 
+  <script type="text/javascript" src="http://sites.vmi.edu/wp-content/themes/magazino/library/js/modernizr-2.6.2.min.js?ver=2.6.2"></script> 
+  <script type="text/javascript" src="http://sites.vmi.edu/wp-content/themes/magazino/library/js/jquery.cycle2.min.js?ver=20130202"></script> 
+  <script type="text/javascript" src="http://sites.vmi.edu/wp-content/themes/magazino/library/js/jquery.cycle2.tile.min.js?ver=20121120"></script> 
+  <script type="text/javascript" src="http://sites.vmi.edu/wp-content/themes/magazino/library/js/jquery.cycle2.scrollVert.min.js?ver=20121120"></script> 
+  <script type="text/javascript" src="http://sites.vmi.edu/wp-content/themes/magazino/library/js/scripts.js?ver=1.0.0"></script> 
+  <link rel="https://api.w.org/" href="http://sites.vmi.edu/wp-json/"> 
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://sites.vmi.edu/xmlrpc.php?rsd"> 
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://sites.vmi.edu/wp-includes/wlwmanifest.xml"> 
+  <meta name="generator" content="Virginia Military Institute ePortfolio"> 
+  <link rel="canonical" href="http://sites.vmi.edu/designing-eportfolio-assignments-for-your-courses/"> 
+  <link rel="shortlink" href="http://sites.vmi.edu/?p=318"> 
+  <link rel="alternate" type="application/json+oembed" href="http://sites.vmi.edu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsites.vmi.edu%2Fdesigning-eportfolio-assignments-for-your-courses%2F"> 
+  <link rel="alternate" type="text/xml+oembed" href="http://sites.vmi.edu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsites.vmi.edu%2Fdesigning-eportfolio-assignments-for-your-courses%2F&amp;format=xml"> 
+  <script type="text/javascript">
+				var _gaq = _gaq || [];
+
+				
+									_gaq.push(['b._setAccount', '4/Lmiql-WFRQKFqwor3W58Q53yQ5BOk_bIem7nlYtYxG4']);
+                    					_gaq.push(['b._trackPageview']);
+				
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			</script> 
+  <style type="text/css">
+            .ead-document{ position:relative;}
+            .ead-private{ position:absolute; width: 100%; height: 100%; left:0; top:0; background:rgba(248,237,235,0.8); text-align: center;}
+            .ead-lock{ display: inline-block; vertical-align: middle;max-width: 98%;}
+            .ead-dummy{ display: inline-block; vertical-align: middle; height:100%; width: 1px;}
+        </style>
+  <style id="simpler-css-style" type="text/css">
+</style>
+  <!-- end of custom css --> 
+  <script type="text/javascript">if ( window._agmMaps === undefined ) { _agmMaps = []; }</script>
+  <link rel="shortcut icon" href="https://s3-external-1.amazonaws.com/files.campus.edublogs.org/sites.vmi.edu/dist/favicon/favicon.png"> 
+  <style>
+		a, a:visited,
+		#site-title a,
+		nav[role=navigation] .menu ul li a:hover,
+		nav[role=navigation] .menu ul li.current-menu-item a, 
+		.nav ul li.current_page_item a, 
+		nav[role=navigation] .menu ul li.current_page_item a,
+		#sidebar .widget-title,
+		.slides .slide-title,
+		.commentlist .vcard cite.fn a,
+		.commentlist .comment-meta a:hover,
+		.post_content ul li:before,
+		.post_content ol li:before,
+		.colortxt,
+		.commentlist .bypostauthor > article > footer > .vcard cite.fn,
+		.cycle-pager span.cycle-pager-active { 
+			color: #df2a26;
+		}
+		
+		#container,
+		#sidebar {
+			border-top: 2px solid #df2a26;
+		}
+		
+		#search-box-wrap,
+		#social-media a,
+		#search-icon,
+		.go-button a,
+		.go-button a:visited,
+		.grnbar,
+		.pagination a:hover,
+		.pagination .current,
+		#respond #submit {
+			background-color: #df2a26;
+		}
+		
+		.post_content pre { 
+			border-left-color: #df2a26;
+		}
+	</style> 
+  <style type="text/css">
+        #wp-admin-bar-msreader-follow {width: 100px;}
+        #wp-admin-bar-msreader-follow .hover-text {display:none;}
+        #wp-admin-bar-msreader-follow:hover .hover-text {display:inline;}
+        #wp-admin-bar-msreader-follow:hover .current-text {display:none;}
+        #wp-admin-bar-msreader-follow .ab-item .ab-icon:before {content: "\f487"; top: 2px;}
+        #wp-admin-bar-msreader-follow.following .ab-item .ab-icon:before {color: #d54e21;}
+        #wp-admin-bar-msreader-follow.following:hover .ab-item .ab-icon:before {color: #999;}
+        #wp-admin-bar-msreader-follow.following:hover .ab-item {color: #999 !important;}</style>
+  <style type="text/css">
+/* <![CDATA[ */
+img.latex { vertical-align: middle; border: none; }
+/* ]]> */
+</style> 
+  <style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #000000; }
+</style> 
+  <style type="text/css" media="print">#wpadminbar { display:none; }</style> 
+  <style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style> 
+ </head> 
+ <body class="page page-id-318 page-template-default admin-bar no-customize-support custom-background single-author"> 
+  <div id="container"> 
+   <div id="search-box-wrap"> 
+    <div id="search-box"> 
+     <div id="close-x">
+      x
+     </div> 
+     <form role="search" method="get" id="searchform" class="searchform" action="http://sites.vmi.edu/"> 
+      <div> 
+       <label class="screen-reader-text" for="s">Search for:</label> 
+       <input type="text" value="" name="s" id="s"> 
+       <input type="submit" id="searchsubmit" value="Search"> 
+      </div> 
+     </form> 
+    </div> 
+   </div> 
+   <header id="branding" role="banner"> 
+    <div id="inner-header" class="clearfix"> 
+     <div id="site-heading"> 
+      <div id="site-logo">
+       <a href="http://sites.vmi.edu/" title="Virginia Military Institute ePortfolio" rel="home"><img src="http://sites.vmi.edu/files/2013/05/eportfolio-ncuelb.png" alt="Virginia Military Institute ePortfolio"></a>
+      </div> 
+     </div> 
+     <div id="social-media" class="clearfix"> 
+      <div id="search-icon"></div> 
+     </div> 
+    </div> 
+    <nav id="access" class="clearfix" role="navigation"> 
+     <h1 class="assistive-text section-heading">Main menu</h1> 
+     <div class="skip-link screen-reader-text">
+      <a href="#content" title="Skip to content">Skip to content</a>
+     </div> 
+     <div class="menu">
+      <ul id="menu-updated-menu-2014-2015" class="menu">
+       <li id="menu-item-261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-261"><a href="http://sites.vmi.edu/wp-login.php">Login</a></li> 
+       <li id="menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-256"><a href="#">Cadets</a> 
+        <ul class="sub-menu"> 
+         <li id="menu-item-602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-602"><a href="http://sites.vmi.edu/creating-a-menu/">Creating A Menu</a></li> 
+         <li id="menu-item-609" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-609"><a href="http://sites.vmi.edu/posts-versus-pages/">Posts vs. Pages</a></li> 
+         <li id="menu-item-477" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-477"><a href="http://sites.vmi.edu/inserting-media/">Inserting Media</a></li> 
+         <li id="menu-item-616" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-616"><a href="http://sites.vmi.edu/embedding-a-document/">Embedding a Document</a></li> 
+         <li id="menu-item-475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475"><a href="http://sites.vmi.edu/using-comments/">Using Comments</a></li> 
+         <li id="menu-item-476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-476"><a href="http://sites.vmi.edu/exporting-your-blog-after-you-graduate/">Exporting Your Blog After You Graduate</a></li> 
+         <li id="menu-item-624" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-624"><a href="http://sites.vmi.edu/english-major-showcase/">English Major Showcase</a></li> 
+        </ul> </li> 
+       <li id="menu-item-257" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-257"><a href="#">Faculty</a> 
+        <ul class="sub-menu"> 
+         <li id="menu-item-306" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-306"><a href="#">Get Started</a> 
+          <ul class="sub-menu"> 
+           <li id="menu-item-298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-298"><a href="http://sites.vmi.edu/logging-in-and-understanding-dashboard/">Logging In and Understanding Dashboard</a></li> 
+           <li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="http://sites.vmi.edu/setting-up-your-eportfolio-and-its-front-page/">Setting Up Your ePortfolio and Its Front Page</a></li> 
+           <li id="menu-item-295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-295"><a href="http://sites.vmi.edu/creating-menus/">Creating Menus</a></li> 
+           <li id="menu-item-307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-307"><a href="http://sites.vmi.edu/creating-pages/">Creating Pages</a></li> 
+           <li id="menu-item-302" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-302"><a href="http://sites.vmi.edu/using-posts/">Using Posts</a></li> 
+           <li id="menu-item-293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-293"><a href="http://sites.vmi.edu/adding-multimedia/">Adding Multimedia</a></li> 
+           <li id="menu-item-615" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-615"><a href="http://sites.vmi.edu/embedding-a-document/">Embedding a Document</a></li> 
+           <li id="menu-item-294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-294"><a href="http://sites.vmi.edu/converting-presentations-and-embedding-video/">Converting Presentations and Embedding Video</a></li> 
+           <li id="menu-item-301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-301"><a href="http://sites.vmi.edu/using-links/">Using Links</a></li> 
+           <li id="menu-item-300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-300"><a href="http://sites.vmi.edu/understanding-and-using-the-comments-feature/">Understanding and Using the Comments Feature</a></li> 
+           <li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="http://sites.vmi.edu/using-widgets-and-plugins/">Using Widgets and Plugins</a></li> 
+           <li id="menu-item-297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-297"><a href="http://sites.vmi.edu/exporting-your-eportfolio/">Exporting Your ePortfolio</a></li> 
+          </ul> </li> 
+         <li id="menu-item-304" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-304"><a href="#">Pedagogical Resources</a> 
+          <ul class="sub-menu"> 
+           <li id="menu-item-325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325"><a href="http://sites.vmi.edu/reasons-to-use-eportfolio-in-your-courses/">Reasons to Use ePortfolio in Your Courses</a></li> 
+           <li id="menu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-318 current_page_item menu-item-324"><a href="http://sites.vmi.edu/designing-eportfolio-assignments-for-your-courses/">Designing ePortfolio Assignments for Your Courses</a></li> 
+           <li id="menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-322"><a href="http://sites.vmi.edu/research/">Report to the Inter/National Coalition for Electronic Portfolio Research</a></li> 
+           <li id="menu-item-492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-492"><a href="http://sites.vmi.edu/research-about-and-resources-for-eportfolio/">Research About and Resources for ePortfolio</a></li> 
+          </ul> </li> 
+        </ul> </li> 
+       <li id="menu-item-259" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-259"><a href="https://vmi.mywconline.com/">See a Tutor</a></li> 
+       <li id="menu-item-485" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a href="http://sites.vmi.edu/gallery/">Gallery</a></li> 
+       <li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-260"><a href="http://sites.vmi.edu/about-page/">About Us</a> 
+        <ul class="sub-menu"> 
+         <li id="menu-item-639" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-639"><a href="http://sites.vmi.edu/blog/2016/02/01/see-what-the-writing-center-is-doing-this-spring/">See what the Writing Center is doing this Spring!</a></li> 
+        </ul> </li> 
+      </ul>
+     </div> 
+    </nav>
+    <!-- #access --> 
+   </header>
+   <!-- #branding --> 
+   <div id="content" class="clearfix"> 
+    <div id="main" class="clearfix" role="main"> 
+     <article id="post-318" class="post-318 page type-page status-publish hentry"> 
+      <header class="entry-header"> 
+       <h1 class="entry-title">Designing ePortfolio Assignments for Your Courses</h1> 
+      </header>
+      <!-- .entry-header --> 
+      <div class="entry-content post_content"> 
+       <!-- AddThis Button Begin --> 
+       <script type="text/javascript">var addthis_product = 'wpp-262';
+var addthis_config = {"data_track_clickback":false,"data_track_addressbar":false};if (typeof(addthis_share) == "undefined"){ addthis_share = [];}</script>
+       <script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js#pubid=wp-5710307c07f39035"></script>
+       <div class="ead-document">
+        <iframe src="//docs.google.com/viewer?url=http%3A%2F%2Fsites.vmi.edu%2Ffiles%2F2014%2F12%2FFaculty-ePortfolio-Pedagogical-Guide-2-Four-tips-for-designing-effective-ePortfolio-assignments-2lereak.pdf&amp;embedded=true&amp;hl=en" style="width:100%; height:500px; border: none;"></iframe>
+        <p class="embed_download"><a href="http://sites.vmi.edu/files/2014/12/Faculty-ePortfolio-Pedagogical-Guide-2-Four-tips-for-designing-effective-ePortfolio-assignments-2lereak.pdf" download>Download [159.29 KB] </a></p>
+       </div> 
+      </div>
+      <!-- .entry-content --> 
+     </article>
+     <!-- #post-318 --> 
+    </div> 
+    <!-- end #main --> 
+    <div class="clearfix"></div> 
+    <div id="sidebar" class="widget-area clearfix" role="complementary"> 
+     <aside id="text-4" class="widget widget_text"> 
+      <div class="textwidget"> 
+      </div> 
+     </aside>
+     <aside id="text-6" class="widget widget_text"> 
+      <div class="textwidget"></div> 
+     </aside> 
+    </div>
+    <!-- #sidebar .widget-area --> 
+   </div> 
+   <!-- end #content --> 
+   <footer id="colophon" role="contentinfo"> 
+    <div id="site-generator">
+      © Virginia Military Institute ePortfolio 
+    </div> 
+   </footer>
+   <!-- #colophon --> 
+  </div>
+  <!-- #container --> 
+  <script type="text/javascript">
+	jQuery(document).ready(function() {
+	    jQuery('input[name=url]').attr('disabled', 'disabled')
+		.val('Not required');
+	});
+	</script> 
+  <!-- AddThis Button Begin --> 
+  <script type="text/javascript">var addthis_product = 'wpp-262';
+var addthis_config = {"data_track_clickback":false,"data_track_addressbar":false};if (typeof(addthis_share) == "undefined"){ addthis_share = [];}</script>
+  <script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js#pubid=wp-5710307c2e8c7fcd"></script>
+  <style type="text/css">
+        .wmd-buttons-button,
+        .wmd-buttons-content {
+            display: inline-block;
+        }
+        .wmd-buttons-button {
+            text-decoration:none !important;
+            cursor:pointer;
+            position: relative;
+            text-decoration: none;
+            letter-spacing:1px;
+            margin:5px;
+        }
+        .wmd-buttons-button:hover {
+            opacity:0.8;
+            -moz-opacity: 0.8;
+            -khtml-opacity: 0.8;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+            filter: alpha(opacity=80);
+        }        
+        </style>
+  <script type="text/javascript" src="http://sites.vmi.edu/wp-includes/js/admin-bar.min.js?ver=4.4.2"></script> 
+  <script type="text/javascript" src="http://sites.vmi.edu/wp-content/mu-plugins/lean-captcha/js/howler.min.js?ver=2015102605"></script> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var lean_captcha_object = {"ajax_url":"http:\/\/sites.vmi.edu\/wp-content\/mu-plugins\/lean-captcha\/lc_ep.php","key":"lc_5710307c697c4"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="http://sites.vmi.edu/wp-content/mu-plugins/lean-captcha/js/lean-captcha.js?ver=2016021001"></script> 
+  <script type="text/javascript" src="http://sites.vmi.edu/wp-includes/js/wp-embed.min.js?ver=4.4.2"></script> 
+  <div id="wpadminbar" class="nojq nojs"> 
+   <a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a> 
+   <div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar" tabindex="0"> 
+    <ul id="wp-admin-bar-root-default" class="ab-top-menu"> 
+     <li id="wp-admin-bar-wdcab_root" class="menupop">
+      <div class="ab-item ab-empty-item" aria-haspopup="true">
+       VMI ePortfolio
+      </div>
+      <div class="ab-sub-wrapper">
+       <ul id="wp-admin-bar-wdcab_root_group" class="ab-submenu"> 
+        <li id="wp-admin-bar-wdcab_network-home"><a class="ab-item" href="http://sites.vmi.edu/">Network Home</a> </li> 
+        <li id="wp-admin-bar-wdcab_help-and-support"><a class="ab-item" href="http://help.edublogs.org">Help and Support</a> </li> 
+        <li id="wp-admin-bar-wdcab_the-edublogger"><a class="ab-item" href="http://theedublogger.com">The Edublogger</a> </li> 
+        <li id="wp-admin-bar-wdcab_community"><a class="ab-item" href="http://edublogs.org/community">Community</a> </li>
+       </ul>
+      </div> </li> 
+     <li id="wp-admin-bar-abm-login" class="login-bid-1"><a class="ab-item" href="http://sites.vmi.edu/wp-login.php?redirect_to=http%3A%2F%2Fsites.vmi.edu%2Fdesigning-eportfolio-assignments-for-your-courses">Log In</a> </li>
+    </ul>
+    <ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu"> 
+     <li id="wp-admin-bar-search" class="admin-bar-search">
+      <div class="ab-item ab-empty-item" tabindex="-1">
+       <form action="http://sites.vmi.edu/" method="get" id="adminbarsearch">
+        <input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150">
+        <label for="adminbar-search" class="screen-reader-text">Search</label>
+        <input type="submit" class="adminbar-button" value="Search">
+       </form>
+      </div> </li>
+    </ul> 
+   </div> 
+  </div>  
+ </body>
+</html>

@@ -1,0 +1,863 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	Offices Directory
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="offices, directory">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=19187" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BQx0aHJlZS1jb2x1bW5kAgkPDxYCHgtOYXZpZ2F0ZVVybAUBL2QWAmYPDxYCHghJbWFnZVVybAUdL2NvcmUvaW1hZ2VzL2NvbnRlbnQvbG9nby5qcGdkZAILD2QWAmYPZBYCZg9kFgQCAQ8PFgQeCENzc0NsYXNzBQxzZWFyY2gtaW5wdXQeBF8hU0ICAhYEHgdvbkZvY3VzBYYBaWYodGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVQaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7dGhpcy52YWx1ZT0nc2VhcmNoIHZtaS5lZHUnO31kAgMPEA9kFgIeBXN0eWxlBQxkaXNwbGF5Om5vbmUQFQEDVk1JFQEDVk1JFCsDAWdkZAIPDw8WAh4HVmlzaWJsZWhkZAITD2QWCAIBDw8WAh8IZ2RkAgMPDxYCHwhoZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfCGcWAgIBDw8WAh8CBSgvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvYWJvdXQuanBnZGQCCQ8PFgIfCGdkZGQ9Lg+lw/kPuN1qNJSo9jJtRxj71WTKvHrt9YzPFQ+0rA=="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAASV1W9ze0kFQVDqk9CeBPCNg7Z1sS2zTNHf3/IxWgcxRFSOGbegovGRRqrbhyvyJGWQuO5O7PDGe2zLg4RZuxgs3Aindi4O4WHz/wu8lqV80bbJxRYyeFNknwchFa0UtA4="> 
+   </div> 
+   <div id="container" class="three-column"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Content.aspx?id=4294974444" target="_self">About Us</a></li>
+        <li><a href="/Content.aspx?id=4294974223" target="_self">Museums &amp; Culture</a></li>
+        <li><a href="/Content.aspx?id=10737423106" target="_self">For Visitors</a></li>
+        <li><a href="/Content.aspx?id=10737427308" target="_self">Resources</a></li>
+       </ul>
+       <div id="ctl00_pageContent_relatedLeft10737423126"> 
+        <address><p>Students and their families are encouraged to use a variety of information sources to select a college and major. The State Council of Higher Education for Virginia (SCHEV) provides one such source that is available <strong><a href="http://research.schev.edu/iprofile.asp?UID=234085">here</a></strong>.</p></address>
+        <hr>
+        <h3>VMI News Stories</h3>
+        <ul class="news-menu vlist">
+         <li><a href="/Content.aspx?id=10737433997">TAPS – Frank G. Louthan</a></li>
+         <li><a href="/Content.aspx?id=10737433985">Political Risk Author</a></li>
+         <li><a href="/Content.aspx?id=10737433981">Spring FTX</a></li>
+         <li><a href="/Content.aspx?id=10737433968">At Environment Virginia</a></li>
+         <li><a href="/Content.aspx?id=10737433939">Jackson Symposium</a></li>
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/about.jpg" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Offices Directory</h1> 
+       <p>General Information: 540-464-7230<br>All numbers are prefixed with 464 unless&nbsp;otherwise noted.</p> 
+       <table cellspacing="0" cellpadding="5" border="1" style="width: 100%;"> 
+        <tbody> 
+         <tr> 
+          <td><strong>Department</strong></td> 
+          <td><strong>Telephone</strong></td> 
+         </tr> 
+         <tr> 
+          <td><a title="Academic Advising for NCAA Athletes" href="http://www.vmikeydets.com/ViewArticle.dbml?DB_OEM_ID=9800&amp;ATCLID=1357223" target="_blank"><strong>Academic Advising for NCAA Athletes</strong></a></td> 
+          <td>7722</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Admissions" href="http://admissions.vmi.edu" target="_blank"><strong>Admissions</strong></a></td> 
+          <td>7211</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Air Force 		ROTC" href="http://www.vmi.edu/Content.aspx?id=82&amp;libID=104" target="_blank"><strong>Air Force ROTC</strong></a></td> 
+          <td>7354</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Alumni" href="http://www.vmialumni.org/" target="_blank"><strong> Alumni</strong></a></td> 
+          <td>7221</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Archives" href="http://www.vmi.edu/archives/home/" target="_blank"><strong> Archives</strong></a></td> 
+          <td>7566</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Armory" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Auxiliary_Services/Armory/" target="_blank"><strong> Armory</strong></a></td> 
+          <td>7305</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Army ROTC" href="http://www.vmi.edu/Content.aspx?id=84&amp;libID=106" target="_blank"><strong> Army ROTC</strong></a></td> 
+          <td>7351</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Athletics" href="http://www.vmikeydets.com/" target="_blank"><strong> Athletics</strong></a></td> 
+          <td>&nbsp;</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Director</td> 
+          <td>7251</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Baseball</td> 
+          <td>7609</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Basketball</td> 
+          <td>7384</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Equipment Room</td> 
+          <td>7444</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Football</td> 
+          <td>7264</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Lacrosse</td> 
+          <td>7512</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Rifle Range-Indoor</td> 
+          <td>7262</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Soccer-Men</td> 
+          <td>7611</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Soccer-Women</td> 
+          <td>7608</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Sports Information</td> 
+          <td>7253</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Sports Marketing</td> 
+          <td>7430</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Sports Medicine</td> 
+          <td>7310</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Tickets</td> 
+          <td>7266</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Track</td> 
+          <td>7324</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Trainer-Cameron</td> 
+          <td>7356</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Trainer-Clarkson McKenna</td> 
+          <td>7612</td> 
+         </tr> 
+         <tr> 
+          <td>&nbsp;&nbsp;&nbsp;&nbsp; Wrestling</td> 
+          <td>7513</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Audio Visual" href="http://www.vmi.edu/content.aspx?tid=20389&amp;id=32197" target="_blank"><strong> Audio Visual</strong></a></td> 
+          <td>7567</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Auxiliary Services" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Auxiliary_Services/Auxiliary_Services/" target="_blank"><strong> Auxiliary Services</strong></a></td> 
+          <td>7096</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Regimental Band" href="http://www.vmi.edu/Content.aspx?id=280&amp;libID=300" target="_blank"><strong> Band Director</strong></a></td> 
+          <td>7646</td> 
+         </tr> 
+         <tr> 
+          <td><strong><a title="Biology Home" href="/Content.aspx?id=10737425148" target="_blank">Biology</a></strong></td> 
+          <td>7247</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Bookstore" href="http://vmi.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=35056&amp;catalogId=10001&amp;langId=-1" target="_blank"><strong> Bookstore</strong></a></td> 
+          <td>7637</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Cadet Develoment &amp;amp; Counseling" href="http://www.vmi.edu/Content.aspx?id=10737421908" target="_blank"><strong> Cadet Counseling</strong></a></td> 
+          <td>7667</td> 
+         </tr> 
+         <tr> 
+          <td>Cadet Information-Visitor Center</td> 
+          <td>7306</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Donny White, Director of Intercollegiate Athletics" href="http://www.vmi.edu/Content.aspx?id=14701&amp;libID=14623" target="_blank"><strong> Cameron Hall Director</strong></a></td> 
+          <td>7529</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Welcome to Career Services at VMI" href="http://www.vmi.edu/Career_Services/Home/" target="_blank"><strong> Career Services</strong></a></td> 
+          <td>7560</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Center for Leadership and Ethics" href="/Leadership_and_Ethics/" target="_blank"><strong>Center for Leadership &amp; Ethics</strong></a></td> 
+          <td>7361</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Institute Chaplain" href="http://www.vmi.edu/Content.aspx?id=362&amp;libID=382" target="_blank"><strong> Chaplain’s Office</strong></a></td> 
+          <td>7390</td> 
+         </tr> 
+         <tr> 
+          <td><strong><a title="Chemistry Home" href="/Content.aspx?id=10737425114" target="_blank">Chemistry</a></strong></td> 
+          <td>7244</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Chief of Staff Office" href="http://staging.vmi.edu/Administration/Chief_of_Staff/Colonel_James_P__Inman/" target="_blank"><strong>Chief of Staff</strong></a></td> 
+          <td>7104</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Civil Engineering Landing" href="/Content.aspx?id=10737425103" target="_blank"><strong>Civil&nbsp;&amp; Environmental Engr</strong></a></td> 
+          <td>7331</td> 
+         </tr> 
+         <tr> 
+          <td>Compliance Office</td> 
+          <td>7035</td> 
+         </tr> 
+         <tr> 
+          <td><strong><a title="Commandant" href="http://www.vmi.edu/Content.aspx?id=4441" target="_blank">Commandant</a></strong></td> 
+          <td>7313</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Communications &amp; Marketing Media" href="http://www.vmi.edu/Content.aspx?id=4294974518&amp;libID=4294974515" target="_blank"><strong> Communications &amp; Marketing</strong></a></td> 
+          <td>7207</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Comptroller's Office" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Comptrollers_Office/Comptroller_s_Office/" target="_blank"><strong> Comptroller</strong></a></td> 
+          <td>7270</td> 
+         </tr> 
+         <tr> 
+          <td colspan="1"><a title="Computer &amp;amp; Information Sciences" href="http://www.vmi.edu/cis/" target="_blank"><strong>Computer &amp; Information Sciences</strong></a></td> 
+          <td colspan="1">7858</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Construction &amp;amp; Maintenance" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Construction_Office/VMI_Construction_Home/" target="_blank"><strong>Construction &amp; Maintenance</strong></a></td> 
+          <td>7700</td> 
+         </tr> 
+         <tr> 
+          <td height="25"><a title="Dean of the Faculty" href="http://www.vmi.edu/Content.aspx?id=192&amp;libID=212" target="_blank"><strong> Dean of the Faculty</strong></a></td> 
+          <td height="25">7212</td> 
+         </tr> 
+         <tr> 
+          <td height="25"><a title="Deputy Commandant" href="http://www.vmi.edu/Content.aspx?id=10737423993&amp;libID=10737423989" target="_blank"><strong> Deputy Commandant</strong></a></td> 
+          <td height="25">7314</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Disabilities Services" href="/Disabilities_Services/Disabilities_Services/" target="_blank"><strong>Disabilities Services</strong></a></td> 
+          <td>7765</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Economics &amp; Business Home" href="/Content.aspx?id=10737429947" target="_blank"><strong>Economics&nbsp;&amp; Business</strong></a></td> 
+          <td>7234</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Electrical &amp; Computer Engineering" href="http://www.vmi.edu/Content.aspx?id=72&amp;libID=94" target="_blank"><strong> Electrical&nbsp;&amp; Computer Engr</strong></a></td> 
+          <td>7236</td> 
+         </tr> 
+         <tr> 
+          <td><a title="English &amp; Fine Arts" href="http://www.vmi.edu/Content.aspx?id=94&amp;libID=116" target="_blank"><strong> English, Rhetoric &amp; Humanistic Studies</strong></a></td> 
+          <td>7240</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Deputy Supt. for Finance, Administration &amp; Support" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Deputy_Supt__for_Finance,_Administration___Support/" target="_blank"><strong> Finance &amp; Administration</strong></a></td> 
+          <td>7321</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Financial Aid" href="http://www.vmi.edu/Content.aspx?id=222&amp;libID=242" target="_blank"><strong> Financial Aid</strong></a></td> 
+          <td>7208</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Foundation 3" href="http://www.vmi.edu/SubHome.aspx?id=10737424067&amp;libID=10737424063" target="_blank"><strong> Foundation</strong></a></td> 
+          <td>7287</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Glee Club" href="http://www.vmi.edu/Content.aspx?id=15939&amp;libID=15705" target="_blank"><strong> Glee Club Director</strong></a></td> 
+          <td>7359</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Physical Plant" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Physical_Plant/Physical_Plant/" target="_blank"><strong> Heating Plant</strong></a></td> 
+          <td>7316</td> 
+         </tr> 
+         <tr> 
+          <td><a title="History" href="http://www.vmi.edu/Content.aspx?id=96&amp;libID=118" target="_blank"><strong> History</strong></a></td> 
+          <td>7338</td> 
+         </tr> 
+         <tr> 
+          <td>Housekeeping</td> 
+          <td>7644</td> 
+         </tr> 
+         <tr> 
+          <td>Housekeeping-Barracks</td> 
+          <td>7370</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Human Resources" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Human_Resources/Human_Resources/" target="_blank"><strong> Human Resources</strong></a></td> 
+          <td>7322</td> 
+         </tr> 
+         <tr> 
+          <td><a title="VMI Infirmary" href="http://www.vmi.edu/Content.aspx?id=10737424720" target="_blank"><strong> Infirmary</strong></a></td> 
+          <td>7218</td> 
+         </tr> 
+         <tr> 
+          <td>Information &amp; Assistance</td> 
+          <td>7230</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Information Technology" href="http://www.vmi.edu/IT/" target="_blank"><strong> Information Technology</strong></a></td> 
+          <td>7341</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Information Technology" href="http://www.vmi.edu/IT/" target="_blank"><strong> IT&nbsp;Help Desk</strong></a></td> 
+          <td>7643</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Inspector General and Title IX Coordinator" href="http://www.vmi.edu/Administration/Inspector_General/Inspector_General_and_Title_IX_Coordinator/" target="_blank"><strong> Inspector General</strong></a></td> 
+          <td>7072</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Assessment &amp; Institutional Research" href="http://www.vmi.edu/Content.aspx?id=4294974350&amp;libID=4294974347" target="_blank"><strong> Institutional Research</strong></a></td> 
+          <td>7345</td> 
+         </tr> 
+         <tr> 
+          <td><a title="International Programs" href="http://www.vmi.edu/Content.aspx?id=4294969511&amp;libID=4294969508" target="_blank"><strong> International Programs</strong></a></td> 
+          <td>7421</td> 
+         </tr> 
+         <tr> 
+          <td><a title="International Studies &amp; Political Science" href="/Content.aspx?id=98" target="_blank"><strong>International Studies</strong></a></td> 
+          <td>7676</td> 
+         </tr> 
+         <tr> 
+          <td><a title="John A. Adams '71 Center for Military History" href="http://www.vmi.edu/content.aspx?id=4013&amp;libID=4049" target="_blank"><strong> Journal of Military History</strong></a></td> 
+          <td>463-3331</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Keydet Club Home" href="http://www.vmi.edu/keydetclub/" target="_blank"><strong> Keydet Club</strong></a></td> 
+          <td>7238</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Laundry" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Auxiliary_Services/Laundry/" target="_blank"><strong> Laundry</strong></a></td> 
+          <td>7235</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Preston Library Home Page" href="http://www.vmi.edu/Content.aspx?id=312&amp;libID=332" target="_blank"><strong> Library Preston</strong></a></td> 
+          <td>7228</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Marshall Foundation" href="http://www.marshallfoundation.org/" target="_blank"><strong> Marshall Foundation</strong></a></td> 
+          <td>463-7103</td> 
+         </tr> 
+         <tr> 
+          <td>Marshall Museum (shop)</td> 
+          <td>763-7103 ext 231</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Natural Science &amp; Mathematics" href="http://www.vmi.edu/Content.aspx?id=10737429727" target="_blank"><strong> Mathematics&nbsp;</strong></a></td> 
+          <td>7335</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Mechanical Engineering" href="http://www.vmi.edu/Content.aspx?id=74&amp;libID=96" target="_blank"><strong> Mechanical Engineering</strong></a></td> 
+          <td>7308</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Media Services-Library" href="http://www.vmi.edu/content.aspx?tid=20389&amp;id=32197" target="_blank"><strong>Media Services-Library</strong></a></td> 
+          <td>7567</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Mess Hall" href="http://www.campusdish.com/en-us/CSMA/VirginiaMilitaryInstitute" target="_blank"><strong> Mess Hall</strong></a></td> 
+          <td>7374</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Miller Academic Center" href="http://www.vmi.edu/Miller_Academic_Center/Home/" target="_blank"><strong> Miller Academic Center</strong></a></td> 
+          <td>7661</td> 
+         </tr> 
+         <tr> 
+          <td>Military Property Custodian</td> 
+          <td>7315</td> 
+         </tr> 
+         <tr> 
+          <td><a title="QMD" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Auxiliary_Services/QMD/" target="_blank"><strong> Military Store</strong></a></td> 
+          <td>7303</td> 
+         </tr> 
+         <tr> 
+          <td><a title="VMI Museum System" href="http://www.vmi.edu/MuseumSystem/" target="_blank"><strong> Museum</strong></a></td> 
+          <td>7334</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Naval ROTC" href="http://www.vmi.edu/Content.aspx?id=86&amp;libID=108" target="_blank"><strong> Naval ROTC</strong></a></td> 
+          <td>2775</td> 
+         </tr> 
+         <tr> 
+          <td>Officer in Charge (Quarters)</td> 
+          <td>7293</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Parents Council New" href="http://www.vmi.edu/Content.aspx?id=10737421509&amp;libID=10737421504" target="_blank"><strong> Parents Council</strong></a></td> 
+          <td>7072</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Physical Education" href="http://www.vmi.edu/Content.aspx?id=37101&amp;libID=35685" target="_blank"><strong> Physical Education</strong></a></td> 
+          <td>7317</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Physical Plant" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Physical_Plant/Physical_Plant/" target="_blank"><strong>Physical Plant</strong></a></td> 
+          <td>7357</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Physics &amp; Astronomy" href="http://www.vmi.edu/Content.aspx?id=110&amp;libID=132" target="_blank"><strong> Physics&nbsp;&amp; Astronomy</strong></a></td> 
+          <td>7225</td> 
+         </tr> 
+         <tr> 
+          <td><a title="VMI Pipe Band" href="http://www.vmi.edu/Content.aspx?id=282&amp;libID=302" target="_blank"><strong> Pipe Band</strong></a></td> 
+          <td>7231</td> 
+         </tr> 
+         <tr> 
+          <td><a title="VMI Police" href="http://www.vmi.edu/Administration/VMI_Police/VMI_Police/" target="_blank"><strong> Police</strong></a></td> 
+          <td>7017</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Mail Services" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Auxiliary_Services/Mail_Services/" target="_blank"><strong> Postal Services</strong></a></td> 
+          <td>7745</td> 
+         </tr> 
+         <tr> 
+          <td colspan="1"><a title="Procurement Services" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Comptrollers_Office/Purchasing/Purchasing/" target="_blank"><strong> Procurement Services</strong></a> </td> 
+          <td colspan="1">7323</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Protocol Home" href="http://www.vmi.edu/Content.aspx?id=11445&amp;libID=11465" target="_blank"><strong> Protocol</strong></a></td> 
+          <td>7784</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Psychology" href="/Content.aspx?id=90" target="_blank"><strong>Psychology</strong></a></td> 
+          <td>7194</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Publications" href="http://www.vmi.edu/Content.aspx?id=4353" target="_blank"><strong>Publications</strong></a></td> 
+          <td>7272</td> 
+         </tr> 
+         <tr> 
+          <td>PX - Food Court</td> 
+          <td>7681</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Registrar" href="http://www.vmi.edu/Content.aspx?id=196&amp;libID=218" target="_blank"><strong> Registrar</strong></a></td> 
+          <td>7213</td> 
+         </tr> 
+         <tr> 
+          <td height="25"><a title="Research Laboratories" href="http://www.vmi.edu/Content.aspx?id=10737420186" target="_blank"><strong>Research Laboratories</strong></a></td> 
+          <td height="25">7247</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Reunion &amp;amp; Alumni Giving" href="http://www.vmialumni.org/reunioncentral" target="_blank"><strong>Reunion &amp; Alumni Giving</strong></a></td> 
+          <td>7287</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Stonewall Jackson House" href="http://www.stonewalljackson.org/" target="_blank"><strong>Stonewall Jackson House</strong></a></td> 
+          <td>463-2552</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Student Accounting" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Comptrollers_Office/Student_Accounting/Student_Accounting/" target="_blank"><strong> Student Accounting</strong></a></td> 
+          <td>7217</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Summer Programs at VMI" href="http://www.vmi.edu/Content.aspx?id=35855&amp;libID=34477" target="_blank"><strong> Summer Session</strong></a></td> 
+          <td>7319</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Superintendent" href="http://www.vmi.edu/Administration/Superintendent/Welcome_from_the_Superintendent/" target="_blank"><strong> Superintendent</strong></a></td> 
+          <td>7311</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Tailor Shop" href="http://www.vmi.edu/Administration/Finance_Administration_Support/Auxiliary_Services/Tailorshop/" target="_blank"><strong>Tailor Shop</strong></a></td> 
+          <td>7782</td> 
+         </tr> 
+         <tr> 
+          <td><a title="The Leslie Gillis '29 Theatre" href="http://www.vmi.edu/Content.aspx?id=35967&amp;libID=34589" target="_blank"><strong> Theatre</strong></a></td> 
+          <td>7389</td> 
+         </tr> 
+         <tr> 
+          <td>Treasurer</td> 
+          <td>7215</td> 
+         </tr> 
+         <tr> 
+          <td>Turman House</td> 
+          <td>463-3465</td> 
+         </tr> 
+         <tr> 
+          <td>Turman House-Scholar's Quarters</td> 
+          <td>463-3699</td> 
+         </tr> 
+         <tr> 
+          <td><a title="VMI Research Laboratories" href="http://www.vmi.edu/content.aspx?id=142&amp;libID=164" target="_blank"><strong> Undergraduate Research</strong></a></td> 
+          <td>7031</td> 
+         </tr> 
+         <tr> 
+          <td>VMI Visitor Center/Guard Room</td> 
+          <td>7306</td> 
+         </tr> 
+         <tr> 
+          <td><a title="VMI Bomb&nbsp;(Yearbook)" href="http://www.vmi.edu/Content.aspx?id=10737424032" target="_blank"><strong> VMI Bomb&nbsp;(Yearbook)</strong></a></td> 
+          <td>7245</td> 
+         </tr> 
+         <tr> 
+          <td><a title="VMI Cadet (Newspaper)" href="http://www.vmi.edu/Content.aspx?id=10737424032" target="_blank"><strong> VMI Cadet (Newspaper)</strong></a></td> 
+          <td>7242</td> 
+         </tr> 
+         <tr> 
+          <td><a title="Writing Center" href="http://www.vmi.edu/Content.aspx?id=30509" target="_blank"><strong>Writing Center</strong></a></td> 
+          <td>7045</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </div> 
+      <div id="ctl00_pageContent_rightColumn"> 
+       <div id="content-2" class="column last"> 
+        <div id="ctl00_pageContent_relatedRight10737424208" class="mod"> 
+         <ul class="arrowlist"> 
+          <li><a title="Office Directory" href="/Content.aspx?id=19187&amp;libID=18639">Offices</a> &nbsp;</li> 
+          <li><a title="Departments" href="/content.aspx?id=450&amp;libID=470">Departments</a></li> 
+          <li><a title="Faculty &amp; Staff Search" href="/Content.aspx?id=448&amp;libID=468">Faculty &amp; Staff </a></li> 
+          <li><a title="Cadet Search" href="/content.aspx?id=446&amp;libID=466">Cadets&nbsp;</a> &nbsp;</li> 
+          <li><a title="Alumni Agencies" href="/content.aspx?id=452&amp;libID=472">Alumni Agencie</a><a title="A-Z Index" href="/content.aspx?id=316">s</a></li> 
+          <li><a title="A-Z Index" href="/content.aspx?id=316">A-Z Index</a><a title="Alumni Agencies" href="/content.aspx?id=452&amp;libID=472"></a></li> 
+          <li><a title="Forms Directory" href="/content.aspx?id=826&amp;libID=846">Forms </a></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

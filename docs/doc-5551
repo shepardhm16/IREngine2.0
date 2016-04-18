@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head> 
+  <meta name="keywords" content="">
+  <meta name="description" content=""> 
+  <title>Ashleigh Smythe - Education - Hamilton College</title> 
+  <link type="text/css" href="styles/personaltemplate1.css" rel="stylesheet" media="screen"> 
+  <link type="text/css" href="styles/jquery-ui-1.8.16.custom.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/formstyle.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/cluetip.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/page.css" rel="stylesheet" media="screen"> 
+  <link type="text/css" href="styles/jqModal.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/prettyPhoto.css" rel="stylesheet" media="all"> 
+  <script type="text/javascript" src="scripts/jquery/jquery.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/ui/1.8.4/js/jquery-ui-1.8.4.custom.min.js"></script> 
+  <script type="text/javascript" src="scripts/page.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jquery.cluetip.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqModal.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqDnR.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqForms.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jQuery.prettyPhoto.min.js"></script> 
+  <script type="text/javascript" src="scripts/modules/multimedia.js"></script> 
+ </head> 
+ <body id="student1body" class="generic"> 
+  <script language="JavaScript" type="text/javascript">
+			<!--
+			$(document).ready(function() {
+				bodyHeight();
+				$(window).resize(bodyHeight);
+			});
+			bodyHeight = function() {
+				if($('body').height() < $(window).height()) $('body').height($(window).height());
+			};
+		// -->
+		</script> 
+  <div id="siteStructure"> 
+   <div id="siteHeader" class="pagecolumn"> 
+    <div id="719673A6-D849-772B-78137E28B676BC7D" class="sm-area"> 
+     <div id="8D860A78-C769-1C89-FD535E95C7C73BAB" class="module full"> 
+      <div class="content module-style-0 " style="text-align:center;"> 
+       <div class="modulecontent"> 
+        <h2> &nbsp;</h2> 
+        <h2> Education</h2> 
+        <p> &nbsp;</p> 
+        <!-- Import jQuery and SimpleModal source files --> 
+        <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+        <div id="newwindow" class="jqmDialog"> 
+         <a href="#" class="jqmdX jqmClose"></a> 
+         <div class="jqmdTL jqDrag">
+          <h3 class="jqmdTC" id="newwindow_title"></h3>
+         </div> 
+         <div class="lowerWindow"> 
+          <div class="jqmdMSG" id="newwindow_content"> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="siteNav"> 
+    <div id="71967404-BD36-313B-FE27E841D8710FF9" class="sm-area"> 
+    </div> 
+   </div> 
+   <div id="pageContent"> 
+    <div id="left" class="pagecolumn"> 
+     <div id="71967440-E9D5-C21E-1BACA9C85CF22DD7" class="sm-area"> 
+      <div id="899C8388-C674-5109-89DE3ED9BAC3A1CD" class="module full"> 
+       <div class="content module-style-0 " style="text-align:center; margin-top:-80px;"> 
+        <div class="modulecontent"> 
+         <!-- insert menu here --> 
+         <h4 class="h4a"> &nbsp;</h4> 
+         <h4 class="h4a"> <a href="Default.asp">Home</a></h4> 
+         <h4 class="h4a"> <a href="news.asp">News</a></h4> 
+         <h4 class="h4a"> <a href="marine-nematode-research.asp">Marine Nematode Research</a></h4> 
+         <h4 class="h4a"> <a href="parasitology-research.asp">Parasitology Research</a></h4> 
+         <h4 class="h4a"> <a href="thesis-research.asp">Student Research</a></h4> 
+         <h4 class="h4a"> <a href="teaching.asp">Teaching</a></h4> 
+         <h4 class="h4a"> <a href="publications.asp">Publications</a></h4> 
+         <h4 class="h4a"> <a href="education2.asp">Education</a></h4> 
+         <h4 class="h4a"> <a href="http://www.vmi.edu/Content.aspx?id=10737425148&amp;libID=10737425142" target="_blank">VMI Biology</a><br> </h4> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="89D3F05D-D479-BA05-C7FFF9AA4CC6D675" class="module full"> 
+       <div class="content module-style-0 " style="text-align:center;"> 
+        <div class="modulecontent"> 
+         <h5> <span class="imagecaptions"> Ashleigh B. Smythe<br> Virginia Military Institute<br> Lexington, VA 24450<br> Office: 301 Maury-Brooke Hall<br> Office Phone: 540-464-7054<br> Email: <a href="mailto:smytheab@vmi.edu">smytheab@vmi.edu </a> </span> </h5> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="wideright" class="pagecolumn"> 
+     <div id="71967479-AE95-A645-7E5245EADB82E4FA" class="sm-area"> 
+      <div id="1DC2B5E1-0DB6-C804-78F67FC3EAD58B72" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <p> <strong>Postdoctoral Fellowship</strong>, Smithsonian Institution's National Museum of Natural History, Department of Invertebrate Zoology. May, 2005 to May, 2007. Topic: Marine nematode systematics. Advisor: Dr. W. Duane Hope.</p> 
+         <p> <strong>Doctor of Philosophy</strong>, Plant Pathology, University of California, Davis, April, 2005. Dissertation: Refining the systematics of Cephalobina with molecular and morphological tools. Advisor: Dr. Steven Nadler.</p> 
+         <p> <strong>Master of Science</strong>, Biology, Southeastern Louisiana University, Hammond, December, 1997. Thesis: A phylogenetic analysis of the genus Alloglossidium (Digenea: Macroderoididae) and related genera. Advisor: Dr. William Font.</p> 
+         <p> <strong>Bachelor of Science</strong>, Biology, University of Vermont, Burlington, May, 1993.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="pageFooter">
+     The material on this personal site may not necessarily reflect the views of Virginia Military Institute.
+    </div> 
+   </div> 
+  </div>   
+ </body>
+</html>

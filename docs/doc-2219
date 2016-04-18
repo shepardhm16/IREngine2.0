@@ -1,0 +1,458 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	Stonewall Jackson Biographical Summary.  A Timeline of Significant Events from the VMI Archives.
+</title>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Stonewall Jackson, biography, biographical, chronology, timeline, events, Civil War, generals, Confederate, VMI, history, archives">
+  <meta name="Description" content="Stonewall Jackson Biographical Summary.  An Online Resource from the VMI Archives.  Chronology of significant events.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/archives.aspx?id=4933" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYGHwAFD1NlYXJjaCBBcmNoaXZlcx4IQ3NzQ2xhc3MFDHNlYXJjaC1pbnB1dB4EXyFTQgICFgQeB29uRm9jdXMFhwFpZih0aGlzLnZhbHVlPT0nU2VhcmNoIEFyY2hpdmVzJyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVSaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J1NlYXJjaCBBcmNoaXZlcycpe3RoaXMudmFsdWU9J1NlYXJjaCBBcmNoaXZlcyc7fWQCAw8QZBAVAw9BbGwgQ29sbGVjdGlvbnMbTGltaXQgdG8gSGlzdG9yaWNhbCBSb3N0ZXJzFExpbWl0IHRvIFBob3RvZ3JhcGhzFQMIQXJjaGl2ZXMRSGlzdG9yaWNhbFJvc3RlcnMGUGhvdG9zFCsDA2dnZ2RkAg8PDxYCHgdWaXNpYmxlaGRkAhMPZBYEAgEPDxYCHwdnZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfB2cWAgIBDw8WAh8CBSsvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvYXJjaGl2ZXMuanBnZGRkl6xaGCOksFh7O1bjzEd/TppXZe9bSxLJPYJ2y4Hri70="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B5C8BA68"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAZG77Sam4BVkFAG+6XTvMwTg7Z1sS2zTNHf3/IxWgcxRNK/Bb7dRnXMHcV4KdvAwZlzhGcTY0LytLiH7YGMBTTk6fQpseJW4epV6INC3gARyZC47k7s8MZ7bMuDhFm7GCxTw1QTL4f5dUwnNE/qkAIr12IktdTW8cYQG7oMUeKXJQ=="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="Search Archives" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='Search Archives'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='Search Archives'){this.value='Search Archives';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter"> <option value="Archives">All Collections</option> <option value="HistoricalRosters">Limit to Historical Rosters</option> <option value="Photos">Limit to Photographs</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+        <li><a href="/Archives/Digital_Collections_Site_Related/Digital_Collections_Overview/" target="_self">Digital Collections</a></li>
+        <li><a href="http://archivesspace.vmi.edu/" target="_blank">Archives Online Catalog</a></li>
+        <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">Quick Info: FAQs</a></li>
+        <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+        <li class="selected"><strong><a href="/Archives/Jackson/Stonewall_Jackson_Home/" target="_self">Stonewall Jackson</a></strong>
+         <ul>
+          <li><a href="/Archives/Jackson/Stonewall_Jackson_Popular_Questions/" target="_self">Popular Questions</a></li>
+          <li><a href="/Archives/Exhibits/Jackson_Photos/" target="_self">Jackson Photos</a></li>
+          <li><a href="/Archives/Jackson/Papers/Stonewall_Jackson_Papers_Home/" target="_self">Letters &amp; Papers</a></li>
+          <li class="selected"><strong><a href="/Archives/Jackson/Stonewall_Jackson_Biographical_Summary/" target="_self">Timeline &amp; Biography</a></strong></li>
+          <li><a href="/Archives/Jackson/Stonewall_Jackson_Genealogy/" target="_self">Jackson Genealogy</a></li>
+          <li><a href="/Archives/Jackson/Death_Funeral/Stonewall_Jackson_Death___Funeral/" target="_self">Death &amp; Funeral</a></li>
+          <li><a href="/Archives/Jackson/Stonewall_Jackson_-_VMI_Career/" target="_self">VMI Career</a></li>
+          <li><a href="/Archives/Civil_War/John_Brown/Jackson_at_John_Brown_Execution/" target="_self">John Brown Execution</a></li>
+          <li><a href="/Archives/Jackson/Stonewall_Jackson_Books/" target="_self">Books About Jackson</a></li>
+         </ul></li>
+        <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+        <li><a href="/Archives/Images/Photos___Portraits_Home/" target="_self">Photos &amp; Portraits</a></li>
+        <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Letters, Diaries, Manuscripts</a></li>
+        <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Digital Exhibits Home</a></li>
+        <li><a href="http://digitalcollections.vmi.edu/cdm/landingpage/collection/p15821coll13" target="_blank">Military Oral History</a></li>
+        <li><a href="/Archives/Records/Official_Institute_Records_Home/" target="_self">VMI Records</a></li>
+        <li><a href="/Archives/Records/Records_Management/Records_Management/" target="_self">Records Management</a></li>
+        <li><a href="/Archives/About_the_VMI_Archives/About_the_VMI_Archives/" target="_self">About the Archives</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft3715">
+         Mary Laura Kludy
+        <br>Archives Assistant
+        <br>Ph: (540) 464-7516
+        <br>Fax: (540) 464-7089
+        <br>
+        <a title="archives@vmi.edu" href="mailto:archives@vmi.edu">archives@vmi.edu</a>
+        <br>Preston Library
+        <br>Lexington, Virginia 24450
+        <br>
+        <a title="Hours &amp; Visitor Info" href="/Archives/About_the_VMI_Archives/Hours___Visitor_Info/">Hours &amp; Visitor Info</a> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/archives/home/" title="">Archives</a> &gt; <a target="_self" href="/Archives/Jackson/Stonewall_Jackson_Home/" title="">Jackson</a> &gt; <a target="_self" href="/Archives/Jackson/Stonewall_Jackson_Biographical_Summary/" title="<p>Stonewall Jackson top level &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VMI Civil War Generals &nbsp; This page provides a brief chronology of significant events. For more detailed information, consult one of the several published biographies of Jackson. We highly recommend Stonewall Jackson: The Man, The Soldier, The Legend , by James I. Robertson, Jr.. (</p>">Stonewall Jackson Biographical Summary</a></span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner"> 
+       <div id="sectionBranding"> 
+        <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/archives.jpg" style="width:700px;"> 
+        <hr> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column"> 
+       <h1>Stonewall Jackson Timeline</h1> 
+       <p><img class="img-align-left" title="Jackson Images" border="0" alt="Jackson Images" align="left" src="/assets/0/430/448/b92635de-bd07-4fca-bf59-3c1bfc77a2ec.jpg"><br clear="all"><i>This page provides a brief chronology of significant events. For more detailed information, consult one of the several published biographies of Jackson. We highly recommend Stonewall Jackson: The Man, The Soldier, The Legend, by James I. Robertson, Jr. (Macmillan Publishing, ©1997). This book is available in most public and academic libraries.</i><br><br>Note: Jackson was born and grew up in what is now the state of West Virginia. Until 1863, this area was part of Virginia.</p> 
+       <ul> 
+        <li><b>1824 January 21</b><br>Thomas Jonathan Jackson was born at Clarksburg, [West] Virginia.<br>Parents: Jonathan Jackson (1790-1826) an attorney, and Julia Beckwith Neale (1798-1831). They were married in September 1817 and had four children: Elizabeth (1819-1826); Warren (1821-1841); Thomas (1824-1863), and Laura Ann (1826-1911).<br><a title="Stonewall Jackson Genealogy" href="/archives.aspx?id=4927">More Jackson family genealogy</a><br>&nbsp;</li> 
+        <li><b>1826 March</b><br>Jackson's sister Elizabeth (age 6) and his father died of typhoid fever. Julia Jackson gave birth to Laura the day after her husband died. Widowed at age 28, Julia was left with extensive debts and the family was impoverished.<br>&nbsp;</li> 
+        <li><b>1830-1841</b><br>Julia Jackson remarried. Her new husband, Blake Woodson, disliked his stepchildren and the family had financial difficulties. A short time after the marriage, Thomas and Laura were sent to live with Jackson relatives in Jackson's Mill [West] Virginia; Warren was sent to Neale relatives. Julia Jackson died, as a result of childbirth complications, on Dec. 4, 1831. She left behind the three Jackson siblings and a newborn son (Thomas's half brother), William Wirt Woodson (1831-1875). Jackson and Laura spent the remaining years of childhood with their paternal uncles. Jackson's brother, Warren, died of tuberculosis in 1841.<br>&nbsp;</li> 
+        <li><b>1842 June-1846 June</b> (<a title="Stonewall Jackson Papers Home" href="/content.aspx?id=4931&amp;libID=4967">Full text letters from this period</a>)<br>Jackson attended the United States Military Academy at West Point. Jackson was not the first choice for his congressional district's appointment, but the top applicant withdrew from the academy after only one day. Jackson graduated in June 1846, standing 17th out of 59 graduates. Jackson began his U.S. Army career as a 2nd Lt., First Artillery Regiment. In 1844, Jackson's beloved sister, Laura, married Jonathan Arnold.<br>&nbsp;</li> 
+        <li><b>1846-1851</b> (<a title="Stonewall Jackson Papers Home" href="/archives.aspx?id=4931">Full text letters</a> from this period)<br>United States Army officer. Served in the Mexican War, 1846-1848; stationed at Carlisle Barracks, PA; Ft. Hamilton, NY; Ft. Meade, FL.<br>&nbsp;</li> 
+        <li><b>1851-1861 April</b> (<a title="Stonewall Jackson Papers Home" href="/archives.aspx?id=4931">Full text letters</a> from this period)<br>
+         <ul> 
+          <li>In the spring of 1851 Jackson was offered and accepted the appointment to <a title="Stonewall Jackson - VMI Career" href="/archives.aspx?id=4925">teach at the Virginia Military Institute</a> in Lexington, Virginia; he resigned from the army.</li> 
+         </ul> 
+         <ul> 
+          <li>Reported for duty at VMI on August 13, 1851. He taught natural and experimental philosophy (related to modern day physics and including physics, astronomy, acoustics, optics, and other scientific courses).</li> 
+          <li>On August 4, 1853, Jackson married Elinor Junkin (1825-1854), daughter of Dr. George Junkin (President of Washington College) and Julia Miller Junkin.</li> 
+          <li><a title="Elinor (Ellie) died in childbirth" href="/assets/0/430/448/1e43ea3b-5f33-4653-86be-463e17757487.jpg" target="_blank">Elinor (Ellie) died in childbirth</a> on October 22, 1854. Their child, a son, was stillborn.</li> 
+          <li>During the summer of 1856 Jackson toured Europe, visiting Belgium, France, Germany, Switzerland, England and Scotland.</li> 
+          <li>On July 16, 1857, Jackson married for the second time. His wife was Mary Anna Morrison (1831-1915), daughter of Robert Hall Morrison and Mary Graham Morrison. Mary Anna's family resided in North Carolina; her father was the retired President of Davidson College.</li> 
+          <li>Mary Anna gave birth to a daughter, Mary Graham, on April 30, 1858; the baby died less than a month later, on May 25.</li> 
+          <li>In November 1859, Jackson was one of the VMI officers who accompanied a<a title="Jackson at John Brown Execution" href="/archives.aspx?id=4919">contingent of VMI cadets to Harper's Ferry</a>, where they stood guard at the execution of abolitionist John Brown.</li> 
+         </ul> &nbsp;</li> 
+        <li><b>1861-1863</b> (<a title="Stonewall Jackson Papers Home" href="/archives.aspx?id=4931">Full text letters</a> from this period)<br>
+         <ul> 
+          <li>April 21, 1861 - the VMI Corps of Cadets was ordered to Richmond to serve as drillmasters for new army recruits. Jackson was placed in command of the cadets.</li> 
+          <li>April 27, 1861 - Gov. John Letcher ordered Col. Jackson to take command at Harper's Ferry, where he organized the troops that would soon comprise the famous "Stonewall Brigade" (2nd, 4th, 5th, 27th and 33rd Virginia Infantry Regiments; Rockbridge Artillery; all were from the Shenandoah Valley region of Virginia).</li> 
+          <li>July 1861 - Promoted to Brigadier General. Battle of 1st Manassas, where he acquired the legendary nickname Stonewall. "Look, there stands Jackson like a stone wall."</li> 
+          <li>October 1861 - Promoted to Major General. Placed in command of the Valley of Virginia (Shenandoah Valley)</li> 
+          <li>1862 May &amp; June - Jackson's brilliant Shenandoah Valley Campaign; victories at Front Royal, Winchester, Cross Keys and Port Republic. Following the successful campaign, Jackson was ordered to join Gen. Lee in the Peninsula (Eastern Virginia).</li> 
+         </ul> 
+         <ul> 
+          <li>1862 June 15-July 1 - Seven Days Battles. Jackson displayed ineffective leadership which stood in stark contrast to the brilliance of the Shenandoah Valley campaign; the reasons for this uncharacteristic military failureare still debated among Jackson scholars. Returned to the Valley.</li> 
+          <li>1862 June-September. Battles of Cedar Mountain, Clark's Mt., 2nd Manassas, Antietam .</li> 
+          <li>1862 October - Lee reorganized his army into two corps. Jackson was promoted to Lt. General and given command of the new Second Corps. Jackson was now in charge of half of Lee's Army of Northern Virginia.</li> 
+          <li>1862 November - Jackson's daughter, Julia Laura, was born.</li> 
+          <li>1862 December 13 - Battle of Fredericksburg</li> 
+          <li>1862 December-1863 March - In quarters at Moss Neck, 10 miles south of Fredericksburg. The estate was owned by the Corbin family, who offered their home as winter headquarters.</li> 
+          <li>1863 April - in camp at Hamilton's Crossing</li> 
+          <li>1863 May 1 - Battle of Chancellorsville begins.</li> 
+          <li>1863 May 2, 9:00 p.m. - While reconnoitering with members of his staff, Jackson was accidentally fired upon by his own troops. The 18th North Carolina Infantry Regiment was responsible for the "friendly fire" incident.<a title="Stonewall Jackson Death &amp; Funeral" href="/archives.aspx?id=4959">Jackson was struck</a> by three .57 caliber bullets. He was taken to a field hospital near the battlefield, where his left arm was amputated.</li> 
+          <li>1863 May 4 - Jackson was moved to a field hospital at the home of Thomas and Mary Chandler, near Guiney Station, approximately 30 miles from the battlefield.</li> 
+          <li>1863 May 10 - Jackson died at 3:15 p.m. His last words were "Let us cross over the river and rest under the shade of the trees."</li> 
+          <li>1863 May 15.<a title="Stonewall Jackson Death &amp; Funeral" href="/archives.aspx?id=4959"> Jackson's funeral</a> took place in Lexington, Virginia, the town that was Jackson's home during his years as Professor at VMI.</li> 
+         </ul> &nbsp;</li> 
+        <li><b>After Jackson's Death</b>
+         <ul> 
+          <li>Mary Anna Jackson did not remarry. She was known as the "Widow of the Confederacy"and devoted much of her time to the United Daughters of the Confederacy organization. She died March 24, 1915 in Charlotte, NC; her remains were taken to Lexington, VA where she is buried beside her husband.</li> 
+          <li>The close relationship between Jackson and his sister, Laura Jackson Arnold, was destroyed during the war. Laura was an outspoken Unionist who became estranged from her brother and other members of her family. Federal troops occupied her hometown of Beverly [West] Virginia during most of the war, and Mrs. Arnold cared for Federal wounded in her home. See the Johnson Family Papers for a letter mentioning Laura's wartime reputation.</li> 
+          <li>Julia Jackson was less than one year old when her father died. She married William E. Christian in 1885; she died of typhoid fever in 1889, at age 26. Her children were Julia Jackson Christian (1887-1991), who married Edmund R. Preston; and Thomas Jonathan Jackson Christian (1888-1952), who married three times. Both of Jackson's grandchildren had several children; thus there are many living descendants of Stonewall Jackson.</li> 
+         </ul> &nbsp;</li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

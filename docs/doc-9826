@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta content="charset=utf-8"> 
+  <meta name="description" content="James Squire EE455 Electromechanical Design"> 
+  <meta name="keywords" content="James Squire, Jim Squire, Professor James Squire, VMI, EE455, Design, ECE"> 
+  <title>EE455</title> 
+  <link href="../../squire.css" rel="stylesheet"> 
+  <link href="../teaching.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <table id="outerTable"> 
+   <tbody>
+    <tr> 
+     <td class="titleRow1Col1"></td> 
+     <td class="titleRow1Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow2Col1" style="background-image: url('ee455.gif'); background-repeat:no-repeat"> </td> 
+     <td class="titleRow2Col2"> <h1>EE455: Electrical / Mechanical Design</h1> </td> 
+    </tr> 
+    <tr> 
+     <td class="titleRow3Col1"></td> 
+     <td class="titleRow3Col2"></td> 
+    </tr> 
+    <tr> 
+     <td class="menu"> <p><a href="../../Default.htm">Home</a></p> <p><a href="../teaching.htm">Teaching</a></p> <p><a href="../ee115/ee115.htm">EE115</a></p> <p><a href="../ee223/ee223.htm">EE223</a></p> <p><a href="../ee230/ee230.htm">EE230</a></p> <p><a href="../ee431/ee431.htm">EE431</a></p> <p><a href="EE455.htm">EE455</a></p> <p><a href="../ee491/ee491.htm">EE491/2</a></p> </td> 
+     <td class="cellHoldingMainTable"> 
+      <table class="mainTable"> 
+       <tbody>
+        <tr> 
+         <td class="noBorder"> <p class="alignTop"> Engineering in practice often employs a hybrid of electrical and mechanical design skills. This laboratory-intensive course takes students already proficient in analog design and microcontroller programming, and in the first module ties these skills together with microcontroller analog interfacing methods. The second module consists of a brief treatment of statics and continuum mechanics, and then introduces three-dimensional solid modeling, additive rapid prototyping, and stress analysis techniques. Students then demonstrate mastery of electrical and mechanical design skills in the third module design project. Laboratory experiments involving microcontroller interfacing and computer-aided design complement the lectures. Elective course. Prerequisite: EE223, EE339, PY208.</p> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> 
+          <hr class="hrStyle"> <h3> Lecture Schedule</h3> <p>In the following table, the readings and homework are assigned on the day listed and due on the following lesson. The readings are taken from the custom-printed class textbook unless otherwise noted. </p> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> 
+          <table class="lectureTable"> 
+           <!-- The header row --> 
+           <tbody>
+            <tr> 
+             <td class="lectureTableCol1 bold"> # </td> 
+             <td class="lectureTableCol2 bold"> Date </td> 
+             <td class="lectureTableCol3 bold"> Title </td> 
+            </tr> 
+            <!-- The lecture data rows ---------------------------> 
+            <tr> 
+             <td class="lectureTableCol1" colspan="3"> <strong>Module 1: Project Management</strong></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1"> 1 </td> 
+             <td>13 Jan</td> 
+             <td>Course administration, <a href="materials/EE455%20Syllabus.pdf">Syllabus</a></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1"> Lab 1</td> 
+             <td>14</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">2</td> 
+             <td>19</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">3</td> 
+             <td>20</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 2</td> 
+             <td>21</td> 
+             <td>Client Meeting #1<br>Graded Review #1</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">4</td> 
+             <td>26</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">5</td> 
+             <td>27</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 3</td> 
+             <td>28</td> 
+             <td>Client Meeting #2<br>Graded Review #2</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1" colspan="3"><strong>Module 2: Microcontrollers</strong></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">6</td> 
+             <td>2 Feb</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">7</td> 
+             <td>3</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 4</td> 
+             <td>4</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">8</td> 
+             <td>9</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">9</td> 
+             <td>10</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 5</td> 
+             <td>11</td> 
+             <td>Graded Review #3</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">10</td> 
+             <td>16</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">11</td> 
+             <td>17</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 6</td> 
+             <td>18</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">12</td> 
+             <td>23</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">13</td> 
+             <td>24</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 7</td> 
+             <td>25</td> 
+             <td>Graded Review #4</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1" colspan="3"><strong>Module 3: Solid Modeling</strong></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">14</td> 
+             <td>1 Mar</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">15</td> 
+             <td>2</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 8</td> 
+             <td>3</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">16</td> 
+             <td>9</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 9</td> 
+             <td>10</td> 
+             <td>Graded Review #5</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">17</td> 
+             <td>15</td> 
+             <td>poor attendance</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 10</td> 
+             <td>16</td> 
+             <td>Ac Thur + poor attendance</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1" colspan="3"><strong>Module 4: Project Management</strong></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">18</td> 
+             <td>29</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">19</td> 
+             <td>30</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 11</td> 
+             <td>31</td> 
+             <td>Graded Review #6</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">20</td> 
+             <td>7 Apr</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">21</td> 
+             <td>12</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">22</td> 
+             <td>13</td> 
+             <td>&nbsp;</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1" style="height: 27px">Lab 12</td> 
+             <td style="height: 27px">14</td> 
+             <td style="height: 27px"></td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1" colspan="3">Field trip to Dr. English's lab at Western New England University and Graded Review #7.&nbsp; Leave VMI 0700 on Friday, 15 April.</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">23</td> 
+             <td>19</td> 
+             <td>Lab cleanup, reorder parts</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">24</td> 
+             <td>20</td> 
+             <td>Intellectual property</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">Lab 13</td> 
+             <td>21</td> 
+             <td>Intellectual property</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">25</td> 
+             <td>26</td> 
+             <td>Administration</td> 
+            </tr> 
+            <tr> 
+             <td class="lectureTableCol1">26-27</td> 
+             <td>27 Apr - May 4</td> 
+             <td>Class DNF - Comp Time</td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td class="noBorder"> <h3>Documents</h3> 
+          <blockquote> 
+           <p> <a href="materials/01%20-%20Lab%20-%20Graded%20Review.docx"> Graded Review</a>&nbsp; Complete these and email to me by midnight before the day of the graded review.</p> 
+           <p> <a href="materials/01%20-%20Lab%20-%20Timeline%20Example.docx"> Timeline</a>&nbsp; The timeline will need to be updated at each graded review if milestone dates change.</p> 
+           <p> <a href="materials/Parts.xlsx"> Parts Order Form</a>&nbsp; Example of parts order form. Be sure to check that your parts are in stock.</p> 
+           <p> <a href="materials/01%20-%20Lab%20-%20Peer%20Review.doc"> Peer Review</a>&nbsp; At midterms and again at the end of the course you'll have a chance to rate your classmates work ethic.</p> 
+          </blockquote> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+   </tbody>
+  </table>  
+ </body>
+</html>

@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <!-- BEGIN: head_admin --> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <title>
+			Michael Brickler - LibGuides at Virginia Military Institute
+			</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+					<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+			<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <!-- BEGIN: CUSTOM HEAD JS/CSS --> 
+  <!-- END: CUSTOM HEAD JS/CSS --> 
+  <script src="/web/chosen-1.4/chosen.jquery.min.js"></script>
+  <script src="sa.php?site_id=807"></script> 
+  <script type="text/javascript">
+			//====================================================
+			jQuery(document).ready(function() {
+				
+				jQuery(".chosen-select").chosen({width: "650px"});
+				springSpace.UI.xhrPopover();
+			});	
+			//====================================================
+			setActiveButton=function(id) {
+				jQuery("#s-lg-profile-name-btn").removeClass("active");
+				jQuery("#s-lg-profile-subject-btn").removeClass("active");
+				jQuery(id).addClass("active");	
+			}
+			//====================================================
+			toggleSubjectBoxes=function(subject_id) {
+				var is_subject = (subject_id != 0);
+				
+				jQuery("#s-lg-profile-guides-div").html("");
+				
+				if (is_subject) {
+					xhr = jQuery.ajax({
+						url: "prf_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 531,
+							subject_id: subject_id,
+							key: "auth_key",
+						},
+						success: function(response, textStatus) {
+							if ( response.errCode == 200 ) {
+								jQuery("#s-lg-profile-guides-div").html(response.data.guides);
+							} 
+						},
+						error: function (jqXHR, textStatus, errorThrown) {
+							alert("Oops, sorry! Something unexpected happened: " + errorThrown + " \n\nThat might not mean much to you, but it probably does " + 
+							"to the Springy Techs...you can let them know at support@springshare.com.");
+						}
+					});		
+				}
+
+				jQuery("#s-lg-profile-az-div").toggle(!is_subject);
+				jQuery("#s-lg-profile-help-div").toggle(!is_subject);
+				jQuery("#s-lg-profile-guides-div").toggle(is_subject);
+			}
+			//====================================================
+			loadProfileList=function(subject_id) {
+				jQuery("#s-lg-profile-content").html('<div class="bold s-lib-color-lt-grey pad-top-med text-center">Loading...</div>');
+				
+				//set the active button
+				setActiveButton(subject_id == 0 ? "#s-lg-profile-name-btn" : "#s-lg-profile-subject-btn");
+
+				// toggle the right hand boxes based on if this is a subject or not
+				toggleSubjectBoxes(subject_id);
+				
+				// hide the subject view if needed
+				if (subject_id == 0) { toggleSubjectView(false); }
+
+				// get the data
+				xhr = jQuery.ajax({
+					url: "prf_process.php",
+					type: "POST",
+					dataType: "json",
+					data: {
+						action: 530,
+						subject_id: subject_id,
+						key: "auth_key",
+					},
+					success: function(response, textStatus) {
+						if ( response.errCode == 200 ) {
+							jQuery("#s-lg-profile-content").html(response.data.html);
+						} 
+						else {
+							jQuery("#s-lg-profile-content").html("Something unexpected happened - please try again and if you continue to receive " + 
+							"the error please let us know.<div class=\"s-ghost\" style=\"margin-top:20px;\">" + response.errText + "</div>");
+						}
+					},
+					error: function (jqXHR, textStatus, errorThrown) {
+						alert("Oops, sorry! Something unexpected happened: " + errorThrown + " \n\nThat might not mean much to you, but it probably does " + 
+						"to the Springy Techs...you can let them know at support@springshare.com.");
+					}
+				});	
+			}
+			//====================================================
+			handleSubjectBtnClick=function() {
+				if (!jQuery("#s-lg-profile-subjects").is(":visible")) { 
+					jQuery(".chosen-select").val("").trigger("chosen:updated");
+					jQuery("#s-lg-profile-content").html(""); 
+				}
+				toggleSubjectView(true);	
+			}
+			//====================================================
+			toggleSubjectView=function(visible) {
+				jQuery("#s-lg-profile-subjects").toggle(visible);
+				if (visible) { setActiveButton("#s-lg-profile-subject-btn"); }
+			}
+			//====================================================
+			filterBySubject=function(subject_id) {
+				toggleSubjectView(true);
+				loadProfileList(subject_id);
+			}
+			//====================================================
+			springSpace.springTrack.init({_st_site_id: '807'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '20'});
+			});
+		</script> 
+  <link rel="stylesheet" href="/web/chosen-1.4/chosen.min.css"> 
+  <style>
+			.pad-left-sm { margin-left:10px; }
+			
+			#s-lg-profile-results-title { font-weight:bold; margin:10px 0px; font-size:1.1em; display:none; }
+			.s-lg-profile-result { border-bottom:1px solid #ECECEC; padding:20px 0px; clear:both; }
+			.s-lg-profile-result-title { font-weight:bold; }
+			.s-lg-profile-result-description { font-size:0.9em; line-height:150%; }
+			.s-lib-featured-profile-container { width:170px; margin:0px 10px 20px 10px !important; }
+			.s-lib-profile-container .s-lib-profile-name { display:none; }
+			.s-lib-profile-image { margin-bottom:30px; }
+		</style> 
+  <!-- END: head_admin --> 
+ </head> 
+ <body class="s-lib-public-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lib-public-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Content Header --> 
+  <div id="s-lib-public-header" class="s-lib-header container s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-index"> <a href="/prf.php">Profiles </a> </li> 
+     <li id="s-lib-bc-page" class="active">Michael Brickler </li> 
+    </ol> 
+   </div> 
+   <h1 id="s-lib-public-header-title">Michael Brickler</h1> 
+   <div id="s-lib-public-header-desc">
+    &nbsp;
+   </div> 
+  </div> 
+  <!-- END: Content Header --> 
+  <!-- BEGIN: Nav Bar --> 
+  <div id="s-lib-public-nav" class="container s-lib-side-borders"> 
+  </div> 
+  <!-- END: Nav Bar --> 
+  <!-- BEGIN: content --> 
+  <div id="s-lib-public-main" class="s-lib-main container s-lib-side-borders"> 
+   <section> 
+    <div id="s-lg-profile-cols" class="row"> 
+     <div id="col1" class="col-md-3 center"> 
+      <div id="s-lib-profile-6961" class="s-lib-profile-container"> 
+       <div id="s-lib-profile-image-6961" class="s-lib-profile-div s-lib-profile-center s-lib-profile-image"> 
+        <img src="//s3.amazonaws.com/libapps/accounts/9777/profiles/6961/MajBrickler_2011rFxV3sml.png" alt="Profile Image"> 
+       </div> 
+       <div id="s-lib-profile-name-6961" class="s-lib-profile-div s-lib-profile-center s-lib-profile-name">
+        Michael Brickler 
+       </div> 
+       <div id="s-lib-profile-email-6961" class="s-lib-profile-div s-lib-profile-center s-lib-profile-email">
+        <a title="bricklerml@vmi.edu" href="mailto:bricklerml@vmi.edu" class="label label-info" style="font-size:1.6em;">Email Me</a> 
+       </div> 
+       <div id="s-lib-profile-widget-la-6961" class="s-lib-profile-div s-lib-profile-widget-la"> 
+        <div class="s-lib-profile-widget"> 
+        </div> 
+       </div> 
+       <div id="s-lib-profile-widget-lc-6961" class="s-lib-profile-div s-lib-profile-widget-lc"> 
+        <div class="s-lib-profile-widget"> 
+        </div> 
+       </div> 
+       <div id="s-lib-profile-widget-other-6961" class="s-lib-profile-div s-lib-profile-widget-other"> 
+        <div class="s-lib-profile-widget"> 
+        </div> 
+       </div> 
+       <div id="s-lib-profile-contact-6961" class="s-lib-profile-div s-lib-profile-contact">
+        <strong>Contact:</strong>
+        <a title="Website / Blog" href="http://www.vmi.edu/Content.aspx?id=32197"><i class="fa fa-bookmark fa-lg"><span class="sr-only">Website / Blog Page</span></i></a> 
+       </div> 
+       <div id="s-lib-profile-social-6961" class="s-lib-profile-div s-lib-profile-social"> 
+       </div> 
+       <div id="s-lib-profile-subjects-6961" class="s-lib-profile-div s-lib-profile-subjects"> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="col2" class="col-md-6 center"> 
+      <div class="margin-bottom-xlg"> 
+       <div class="s-lib-public-side-header"> 
+        <div class="pad-bottom-sm">
+         My Guides 
+        </div> 
+       </div> 
+       <div class="txt pad-top-sm"> 
+        <div> 
+         <div class="s-lib-box s-lib-border-round s-lib-box-idx-guide-list"> 
+          <div class="s-lib-box-content"> 
+           <div class="s-lg-gmeta pull-right s-lg-small s-lib-color-lt-grey"> 
+            <span title="Last update" class="s-lib-color-lt-grey"><i class="fa fa-edit icon-small"></i> Dec 2, 2015</span> 
+            <span title="Number of visits this year" class="pad-left-med hitst"><i class="fa fa-eye icon-small"></i> 12</span> 
+           </div> 
+           <div class="s-lg-gtitle s-lib-color-lt-grey"> 
+            <a class="bold" href="http://libguides.vmi.edu/c.php?g=36293">Media Services</a> 
+            <i class="fa fa-info-circle s-lib-popover pad-left-sm" rel="popover" data-id="36293" data-toggle="popover" data-ajload="/index_process.php?action=175&amp;guide_id=36293&amp;key=key" title="Media Services&nbsp;"></i> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="col3" class="col-md-3 center"> 
+      <div class="margin-bottom-xlg"> 
+       <div class="s-lib-public-side-header"> 
+        <div class="pad-bottom-sm">
+         My Subject Specialties 
+        </div> 
+       </div> 
+       <div class="txt pad-top-sm">
+        No subject specialties have been selected. 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </section> 
+  </div> 
+  <!-- END: content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div> 
+    <div id="s-lib-footer-brand">
+      Powered by Springshare. 
+    </div> 
+    <div id="s-lib-footer-rights">
+      All rights reserved. 
+    </div> 
+    <div id="s-lib-footer-login-link"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div> 
+    <!--
+					<div id="s-lib-footer-print-link">
+						~[23]~
+					</div>
+					--> 
+    <div id="s-lib-footer-support-link"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <div id="s-lib-popover-title" class="hide"> 
+   <span class="text-info"><strong>title</strong></span> 
+   <button type="button" id="popclose" class="close" onclick="jQuery('.s-lib-popover').popover('hide')">×</button> 
+  </div> 
+  <div id="s-lib-popover-content" class="hide">
+   <i class="fa fa-refresh fa-spin"></i> Loading... 
+   <button class="btn btn-default btn-sm popclose" type="button">Close</button> 
+  </div> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer --> 
+ </body>
+</html>

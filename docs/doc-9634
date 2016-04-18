@@ -1,0 +1,141 @@
+<html>
+ <head> 
+  <meta name="Author" content="David L. Somers"> 
+  <meta name="Description" content="Welcome to the SourceFinder, a quick and easy way to begin any research effort.  To get started enter your search criteria and click Run the Rat!  A customized list of research tools will be assembled just for you!"> 
+  <title>SourceFinder Home Page</title> 
+  <link rel="stylesheet" href="http://library.vmi.edu/screens/styles.css" type="TEXT/CSS"> 
+  <meta name="Microsoft Border" content="none, default"> 
+ </head> 
+ <body> 
+  <table width="100%" border="0" cellpadding="0" cellspacing="0"> 
+   <tbody>
+    <tr> 
+     <td width="100%"><img src="http://library.vmi.edu/screens/plheader.gif" alt="Preston Library" width="374" height="28" border="0"> </td> 
+    </tr> 
+    <tr> 
+     <td width="100%" height="20" align="left" valign="middle" bgcolor="#ebeadc" class="toplogo"> 
+      <div id="navcontainer"> 
+       <ul id="navlist"> 
+        <li id="active"> <a onmouseover="this.T_WIDTH='200px';this.T_FONTCOLOR='#000000';this.T_BGCOLOR='#dee7f7';this.T_BORDERCOLOR='#336';this.T_TEXTALIGN='justify';this.T_FONTSIZE='11px';this.T_FONTFACE='verdana,geneva,sans-serif';return escape('Return to the Library homepage.')" href="http://www.vmi.edu/Library.aspx?id=312">Library Home</a></li> 
+        <li><a href="https://illiad.vmi.edu/" onmouseover="this.T_FONTCOLOR='#000000';this.T_BGCOLOR='#dee7f7';this.T_BORDERCOLOR='#336';this.T_TEXTALIGN='justify';this.T_FONTSIZE='11px';this.T_FONTFACE='verdana,geneva,sans-serif';return escape('With Interlibrary Loan you can obtain materials (books, articles, videos, etc.) from other libraries--free!')">Interlibrary Loan</a></li> 
+        <li><a href="http://www1.vmi.edu/sourcefinder/" onmouseover="this.T_FONTCOLOR='#000000';this.T_BGCOLOR='#dee7f7';this.T_BORDERCOLOR='#336';this.T_TEXTALIGN='justify';this.T_FONTSIZE='11px';this.T_FONTFACE='verdana,geneva,sans-serif';return escape('Access any of our 100+ databases.  Not sure where to start? Use SourceFinder to help you select a database that meets your needs.')">Databases</a></li> 
+        <li> <a onmouseover="this.T_FONTCOLOR='#000000';this.T_BGCOLOR='#dee7f7';this.T_BORDERCOLOR='#336';this.T_TEXTALIGN='justify';this.T_FONTSIZE='11px';this.T_FONTFACE='verdana,geneva,sans-serif';return escape('Use Journal Locator to help you find more than 50,000 of our current print and electronic journals.')" href="http://atoz.ebsco.com/titles.asp?id=9616&amp;">Journal Locator</a></li> 
+        <li><a href="http://annie.wlu.edu/" target="_blank" onmouseover="this.T_FONTCOLOR='#000000';this.T_BGCOLOR='#dee7f7';this.T_BORDERCOLOR='#336';this.T_TEXTALIGN='justify';this.T_FONTSIZE='11px';this.T_FONTFACE='verdana,geneva,sans-serif';return escape('Search for books and journals at the W&amp;L online catalog.')">W&amp;L Library</a></li> 
+        <li> <a onmouseover="this.T_FONTCOLOR='#000000';this.T_BGCOLOR='#dee7f7';this.T_BORDERCOLOR='#336';this.T_TEXTALIGN='justify';this.T_FONTSIZE='11px';this.T_FONTFACE='verdana,geneva,sans-serif';return escape('Unsure of where materials or services are located?  Use our Building Directory to help you.')" href="http://www.vmi.edu/Library.aspx?id=976">Stacks Directory</a></li> 
+        <li><a href="http://library.vmi.edu/screens/searchtips.html" onmouseover="this.T_FONTCOLOR='#000000';this.T_BGCOLOR='#dee7f7';this.T_BORDERCOLOR='#336';this.T_TEXTALIGN='justify';this.T_FONTSIZE='11px';this.T_FONTFACE='verdana,geneva,sans-serif';return escape('Visit Search Tips to make the most of your catalog searches.')">Search Tips</a></li> 
+        <li><a href="http://library.vmi.edu/patroninfo" onmouseover="this.T_FONTCOLOR='#000000';this.T_BGCOLOR='#dee7f7';this.T_BORDERCOLOR='#336';this.T_TEXTALIGN='justify';this.T_FONTSIZE='11px';this.T_FONTFACE='verdana,geneva,sans-serif';return escape('With MyLibrary you can check your record, place holds, renew books, save searches, etc.')">My Library</a></li> 
+       </ul> 
+      </div> </td> 
+    </tr> 
+    <tr> 
+     <td width="100%" height="7" bgcolor="#660033"></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script type="text/javascript" src="http://new.vmi.edu/lib/javascripts/wz_tooltip.js"></script> 
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111"> 
+   <tbody>
+    <tr> 
+     <td valign="top"> 
+      <div align="left"> 
+       <table border="0" cellpadding="3" cellspacing="0"> 
+        <tbody>
+         <tr> 
+          <td height="5"> </td> 
+         </tr> 
+         <tr> 
+          <td> <a href="Access/Restricted/DataRatTools.htm"> <img src="http://www1.vmi.edu/sourcefinder/images/SF--new-logo.jpg" alt="The SourceFinder" border="0" width="440" height="60" longdesc="The SourceFinder is a database research tool created for the Preston Library."></a> </td> 
+         </tr> 
+        </tbody>
+       </table> 
+      </div> 
+      <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+       <tbody>
+        <tr> 
+         <td> 
+          <form method="POST" action="results_adv.asp"> 
+           <table border="0" cellpadding="2" width="520" cellspacing="6"> 
+            <tbody>
+             <tr> 
+              <td width="100%" valign="top" colspan="2" align="left"> <p>Select a Field of Study, the Type of Resource and Limits.&nbsp; Click Search to create your customized study guide.</p></td> 
+             </tr> 
+             <tr align="center"> 
+              <td bgcolor="#DFDFC7" width="50%" valign="top"> 
+               <div align="center"> 
+                <p align="left"> <strong> <a style="text-decoration: none" href="sourcefinderhelp.html#Subject"> <span lang="en-us">Field of Study</span></a> </strong>(optional) </p>
+               </div> </td> 
+              <td bgcolor="#DFDFC7" width="50%" valign="top"> 
+               <div align="center"> 
+                <p align="left"> <a style="text-decoration: none" href="sourcefinderhelp.html#Source"> <strong><span lang="en-us">Type of Resou</span>rc<span lang="en-us">e </span></strong></a>(required) </p>
+               </div> </td> 
+             </tr> 
+             <tr align="center"> 
+              <td valign="top" width="50%"> 
+               <div align="center"> 
+                <p align="left"> <select name="Subject" size="12"> <option value="Biology">Biology </option> <option value="Chemistry">Chemistry </option> <option value="Civil &amp; Environmental Engineering">Civil &amp; Environmental Engineering </option> <option value="Computer Science">Computer Science </option> <option value="Economics &amp; Business">Economics &amp; Business </option> <option value="Electrical &amp; Computer Engineering">Electrical &amp; Computer Engineering </option> <option value="English &amp; Fine Arts">English &amp; Fine Arts </option> <option value="History">History </option> <option value="International Studies">International Studies </option> <option value="Mathematics">Mathematics </option> <option value="Mechanical Engineering">Mechanical Engineering </option> <option value="Military Science">Military Science </option> <option value="Modern Languages &amp; Cultures">Modern Languages &amp; Cultures </option> <option value="Philosophy">Philosophy </option> <option value="Physics &amp; Astronomy">Physics &amp; Astronomy </option> <option value="Psychology">Psychology </option> </select></p>
+               </div></td> 
+              <td valign="top" width="50%" align="center" rowspan="4"> 
+               <div align="left"> 
+                <p> <input type="checkbox" name="R" value="All Sources"><a href="sourcefinderhelp.html#All Sources" target="_blank">All Sources</a><br> <input type="checkbox" name="R" value="Articles (Magazine/Journal)"><a href="sourcefinderhelp.html#Articles (Magazine/Journal)" target="_blank">Articles (Magazine/Journal)</a><br> <input type="checkbox" name="R" value="Articles (Newspaper)"><a href="sourcefinderhelp.html#Articles (Newspaper)" target="_blank">Articles (Newspaper)</a><br> <input type="checkbox" name="R" value="Associations and Groups"><a href="sourcefinderhelp.html#Associations and Groups" target="_blank">Associations and Groups</a><br> <input type="checkbox" name="R" value="Biographical Information"><a href="sourcefinderhelp.html#Biographical Information" target="_blank">Biographical Information</a><br> <input type="checkbox" name="R" value="Book Reviews"><a href="sourcefinderhelp.html#Book Reviews" target="_blank">Book Reviews</a><br> <input type="checkbox" name="R" value="Dictionaries"><a href="sourcefinderhelp.html#Dictionaries" target="_blank">Dictionaries</a><br> <input type="checkbox" name="R" value="Directories"><a href="sourcefinderhelp.html#Directories" target="_blank">Directories</a><br> <input type="checkbox" name="R" value="Encyclopedias"><a href="sourcefinderhelp.html#Encyclopedias" target="_blank">Encyclopedias</a><br> <input type="checkbox" name="R" value="Factbooks/Handbooks/Guides"><a href="sourcefinderhelp.html#Factbooks/Handbooks/Guides" target="_blank">Factbooks/Handbooks/Guides</a><br> <input type="checkbox" name="R" value="Literary Criticism"><a href="sourcefinderhelp.html#Literary Criticism" target="_blank">Literary Criticism</a><br> <input type="checkbox" name="R" value="Standards &amp; Codes"><a href="sourcefinderhelp.html#Standards &amp; Codes" target="_blank">Standards &amp; Codes</a><br> <input type="checkbox" name="R" value="Web Sites"><a href="sourcefinderhelp.html#Web Sites" target="_blank">Web Sites</a><br> </p>
+               </div></td> 
+             </tr> 
+             <tr align="center"> 
+              <td valign="top" width="50%" bgcolor="#DFDFC7"> <p align="left"> <strong> <a style="text-decoration: none" href="sourcefinderhelp.html#Limit Sources">Limits</a> </strong>(optional)</p></td> 
+             </tr> 
+             <tr align="center"> 
+              <td valign="top" width="50%"> 
+               <div align="center">
+                <center> 
+                 <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+                  <tbody>
+                   <tr> 
+                    <td><input type="checkbox" name="Electronic" value="Y">Electronic</td> 
+                    <td height="10"><input type="checkbox" name="FullText" value="Y">Full-Text</td> 
+                   </tr> 
+                   <tr> 
+                    <td colspan="2"><input type="checkbox" name="Electronic" value="N">Non-electronic (printed)</td> 
+                   </tr> 
+                  </tbody>
+                 </table>
+                </center>
+               </div></td> 
+             </tr> 
+             <tr align="center"> 
+              <td valign="top" width="50%" align="center"> 
+               <div align="center">
+                <center> 
+                 <p> <input type="submit" value="Search" name="B1">&nbsp; <input type="reset" value="Clear Form" name="B2"> </p>
+                </center>
+               </div> </td> 
+             </tr> 
+            </tbody>
+           </table> 
+          </form></td> 
+        </tr> 
+       </tbody>
+      </table></td> 
+     <td valign="top" width="200"> <p>&nbsp;</p> 
+      <table border="3" cellpadding="4" id="table1" style="border-collapse: collapse" bordercolor="#660033" bgcolor="#DFDFC7"> 
+       <tbody>
+        <tr> 
+         <td nowrap align="center"> <p align="left">&nbsp;</p> 
+          <blockquote> 
+           <p align="left"> <b><span lang="en-us"><a href="Default.asp">Search Again</a></span></b></p> 
+          </blockquote> <p align="left"> <img border="0" src="images/Horizontal_Line.gif" width="100%" height="4"></p> 
+          <blockquote> 
+           <p align="left"> <strong> <a href="atoz_d.asp">Database<span lang="en-us">s A to Z</span></a></strong></p> 
+           <p align="left"> <strong> <a href="atoz_gr.asp">Reference Resource<span lang="en-us">s A to Z</span></a></strong></p> 
+           <p align="left"> <strong> <a href="atoz_g.asp">Government Resource<span lang="en-us">s A to Z</span></a></strong></p> 
+          </blockquote> <p align="left"> <img border="0" src="images/Horizontal_Line.gif" width="100%" height="4"></p> 
+          <blockquote> 
+           <p align="left"><b><span lang="en-us"> <a target="_blank" href="http://library.vmi.edu/">Library Catalog</a></span></b></p> 
+           <p align="left"><b><a href="about.htm">About <span lang="en-us"> SourceFinder</span></a></b></p> 
+          </blockquote> </td> 
+        </tr> 
+       </tbody>
+      </table> <p>&nbsp;</p></td> 
+    </tr> 
+   </tbody>
+  </table>   
+ </body>
+</html>

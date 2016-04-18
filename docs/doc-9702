@@ -1,0 +1,862 @@
+<html>
+ <head>
+  <meta name="author" content="Created with Hot Potatoes by Half-Baked Software, registered to Kathleen Bulger-Barnett.">
+  <meta name="keywords" content="Hot Potatoes, Hot Potatoes, Half-Baked Software, Windows, University of Victoria"> 
+  <title>
+
+</title> 
+  <script language="javascript" type="text/javascript">
+
+//<![CDATA[
+
+<!--
+
+// BrowserCheck Object
+
+function BrowserCheck() {
+	var b = navigator.appName
+//HBS extension
+	this.mac = (navigator.appVersion.indexOf('Mac') != -1)
+	if (b=="Netscape") this.b = "ns"
+	else if (b=="Microsoft Internet Explorer") this.b = "ie"
+	else this.b = b
+	this.version = navigator.appVersion
+	this.v = parseInt(this.version)
+	this.ns = (this.b=="ns" && this.v>=4)
+	this.ns4 = (this.b=="ns" && this.v==4)
+	this.ns5 = (this.b=="ns" && this.v==5)
+	this.ie = (this.b=="ie" && this.v>=4)
+	this.ie4 = (this.version.indexOf('MSIE 4')>0)
+	this.ie5 = (this.version.indexOf('MSIE 5')>0)
+	this.min = (this.ns||this.ie)
+	this.CRAPBrowser = (this.ie4 && this.mac); //Cannot Resolve Addresses Properly
+}
+
+is = new BrowserCheck();
+
+var LocFolder = GetFolder(window.location.href);
+function GetFolder(LocPath){
+	LocPath = ReplaceStuff('\'','%27',LocPath);
+	var i = LocPath.lastIndexOf('/');
+	if (i<0){i=LocPath.lastIndexOf('\\')};
+	return LocPath.substring(0,i);
+}
+
+function CombineURLs(InURL){
+	var i = InURL.indexOf('../');
+	var s = LocFolder;
+	while (i >- 1){
+		s = GetFolder(s);
+		InURL = InURL.substring(3,InURL.length);
+		i = InURL.indexOf('../');
+	}
+	return s + '/' + InURL;
+}
+
+x = new Array();
+function ResolveURLs(InText,Attribute){
+	x.length=0;
+	var Temp = InText.toLowerCase();
+	var z;
+	var AttLen = Attribute.length + 2;
+	var y=Temp.lastIndexOf(Attribute + '="');
+	while (y>-1){
+		var sLoc = y+AttLen;
+		if (Temp.substring(sLoc,sLoc+5) != 'http:'){
+			x[x.length]=new Array();
+			x[x.length-1][0] = sLoc;
+			z = Temp.indexOf('"',sLoc);
+			x[x.length-1][1] = z;
+			x[x.length-1][2] = InText.substring(sLoc,z);
+
+		}
+		Temp = Temp.substring(0,y);
+		y=Temp.lastIndexOf(Attribute + '="');
+	}
+	for (var j=0; j<x.length; j++){
+		InText = InText.substring(0,x[j][0]) + CombineURLs(x[j][2]) + InText.substring(x[j][1], InText.length);
+	}
+	return InText;
+}
+
+
+
+function ResolveAllURLs(Stuff){
+	Stuff = ResolveURLs(Stuff,'href');
+	Stuff = ResolveURLs(Stuff,'src');
+	Stuff = ResolveURLs(Stuff,'parent.location');
+	return Stuff;
+}
+
+
+var ExBGColor = '#bbbbee';
+
+
+
+var PageBGColor = '#ffffff';
+
+
+
+var NavBarColor = '#000066';
+
+
+var TextColor = '#000000';
+var CurrQNum = 0;
+var ALetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var CorrectIndicator = ':-)';
+var IncorrectIndicator = 'X';
+var YourScoreIs = 'Your score is ';
+var Tries = 0;
+var CorrectChoices = 0;
+var ContinuousScoring = true;
+var CorrectFirstTime = 'Questions answered correctly first time: ';var ExerciseTitle = '';
+var ExerciseSubtitle = 'Multiple-choice exercise';
+var Instructions = 'Read each sentence and choose whether to use the preterit or the imperfect.'; //'';
+var ShuffleQs = true;
+var ShuffleAs = false;
+var DefaultRight = 'Correct!';
+var DefaultWrong = 'Sorry! Try again.';
+var QsToShow = 14;
+var ShowOneByOne = true;
+var ReadingURL = '';
+var EraseFeedback = true;
+var Score = 0;
+
+var PreviousPage = history.length;
+
+
+
+ReadingText='<html><head><meta name="author" content="Created with Hot Potatoes by Half-Baked Software, registered to Kathleen Bulger-Barnett."></meta><meta name="keywords" content="Hot Potatoes, Hot Potatoes, Half-Baked Software, Windows, University of Victoria"></meta><title></title></head><body background="" bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#0000cc"><center><table border="0" cellpadding="5" cellspacing="1" width="85%"><tr><td align="center" bgcolor="#ffffff"><font size="+1" face="Geneva,Arial" color="#000033"><br></br></font></td></tr><tr><td bgcolor="#bbbbee"><font face="Geneva,Arial" size="-1" color="#000000">Imperfect vs. Preterit? <br /><br />Spanish has two past tenses, one is the PRETERIT and the other is the IMPERFECT. The word "imperfect" suggests that something is missing, specifically a well-defined beginning or end to the action. In other words, the imperfect tense is used to describe action in the past that began in the past and might still continue through the present time. We do not know when it began, nor do we know if/when it ended.<br /><br />The Spanish imperfect usually translates into English as "used to" or "would" for example: <br />When we were young we USED TO EAT cereal. (we may still eat cereal today)<br />As a child we WOULD EAT cereal. (we might still)<br />The imperfect can also be used as a past progressive, such as "They WERE EATING".<br /><br />In the sentence "As a child I lived in Chicago" the listener does not have enough information to determine when the speaker arrived in Chicago or when he/she left. It is possible that he/she still lives there. The general rule is that if you do not know when the action began or ended, it takes the imperfect. However, there are some cases in the past that almost always take the imperfect. Unless you have a clear beginning (incipient action), use the imperfect to describe the following in the past:<br /><br />Habitual action: Every summer we went [would go] to the beach-Todos los veranos \u00EDbamos a la playa.<br />Time in the past: It was 10:15. Eran las diez y quince.<br />Weather in the past: It was raining a lot--Llov\u00EDa mucho.<br />Age in the past: He was 21 years old--Ten\u00EDa 21.<br />Physical description in the past: They were tall--Eran altos. <br />Emotional description in the past: They were nervous--estaban nerviosos.<br />Background to a story in the past: There was a girl who lived in the woods-Hab\u00EDa una chica que viv\u00EDa en el bosque.<br />Action before interruption in the past: We were sleeping when the phone rang. Dorm\u00EDamos cuando son\u00F3 el tel\u00E9fono. (Notice that the interrupter is in the preterit).<br />Simultaneous action in the past: While you worked, I studied-Mientras t\u00FA trabajabas yo estudiaba.<br /><br />Meanwhile, the preterit is used for past events that happened once and at a very specific moment in time, such as "last night I went to the movies". The preterit is also used for incipient action, meaning action that we see begin, such as "the sun came out" as opposed to an imperfect weather statement such as "It was sunny yesterday". When action begins or ends (I met Felipe, she graduated from college, the class ended at 9:15) we use the preterit. Furthermore, when action is interrupted ("we were golfing when it started to rain") the verb that stops the action is in the preterit.</font></td></tr></table></center></body></html>';
+
+
+if (is.CRAPBrowser){ReadingText=ResolveAllURLs(ReadingText);}
+
+
+var NavBar='';
+
+
+NavBar+='<tr><form name="NavButtons1" action=""><td bgcolor="#000066" align="center">';
+NavBar+='<font face="Geneva,Arial" size="-1">';
+
+NavBar+='<input type="button" value="http://academics.vmi.edu/modlan_kbb/kbb/vmispanishdrills.htm" onclick="parent.GoBack()"></input>';
+
+
+
+NavBar+='</font></td></form></tr>';
+if (is.CRAPBrowser){NavBar=ResolveAllURLs(NavBar)};
+
+
+var TitleCode = '<tr><td align="center" valign="middle" bgcolor="#ffffff">';
+TitleCode += '<font size="+1" face="Geneva,Arial" color="#000033">' + ExerciseTitle + '</font><br />';
+TitleCode += '<font size="-1" face="Geneva,Arial" color="#000033">' + ExerciseSubtitle + '<br />';
+TitleCode += '</font></td></tr>';
+
+var QButtonsOpener = '<table border="0" width="85%" cellpadding="10">';
+QButtonsOpener += '<tr><td align="center" valign="middle"><form>';
+QButtonsOpener += '<font size="+1"><input type="button" value="&lt;=" onclick="parent.ChangeQ(-1)"></input>';
+var QButtonsCloser = '<input type="button" value="=&gt;" onclick="parent.ChangeQ(1)"></input>';
+QButtonsCloser += '</font></form></td></tr></table>';
+
+var TableOpener = '<form name="QForm">';
+TableOpener += '<table border="0" width="85%">';
+var QRow = '<tr><td valign="top" bgcolor="#bbbbee" align="right">';
+QRow += '<font size="+1" face="Geneva,Arial" color="#000000">[QNumber]</font></td>';
+QRow += '<td colspan="3" valign="top" bgcolor="#bbbbee"><font size="-1" face="Geneva,Arial" color="#000000">[Question]<br />&nbsp;';
+QRow += '</font></td></tr>';
+
+var ARow = '<tr><td></td><td valign="top" bgcolor="#bbbbee"><input type="text" value=" " size="3" name="FB_[QNum]_[ANum]"></input></td>';
+ARow += '<td valign="top" bgcolor="#bbbbee"><input type="button" value="[ALetter]" OnClick="parent.CheckAnswer([QNum],[ANum])"></input></td>';
+ARow += '<td width="100%" bgcolor="#bbbbee"><font size="-1" face="Geneva,Arial" color="#000000">[Ans]</font></td></tr>';
+
+var MARow = '<tr><td></td><td valign="top" bgcolor="#bbbbee" colspan="3"><input type="checkbox" name="A_[QNum]_[ANum]" value="[Correct]"></input>';
+MARow += '<font size="-1" face="Geneva,Arial" color="#000000">[Ans]</font></td></tr>';
+
+var CheckButton = '<tr><td></td><td valign="top" bgcolor="#bbbbee" ><input type="button" value="Check"';
+CheckButton += ' onclick="parent.CheckMulti([QNum])"></input></td></tr>';
+
+TableCloser = '</table></form>';
+
+function GoBack(){
+	var BackSkip = history.length - PreviousPage;
+	if (BackSkip > 0){
+		history.go((BackSkip+1)*-1);
+	}
+	else{
+		parent.history.back();
+	}
+}
+
+function ReduceItems(){
+	var ItemToDump=0;
+	var j=0;
+	while (I.length > QsToShow){
+		ItemToDump = Math.floor(I.length*Math.random());
+		for (j=ItemToDump; j<(I.length-1); j++){
+			I[j] = I[j+1];
+		}
+		I.length = I.length-1;
+	}
+}
+
+function Shuffle(InArray){
+	Temp = new Array();
+	var Len = InArray.length;
+
+	var j = Len;
+
+	for (var i=0; i<Len; i++){
+		Temp[i] = InArray[i];
+	}
+
+	for (i=0; i<Len; i++){
+		Num = Math.floor(j  *  Math.random());
+		InArray[i] = Temp[Num];
+
+		for (var k=Num; k < j; k++) {
+			Temp[k] = Temp[k+1];
+		}
+		j--;
+	}
+	return InArray;
+}
+
+function WriteFeedback(Feedback) {
+//Build the output string
+	var OutString = '';
+	OutString += '<html>';
+	OutString += '<body  background="" bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#0000cc">';
+	OutString += '<center><table border="0" cellpadding="5" cellspacing="1" width="85%">';
+	OutString += NavBar;
+	if (Feedback.length>0){
+		OutString += '<tr><td bgcolor="#bbbbee" align="center">'; 
+		OutString += '<font face="Geneva,Arial" size="-1" color="#000000">';
+		OutString += Feedback;
+		OutString += '</font></td></tr>'
+	}
+	OutString += '</table></center></body></html>';
+
+	if (is.CRAPBrowser){OutString=ResolveAllURLs(OutString);}
+
+//Write it to the frame
+	TopFrame.document.clear();
+	TopFrame.document.open();
+	TopFrame.document.write(OutString);
+	TopFrame.document.close();
+}
+
+function StartUp(){
+
+
+
+
+//Write the reading frame
+	ShowReading();
+
+
+
+//Reduce array if required
+	if (QsToShow < I.length){
+		ReduceItems();
+	}
+
+//Shuffle stuff if required
+
+	if (ShuffleQs == true){
+		I = Shuffle(I);
+	}
+
+	if (ShuffleAs == true){
+		for (var i=0; i<I.length; i++){
+			I[i][1] = Shuffle(I[i][1]);
+		}
+	}
+
+//Create arrays
+	CreateStatusArrays();
+
+
+
+//Show the first question or all of them
+	if (ShowOneByOne == false){
+		ShowAllQs();
+	}
+	else{
+		ShowQuestion(CurrQNum);
+	}
+
+//Write the top frame
+	WriteFeedback(Instructions);
+}
+
+
+I = new Array();
+
+I[0] = new Array();
+I[0][0]='Every Saturday you WENT downtown. <br />';
+I[0][1] = new Array();
+I[0][1][0] = new Array();
+I[0][1][0][0]='Preterit';
+I[0][1][0][1]='';
+I[0][1][0][2] = 0;
+I[0][1][1] = new Array();
+I[0][1][1][0]='Imperfect';
+I[0][1][1][1]='Correct. Habitually repeated action takes imperfect. Preterit would refer to just one instance.Todos los s&#225;bados &#237;bamos al centro.';
+I[0][1][1][2] = 1;
+I[0][2] = 0;
+
+I[1] = new Array();
+I[1][0]='Last night we ATE paella.';
+I[1][1] = new Array();
+I[1][1][0] = new Array();
+I[1][1][0][0]='Preterit';
+I[1][1][0][1]='Correct. Anoche COMIMOS la paella.<br />';
+I[1][1][0][2] = 1;
+I[1][1][1] = new Array();
+I[1][1][1][0]='Imperfect';
+I[1][1][1][1]='Incorrect This is a one time occasion and we know exactly when it happened.<br /><br />';
+I[1][1][1][2] = 0;
+I[1][2] = 0;
+
+I[2] = new Array();
+I[2][0]='As a child I WOULD GO to bed at 8:00.';
+I[2][1] = new Array();
+I[2][1][0] = new Array();
+I[2][1][0][0]='Preterit<br /><br />';
+I[2][1][0][1]='Incorrect. This is habitually repeated action without a set beginning or ending.';
+I[2][1][0][2] = 0;
+I[2][1][1] = new Array();
+I[2][1][1][0]='Imperfect<br />';
+I[2][1][1][1]='Correct. De nino yo ME ACOSTABA a las ocho.';
+I[2][1][1][2] = 1;
+I[2][2] = 0;
+
+I[3] = new Array();
+I[3][0]='It WAS 9:00 when they arrived home.';
+I[3][1] = new Array();
+I[3][1][0] = new Array();
+I[3][1][0][0]='Preterit';
+I[3][1][0][1]='Incorrect. Time in the past is imperfect.';
+I[3][1][0][2] = 0;
+I[3][1][1] = new Array();
+I[3][1][1][0]=' Imperfect';
+I[3][1][1][1]='Correct! Time in the past is imperfect. ERAN las nueve cuando ellos llegaron a casa.';
+I[3][1][1][2] = 1;
+I[3][2] = 0;
+
+I[4] = new Array();
+I[4][0]='It was 9:00 when THEY ARRIVED home.';
+I[4][1] = new Array();
+I[4][1][0] = new Array();
+I[4][1][0][0]='Preterit<br />';
+I[4][1][0][1]='Correct! They only arrived home once and we know exactly when it happened.';
+I[4][1][0][2] = 1;
+I[4][1][1] = new Array();
+I[4][1][1][0]='Imperfect<br />';
+I[4][1][1][1]='Incorrect. Eran las nueve cuando ellos LLEGARON a casa.';
+I[4][1][1][2] = 0;
+I[4][2] = 0;
+
+I[5] = new Array();
+I[5][0]='I WAS SLEEPING when the telephone rang.';
+I[5][1] = new Array();
+I[5][1][0] = new Array();
+I[5][1][0][0]='Preterit<br />';
+I[5][1][0][1]='Incorrect. Progressive action in the past ("ing") before interruption is imperfect.<br />';
+I[5][1][0][2] = 0;
+I[5][1][1] = new Array();
+I[5][1][1][0]='Imperfect<br />';
+I[5][1][1][1]='Yo DORMIA cuando son&#243; el tel&#233;fono.<br />Correct! Yo estaba durmiendo cuando son&#243; el tel&#233;fono.<br />';
+I[5][1][1][2] = 1;
+I[5][2] = 0;
+
+I[6] = new Array();
+I[6][0]='I was sleeping when the telephone RANG.';
+I[6][1] = new Array();
+I[6][1][0] = new Array();
+I[6][1][0][0]='Preterit';
+I[6][1][0][1]='Correct! Yo dorm&#237;a cuando SON&#211; el tel&#233;fono. The phone interrupted my sleep.';
+I[6][1][0][2] = 1;
+I[6][1][1] = new Array();
+I[6][1][1][0]='Imperfect<br />';
+I[6][1][1][1]='Incorrect Yo estaba durmiendo cuando son&#243; el tel&#233;fono.';
+I[6][1][1][2] = 0;
+I[6][2] = 0;
+
+I[7] = new Array();
+I[7][0]='My friend STUDIED while I was at a party.';
+I[7][1] = new Array();
+I[7][1][0] = new Array();
+I[7][1][0][0]='Preterit';
+I[7][1][0][1]='Incorrect In cases of simultaneous action in the past, both verbs are imperfect. Watch for the clue "mientras".';
+I[7][1][0][2] = 0;
+I[7][1][1] = new Array();
+I[7][1][1][0]='Imperfect<br />';
+I[7][1][1][1]='Correct! Mi amigo estudiaba mientras yo estaba en una fiesta.';
+I[7][1][1][2] = 1;
+I[7][2] = 0;
+
+I[8] = new Array();
+I[8][0]='We USED TO GO to school on a bus.';
+I[8][1] = new Array();
+I[8][1][0] = new Array();
+I[8][1][0][0]='Preterit<br />';
+I[8][1][0][1]='"Used to" verbs suggest repeated/habitual action and they are imperfect.';
+I[8][1][0][2] = 0;
+I[8][1][1] = new Array();
+I[8][1][1][0]='Imperfect<br />';
+I[8][1][1][1]='Correct! Ibamos a la escuela por autob&#250;s.';
+I[8][1][1][2] = 1;
+I[8][2] = 0;
+
+I[9] = new Array();
+I[9][0]='When you WERE 5 you lived with your parents.';
+I[9][1] = new Array();
+I[9][1][0] = new Array();
+I[9][1][0][0]='Preterit<br />';
+I[9][1][0][1]='Incorrect. Age in the past is always imperfect.';
+I[9][1][0][2] = 0;
+I[9][1][1] = new Array();
+I[9][1][1][0]='Imperfect<br />';
+I[9][1][1][1]='Correct! Cuando TENIAS 5 viv&#237;as con tus padres.';
+I[9][1][1][2] = 1;
+I[9][2] = 0;
+
+I[10] = new Array();
+I[10][0]='My grandmother WAS NAMED Eva.';
+I[10][1] = new Array();
+I[10][1][0] = new Array();
+I[10][1][0][0]='Preterit<br />';
+I[10][1][0][1]='Incorrect. There is neither a beginning nor an end to the action, so it is imperfect.';
+I[10][1][0][2] = 0;
+I[10][1][1] = new Array();
+I[10][1][1][0]='Imperfect<br />';
+I[10][1][1][1]='Correct! Me abuela se llamaba Eva.';
+I[10][1][1][2] = 1;
+I[10][2] = 0;
+
+I[11] = new Array();
+I[11][0]='After school I always DID my homework.';
+I[11][1] = new Array();
+I[11][1][0] = new Array();
+I[11][1][0][0]='Preterit';
+I[11][1][0][1]='Incorrect. "Siempre"suggests habitual behavior so it is imperfect.';
+I[11][1][0][2] = 0;
+I[11][1][1] = new Array();
+I[11][1][1][0]='Imperfect<br />';
+I[11][1][1][1]='Correct! Despu&#233;s de la escuela, yo siempre hac&#237;a mi tarea.';
+I[11][1][1][2] = 1;
+I[11][2] = 0;
+
+I[12] = new Array();
+I[12][0]='It WAS cold yesterday.';
+I[12][1] = new Array();
+I[12][1][0] = new Array();
+I[12][1][0][0]='Preterit';
+I[12][1][0][1]='Incorrect. Weather in the past is imperfect unless it is incipient.<br />';
+I[12][1][0][2] = 0;
+I[12][1][1] = new Array();
+I[12][1][1][0]='Imperfect';
+I[12][1][1][1]='Correct! Hac&#237;a mucho fr&#237;o ayer. <br />';
+I[12][1][1][2] = 1;
+I[12][2] = 0;
+
+I[13] = new Array();
+I[13][0]='Yesterday we SAW a movie.';
+I[13][1] = new Array();
+I[13][1][0] = new Array();
+I[13][1][0][0]='Preterit';
+I[13][1][0][1]='Correct! Ayer vimos una pelicula. ';
+I[13][1][0][2] = 1;
+I[13][1][1] = new Array();
+I[13][1][1][0]='Imperfect';
+I[13][1][1][1]='It only happened once so it is preterit.';
+I[13][1][1][2] = 0;
+I[13][2] = 0;
+
+
+Status = new Array();
+
+
+function CreateStatusArrays(){
+	for (var x=0; x<I.length; x++){
+		Status[x] = new Array();
+		Status[x][0] = 0; // Question not done yet
+		Status[x][1] = new Array(); //for tracking whether answers chosen
+		for (var y=0; y<I[x][1].length; y++){
+			Status[x][1][y] = '0'; //Answers not chosen yet
+		}
+		Status[x][2] = 0; //Wrong tries at this question so far
+		Status[x][3] = 0; //For storing score out of one on this question
+	}
+}
+
+function UpdateQuestionStatus(QNum){
+	if (Status[QNum][2] >= Status[QNum][1].length-1){
+		Status[QNum][0] = 1;
+		for (var i=0; i<Status[QNum][1].length; i++){
+			if (Status[QNum][1][i] == '0'){
+				Status[QNum][1][i] = 'R';
+			}
+		}
+	}
+}
+
+function ReplaceStuff(Token, Replacement, InString){
+	var i = InString.indexOf(Token);
+	var FirstBit = '';
+	var LastBit = '';
+	while (i>-1){
+		FirstBit = InString.substring(0, i);
+		LastBit = InString.substring(i + Token.length, InString.length);	
+		InString = FirstBit + Replacement + LastBit;
+		i = InString.indexOf(Token);
+	}
+	return InString;
+}
+
+function ChangeQ(ChangeBy){
+	var NewNum = CurrQNum + ChangeBy;
+	if ((NewNum >= 0)&&(NewNum<I.length)){
+		CurrQNum = NewNum;
+		ShowQuestion(CurrQNum);
+	}
+	var CurrScore = '';
+	if ((ContinuousScoring == true)&&(EraseFeedback == true)){
+		CalculateScore();
+		var CurrScore = YourScoreIs + ' ' + Score + '%.';
+		WriteFeedback(CurrScore);
+	}
+}
+
+function BuildQuestion(QNum){
+	if (I[QNum][2] == 0){
+		var Temp = ReplaceStuff('[Question]', I[QNum][0], QRow);
+
+		var AnsRows = '';
+		for (var i=0; i<I[QNum][1].length; i++){
+			TempAns = ARow;
+			TempAns = ReplaceStuff('[ANum]', i, TempAns);
+			TempAns = ReplaceStuff('[ALetter]', ' ' + ALetters.charAt(i) + ' ', TempAns);
+			TempAns = ReplaceStuff('[Ans]', I[QNum][1][i][0], TempAns);
+			AnsRows += TempAns;
+		}
+		Temp += AnsRows;
+		Temp = ReplaceStuff('[QNumber]', QNum+1, Temp);
+		Temp = ReplaceStuff('[QNum]', QNum, Temp);
+	}
+	else{
+		var Temp = ReplaceStuff('[Question]', I[QNum][0], QRow);
+		var AnsRows = '';
+		for (var i=0; i<I[QNum][1].length; i++){
+			TempAns = MARow;
+			TempAns = ReplaceStuff('[ANum]', i, TempAns);
+			TempAns = ReplaceStuff('[Correct]', I[QNum][1][i][2], TempAns);
+			TempAns = ReplaceStuff('[Ans]', I[QNum][1][i][0], TempAns);
+			AnsRows += TempAns;
+		}
+		Temp += AnsRows;
+		Temp += CheckButton;
+		Temp = ReplaceStuff('[QNumber]', QNum+1, Temp);
+		Temp = ReplaceStuff('[QNum]', QNum, Temp);
+	}
+	return Temp;
+}
+
+function DisplayExercise(StuffToDisplay){
+//Build the output string
+	var OutString = '';
+	OutString += '<html>';
+	OutString += '<body  background="" bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#0000cc">';
+	OutString += '<center><table border="0" cellpadding="5" cellspacing="1" width="85%">';
+	OutString += TitleCode; 
+	OutString += '<tr><td bgcolor="#bbbbee" align="center">'; 
+	OutString += '<font face="Geneva,Arial" size="-1">';
+	OutString += StuffToDisplay;
+	OutString += '</font></td></tr>';
+	OutString += NavBar;
+	OutString += '</table></center></body></html>';
+
+	if (is.CRAPBrowser){OutString=ResolveAllURLs(OutString);}
+
+//Write it to the frame
+	BottomFrame.document.clear();
+	BottomFrame.document.open();
+	BottomFrame.document.write(OutString);
+	BottomFrame.document.close();
+}
+
+
+function ShowAllQs(){
+	var Output = '';
+	for (var i=0; i<I.length-1; i++){
+		Output = Output + BuildQuestion(i);
+		Output = Output + '<tr><td colspan="4"><hr></hr></td></tr>';
+	}
+	Output = Output + BuildQuestion(I.length-1);
+	Output = TableOpener + Output + TableCloser;
+	DisplayExercise(Output);
+}
+
+function ShowQuestion(QNum){
+//First, create the Q number readout at the top
+	var Readout = (QNum+1) + '/' + I.length;
+	while (Readout.length < 7){
+		Readout = ' ' + Readout + ' ';
+	}
+	Readout = QButtonsOpener + Readout + QButtonsCloser;
+
+	var Output = BuildQuestion(QNum);
+
+	Output = TableOpener + Output + TableCloser;
+
+	DisplayExercise(Readout + Output);
+
+//Mark the answers already done
+	for (i=0; i<Status[QNum][1].length; i++){
+		if (Status[QNum][1][i] == 'R'){
+			MarkAnswer(QNum,i,true)
+		}
+		if (Status[QNum][1][i] == 'W'){
+			MarkAnswer(QNum,i,false)
+		}
+		if (Status[QNum][1][i] == 'C'){
+			CheckCheckbox(QNum,i);
+		}
+	}
+//Eliminate feedback from previous question
+	if (EraseFeedback == true){
+		WriteFeedback('');
+	}
+}
+
+function CheckMulti(QNum){
+	var TotWrong = 0;
+	var Output = '';
+	var TotAns = I[QNum][1].length;
+	for (var i=TotAns-1; i>=0; i--){
+//Find any incorrect choices
+
+		var b = eval('BottomFrame.document.QForm.A_' + QNum + '_' + i);
+
+		if (b != null){
+//if it's wrong, count it
+			if (b.checked == true){
+				Status[QNum][1][i] = 'C';
+			}
+			else{
+				Status[QNum][1][i] = 'U';
+			}
+			if (((b.checked == true) && (b.value == "0"))||((b.checked == false)&&(b.value == "1"))){
+				TotWrong++;
+			}
+		}				
+	}
+
+	if (TotWrong == 0){
+		Output = DefaultRight;
+	}
+	else{
+		Output = DefaultWrong + '<br />' + (TotAns-TotWrong) + '/' + TotAns;
+	}
+
+//If you haven't tried the question before
+	if (Status[QNum][0] == 0){
+		if (TotWrong > 0){
+			Status[QNum][2]++;
+		}
+		if (TotWrong == 0){
+			Status[QNum][0] = 1;
+//Calculate the score for this question as a floating-point fraction of 1
+			Status[QNum][3] =  ((Status[QNum][1].length - Status[QNum][2]) - 1) / (Status[QNum][1].length - 1);
+//If less than zero, set to zero
+			if (Status[QNum][3] < 0){Status[QNum][3] = 0;}
+		}
+	}
+
+//Check whether the quiz is finished
+	var Finished = true;
+	for (var i=0; i<Status.length; i++){
+		if (Status[i][0] == 0){Finished = false;}
+	}
+
+//Calculate the score if needed
+		
+	if (Status[QNum][0] == 1){
+		if ((Finished==true)||(ContinuousScoring==true)){
+			CalculateScore();
+			Output = Output + '<br />' + YourScoreIs + ' ' + Score + '%.';
+		}
+
+		if (Finished == true){
+			EraseFeedback = false;
+			var CFT = 0;
+			for (i=0; i<I.length; i++){
+				if (Status[i][2] == 0){
+					CFT++;
+				}
+			}
+		Output += '<br />' + CorrectFirstTime + CFT + '/' + I.length;
+
+		}
+	}
+
+//Show the feedback
+	if (Output.length > 0){
+		WriteFeedback(Output);
+	}
+
+}
+
+function CheckAnswer(QNum, ANum){
+	var Output = I[QNum][1][ANum][1];
+
+	if (Output==''){
+		if (I[QNum][1][ANum][2] == 1){
+			Output = DefaultRight;
+		}
+		else{
+			Output = DefaultWrong;
+		}
+	}
+
+//If it's not been previously answered correctly
+	if (Status[QNum][0] == 0){
+//If it's a correct answer
+		if (I[QNum][1][ANum][2] == 1){
+			Status[QNum][0] = 1;//Mark the Q as done
+			Status[QNum][1][ANum] = 'R';
+			MarkAnswer(QNum, ANum, true);
+//Calculate the score for this question as a floating-point fraction of 1
+			var PossibleWrongs = 0;
+			for (var i=0; i<I[QNum][1].length; i++){
+				if (I[QNum][1][i][2] == 0){
+					PossibleWrongs++;
+				}
+			}
+
+			if (PossibleWrongs == 0){PossibleWrongs = 1;}
+
+			Status[QNum][3] = 1 - (Status[QNum][2]/PossibleWrongs);
+
+//If less than zero, set to zero
+			if (Status[QNum][3] < 0){Status[QNum][3] = 0;}
+		}
+		else{
+			if (Status[QNum][1][ANum] != 'W'){
+				Status[QNum][1][ANum] = 'W';
+				MarkAnswer(QNum, ANum, false);
+				Status[QNum][2]++; //increment wrong tries for this Q
+			}
+		}
+	}
+
+	UpdateQuestionStatus(QNum);
+
+//Check whether the quiz is finished
+	var Finished = true;
+	for (var i=0; i<Status.length; i++){
+		if (Status[i][0] == 0){Finished = false;}
+
+	}
+
+//Calculate the score if needed
+		
+	if (Status[QNum][0] == 1){
+		if ((Finished==true)||(ContinuousScoring==true)){
+			CalculateScore();
+			Output = Output + '<br />' + YourScoreIs + ' ' + Score + '%.';
+		}
+
+		if (Finished == true){
+			EraseFeedback = false;
+			var CFT = 0;
+			for (i=0; i<I.length; i++){
+				if (Status[i][2] == 0){
+					CFT++;
+				}
+			}
+		Output += '<br />' + CorrectFirstTime + CFT + '/' + I.length;
+
+		}
+	}
+
+//Show the feedback
+	if (Output.length > 0){
+		WriteFeedback(Output);
+	}
+}
+
+function CalculateScore(){
+	var TriedQs = 0;
+	var TotalScore = 0;
+	for (var i=0; i<Status.length; i++){
+		if ((Status[i][2] > 0)||(Status[i][3] == 1)){
+			TriedQs++;
+			TotalScore += Status[i][3];
+		}
+	}
+	if (TriedQs == 0){
+		Score = 0;
+	}
+	else{
+		Score = (Math.floor(100 * (TotalScore/TriedQs)));
+	}
+}
+
+function MarkAnswer(QNum, ANum, Right){
+	var Mark = CorrectIndicator;
+	if (Right == false){Mark = IncorrectIndicator;}
+
+	if (eval('BottomFrame.document.QForm.FB_' + QNum + '_' + ANum) != null){
+		eval('BottomFrame.document.QForm.FB_' + QNum + '_' + ANum).value = Mark;
+	}
+}
+
+function CheckCheckbox(QNum, ANum){
+	if (eval('BottomFrame.document.QForm.A_' + QNum + '_' + ANum) != null){
+		eval('BottomFrame.document.QForm.A_' + QNum + '_' + ANum).checked = true;
+	}
+}
+
+
+function ShowReading(){
+	if (ReadingFrame != null){
+		if (ReadingURL.length > 0){
+			ReadingFrame.location.href=ReadingURL;
+		}
+		else{
+			ReadingFrame.document.clear();
+			ReadingFrame.document.open();
+			ReadingFrame.document.write(ReadingText);
+			ReadingFrame.document.close();
+		}
+	}
+}
+
+
+
+
+
+
+function Blank(){
+	return '<html><body>&copy;Half-Baked Software. Loading...</body></html>';
+}
+
+//-->
+
+//]]>
+
+</script> 
+ </head> 
+ <!--<body>Fool those dumb ad-inserting ISPs</body>--> 
+ <!--For full XHTML 1.0 compatibility, remove the border and framespacing attributes.
+These are required for proper display in current browsers, but render the document incompatible. Then, you'll need to add the appropriate Document Type Declaration; use
+the W3C XHTML 1 frameset DTD.--> 
+ <frameset cols="50%,50%" framespacing="0" border="0"> 
+  <frameset rows="25%,*" onload="StartUp()" framespacing="0" border="0"> 
+   <frame src="javascript:parent.Blank()" frameborder="0" name="TopFrame"> 
+   <frame src="javascript:parent.Blank()" frameborder="0" name="BottomFrame"> 
+  </frameset> 
+  <frame src="javascript:parent.Blank()" frameborder="0" name="ReadingFrame"> 
+ </frameset>  
+</html>

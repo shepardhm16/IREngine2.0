@@ -1,0 +1,91 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-Language" content="en-us"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+  <meta name="GENERATOR" content="Microsoft FrontPage 4.0"> 
+  <meta name="ProgId" content="FrontPage.Editor.Document"> 
+  <title>Send a Suggestion</title> 
+  <link rel="stylesheet" href="http://library.vmi.edu/screens/styles.css" type="TEXT/CSS"> 
+ </head> 
+ <body> 
+  <div align="center"> 
+   <center> 
+    <table border="0" cellpadding="2" cellspacing="0" width="100%"> 
+     <tbody>
+      <tr> 
+       <td width="100%"> <h1>Send a Suggestion</h1> </td> 
+      </tr> 
+      <tr> 
+       <td width="100%"> 
+        <hr> </td> 
+      </tr> 
+      <tr> 
+       <td width="100%">Please complete the form below to e-mail a suggestion, comment, or question.</td> 
+      </tr> 
+      <tr> 
+       <td width="100%"> 
+        <hr> </td> 
+      </tr> 
+      <tr> 
+       <td width="100%"> 
+        <form method="POST" action="_vti_bin/shtml.dll/Library_Suggestion_Form.htm" webbot-action="--WEBBOT-SELF--"> 
+         <!--webbot bot="SaveResults" U-File="../_private/form_results.txt"
+          S-Format="TEXT/CSV" S-Label-Fields="TRUE" B-Reverse-Chronology="FALSE"
+          S-Email-Format="TEXT/PRE" B-Email-Label-Fields="TRUE"
+          B-Email-ReplyTo-From-Field="TRUE" S-Email-ReplyTo="Email"
+          B-Email-Subject-From-Field="FALSE"
+          S-Email-Subject="Suggestion for the Library" S-Builtin-Fields
+          S-Form-Fields="Name Email Phone Subject Reply Suggestion "
+          S-Email-Address="SamdahlDH@vmi.edu" startspan -->
+         <input type="hidden" name="VTI-GROUP" value="0">
+         <!--webbot bot="SaveResults" i-checksum="43374" endspan --> 
+         <div align="center"> 
+          <table border="0" cellpadding="2" cellspacing="0" width="100%"> 
+           <tbody>
+            <tr> 
+             <td align="right">Name:</td> 
+             <td><input type="text" name="Name" size="30"></td> 
+            </tr> 
+            <tr> 
+             <td align="right">Email:</td> 
+             <td><input type="text" name="Email" size="30"></td> 
+            </tr> 
+            <tr> 
+             <td align="right">Phone:</td> 
+             <td><input type="text" name="Phone" size="30"></td> 
+            </tr> 
+            <tr> 
+             <td align="right">Subject:</td> 
+             <td><input type="text" name="Subject" size="30"></td> 
+            </tr> 
+            <tr> 
+             <td></td> 
+             <td></td> 
+            </tr> 
+            <tr> 
+             <td width="100%" colspan="2">Do you want a reply?&nbsp;&nbsp;&nbsp;&nbsp; Yes<input type="radio" value="yes" name="Reply">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No<input type="radio" value="no" name="Reply"></td> 
+            </tr> 
+            <tr> 
+             <td width="100%" colspan="2"></td> 
+            </tr> 
+            <tr> 
+             <td width="100%" colspan="2">Your suggestion, comment, or question: <p><textarea rows="5" name="Suggestion" cols="60"></textarea></p></td> 
+            </tr> 
+           </tbody>
+          </table> 
+         </div> 
+         <p><input type="submit" value="Submit" name="B1">&nbsp; <input type="reset" value="Clear Form" name="B2"></p> 
+        </form> <p>&nbsp;</p></td> 
+      </tr> 
+      <tr> 
+       <td width="100%"></td> 
+      </tr> 
+      <tr> 
+       <td width="100%"></td> 
+      </tr> 
+     </tbody>
+    </table> 
+   </center> 
+  </div>   
+ </body>
+</html>

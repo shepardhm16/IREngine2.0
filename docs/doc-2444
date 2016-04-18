@@ -1,0 +1,631 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	VMI History and Cadet Life.  Letters, Diaries, Manuscripts.
+</title>
+  <link rel="shortcut icon" href="../../../master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="../../../royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="../../../royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="../../../App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="VMI, History, Archives, cadet, life, education, schools, colleges, 19th, 20th, century, letters, diaries, manuscripts,">
+  <meta name="Description" content="VMI History and Cadet Life.  Letters, Diaries, Manuscripts.  A Guide to the collections in the VMI Archives, with links to full text">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/Archives/Manuscripts/VMI_History___Cadet_Life/" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYGHwAFD1NlYXJjaCBBcmNoaXZlcx4IQ3NzQ2xhc3MFDHNlYXJjaC1pbnB1dB4EXyFTQgICFgQeB29uRm9jdXMFhwFpZih0aGlzLnZhbHVlPT0nU2VhcmNoIEFyY2hpdmVzJyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVSaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J1NlYXJjaCBBcmNoaXZlcycpe3RoaXMudmFsdWU9J1NlYXJjaCBBcmNoaXZlcyc7fWQCAw8QZBAVAw9BbGwgQ29sbGVjdGlvbnMbTGltaXQgdG8gSGlzdG9yaWNhbCBSb3N0ZXJzFExpbWl0IHRvIFBob3RvZ3JhcGhzFQMIQXJjaGl2ZXMRSGlzdG9yaWNhbFJvc3RlcnMGUGhvdG9zFCsDA2dnZ2RkAg8PDxYCHgdWaXNpYmxlaGRkAhMPZBYEAgEPDxYCHwdnZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfB2cWAgIBDw8WAh8CBSsvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvYXJjaGl2ZXMuanBnZGRkl6xaGCOksFh7O1bjzEd/TppXZe9bSxLJPYJ2y4Hri70="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B5C8BA68"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAZG77Sam4BVkFAG+6XTvMwTg7Z1sS2zTNHf3/IxWgcxRNK/Bb7dRnXMHcV4KdvAwZlzhGcTY0LytLiH7YGMBTTk6fQpseJW4epV6INC3gARyZC47k7s8MZ7bMuDhFm7GCxTw1QTL4f5dUwnNE/qkAIr12IktdTW8cYQG7oMUeKXJQ=="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="Search Archives" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='Search Archives'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='Search Archives'){this.value='Search Archives';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter"> <option value="Archives">All Collections</option> <option value="HistoricalRosters">Limit to Historical Rosters</option> <option value="Photos">Limit to Photographs</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+        <li><a href="/Archives/Digital_Collections_Site_Related/Digital_Collections_Overview/" target="_self">Digital Collections</a></li>
+        <li><a href="http://archivesspace.vmi.edu/" target="_blank">Archives Online Catalog</a></li>
+        <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">Quick Info: FAQs</a></li>
+        <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+        <li><a href="/Archives/Jackson/Stonewall_Jackson_Home/" target="_self">Stonewall Jackson</a></li>
+        <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+        <li><a href="/Archives/Images/Photos___Portraits_Home/" target="_self">Photos &amp; Portraits</a></li>
+        <li class="selected"><strong><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Letters, Diaries, Manuscripts</a></strong>
+         <ul>
+          <li class="selected"><strong><a href="/Archives/Manuscripts/VMI_History___Cadet_Life/" target="_self">VMI History &amp; Cadet Life</a></strong></li>
+          <li><a href="/Archives/Manuscripts/Civil_War_Manuscripts/" target="_self">Civil War Manuscripts</a></li>
+          <li><a href="/Archives/Manuscripts/Military_History_Manuscripts/" target="_self">Military History Manuscripts</a></li>
+          <li><a href="/Archives/Manuscripts/Local_History_Manuscripts/" target="_self">Local History Manuscripts</a></li>
+          <li><a href="/Archives/Manuscripts/Faculty___Alumni_Papers/" target="_self">Faculty &amp; Alumni Papers</a></li>
+         </ul></li>
+        <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Digital Exhibits Home</a></li>
+        <li><a href="http://digitalcollections.vmi.edu/cdm/landingpage/collection/p15821coll13" target="_blank">Military Oral History</a></li>
+        <li><a href="/Archives/Records/Official_Institute_Records_Home/" target="_self">VMI Records</a></li>
+        <li><a href="/Archives/Records/Records_Management/Records_Management/" target="_self">Records Management</a></li>
+        <li><a href="/Archives/About_the_VMI_Archives/About_the_VMI_Archives/" target="_self">About the Archives</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft3715">
+         Mary Laura Kludy
+        <br>Archives Assistant
+        <br>Ph: (540) 464-7516
+        <br>Fax: (540) 464-7089
+        <br>
+        <a title="archives@vmi.edu" href="mailto:archives@vmi.edu">archives@vmi.edu</a>
+        <br>Preston Library
+        <br>Lexington, Virginia 24450
+        <br>
+        <a title="Hours &amp; Visitor Info" href="/Archives/About_the_VMI_Archives/Hours___Visitor_Info/">Hours &amp; Visitor Info</a> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/archives/home/" title="">Archives</a> &gt; <a target="_self" href="/Archives/Manuscripts/Manuscripts_Home/" title="">Manuscripts</a> &gt; VMI History &amp; Cadet Life</span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner"> 
+       <div id="sectionBranding"> 
+        <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/archives.jpg" style="width:700px;"> 
+        <hr> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column"> 
+       <h1>Letters, Diaries, &amp; Manuscripts<br>VMI History and Cadet Life</h1> 
+       <p><strong>About this list:&nbsp; </strong>This brief guide is made available for researchers who want to quickly browse manuscripts relating to the VMI History and Cadet Life.&nbsp;&nbsp; For in-depth information about these and all manuscript holdings, please consult the <strong><a target="_blank" href="http://archivesspace.vmi.edu" title="VMI Archives Catalog ">VMI Archives Catalog </a>.&nbsp;</strong>The catalog contains detailed descriptive records and links to online access when available, and is the best tool for searching our manuscripts holdings.&nbsp; Collections which are available online are designated in this list with<font color="#ff0000"> Online Access</font></p> 
+       <p>For other sections of the brief guide series see: <a href="/archives.aspx?id=3723" title="Manuscripts Home"><strong>Letters, Diaries, &amp; Manuscripts Home</strong></a></p> 
+       <table cellspacing="2" cellpadding="0" border="0" bgcolor="#c0c0c0" align="center" style="width: 100%;"> 
+        <tbody> 
+         <tr> 
+          <td><strong>Jump to:</strong></td> 
+          <td><a href="#1851-1860" title="1851-1860">1851-1860</a></td> 
+          <td><a href="#1861-1865" title="1861-1865">1861-1865</a></td> 
+          <td><a href="#1866-1869" title="1866-1869">1866-1869</a></td> 
+          <td><a href="#1870's" title="1870's">1870's</a></td> 
+          <td><a href="#1880's" title="1880's">1880's</a></td> 
+          <td><a href="#1890's" title="1890's">1890's</a></td> 
+         </tr> 
+         <tr> 
+          <td><a href="#1900-1919" title="1900-1919">1900-1919</a></td> 
+          <td><a href="#1920's" title="1920's">1920's</a></td> 
+          <td><a href="#1930's" title="1930's">1930's</a></td> 
+          <td><a href="#1940's" title="1940's">1940's</a></td> 
+          <td><a href="#1950's" title="1950's">1950's</a></td> 
+          <td><a href="#1960's_to_date" title="1960's to date">1960's to date</a></td> 
+          <td><a href="#All_eras" title="All eras">All eras</a></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+       <br>
+       <h3>For detailed descriptive information about all of our manuscript holdings, <br>please consult the <a target="_blank" href="http://archivesspace.vmi.edu" title="VMI Archives Catalog ">VMI Archives Catalog </a></h3> 
+       <br>
+       <p><strong><a id="1839-1851" class="bookmark" title="1839-1851" name="1839-1851"></a>Cadet Life, 1839-1851</strong></p> 
+       <ul class="arrowlist"> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/303" title="Brown, Alexander S., &nbsp;letters">Brown, Alexander S., &nbsp;letters</a> (MS 0217) </strong><br>Two letters from Washington College student Alexander S. Brown to his sister, dated 1846 September 20 &amp; 1848 September 7. The 1846 letter mentions the Cincinnati military class, in which Washington College students participated in military training conducted by VMI staff.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/242" title="Bowyer, John P.,&nbsp;letter of recommendation">Bowyer, John P.,&nbsp;letter of recommendation</a> (MS 0162)</strong><br><em>Biographical note</em>: John Preston Bowyer, b. ca. 1829; VMI Class of 1849; served with U.S. Volunteers in Mexican War; d. 1849, at sea, while in route to California. Descriptive note: One letter (September 18, 1847) from VMI Superintendent Francis H. Smith to Gen. E.C. Carrington, recommending an army commission for John P. Bowyer. Bowyer had volunteered for service in the Mexican War, in which he subsequently served.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/242" title="Campbell, Nathaniel H.,&nbsp;letter">Campbell, Nathaniel H.,&nbsp;letter</a> (MS 0191)</strong><br><em>Biographical note</em>: Nathaniel Henry Campbell, b. 1824 Bedford Co., VA; VMI Class of 1843; lawyer and banker; d. 1867 Bedford, VA. Descriptive note: One letter (1841 May 27) from VMI Cadet Nathaniel H. Campbell to Congressman William L. Goggin. Campbell requests Goggin's assistance in obtaining a position in the army.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/236" title="Cary, John M.,&nbsp;papers">Cary, John M.,&nbsp;papers</a> (MS 0156) </strong><br><em>Biographical note</em>: John Mathews Cary, b. 1829 Lewisburg, West Virginia; VMI Class of 1848; teacher and engineer; d. 1853, Lewisburg. Descriptive note: Papers, 3 items, of John M. Cary, consisting of appointment to a state cadetship at VMI (July 1845); Cary's letter of acceptance (July 8, 1845); and one letter of recommendation by Board of Visitors member William H. Terrill, dated Sept. 19, 1849. Cary had served as a tutor for Terrill's children.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/600" title="Derby, Charles A.,&nbsp;Papers">Derby, Charles A.,&nbsp;Papers</a> (MS 0030)&nbsp; </strong><font color="#ff0000">Online Access</font> Selected Papers<br><em>Collection summary</em>: Correspondence and other papers (ca. 60 items) of Charles A. Derby (VMI Class of 1848) of Dinwiddie County, Virginia. In 1848, Derby began a career in education which included teaching positions at various schools in Virginia and Alabama. In 1854 entered Episcopal ministry; took charge of St. Peter's Church, Lowndes County, Alabama. Joined 44th Alabama Infantry Regiment in 1862; killed September 17, 1862 at Battle of Antietam (Md.)Bulk of papers consist of Derby family correspondence (42 letters), including 25 letters written by Charles Derby. Six letters were written from VMI (1846-1847); others date from his career as a teacher &amp; clergyman in Alabama and from his CSA service. Also drawings and misc. other items.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/150" title="&nbsp;Dorman, Charles P.,&nbsp;Papers ">Dorman, Charles P.,&nbsp;Papers </a>(MS 0066) </strong><br><em>Biographical note</em>: Gen. Charles P. Dorman, b. 1794, Lexington, VA.; lawyer; member, Virginia legislature; instrumental in gaining passage of bill creating VMI; VMI Board of Visitors, 1839-1848; Brig. Gen. Virginia Militia; d. 1849 near Lexington. Descriptive note: Papers (approx 60 items) consist of letters to Dorman in his capacity as attorney; documents regarding the settlement of his estate by executor William C. Lewis; contemporary copy of the legislative bill establishing VMI.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/619" title="Early, John F., &nbsp;Papers">Early, John F., &nbsp;Papers</a> (MS 0012) </strong><font color="#ff0000">Online Access</font> Selected Diary Entries<br>Five letters and a one volume diary-notebook kept by Cadet Early (b. 1830 d. 1894) during the two years he attended VMI, 1848-1850.&nbsp; Documents late 1840's cadet life.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/151" title="Fitzhugh, Philip A.,&nbsp;Papers">Fitzhugh, Philip A.,&nbsp;Papers</a> (MS 0067) </strong><br><em>Biographical note</em>: Philip A. Fitzhugh, b. 1824, Middlesex Co., VA.; graduate, Virginia Military Institute Class of 1846; physician; CSA veteran; d. 1908 Northampton, Co., VA. Descriptive note: Misc. papers, most dating from cadetship. Include 6 letters from Fitzhugh to his brother, containing many references to cadet life (graduation; hazing "plebes"; death of Henry C. Reid, Class of 1846; Washington College students, called "minks"); handwritten issue of a cadet newspaper called "The Royal Caroline," dated March 21, 1846; VMI letter of appointment and 2 grade reports; invitation to Society of Cadets meeting; medical school speech; letter to Fitzhugh from Henry T. Lee regarding Daniel Lee Powell, VMI Class of 1844.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/380" title="Gatewood, Robert, &nbsp;notebook-diary">Gatewood, Robert, &nbsp;notebook-diary</a> (MS 0300) </strong><br><em>Biographical note</em>: Robert Gatewood, b 1829; VMI Class of 1849; educator, Episcopal clergyman, Principal of Norfolk (VA) Academy; d. 1909. Descriptive note: Manuscript notebook-diary (1849-1853) of Robert Gatewood. Entries include original and copied poetry dating from his last year at VMI; essays; diary entries dating from period 1851-1853, written while Gatewood was teaching at the College of William and Mary. Diary entries and notes frequently have a religious theme.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/696" title="Gibbons, Simeon., Notebook">Gibbons, Simeon., Notebook</a> (MS 0046) </strong><br>One volume commonplace book which belonged to Cadet Gibbons (Class of 1852), containing notes, poetry, lists and misc. other writing, 1849-1852.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/187" title="Gibbs, Philip C.,&nbsp;notebook">Gibbs, Philip C.,&nbsp;notebook</a> (MS 0106). </strong><br><em>Biographical note</em>: Philip Cromwell Gibbs, b. 1831; graduate VMI Class of 1851; teacher and merchant; died 1859, Booneville, Missouri. Descriptive note: Notebook (ca. 145 pages) reflecting cadet life 1848-1851. Includes accounts of Corps trips to Richmond, Petersburg, Norfolk and Rockbridge Alum Springs; cadet poetry and essays; addresses delivered before the Cadet Dialectic Society (a cadet debating society); discussion of exams (1851) in English and Natural Philosophy; an account of "An Oyster Supper---A Frolic After Taps"; and an account of "our last bible recitation," in which Gibbs describes the last session of his cadetship with Superintendent Francis H. Smith.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/226" title="Green, William J.,&nbsp;letter">Green, William J.,&nbsp;letter</a> (MS 0155)</strong><br><em>Biographical note</em>: William James Green, b. 1825 Falmouth, Virginia; VMI Class of 1846; farmer and merchant; Lt. Col., 47th Virginia Infantry Regiment, CSA; killed in action at Cold Harbor, 1862. Descriptive note: One letter (September 10, 1843) from Cadet Green to his father. Green describes, in detail, the Corps' march to Rockbridge Alum, Warm, Hot, and White Sulphur Springs.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/548" title="Moncure, Thomas J.,&nbsp;letter">Moncure, Thomas J.,&nbsp;letter</a> (MS 0468)&nbsp; </strong><font color="#ff0000">Online Access</font><br>Sept. 1849 letter from Cadet Thomas J. Moncure (VMI Class of 1853) to his father, William A. Moncure, written while he was a fourth classman ("rat") at VMI.&nbsp;</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/185" title="Pitzer, Eliza L.,&nbsp;letter.">Pitzer, Eliza L.,&nbsp;letter.</a> (MS 0114) </strong><br><em>Biographical note</em>: Eliza Lewis Pitzer (dates unknown), of Roanoke Co., VA, daughter of Andrew Lewis and Jane McClanahan; mother of Andrew Lewis Pitzer, b. 1827 Roanoke Co., VA; VMI Class of 1848; Maj. 2nd Virginia Cavalry, CSA; farmer; married Martha Walton, 1849; d. 1896 Roanoke VA.Descriptive note: One letter from Eliza L. Pitzer to her son, VMI Cadet Andrew L. Pitzer, dated November 25, 1845. She discusses news from home, family and personal matters.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/160" title="Powell, Daniel Lee.&nbsp;Letters">Powell, Daniel Lee.&nbsp;Letters</a>. (MS 0076) </strong><br><em>Biographical note</em>: b. 1826, Winchester, Virginia; graduate VMI Class of 1847; teacher; died 1871, Winchester. Descriptive note: One letter (July 15, 1844) from Henry T. Lee (Class of 1845 &amp; Powell's uncle) to Cadets Fitzhugh and Keeling, requesting that they treat Powell with kindness. One letter (August 22, 1846) from Cadet Powell to his mother, describing guard duty at "Camp Crozet"; purchase of clothing; family news. Photograph</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/329" title="Saunders, James D., letter.">Saunders, James D., letter.</a> (MS 0247) </strong><br><em>Biographical note</em>: James D. Saunders, Jr., b. 1824 Lynchburg, VA; VMI Class of 1845; merchant; died in duel in Lynchburg, 1851. Descriptive note: One letter (November 24, 1842) from Cadet James Saunders to his cousin John Mitchell. Saunders describes hardships of cadet life, the dullness of Lexington, VMI's 3rd anniversary (Founders Day) celebration, a storm damaging the north wall of Barracks, and mentions Edward C. Carrington, Class of 1844. One of the earliest extant cadet personal letters.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/145" title="Saunders, Valentine Cook. Letter.">Saunders, Valentine Cook. Letter.</a> (MS 00071) </strong><font color="#ff0000">Online Access</font><br><em>Biographical note</em>: b. 1820 Leesburg, Virginia; graduate and valedictorian, VMI Class of 1842; teacher; d. 1894, Leesburg. Descriptive note: Letter from Cadet Saunders to his parents is the oldest extant letter written by a VMI cadet. Dated November 30, 1839, shortly after the first cadets arrived in Lexington, the letter provides a cadet's view of the newly established Institute.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/551" title="Steenbergen, John W.,&nbsp;Papers">Steenbergen, John W.,&nbsp;Papers</a>. (MS 0471) </strong><br>Steenbergen graduated from VMI in 1849 and spent his life as a farmer in Mason County, West Virginia.&nbsp; The papers consist of four items dating from his cadetship: A one volume notebook containing copied poetry and miscellaneous notes; two essays; and his VMI account book documenting school expenses, 1846-1849</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/233" title="Strange, John B.,&nbsp;letter">Strange, John B.,&nbsp;letter</a>. (MS 0153)&nbsp; </strong><font color="#ff0000">Online Access</font><br><em>Biographical note</em>: b. 1823, Fluvanna Co., VA; d. 1862 Sept 14, in battle (South Mountain, MD); graduate, VMI Class of 1842; Col., 19th Virginia Infantry; educator. Descriptive note: One letter written by Cadet Strange to his sister Anne. Dated June 23, 1840. Discusses final exams, new buildings at VMI, roommates, personal/family matters.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/158" title="Tyler, James E., letter">Tyler, James E., letter</a>. (MS 0074) </strong><br><em>Biographical note</em>: born ca. 1826; non graduate, VMI Class of 1845; from Richmond, Virginia. No post-VMI information. Descriptive note: One letter (May 14, 1846) from VMI alumnus James E. Tyler to President James K. Polk, requesting a commission in the Army or Marine Corps. Tyler mentions recommendations from Francis H.. Smith and John T. L. Preston, and states that he was an "inmate" of VMI for two years.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/564" title="Waller Family Papers (MS #0484)">Waller Family Papers (MS 0484)</a>&nbsp;</strong><br>The collection contains correspondence (1821-1849) to and from various members of the William M. Waller family of Amherst County, Virginia. Includes VMI Appointment document (1848)&nbsp;for William M. Waller (Class of 1852).</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/268" title="Yager, William O.,&nbsp;Journal">Yager, William O.,&nbsp;Journal</a>. (MS 0188)&nbsp; </strong><br><em>Biographical note</em>: William Overall Yager, b. 1833, Luray, VA; VMI Class of 1852; Col., 1st Texas Cavalry CSA; School Superintendent and banker; d. 1904, Luray. Descriptive note:Fragment , approximately 25 pages, of a journal kept by Cadet William O. Yager, 1849-1852. The bulk concerns a dispute between his classmates John A. Thompson and William M. Gordon that led to a court of inquiry/court martial. The journal also contains lists of roommates and poetry.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/546" title="Founders Day Cadet Speech">Founders Day Cadet Speech</a>. (MS 0466)&nbsp; </strong><br>A four page holograph manuscript containing the text of a speech given by an unidentified cadet on the Institute's first Founders Day anniversary, November 11, 1843.&nbsp; "…with you in a great degree it rests to sustain the name of the Institution which herafter you will be proud to acknowledge as your Alma Mater…the brightest hopes and fondest dreams of our Common State…."</li> 
+       </ul> 
+       <p><strong><a id="1851-1860" class="bookmark" title="1851-1860" name="1851-1860"></a>1851-1860</strong></p> 
+       <ul class="arrowlist"> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/102" title="Arnold, William E., notebook">Arnold, William E., notebook</a>. (MS 0018)&nbsp; </strong><br>Poetry notebook compiled by William E. Arnold (VMI Class of 1853), during the period 1849-1864. Such notebooks were popular among cadets of the mid-19th century. Contains ca. 50 poems by Arnold, other cadets, various 19th century poets, and anonymous authors.&nbsp; Notebook also includes miscellany such as clippings, puzzles, and riddles.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/146" title="Barksdale, Thomas F., papers">Barksdale, Thomas F., papers</a>. (MS 0062)&nbsp;&nbsp;</strong><br><em>&nbsp;</em>b. 1833, Halifax County, VA; graduate VMI, Class of 1855. Two&nbsp;items. Letter dated January 25, 1855 from a Prussian official, denying Barksdale and his roommates permission to enter the Prussian army. Notebook contains class notes, including notes taken in Stonewall Jackson's class section; resolution issued by Cadets following murder of Cadet Thomas Blackburn, Class of 1854; poetry; autographs of the Class of 1855; list of roommates and room numbers.</li> 
+        <li><a href="http://archivesspace.vmi.edu/repositories/3/resources/104" title="Barton Family Papers"><strong>Barton Family Papers</strong></a><strong>. (MS 0020)&nbsp; </strong><font color="#ff0000">Online Access<strong> </strong>(Letter about Jackson)</font><strong>&nbsp;</strong><br> Miscellaneous papers of three Barton brothers who attended VMI. Includes letter of September 28, 1855 from Cadet Charles M. Barton (VMI Class of 1856) to his cousin Joseph M. Barton, in which he complains about VMI life and about his instructor Thomas J. "Stonewall" Jackson (Jackson is described as a "hell of a fool"). Also contains miscellaneous notes from legal practice of Randolph Barton (Class of 1864) and expenses, 1868-1869, for Bolling W. Barton (Class of 1866, New Market Cadet).</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/576" title="Booth, Thomas B., Cadet Letters">Booth, Thomas B., Cadet Letters</a>. (MS 0496) &nbsp;</strong><br>Letters, 1855-1858 (57 items) from Booth to his future wife Agnes Lyon of Petersburg, VA. Topics are primarily personal/courtship; occasional VMI references.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/248" title="Breedlove, James W., papers">Breedlove, James W., papers</a>. (MS 0168)&nbsp; </strong><br><em>Biographical note</em>: James Winchester Breedlove, b. 1843, New Orleans, LA; VMI Class of 1863; served with CSA Engineers during Civil War; Civil Engineer; d. 1889 Houston, Texas. <em>Descriptive note</em>: Papers, 8 items, of James W. Breedlove. Includes two letters (October 13, 1859; March 11, 1861) from Cadet Breedlove to his grandfather in which he discusses his studies, expenses; two letters from Superintendent Francis H. Smith to Cadet Breedlove's grandfather, acknowledging receipt of money; three VMI quarterly grade reports; one account sheet detailing VMI expenses.</li> 
+        <li><a href="http://archivesspace.vmi.edu/repositories/3/resources/413" title="Carpenter, Joseph H., papers"><strong>Carpenter, Joseph H., papers</strong></a><strong>. (MS 0333)&nbsp; </strong><font color="#ff0000">Online Access (Civil War items)</font><br>Virginia Military Institute, Class of 1856; Captain, Co. A, 27th Virginia Infantry Regiment (later converted to artillery company known as Carpenter's Battery); wounded at Cedar Mountain, 1862; died from effects of the wound, February 5, 1863. Cadet notebook; and Civil War papers (6 items) including letter of June 16, 1862 describing fighting near Port Republic.</li> 
+        <li><a href="http://archivesspace.vmi.edu/repositories/3/resources/188" title="Chenoweth, Joseph H., papers"><strong>Chenoweth, Joseph H., papers</strong></a><strong>. (MS 0107) </strong><font color="#ff0000">Online Access</font><strong><font color="#ff0000"> </font></strong><font color="#ff0000">(selected items)</font><strong>&nbsp;</strong><br><em>Biographical note</em>: Joseph Hart Chenoweth, born 1837, Randolph County [West] Virginia; graduate VMI Class of 1859; Asst. Professor, VMI; Professor of Math, Maryland Agricultural College; Major, 31st Virginia Infantry Regiment, CSA; killed in battle on June 9, 1862, near Shields, Virginia. <em>Descriptive note</em>: Ca. 32 items. Letters, 1855-1861, written by Joseph H. Chenoweth to his parents. Letters dating from his cadetship cover topics such as exams, trips, demerits, and provide a good portrait of pre-war cadet life. Letters dated 1860-1861 were written while he was a Professor at Maryland Agricultural College and at VMI; topics include the election of 1860, John T. L. Preston, religion. The collection also contains two VMI grade reports for 1856.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/624" title="Davis, Alexander Jackson. Architectural drawings">Davis, Alexander Jackson. Architectural drawings</a> (MS 0276)</strong> <font color="#ff0000">Online Access</font><br>27 ink and wash drawings by 19th century American architect Alexander J. Davis, who designed the VMI Barracks and several of the other original structures at the Institute. The collection includes plans for the Superintendent's residence, faculty residences, and other drawings.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/247" title="Downing, Samuel. Papers.">Downing, Samuel. Papers.</a> (MS#0167) </strong><font color="#ff0000">Online Access</font><br><em>Biographical note</em>: Samuel Downing Jr., b. 1842 Lancaster, VA; VMI Class of 1862; 55th Virginia Infantry, CSA; farmer and tobacco merchant; d. 1885, Baltimore MD. <em>Descriptive note</em>: The papers consist of 3 items. One letter (November 17, 1859) from Cadet Downing to his father, in which he describes in detail the cadets' trip to Norfolk, VA, including an interesting account of an uncomfortable canal boat journey; one list of demerits (April - June 1860); one quarterly grade report (July 1860).</li> 
+        <li><strong>Fauntleroy, Archibald M., papers. (MS #065) </strong><br><em>Biographical note</em>: Archibald M. Fauntleroy, b. 1836, Warrenton, VA; graduate Virginia Military Institute, Class of 1857; physician; surgeon and medical director, CSA; d. 1886, Staunton, VA. <em>Descriptive note</em>: One testimonial letter written by Superintendent Francis H. Smith on behalf of Fauntleroy, dated Sept. 2, 1857. One drawing by Cadet Fauntleroy, done as a class assignment at VMI.</li> 
+        <li><strong>Fife, William E., document (MS #0345) </strong><br><em>Biographical note</em>: William Estill Fife, b.1834 Charleston, WV; VMI Class of 1855; Lt. Col., 36th Virginia Infantry; farmer; d. 1891, Putnam Co., WV in railroad accident. Descriptive note: VMI quarterly grade report for Cadet William E. Fife, dated April 1, 1852. The document was completed and signed by Superintendent Francis H. Smith.</li> 
+        <li><strong><a target="_blank" title="Fulkerson, Abram (Class of 1857) Cadet Letters" href="http://archivesspace.vmi.edu/repositories/3/resources/596">Fulkerson, Abram (Class of 1857) Cadet Letters</a>. (part of MS 0363)</strong>&nbsp;<span style="color: rgb(255, 0, 0);">Online Access</span><br>Two letters, 1853-1854, written to family members while cadet at VMI</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/615" title="Gunn, Giles. Papers ">Gunn, Giles. Papers </a>(MS 0292)&nbsp; </strong><font color="#ff0000">Online Access</font><br>The collection consists of five letters, 1848-1854, written by Giles Gunn, a teacher from Connecticut who was working in Lexington, Virginia during the mid-nineteenth century. The letters are addressed to Gunn's family in Litchfield County, Connecticut. He describes his teaching duties, events at the Virginia Military Institute (Finals , 1848, including a description of the VMI band; the murder of cadet Thomas Blackburn, 1854), and life in Lexington (schools, religion, rumor of a slave uprising, 1851).</li> 
+        <li><strong>Hardy, William T., collection. (MS#084) </strong><br><em>Biographical note</em>: b. 1834, Norfolk, Virginia; VMI Class of 1855; during Civil War was Captain, Quartermaster, Confederate States Army; farmer; d. 1911. <em>Descriptive note</em>: The collection consists of drawing exercises (bound notebook and unbound drawings) completed while Hardy was a VMI cadet; and one wartime letter (May 12, 1864) to his wife, in which he briefly discusses battle at Spotsylvania Court House.</li> 
+        <li><strong>Hunter, Robert M. T., manuscript. (MS#0116) </strong><br><em>Biographical note</em>: Robert Mercer Taliaferro Hunter, b. 1809; lawyer and politician; United States Senator; CSA Secretary of State; d. 1887. <em>Descriptive note</em>: 41 page manuscript of speech given at VMI by Senator Robert M. T. Hunter on July 3, 1857 as part of the celebrations marking the end of the academic year. The speech was subsequently printed by McFarlane &amp; Fergusson, Richmond VA, and that published version is also available in the archives.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/620" title="Hutter, Edward S., Diary">Hutter, Edward S., Diary</a>. (MS 0013)&nbsp;</strong><br>Diary of Cadet Hutter (b. 1839; d. 1904; VMI Class of 1859), covering period Jan.-April 1858.</li> 
+        <li><strong>Lynch, Jacob. Letter (MS #0195)&nbsp; </strong><br><em>Biographical note</em>: Jacob Lynch, father of VMI Cadet David Campbell Lynch. David b. 1841 Abingdon, VA; VMI Class of 1862; d. 1863 of disease contracted while serving in the Confederate Army. <em>Descriptive note</em>: 1 letter (1859 March 22) from Jacob Lynch to his son, VMI Cadet David C. Lynch. Mr. Lynch reprimands David for excessive demerits and for acquiring debts that have not been paid. The collection also includes 1 Presbyterian hymnal used by Cadet Lynch.</li> 
+        <li><strong>McDonald, Craig W.,&nbsp;document (MS #0254)&nbsp; </strong><br><em>Biographical note</em>: Craig Woodrow McDonald, b. 1837 Romney WV; VMI Class of 1859; teacher and law student; staff officer CSA; killed in battle at Gaines Mill, 1862. Descriptive note: A humorous document from VMI cadet life, dated January 23, 1856. The item is an excuse, in verse form, written by Cadet Craig McDonald after being late for reveille. It was addressed to the Commandant's office.</li> 
+        <li><strong>Phillips, James J., documents. (MS #0497) </strong><br>Five items, including VMI diploma, drawing, and Confederate Army commission.</li> 
+        <li><strong>Rumbough, George P. C.,&nbsp;manuscript. (MS #0249)&nbsp; </strong><br><em>Biographical note</em>: George Philip Cowles Rumbough, b. 1834, Lynchburg, VA; VMI Class of 1856; staff officer, CSA; Civil Engineer and State Engineer of Arkansas; d. 1916, Little Rock, AR. <em>Descriptive note</em>: Manuscript, 10 pages, of the commencement speech delivered by VMI Cadet George Rumbough on July 4, 1856.</li> 
+        <li><strong>Ryland, Josiah.&nbsp;Collection. (MS #022) </strong><br>Autograph album (1 item) owned by Cadet Ryland, Class of 1859. Contains inscriptions by his classmates, including Scott Shipp, later Commandant and Superintendent.</li> 
+        <li><strong>Shepherd, Edward C.,&nbsp;Papers, (MS#019) </strong><br>Collection of 3 vols. and misc. documents that belonged to Cadet Shepherd (b. 1835 d. 1907), Class of 1855. Vol 1: Notebook contains ca. 50 drawings by Shepherd, completed as assignments for VMI courses; also includes pencil sketch of Barracks room, depicting roommate playing cards. Vol. 2; notebook containing VMI class notes for surveying, mathematics and physics; poetry, roommate lists and misc. notes. Vol. 3: cadet account book, listing VMI expenses, 1851-1855. Misc. documents include letter of appointment and guard report.</li> 
+        <li><strong>Smith family letter. (MS#0163)&nbsp; </strong><br><em>Biographical note</em>: John Jaquelin Smith- b. 1837, Alexandria, VA; VMI Class of 1857; staff officer, CSA; businessman in New York City after the war; d. 1895, Morrisstown, NJ. Descriptive note: One letter (March 1, 1856) from VMI's Superintendent Francis H. Smith to the mother of Cadet John J. Smith, in which he discusses Cadet Smith's religious awakening.</li> 
+        <li><strong>Taylor, Richard C.,&nbsp;letter. (MS#159) </strong><br><em>Biographical note</em>: Richard C. Taylor, b. 1835 Norfolk, VA; VMI Class of 1854; Major, Artillery, CSA; railroad official and teacher; died 1917, Norfolk, VA. <em>Descriptive note</em>: One letter from Cadet Richard C. Taylor to his father, dated January 15, 1854. He describes in detail the circumstances surrounding the murder of his classmate Cadet Thomas Blackburn by Charles B. Christian, a Washington College law student.</li> 
+        <li><strong>Waddell, James H.,&nbsp;papers. (MS#130) </strong><br><em>Biographical note</em>: James Henry Waddell, b. 1833, Waynesboro, VA; VMI Class of 1855; 26th Va. Infantry, CSA; while on VMI Faculty from 1869-1870 worked as Matthew F. Maury's assistant on Physical Survey of Virginia project and drew the maps that were published as part of the survey; Civil Engineer; d. 1884, Montgomery, Alabama. Descriptive note: 4 items, including a letter (1855) from Cadet Waddell to his sister, that contains a detailed description and pencil drawing of his room (#14) in Barracks and of his roommates (Barksdale, Penn, Magruder, Shepherd, Wilson); a second drawing of a barracks room &amp; roommates (similar to a sketch found in the Shepherd Collection, MS#0019); pencil map, 8 inches x 10 inches, labeled "Plan of Battle of Bethel Church, June 10, 1861." Letter of recommendation, 1879, written by VMI's Superintendent Francis H. Smith and endorsed by Board of Visitors President John Letcher.</li> 
+        <li><strong>Williams, Walter W.,&nbsp;diary-notebook. (MS#136)&nbsp; </strong><br><em>Biographical note</em>: Walter Wheeler Williams, b. 1834, Norfolk, VA; graduate, VMI Class of 1853; graduate University of Virginia and Theological Seminary in Virginia (Alexandria); Episcopal clergyman in Leesburg and Halifax VA, Washington DC, New York City, &amp; Baltimore; d. 1891, Sudbrook Park, MD. <em>Descriptive note</em>: Diary-notebook, 1852-1860, kept by Walter W. Williams; ca. 100 pages. Diary entries are from VMI (1852); University of Virginia (1855-1856); Theological Seminary of Virginia (1857-1858); and Leesburg, VA (1859-1860). VMI entries include information about cadet life; many entries focus on Williams' religious beliefs. The volume also contains notes on Greek history &amp; other academic subjects.</li> 
+       </ul> 
+       <p><a id="1861-1865" class="bookmark" title="1861-1865" name="1861-1865"></a><strong>1861-1865</strong></p> 
+       <ul class="arrowlist"> 
+        <li>For this period, see <a href="/Archives/Manuscripts/Civil_War_Manuscripts/" title="Civil War Manuscripts"><strong>Civil War Manuscripts</strong></a> and <a href="/Archives/Civil_War/Civil_War_Resources_Home/" title="Civil War Resources Home"><strong>Civil War Resources</strong></a> top level</li> 
+       </ul> 
+       <p><strong><a id="1866-1869" class="bookmark" title="1866-1869" name="1866-1869"></a>1866-1869</strong></p> 
+       <ul class="arrowlist"> 
+        <li><strong>Beverley, John H. C.,&nbsp;letter. (MS # 093) </strong><br><em>Biographical note</em>: John Hill Carter Beverley, b. 1853, Fauquier Co., Virginia; graduate, VMI Class of 1873; farmer, banker; d. 1934, The Plains, VA. <em>Descriptive note</em>: One letter from Cadet Beverley (October 23, 1869) to his friend John, describing life at VMI. Mentions guard duty, difficulty of studies, demerit system.</li> 
+        <li><strong>Coleman, George T.,&nbsp;letter. (MS #073) </strong><br><em>Biographical note</em>: b. 1850, Danville, Virginia; non-graduate, VMI Class of 1870; traveling salesman; d. 1912, Charleston, SC. <em>Descriptive note</em>: One letter from Cadet Coleman (Class of 1870) to his brother William D. Coleman (Class of 1857), dated Feb 11, 1868. Primary subject is Cadet Coleman's reinstatement at VMI.</li> 
+        <li><strong>Cooper, James W.,&nbsp;letter. (MS #0185) </strong><br><br><em>Biographical note</em>: James Washington Cooper, b. 1842, Bedford Co., Tennessee; officer CSA; VMI Class of 1870; d. 1918 Arkansas. <em>Descriptive note</em>: One letter (March 26, 1869) from Cadet James W. Cooper to Commandant Scott Shipp, tendering his resignation as Sergeant of "D" Company. Endorsement on verso by Cadet Captain James L. Ford, Class of 1869.</li> 
+        <li><strong>Dinwiddie, Hardaway H., papers. (MS #0177) </strong><br><em>Biographical note</em>: Hardaway Hunt Dinwiddie b. 1844 Lynchburg, VA; VMI Class of 1867 and New Market Cadet; educator; d. 1887 Texas. <em>Descriptive note</em>: Miscellaneous papers (6 items) of Hardaway H. Dinwiddie, including manuscript of VMI valedictory speech, 1867; "phrenological analysis," 1858; calling card; poem about the New Market Cadets; certificate of withdrawal from Lexington's Masonic Lodge, 1868; and 1867 VMI commencement program.</li> 
+        <li><strong>Forbes, Thomas., Letter. (MS #075)&nbsp; </strong><br><em>Biographical note</em>: Thomas Forbes, Jr., b. 1852, New Orleans; VMI Class of 1872; cotton exporter; d. 1926, Sherman Texas. Descriptive note: One letter to Cadet Forbes from his father, dated August 6, 1869. Mentions sending money so that Thomas can travel to the Springs with other members of the Corps.</li> 
+        <li><strong>Jerdone, William M.,&nbsp;papers (MS #0231)</strong><br><em>Biographical note</em>: William Macon Jerdone, b. 1848, Charles City Co., VA; VMI Class of 1871; lawyer and Texas state legislator; d. 1900, Galveston, TX. <em>Descriptive note</em>: Papers consist of Jerdone's handwritten mathematics examination essay (64 pages) submitted to Professor James W. Massie; the topic is "Analysis of Analytical Geometry," dated 1868 Dec 28. Also 25 drawings completed as class assignments at VMI.</li> 
+        <li><strong>Letcher, Samuel H.,&nbsp;manuscript. (MS#0148) </strong><br><em>Biographical note</em>: Samuel Houston Letcher, b. 1848 Lexington, VA; VMI Class of 1869 and New Market cadet; lawyer and judge; d. 1914 Lexington, VA. <em>Descriptive note</em>: Manuscript (holograph, 19 pages) of VMI valedictory address of Cadet Samuel H. Letcher. The speech was delivered at VMI Finals in July 1869. Annotations by John T. L. Preston.</li> 
+        <li><strong>Sims, John. Papers. (MS #0475)</strong><br>14 letters written by VMI Cadet John Sims (Class of 1871), to members of his family.&nbsp; Dated 1868-1871, the correspondence provides rich details of cadet life during that era, as well as containing personal news</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/618" title="Watson, Edward M.,&nbsp;Letter">Watson, Edward M.,&nbsp;Letter</a>. (MS 0011) </strong><font color="#ff0000">Online Access</font><strong>&nbsp;</strong><br>Letter (September 17, 1868) from Cadet Watson, Class of 1871, to his father. Detailed account of daily cadet routine during the post-Civil War years.</li> 
+       </ul> 
+       <p><strong><a id="1870's" class="bookmark" title="1870's" name="1870's"></a>1870's</strong></p> 
+       <ul class="arrowlist"> 
+        <li><strong>Beverley, Robert.&nbsp;Notebooks. (MS #024) </strong><br>Two poetry notebooks owned by Cadet Robert Beverley, VMI Class of 1876. Contains original poetry composed by cadets as well as copied verses. Cadet authors include Smith Caruthers, Class of 1875; Samuel M. Cooper, Class of 1876; Selby Jones, Class of 1864; Charles D. Walker, Class of 1869. Also contains poetry by faculty member Robert L. Madison. Index located in front of vol. 1.</li> 
+        <li><strong>Boney, Richard K.,&nbsp;collection (MS #0325) </strong><br><em>Biographical note</em>: Richard Kinsey Boney, b. 1858, Madison Parish, Louisiana; VMI Class of 1878; lawyer; d. 1937, Tallulah, LA. <em>Descriptive note</em>: The collection consists of a 3 volume diary dating from the VMI cadetship of Richard K. Boney, Class of 1878. Daily brief entries, 1874-1878, note weather and significant events. The collection also contains a poetry notebook, 1874-1878, including standard VMI poetry and copied quotations; and one scrapbook fragment, 1874-1878, with clippings about VMI events such as commencement, and miscellaneous programs and invitations.</li> 
+        <li><strong>Clark,&nbsp;Francis B.,&nbsp;collection (MS #0270)&nbsp; </strong><br><em>Biographical note</em>: Francis Barnard Clark, Jr., b. 1850 Augusta GA; VMI Class of 1870; lawyer and author; d. 1896 Mobile, AL. <em>Descriptive note</em>: Notebook containing original poetry by Cadet Francis B. Clark, Jr. , including "Natural Bridge", "To the Lee Family", and "Washington and Lee." The collection also contains one privately printed poem, "The Irish Emigrant."</li> 
+        <li><strong>Dudley, William H.,&nbsp;Papers. (MS #007) </strong><br>Two documents reflecting 1870's cadet life. Letter of October 5, 1872 from Cadet Dudley (Class of 1874) to his mother; grade report (1873 Oct) with comments by Superintendent Francis H. Smith.</li> 
+        <li><strong>Exall, Alexander D., papers (MS #0354)&nbsp; </strong><br><em>Biographical note</em>: Alexander Duval Exall, b. 1853, Richmond, VA; VMI Class of 1876; Civil Engineer; d. 1928, Chesterfield Co., VA. <em>Descriptive note</em>: Papers from the VMI cadetship of Alexander D. Exall, Class of 1876. The collection includes a cadet scrapbook containing clippings and poetry; an autograph album containing inscriptions from his classmates; 3 photographs of Cadet Exall; and the French/English dictionary he used at VMI.</li> 
+        <li><strong>Forsythe, James A.,&nbsp;collection (MS #0307)&nbsp; </strong><br><em>Biographical note</em>: James Adger Forsythe, b. 1853 Charleston, SC; VMI Class of 1875; businessman and lawyer, d. 1925. <em>Descriptive note</em>: The collection includes the notebook (1871-1875) compiled by Cadet James A. Forsythe, containing, copied poetry and company rosters; and the graduation bible presented to Cadet Forsythe. The notebook shows evidence of extensive water damage. Forsythe's photograph album is also available in the VMI Archives.</li> 
+        <li><strong>Hall, Julien., Notebook (MS #0495)&nbsp; </strong><br>Contains VMI-related poetry and misc. other poetry and notes, ca. 1875.</li> 
+        <li><strong>Keitt, Thomas., &nbsp;Drawing. (MS #056)&nbsp; </strong><br>Watercolor drawing (12" x 16") of Washington Arch facade of Barracks by Cadet Keitt (b. 1859; graduate VMI Class of 1878; d. 1922, Newberry, SC). Details include clock; Virginia and U.S. flags flying from towers. Dated May 15, 1876.</li> 
+        <li><strong>Mercer, William N.,&nbsp;Papers. (MS #90)&nbsp; </strong><br><em>Biographical note</em>: Dr. William Newton Mercer; resided New Orleans; no other information. Mercer was a benefactor of VMI during the 19th century. <em>Descriptive note</em>: Legal documents (1874-1875) regarding Mercer's bequest of 1,000 books to the VMI Library; Invoice (1874) for medical services submitted to executor of Mercer estate; also document transferring pew in Christ Church, New Orleans, to Dr. Mercer (1845).</li> 
+        <li><strong>Mosby, John B.,&nbsp;papers. (MS #0128)&nbsp; </strong><br><em>Biographical note</em>: John Burks Mosby, b. 1853, Washington Co., Mississippi; VMI Class of 1875; planter; d. 1876, Loughborough plantation, Washington Co. MS. <em>Descriptive note</em>: Six letters from John B. Mosby to family members. Those dated 1870-1871 concern family matters; the letters written in 1873 from VMI contain references to faculty, academics, and cadet life (ice skating on river). The collection also includes a grade report from for April 1872.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/127" title="Nalle, William. Letter">Nalle, William. Letter</a>. (MS 0042)&nbsp; <font color="#ff0000">Online Access</font>&nbsp;</strong><br>One letter, dated 16 October 1870, from Cadet William Nalle to his mother, Mrs. Thomas Botts Nalle. Contains a detailed account of the death and funeral of General Robert E. Lee. Nalle describes mourning activities at VMI, Washington College, and Lexington; standing guard over Lee's body with four other cadets; funeral procession. Letter also mentions flood in Rockbridge County that destroyed canal locks, bridges and other property.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/371" title="Neill, William. Collection ">Neill, William. Collection </a>(MS&nbsp; 00301) </strong><br>The collection consists of the notebook (ca. 165 pages) of VMI Cadet William Neill, containing copied and possibly original poetry; and one watercolor sketch (10" x 7.5") of barracks room number 38, drawn by Neill and dated October 1877. Neill was from Hagerstown, MD; a member of the VMI Class of 1880; and later was a physician in West Virginia.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/333" title="Osburn, Howard. Notebook ">Osburn, Howard. Notebook </a>(MS 0251)&nbsp;&nbsp;</strong><br>Notebook (ca. 1870-1872) compiled by VMI Cadet Howard Osburn, Class of 1875, containing copied poetry, miscellaneous orders, anecdote concerning Benjamin Ficklin, Class of 1849. 125 pages; binding not intact.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/535" title="Paine, Robert A., notebook ">Paine, Robert A., notebook </a>(MS 0455)&nbsp; </strong><br>Notebook compiled by VMI Cadet Robert A. Paine in 1879. The book contains lyrics of songs popular during the 1870’s.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/107" title="Tams, William P.,&nbsp;notebook">Tams, William P.,&nbsp;notebook</a>. (MS 0023)&nbsp; </strong><br>One notebook that belonged to Cadet Tams, Class of 1873. Includes class notes for courses in Mineralogy, Civil and Military Engineering, and Chemistry; a copy of a lecture by Superintendent Francis H. Smith ("Lecture to the 1st Class on Moral Sense, November 5, 1872"); grade reports in various subjects.</li> 
+        <li><strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/332" title="Wiegand, William E.,&nbsp;notebook ">Wiegand, William E.,&nbsp;notebook </a>(MS 00250)&nbsp;&nbsp;</strong><br><em>&nbsp;</em>Poetry notebook compiled by Cadet William E. Wiegand, Class of 1874,containing original and copied poetry.</li> 
+       </ul> 
+       <p><strong><a id="1880's" class="bookmark" title="1880's" name="1880's"></a>1880's</strong></p> 
+       <ul class="arrowlist"> 
+        <li><strong>Amiss, Frederick T., letter (MS #0479) </strong><br>One letter from Cadet Frederick T. Amiss (Class of 1886) to his father, dated December 14, 1884.&nbsp; Sims describes in detail the confrontation between cadets and Commandant Scott Shipp regarding an investigation into an explosion of the VMI magazine.</li> 
+        <li><strong>Baker, Harry B.,&nbsp;account book. (MS#0290)&nbsp; </strong><br>VMI account book of Cadet Harry B. Baker, VMI Class of 1889. Contains entries for VMI expenses, 1886-1889.</li> 
+        <li><strong>Balmer, Charles. Document (MS #0220)&nbsp; </strong><br><em>Biographical note</em>: Charles Balmer, Jr., b. 1865 St. Louis, MO; VMI Class of 1886; composer and musician; d. 1941 St. Louis. <em>Descriptive note</em>: One document, listing laundry for VMI Cadet Charles Balmer for the period May-August 1882.</li> 
+        <li><strong>Best, Carl M.,&nbsp;papers (MS #0209)&nbsp; </strong><br><em>Biographical note</em>: Carl Mead Best, b. 1861 Clarke Co., VA.; VMI Class of 1886; educator; d. 1922, Pennsylvania.<br><em>Descriptive note</em>: One letter, 1884, appointing Carl M. Best a cadet at the Virginia Military Institute; and one letter of recommendation, 1886, written for Best by VMI Superintendent Francis H. Smith.</li> 
+        <li><strong>Cochran, John L.,&nbsp;Papers. (MS #025)&nbsp; </strong><br>Cochran attended VMI from 1879-1881 as a member of the Class of 1883 and subsequently attended Swarthmore College and the University of Virginia. Papers consist of four volumes of class notes (1882-1885) taken while Cochran was a student at Swarthmore and UVA, with some examples of VMI poetry and sketches interspersed; diary, with sketches (1881), containing short and sporadic entries made while at VMI concerning various aspects of cadet life; letter (September 4, 1880) from Cadet Cochran to his mother; and report card (1879) from the secondary school Cochran attended before entering VMI.</li> 
+        <li><strong>Gilliat Company&nbsp;documents (MS #0306)&nbsp; </strong><br>The firm of John K. Gilliat &amp; Co. (London) advanced money to VMI in 1863 to purchase books &amp; cadet clothing. The firm later forgave the interest on the loan &amp; was commemorated in the Gilliat Scholarship. The collection contains two Gilliat-related documents-- one letter from John L. Gilliat to Lewis D. Crenshaw, (dated Bank of England, Feb. 7, 1884), discussing status of VMI's debt to the company; and one bank draft (Canadian Bank of Commerce), payable to John K. Gilliat &amp; Co., Feb. 23, 1876.</li> 
+        <li><strong>Goodwyn, Richard T.,&nbsp;collection (MS # 0210)&nbsp; </strong><br><em>Biographical note</em>: Richard Tuggle Goodwyn b. 1866, Nottoway VA; VMI Class of 1887; educator and real estate broker; d. 1952. <em>Descriptive note</em>: The collection contains 18 pencil and ink drawings by VMI Cadet Richard T. Goodwyn; and one letter (1896 March 28) from VMI Superintendent Scott Shipp to Goodwyn.</li> 
+        <li><strong>Irvine, William A., notebook (MS #0269)&nbsp; </strong><br><em>Biographical note</em>: William Alexander Irvine, b. 1866, Rockbridge Co., VA; VMI Class of 1889; businessman; d. 1923, Petersburg, VA. <em>Descriptive note</em>: Notebook compiled by VMI Cadet William A. Irvine, 1888-1889. Contains poetry (copied and original), sketches, programs from the Lexington Minstrel Club and the VMI Minstrel Club.</li> 
+        <li><strong>Lybrook,&nbsp;Philip H.,&nbsp;document (MS #0218)&nbsp; </strong><br><em>Biographical note</em>: Philip Hardin Lybrook, b. 1868 Patrick Co., VA; VMI Class of 1889; tobacco business &amp; postmaster; d. 1901 Winston-Salem, NC. <em>Descriptive note</em>: One document, ca. 1886, listing clothing for VMI Cadet Philip H. Lybrook. The letterhead on the document is "A.M. Lybrook, Attorney at Law."</li> 
+        <li><strong>Moncure, William A.,&nbsp;collection. (MS#170)&nbsp; </strong><br><em>Biographical note</em>: William Augustus Moncure, b. 1863, Bowling Green, VA; VMI Class of 1884; lawyer and judge; died 1947, Richmond, VA. <em>Descriptive note</em>: Miscellaneous papers of William A. Moncure, including 8 drawings completed as class exercises while he was a VMI cadet; the bible presented to him upon his graduation from VMI by Superintendent Francis H. Smith; a map of Caroline Co., Virginia (oversized).</li> 
+        <li><strong>Nottingham, Thomas J.,&nbsp;Diary. (MS #017)&nbsp; </strong><br>Diary (1883-1885) written by Cadet Nottingham, Class of 1886. Consistent record of daily cadet routine as it existed during the mid-1880's. Specific references to recitations, fights, dress parade, athletic events, cadet organizations, Washington College.</li> 
+        <li><strong>Rutledge, Oliver M.,&nbsp;Papers. (MS #009)&nbsp; </strong><br>Incoming and outgoing correspondence of Cadet Oliver M. Rutledge of Charleston, South Carolina (b. 1862 d. 1928), a member of the Class of 1882. Papers consist primarily of letters received at VMI from parents, siblings and friends. A few letters written by Rutledge contain references to cadet life in the 1880's; letter of May 14, 1882 to his mother describes the mineral springs resort at Dagger's Springs, VA. ca. 75 items.</li> 
+        <li><strong>Stewart, Robert E. B.,&nbsp;collection (MS #0263)&nbsp; </strong><br><em>Biographical note</em>: Robert Edward Bruce Stewart, b. 1863 Norfolk Co., VA; VMI Class of 1886; state legislator; Clerk to Capt. of Norfolk Navy Yard; d. 1930, Portsmouth VA. <em>Descriptive note</em>: Miscellaneous papers, approximately 30 items, of Robert E. B. Stewart. The collection includes a notebook containing orations delivered before VMI cadet debating societies; drawings completed as class assignments at VMI; and a few clippings concerning his life after he left the Institute</li> 
+        <li><strong>Terry, Thornton. Collection (MS #0213)&nbsp; </strong><br><em>Biographical note</em>: Thornton Terry, b. 1868 Henry Co., VA; VMI Class of 1887; educator and Commandant, Staunton Military Academy; d. 1894. <em>Descriptive note</em>: The collection consists of a four page handwritten and illustrated VMI cadet newspaper called "The Sunday Pie," published on April 18, 1887 by the occupants of Barracks Room 32. Thornton Terry was one of the editors of the paper; this is the only extant issue.</li> 
+        <li><strong>Vance family letter (MS #0215)&nbsp; </strong><em>Biographical note</em>: Paul Otey Vance, b. 1869 Clarksville, TN; VMI Class of 1890; businessman; d. 1913 Chicago IL.<br><em>Descriptive note</em>: One letter (1887 May 30) to Cadet Paul O. Vance from his father. The father is replying to a request for money.</li> 
+        <li><strong>Varner, Charles R. K.,&nbsp;collection (MS #0445)&nbsp; </strong><br>The collection contains miscellaneous items pertaining to Charles R. K. Varner, VMI Class of 1884. Included are three quarterly grade reports (1881, 1884) and one letter of recommendation (1889) written by VMI Superintendent Francis H. Smith.</li> 
+        <li><strong>Vest, William W.,&nbsp;letter. (MS #097)&nbsp; </strong><br><em>Biographical note</em>: William Waller Vest, b. 1871 Williamsburg, Virginia; VMI Class of 1892; physician, Clarksville, Virginia; d. 1918, Clarksville. <em>Descriptive note</em>: One letter, August 26, 1887, from Cadet Vest to his cousin. Topics include treatment of new cadets; routines such as drill and inspection; restrictions.</li> 
+       </ul> 
+       <p><strong><a id="1890's" class="bookmark" title="1890's" name="1890's"></a>1890's</strong></p> 
+       <ul class="arrowlist"> 
+        <li><strong>Carter, Spencer L.,&nbsp;Collection. (MS#0036)&nbsp; </strong><br>Notebook (binding missing) concerning VMI football and baseball, compiled by Spencer L. Carter, Class of 1893. Includes lists of teams, game scores, plays. Also annotated copy of "The VMI Scrapbook," a collection of cadet poetry and prose published in 1891. Contains notes concerning the Class of 1893, cadet officers, Kappa Alpha Fraternity members.</li> 
+        <li><strong>Cocke, Henry T.,&nbsp;papers. (MS#0113)&nbsp; </strong><br><em>Biographical note</em>: Henry Teller Cocke, b. 1876, City Point, VA; graduate VMI Class of 1895; Episcopal clergyman; d. 1944, Washington, DC. <em>Descriptive note</em>: Letter (3 pages; Feb 20, 1894) from Cadet Cocke to his mother. Topics include snowstorm, debating society orations, raiding local hen houses for "rooster fighting" in Barracks. The collection also include his cadet account book, containing a list of VMI expenses for 1891-1895.</li> 
+        <li><strong>Cocke, John T. B.,&nbsp;papers. (MS#0469)</strong><br>Student notebook owned by VMI Cadet John T. B. Cocke, VMI Class of 1890. The volume contains copied poetry, civil engineering class notes, and list of roommate in Room 18 of Barracks, 1889-1890.</li> 
+        <li><strong>Hinton, Erasmus G.,&nbsp;letters. (MS #0193)&nbsp; </strong><br><em>Biographical note</em>: Erasmus Gill Hinton b. 1876, Reelsville, Indiana; VMI Class of 1896; businessman in Richmond, VA; d. 1946. <em>Descriptive note</em>: 8 letters, 1894-1895, from Cadet Erasmus G. Hinton to his father. Cadet Harley R. Hinton, the writer's twin brother, is frequently mentioned. Other topics include grades, requests for money, personal matters; little focus on VMI activities.</li> 
+        <li><strong>Howard, Conway.&nbsp;Scrapbooks (MS #0121)&nbsp; </strong><br><em>Biographical note</em>: Conway Robinson Howard, b. 1881, Richmond, Virginia; VMI Class of 1900; Civil Engineer; on active duty in France during World War I with 17th Engineers; died 1936, Richmond, VA.<br><em>Descriptive note</em>: Two scrapbooks, 1896-1900, compiled by Cadet Conway Howard. Contents include VMI memorabilia, clippings, photographs illustrating cadet life, programs and other items pertaining to athletic events. The scrapbooks provide excellent documentation of cadet life for the period.</li> 
+        <li><strong>Humphreys, William L.,&nbsp;letter. (MS #080).&nbsp; </strong><br><em>Biographical note</em>: b. 1876 ( Greenville, South Carolina?); VMI Class of 1897; d. 1923.<br><em>Descriptive note</em>: One letter (November 14, 1893) from Cadet Humphreys to his father, written from Staunton after he ran away from VMI. For related collection see George W. Rouss letters (MS 077).</li> 
+        <li><strong>Janney, John.&nbsp;Account Book (MS #0336)&nbsp; </strong><br>VMI and personal account book of John Janney (VMI Class of 1896), of Leesburg, Virginia. Contains entries for cadet expenses, 1893-1896; personal expenses, 1896-1898.</li> 
+        <li><strong>Naylor, John C.,&nbsp;letter. (MS # 086).&nbsp; </strong><br><em>Biographical note</em>: no birth or death dates; from Baltimore, MD; VMI cadet for one year (1890-1891) as a member of the Class of 1894. <em>Descriptive note</em>: One letter (December 5, 1890) from Cadet Naylor to his father, in which he complains about the character of his roommates and asks to be moved to a different room.</li> 
+        <li><strong>Orr, John.&nbsp;Papers. (MS #008)&nbsp; </strong><br>Letters (ca. 25 items) from Cadet John Orr, Class of 1894, to his parents. The correspondence contains details about cadet life during the early 1890's, including references to daily routines, Lexington, faculty.</li> 
+        <li><strong>Perry, Sidney R.,&nbsp;Collection. (MS #0456)&nbsp; </strong><br>Diary and photographs dating from the cadetship of Sidney Perry, Class of 1892. (8 items).</li> 
+        <li><strong>Portner, Robert F., letter. (MS #063)&nbsp; </strong><br><em>Biographical note</em>: Robert F. Portner b. 1874, Alexandria, VA; VMI Class of 1895, non-graduate; d. 1900 Washington DC. <em>Descriptive note</em>: Letter fragment from Cadet Portner to "Eddie," written from VMI on October 20, 1892. Discusses experiment using telephone receiver; first part of letter is in German.</li> 
+        <li><strong>Rouss, George. Collection. (MS #077)&nbsp; </strong><br><em>Biographical note</em>: b. 1876 near Kabletown, West Virginia; VMI Class of 1897; farmer; d. 1922, buried Winchester, Virginia. <em>Descriptive note</em>: Three letters (November 14-15, 1893) pertaining to Cadet Rouss's decision to run away from VMI. Included is a letter from Rouss to his father (Milton Rouss, Class of 1863) in which he explains his actions.</li> 
+        <li><strong>Weddell, William S.,&nbsp;letter. (MS #0192)&nbsp; </strong><br><em>Biographical note</em>: William Sparrow Weddell b. 1874, Harrisonburg, VA; VMI Class of 1894; salesman; d. 1944, Richmond, VA. <em>Descriptive note</em>: One letter, dated September 25, 1890, from Cadet William S. Weddell to his mother. He describes the day on which his classmate Cadet Warner T. Taliaferro died following a fight with a fellow cadet, Frank W. McConnico.</li> 
+       </ul> 
+       <p><strong><a id="1900-1919" class="bookmark" title="1900-1919" name="1900-1919"></a>1900-1919&nbsp; See Also&nbsp;<a href="/Archives/Manuscripts/Scrapbooks_Overview___Exhibit/" title="Scrapbooks Overview &amp; Exhibit">Scrapbooks</a></strong></p> 
+       <ul class="arrowlist"> 
+        <li><strong>Baldinger, Ora M., papers. (MS #0125).&nbsp; </strong><br><em>Biographical note</em>: Ora M. Baldinger, b. 1886, Marion, Ohio; VMI Class of 1910; U.S. Army officer; d. 1978, Carson City, NV. <em>Descriptive note</em>: Miscellaneous papers (ca. 40 items) dating from the cadetship of Ora M. Baldinger, VMI Class of 1910. Included are his cadet account book, grade reports, receipts, and class notes from Engineering and Physics.</li> 
+        <li><strong>Bond, Robert N., collection (MS #0435)&nbsp; </strong><br>Scrapbook compiled by Cadet Robert Bond, VMI Class of 1919, covering the academic year 1915-1916. Included are snapshots, dance programs, clippings, and other VMI memorabilia. The collection also contains two letters, one of which contains detailed description of the life of a new cadet, including hazing practices.</li> 
+        <li><strong>Dillard, William E., letter (MS #0274)&nbsp; </strong><br><em>Biographical note</em>: William Evans Dillard b. 1893 Amherst, VA; VMI Class of 1913; banker and businessman; d. 1944, Lynchburg, VA. <em>Descriptive note</em>: A 14 page letter from VMI Cadet William E. Dillard to his mother, dated 1910 May 16. Dillard describes in detail the Corps' march to Staunton, VA, including events in camp and in Fairfield and Staunton.</li> 
+        <li><strong>Fickes, Frank E., drawing (MS #0214)&nbsp; </strong><br><em>Biographical note</em>: Frank Akin Fickes, b. 1888 Steubenville, OH; VMI Class of 1908; chemist; d. 1952, East St. Louis, IL.<br><em>Descriptive note</em>: One original charcoal sketch (ca. 1908) by Frank A. Fickes, published in the 1911 VMI yearbook. The sketch features a skull, snakes, and ghost , symbols of "TKL," a cadet secret society.</li> 
+        <li><strong>Fry, Henry P., collection (MS #0266)&nbsp; </strong><br><em>Biographical note</em>: Henry Peck Fry, b. 1881 Atlanta, GA; VMI Class of 1901; writer and journalist; d. 1956, Alexandria, VA. <em>Descriptive note</em>: Four volume typescript, "Memories of the Old VMI," written by Henry P. Fry ca. 1950. Fry describes his life as a cadet from January 1898 - June 1901. Particular emphasis is placed on the Class of 1901 and Fry's classmate Cadet George C. Marshall.</li> 
+        <li><strong>Parker, John C., notebook (MS #0272)&nbsp; </strong><br><em>Biographical note</em>: John Crump Parker, b. 1895, Franklin, VA; VMI Class of 1914; lawyer; d. 1986 Franklin, VA.<br><em>Descriptive note</em>: One chemistry laboratory notebook that belonged to VMI Cadet John C. Parker, containing experiments conducted during the academic year 1912-1913.</li> 
+        <li><strong>Plants, George S., Collection. (MS#029). </strong><br>Collection Summary Collection (3 items) consists of cadet account book, listing VMI expenses 1904-1906; notebook containing popular VMI football yells, ca. 1905; and one letter from Plants' classmate Jesse P. Jarvis, dated July 1909. Plants, from Seymour, Texas, was a member of the Class of 1908.</li> 
+        <li><strong>Scott, Thomas B., collection (MS #0314)&nbsp; </strong><br>Thomas B. Scott, Jr. was a member of the VMI Class of 1917. The collection consists of approximately 20 items, 1915-1919, including Scott's cadet scrapbook containing snapshots of Superintendent Edward W. Nichols, cadets, cadet activities, dance programs, and other VMI memorabilia; miscellaneous other items, including World War I postcards (15 items) and VMI postcards (4 items).</li> 
+        <li><strong>Tardy, Thomas H.,&nbsp;collection (MS #0291)&nbsp; </strong><br><em>Biographical note</em>: Thomas Howard Tardy, b. 1889, Rockbridge Co., Virginia; VMI Class of 1914; World War I veteran; electrical engineer; d. 1960, Lexington, VA. <em>Descriptive note</em>: The collection (3 items) consists of the VMI account book (1910-1914) of Cadet William H. Tardy; a signed loan agreement, September 1913, between Tardy and VMI; and his writing exercise book.</li> 
+        <li><strong>Virginia Military Institute Civil War Claims documents (MS #0241)&nbsp; </strong><br>2 documents concerning VMI's claim against the United States government for "damages and destruction of library, scientific apparatus and the quarters of professors in June 1864," while Union troops occupied Lexington, Virginia. VMI was awarded $100,000 in 1915.</li> 
+        <li><strong>Wills, Waller H., Jr. misc. papers (MS#0450)</strong><br>Waller G. Wills, Jr. was a member of the VMI Class of 1919. He spent his career as a businessman in Lynchburg, Virginia, where he died in 1961. The papers consist of miscellaneous papers, 1916-1956. Included is a notebook containing unfinished memoirs , "Reminiscences of Cadet Days," in which he discusses many aspects of cadet life during the his rat year, 1915-1916</li> 
+        <li><strong>Wilson, Samuel B., Jr., letters. (MS#0437)&nbsp; </strong><br>Notebook containing typescript copies of the letters of Cadet Samuel Burton Wilson, Jr., VMI Class of 1921. The letters, dated September 1917 - June 1921, provide a detailed account of cadet life during that period. The notebook also contains copies of relevant family photographs and genealogical information. The letters were transcribed and donated by Wilson's daughter.</li> 
+       </ul> 
+       <p><strong><a id="1920's" class="bookmark" title="1920's" name="1920's"></a>1920's&nbsp; See Also&nbsp;<a href="/Archives/Manuscripts/Scrapbooks_Overview___Exhibit/" title="Scrapbooks Overview &amp; Exhibit">Scrapbooks</a>&nbsp;</strong></p> 
+       <ul class="arrowlist"> 
+        <li><strong>Berry, M. Keith,&nbsp;papers (MS #0447)&nbsp; </strong><br>Marshall Keith Berry (b. 1899 d. 1985) was a member of the Class of 1921. While at VMI he served as editor of the 1921 yearbook. He spent his career as a bank president and community leader in Vernon Texas, where he died in 1985. The collection consists primarily of Berry's incoming and outgoing correspondence, 1917-1921, bulk 1920.</li> 
+        <li><strong>Hankins, James D.,&nbsp;papers. (MS#0144)&nbsp; </strong><br>James DeWitt Hankins, b. Clover Lick, WVA, 1902; VMI Class of 1923; teacher; d. Richmond, VA, 1978.Descriptive note: Six letters, 1920-1921, written by Cadet James D. Hankins to his cousin Florence. He describes many features of cadet life during the early 1920's, including a New Year's Eve celebration, a feud between the first and third classes, throwing "bombs" in Barracks courtyard, final exams, and a ghost haunting barracks.</li> 
+        <li><strong>Houston, Levin J.,&nbsp;drawings (MS #0279)&nbsp; </strong><br><em>Biographical note</em>: Levin James Houston b. 1905, Baltimore, MD; VMI Class of 1925; college professor; d. 1990, Fredericksburg, VA. <em>Descriptive note</em>: A collection of 17 watercolor and pen/ink drawings by Cadet Levin J. Houston. Several of the drawings were featured in the cadet magazine known as "The Sniper," published during the 1920's.</li> 
+        <li><strong>Hubbard, Mont. Collection (MS #0444)&nbsp; </strong><br>The collection contains three items that document Virginia Military Institute cadet life, 1928-1929. Included are a letter from Cadet Mont Hubbard, VMI Class of 1932, to his friend Nina Pruett, in which he mentions various events at VMI; a VMI postcard, "line saver for overworked keydets;" and a VMI Easter card.</li> 
+        <li><strong>Kyle, John H.,&nbsp;collection (MS #0262)&nbsp; </strong><br><em>Biographical note</em>: John Holmes Kyle, b. 1901, Lynchburg, VA; VMI Class of 1923; World War II veteran; businessman; d. 1984, Lynchburg. <em>Descriptive note</em>: The collection consists primarily of ca. 20 items from John H. Kyle's VMI cadetship (1919-1923), including a scrapbook, grade reports, sketchbook with pencil drawings of cadets and cartoons depicting VMI life, and photographs. Also miscellaneous documents from 1923-1937, including a letter from Frank McCarthy, Class of 1933.</li> 
+        <li><strong>Langford, Lee E.,&nbsp;Diary&nbsp;(MS #0470)</strong><br>Diary, approximately 100 pages, kept by Cadet Langford during the period January-June 1927. Short daily entries document the typical routine and events of cadet life during the late 1920's.</li> 
+        <li><strong>Montague, Ludwell L.,&nbsp;letters (Transcriptions) (MS#0446)&nbsp; </strong><br>Ludwell Lee Montague (b. 1907- d. 1972) graduated from the Virginia Military Institute in 1928. The bulk of the letters date from his student years at VMI, and they provide a detailed view of cadet life during the 1920s.</li> 
+        <li><strong>Wallace, Robert L.,&nbsp;collection (MS #0388)&nbsp; </strong><br>The collection consists of the VMI account book of Cadet Robert L. Wallace (VMI Class of 1924, of Chase City, Virginia), containing entries for cadet expenses, 1920-1924; and a scrapbook fragment (ca. 21 pages), containing photographs of cadets and cadet life, clippings, and other VMI mementos.</li> 
+       </ul> 
+       <p><strong><a id="1930's" class="bookmark" title="1930's" name="1930's"></a>1930's&nbsp; See Also&nbsp;<a href="/Archives/Manuscripts/Scrapbooks_Overview___Exhibit/" title="Scrapbooks Overview &amp; Exhibit">Scrapbooks</a></strong></p> 
+       <ul class="arrowlist"> 
+        <li><strong>Cooper, George L. H.,&nbsp;Papers (MS #0197)&nbsp; </strong><br><em>Biographical note</em>: George Lawrence Hawkins Cooper, b. 1911 Hattiesburg, MS; VMI class of 1932. LTC United States Marine Corps; educator; d. 1984, Biloxi, MS; buried Hawaii. <em>Descriptive note</em>: VMI scrapbook compiled by Cadet George Cooper. Included are photographs, athletic and dance programs, clippings, and other mementos collected by Cooper during his cadetship, 1928-1932.</li> 
+        <li><strong>Couper, John L., papers (MS #0486)&nbsp; </strong><br>The papers include Couper's (Class of 1937) cadet photograph album.</li> 
+        <li><strong>Coxe, Simeon O., Jr.,&nbsp;letters (MS #0033)&nbsp; </strong><br>One volume typewritten transcriptions of letters written by Cadet Simeon O. Coxe, Jr. (VMI Class of 1933) to his parents in Richmond, Virginia. The letters cover Coxes's entire cadetship (1929-1933) and contain detailed record of cadet life during early 1930's.</li> 
+        <li><strong>Davis, Albert D.,&nbsp;papers (MS #0198)&nbsp; </strong><br><em>Biographical note</em>: Albert Daniel Davis, b. 1913 Stamford, CT; VMI Class of 1935; United States Army Ordnance Corps officer during World War II and Korean War; consultant; d. 1992, Orange, VA. <em>Descriptive note</em>: Papers, 12 items, of Albert D. Davis, including diary, scrapbooks, and miscellaneous correspondence. The diary (1930-1934, 2 volumes), correspondence (1930, 6 items), and one scrapbook (1930-1935) date from his VMI cadetship; the scrapbook includes photographs, dance programs, and other VMI mementos. 3 other scrapbooks date from his tour of duty in Korea, 1951-1952, and contain clippings, military documents, and photographs.</li> 
+        <li><strong>Dew, Joseph D.,&nbsp;letters. (MS#0147)&nbsp; </strong><br><em>Biographical note</em>: Joseph DeJarnette Dew, b. 1912, Spotsylvania Co., VA; VMI Class of 1934; Captain, U.S. Army, WWII; investment broker; d. 1968 Charlottesville, VA. <em>Descriptive note</em>: In Feb. 1931 Joseph D. Dew and William F. Ransom (VMI Class of 1932), secured jobs as deck hands on a freighter and worked their way to Europe. The collection consists of letters, Feb.-April 1931, from Dew to his parents, written on board ship and while touring Europe.</li> 
+        <li><strong>Keith, James. Collection (MS #0245)&nbsp; </strong><br><em>Biographical note</em>: James Keith, b. 1911; VMI Class of 1932; lawyer and judge. <em>Descriptive note</em>: Miscellaneous papers (1931-1932) dating from the cadetship of James Keith, including a scrapbook fragment; 3 essays written for English &amp; History classes; snapshots (ca. 17 items) and a furlough request.</li> 
+        <li><strong>Neikirk, Joseph D., collection (MS #0308)&nbsp; </strong><br>Miscellaneous papers of Joseph Neikirk, VMI Class of 1932, who served as Executive Vice President of the VMI Foundation from 1954 until his retirement in 1978. Includes cadet scrapbook, cadet account book.</li> 
+        <li><strong>Smith, Otis D.,&nbsp;papers. (MS#0150)&nbsp; </strong><br><em>Biographical note</em>: Otis David Smith, b. 1913, Richmond VA; VMI Class of 1933; U.S. Army officer during World War II; businessman; d. 1992, Richmond, VA. <em>Descriptive note</em>: Miscellaneous personal papers (10 items) from the cadetship of Otis D. Smith, Class of 1933. Includes Smith's letter of appointment to VMI (1929); 1 letter to Cadet Smith from the Lexington Postmaster explaining why VMI does not have a branch post office; correspondence concerning the purchase of a radio &amp; radio contest; Finals program, 1933; 2 photographs (cadet group with Frank McCarthy, Smith &amp; others; Smith on stoops); postcard (1929) sent by Superintendent John A. Lejeune to parents of new cadets.</li> 
+        <li><strong>Stewart, Henry&nbsp;M.,&nbsp;collection (MS #0349)</strong><br>Miscellaneous papers, 1929-1935, of VMI alumnus Henry M. Stewart, Class of 1935. The collection includes memorabilia from Stewart's high school years at the Staunton Military Academy and his cadetship at VMI. The VMI material includes a scrapbook, dance and athletic programs, drawings, photographs, information about the Class of 1935 ring design, and other mementos of Stewart's cadetship.</li> 
+       </ul> 
+       <p><strong><a id="1940's" class="bookmark" title="1940's" name="1940's"></a>1940's&nbsp; See Also&nbsp;<a href="/Archives/Manuscripts/Scrapbooks_Overview___Exhibit/" title="Scrapbooks Overview &amp; Exhibit">Scrapbooks</a></strong></p> 
+       <ul class="arrowlist"> 
+        <li><strong>Atkison, George V., notebook (MS #0321)&nbsp; </strong><br>One 3-ring binder containing Organic Chemistry class notes kept by Cadet George V. Atkison, VMI Class of 1940.</li> 
+        <li><strong>Boehm, Frank L., collection (MS #0294)&nbsp; </strong><br>The collection consists of one ring binder scrapbook containing clippings, correspondence, and programs related to the establishment of the first varsity lacrosse team at VMI, 1948-1950; and 9 photographs of the team and team members. The items were donated by team member Francis (Frank) L. Boehm, VMI Class of 1950B. The collection also contains miscellaneous related correspondence [5 items] donated by Walter L. Richards, VMI Class of 1941.</li> 
+        <li><strong>Eickelberg, William T.,&nbsp;papers (MS #0353)&nbsp; </strong><br>William T. Eickelberg is a member of the VMI Class of 1944. The collection consists of 4 items, including a "three year testimonial" that was presented to each member of the Class of 1944, in lieu of a diploma, when the class members were called to active duty in May 1943. Also includes 3 class schedule cards for cadet Eickelberg.</li> 
+        <li><strong>Morrison, James L, Jr., &nbsp;manuscript. (MS#0134).&nbsp; </strong><br>One typescript, "Reminiscences of a Keydet Cavalryman," by Col. James L. Morrison, Jr., VMI Class of 1945. Morrison gives a detailed account his years as a cadet participating in ROTC cavalry unit, 1941-1943 and 1945-1947. Subjects include the operation of the unit at VMI; cadet riding activities, including polo; and individuals involved in the programs.</li> 
+        <li><strong>Niess, Richard C.,&nbsp;collection (MS #0324)&nbsp; </strong><br>Richard C. Niess is a member of the VMI Class of 1944. The collection consists of a typescript reminiscence, written in 1986, of life at VMI during World War II: "Recollections of a VMI Cadet; The Early War Years- 7 December 1941-Jan 1944." Also order and other miscellaneous items, 1943-1944, concerning Niess's cadetship.</li> 
+        <li><strong>Phillips, H. Franklin., Document (MS #0316)&nbsp; </strong><br>One certificate presented to VMI Cadet H. Franklin Phillips in May 1943. This "three year testimonial" was presented to each member of the Class of 1944, in lieu of a diploma, when the class members were called to active duty in May 1943. It states that Phillips successfully completed three years at VMI and was signed by VMI Superintendent Charles E. Kilbourne and others.</li> 
+       </ul> 
+       <p><strong><a id="1950's" class="bookmark" title="1950's" name="1950's"></a>1950's&nbsp; See Also&nbsp;<a href="/Archives/Manuscripts/Scrapbooks_Overview___Exhibit/" title="Scrapbooks Overview &amp; Exhibit">Scrapbooks</a></strong></p> 
+       <ul class="arrowlist"> 
+        <li><strong>Hansrote, Charles J., Jr.,&nbsp;notebooks. (MS# 0419)&nbsp; </strong>Class notebooks (Chemistry)&nbsp;belonging to Cadet Charles J. Hansrote, Jr. (VMI Class of 1952).</li> 
+        <li><strong>Mardi Gras Collection. (MS#087)&nbsp; </strong><br>Collection (ca. 160 items) concerning "Mardi Gras," a 1958 film from 20th Century Fox featuring VMI. Largely BW photographs of production and cast on location at VMI (Lexington, Virginia); scripts.</li> 
+        <li><strong>Thompson, Paul S., papers (MS #0257)&nbsp; </strong><em><br>Biographical note</em>: Paul Singer Thompson, b. 1940, West Point, NY; VMI Class of 1961; PhD University of Virginia (History); Professor of History at the University of Natal, South Africa. <em>Descriptive note</em>: Personal papers, 1956-1988, of Paul S. Thompson, currently a member of the History faculty at the University of Natal, South Africa. The collection includes extensive correspondence, dating from his VMI cadetship (1957-1961), his years in graduate school at the University of Virginia (1961-1965), and his life in South Africa with his family. The papers also include journals containing accounts of his visits to the United States; his dissertation; photographs; correspondence from his wife Earline to her parents; and a scrapbook concerning Thompson's cadetship.</li> 
+       </ul> 
+       <p><strong><a id="1960's_to_date" class="bookmark" title="1960's_to_date" name="1960's_to_date"></a>1960's to date</strong></p> 
+       <ul class="arrowlist"> 
+        <li><strong>Cincinnatus Monument scrapbooks (MS #0243)&nbsp; </strong><br>2 scrapbooks documenting the history and dedication of VMI's Cincinnatus Monument. The monument was unveiled and dedicated on November 11, 1983. The scrapbooks were compiled by Monument Committee member Percy M. "Pete" Lincoln, Jr., VMI Class of 1957.</li> 
+        <li><strong>Conner, Albert Z., drawings (MS #0293)&nbsp; </strong><br>The collection consists of drawings by Cadet Albert Z. Conner, Virginia Military Institute Class of 1966., including 21 sketches of various VMI scenes and one sketchbook containing illustrations used in the 1966 publication "The VMI Coloring Book"</li> 
+        <li><strong>Yorktown Bicentennial collection (MS #0310)&nbsp; </strong><br>Collection of materials (1 linear foot) concerning the participation of the VMI Corps of Cadets in the Yorktown Bicentennial celebration, October 1981. Includes scrapbook compiled by Percy M. "Pete" Lincoln (Class of 1957); descriptions of the trip by VMI ROTC tactical officers &amp; cadets; misc. other items.</li> 
+       </ul> 
+       <p><strong><a id="All_eras" class="bookmark" title="All_eras" name="All_eras"></a>All eras</strong></p> 
+       <ul class="arrowlist"> 
+        <li><strong>Diplomas</strong></li> 
+        <li><strong>Cadet Literary Society Certificates (1842-1874)</strong></li> 
+        <li><a href="/Archives/Manuscripts/Scrapbooks_Overview___Exhibit/" title="Scrapbooks Overview &amp; Exhibit"><strong>Scrapbooks</strong></a></li> 
+        <li><strong>Cadet Autograph Albums (MS #0313)</strong><br>Includes album of Edward H. Smith (Class of 1867 &amp; New Market Cadet) containing inscriptions from 19 fellow New Market Cadets; Farmer D. Cochran Album (Class of 1889); Thomas G. Tate Album (Class of 1877); 1874 album (owner unknown); Class of 1902 (one page). </li> 
+        <li><strong>Cadet Account books&nbsp; </strong><br>Ledger books issued to cadets listing expenses/items purchased during their cadetships. Cadets for whom we have these books are Stanton Forman Blain (Class of 1923); William Nelson Brown (Class of 1893); Camillus Christian, Jr. (Class of 1914); William Henry Green (Class of 1874); Charles B. Hundley (Class of 1867); Edward C. Laird (Class of 1875); William H. Mitchell (Class of 1871); Thomas R. Nicholls (Class of 1929); Robert G. O'Hara (Class of 1935); Cadet George S. Patton (Class of 1877); Murray Forbes Taylor (Class of 1864); John M. Willis (Class of 1936).</li> 
+        <li><strong>Letters of Appointment. (MS #078)&nbsp; </strong><br>This collection consists of notices of appointment sent to new cadets at the Virginia Military Institute. The documents date from the 1840's into the 1900's. The Cadets and non-alumni (appointed but did not enroll) for whom we have these documents are Hamilton B. Caskie (Class of 1909); Simon B. Mason (Class of 1867); Russell Pancake (non-alumnus; did not enroll). Richard Pollard (Class of 1849); Isaac H. Saunders (Class of 1884); Samuel J. Tebbs (Class of 1865);</li> 
+        <li><strong>Cadet Quarterly Report documents. (MS #081)&nbsp; </strong><br>A collection of 19th century quarterly report documents (1849-1897) issued to parents of VMI cadets. The reports include class standing, treasurer's account information, comments by the Superintendent regarding academics and conduct. Cadets for whom we have these documents are Warren S. Ficklin (Class of 1872); Oswald Flint (Class of 1891); Abram Fulkerson (Class of 1857); Samuel H. Letcher (Class of 1869); Richard C. Marshall (Class of 1898); Richard Pollard (Class of 1849); Wallace C. Varner (Class of 1893); William M. Waller (Class of 1852); William G. Watson (Class of 1935).</li> 
+        <li><strong>Cadet drawing exercises (MS #0203)</strong>&nbsp;<br>A collection of 19th century cadet drawings (approximately 200 items) completed primarily as assignments for Professor Thomas H. Williamson's architecture, engineering, and drawing courses at the Virginia Military Institute. A few of the drawings were completed for a geometry course or were not class assignments.</li> 
+        <li><strong>VMI Music collection (MS #0246)&nbsp; </strong><br>A collection, approximately 15 items (1857-1930) of published music written for or about the Virginia Military Institute during the nineteenth and twentieth centuries. The earliest is "The VMI March" (1857) by C. M. Stephani. The collection also includes the "VMI Spirit," "The VMI Alma Mater," "The VMI Cadet Waltz" and others.</li> 
+        <li><strong>Cadet Life collection (MS #0255)&nbsp; </strong><br>A collection of miscellaneous documents from various eras in VMI's history, reflecting the humorous side of cadet life. Includes 3 small (3.5 x 5") watercolor sketches, depicting firecracker prank &amp; results, ca. 1920; a list entitled "Graduated scale of beauty in Lexington," 1856; notice about the VPI football game posted on a barracks room, 1937.</li> 
+        <li><strong>McCormack, Rodney.&nbsp;Collection. (MS #503)</strong><br>McCormack (Class of 1957)&nbsp;was a collector who acquired VMI ephemera, misc. documents etc. This collection contains items from multiple eras.</li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

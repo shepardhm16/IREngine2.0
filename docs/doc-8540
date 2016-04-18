@@ -1,0 +1,695 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	VMI Comptrollers Office - Colleague Manual - Travel Regulations
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets">
+  <meta name="Description" content="Building leaders. Leaders in industry, leaders in government, leaders in the military, leaders in life. Virginia Military Institute is the nation&amp;#39;s oldest state-supported military college. Great Challenge. Lifetime Reward.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?tid=21259&amp;id=21295" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BQx0aHJlZS1jb2x1bW5kAgkPDxYCHgtOYXZpZ2F0ZVVybAUBL2QWAmYPDxYCHghJbWFnZVVybAUdL2NvcmUvaW1hZ2VzL2NvbnRlbnQvbG9nby5qcGdkZAILD2QWAmYPZBYCZg9kFgQCAQ8PFgQeCENzc0NsYXNzBQxzZWFyY2gtaW5wdXQeBF8hU0ICAhYEHgdvbkZvY3VzBYYBaWYodGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVQaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7dGhpcy52YWx1ZT0nc2VhcmNoIHZtaS5lZHUnO31kAgMPEA9kFgIeBXN0eWxlBQxkaXNwbGF5Om5vbmUQFQEDVk1JFQEDVk1JFCsDAWdkZAIPDw8WAh4HVmlzaWJsZWhkZAITD2QWBgIBDw8WAh8IZ2RkAgUPZBYCAgEPZBYCZg9kFgJmDxYCHwhnFgICAQ8PFgIfAgU1L3VwbG9hZGVkSW1hZ2VzL0ltYWdlcy9IZWFkZXJzL2NvbXB0cm9sbGVyLmpwZz9uPTIxNDJkZAIJDw8WAh8IZ2RkZPbxLbGtUv1k/glix089OiciWGCg0tzlOwrPQlvtBfM3"> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAARDFb0Gr9raUaRTMz82irortVqhg79+cCaf2Muxgy28w6Ld5e0tb35jjra3L8Dofk5aGpeLsHyujys0vCNqhELeKP7SfVTGYdwjwxxOSSJgHQoEjeEznf2PbcDcKrzJ16Y="> 
+   </div> 
+   <div id="container" class="three-column"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Administration/Finance_Administration_Support/Deputy_Supt__for_Finance,_Administration___Support/" target="_self">Finance Administration Home</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Comptroller_s_Office/" target="_self">Comptroller's Home</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Colleague_Finance_Departmental_Manual/" target="_self">Colleague Dept Manual</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Forms_Directory/" target="_self">Forms Directory</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Financial_Statements/" target="_self">Financial Statements</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Quarterly_Newsletter/" target="_self">Newsletter</a></li>
+        <li><a href="/content.aspx?id=1196" target="_self">Our Offices</a></li>
+        <li><a href="/Administration/Finance_Administration_Support/Comptrollers_Office/Comptroller_s_Staff/" target="_self">Staff</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft786"> 
+        <address><a href="mailto:ryanka@vmi.edu">Lt. Col. Kevin A. Ryan</a><br>Comptroller<br><br>Ph: (540) 464-7270<br>Fax: (540) 464-7794<br><br>Smith Hall, 3rd Floor<br>Virginia Military Institute<br>Lexington, Virginia 24450<br><br><a href="mailto:comptroller@vmi.edu">Contact Comptrollers Office</a><br><br></address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/Administration/Finance_Administration_Support/Comptrollers_Office/Colleague_Manual/Travel_Regulations/" title="Travel Regulations">Travel Regulations</a></span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/comptroller.jpg?n=2142" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Travel Regulations</h1> 
+       <p><span class="infomsg">NOTICE TO READER:</span>&nbsp;&nbsp;</p> 
+       <p>Segments of this document in bold, italic print represent policy which can be changed only by authorization of the VMI Board of Visitors.&nbsp; All other segments represent procedures which may be changed by authorization of the Superintendent.</p> 
+       <h3><a title="Section 40000" href="#40000">Section 40000</a>&nbsp;</h3> 
+       <p>TABLE OF CONTENTS</p> 
+       <p align="left"><strong>40100&nbsp;&nbsp;</strong><a title="Authorization for Official Travel" href="#40100"><strong>Authorization for Official Travel</strong></a></p> 
+       <ul> 
+        <li><strong>40110&nbsp;</strong><a title="Completing the Travel Authorization" href="#40110"><strong>Completing the Travel Authorization</strong></a>&nbsp; </li> 
+        <li><strong>40120</strong>&nbsp;&nbsp;<a title="Travel Advance" href="#40120"><strong>Travel Advance</strong></a></li> 
+        <li><strong>40130</strong>&nbsp;&nbsp;<a href="#40130"><strong>Travel Charge Cards</strong></a></li> 
+        <li><strong>40140</strong>&nbsp;&nbsp;<a href="#40140"><strong>Group Travel Cards</strong></a>&nbsp;&nbsp;</li> 
+       </ul> 
+       <p><strong>40200&nbsp;</strong><a title="When to Submit a Travel Reimbursement Voucher" href="#40200"><strong>When to Submit a Travel Reimbursement Voucher</strong></a></p> 
+       <p align="left"><strong>40300&nbsp;&nbsp;</strong><a title="Checklist of Required Documentation" href="#40300"><strong>Checklist of Required Documentation</strong></a></p> 
+       <p align="left"><strong>40400&nbsp;&nbsp;</strong><a title="Checklist of Required Information on the Travel Reimbursement Voucher" href="#40400"><strong>Checklist of Required Information on the Travel Reimbursement Voucher</strong></a></p> 
+       <p align="left"><strong>40500&nbsp;&nbsp;</strong><a title="Transportation" href="#40510"><strong>Transportation</strong></a></p> 
+       <ul> 
+        <li><strong>40510&nbsp;&nbsp;</strong><a title="Personal Vehicle Use" href="#40510"><strong>Personal Vehicle Use</strong></a>&nbsp; </li> 
+        <li><strong>40520&nbsp;&nbsp;</strong><a title="State Vehicle Use" href="#40520"><strong>State Vehicle Use</strong></a><strong>&nbsp;</strong>&nbsp; </li> 
+        <li><strong>40530</strong><strong>&nbsp;</strong><a title="Vehicle Rentals" href="#40530"><strong>Vehicle Rentals</strong></a>&nbsp; </li> 
+        <li><strong>40540&nbsp;</strong><a title="Parking and Tolls" href="#40540"><strong>Parking and Tolls</strong></a>&nbsp; </li> 
+        <li><strong>40550</strong>&nbsp;&nbsp;<a title="Public Transportation" href="#40550"><strong>Public Transportation</strong></a>&nbsp; </li> 
+        <li><strong>40560&nbsp;&nbsp;</strong><a title="Airline and Rail" href="#40560"><strong>Airline and Rail</strong></a>&nbsp; </li> 
+        <li><strong>40570</strong>&nbsp;&nbsp;<a title="Airline and Rail Travel – Required Procedures" href="#40570"><strong>Airline and Rail Travel – Required Procedures</strong></a>&nbsp; </li> 
+       </ul> 
+       <p align="left"><strong>40600&nbsp;&nbsp;&nbsp;&nbsp;</strong><a title="Lodging" href="#40600"><strong>Lodging</strong></a></p> 
+       <p align="left"><strong>40700</strong>&nbsp;&nbsp;&nbsp;<strong>&nbsp;</strong><strong>Meals</strong></p> 
+       <ul> 
+        <li><strong>40710&nbsp;</strong><strong>Meal Reimbursement Policy for Overnight Travel</strong>&nbsp; </li> 
+        <li><strong>40720</strong>&nbsp;&nbsp;<a title="Reimbursement Policy for Overtime and Official Travel" href="#40720"><strong>Reimbursement Policy for Overtime and Official Travel</strong></a><strong>&nbsp;</strong>&nbsp; </li> 
+       </ul> 
+       <p>&nbsp;</p> 
+       <p align="left"><strong>40800&nbsp;&nbsp;&nbsp;&nbsp;</strong><a title="Other Expenses" href="#40800"><strong>Other Expenses</strong></a></p> 
+       <ul> 
+        <li><strong>40810&nbsp;</strong><a title="Gratuities (Tips)" href="#40810"><strong>Gratuities (Tips)</strong></a>&nbsp; </li> 
+        <li><strong>40820</strong><strong>&nbsp;</strong><a title="Registration Fees" href="#40820"><strong>Registration Fees</strong></a>&nbsp; </li> 
+        <li><strong>40830</strong>&nbsp;&nbsp;<a title="Telephone Calls, Telegrams and Facsimiles" href="#40830"><strong>Telephone Calls, Telegrams and Facsimiles</strong></a></li> 
+       </ul> 
+       <p><strong>40900&nbsp; </strong><a title="Nonreimbursable Expenses" href="#40900"><strong>Non-reimbursable Expenses</strong></a></p> 
+       <ul> 
+        <li><strong>40950&nbsp;&nbsp;</strong><a title="Nonreimbursable Expenses" href="#40900"><strong>Travel Credits</strong></a>&nbsp;&nbsp;</li> 
+       </ul> 
+       <p align="left"><strong>41000&nbsp;&nbsp;&nbsp;&nbsp;</strong><a title="Travel Charge Cards" href="#41000"><strong>Travel Charge Cards</strong></a><strong>&nbsp;</strong></p> 
+       <ul> 
+        <li><strong>41010&nbsp;&nbsp;</strong><a title="Billing" href="#41010"><strong>Billing</strong></a>&nbsp; </li> 
+        <li><strong>41020</strong>&nbsp;&nbsp;<a title="Using the Card" href="#41020"><strong>Using the Card</strong></a>&nbsp; </li> 
+        <li><strong>41030</strong>&nbsp;&nbsp;<a title="Reimbursement" href="#41030"><strong>Reimbursement</strong></a>&nbsp; </li> 
+       </ul> 
+       <p align="left"><strong>41100&nbsp;&nbsp;&nbsp;&nbsp;<a title=" Electronic Data Interchange" href="#41100">Electronic Data Interchange</a></strong></p> 
+       <ul> 
+        <li><strong>41110</strong>&nbsp;&nbsp;&nbsp;&nbsp;<a title="Remittance Electronic Data Interchange (REDI)" href="#41110"><strong>Remittance Electronic Data Interchange (REDI)</strong></a><strong>&nbsp;</strong></li> 
+       </ul> 
+       <div>
+        <p align="left">&nbsp;</p> 
+        <hr> &nbsp;
+       </div> 
+       <p align="left"><a name="40000" title="40000" class="bookmark" id="40000"></a><strong>40000&nbsp;&nbsp; Introduction&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p align="left"><strong><em>Virginia Military Institute will reimburse individuals traveling on official Institute business for reasonable and necessary expenses incurred.</em></strong>&nbsp;&nbsp;The policies and procedures set forth herein regulate the travel activity of employees and, as appropriate, non-state employees affiliated with the Institute.&nbsp; <strong><em>VMI shall not make any reimbursement for expenses incurred by individuals unless he/she is on official business for the Institute.&nbsp; In the event that a specific travel related issue is not addressed in these policies, the Commonwealth of Virginia CAPP Manual shall apply.</em></strong></p> 
+       <p>Travel expense accounts are open to the public and must sustain the test of public review.&nbsp; The Institute relies on the honesty and integrity of those traveling to prevent excessive travel payments.&nbsp; Any falsification of payments is fraud and the Institute must treat it as such.&nbsp;</p> 
+       <p>&nbsp;</p> 
+       <p><strong><a name="40100" title="40100" class="bookmark" id="40100"></a>40100&nbsp;&nbsp;</strong><strong>Authorization for Official Travel&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>Individuals traveling on official business for the Institute should submit to the Comptroller's Office the&nbsp;<a title="Comptroller Travel Authorization Form" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1080','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">VMI Travel Authorization Form</a>&nbsp;at least ten days before departure.&nbsp;&nbsp;If the traveler desires the Institute to pay registration fees in advance of the travel, the individual must submit the&nbsp;<a title="Comptroller Travel Authorization Form" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1080','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">Travel Authorization</a>&nbsp;to the Comptroller's Office before the Institute may make said payment.</p> 
+       <p>All travel over $1000, regardless of the funding source, requires written authorization <strong><em>in advance</em></strong><em>&nbsp;</em>by the appropriate program head<strong>.&nbsp;&nbsp;</strong> Finance, Administration and Support requires authorization from the Deputy Superintendent for FAS; Academics requires authorization from the Dean; Athletics requires authorization from the Director of Intercollegiate Athletics; Cadet Life requires authorization from the Commandant; and all IT travel must be authorized by the Director of Information Technology.&nbsp;</p> 
+       <p class="indentedtext">To ensure all travel meets the test of necessity, travel involving more than three employees from a single agency to a single travel destination must be approved <strong><em>in advance</em></strong>&nbsp;by the Superintendent or designee.&nbsp; This includes travel of presenters as well as attendees.&nbsp; Where it is determined that a seminar, workshop or training program is essential to staff development for five or more employees the agency shall investigate the option of bringing the trainer on site instead of authorizing employees to travel to an offsite location.&nbsp; <strong><span lang="EN">Persons traveling to the same event shall carpool whenever possible.&nbsp; Whenever multiple vehicles are driven to the same meeting, only one traveler will typically be reimbursed for mileage. Exceptions to this requirement must be approved by the Deputy Superintendent for Finance, Administration and Support.&nbsp;</span></strong><strong><span lang="EN">T</span></strong><span lang="EN">he use of video conferencing and conference calls, in lieu of in-person meetings, should be considered and utilized when offered.</span></p> 
+       <p>When traveling internationally the following approvals <strong><em>must be obtained in advance</em></strong>, dated, and submitted with the travel voucher.</p> 
+       <p>Faculty, staff, or employee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Superintendent or designee</p> 
+       <p>Superintendent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Respective cabinet secretary</p> 
+       <p>To ensure all travel meets the test of necessity, travel involving more than three employees from a single agency to a single <strong>international travel destination</strong> must be approved in advance by the respective cabinet secretary.</p> 
+       <p>&nbsp;</p> 
+       <p><a name="40110" title="40110" class="bookmark" id="40110"></a><strong>40110&nbsp;&nbsp; Completing the&nbsp;<a title="Comptroller Travel Authorization Form" href="javascript:void window.open('/WorkArea/DownloadAsset.aspx?id=1080','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">Travel Authorization</a>&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>The traveler must complete the destination, departure and return times, and purpose of trip.&nbsp;&nbsp;If more than one person is traveling, the names of all persons included in the trip must be included.&nbsp; The method of travel, whether a State vehicle is available or a rental vehicle will be used must be included.&nbsp; The expense estimate shall include all anticipated expenses, including airfare, state, personal or rental vehicle cost, lodging, prepaid registration, and any other associated expenses.</p> 
+       <p>&nbsp;</p> 
+       <p><strong><a name="40120" title="40120" class="bookmark" id="40120"></a>40120&nbsp;&nbsp;</strong><strong>Travel Advance&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>Travel advances are issued for special circumstances only, such as travel involving a group of cadets.&nbsp;&nbsp;The travel advance amount shall not exceed the estimate of expenses and is issued for a maximum period of thirty days unless an exception is authorized by the Comptroller.&nbsp; When determining the amount of advance, do not include expenses that are paid directly by the Institute such as airfare, state vehicle or registration fees paid in advance, or expenses that can be paid with the personal liability travel charge card.</p> 
+       <p>Travel Advances are issued only after all other methods of travel planning have been exhausted and must be approved by the Director of Purchasing and Accounts Payable.&nbsp; These methods include direct bill expenses such as lodging and transportation that can be applied to the Small Purchase Charge Card (SPCC) in advance of travel and individual liability Personal Travel Cards.</p> 
+       <p>If the entire advance is not used, the remaining balance must be submitted to the Comptroller's Office immediately upon return from travel.&nbsp;&nbsp;VMI reserves the right to deduct an advanced amount that has not been returned within 30 days from return of the trip from the payroll of the individual issued the travel advance.&nbsp; VMI does not issue travel advances under $100 or over $500 without the written approval of the Comptroller or designee.</p> 
+       <p>&nbsp;</p> 
+       <p><strong><a name="40130" title="40130" class="bookmark" id="40130"></a>40130&nbsp;&nbsp; Travel Charge Cards</strong>&nbsp;&nbsp;<a href="#Top">[Return to top]</a></p> 
+       <p>VMI offers the Master Card Corporate Travel Card to any full-time academic and administrative faculty and staff member or classified employee based on the frequency of travel.&nbsp; The card is provided at no cost to VMI or the cardholder.&nbsp; It is to be used <em><strong>only</strong></em> for official Institute <strong><em>travel related</em></strong> charges.&nbsp; Cardholders shall not use the travel card for purchases of supplies, materials, or other non-travel related purposes.&nbsp; Non-travel related purchases shall be made through the normal purchasing channels as defined in Section 90000 of this manual (<a href="http://www.vmi.edu/show.aspx?tid=21259&amp;id=21405">http://www.vmi.edu/show.aspx?tid=21259&amp;id=21405</a>)</p> 
+       <p>The card provides a convenient means for travelers to charge most travel related expenses including meals, car rentals, and lodging.&nbsp;&nbsp;</p> 
+       <p><strong>Using the Personal Liability Travel Card</strong>VMI employees may use their Personal Liability Travel Card only for reimbursable travel related expenses incurred while conducting official Institute business.&nbsp;&nbsp;Personal expenses that cannot be reasonably separated from reimbursable expenses may be charged on the card.&nbsp; Personal expenses such as phone calls and spousal meals may be charged to the Travel Card; however, it is the cardholder’s responsibility to pay for these charges with non-Institute, personal funds within the payment terms specified by the charge card vendor.&nbsp;&nbsp;</p> 
+       <p>The Cardholder may request a cash withdrawal option for the Travel Card which will not exceed 10% of the card’s credit limit per month.&nbsp; Exceptions above this amount may be approved by the Comptroller <u>and</u> Deputy Superintendent for Finance, Administration and Support.&nbsp; Applicable fees for cash withdrawals from any Bank of America ATM or bank are 2.5% of the value of the transaction or $5, whichever is greater.&nbsp; If using an ATM or bank other than Bank of America, additional fees may apply.</p> 
+       <p><strong>Personal Liability Travel Card</strong><strong> Billing</strong>The travel card is issued in the cardholder’s name.&nbsp;&nbsp;Payment of the card balance each month is the sole responsibility of the cardholder.&nbsp; VMI is not responsible for late fees and finance charges.</p> 
+       <p>Bank of America will suspend charge privileges or cancel a cardholder’s account when any one of the following general conditions occurs:</p> 
+       <ul type="disc"> 
+        <li>Employment of a cardholder is terminated</li> 
+        <li>There is a consistent delinquent payment history Note: The card will be permanently suspended if payment lapses over a 90 day period.</li> 
+        <li>The cardholder files bankruptcy</li> 
+       </ul> 
+       <p><strong>Reimbursement</strong>The traveler must submit his/her travel expense reimbursement voucher in a timely manner to ensure that reimbursement is received in time to pay charge card bills within the time frame prescribed above.&nbsp;&nbsp;This timely submission is the responsibility of the traveler and not VMI.&nbsp; VMI shall not make travel expense reimbursements from charge card statements or charge receipts.&nbsp; The traveler shall comply with the regulations described herein when submitting the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">travel expense reimbursement voucher</a>.</p> 
+       <p>&nbsp;</p> 
+       <p><strong><a name="40140" title="40140" class="bookmark" id="40140"></a>40140&nbsp;&nbsp; Group Travel Cards</strong>&nbsp;&nbsp;<a href="#Top">[Return to top]</a></p> 
+       <p>&nbsp;</p> 
+       <p>The Group Travel Card may only be requested by Faculty, Administrators and Athletic Personnel when traveling with Cadets.&nbsp; It may not be used for faculty, administrative personnel or staff for business purposes unrelated to cadet travel.&nbsp; Examples for use of the Group Travel Card include field trips and athletic team travel.</p> 
+       <p>In lieu of a cash advance a group travel card may be requested from the Office of the Comptroller when the traveler will be paying expenses for numerous individuals.&nbsp; The Group Travel Card may be used to cover all travel related expenses. Cash withdrawals are not permitted on this card.</p> 
+       <p>An application for the Group Travel Card must be submitted to the Comptroller at least thirty days in advance of the trip.&nbsp; The Travel Card must be picked up no more than 7 days in advance of the trip in the Comptroller’s Office and returned within 14 days after the trip.</p> 
+       <p>The Group Travel Card is paid directly by VMI and is administered in the same manner as the Small Purchase Charge Card (SPCC).&nbsp; It eliminates the need for Travel Reimbursement forms, but requires a Purchase Log be kept with all receipts and submitted to the Comptroller’s Office with the <em><strong>monthly</strong></em> statement at the close of each billing cycle.&nbsp; The assigned cardholder is responsible for obtaining the statement online and reconciling it against each month’s receipts.&nbsp; The Department Head or designee must review and authorize the Purchase Log and associated documents prior to their submission to the Comptroller’s Office.</p> 
+       <p>Cardholders are required to sign an additional agreement acknowledging that unauthorized expenses will become a personal liability and will be deducted from their pay unless other arrangements to recover the funds have been made.&nbsp; Cardholders must receive mandatory training on appropriate use initially before accepting the card and annually thereafter.&nbsp; Failure to complete this training will result in card suspension.</p> 
+       <p>For further requirements and training on the SPCC or to access required forms, please visit:</p> 
+       <p>&nbsp;&nbsp;<a href="http://www.vmi.edu/show.aspx?tid=21259&amp;id=21405#90210">http://www.vmi.edu/show.aspx?tid=21259&amp;id=21405#90210</a></p> 
+       <p>&nbsp;</p> 
+       <p><strong>40200&nbsp;&nbsp; When t<a name="40200" title="40200" class="bookmark" id="40200"></a>o Submit a&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">Travel Reimbursement Voucher</a>&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>VMI employees traveling on official business shall submit the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">travel expense reimbursement voucher</a>&nbsp;to seek reimbursement for expenses.&nbsp;&nbsp;The&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">travel expense reimbursement voucher</a>&nbsp;must be authorized for payment by the appropriate signatory and presented for payment within ten (10) business days after the traveler’s return unless written justification is submitted with the reimbursement request.</p> 
+       <p>The traveler’s supervisor shall review and, if appropriate, approve the voucher.&nbsp;&nbsp;The Supervisor should submit the voucher to the Comptroller’s Office timely, preferably within three working days of receipt from the employee.</p> 
+       <p>For non-state employees (i.e., candidates for employment, guest speakers, prospective students), the appropriate department head shall approve the voucher and submit it to the Comptroller’s Office following the criteria outlined throughout this policy.</p> 
+       <p><strong>&nbsp;</strong></p> 
+       <p><a name="40300" title="40300" class="bookmark" id="40300"></a><strong>40300&nbsp;&nbsp; Checklist of Required Documentation&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <ul type="disc"> 
+        <li>An approved&nbsp;<a title="Comptroller Travel Authorization Form" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1080','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">travel authorization</a>&nbsp;(completed and approved prior to trip)</li> 
+        <li>Documentation of approved exceptions (e.g. travel to single destination by more than three employees, international travel, lodging rate exceptions, etc.)</li> 
+        <li>Original receipts for lodging</li> 
+        <li>Original receipts for group meals (list of participants required)</li> 
+        <li>Original receipts for registration fees</li> 
+        <li>Original receipts for transportation (public transportation, rental car, gas receipts for rental cars, and parking and toll receipts)</li> 
+        <li>Original receipts for gasoline or other expenses related to State vehicles when using a personal credit card or cash, with an attached explanation</li> 
+       </ul> 
+       <p>&nbsp;</p> 
+       <p><a name="40400" title="40400" class="bookmark" id="40400"></a><strong>40400&nbsp;&nbsp; Checklist of Required Information on the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">Travel Reimbursement Voucher</a>&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <ul> 
+        <li>Traveler’s address</li> 
+        <li>Personal vehicle use statement (when applicable)</li> 
+        <li>Mark box for State employee or non-state employee</li> 
+        <li>Signed &amp; dated by traveler and traveler’s supervisor</li> 
+        <li>Date and time of departure and return</li> 
+        <li>Complete columns 2 through 8 as needed, carry over totals</li> 
+        <li>List purpose of trip</li> 
+        <li>If a travel advance was obtained, enter amount received</li> 
+       </ul> 
+       <p>Travelers seeking reimbursement of travel expenses shall submit the above on the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">State Travel Expense Reimbursement Voucher</a>. &nbsp;If additional space is needed, use the State&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher with Continuation Sheet" href="javascript:void window.open('/WorkArea/DownloadAsset.aspx?id=1062','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">Travel Expense Reimbursement Voucher – Continuation Sheet</a>.&nbsp; Obtain these forms from the links provided in this document,&nbsp;departmental secretaries or from the Comptroller’s Office web site under the&nbsp;<a title="Forms Directory" href="/show.aspx?tid=21259&amp;id=780">forms directory</a>.</p> 
+       <p><strong>&nbsp;</strong></p> 
+       <p><a name="40510" title="40510" class="bookmark" id="40510"></a><strong><a name="40500" title="40500" class="bookmark" id="40500"></a>40500&nbsp;&nbsp; Transportation</strong>&nbsp;&nbsp;<a href="#Top"> [Return to top]</a></p> 
+       <p>Employees are expected to use the most economical means of transportation when travelling on Institute related business.&nbsp; When travelling by automobile, employees must first seek a state-owned vehicle from the Physical Plant.&nbsp; If a state-owned vehicle is not available, the employee is to obtain a rental vehicle through the Institute’s Enterprise rental contract.&nbsp; An employee may opt to drive a personally owned vehicle with the understanding that they will only be reimbursed the Fleet Rate ($0.246/mile).</p> 
+       <p>&nbsp;</p> 
+       <p><strong>40510&nbsp;&nbsp; Personal Vehicle Use</strong>&nbsp;&nbsp;<a title=" [Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>The following policies pertain to personal vehicle use reimbursement:</p> 
+       <ul type="disc"> 
+        <li>State-owned vehicles</li> 
+        <li>Enterprise rental car&nbsp; - daily rate + gasoline reimbursement with original receipts</li> 
+        <li>Personally owned vehicle – fleet rate - $.246 per mile</li> 
+        <li>Personally owned vehicle – IRS rate – current rate may be found at:&nbsp;&nbsp; <a href="http://www.irs.gov/taxpros/article/0,,id=156624,00.html">www.irs.gov/taxpros/article/0,,id=156624,00.html</a>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li> 
+       </ul> 
+       <p>Reimbursement at the higher IRS rate for use of a personal vehicle will be used if it is determined to be the most economical and/or in the best interest of the Institute.&nbsp; In order to seek reimbursement at the higher IRS rate, the Trip Calculator and Analysis must be attached to the Reimbursement Request Form.</p> 
+       <p><strong>Trip calculator</strong></p> 
+       <ul type="square"> 
+        <li>Proceed to Commonwealth of Virginia-Office of Fleet Management Services (OFMS) <a title="Trip Calculator" href="http://www.dgs.virginia.gov/OfficeofFleetManagementServices/TravelPlanning/tabid/170/Default.aspx">Trip Calculator</a>.</li> 
+        <li>When the calculator opens, if the computer displays a box to enable macros, click "Enable Macros".</li> 
+        <li>In the calculator enter the traveler's name, agency 211, destination, estimated number of miles for the trip and the number of days of the trip.&nbsp; The calculator will automatically compare the cost of obtaining an Enterprise car for the trip versus personal reimbursement at the current per mile rate.</li> 
+        <li>If personal reimbursement is the cheaper method, click on the "Print Form" button and print out a copy of the calculation.&nbsp; This calculation must be attached to the Reimbursement Request Form in order to be paid at the current IRS rate.</li> 
+       </ul> 
+       <p>The number of miles traveled is to be entered in column three on the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">Travel Voucher</a>. If a State-owned vehicle or Enterprise Rental is used, it is not necessary to enter miles traveled on the voucher.</p> 
+       <p>There may be situations in which travel by other modes of transportation is more cost effective than by automobile.&nbsp;&nbsp;When travel is by automobile, the total travel expenses that will be reimbursed, including meals and lodging while in transit, shall not exceed the cost of the most economical public air or rail transportation fare available.</p> 
+       <p><strong>Mileage Between Employee Residence and Base Point (VMI).</strong>&nbsp;Such mileage incurred on a scheduled workday is commuting mileage.&nbsp; Commuting mileage and other commuting costs incurred on normal workdays are a personal expense and are not reimbursable.&nbsp; If an employee incurs such mileage when required to work on a Saturday, Sunday, or holiday that is not a scheduled work day, VMI may elect to reimburse this expense.</p> 
+       <p><strong>Mileage Between Employee Residence and Common Carrier Terminal.</strong>&nbsp;&nbsp;When round-trip mileage is incurred in connection with one-way transportation to (or from) a terminal, mileage incurred is reimbursable to the extent it does not exceed the usual one-way taxi fare.&nbsp; When mileage is incurred for two one-way trips in connection with travel to and from a terminal, mileage and parking fees are reimbursable to the extent they do not exceed the cost of two one-way taxi fares.</p> 
+       <p><strong>&nbsp;</strong></p> 
+       <p><a name="40520" title="40520" class="bookmark" id="40520"></a><strong>40520&nbsp;&nbsp; State Vehicle Use</strong>&nbsp;&nbsp;<a title=" [Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>If the traveler uses a State-owned vehicle, the traveler shall obtain all fuel using the state fuel charge card provided in each vehicle whenever possible.&nbsp;&nbsp;In the event the state card is not accepted, the traveler may use his/her personal credit card or cash to pay for the fuel; however, the traveler must attach a justification along with the receipt to the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">Travel Voucher</a>.&nbsp; The following information should be on all gasoline receipts:&nbsp;</p> 
+       <ul type="disc"> 
+        <li>Total number of gallons of gasoline purchased</li> 
+        <li>Units of oil purchased and cost for same</li> 
+        <li>Brief but adequate description of any other maintenance performed on the vehicle and the related costs</li> 
+       </ul> 
+       <p>The traveler shall use self-service pumps and regular unleaded fuel.</p> 
+       <p>&nbsp;</p> 
+       <p><a name="40530" title="40530" class="bookmark" id="40530"></a><strong>40530&nbsp;&nbsp; Enterprise Vehicle Rentals&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>When renting a vehicle, travelers shall <em><strong>select the most economical rental automobile</strong>&nbsp;</em>available to meet the travel requirements from Enterprise.</p> 
+       <p>The procurement contract with Enterprise Rent-A-Car is to be used for all local vehicle rentals.&nbsp; When submitting the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">Travel Voucher</a>, list the type of car rented (Economy, Compact, etc) in the “description” column and list any gasoline purchases under “other expenses” (column 8).&nbsp;Attach car rental and gasoline receipts.&nbsp; Travelers shall refuel rental vehicles prior to returning the vehicle(s) to the rental car vendor in accordance with the terms of the contract which is more economical than vendor provided fuel.&nbsp; VMI will not reimburse travelers for rental vendor refueling charges.</p> 
+       <p>VMI employees shall decline the option to purchase insurance offered by rental car contractors.&nbsp;&nbsp;VMI will not reimburse employees for this expense. The Department of General Services, Division of Risk Management, provides a Statewide Self-Insured Automobile plan for State employees.&nbsp; If travel is outside of the territorial United States (territorial U.S. includes Canada and Puerto Rico) and involves a rental vehicle, employees are required to purchase the Liability Damage Waiver and Collision Damage Waiver insurance and these expenses will be reimbursed.&nbsp; No other types of insurance will be reimbursed.</p> 
+       <p>When renting a vehicle, travelers shall select the most economical rental automobile contractor available.</p> 
+       <p>&nbsp;</p> 
+       <p><a name="40540" title="40540" class="bookmark" id="40540"></a><strong>40540&nbsp;&nbsp; Parking and Tolls&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>List the name of the facility (bridge, tunnel or turnpike) on the travel voucher and the amount(s) itemized under “Other Expense”.&nbsp;&nbsp;VMI requires receipts when the cost exceeds $10 and will not make a reimbursement without such a receipt.<strong>&nbsp;</strong></p> 
+       <p><strong>&nbsp;</strong></p> 
+       <p><a name="40550" title="40550" class="bookmark" id="40550"></a><strong>40550&nbsp;&nbsp; Public Transportation&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>Receipts are required for public transportation (bus, taxi, shuttle, etc.).&nbsp;&nbsp;Attach receipts to the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">Travel Voucher</a>.</p> 
+       <p>&nbsp;</p> 
+       <p><a name="40560" title="40560" class="bookmark" id="40560"></a><strong>40560&nbsp;&nbsp; Airline and Rail Travel&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>Airline and Rail tickets may be obtained by using the services of a travel agency, internet travel services web sites, or directly from the airline or rail service provider.&nbsp;&nbsp;When airline or rail tickets are purchased, one of the payment alternatives listed below must be used.&nbsp;</p> 
+       <ol> 
+        <li><em><strong>Travel Charge Card</strong></em> - Airline tickets may be purchased using the traveler’s travel charge card; however, reimbursement cannot be made from state funds until after the trip has occurred.&nbsp;&nbsp;In the case of local funds, reimbursement may be made prior to the trip.</li> 
+        <li><em><strong>&nbsp;Personal Charge Card</strong></em> - Airline tickets may be purchased using the traveler’s personal charge card; however, reimbursement cannot be made from state funds until after the trip has occurred.&nbsp;&nbsp;In the case of local funds, reimbursement may be made prior to the trip.</li> 
+        <li><em><strong>&nbsp;Agency Travel Card</strong></em> - The agency travel card is a direct billed card maintained in the Comptroller’s Office.&nbsp;&nbsp;This card is used only for payment of airline tickets purchased through a travel agency.</li> 
+       </ol> 
+       <p><a name="40570" title="40570" class="bookmark" id="40570"></a></p> 
+       <p><strong>40570&nbsp;&nbsp; Airline and Rail Travel – Required Procedures&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>In addition to the policies outlined above, purchases of travel services through internet sources must adhere to additional guidelines.&nbsp;&nbsp;Usage of the internet to procure travel services is permitted.&nbsp; Travelers must use prudent judgment when choosing an internet travel service site.&nbsp; Suggested sites include but are not limited to:</p> 
+       <ul type="disc"> 
+        <li>Priceline.com</li> 
+        <li>Expedia.com</li> 
+        <li>Orbitz.com</li> 
+        <li>Travelocity.com&nbsp;</li> 
+       </ul> 
+       <p>In addition to other documents required by policy, the following must be submitted with the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">travel reimbursement voucher</a>&nbsp;when procuring travel services via the internet:</p> 
+       <ul type="disc"> 
+        <li>Hardcopy final page from internet site showing total cost and confirmed service</li> 
+        <li>Airline confirmation (either ticket stub or boarding pass) of the type of ticket purchases (e.g. coach class)</li> 
+        <li>Boarding passes are required for all air and rail reimbursements made directly to the traveler.</li> 
+       </ul> 
+       <p>&nbsp;</p> 
+       <p><a name="40600" title="40600" class="bookmark" id="40600"></a></p> 
+       <p>&nbsp;</p> 
+       <p>&nbsp;<strong>40600&nbsp;&nbsp;&nbsp;&nbsp; Lodging&nbsp;&nbsp;</strong>&nbsp;<a title="[Return to top]" href="http://www.vmi.edu/content.aspx?tid=21259&amp;id=21295#Top"><font color="#0563c1">[Return to top]</font></a></p> 
+       <p>Lodging expenses vary with the area traveled, but all expenditures shall be necessary and reasonable.&nbsp;&nbsp;Travelers shall always request government rates at the time reservations are made and confirm the rate during check-in.&nbsp; Travelers may use the services of a travel agency to ensure the most economical lodging accommodations are obtained.</p> 
+       <p>All travelers seeking reimbursement from VMI for lodging expenses shall submit supporting original hotel receipts (which are itemized and show a zero balance at check-out) with the travel voucher and shall fully explain any unusual charges.</p> 
+       <p>VMI may pay higher lodging amounts for stays in hotels, when justified, such as hotels serving as conference sites; however, the Superintendent or his designee shall approve such exceptions in advance of the travel.&nbsp;&nbsp;To obtain such an exception, the traveler must submit a <a title="Comptroller Travel Lodging Exception Form" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1068','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')"><font color="#0563c1">lodging exception form</font></a> to the Comptroller’s Office in advance of the travel.&nbsp; Such exceptions are limited to 50 percent in excess of the applicable guideline amount.&nbsp; The&nbsp;<a title="Comptroller Travel Lodging Exception Form" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1068','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')"><font color="#0563c1">lodging exception form</font></a>&nbsp;may be obtained by the&nbsp;link provided or&nbsp;on the Comptroller's web site under the&nbsp;<a title="Forms Directory" href="http://www.vmi.edu/show.aspx?tid=21259&amp;id=780"><font color="#0563c1">forms directory</font></a>.</p> 
+       <p>The traveler must list each day’s lodging amounts separately in column 7 on the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')"><font color="#0563c1">Travel Expense Reimbursement Voucher</font></a>; other hotel charges, e.g. business phone calls, parking, must be listed in the appropriate columns.</p> 
+       <p><span>All lodging rates are governed by the U.S. General Services Administration (GSA) rates effective October 1, 2015. The traveler must search for the travel destination using the search criteria on the website:</span></p> 
+       <p><span><a href="http://www.gsa.gov/portal/content/104877"><font color="#0563c1">http://www.gsa.gov/portal/content/104877</font></a></span></p> 
+       <p><span>**NOTE: The travel destination or lodging destination is the city or county in which the hotel is physically located. The hotel’s mailing address should not be used for verification of city/county. If the hotel is not within the city limits, the county in which it is located should be used for lodging rates.<span>&nbsp; </span>If a location is not listed in the GSA table, the standard rate applies.</span></p> 
+       <p><span>Certain foreign travel destinations may justify higher amounts.<span>&nbsp; </span>Contact the Comptroller’s Office to obtain travel information concerning the reimbursable cost of foreign travel.</span></p> 
+       <p>&nbsp;<span>&nbsp;</span></p> 
+       <p>&nbsp;</p> 
+       <p><strong>40710&nbsp;&nbsp;&nbsp;&nbsp; Meal Reimbursement Policy for Overnight Business Travel&nbsp;</strong><a title="[Return to top]" href="http://www.vmi.edu/content.aspx?tid=21259&amp;id=21295#Top"><font color="#0563c1">[Return to top]</font></a></p> 
+       <p>VMI shall reimburse meal and certain other incidental travel expenses for overnight travel.&nbsp;&nbsp;The traveler may be reimbursed for such expenses (including all related taxes and tips) based on a fixed allowance.&nbsp; The fixed allowance is referred to as the&nbsp;meals and incidental expense (M&amp;IE) per diem.<span>&nbsp; </span>Employees may request reimbursement based on actual meal expenses incurred, provided the amounts do not exceed the daily M&amp;IE per diem amounts.&nbsp; VMI does not permit the traveler to directly bill VMI for meal expenses.&nbsp; VMI will pay the M&amp;IE per diem directly to the traveler only, even when one traveler incurred the expenses on behalf of another. The M&amp;IE per diem used by VMI shall correspond to the location of the traveler's related overnight lodging.&nbsp; The applicable M&amp;IE per diem, or fraction thereof, is payable to the traveler without itemization of meal expenses or receipts.&nbsp; </p> 
+       <p><span>The M&amp;IE Rates located at the link below provide individual meal reimbursement amounts.<span>&nbsp; </span>These rates should be used to determine the maximum meal reimbursement amounts for official business meals and/or the M&amp;IE reduction.</span></p> 
+       <p><span><a href="http://www.gsa.gov/portal/content/101518"><font color="#0563c1">http://www.gsa.gov/portal/content/101518</font></a></span></p> 
+       <p><span>The M&amp;IE must be reduced for the applicable meal when meals are provided at no cost during an overnight travel period. Refer to the Prorations and Reductions section for additional guidance. The M&amp;IE Rates listed on the website include amounts for the 75% travel days.<span>&nbsp; </span>The M&amp;IE Rates should be used unless a traveler needs to make an adjustment for provided meals, as noted in the Prorations and Reductions Section.</span></p> 
+       <p><b><span>M&amp;IE Prorations and Reductions.<span>&nbsp; </span></span></b><span>The following link should be used to calculate prorations and deductions for meal per diems:</span></p> 
+       <p><span>&nbsp;</span></p> 
+       <p><span><a href="http://www.gsa.gov/portal/content/101518"><font color="#0563c1">http://www.gsa.gov/portal/content/101518</font></a></span></p> 
+       <p><span>&nbsp;</span></p> 
+       <p><span>On a travel departure or return day, 75% of the M&amp;IE rate is reimbursed. For trips involving multiple travel destinations, base the reduction rate in effect for where the night was spent as follows:</span></p> 
+       <p><span>Departure Day: <span>&nbsp;</span>Where you spend the night.</span></p> 
+       <p><span>Return Day:<span>&nbsp; </span>Where you spent the night before returning to home base.</span></p> 
+       <p><span>&nbsp;</span></p> 
+       <p><span>When meals are provided at no cost in conjunction with travel events, the applicable M&amp;IE rate shall be reduced by the amount shown for the applicable meal in the M&amp;IE Rate Table.<span>&nbsp; </span>For example, if the M&amp;IE rate allows a $51 total reimbursement, and lunch was provided at no cost, the total allowable reimbursement for that day would be $39 ($51 - $12 lunch).<span>&nbsp; </span></span></p> 
+       <p><span>&nbsp;</span></p> 
+       <p><span>However, when meals are provided at no cost in conjunction with travel events on a travel departure or return day, the full M&amp;IE rate is reduced by the full amount of the appropriate meals followed by a 75% prorating of the balance.<span>&nbsp; </span>For example, if the M&amp;IE rate allows a $51 total reimbursement, and lunch was provided at no cost on a travel departure or return day, the total allowable reimbursement for that day would be $29.25 [($51 - $12 lunch = $39) $39 * .75 = $29.25].</span></p> 
+       <p><strong>Incidental Travel Expenses Covered by the M&amp;IE Per Diem.&nbsp;</strong>&nbsp;The incidentals portion of the M&amp;IE per diem rate covers expenses such as service fees or tips (including but not limited to bellhops, skycaps, maids, waiters/waitresses, taxi, and limousine drivers), laundry expenses, personal telephone calls, and transportation between places of lodging or business and places where meals are taken are included in the M&amp;IE rate.&nbsp; VMI will not separately reimburse the traveler for these types of expenses.</p> 
+       <p>&nbsp;</p> 
+       <p><a name="40720"></a><strong>40720&nbsp;&nbsp;&nbsp;&nbsp; Reimbursement Policy For Overtime and Official Business Meals&nbsp;&nbsp;</strong><a title="[Return to top]" href="http://www.vmi.edu/content.aspx?tid=21259&amp;id=21295#Top"><font color="#0563c1">[Return to top]</font></a></p> 
+       <p>VMI generally does not reimburse individuals for meal expenses not involving an overnight stay. VMI may make such reimbursement if the traveler submits to the Comptroller documentation that clearly establishes that the meal was for official business reasons or taken during official overtime work.&nbsp;&nbsp;With the Board of Visitors adoption of this Manual, the Board of Visitors hereby delegates to the Comptroller the authority to make such determinations.&nbsp; To be eligible for reimbursement of this expense, the individual seeking reimbursement must demonstrate that such meals are essential to the Institute’s mission and are a business necessity.&nbsp; Employees shall pay for the meal and submit to the Comptroller a&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')"><font color="#0563c1">Travel Expense Reimbursement Voucher</font></a>.&nbsp; The traveler or VMI employee shall not direct the restaurant to directly bill VMI for meals.</p> 
+       <p><strong>Overtime Meals.</strong>&nbsp;&nbsp;In addition to the general requirements established above for non-overnight meals, the overtime work periods in which meals are purchased shall be required by VMI.&nbsp; Overtime work periods may include extended work hours due to non-overnight travel.&nbsp; To be eligible for overtime meals required in conjunction with non-overnight travel, the traveler shall, out of business necessity, leave home before 6:00 a.m. (for breakfast) and be unable to return home before 7:00 p.m. (for dinner).&nbsp; Lunch meal expenses are not reimbursable under the provisions of the overtime meal reimbursement policy.&nbsp; Authorized overtime meals may be reimbursed up to the amount shown on the&nbsp;<a title="Comptroller Travel Overtime Meal Allowance Guidelines" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1092','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')"><font color="#0563c1">overtime meal guidelines</font></a>&nbsp;available on the link provided or the&nbsp;Comptroller's office web site&nbsp;<a title="Forms Directory" href="http://www.vmi.edu/show.aspx?tid=21259&amp;id=780"><font color="#0563c1">forms directory</font></a>.&nbsp;&nbsp;An overtime meal allowance based on the number of hours worked is considered taxable wages and must be recorded as such in the payroll records.</p> 
+       <p><strong>Official Business Meals.</strong>&nbsp;&nbsp;In addition to the general requirements established above for non-overnight meals, official business meals shall also involve substantive and bona fide business discussion and include the original <strong><i>itemized</i></strong> receipt.&nbsp; Business meal reimbursements must be approved by the Superintendent or his designee.&nbsp; Authorized official business meals may be reimbursed based on actual costs incurred up to the amount shown for the applicable meal in the&nbsp;<a title="Comptroller Travel Meal &amp; Incidental Travel Expense (M&amp;IE) Perdiem Allowance" href="http://www.gsa.gov/portal/content/104877"><font color="#0563c1">M&amp;IE Rate Table</font></a><u><font color="#0563c1">.<span>&nbsp; </span></font></u>The M&amp;IE rate used shall correspond to the location in which the official business meal was taken.&nbsp; VMI may pay for a higher meal amount 1.5 times above the applicable meal rate when exception is requested prior to the meal.&nbsp; The&nbsp;<a title="Comptroller Travel Meal Exception Form" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=19359','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')"><font color="#0563c1">meal exception form</font></a>&nbsp;may be found on the link provided or the&nbsp;Comptroller's web site&nbsp;<a title="Forms Directory" href="http://www.vmi.edu/show.aspx?tid=21259&amp;id=780"><font color="#0563c1">forms directory</font></a>.</p> 
+       <p><span>&nbsp;</span></p> 
+       <p><span>&nbsp;</span></p> 
+       <p><span>&nbsp;</span></p> 
+       <p><span>&nbsp;</span></p> 
+       <p>&nbsp;</p> 
+       <p>&nbsp;</p> 
+       <p><a name="40800" title="40800" class="bookmark" id="40800"></a><strong>40800&nbsp;&nbsp;&nbsp;&nbsp; Other Expenses&nbsp;&nbsp;&nbsp;</strong><a href="#Top">[Return to top]</a><strong>&nbsp;</strong></p> 
+       <p><a name="40810" title="40810" class="bookmark" id="40810"></a><strong>40810&nbsp;&nbsp;&nbsp;&nbsp; Gratuities (Tips)</strong> &nbsp;&nbsp;<a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>Gratuities are not reimbursable because they are included in the M&amp;IE per diem.&nbsp;&nbsp;Where VMI reimburses the actual meal costs under the non-overnight travel meal reimbursement policy, meal tips are reimbursable within the applicable meal rate.&nbsp; Meal tips shall not exceed 15% of the cost of the meal.</p> 
+       <p>&nbsp;</p> 
+       <p><a name="40820" title="40820" class="bookmark" id="40820"></a><strong>40820&nbsp;&nbsp;&nbsp;&nbsp; Registration Fees&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>VMI may reimburse individuals for attendance at functions related to Institute business when the individual is expected to attend due to the nature of his/her position.&nbsp;&nbsp;Receipts are required for reimbursement.&nbsp; If registration was paid in advance by the Institute, do not include such costs on the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void%20window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">Travel Reimbursement Voucher</a>.&nbsp; Travelers are strongly encouraged to coordinate with their departmental SPCC cardholder in order to pay these fees in advance of the trip.&nbsp;</p> 
+       <p><a name="40830" title="40830" class="bookmark" id="40830"></a></p> 
+       <p><strong>40830&nbsp;&nbsp;&nbsp;&nbsp; Telephone Calls, Internet Services and Facsimiles&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>The traveler may claim reimbursement for business-related calls on the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">Travel Voucher</a>.&nbsp;&nbsp;For long distance calls, the traveler shall submit the location, person and reason for the call with the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="javascript:void window.open('/WorkArea/DownloadAsset.aspx?id=1064','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">Travel Voucher</a>.</p> 
+       <p>&nbsp;</p> 
+       <p><a name="40900" title="40900" class="bookmark" id="40900"></a><strong>40900&nbsp;&nbsp;&nbsp;&nbsp; Non-reimbursable Expenses&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>VMI shall not reimburse individuals for the following:&nbsp;</p> 
+       <ul> 
+        <li>Lost or Stolen Articles</li> 
+        <li>Alcoholic beverages</li> 
+        <li>Excessive meals and lodging</li> 
+        <li>Damage to personal vehicles, clothing, or other items</li> 
+        <li>Services to gain entry to a locked vehicle</li> 
+        <li>Movies or cable television programming charged to hotel bills</li> 
+        <li>Any expenses related to the personal negligence of the traveler, such as fines</li> 
+        <li>Entertainment expenses</li> 
+        <li>Towing charges for personal vehicles</li> 
+        <li>Expenses for children, spouses, companions, or friends of state employees&nbsp;</li> 
+       </ul> 
+       <p>The above is not intended to be all inclusive.&nbsp;&nbsp;<strong><em>Exceptions to the policies described above may be granted by the Chief Financial Officer.&nbsp; Justification must be provided and authorization obtained beforehand.</em></strong></p> 
+       <p>&nbsp;</p> 
+       <p><a name="40900" title="40900" class="bookmark" id="40900"></a><strong>40950&nbsp;&nbsp;&nbsp;&nbsp; Travel Credits&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>Travel credits, reduced rates, or free services received from public facilities (examples:&nbsp; airline, car rental agencies, motels, etc.) by individuals for whatever reason accrue to the Commonwealth (VMI) per topic 20335 of Virginia’s CAPP Manual.&nbsp; Any such credit, reduced rate, or free service must be deducted from the amount of travel expenses claimed and/or used for future official business travel.</p> 
+       <p>&nbsp;</p> 
+       <p><a name="41000" title="41000" class="bookmark" id="41000"></a><strong>41000&nbsp;&nbsp;&nbsp;&nbsp; Travel Charge Cards&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>VMI offers the Master Card Corporate Travel Card to all full-time academic and administrative faculty.&nbsp;&nbsp;VMI offers classified employees the card based on frequency of travel.&nbsp; The card is provided at no cost to VMI or the cardmember.&nbsp; The travel card is to be used <em><strong>only</strong></em> for official Institute <em><strong>travel related</strong></em> charges.&nbsp; Cardholders shall not use the travel card for purchases of supplies, materials, or for other non-travel related purposes.&nbsp; Non-travel related purchases shall be made through the normal purchasing channels such as with the SPCC, Purchase Order, etc.</p> 
+       <p>The card provides a convenient means for travelers to charge most travel related expenses including meals, car rentals, and lodging.&nbsp;&nbsp;VMI may provide cash advances to those employees that are not offered the opportunity to participate in the card program or when responsible for expenses of cadets traveling with them.</p> 
+       <p>&nbsp;</p> 
+       <p><a name="41010" title="41010" class="bookmark" id="41010"></a><strong>41010&nbsp;&nbsp;&nbsp;&nbsp; Billing&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>The travel card is issued in the cardmember’s name.&nbsp;&nbsp;Payment of the card balance each month is the sole responsibility of the cardmember.&nbsp; VMI is not responsible for late fees and finance charges.</p> 
+       <p>MasterCard will suspend charge privileges or cancel a cardmember’s account when any one of the following general conditions occur:</p> 
+       <ul> 
+        <li>Employment of a cardmember is terminated</li> 
+        <li>There is a consistent delinquent payment history Note: MasterCard will cancel a card permanently if payment lapses over a 90 day period.</li> 
+        <li>The cardmember files bankruptcy</li> 
+       </ul> 
+       <p>&nbsp;</p> 
+       <p><a name="41020" title="41020" class="bookmark" id="41020"></a><strong>41020&nbsp;&nbsp;&nbsp;&nbsp; Using the Travel Card</strong>&nbsp;&nbsp;<a title=" [Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>VMI employees may use the charge card only for reimbursable travel related expenses incurred while conducting official Institute business.&nbsp;&nbsp;Personal expenses that cannot be reasonably separated from reimbursable expenses may be charged on the card.&nbsp; Examples include a personal phone call included in a lodging bill or a spouse’s dinner included in a restaurant bill.&nbsp; Although such personal expenses may be charged to the card, it is the cardmember’s responsibility to pay for these charges from personal funds within the payment terms specified by the charge card vendor.&nbsp;</p> 
+       <p>&nbsp;</p> 
+       <p><a name="41030" title="41030" class="bookmark" id="41030"></a><strong>41030&nbsp;&nbsp;&nbsp;&nbsp; Reimbursement&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a></p> 
+       <p>The traveler must submit his/her travel expense reimbursement voucher in a timely manner to ensure that reimbursement is received in time to pay charge card bills within the time frame prescribed above.&nbsp;&nbsp;This timely submission is the responsibility of the traveler and not VMI.&nbsp; VMI shall not make travel expense reimbursements from charge card statements or charge receipts.&nbsp; The traveler shall comply with the regulations described herein when submitting the&nbsp;<a title="Comptroller Travel Expense Reimbursement Voucher" href="/WorkArea/DownloadAsset.aspx?id=1064&amp;libID=1084">travel expense reimbursement voucher</a>.</p> 
+       <p>&nbsp;</p> 
+       <p><a name="41100" title="41100" class="bookmark" id="41100"></a><strong>41100&nbsp;&nbsp;&nbsp;&nbsp; Electronic Data Interchange (EDI)</strong>&nbsp;&nbsp;<a title=" [Return to top]   " href="#Top">[Return to top]</a></p> 
+       <p>The Commonwealth of Virginia uses a system called Financial Electronic Data Interchange (EDI) instead of issuing checks whereby employees are reimbursed electronically.&nbsp;&nbsp;The EDI program transfers the payment from the Commonwealth’s bank account to the designated employee’s account.&nbsp; This provides funds quicker than by paper check because the mailing time is eliminated.&nbsp; The Commonwealth of Virginia charges the Institute $5 each time a travel reimbursement is paid by check to an employee.&nbsp; Employees are required to enroll in the Commonwealth’s EDI program.&nbsp; Failure to enroll in the EDI program will result in the transfer of this charge to the employee being reimbursed. Currently, this applies only to state funded reimbursements – it does not affect local fund reimbursements which are still made by check.&nbsp; For additional information and&nbsp;<a title="Comptroller Travel State Employee Enrollment Form (EDI)" href="/WorkArea/DownloadAsset.aspx?id=42279&amp;libID=40651">enrollment in the EDI program</a>, please refer to the link provided or&nbsp;the Comptroller’s Office web site.</p> 
+       <p>&nbsp;</p> 
+       <p><a name="41110" title="41110" class="bookmark" id="41110"></a><strong>41110&nbsp;&nbsp;&nbsp;&nbsp; Remittance Electronic Data Interchange (REDI)&nbsp;&nbsp;</strong><a title="[Return to top]" href="#Top">[Return to top]</a><strong>&nbsp;&nbsp;</strong></p> 
+       <p>The Remittance Electronic Data Interchange (REDI) Virginia website is an online system that allows employees enrolled in the EDI program to view remittance data for payments that are processed via electronic data interchange.&nbsp;&nbsp;For additional information on this program please refer to the&nbsp;<a title="Comptroller Travel Procedures To Enroll in REDI Virginia" href="javascript:void window.open('/WorkArea/DownloadAsset.aspx?id=1070','showcontent','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=700,height=600')">Procedures to Enroll in REDI</a>&nbsp;on the link provided or the&nbsp;Comptroller’s Office web site.</p> 
+      </div> 
+      <div id="ctl00_pageContent_rightColumn"> 
+       <div id="content-2" class="column last"> 
+        <div id="ctl00_pageContent_relatedRight23595" class="mod"> 
+         <p><strong>Travel Regulations</strong></p> 
+         <ul class="arrowlist"> 
+          <li><a title="Comptroller Travel Authorization Form" href="/WorkArea/DownloadAsset.aspx?id=1080&amp;libID=1100">Travel Authorization Form</a></li> 
+          <li><a title="Comptroller Travel Authorization Form Instructions" href="/WorkArea/DownloadAsset.aspx?id=1078&amp;libID=1098">Instr Prep Travel Auth Form</a></li> 
+          <li><a title="Comptroller Travel Expense Reimbursement Voucher" href="/WorkArea/DownloadAsset.aspx?id=1064&amp;libID=1084">Travel Expenses Reimb Voucher</a></li> 
+          <li><a title="Comptroller Travel Expense Reimbursement Voucher - Instructions" href="/WorkArea/DownloadAsset.aspx?id=1060&amp;libID=1080">Instr Prep Reimb Voucher</a></li> 
+          <li><a title="GSA M&amp;IE Rates" href="http://www.gsa.gov/portal/content/101518">Lodging-Meal-Incidentals Exp Guide</a></li> 
+          <li><a title="Comptroller Travel Meal &amp; Incidential Per Diem Prorate Table" href="/WorkArea/DownloadAsset.aspx?id=24189&amp;libID=23155">Meal-Incidentals Exp Prorate</a></li> 
+          <li><a title="Comptroller Travel Overtime Meal Allowance Guidelines" href="/WorkArea/DownloadAsset.aspx?id=1092&amp;libID=1112">Overtime Meal Allowance</a></li> 
+          <li><a title="Comptroller Travel Lodging Exception Form" href="/WorkArea/DownloadAsset.aspx?id=1068&amp;libID=1088">Lodging Exception Form</a></li> 
+          <li><a title="Comptroller Travel Meal Exception Form" href="/WorkArea/DownloadAsset.aspx?id=19359&amp;libID=18761">Meal Exception Form</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

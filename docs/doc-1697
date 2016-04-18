@@ -1,0 +1,490 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <link rel="shortcut icon" type="image/x-icon" href="http://digitalcollections.vmi.edu/ui/custom/default/collection/default/images/favicon.ico?version=1409081966"> 
+  <title>ScholarShare</title> 
+  <script>
+    var cdmHttps = 'off';
+    var cdmInsecureWebsitePort = '';
+    var cdmSecureWebsitePort = '';
+  </script> 
+  <link type="text/css" href="http://digitalcollections.vmi.edu/ui/custom/default/collection/default/css/main.css?version=1426169330" rel="stylesheet"> 
+  <link type="text/css" href="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~bt~jquery.bt.css/version/1423204222/type/stylesheet" rel="stylesheet"> 
+  <link type="text/css" href="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~skins~tango~skin.css/version/1423204281/type/stylesheet" rel="stylesheet"> 
+  <link type="text/css" href="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~skins~cdm~skin.css/version/1423204222/type/stylesheet" rel="stylesheet"> 
+  <link href="http://digitalcollections.vmi.edu/ui/custom/default/collection/coll_p15821coll9/css/collection.css?version=1426169330" type="text/css" rel="stylesheet"> 
+  <style>
+    .line_breaker, pre {
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: pre-line;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -hp-pre-wrap;
+        word-wrap: break-word;
+    } 
+  </style> 
+  <script src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~jquery_1.7.2~jquery-1.7.2.js/version/1423204222/type/javascript"></script> 
+  <script src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~jquery_1.7.2~jquery-ui-1.8.20.js/version/1423204222/type/javascript"></script> 
+  <script src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~jquery-ui-togglebox.js/version/1423204223/type/javascript"></script> 
+  <script src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~jquery.hoverIntent.minified.js/version/1423204223/type/javascript"></script> 
+  <script src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~jquery.scrollTo-min.js/version/1423204223/type/javascript"></script> 
+  <script src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~default.js/version/1423204222/type/javascript"></script> 
+  <script src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~modernizr-2.6.3.js/version/1423204223/type/javascript"></script> 
+  <!--[if lt IE 10]>
+<script type="text/javascript" src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~cdmOldInternetExplorerChecker.js/version/1423204223/type/javascript"></script>
+<![endif]--> 
+  <script src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~bt~jquery.bt.min.js/version/1423204222/type/javascript"></script> 
+  <script src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~quickview.js/version/1423204223/type/javascript"></script> 
+  <!--[if IE]>
+<script type="text/javascript" src="http://digitalcollections.vmi.edu/ui/cdm/default/collection/default/js/excanvas.compiled.js?version=1423204223"></script>
+<![endif]--> 
+  <script src="http://digitalcollections.vmi.edu/ui/cdm/default/collection/default/js/cdm_ga.js?version=1423204222"></script> 
+  <style type="text/css">
+body{
+	background-color:#e6e6e6;
+}
+#header{
+	width:100%;
+	 background-image: url("images/background.png");
+    background-repeat: repeat-x;
+	height:175px;
+	text-align:center;
+	z-index:10;
+}
+#menubar{
+width:100%;
+background-color:#a9a9a9;	
+height:26px;
+-moz-border-top-right-radius: 10px;
+-webkit-top-right-radius: 10px;
+border-top-right-radius: 10px; 
+-moz-top-left-radius: 10px;
+-webkit-top-left-radius: 10px;
+border-top-left-radius: 10px; 
+line-height:26px;
+border-bottom:1px #000 solid;
+}
+#topmenu{
+-moz-top-left-radius: 10px;
+-webkit-top-left-radius: 10px;
+border-top-left-radius: 10px; 
+background-color:#666666;	
+padding-left:15px;
+float:left;
+margin-left:0;
+
+}
+
+.menuitem{
+color:#fff;
+float:left;
+font-weight:bold;
+background-color:#666666;
+border-right:1px #000 solid;
+padding-left:10px;
+padding-right:10px;	
+font-size:1.1em;
+}
+
+.menuitem a {
+color:#fff;
+font-weight:bold;
+text-decoration: none;
+}
+
+.menuitem:hover{
+background-color:#333;
+}
+
+.over  {
+background-color:#333;
+}
+
+
+#center {
+	z-index:2;
+max-width:1000px;
+width:75%;
+margin-right: auto;
+margin-left: auto;
+margin-top:15px;
+background-color:#fff;
+-webkit-box-shadow: 2px 2px 8px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    2px 2px 8px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         2px 2px 8px 0px rgba(50, 50, 50, 0.75);
+
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; 
+font-size:1em;
+	
+}
+
+#bottomcontent{
+	color:#000;
+	font-size:1.1em;
+    margin-left:0;
+	FLOAT:left;
+	width:95%;
+	padding:20px;
+
+
+}
+
+#bottomcontent a{
+color:#660000;
+}
+
+#bottomcontent hr{
+	border:0;
+	height:1px;
+ background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.65), rgba(0,0,0,0));
+ background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.65), rgba(0,0,0,0));
+  background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.65), rgba(0,0,0,0));
+ background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.65), rgba(0,0,0,0));
+
+ }
+
+ .clear {clear:both;}
+ 
+ 
+ .browse {
+	 font-size:1.3em;
+	 color:#000;
+	 border-bottom:#000 1px solid;
+	 font-weight:bold;
+	 width:300px;
+	 line-height:30px;
+	 
+	 
+ }
+ 
+ .browse a{
+	 text-decoration:none;
+	 color:#000;
+ }
+ 
+ #deptitems
+ {
+	display:none; 
+ }
+ 
+ #searchbox{
+	background-color:#fff;
+	border-top: #e7e7e7 0px solid; 
+	border-bottom: #e7e7e7 0px solid; 
+	margin-top:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+ }
+ 
+ #searchleft{
+	 	 background-image: url("images/graybackground.jpg");
+
+	float:left;
+	margin-left:0; 
+	width:47%; 
+	padding-left:1%;
+border: 5px solid #fff;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);	height:273px;
+	 }
+
+	 
+	 
+ 
+ #searchright{
+	 float:right;
+	 position:relative;
+  height:273px;
+
+  width:48%;
+  max-width:451px;
+overflow:hidden;	
+border: 5px solid #fff;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); 
+	 }
+	 
+	 #searchright > div { 
+    position: absolute; 
+    
+}
+ 
+ #deposit{
+  background-image: url("images/deposit.png");
+  background-repeat: no;
+  width:175px;
+  height:75px;
+ }
+ 
+  #deposit:active{
+  background-image: url("images/deposit_over.png");
+  }
+  
+   #deposit a{
+	   position:absolute;
+	  
+  width:175px;
+  height:75px;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+
+   }
+.float_bottom{
+	margin-left:0px;
+	padding-top:30px;
+}
+
+.redbutton{
+	
+ background-color: #7d0000;
+    border: 1px solid #330000;
+    color: #ffcc00;
+    cursor: pointer;
+    font-family: Verdana,Arial,Helvetica;
+    font-size: 10px;
+    font-weight: bold;
+    height: 25px;
+    margin: 0 5px 0 0;
+    padding: 0px 6px 0px;
+    text-align: center;
+	
+	}
+	
+	#bottomleft{
+		float:left;
+		margin-left:0;
+		width:65%;
+		font-size:1.1em;
+	}
+	
+	#bottomright{
+	float:right;
+		
+	}
+	
+	.browselist li{
+	font-size:1.4em;	
+	}
+	.browselist li a{
+color:#525252;
+text-decotration:none;
+	}
+	
+  .searchinput{
+	  width:75%;
+  }
+  
+  #contact{
+border: #dedede 4px solid;
+padding:10px;
+text-align:center;
+  }
+  
+  #findlist{
+	  margin-left:0px;
+	  padding-top:10px;
+  }
+  
+</style> 
+  <script type="text/javascript">
+$(document).ready(function() {
+ 
+ $( "#dept" ).click(function() {
+$( "#deptitems" ).toggle("slow");
+});
+
+$("#searchright > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#searchright > div:first')
+    .fadeOut(2000)
+    .next()
+    .fadeIn(2000)
+    .end()
+    .appendTo('#searchright');
+},  6000)
+
+   
+});
+
+
+
+</script> 
+ </head> 
+ <body> 
+  <div id="header"> 
+   <img src="images/masthead.png"> 
+  </div> 
+  <div id="center"> 
+   <div id="menubar"> 
+    <div id="topmenu"> 
+     <div class="menuitem over">
+      ScholarShare Home
+     </div> 
+     <div class="menuitem">
+      <a href="browse.php">Browse/Search</a>
+     </div> 
+     <div class="menuitem">
+      <a href="deposit.php">Deposit Your Work</a>
+     </div> 
+     <div class="menuitem">
+      <a href="about.php">About ScholarShare</a>
+     </div> 
+    </div> 
+   </div> 
+   <div id="searchbox"> 
+    <div id="searchleft"> 
+     <h2>Search ScholarShare</h2> 
+     <!--cdm search --> 
+     <div id="search1"> 
+      <div id="search_content" class="float_left"> 
+       <div class="float_left" style="margin-top:2px;"> 
+        <input tabindex="1" type="text" id="search_content_box" name="search_content_box" class="searchinput" value="" autocomplete="off" size="50" data-analytics="{&quot;category&quot;:&quot;search&quot;,&quot;action&quot;:&quot;return&quot;,&quot;label&quot;:&quot;query&quot;}"> 
+        <input id="search_results_button_mode" type="hidden" value="0"> 
+       </div> 
+       <input type="hidden" name="cdm_searchbox_mode" id="cdm_searchbox_mode" value="new"> 
+       <input type="hidden" name="searchterm" id="searchterm" value=""> 
+       <div class="float_bottom" style="margin-top:3px;"> 
+        <input tabindex="2" id="simple_search_button" class="redbutton" type="button" value="Search" data-analytics="{&quot;category&quot;:&quot;search&quot;,&quot;action&quot;:&quot;click&quot;,&quot;label&quot;:&quot;query&quot;}"> 
+       </div> 
+      </div> 
+      <span class="clear"></span> 
+      <input type="hidden" id="cdm_search_query" value=""> 
+     </div> 
+     <div id="findlist"> 
+      <h2>Browse publications by:</h2> 
+      <ul class="browselist"> 
+       <li><a href="browse.php">Department</a></li> 
+       <li><a href="authors.php">Author</a></li> 
+       <li><a href="browse.php">Date</a></li> 
+       <li><a href="http://digitalcollections.vmi.edu/cdm/search/collection/p15821coll9/order/dated/ad/desc">Browse All</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div id="searchright"> 
+     <div> 
+      <img src="images/faculty.jpg"> 
+     </div> 
+     <div> 
+      <img src="images/STEMlg.jpg"> 
+     </div> 
+     <div> 
+      <img src="images/heard.jpg"> 
+     </div> 
+    </div> 
+    <br class="clear"> 
+   </div> 
+   <div id="bottomcontent"> 
+    <div id="bottomleft"> 
+     <h2>What is ScholarShare?</h2> 
+     <!--this section needs to have an ID of "lp_description_container" so that the All Collections script can find it --> 
+     <div id="lp_description_container"> 
+      <p>ScholarShare is a open-access repository of scholarship produced at the Virginia Military Institute. Begun as a pilot program in 2015, it is a collaboration of Preston Library staff to showcase, disseminate, and preserve the intellectual output of members of the VMI community. </p> 
+      <br> 
+      <p><strong>ScholarShare is an institutional repository.</strong> An institutional repository is a digital collection that captures and preserves the intellectual output of an academic community. (<a href="http://www.sparc.arl.org/sites/default/files/media_files/instrepo.pdf">SPARC 2002</a>)</p> 
+      <br> 
+      <p><strong>ScholarShare is open access.</strong> Open access is the free, immediate, online availability of research articles, coupled with the rights to use these articles fully in the digital environment. (<a href="http://www.sparc.arl.org/issues/open-access">SPARC</a>)</p> 
+      <br>
+      <br> 
+     </div> 
+    </div> 
+    <div id="bottomright"> 
+     <div id="deposit"> 
+      <a target="_parent" href="deposit.php"></a> 
+     </div> 
+     <h3>Quick Links</h3> 
+     <ul> 
+      <li><a href="gettingstarted.php">Getting Started</a></li> 
+      <li><a href="browse.php">Searching ScholarShare</a></li> 
+      <li><a href="http://libguides.vmi.edu/scholarshare">ScholarShare LibGuide</a></li> 
+     </ul> 
+     <div id="contact"> 
+      <p><strong>For assistance, please contact:</strong></p>
+      <br> ScholarShare
+      <br> Preston Library
+      <br> Virginia Military Institute
+      <br> 
+      <a href="mailto:scholarshare@vmi.edu">scholarshare@vmi.edu</a>
+      <br> 
+     </div> 
+    </div> 
+    <br class="clear"> 
+   </div> 
+   <br class="clear"> 
+  </div> 
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $('span.advanced_maxCollectionsNavLink').click(function(){
+      targetLetter = $(this).attr("collectionLetter");
+      var target = $("#advanced_maxCollectionScroller").find('#'+targetLetter);
+      $("#advanced_maxCollectionScroller").stop().scrollTo( target, 800 );
+      $('span.advanced_maxCollectionsNavLink').each(function(){
+        if($(this).parent().hasClass("advanced_max_collections_alpha_nav_box_on")){
+          $(this).parent().removeClass("advanced_max_collections_alpha_nav_box_on");
+        }
+      });
+      $(this).parent().addClass("advanced_max_collections_alpha_nav_box_on");
+      $(this).blur();
+    });
+  });
+</script> 
+  <script type="text/javascript">
+    cdm.gvars.collectionFieldsInfo['all'] = 'All fields';
+    cdm.gvars.collectionFieldsInfo['title'] = 'Title';cdm.gvars.collectionFieldsInfo['subjec'] = 'Subject';cdm.gvars.collectionFieldsInfo['descri'] = 'Description';cdm.gvars.collectionFieldsInfo['creato'] = 'Creator';cdm.gvars.collectionFieldsInfo['publis'] = 'Publisher';cdm.gvars.collectionFieldsInfo['contri'] = 'Contributors';cdm.gvars.collectionFieldsInfo['date'] = 'Date';cdm.gvars.collectionFieldsInfo['type'] = 'Type';cdm.gvars.collectionFieldsInfo['format'] = 'Format';cdm.gvars.collectionFieldsInfo['identi'] = 'Identifier';cdm.gvars.collectionFieldsInfo['source'] = 'Source';cdm.gvars.collectionFieldsInfo['langua'] = 'Language';cdm.gvars.collectionFieldsInfo['relati'] = 'Relation';cdm.gvars.collectionFieldsInfo['covera'] = 'Coverage';cdm.gvars.collectionFieldsInfo['rights'] = 'Rights';cdm.gvars.collectionFieldsInfo['audien'] = 'Audience';cdm.gvars.collectionFieldsInfo['accrua'] = 'Accrual Method';cdm.gvars.collectionFieldsInfo['accrub'] = 'Accrual Periodicity';cdm.gvars.collectionFieldsInfo['accruc'] = 'Accrual Policy';cdm.gvars.collectionFieldsInfo['instru'] = 'Instructional Method';cdm.gvars.collectionFieldsInfo['proven'] = 'Provenance';cdm.gvars.collectionFieldsInfo['titlea'] = 'Title-Alternative';cdm.gvars.collectionFieldsInfo['descria'] = 'Description-Table Of Contents';cdm.gvars.collectionFieldsInfo['describ'] = 'Description-Abstract';cdm.gvars.collectionFieldsInfo['datea'] = 'Date-Created';cdm.gvars.collectionFieldsInfo['dateb'] = 'Date-Valid';cdm.gvars.collectionFieldsInfo['datec'] = 'Date-Available';cdm.gvars.collectionFieldsInfo['dated'] = 'Date-Issued';cdm.gvars.collectionFieldsInfo['datee'] = 'Date-Modified';cdm.gvars.collectionFieldsInfo['datef'] = 'Date-Accepted';cdm.gvars.collectionFieldsInfo['dateg'] = 'Date-Copyrighted';cdm.gvars.collectionFieldsInfo['dateh'] = 'Date-Submitted';cdm.gvars.collectionFieldsInfo['formata'] = 'Format-Extent';cdm.gvars.collectionFieldsInfo['formatb'] = 'Format-Medium';cdm.gvars.collectionFieldsInfo['identia'] = 'Identifier-Bibliographic Citation';cdm.gvars.collectionFieldsInfo['relatia'] = 'Relation-Is Version Of';cdm.gvars.collectionFieldsInfo['relatib'] = 'Relation-Has Version';cdm.gvars.collectionFieldsInfo['relatic'] = 'Relation-Is Replaced By';cdm.gvars.collectionFieldsInfo['relatid'] = 'Relation-Replaces';cdm.gvars.collectionFieldsInfo['relatie'] = 'Relation-Is Required By';cdm.gvars.collectionFieldsInfo['relatif'] = 'Relation-Requires';cdm.gvars.collectionFieldsInfo['relatig'] = 'Relation-Is Part Of';cdm.gvars.collectionFieldsInfo['relatih'] = 'Relation-Has Part';cdm.gvars.collectionFieldsInfo['relatii'] = 'Relation-Is Referenced By';cdm.gvars.collectionFieldsInfo['relatij'] = 'Relation-References';cdm.gvars.collectionFieldsInfo['relatik'] = 'Relation-Is Format Of';cdm.gvars.collectionFieldsInfo['relatil'] = 'Relation-Has Format Of';cdm.gvars.collectionFieldsInfo['relatim'] = 'Relation-Conforms To';cdm.gvars.collectionFieldsInfo['rightsa'] = 'Rights-Access Rights';cdm.gvars.collectionFieldsInfo['rightsb'] = 'Rights-License';cdm.gvars.collectionFieldsInfo['rightsc'] = 'Rights-Rights Holder';cdm.gvars.collectionFieldsInfo['coveraa'] = 'Coverage-Spatial';cdm.gvars.collectionFieldsInfo['coverab'] = 'Coverage-Temporal';cdm.gvars.collectionFieldsInfo['audiena'] = 'Audience-Mediator';cdm.gvars.collectionFieldsInfo['audienb'] = 'Audience-Education Level';  </script> 
+  <script type="text/javascript" src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~CdmSearch.js/type/javascript"></script> 
+  <script type="text/javascript" src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/ui~jquery.ui.accordion.js/type/javascript"></script> 
+  <script type="text/javascript" src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~cdm_api_home.js/type/javascript"></script> 
+  <script type="text/javascript" src="http://digitalcollections.vmi.edu/utils/getstaticcontent/file/js~jquery_1.7.2~jquery.ba-throttle-debounce.min.js/type/javascript"></script> 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(cdm.gvars.internetExplorerVersion < IE_8_VERSION){
+        if($("#details").exists() ){
+          setTimeout("showtheDetailsIE7()",1000);
+        }
+      }
+    });
+    function showtheDetailsIE7(){
+      $("#details").css("display","block");
+    }
+  </script> 
+  <input type="hidden" id="collectionHomeUrl" value="/cdm/"> 
+  <input type="hidden" id="cdm_advancedSearchMaxFields" value="4"> 
+  <input type="hidden" id="cdm_advancedSearchFields" value="all!title!subjec!descri!date"> 
+  <input type="hidden" id="cdm_advancedSearchByDateFormat" value="mm/dd/yyyy"> 
+  <input type="hidden" id="cdm_advancedSearchDPFormat" value="mm/dd/yy"> 
+  <input type="hidden" id="cdm_searchDefaultConnector" value="and"> 
+  <input type="hidden" id="cdm_searchDefaultField" value="all"> 
+  <input type="hidden" id="cdm_searchDefaultMode" value="all"> 
+  <input type="hidden" id="cdm_searchDefaultOrder" value="nosort"> 
+  <input type="hidden" id="cdm_hyperlinkingCollection" value="this"> 
+  <input type="hidden" id="cdm_fullTextSearchDisplay" value="1"> 
+  <input type="hidden" id="cdm_fullTextSearchMode" value="any"> 
+  <input type="hidden" id="cdm_fullTextSearchModeConfig" value="any"> 
+  <input type="hidden" id="cdm_collectionSearchLimit" value="500"> 
+  <input type="hidden" id="cdm_browseview" value=""> 
+  <input type="hidden" id="cdm_quickview" value=""> 
+  <input type="hidden" id="cdm_quickviewLandingPage" value="on"> 
+  <input type="hidden" id="cdm_quickviewResults" value="on"> 
+  <input type="hidden" id="cdm_quickviewCompoundObject" value="off"> 
+  <input type="hidden" id="cdm_collection" value=""> 
+  <input type="hidden" id="cdm_collectionDateField" value=""> 
+  <input type="hidden" id="cdm_searchCollections" value="p15821coll9"> 
+  <input type="hidden" id="cdm_collectionTotal" value="9"> 
+  <input type="hidden" id="cdm_collectionsOn" value="9"> 
+  <input type="hidden" id="cdm_collectionsDisplayLimit" value="5"> 
+  <input type="hidden" id="cdm_abs_path" value="/ui/cdm/default/collection/default/"> 
+  <input type="hidden" id="cdm_custom_abs_path" value="/ui/custom/default/collection/default/"> 
+  <input type="hidden" id="cdm_host" value="digitalcollections.vmi.edu"> 
+  <input type="hidden" id="cdm_qvBGColor" value="#FFFFFF"> 
+  <input type="hidden" id="cdm_qvBorderColor" value="#6DA8D5"> 
+  <input type="hidden" id="cdm_resultquery" value=""> 
+  <input type="hidden" id="cdm_slashencode" value="on">   
+ </body>
+</html>

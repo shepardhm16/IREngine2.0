@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>Engineering Case Study - CE 109 Civil Engineering Fundamentals I - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: CE 109 Civil Engineering Fundamentals I: Engineering Case Study"> 
+  <meta name="DC.Creator" content="Janet Holly"> 
+  <meta name="DC.Subject" content=""> 
+  <meta name="DC.Description" content="This guide is designed as a starting point for finding information about civil engineering."> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=144577&amp;p=1136509"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Sep 29, 2014"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Mar 30, 2016"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 144577,
+				page_id: 1136509,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-1136509";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '144577',_st_page_id: '1136509'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '144577',_st_page_id: '1136509'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Info Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="CE 109 Civil Engineering Fundamentals I" href="http://libguides.vmi.edu/CE109">CE 109 Civil Engineering Fundamentals I </a> </li> 
+     <li id="s-lib-bc-page" class="active">Engineering Case Study </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="144577"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">CE 109 Civil Engineering Fundamentals I: Engineering Case Study</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description">This guide is designed as a starting point for finding information about civil engineering.</span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Info Header --> 
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med"> 
+   <div id="s-lg-guide-tabs" class="tabs"> 
+    <ul class="nav nav-tabs split-button-nav"> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=144577&amp;p=946233"> <span>CE 109</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=144577&amp;p=946236"> <span>Find Books</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=144577&amp;p=946237"> <span>Find Articles</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=144577&amp;p=956675"> <span>Find Standards</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=144577&amp;p=956677"> <span>Government Publications</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=144577&amp;p=946243"> <span>Interlibrary Loan</span> </a> </li> 
+     <li role="presentation" class="active"> <a title="" class="active" href="/c.php?g=144577&amp;p=1136509"> <span>Engineering Case Study</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=144577&amp;p=958406"> <span>Citation Guides</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="http://www.vmi.edu/content.aspx?id=312"> <span>Library Homepage</span> </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <!-- BEGIN: Guide Content --> 
+  <div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders"> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-126" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-1" class="col-md-4"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-4022816" class="s-lg-box-wrapper-4022816"> 
+       <div id="s-lg-box-3418225-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-3418225" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Skywalk Collapse </h2> 
+         <div id="s-lg-box-collapse-3418225"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-6437952" class="  clearfix"> 
+            <p><img alt="" height="149" src="//s3.amazonaws.com/libapps/accounts/8880/images/KansasCityHyatt_collapse.jpg" width="348"></p> 
+            <p><span style="font-size:11px;">The collapsed walkways of Kansas City's Hyatt Regency.&nbsp; Found in <em>Technology Review</em>, June 2002, Vol. 105, Issue 5, p 48, 5 p, 3 Color Photographs, 2 Black and White Photographs.&nbsp; Black and White Photograph; found on p. 49.</span></p> 
+            <p><span style="font-size:11px;">Read a background article such as "<a href="http://ascelibrary.org/doi/pdf/10.1061/%28ASCE%290887-3828%282000%2914:2%2851%29">Chronology ad Context of the Hyatt Regency Collapse</a>."&nbsp; You can find additional articles by using the <a href="http://cedb.asce.org/cedbsrch.html">Civil Engineering Database</a>.</span></p> 
+            <p>&nbsp;</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-10248300" class="s-lg-box-wrapper-10248300"> 
+       <div id="s-lg-box-8690027-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-8690027" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">ASCE and Ethics </h2> 
+         <div id="s-lg-box-collapse-8690027"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-17562760" class="  clearfix"> 
+            <p>The<a href="http://www.asce.org/"> American Society of Civil Engineers (ASCE)</a> is the professional organization for civil engineers.&nbsp; Its web site is an excellent source for keeping up-to-date on engineering topics.</p> 
+            <p>First adopted in 1914, the ASCE <em>Code of Ethics</em> is the model for professional conduct for ASCE members. The <em>Code of Ethics</em> was most recently updated on July 23, 2006.&nbsp; You can access the full-text of this publication @ <a href="http://www.asce.org/code-of-ethics/">http://www.asce.org/code-of-ethics/</a></p> 
+            <p>You may want to use "<em>A Question of Ethics</em>" to identify an ethics case study.&nbsp;This column offers an examination of the ethical cases considered by the ASCE Committee on Professional Conduct, as well as ethical issues affecting the profession. These articles are published 11 times a year in <a href="http://vmi.worldcat.org/oclc/10480594"><i>Civil Engineering Magazine</i></a>. Here is the URL:&nbsp; <a href="http://www.asce.org/a-question-of-ethics/">http://www.asce.org/a-question-of-ethics/</a></p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-2" class="col-md-4"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-4024770" class="s-lg-box-wrapper-4024770"> 
+       <div id="s-lg-box-3419971-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-3419971" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">What is a case study? </h2> 
+         <div id="s-lg-box-collapse-3419971"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-6441889" class="  clearfix"> 
+            <p>"Engineering Case", "Case", and "Case Study" are used loosely and interchangeably in engineering. others may prefer broader or narrower definitions, but to us an Engineering Case is: an account of an engineering activity, event or problem containing some of the background and complexities actually encountered by an engineer. A case is used in engineering courses to enhance learning about engineering principles and practices. - <a href="http://gmu.v1.libguides.com/content.php?pid=253053">GMU LibGuide</a></p> 
+            <p>For VMI's CE 109 we will be finding background information about the Kansas City Hyatt Regency Walkway Collapse in 1981.</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-4022827" class="s-lg-box-wrapper-4022827"> 
+       <div id="s-lg-box-3418236-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-3418236" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Hyatt-Regency Walkway Collapse </h2> 
+         <div id="s-lg-box-collapse-3418236"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-6437993" class="  clearfix"> 
+            <p>On the evening of July 17, 1981, what was the deadliest structural collapse in U.S. history struck&nbsp;Kansas City's year-old Hyatt Regency Hotel when two suspended walkways collapsed, killing 114 people and injuring 216 more. The failure was traced to a change in the original design for the walkways.&nbsp;The structural engineer of record denied responsibility, attributing the failure to a breakdown in communication, but investigators were not persuaded, and the engineering practice lost its license. Thirty years later, ASCE reflects on the disaster's lasting effects on the civil engineering profession.&nbsp;</p> 
+            <p>Read more on the American Society of Civil Engineers (ASCE) website:&nbsp; <a href="http://www.asce.org/question-of-ethics-articles/jan-2007/">http://www.asce.org/question-of-ethics-articles/jan-2007/</a></p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-4023036" class="s-lg-box-wrapper-4023036"> 
+       <div id="s-lg-box-3418439-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-3418439" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Find Library Materials </h2> 
+         <div id="s-lg-box-collapse-3418439"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-6438397" class="  clearfix"> 
+            <p>Use the library catalog to find books and peer-reviewed articles about engineering case studies.&nbsp; Identify keywords and subject headings that describe the topic.&nbsp; Type the words in the Advanced Search boxes:</p> 
+            <p><img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxEAAAF/CAIAAAC5ZNMyAAAgAElEQVR4nO3dX2wUV4Lv8XrzSn5A8+AntLJG0TAPaOWVJg9oon0IUs/qOhLaSFeKtpVWsKJEiXSD7LzhoGReiGjd7bws7GBnBA9ZgiAhaQzDapOgMFlu/oCTixPvgHaIyMLsCBCXIRkHd+bP7X2of+f/qWpX/6nu70clgaurTp1z2u76+ZzT7aDdHa13nv1eEPnes++0cpzarEXnTdVXu1S7QbNan4raXGt6D27duHDoxR3bJifG4w4en5ic3LZjrn7q8loPKrtBSVtH5+kFAM0LS7/6/u5fDN/2F389Xd6W6pVXBN35ZhAjUxCMPXr0bvZzyUwON9957odjgdXYD59752Zv6twpMhMAlCpJkJkS3clMd48+Kt/YH9r/ZeaTyUxWXx58OOrXsc2P1N+7erfVbrdbd3/z2amXfjIRx6YHXxnobiMzAUCGJPH0r8QZmq9/1p8YcTV8oV49173MdFW+F7TefU149NzXvWx+fzLTl/sfiu7f4+PRPf6Bl5aznk1m8h42tuM1bTTp5ms7or7+3nNnu1jXjSIzAYAvSfzsv/Qz5DAxFJlJzoWC/7o6Oplp+aUHopv3s2fOxHN02Rc1kZls3D3TevOxIAjGNm2e/B8/u9K1qm4YmQkAPJkpSiq3frUsfpkmieHITK/dvKW2a/ndb6KzoisOfWZKlzJ979l3Wu2P5v8yGhsxLmpau3zs+e0/2BSOkIxPbP27+rnFx8RkkBanze8lw1lCHlu7fKr+uLg+OhifmNy6/en9526kkS3OHg/99Nj+x7clx45PTG57vP4v/6Fmu7XLx17csW1zVMmwwOcPXbghH9e6cW7/4+lRtsPiA6Orjm3avO2ZY6d+mikzrezdGnfNTz/Nvtw7R80uHHp++9b0yGBs0+bJbTtePCYsLo8zz9jfPvvcj8IjxzZt3vbE8cvJxZ7evjXu1LFNmye3PS6uTk8z095/efOZbcKBW7c/f+jTAV+NBQDFcGWmOEwkSSUaj/nm5tNammm323qkkMdvhAGqJIJE/9FimbRTykxCma4Rr+yZKRpLkxoVXTGNaIbMlOYqQ03idrXlDrQ3vM+ZKV3KFE3HJaNO+sDCzeaTmx0LmqPjkwKU0JREpr+c/ygurzZhLW3iyV/EmS0ZrzEae/hgep3WysGfWMoce7C+En8HOVoiL8turbzy43HzgUEQZF/PFATj39/+dP34h5dvu8NTjprVH7Q+GcIiqXRMTBQ+V44V6hO15k35/LEx06HC0wQAw8s5ziTGAtMQSzJCk0rTg2nCK35UjhTRfkNpapa69Y1SpnXgJ3NmUsbSLJuama7qExRaMDI9amx4/zPT9YMPS3fRtpBtlPk5YaH4RO3NG6322u3PDj0m3ODjEpLQJC2K0vam5Y398MlwZKR19+qHBx6NM8+O16K7sZiZJn5Sf+/aWnvt2nvzSWRIFwSlAWHswflzN1rt1t2rwoHRpZMoM7b5kfp719ba7fba7c9OvfRI1Jh0+VEaIMce3PvpWrt19+p7L4khyvu+uX97SctcY5s2b9vx4oGzn+nxqZOaTfykHg7Krd3+7NRs3NYkmIqZaeK5s+IT2qzFb5acePTQ5bV2e+32Z4eS7o8GGsXzoyeqdfeL9LD0aQKA4eVZGa3lGGF2LEpUSdqIQlI0wxWmijgTKENWSXQQpvnitVNRLokjV/hlklHi1BKXYJuty5uZPLN+cmaKqqqsdopGqqJuiQuUM5mp4f3PTGk+EgaFhDAjzM+lh07tXUnvvMItVU9dwurms88pU3bfNJ+enJzcvGlMHc9KZgeT/Wlmki6dHBg8fPB6uy3OC8qLrm++tmNsbNPmyclw5VASN/72kDKzlFQ8LFCYtnzszfRQIWtk+Xym9tq1Dw+lE5pyevrRM28Kc4uZa9a+9A9/Mzk5OTEejNWa4m8Td1/bodRMiJHybGv6hD4w/1FaRuuj+QeC8YnJycnJuX+Vzxc7Nf0mSdIZAAyvLO/AV1eCS6lIp4z9SIfJmUkcZVETmG80yJN1upmZxOE3kTJoJB0mZybPOvoeZ6bkHi3fToVPa0qiVLhiWbhrx9K7dJp9khtqPFKVlGhaJdW6+5v//OzsG28crs89JaxDMmSmrXtXxBPVNdbJ+iHnAvZ0lZFDrSmVp7yzLU1rWTJTYu325Q+P1+d2bJsQh57SOcPsNZMK/c/LH55+440DLz719+m6JFNmkp+49Al1f7BEev5jb7aM+3P1AQCUUp5PLUpCgHUqrd1uq4MxMntmcmcX/dGCM1OeuTlbWIyaY3wX3uBmJvmDLC3imTT7LVIfF9IykpahQmuXjz2//fvW5UJ6ZlJGpNT92d7B514dFXnwlSuO8vTRnJxad78QPqIpTi3Za9aOVor/yDB4pdTM9sRlzTzJcUpgJTMBGCUZ3oEvjhuJScWZWpQ1zua5OcOSavc4Uxcyk2sNeFoZ0ziTuarqu/CMc3Oe99/1MjNpH2RpFsUc+y3S/Gb0ZAhrx2t3kyuJC5ykNczjE5Nbt//9U3P1w2c/+z8/VcvrUmbyvnnefmTyiCMv/OtcOPWoho20Bz6af0AqJsenNojL58M3yz311IsHTn949Z8fU2pWWGZSKkVmAjBKsrxvTl2xFA2TxMNOcdoQV/koeSsZenG8dV9ZzyQPyXQxM3XwWQPmpVdhPygjSUp2HLjMJCxnMX1+ZTqUEg4VpVM5yr3T9kC6Amf37uh/4iRQq1mLElO4oDz1iyfHOsxMeefmfKuXkyOVRUNCEY68cOWVBwO93aK068Jpr+w1S9/M9uBe6VMM0ov6MlPuuTkyE4ARlv8zLfVPehSpi74Vro87Mp4ij9Z0JTN18JmWpqoqi74VA5qZHB8pEBKGoR7a/6X4DjtpyXD6cdZqQe4/yGK75d5887F4wjAZn8mamdKF5soHb3+5/6FwOGby6eY36VHykvJ44Gd8YnLyB//r9DfW8oTxIWdeSFOp+DEHQlOTrotTa+aaWXqktbI3WZEfrz6yZhvLExrNq45PTE7+zT9cIjMBQLud+2+naBNSUnow/r2RaL/0XjNrdDCtm+5+ZjJmHalkQ4VNa9u1Pkk/UEoahRqUzJRGJusog7Dc6YH5j1rt1tnn4umg8R+/dO5Ga+32Z8ee/KH+WQOGAgJt9bfw5rz4UwF+I7ypXroZZ85M7dVXHpRLbUuVjN8+nxwlDHKtXU7fP5+ECPEPxj126PJa6+7V9+riB0A584I4/Ti2+ZGXTn1xt9Vuh2vBDz3zV+NJHZpxIMtaM+GTBuJPCZCKFPrEnm3u/uLJCbkUuXlhkiMzAUCp/nJtro2/0esnvCnf+GnfEeHTicL5OdfHKJoGrNIC9OkyS2Fjmx/5ifpGreyZqd36j9cetX2m5eYnk2wifnLk2KbN0cKj0PiPXxHGeJyfu5nh85neef6vXJ+JObb5kYPSiFLGmlmqNf7jRx6Ontl4lM6VbW7+27ztCU2uRWYCgFIlCTJTopDMlE4KOSOTOLsUD0dJf0hkfGLr9ueP/e//GRhvqu22cGM1rplau3zsmeSzBcJPejx2eU3/Gys5MlNU7PPCu+6jP8YSfkJkSvmjIeEfA3la/KshUnk/SP/syOP7F+cyrGcSzj9Vf3r7Vv0PxNSP638PJXPNWjfO1f8uOWh8IvqDM9rfrvFkG+UPtcR/fCUaEWuTmQCg3S5VkiAzJbrxN3oBAIBLiZIEmSlBZgIAoNdKlCTITAkyEwAAvfYXfz09rFupW+p+1shMAAAAfmQmAAAAPzITAACAH5kJAADAj8wEAADgR2YCAADwIzMBAAD4kZkAAAD8yEwAAAB+ZCYAAAA/MhMAAIBfpsy0DAAAMOzITAAAAH5kJgAAAD8yEwAAgB+ZCQAAwI/MBAAA4EdmAgAA8CMzAQAA+JGZAAAA/MhMAAAAfmQmAAAAPzITAACAH5kJAADAr4eZ6fiuLYFsy67jGc9tTOc8odfixk03ulJu0cWOlOibhz4EAGxIrzJTdN9Kb1zxjmwxqKDM1L27Z57MFB2bqTEDkZlKHjpKXn0AwIDoTWYyJgotRjkUk5m6NRiUs+g8jRmEzNTFbusJMhMAoAi9zUxyTNBDU7xHm7vTYoY60SffEJVHt+w67ihbpBzkDDbiRbZMTyu5Qp+JnG7Y6229rl6M1lhXndXHpOa4+9D9lGTqTXMLxMu4q+DulS27dk0rjygn2DrX3loAAKx6k5nkfGG+vyaHSNkiOljOTPK8nhq9pK+lctwDJmqwcw4HSVUQWhcWrVRJua5SsPO6atHKlKbzXPk65h619KGxY+IHzc+U8Vxzy5VeMlYhY6+kF5VPEEtLM5P82OCujgMADKIeZablZevIS0S7a0v3QPGOqQ9aiedquUjY4cxM+oP20KRVQQ4O1lExKSsoWcZ83ZyNFc91LZtyF+vsGcOYob2jHNNiG2hZpjqkO6zfWgw1AQBy6GFmipkmzky3MXGXeEc03KHTXTljUfYKSvQqWIo2ThbZIobpuoZyjae7ZyO1Szn70N1thuPMU69KtdROz1qFbL3iGhTUHxv4t2ECAAZQHzJTLLmlb9l13LLmRH1YGD4xmm5sIDMpBU83vMMn1swkt2bLroYrdTivaxgsMg3HWOps6CvjqirtAEe3mXolQ2KR+uO4vwpZeoXMBADooZ5kJtstSrj7e+5ihszkDj75M5N7ctDXILFo38SXeXGW+brucabsdZYHfPJNTm1gnMnUa4F/QDB/r5CZAADd1pPMZLunumfcxKW67kEGcTWR63bquk/bg47pzqrWVlrPZL3fm1KH57rO/JWvzu7g6VjK7VvPlDEyKUU5q5CxV1wzlukxZCYAQBF6kpmMb3RSb9LmYGF8C5j8mFqQ+c1Z5sXZAkuhWRZRK6t2LC3RUoepoep1be+b859r699MfWjsGm0y0fu+OTXCZaq94f2Btl4xfWyBHkXJTACAIvQoMy0vm1ewuJdMpw9bRxGkW6ntUvpohfEWL5+VrkLKsP5J/XwmuSHJUIc5Ariue3zXFqF0va3uOmtriaRucveh5Xkxf+aR/VT3uyUdVfD2SqA/McYl92QmAEAhepiZAAAASovMBAAA4EdmAgAA8CMzAQAA+JGZAAAA/MhMAAAAfmQmAAAAPzITAACAH5kJAADAj8wEAADgR2YCAADwIzMBAAD4FZCZAAAARhyZCQAAwI/MBAAA4EdmAgAA8CMzAQAA+JGZAAAA/MhMAAAAfmQmAAAAPzITAACAH5kJAADAj8wEAADgR2YCAADwIzMBAAD4dZ6ZmrXAptZsN2tBMFVf3VDdkivUms5jwuus1qecR2ZTTCldL7uI7u0RodX+J6tE7YoV8qyWsN0AMHoKGWcyvOJv/CaQ7V40dJlptT6VoeNKdI8lM2VQwnYDwOgZ3MyUrYSiM1M3Zaph3maXCZnJpoTtBoDR093MVK9JE3aJ1fqU+QHH4+JcYHox623YdHizJl1utT4l1VuZC2zWgqDWFKsi1FTYPVVvWm+b0tl18TBlajO9pFxn42GG7hWvbjlHeUB6wsydKz8PtoyTr0ezZCZLu7zfNp01Umll8lA44teMHtSeoHhX2JS6UEami8rPdb0mPePEJwAYRN3MTMJ9TbxHyvdZ66/pYqHhXS05SijBeBu2Hi5dLLpVJhVv1oJgqlabku+P0sPipeQHTG2wHqbUTzpQaLbjMOWaSguN58iTfmpvmVJoGBpNz4fSxjw96s9MxnZl/LbprJFazBO6UnlILiKoNbXD1CfQ+IjUGLnbyEwAMKh6NTeX3L709TqWFTzKvUc+InnQdBt2HC7mgGYtvKEL96poWEm9w/uaoIy22NplPkwq2n3LTA/TirKelpyjhgPxTLlS0R41fll01KPOzGRqV8Zvm9yNNLcnCZlq+rSNiRqfCvtF1UfU8TkAwCDqeWayvN1Ovxm5b7Di3Uc5ynW48L9mLZiqr4pfJkHBnZkM5RtvwNpO7UTT1JehLw2HaUepZduK1uaIlIkpaRopfcyVnDrp0czrmeIDc33b5Gqkep7cenmczdQN1sxkv6gr1AMABlZfMlOmu4PzBmsozpWZ1KnB8CYsDgbEd8TiMpN+mDwSJt7zLVe1H2bPTI6ipSItycD8PNgjSoc92lFmyhwqcjUybp+46K24zOQeynLsAQAMnL7MzfknfOQSCpybi76o1etT4sBTrSammeLm5rSbqXFqxrxAy3WYdQ7LVbTau7lCrLa6RyksX492NDeX6dsmZyO151JeALbhuTl7h2nfWmQmABhwPc9M2poT27IZfcAlOcYYMbKsARe+lgdiAulUT2bKugZcvrBwmFwhuQJKZrIcplzTFqaEc9TbchoW1Ccgfn5M3eYeq8neo52uAfd82+RvpGGZtnVwSv6GiM90HGa7qFJR1oADQDn0ITO107uqb8bHtuDE9F4kw1SKfrjwWLJTv3/5MpNSvvwhAnor4koIH0mgzh4pKTDuFethYd3qNfFBQ9/KRcu9ro+UmXvX9zx11KPuuTlju7QGmKuzsUaK4dK2Lk6pgCdaWS4qVbTWVJIymQkABhF/b64A3OYAABh6ZKb8lPkcFqMAADACyEwdyTxpBQAAhgOZCQAAwI/MBAAA4EdmAgAA8CMzAQAA+JGZAAAA/MhMAAAAfmQmAAAAPzITAACAH5kJAADAj8wEAADgR2YCAADwIzMBAAD4kZkAAAD8yEwAAAB+ZCYAAAC//mSmfZVGdeb0irTvvHXnnvO5L7B0tFpZPHzJ/OCZPfqF2mf2NKqVZLOeCwAARlN/MtPKwcVq5egZcdfSUUNYWTparTT2LeW/QK7MdOn0nBzXVg4uViuNuYNXMl9LbgsAABg6fZqb08LQmT2N6szinJxUDNEqR/kZM5N5KGvl4GLG0abOKwkAAMqjX+uZzu+T4lH45fnDM2KauXJ4Rk4z4YBQtAkx5dLpucri4Uvn94UPzZxeUTNT/FClUd1zXsxM1mwUXiu9+pXDM+LkXXR1cUYv67gUAAAoob6tAZcGe+KII4/ZyLlq6aiYS87sESbyLp2eqyzOzQgpSsxMcvqJUk586TN7GhlGiZSxKCnMMc4EAMAo6FtmEqNGmp8unZ5L5uyksSJ9Bk0ILpdOK5N64rlaKhIXm1+RR7YstJk+sfJkJgAARkH/PmsgjUdXDs8kiSdNQisHF9M0I2apWBqG9EfTlKNN8ElDXNkyU0qY4yMzAQAwSvr4+UxxVIpWI0V74wgiBilzZkrDSueZKc/cXCWd1GOcCQCAUdPPz7QMs8sZcTypnQSg8/vEGNStcSbHO+zSKTx9nbiYtMhMAACMgr5+DvjS0WplcU7NNFcOzzTmZhYNi5Ckw4Q9rsykZxrlwzMdnzUQlamNRYXvoSMzAQAwQvr7t1OiOS/TpJuWYzzvm7NmJiUVKe+bS06X9oQfsCm9My4tP/58gTgnOT8LCgAADIf+ZiZpwCalvw9O2G/5fCZHZmo7Pp9Jron1b6eIn8O0b0kJcHHhHfyNFwAAUBL8jV4AAAA/MhMAAIAfmQkAAMCPzAQAAOBHZgIAAPDrc2Zajg3ZHgAAMGQYZwIAAPAjMwEAAPiRmQAAAPzITAAAAH5kJgAAAD8yEwAAgB+ZCQAAwI/MBAAA4EdmAgAA8CMzAQAA+JGZAAAA/MhMAAAAfmQmAAAAPzITAACAX38y075KozpzekXad966c8/53BdYOlqtLB6+ZH7wzB79Qu0zexrVSrJZzwUAAKOpP5lp5eBitXL0jLhr6aghrCwdrVYa+5byXyBXZrp0ek6OaysHF6uVxtzBK5mvJbcFAAAMnT7NzWlh6MyeRnVmcU5OKoZolaP8jJnJPJS1cnAx42hT55UEAADl0a/1TOf3SfEo/PL84RkxzVw5PCOnmXBAKNqEmHLp9Fxl8fCl8/vCh2ZOr6iZKX6o0qjuOS9mJms2Cq+VXv3K4Rlx8i66ujijZxuXCketkqtL+6OqCqeLbZSrCgAA+qhva8ClNBBHHHnMRs5VS0fFXHJmjzCRd+n0XGVxbkZIUWJmktNPlHLiS5/Z08gwSqSMRUlhzj3OJNVTXrO1cnCxOrM4p4VCuY1kJgAABkLfMpMYNdL8dOn0XDJnJ40V6TNoQnCRo4ZyrpaKxOByRR7ZstBm+sTKuzKTvh5LaKA+xKWNKhnXxQMAgD7o32cNpOnhyuGZJPGkSSiaulIPTqVhSH80TTnaBJ8UTbJlppQwx5chM5keSsOf9qgyX6lUFQAA9FMfP58pjkrRaqRob5wkxCBlzkxp5ug8M+WZm6ukM2UZx5lMD8mhUF2VRWYCAGBA9fMzLcNAcEYcT2onAej8PjEGdWucyfEOu3RezDyJxjgTAACjpK+fA750tFpZnFMzzZXDM425GUOekA8T9rgykzmaZPusgahMbSwqfA9dR+uZhD3aifpEIeuZAAAYFP392ynRnJdp0k3LMZ73zVkzk5KKDG9G0z7TMvqATemdcWn58ecLxHFHHqlSBqU875tTwhbvmwMAYFD1NzNJAzYp08qeZL/l85kcmant+HwmuSbWv50ifg7TviUlwMWFpzNu+pvsLJ/PZGm7VNUO/nQMAAAoGn+jd5DJC+EBAED/kJkGh7aeyfkXYAAAQC+RmQaK+S+0AACAviMzAQAA+JGZAAAA/PqcmZZj7Mm4BwAA9AXjTAAAAH5kJgAAAD8yEwAAgB+ZCQAAwI/MBAAA4EdmAgAA8CMzAQAA+JGZAAAA/MhMAAAAfmQmAAAAPzITAACAH5kJAADAj8wEAADgR2YCAADwIzMBAAD4kZkAAAD8yEwAAAB+ZCYAAAA/MhMAAIAfmQkAAMCPzAQAAOBXZGb6aPn/srHl3Qr8DgQAoHsKzkwFloZRwPcMAKAsCs5M/7/dZmPLvpGZAABlQWZi6+dGZgIAlEXRmQnIg8wEACiLgjPTn4E8yEwAgLIoODP96c9/ZmPLvpGZAABlQWZi6+dGZgIAlEXBmemPf/oTG1v2jcwEACiLgjPTH/74Rza27BuZCQBQFgVnpu/+8AfX9vbr1UqjWmnM/tO/mw745cuVRrWy8PNPpf2nXrCc8ump2UqjWnn9lLpH3V5+21mrfm1hb+w89anlgE//acHeV0J7X/hl/9vS6UZmAgCURU8zU5h+qkrQSbd8mckQKfQUFaU04+X6vfkykzUsKu3tY2Z6+3XT1f/95zvVJ9G2kZkAAGVRcGZqffeddVtemq00qjtff3lnOPYT7V8+sBAFqZ0Ls2FmWo4PrjSqlYXZnY1qpTF7YFUucPXnO+ODlUtUXl9SD4sut/SCMP60c2k5OmXh5wdeT8Lc0tvC/6Vik1Gr71rhMS/8UmrCzqXl+HLRFh+gVbtRrTRmdyZnyRWrNGYPrKbdEpYj1yGqm7oz7tW0CUJLvwsjqVo3Q5+o9RH7U9vkrnA9O6aNzAQAKIuCM9N6q2XbLh5YqFYaL78V/ae6c+liq7X+1pFqpVGtHDnZap2cj0LSqxfPhXf3l99KDmjMHvhCLjA85shJcefFMEMIO6PTF169KF03/f/FOHbMn7uYxJTk/+kBC69ebK23vng1TGBvhf8JL5TsjJswf269Jf0/2YSdURurO5dOOjtk9sAXycEvv5VebvbAF3F7xWMWXn1LrHByonCWUIKxT04aO8r+zCb9rD1HYi+ZNzITAKAsCs5M99fXLdu5vWEUSP/f2PvWehIL7q+v378Q3+wPHInu0+vr99fTG7xUYJgt5s9JOy+o4y7V+EJJOXvfEuuTJIwjJ9PTpf+/GoaG+EIXky/jlCCcFZd5QaxM2GT5oheEoqJmGjpK6hxhC0+UL71+33J8uDPpark+lj45cETotxzbxQMLWnOiYm1FkZkAAGXRo8x0UZxpSrb5c/JtXr5nx3dfdxQwZaYwFkSBII47UVCTt6yZKb36W0ndzu0VR2Xmz1kSmzUzCUXp1Vt49YLacLUP0ytGl7goVDVOSMlkn74zCXlan1yI6yaFTl9asuY/1+lkJgBAWRScmb69v27avlh8olGtNGb3fxHtiYeUZqX9UaRY3H+kWmlUn1i6cH/92/vrzXn53PTII03lQnGGaEqHNarz5+I6LCxesJ9i+v/i/oW4hPVv769fEL5sChFk7wl7rdRqx3U4ETWzGZYZnZgeIzQ8akjYCWkd5PZGx88fmU2rZOy9uObzS+Y+EbcTR6rORkWViZ8suaVRHRwbmQkAUBYFZ6a1b+8btuS+K+xs7m5UK43qEwuz8UOfRNFhYfGTz8OMtffE/bVPTkZLdvZ/nhYY7nzi5CfKhaKDhQudiKeZTsTlh2dF+xcWTwinfGL6f/SfhcVP7q99K1RMKDy5YtSo3e+vpc2RWh3t3P1+UlT1iZOLu9MGCp0QlTa7/3O5Xe9HQXD3+3LnvC8nzpOffCv23vtxbP08qefs/s+NfbJ3t7ZT7+qkew0Pfb74RNxFvo3MBAAoi4Iz0+/XvtW29B4v7X8zTjO74+QR5aeFxY+Fs5KxqH/8PDn37d3qnmj7OMoWbws7w4OrlcbeN9P/V5MLiad4/p+WozRNqEmchOIs9bbWIUkdZp+IosnHYvlRJzRm//HzpIuSXCWdWDny9scnZ9Mvk64T6xD1XvWJkx+nXZrskeojlGDe2Y2NzAQAKIseZCY2NutGZgIAlEXBmemb36+xsWXfyEwAgLIoODN9/c3v2diyb2QmAEBZFJyZ7n39DRtb9o3MBAAoCzITWz83MhMAoCwKzky/u/c1G1v2jcwEACiLgjPT3Xtfs7Fl38hMAICyKDgz/b/f3WNjy76RmQAAZVFwZmJjy7sV+B0IAED3FJmZAAAAhhWZCQAAwI/MBAAA4EdmAgAA8CMzAQAA+JGZAAAA/MhMAAAAfmQmAAAAv0yZaRkAAGDYkZkAAAD8yEwAAAB+ZCYAAAA/MhMAAIAfmQkAAMCPzAQAAJyrkPUAAA/0SURBVOBHZgIAAPAjMwEAAPiRmQAAAPzITAAAAH5kJgAAAD8yEwAAgF9vMtPxXVsCu+lG15s5eKIu2bLreL9r0qn4Se3p09eXiw4m6YfK2R/Ffq+ZfpgzPB2N6cBRCfej7jI7a1dnVwQw2nqbmTp/gSp/xFDka9AgNr9r8SW6mxnL7UlmGsTeVrl/pOQWFNke+bo5ng4yE4DyK0tmGrpXuHz3saFrvoPzPtyTzFSG3nZ3hNyCbmSm3E8AmQlA+Q1MZjq+a0sQbNnVkAf+pxvL+mRA9HJt2Z0UtWs6eUi/rjbBIN4DrCUvLy8nL7apuHTLdZXS5PuYpShXVTto/pYtQRBM75LO2LLruNyStJVqC51jGdF5jekgCKYb8qmO59vSi8purQD9lu08Q+9l4bk0NtP93Hsv6vg2zlRhSx/LBTm/eQ3nZPhey9Rs/bq7sj8dWkYRj5yelh91t9DWlXqz8tTH/XNmP3HjvxACKI3BykzCQcop6gtV/FIo32nVW4rll2Hlxiuf7SpZa4hULdN1pfPFs4VXaDkYGuu8weanN47phvSl/LX4hRLtDM+cITMZvjY1x9mLecaZ5E6zFKs+d1L9jM10D0GYL6p1vvHb2F1hhflJztJLltZZ6uz+ls/0BGR4Osw/Ksr3oxRbjT+exh5S8676a4W3Ps6+lkezkmsav60ADLfeZiYT2805+y1OeDyYbmRIaI4FM9lK1jKR9JKt/+oqjwEF4u/+jl989Rp32nz1tmP5WshyGX5pNmcmNad5w5Z2bPbMpF1Tarp1IEHoJHMzXc+EvXfN3wM5KmyshNANUlGdZCbz95r7u8n5BHT6dNi+WaRHs6+Rcl+xk/qYGqYNhGZ4HgAMmYEbZ7LcSI2/FYrF6bd9+8uY+nu3wF2ysQjt5mNISFna6zp6g823DFNpw1bTDe13dztXqPU0x9WL2TOT4UDzucr8jGlsY9lwfIb0Kl3U3PnuZ8baWNMD7vhur6X7ey3rt7ypXjmejuzfoY4fT2czlStuqD6msdf00HCyO9NrDYChUsrM5Bq2Mr9YavSVEMbVLErJ6uPJ+p2eZqb8zc+TmYzl+1uQJzM5ezF7ZjKtZolIowfxroZcsL2ZOTOT+/YrPOirsL139X2FZSbft7zjCcj1dORK9ZYfT0szDaloi7paL2d9jN/d8ehwvFhQ+5YCMOxKnZksr1T5fveTBhw8p7pH+3udmbI3P19m0osyXqzjzOSZocqbmTzLjjJMOanN7NY4k7vC9oYqRXUnM2W87Xszk611+UZCtTa75i/N40wbqo/6zRKFpulp6akMx5uITMDoKGVmctwEOrgLeO4gQsn227A5M7kapf+Gmn1uLnfzO81MpmNNvWY6zDvrZOnF7JnJUDWhJGsyMxdsWN6ScT2TOzd7CpabbqiQXlKQYR1Nnrk593eTrf16ZvK0zjkia+8GZ1Ozr1hy18fT1+IOpdMczwGAIVSWzKQ+bL7NZrmd6C/Q8uujq2TLY9b7pa1sZzjLMiqVs/nZM5N6u3Q8cxseZzL3YrbIoswiGp46y2Ny75ub6f4GMve2KUTofe2qsEZ+VDk2Wx1tlTI+d+Y65ijZ2Tr5WTUsF4ofdf94GntIecrjMzuoj7Gv5WspbSUyAaOkt5nJwvzbrvl3ZeMe+QUuwziTXiHTWgatZPUh4YN47ONbSmmZfvd3VbiD5ucbZ9IWgphv6R1nJncvLqv5xnFRU231ZicPmG+Mhmbqva1QznW1WusYR4U9HZX5u0VpQYYxTce3vLlgT0TUa+zsB+Xzmdw/nqnGtHCu+cjs9bH3tfEEJUMBGAm9yUwAAADlRmYCAADwIzMBAAD4kZkAAAD8yEwAAAB+ZCYAAAA/MhMAAIAfmQkAAMCPzAQAAOBHZgIAAPAjMwEAAPiRmQAAAPwKyEwAAAAjjswEAADgR2YCAADwIzMBAAD4kZkAAAD8yEwAAAB+ZCYAAAA/MhMAAIAfmQkAAMCPzAQAAOBHZgIAAPAjMwEAAPiRmQAAAPzITAAAAH5kJgAAAD8yEwAAgB+ZCQAAwI/MBAAA4EdmAgAA8CMzAQAA+BWTma59df3dsx+8ceIUGxtbj7d3z35w7avrhfwgAwAcislM12/cvnXnXiFFAcjl1p17v7722w0WsgAAI2CDL5WFZaZCygHQgUIyUyE1AYCBRWYCQGYCAD8yEwAyEwD4kZkAkJkAwI/MBIDMBAB+A52ZmrUgCIJgqr6q7wyCoNYs5NI9slqf0hsDDAYyEwB4lSwzlTUwtclMGGhkJgDwKlNmKnFgapOZMNCKzkzNWje+15s18Wd/tT7Fj5OP8ESs1qfK+doJDI7SZKYoclgCUxqnhMdNU3vRvlpTjTBx+cmO5Mi2fIBeieTIuBZ6yDNcUC0f6KMyZCblnt+dWDZsyExAkcqRmZquwCSHGTG06EM7QlCRH9QiWbQj/MpwCT39KA+oey1n8RKGQUBmGlJkJqBIZchM5swRsYwXSVlHySlyTAqPlIaEbA/GLzfKmFRyrjxtIFU3SV28yKMPjPldPKA7makp/LIR/3QYoo68S/6xF09LXwTEgk0xoFkLglo9PshchvGFRCjeMJasnRnFEOlkuVx9CNwQXcxpplmTGhdeRPlafU3SKmHNTOmL48av431OgWFRnsxUq9W01wP1GO2lVgpNjngVhampqehxU2QyvIRKI0raS2lgSlG8jKA/lB8Q5dFuZKZAudWKv2OoP03mu694Wq5xJum3o/RkY33iw9Xfb+SYYD5T+alW4ob8ZdJu5eL2ASCphcaXL2MKkzrYnJnCwoyd3tF1nM8pMETKkZmUAR3hZ9E4aya+4KUvnlIOEk+OFyLFv73Gv3lZolZb3WfPTJ5dQE/ZAlO7S5lJ/VkT572N2UcPD+K9N29m0n7LEXcIwcWcYeKjXWfqp9rzX7Sj1tQesc+ZKaVN1WpThq7SriMWaOhdOTAVcx3mTTEiypCZlBcXeZd3WZCch+QD4xyTjC+J403qUm7fOJP2Um8MaLyQoJ+Mgand/fVMUriQvjDfXsVfhjrMTGoosM6H6QW5RlBcUSHz8iGxVN9x6atM+NtdWi/zbJ78W6NWoXC8Xjl149fJ8JwCQ6BcmcmQmtSFQ3pYybyIQVm5rb2lzrOeyZTGWM+EcuhpZlLv0fq7NJIfqA2MM2mZycA4VaYNrtjOtGQme9oyXcG9MjuOLKv1qWQVgfhvWpjw+uIaZ1KzTlHXcTynwBApW2bSJ+xML2qGF0BLYNHeL6cVLx9luoh5qMvyWsv75jCIepyZkkBhWP5d1NycbfLJe7CWfOz3/44zU9IhnjezCYvMk5gSLR6wrM1quzOT8BYXbcJxI9dp255TYKiULzMJacT0+48rGJl+juPCpN+WTMfar2FNP9LvzOb38JGZMBB6nZmEiSLlHVr6z1YBmcmSi7KuZ7Kd6cxM7nVG0cPCyiGz1fqUtr5oakotR88/zsxkafNGrpNeQH5OgeEy0JmpKMQTwK3nmcn03lI5Ium/v2RdOm0KOsoNXg4AejTT5ubNZzozk/u9evZfz2RqP2mvZsY36/kyk9bXG72OdR8wVIY7M0ljQ/wcAza9z0yWyStl+aF8njwq7Bg/No9BZV7a2KxP6cNUpjPdmUk9U22rqVN06nCObVW6cBXz3KJa2aa8Gnxj17GfBAyTUclMTK8DDn34G72elTz9ZHyzWHcuM1yvTAP8nAKFGO7MBCCT3memVXUsp29s69O7rUfJrIcG5zkFuoTMBKCnmWkAV73I73Lt+m0/20qmMhnA5xTohgHKTLfu3CukKAC53Lpzrw9zcwBQNoOSmdbW1m/c+h0bG1tftrW19Q3+CJOZAAy9QclMAEqNzARg6JGZABSAzARg6JGZABRgAQBGwAZfKslMAAAAfmQmAAAAPzITAACAH5kJAADAj8wEAADgR2YCAADwIzMBAAD4kZkAAAD8yEwAAAB+ZCYAAAA/MhMAAIAfmQkAAMCPzAQAAOBHZgIAAPArJjNd++r6u2c/eOPEKTY2th5v75794NpX1wv5QQYAOBSTma7fuH3rzr1CigKQy60793597bcbLGQBAEbABl8qC8tMhZQDoAOFZKZCagIAA4vMBIDMBAB+ZCYAZCYA8CMzASAzAYAfmQkAmQkA/AY6M63WpwKrqVptKgiCYKq+Kp1Qa0ZfNGtBEATp1wBsyEwA4DVEmUnNSGQmICsyEwB4DXRmEkTxSRxUUpGZgE6RmQDAq8SZSdyljkjVmsbMJB4mx68MmQwYXmQmAPAaocwUfa0eZi0fGB1kJgDwGpLM1G775ubMj5KRMBKMSwLFA8hMAOA1KpnJtpyc0IQR4QhMbTITAGQwKpnJMDFHZsKIsQWmNpkJADIYlczEeiWg3W4bA1ObzAQAGYxKZkoGmqIvyVCAgMwEAF7Dl5mSKTclQ5lWNPG+OaDdbpOZACCDIcpMYmoyZCb5AOUBMhNGG5kJALzKkpkAdBGZCQC8yEwAyEwA4EdmAkBmAgA/MhMAMhMA+JGZAJCZAMBvgDLTrTv3CikKQC637twjMwGA16BkprW19Ru3fsfGxtaXbW1tfYM/wmQmAENvUDITgFIjMwEYemQmAAUgMwEYemQmAAUgMwEYemQmAAVYAIARsMGXSjITAACAH5kJAADAj8wEAADgR2YCAADwIzMBAAD4kZkAAAD8yEwAAAB+ZCYAAAA/MhMAAIAfmQkAAMCPzAQAAOBHZgIAAPAjMwEAAPiRmQAAAPyKyUzXvrr+7tkP3jhxio2Nrcfbu2c/uPbV9UJ+kAEADsVkpus3bt+6c6+QogDkcuvOvV9f++0GC1kAgBGwwZfKwjJTIeUA6EAhmamQmgDAwCIzASAzAYAfmQkAmQkA/MhMAMhMAOBHZgJAZgIAv1JkptX6VBCZqq92UPpqfSqoNaMvmrUgCIL0awBkJgDwKkNmEiJTJ1lHzUhkJkBFZgIArxJkpigyTdXrnYUdMhPgQ2YCAK/Bz0xJZFo1px19p7BHHqIK96UPu+b8oqP0R5P6NOOza01jNYDyIDMBgNfAZyYhMpmDSaeZaWpKfkgoQcpL6sNqkdEDZCYMMMM3dCD95JKZAMBr0DOTFJnSvCOM+zgzk+mAJBEpB8Rfx6EouYj8eJKZOluODvSHIzC1yUwAkMGAZyYlMplCU6eZyVaEdsk0JtWa6hdAidgCU5vMBAAZDHZm0ubBElqKyp2ZbCf45v/ITCgxY2Bqk5kAIIOBzkzGdUVqaNKGjdRQkzMzZRxnYmYOw4TMBABeg5yZlHVGlt3qUbblSlkzU1KAez0TmQnDhMwEAF4DnJkskckamlRaiApsn1hgXSVuKs6SmXjfHMqMzAQAXoObmayRSX9IXPY0VV/V4kuagbJlJvkc5REyE4YQmQkAvAY3MwHoGTITAHiRmQCQmQDAj8wEgMwEAH4bf6H7b5emJLCDxUQ2AAAAAElFTkSuQmCC"></p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-7201017" class="s-lg-link-list s-lg-link-list-5">
+             <li class=""> 
+              <div id="s-lg-content-6439114" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-6439114" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/301085477" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '6439114'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780120885312/LC.GIF&amp;client=springshare" title="Engineering Ethics" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/301085477" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '6439114'});"><span id="s-lg-book-title-6439114" class="s-lg-book-title">Engineering Ethics</span> by <span id="s-lg-book-author-6439114" class="s-lg-book-author">Gail D. Baura</span></a> 
+                <span class="fa fa-lg fa-info-circle" data-toggle="popover" data-trigger="click hover" data-placement="bottom" data-html="true" data-title="Description" data-content="Beginning with an overview of various approaches to engineering ethics, this book includes 13 case studies, delving into the history behind each one. It covers importance and practical benefits of systematic ethical behavior in any engineering work environment.  This is a Safari book.  Chapter 4 covers the Kansas City Hyatt Regency Skywalk Collapse."></span>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: eBook
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780120885312
+                </div>
+                <div class="s-lg-book-prop-pubdate">
+                 Publication Date: 2006
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-6439167" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-6439167" class="s-lg-book-cover"></div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/11623617" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '6439167'});"><span id="s-lg-book-title-6439167" class="s-lg-book-title">To Engineer Is Human</span> by <span id="s-lg-book-author-6439167" class="s-lg-book-author">Henry Petroski</span></a> 
+                <span class="fa fa-lg fa-info-circle" data-toggle="popover" data-trigger="click hover" data-placement="bottom" data-html="true" data-title="Description" data-content="Topics include airplane accidents, bridge collapses, and fatigue cracks. Case studies include the Hyatt Regency Hotel (Kansas City) skywalk, the Crystal Palace, the de Havilland Comet, and the Tacoma Narrows Bridge."></span>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: TA174 .P474 1985
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780312806804
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-6439163" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-6439163" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/24468105" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '6439163'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780393033564/LC.GIF&amp;client=springshare" title="Why Buildings Fall Down" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/24468105" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '6439163'});"><span id="s-lg-book-title-6439163" class="s-lg-book-title">Why Buildings Fall Down</span><span id="s-lg-book-author-6439163" class="s-lg-book-author"></span></a> 
+                <span class="fa fa-lg fa-info-circle" data-toggle="popover" data-trigger="click hover" data-placement="bottom" data-html="true" data-title="Description" data-content="The authors, both premier structural engineers, discuss architectural and structural catastrophes, from the Parthenon and Rome's Coliseum to the Hyatt Regency in Kansas City and the Malpasset Dam in France. This is a feast of architectural flops and flummoxes, natural disasters and human error."></span>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: TH 441.L48 1992
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780393033564
+                </div>
+                <div class="s-lg-book-prop-pubdate">
+                 Publication Date: 1992
+                </div>
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-3" class="col-md-4"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-4022856" class="s-lg-box-wrapper-4022856"> 
+       <div id="s-lg-box-3418265-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-3418265" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Journal Articles </h2> 
+         <div id="s-lg-box-collapse-3418265"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-6441480" class="  clearfix"> 
+            <p>Find journal and magazine articles by searching the databases, <a href="http://cedb.asce.org/cedbsrch.html">Civil Engineering Database</a> and <a href="http://www.engineeringvillage.com/search/quick.url">Engineering Village</a>.&nbsp; Below are examples of articles about the Kansas City Hyatt Regency Walkway Collapse.</p> 
+           </div> 
+           <div id="s-lg-content-6438131" class="  clearfix"> 
+            <p><span class="NLM_string-name">Gillum, J.</span> (<span itemprop="copyrightYear">2000</span>). <span itemprop="name">”The Engineer of Record and Design Responsibility.”</span> <span itemprop="source" itemscope itemtype="http://schema.org/CreativeWork/Serial"><span itemprop="name"><i>J. Perform. Constr. Facil.</i></span></span>, <span itemprop="volume">14</span>(<span itemprop="issue">2</span>), 67–70. <a class="ref" href="http://dx.doi.org/10.1061/%28ASCE%290887-3828%282000%2914:2%2867%29" target="_blank" title="Opens new window">http://dx.doi.org/10.1061/(ASCE)0887-3828(2000)14:2(67)</a>&nbsp; <em>Annotation</em>: "The engineer of record for the design of the hotel, including the skyways, provides his perspective."</p> 
+            <p>Hoke, Tara. "Ensuring The Safety, Health, And Welfare Of The Public." <i>Civil Engineering (08857024)</i> 81.7 (2011): 42-43. <i>Academic Search Complete</i>. Web. 24 Nov. 2014. <a href="http://search.ebscohost.com/login.aspx?direct=true&amp;db=a9h&amp;AN=63023564&amp;site=ehost-live">http://search.ebscohost.com/login.aspx?direct=true&amp;db=a9h&amp;AN=63023564&amp;site=ehost-live</a>&nbsp;&nbsp; <em>Abstract</em>: "The article focuses on the lessons that can be learned from a failure in structural engineering. It focuses on the collapse of the fourth-floor walkway in the Kansas City Hyatt Regency on July 17, 1981 in which 114 people were killed and more than 200 people were injured. It mentions that the investigation uncovered two fundamental failures such as the lack of clarity on who bore ultimate responsibility for the structural design and the failure of communication on the parties involved."</p> 
+            <p><span class="NLM_string-name">Khudeira, S.</span> (<span itemprop="copyrightYear">2011</span>). <span itemprop="name">”Structural Failure of Building’s Walkway: Case Study.”</span> <span itemprop="source" itemscope itemtype="http://schema.org/CreativeWork/Serial"><span itemprop="name"><i>Pract. Period. Struct. Des. Constr.</i></span></span>, <span itemprop="volume">16</span>(<span itemprop="issue">3</span>), 90–94. <a class="ref" href="http://dx.doi.org/10.1061/%28ASCE%29SC.1943-5576.0000098" target="_blank" title="Opens new window">http://dx.doi.org/10.1061/(ASCE)SC.1943-5576.0000098</a>&nbsp; <em>Abstract</em>: "The article describes a case study of the collapse of two walkways in the Hyatt Regency Hotel in Kansas City, Missouri on July 17, 1981. The structural failure of the walkways resulted in the deaths of 114 people and the wounding of 216. The original design of the walkways is described, as well as revisions during construction that caused the collapse. The lessons learned from the collapse are cited, as well as engineering ethics related to the collapse."</p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-4024527" class="s-lg-box-wrapper-4024527"> 
+       <div id="s-lg-box-3419761-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-3419761" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Ask A Librarian </h2> 
+         <div id="s-lg-box-collapse-3419761"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-6441756" class="s-lg-widget ">
+            <div id="s-la-widget-320"></div>
+            <script src="//api2.libanswers.com/1.0/widgets/320"></script> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-127" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+    <li class="previous"> <a href="/c.php?g=144577&amp;p=946243">&lt;&lt; <strong>Previous:</strong> Interlibrary Loan</a> </li> 
+    <li class="next"> <a href="/c.php?g=144577&amp;p=958406"><strong>Next:</strong> Citation Guides &gt;&gt;</a> </li> 
+   </ul> 
+  </div> 
+  <!-- END: Guide Content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Mar 30, 2016 12:19 PM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/CE109</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D144577%2526p%253D1136509&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+     <span class="s-lg-guide-label">Tags: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/srch.php?tag=civil engineering&amp;default_lg=1">civil engineering</a>, <a href="http://libguides.vmi.edu/srch.php?tag=engineering&amp;default_lg=1">engineering</a></span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

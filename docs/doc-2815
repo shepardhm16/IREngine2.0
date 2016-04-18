@@ -1,0 +1,317 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	Virginia Military Institute - Spirit of VMI to Bouis '67 and Costen '70
+</title>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/keydetclub/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Spirit of VMI to Bouis &amp;#39;67 and Costen &amp;#39;70">
+  <meta name="Description" content="The Keydet Club is proud to announce that Paul Bouis ’67 and Ralph Costen ’70 were presented with the Keydet Club’s highest honor, The Spirit of VMI Award.  The presentation took place at halftime of the October 15, 2011 VMI victory over Charleston Southern, on beautiful Parents’ Weekend.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=10737419866" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWDgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFDC9LZXlkZXRDbHViL2QWAmYPDxYCHghJbWFnZVVybAUjL2NvcmUvaW1hZ2VzL2NvbnRlbnQva2V5ZGV0bG9nby5wbmdkZAILD2QWAmYPZBYCZg9kFgQCAQ8PFgQeCENzc0NsYXNzBQxzZWFyY2gtaW5wdXQeBF8hU0ICAhYEHgdvbkZvY3VzBYYBaWYodGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVQaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7dGhpcy52YWx1ZT0nc2VhcmNoIHZtaS5lZHUnO31kAgMPEA9kFgIeBXN0eWxlBQxkaXNwbGF5Om5vbmUQFQEDVk1JFQEDVk1JFCsDAWdkZAIPDw8WAh4HVmlzaWJsZWhkZAITD2QWBgIBDw8WAh8IZ2RkAgMPDxYCHwhoZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfCGcWAgIBDw8WAh8CBSkvdXBsb2FkZWRJbWFnZXMvX0tleWRldF9DbHViL2Fib3V0KDEpLmpwZ2RkAhcPDxYGHgVUaXRsZQUVSG9tZXBhZ2UgRm9vdGVyIFJpZ2h0HhNDYXRhbG9nSWNvbkltYWdlVXJsBS4vV29ya0FyZWEvaW1hZ2VzL2FwcGxpY2F0aW9uL2ljb25fZG9jdW1lbnQuZ2lmHhFUaXRsZUljb25JbWFnZVVybGVkZAIZDw8WBh8JBRRIb21lcGFnZSBGb290ZXIgTGVmdB8KBS4vV29ya0FyZWEvaW1hZ2VzL2FwcGxpY2F0aW9uL2ljb25fZG9jdW1lbnQuZ2lmHwtlZGRk5Q2lMnXDew/t9mY650BkecZtCfLKTSy4JZm2YttTwF0="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAASyvmUGDB0WSGJCjIvlcsCQg7Z1sS2zTNHf3/IxWgcxRFSOGbegovGRRqrbhyvyJGWQuO5O7PDGe2zLg4RZuxgsXgLn2Nr40Vlz4z1JLbYx02IQ51RZFTOLmFlYwZso+qI="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/KeydetClub/"><img id="ctl00_imgLogo" src="/core/images/content/keydetlogo.png" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="http://www.vmi.edu" target="_blank" class="first">VMI</a></li>
+         <li><a href="/Foundation/" target="_self">VMI Foundation</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2106/" target="_blank">Webcams</a></li>
+         <li><a href="/Content.aspx?id=322" target="_blank">Directories</a></li>
+         <li class="last"><a href="https://www.vmialumni.org/sslpage.aspx?pid=603" target="_self">Keydet Login</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/Content.aspx?id=10737418804" target="_self">about</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>For the Home Team!</h5></li>
+            <li><a href="/Content.aspx?id=10737418804" target="_self">About Us</a></li>
+            <li><a href="/Content.aspx?id=10737419609" target="_self">From the CEO</a></li>
+            <li><a href="/Content.aspx?id=10737432189" target="_self">Board of Governors</a></li>
+            <li><a href="/Content.aspx?id=10737419494" target="_self">Keydet Club Awards</a></li>
+            <li><a href="/Content.aspx?id=10737420341" target="_self">Annual Giving Totals</a></li>
+            <li><a href="/Content.aspx?id=10737418973" target="_self">History</a></li>
+            <li><a href="/Content.aspx?id=10737419051" target="_self">Staff</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/KeydetClub Membership/" target="_self">Membership</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Membership</h5></li>
+            <li><a href="/Content.aspx?id=10737419592" target="_self">Out of State Scholarship</a></li>
+            <li><a href="/Content.aspx?id=10737419594" target="_self">In State Scholarship</a></li>
+            <li><a href="/Content.aspx?id=10737419595" target="_self">Scholarship</a></li>
+            <li><a href="/Content.aspx?id=10737419596" target="_self">Sportsman</a></li>
+            <li><a href="/Content.aspx?id=10737419597" target="_self">Spirit</a></li>
+            <li><a href="/Content.aspx?id=10737419598" target="_self">Flying Squadron</a></li>
+            <li><a href="/Content.aspx?id=10737419599" target="_self">Letterman</a></li>
+            <li><a href="/Content.aspx?id=10737419600" target="_self">Big Red</a></li>
+            <li><a href="/Content.aspx?id=10737419603" target="_self">Young Alumni - Big Red</a></li>
+            <li><a href="/Content.aspx?id=10737419606" target="_self">Hail Varsity</a></li>
+            <li><a href="/Content.aspx?id=10737419607" target="_self">One Big Team</a></li>
+            <li><a href="/Content.aspx?id=10737419608" target="_self">Keydet</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/KeydetClub MakeGift/" target="_self">How to Give</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>How to Give</h5></li>
+            <li><a href="/Content.aspx?id=10737419017" target="_self">Ways to Give</a></li>
+            <li><a href="/Content.aspx?id=10737419625" target="_self">Where to Give</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737419870" target="_self">News</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_self">vmikeydets.com</a></li>
+        <li class="rt"><a href="/Content.aspx?id=10737419051" target="_self">Contact</a></li>
+        <li class="rt last"><a href="https://www.vmicampaign.org/athletics" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Content.aspx?id=10737418804" target="_self">About Us</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft10737419026"> 
+        <address><p style="text-align: left;"><a href="http://www.facebook.com/pages/VMI-Keydet-Club-Inc/180105387682" title="facebook" target="_blank"><img border="0" src="/uploadedImages/_Keydet_Club/facebook2.png" alt="facebook" title="facebook"></a>&nbsp;&nbsp;<a target="_blank" title="&nbsp;Flickr Photos" href="http://www.flickr.com/photos/89511892@N03"> <img border="0" src="/uploadedImages/_Keydet_Club/flickr2.png" alt="flickr" title="flickr"></a>&nbsp;&nbsp;<a target="_blank" title="twitter" href="https://twitter.com/VMIKeydetClub"><img border="0" src="/uploadedImages/Images/icons/twitter.png?n=6611" alt="twitter" title="twitter"></a></p> <p>VMI Keydet Club<br> 304 Letcher Avenue<br> P.O. Box 932<br> Lexington, VA 24450</p> <p><a href="mailto:kclub@vmiaa.org">kclub@vmiaa.org</a><br>Toll: 1-800-444-1839<br> Fax: 1-540-463-2695</p> </address>
+        <p style="text-align: left;"><a href="https://www.vmicampaign.org/athletics" title="Support VMI Athletes Now" target="_blank"><img border="0" src="/uploadedImages/_Keydet_Club/keydet_give.png" alt="give now" title="give now"></a><a href="https://www.vmialumni.org/sslpage.aspx?pid=1321" title="Support VMI Athletes Now" target="_blank"></a></p> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/_Keydet_Club/about(1).jpg" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>Spirit of VMI Award Presented to Bouis '67 and Costen '70 &nbsp; </h1>
+       <div class="article-date">
+        October 25, 2011
+       </div>
+       <div class="alignRight newsimagemedium">
+        <img src="/uploadedImages/_KeydetClub/News_Stories/KC1.jpg" alt="FullTextImage/img/@alt" class="bordered">
+        <span class="caption">The Keydet Club is proud to announce that Paul Bouis ’67 and Ralph Costen ’70 were presented with the Keydet Club’s highest honor, The Spirit of VMI Award. </span>
+       </div>&nbsp;The Keydet Club is proud to announce that Paul Bouis ’67 and Ralph Costen ’70 were presented with the Keydet Club’s highest honor, The Spirit of VMI Award.&nbsp; The presentation took place at halftime of the October 15, 2011 VMI victory over Charleston Southern, on beautiful Parents’ Weekend.
+       <br>&nbsp;
+       <br>In presenting the Awards, Bill Paulette ’69, President of the Keydet Club board said, “Paul, very few alumni and fans are as engaged as you are with the VMI Football team and the VMI and Track &amp; Field and Cross Country programs.&nbsp; Despite traveling the long distance from your home in Bethlehem Pennsylvania, your love and support of our teams and the countless cadet-athletes whose lives you have touch, reinforces the Spirit of VMI. Your financial generosity through the athletic scholarship endowment you created in memory of your late wife Nancy Peterson Bouis, as well as your generous annual support of the Keydet Club Scholarship Fund and Athletic Operations Funds, has been critical to the Keydet Club’s effort to assist with the funding of VMI’s Division I athletic program”.
+       <br>&nbsp;
+       <br>Of Costen he remarked, “Your more than 25 years of continuous service on the Keydet Club Board of Governors is without a doubt a record! Having served as a board member, a long time member of the Executive Committee, as the President of the Board and now as the board’s Historian, you have been a major catalyst in the Keydet Club’s growth from a $600,000 annual athletic fund raising organization to one that has raised of over $3.5 million recently. Very few colleges and universities in the country can boast of such unbelievable growth and support, especially considering the small size of the VMI family. Your family’s generosity in providing VMI’s Cameron Hall with a quality basketball floor, known today as Costen Court, and your very generous annual support, continues to inspire those who witness your dedication for VMI and its athletic program. Your leadership, passion, generosity and guidance has certainly benefited the whole of VMI.”
+       <br>&nbsp;
+       <br>The Keydet Club is very appreciative of the support and generosity demonstrated for decades from these gentlemen.&nbsp; Without supporters like Paul Bouis ’67 and Ralph Costen ’70, the VMI Keydet Club would not be able to provide the support needed for VMI’s Division 1 athletics program. 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p align="right" class="icn-social"><a title="Facebook-small" href="https://www.facebook.com/pages/VMI-Keydet-Club-Inc/180105387682" target="_blank"><img title="facebook" alt="facebook" src="/uploadedImages/Images/icons/facebook.png?n=4305"></a><a title="flickr-small" href="http://www.flickr.com/photos/89511892@N03" target="_blank"><img title="Flicker" alt="Flicker" src="/uploadedImages/Images/icons/flickr-flat.png?n=2664"></a>&nbsp;<a title="twitter" href="https://twitter.com/VMIKeydetClub" target="_blank"><img title="twitter" alt="twitter" src="/uploadedImages/Images/icons/twitter.png?n=3038" border="0"></a></p> 
+      <p align="right"><strong>OUR MISSION<br><span id="ektronTempNode">&nbsp;</span></strong>To contribute to the Spirit and development of a successful Division I Athletic Program&nbsp;<br>that benefits the WHOLE OF VMI.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p><strong>THE VMI KEYDET CLUB</strong><br>Neikirk Hall | 304 Letcher Avenue<br> P.O. Box 932 | Lexington, VA 24450 </p> 
+      <p>P: 800-444-1839&nbsp; |&nbsp; P: 540-464-7328&nbsp; |&nbsp; F: 540-463-2695</p> 
+      <p>©2014 VMI | Lexington, Virginia 24450</p> 
+      <p><a title="Privacy Policy" href="/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" target="_top">Privacy Policy</a> | <a title="Webmaster Email" href="mailto:kclub@vmiaa.org?subject=Webmaster Email">Webmaster</a></p> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/llt1ajf.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

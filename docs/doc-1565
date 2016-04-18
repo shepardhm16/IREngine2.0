@@ -1,0 +1,123 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!--[if lt IE 7 ]> <html class="ie6" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+ <!--[if IE 7 ]>    <html class="ie7" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+ <!--[if IE 8 ]>    <html class="ie8" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+ <!--[if IE 9 ]>    <html class="ie9" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+ <!--[if (gt IE 9)|!(IE)]><!-->
+ <!--<![endif]-->
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>Virginia Military Insitute ::  No ordinary college. No ordinary life.</title> 
+  <!-- //////// Favicon ////////  --> 
+  <link href="/public/favicon.ico" rel="shortcut icon" type="image/x-icon"> 
+  <!-- //////// Css - stylesheets ////////  --> 
+  <link href="/public/style2.css" rel="stylesheet" type="text/css" media="all"> 
+  <link href="/public/style-print.css" rel="stylesheet" type="text/css" media="print"> 
+  <!--
+     NOTE:
+     To include graphics on this page, place the graphics in the public subdirectory
+  and use links such as:
+     <img src="/public/logo4.gif">
+     It is important to use /public/ instead of just public/ since some EZproxy
+     login URLs are not be relative to /
+--> 
+ </head> 
+ <body> 
+  <div id="wrap"> 
+   <noscript> 
+    <link href="/public/style-nojs.css" rel="stylesheet" type="text/css"> 
+   </noscript> 
+   <!-- ///   HEADER   /////////////////////////////////////////////////////////////////////////////////////////////////////////////// --> 
+   <div id="header"> 
+    <div class="row fixed"> 
+     <div class="dropdown-container fixed"> 
+      <a href="/docs/login.htm" title="Back Home" id="logo"> <img src="/public/logo4.png" alt="Back Home" width="231" height="130"> </a> 
+      <div id="top_admin_links"> 
+       <div class="col-340 "> 
+        <span class="style1"> <a href="http://www.vmi.edu/foundation/">The Foundation</a> | <a href="http://www.vmi.edu/keydetclub/"> Keydet Club</a> | <a href="http://www.vmialumni.org">Alumni</a> <br> <a href="http://www.vmi.edu/content.aspx?id=312">Library &amp; Archives</a> | <a href="http://www.vmi.edu/Webcams/All-Webcams" ">webcams</a> | <a href="http://www.vmi.edu/Content.aspx?id=10737418266">myVMI</a> | <a href="http://www.vmi.edu/Content.aspx?id=322">Directories</a> </span> 
+       </div> 
+       <!--  end .col-340 --> 
+       <div class="col-160 last"> 
+        <form id="search" action="#" method="get"> 
+         <fieldset> 
+          <input type="text" class="text" id="search-input" value="search this site" onfocus="if(this.value=='search...')this.value='';" onblur="if(this.value=='')this.value='search...';"> 
+          <input type="submit" class="search-submit-btn" value=""> 
+         </fieldset> 
+        </form> 
+       </div> 
+       <!--end .col-160 --> 
+      </div> 
+      <!-- end #top_admin_links --> 
+     </div>
+     <!-- end .dropdown-container --> 
+    </div>
+    <!-- end .row --> 
+    <img src="/public/prestonlibrary.jpg" alt="Main Photo" width="940" height="175"> 
+   </div>
+   <!-- end #header --> 
+   <!-- ///   CONTENT   /////////////////////////////////////////////////////////////////////////////////////////////////////////// --> 
+   <div id="content"> 
+    <br> 
+    <p> </p>
+    <h2><b>VMI Preston Library User Authentication</b></h2> 
+    <p></p> 
+    <form action="/login" method="post"> 
+     <input type="hidden" name="url" value="http://ieeexplore.ieee.org/search/advsearch.jsp"> 
+     <table width="45%" cellpadding="1"> 
+      <tbody>
+       <tr> 
+        <td align="center" width="23em">&nbsp;</td> 
+        <td align="center" width="23em">&nbsp;</td> 
+       </tr> 
+       <tr> 
+        <td>
+         <bold>
+          VMI Network Username
+          <bold></bold>
+         </bold></td> 
+        <td><input type="text" name="user"></td> 
+       </tr> 
+       <tr> 
+        <td>
+         <bold>
+          VMI Network Password
+         </bold></td> 
+        <td><input type="password" name="pass"></td> 
+       </tr> 
+       <tr> 
+        <td> </td> 
+        <td align="left"><input type="submit" value="Login"></td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <!--
+            Please enter your VMI network username &nbsp;<input type="text"     name="user" /><br />
+            Please enter your VMI network password <input type="password" name="pass" /><br />
+       <input type="submit" value="Login" />
+      --> 
+    </form> 
+    <p></p> 
+   </div>
+   <!-- end #content --> 
+   <!-- ///   FOOTER   //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> 
+   <div id="footer"> 
+    <div class="row fixed"> 
+     <div class="hr"></div> 
+     <div class="col-460"> 
+      <p> <a href="http://www.vmi.edu/Content.aspx?id=4294974310">Contact</a> </p> 
+     </div>
+     <!-- end .col-460 --> 
+     <div class="col-460 last"> 
+      <p align="right"> VMI | Lexington, VA 24450<br> <a href="http://www.vmi.edu/Content.aspx?id=312">Library</a> | <a href="http://www.vmi.edu/archives/home/">Archives</a> | <img src="/public/facebook.png" alt="facebook" width="16" height="16"> <img src="/public/flickr.png" alt="" width="16" height="16"> <img src="/public/vimeo.png" alt="" width="16" height="16"> </p> 
+     </div>
+     <!-- end .col-460 --> 
+    </div>
+    <!-- end .row --> 
+   </div>
+   <!-- end #footer --> 
+   <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// --> 
+  </div>
+  <!-- end #wrap --> 
+  <!-- analytics code here -->   
+ </body>
+</html>

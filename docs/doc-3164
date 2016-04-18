@@ -1,0 +1,412 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <title>
+	Virginia Military Institute - VMI Spanish Drills
+</title>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets,liberal arts, lexington, ncaa div. 1, competitive, civilian, commission, barracks, science, co-ed, public, university, ethics, honor, character, responsibility, undergraduate, leaders">
+  <meta name="Description" content="Virginia Military Institute is a small, public, nationally-ranked college committed to leadership development in a military environment in Lexington, Virginia. VMI instills values of honor, discipline, selflessness, commitment, duty, self-reliance, and service. VMI is recognized as one of America’s top colleges for liberal arts and sciences by US News &amp;amp; World Report, The Princeton Review, and Peterson’s Guide to Competitive Colleges. US News ranks VMI’s engineering programs among the twenty best in America. Men and women of VMI are free to choose military or civilian careers.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=10737427151" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BQx0aHJlZS1jb2x1bW5kAgkPDxYCHgtOYXZpZ2F0ZVVybAUBL2QWAmYPDxYCHghJbWFnZVVybAUdL2NvcmUvaW1hZ2VzL2NvbnRlbnQvbG9nby5qcGdkZAILD2QWAmYPZBYCZg9kFgQCAQ8PFgQeCENzc0NsYXNzBQxzZWFyY2gtaW5wdXQeBF8hU0ICAhYEHgdvbkZvY3VzBYYBaWYodGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVQaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J3NlYXJjaCB2bWkuZWR1Jyl7dGhpcy52YWx1ZT0nc2VhcmNoIHZtaS5lZHUnO31kAgMPEA9kFgIeBXN0eWxlBQxkaXNwbGF5Om5vbmUQFQEDVk1JFQEDVk1JFCsDAWdkZAIPDw8WAh4HVmlzaWJsZWhkZAITD2QWCAIBDw8WAh8IZ2RkAgMPDxYCHwhoZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfCGcWAgIBDw8WAh8CBTIvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvbGFuZ3VhZ2VzLmpwZz9uPTkxOWRkAgkPDxYCHwhnZGRkrdLs0M64t2WwJHBvlRrCg7TqUl88RDilSw7HU0mRAtc="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAT3jJbE9va0SWbUtLO+7M9qg7Z1sS2zTNHf3/IxWgcxRFSOGbegovGRRqrbhyvyJGWQuO5O7PDGe2zLg4RZuxgscOakGVCp61iFiGrdmS6F8AEXGQq9aW+ASR12AjROtIg="> 
+   </div> 
+   <div id="container" class="three-column"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl29_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl29$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl29_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl29$ddlSearchCatalogs" id="ctl00_ctl29_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl29$btnSearch" value="search" id="ctl00_ctl29_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities Division</a></li>
+        <li><a href="/Content.aspx?id=10737430638" target="_self">Modern Languages and Cultures</a></li>
+        <li><a href="/content.aspx?id=17227" target="_self">Degrees &amp; Programs</a></li>
+        <li><a href="http://vmi.catalog.acalog.com/preview_entity.php?catoid=15&amp;ent_oid=356&amp;returnto=448" target="_blank">Courses</a></li>
+        <li><a href="/Content.aspx?id=2012" target="_self">Work for Grade Policy</a></li>
+        <li><a href="/content.aspx?id=2034" target="_self">Media Center</a></li>
+        <li><a href="/Content.aspx?id=10737423211" target="_self">Graduate School Information</a></li>
+        <li><a href="/content.aspx?id=2016" target="_self">Language Links</a></li>
+        <li><a href="/Content.aspx?id=2032" target="_self">ML Advising</a></li>
+        <li><a href="/Content.aspx?id=4294974307" target="_self">Faculty</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft1564"> 
+        <address><a title="Janet Cummings" href="mailto:CummingsJH@vmi.edu">Janet Cummings</a><br> Executive Secretary<br> Modern Languages &amp; Cultures<br><br> P:&nbsp; (540) 464-7241<br> F:&nbsp; (540) 464-7677<br><br> Virginia Military Institute<br> 416 Scott Shipp Hall<br> Lexington, VA&nbsp; 24450<br><br><a href="mailto:CummingsJH@vmi.edu">Contact Modern Languages</a></address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/languages.jpg?n=919" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>VMI Spanish Drills</h1> 
+       <p>Welcome to the <b><a title="Virginia Military Institute" href="http://www.vmi.edu/">Virginia Military Institute</a></b> online Spanish language drills. The Spanish grammar exercises that follow are intended for use by students and faculty alike. My goal is to write informative, useful, and practical language drills applicable to all levels, specifically secondary school and university. I have tried to write grammar explanations in the most direct and practical manner possible, without bogging down explanations with exceptions to the rule. These exercises are in traditional conceptual-learning order. If you are looking for a specific grammar point, please use the FIND ON THIS PAGE key. </p> 
+       <p>These free interactive Spanish exercises are written with the Hot Potatoes Half-Baked Software program produced by the University of Victoria CALL laboratory. You can learn more about this software by going to: <a title="http://web.uvic.ca/hrd/halfbaked/" href="http://web.uvic.ca/hrd/halfbaked/" target="_blank">http://web.uvic.ca/hrd/halfbaked/</a> &nbsp;</p> 
+       <p>For more information about VMI and its <a title="Modern Language Department" href="http://www.vmi.edu/content.aspx?id=100">Modern Language Department</a>, click on the <a title="VMI website" href="http://www.vmi.edu/">VMI website</a>. If you would like to send comments regarding these drills, please email <a href="mailto:Bulger-BarnettKD@vmi.edu">Kathleen Bulger-Barnett</a> &nbsp;</p> 
+       <p><a title="A few things about nouns and gender" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/nounandgender.htm" target="_blank">A few things about nouns and gender</a><br><a title="Singular and plural forms of nouns" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/sing2plur.htm" target="_blank">Singular and plural forms of nouns</a><br><a title="Definite articles" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/defarticles.htm" target="_blank">Definite articles</a><br><a title="Indefinite articles" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/indefinitearticles.htm" target="_blank">Indefinite articles</a><br><a title="Adjectives" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/adjectives.htm" target="_blank">Adjectives</a><br><a title="A review of definite and indefinite articles" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/reviewarticles.htm" target="_blank">A review of definite and indefinite articles</a><br><a title="Verbs 101:  The concept of persons" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/persons.htm" target="_blank">Verbs 101: The concept of persons</a><br><a title="Persons and Number" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/newpersonconj912.htm" target="_blank">Persons and Number</a><br><a title="Verbs 101:  What's an infinitive?" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/infinitives.htm" target="_blank">Verbs 101: What's an infinitive?</a><br><a title="Adjective review" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/adjectivereview.htm" target="_blank">Adjective review</a><br><a title="More practice going from singular to plural" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/singulartoplural.htm" target="_blank">More practice going from singular to plural</a> &nbsp;</p> 
+       <p><a title="The verb SER" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/ser.htm" target="_blank">The verb SER</a><br><a title="Telling time" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/time.htm" target="_blank">Telling time</a><br><a title="More practice with time" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/quehoraes.htm" target="_blank">More practice with time</a><br><a title="The verb ESTAR" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/estar.htm" target="_blank">The verb ESTAR</a><br><a title="AR verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/arverbs.htm" target="_blank">AR verbs</a><br><a title="Practice with AR verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/arpractice.htm" target="_blank">Practice with AR verbs</a><br><a title="Practice with AR vocabulary" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/arvocab.htm" target="_blank">Practice with AR vocabulary</a><br><a title="ER Verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/erverbs.htm" target="_blank">ER Verbs</a><br><a title="Practice with ER present tense verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/erpractice.htm" target="_blank">Practice with ER present tense verbs</a><br><a title="Practice with ER vocabulary" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/ervocab.htm" target="_blank">Practice with ER vocabulary</a><br><a title="Present Tense IR verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/irverbs.htm" target="_blank">Present Tense IR verbs</a><br><a title="Practice with IR verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/irpractice.htm" target="_blank">Practice with IR verbs</a><br><a title="Practice with IR verb vocabulary" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/irvocab.htm" target="_blank">Practice with IR verb vocabulary</a> &nbsp;</p> 
+       <p><a title="O-UE stem change verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/o-ue.htm" target="_blank">O-UE stem change verbs</a><br><a title="E-IE Stem change verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/e-ie.htm" target="_blank">E-IE Stem change verbs</a><br><a title="E-I Stem change verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/e-i.htm" target="_blank">E-I Stem change verbs</a><br><a title="Recognizing stem change verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/recstemchange.htm" target="_blank">Recognizing stem change verbs</a><br><a title="Practice with stem change verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/stemchangeprac.htm" target="_blank">Practice with stem change verbs</a><br><a title="Go Verbs:  verbs with Irregular Yo" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/goverbs.htm" target="_blank">Go Verbs: verbs with Irregular Yo</a><br><a title="Stem change Go Verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/stemchgoverbs.htm" target="_blank">Stem change Go Verbs</a><br><a title="Uses of TENER" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/tener.htm" target="_blank">Uses of TENER</a><br><a title="Weather statements" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/weather.htm" target="_blank">Weather statements</a><br><a title="Practice with present tense verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/presverbprac.htm" target="_blank">Practice with present tense verbs</a><br><a title="More practice with present tense verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/moreprestense.htm" target="_blank">More practice with present tense verbs</a> &nbsp;</p> 
+       <p><a title="Lower Level Reading Comprehension Practice" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/lowerreadcomp.htm" target="_blank">Lower Level Reading Comprehension Practice</a><br><a title="The Present Progressive" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/presprog.htm" target="_blank">The Present Progressive</a><br><a title="Practice with the present progressive" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/morepresprog.htm" target="_blank">Practice with the present progressive</a><br><a title="Present progressive with double-stem change verbs, etc." href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/doublestem.htm" target="_blank">Present progressive with double-stem change verbs, etc.</a><br><a title="Additional Present Progressive Practice" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/presprogprac.htm" target="_blank">Additional Present Progressive Practice</a><br><a title="Hace +time: How to express how long you've been doing something" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/haceplustime.htm" target="_blank">Hace +time: How to express how long you've been doing something</a><br><a title="The Present Perfect" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/presperf.htm" target="_blank">The Present Perfect</a><br><a title="Irregular Present Perfects" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/irregpresperf.htm" target="_blank">Irregular Present Perfects</a><br><a title="The Past Perfect" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/pastperfect.htm" target="_blank">The Past Perfect</a><br><a title="Irregular Past Perfects" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/irregpastperf.htm" target="_blank">Irregular Past Perfects</a> &nbsp;</p> 
+       <p><a title="Preterit I:  AR Verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/arpret.htm" target="_blank">Preterit I: AR Verbs</a><br><a title="Preterit II: AR verbs with spelling changes" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/spellarpret.htm" target="_blank">Preterit II: AR verbs with spelling changes</a><br><a title="Preterit III: ER verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/erpret.htm" target="_blank">Preterit III: ER verbs</a><br><a title="Preterit IV: IR verbs" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/irpret.htm" target="_blank">Preterit IV: IR verbs</a><br><a title="Preterit V:  IR  Stem Change Preterits" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/stemchpret.htm" target="_blank">Preterit V: IR Stem Change Preterits</a><br><a title="Preterit VI:  Preterits with Spelling changes" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/orthopret.htm" target="_blank">Preterit VI: Preterits with Spelling changes</a><br><a title="Preterit VII:  Irregular preterits" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/irregpret.htm" target="_blank">Preterit VII: Irregular preterits</a><br><a title="Practice with Irregular Preterits" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/irregpretprac.htm" target="_blank">Practice with Irregular Preterits</a><br><a title="Preterit vs. imperfect" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/pretvsimperf.htm" target="_blank">Preterit vs. imperfect</a> &nbsp;</p> 
+       <p><a title="Imperfect forms" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/imperfectone38.htm" target="_blank">Imperfect forms</a><br><a title="Imperfect formation practice" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/imperfectform.htm" target="_blank">Imperfect formation practice</a><br><a title="Imperfect: When to use it" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/imperfectuses.htm" target="_blank">Imperfect: When to use it</a><br><a title="Imperfect vs. Preterit" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/pretvsimperf.htm" target="_blank">Imperfect vs. Preterit</a> &nbsp;</p> 
+       <p><a title="Ago:  How to express the concept of AGO" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/ago.htm" target="_blank">Ago: How to express the concept of AGO</a><br><a title="Practice with AGO" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/pracwithago.htm" target="_blank">Practice with AGO</a><br><a title="Indirect object pronouns I" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/indirects.htm" target="_blank">Indirect object pronouns I</a><br><a title="Indirect Object Pronouns II" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/indirect2.htm" target="_blank">Indirect Object Pronouns II</a><br><a title="Direct Object pronouns I" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/directs1.htm" target="_blank">Direct Object pronouns I</a><br><a title="Direct Object pronouns II:  Placement choice" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/directs2.htm" target="_blank">Direct Object pronouns II: Placement choice</a><br><a title="Reflexive verbs I" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/reflexives1.htm" target="_blank">Reflexive verbs I</a><br><a title="Reflexive verbs II" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/reflexives2.htm" target="_blank">Reflexive verbs II</a><br><a title="Reflexive Verbs III" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/reflexives3.htm" target="_blank">Reflexive Verbs III</a><br><a title="Reflexives IV" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/reflexives4.htm" target="_blank">Reflexives IV</a><br><a title="Reflexives V: Perfect Tenses" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/reflexives5.htm" target="_blank">Reflexives V: Perfect Tenses</a><br><a title="Reflexives VI: Placement choice" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/reflexives6.htm" target="_blank">Reflexives VI: Placement choice</a><br><a title="Reflexive VII: Preterits" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/reflexives7.htm" target="_blank">Reflexive VII: Preterits</a> &nbsp;</p> 
+       <p><a title="Subjunctive 101: Three major uses" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/subjconcept.htm" target="_blank">Subjunctive 101: Three major uses</a><br><a title="Subjunctive I:  General Concept" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/subone.htm" target="_blank">Subjunctive I: General Concept</a><br><a title="Subjunctive II: Formation" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/subtwo.htm" target="_blank">Subjunctive II: Formation</a><br><a title="Subjunctive 101: The 4th use" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/subjnonex.htm" target="_blank">Subjunctive 101: The 4th use</a><br><a title="Subjunctive III:  Practice using subjunctive" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/subthree.htm" target="_blank">Subjunctive III: Practice using subjunctive</a><br><a title="Subjunctive IV:  Short answer subjunctives" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/subfour.htm" target="_blank">Subjunctive IV: Short answer subjunctives</a><br><a title="Subjunctive 101: The final use (adverbial clauses)" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/subadv.htm" target="_blank">Subjunctive 101: The final use (adverbial clauses)</a><br><a title="Subjunctive V: Practice with adverbial clauses" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/subjadvprac.htm" target="_blank">Subjunctive V: Practice with adverbial clauses</a><br><a title="Subjunctive VI: Practice with all 5 reasons" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/subjall5.htm" target="_blank">Subjunctive VI: Practice with all 5 reasons</a><br><a title="Subjunctive VII: Formation practice" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/subfomrprac.htm" target="_blank">Subjunctive VII: Formation practice</a><br><a title="Present Perfect Subjunctive I" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/presperfsubone.htm" target="_blank">Present Perfect Subjunctive I</a><br><a title="Present Perfect Subjunctive II" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/presperfsubone.htm" target="_blank">Present Perfect Subjunctive II</a><br><a title="Combo Subjunctive Deluxe" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/subjdeluxe.htm" target="_blank">Combo Subjunctive Deluxe</a><br><a title="Informal commands I: Indirect to direct commands" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/tucommandsone.htm" target="_blank">Informal commands I: Indirect to direct commands</a><br><a title="Formal commands" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/formalcommands.htm" target="_blank">Formal commands</a> &nbsp;</p> 
+       <p><a title="Future I" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/futureone.htm" target="_blank">Future I</a><br><a title="Future II" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/futuretwo.htm" target="_blank">Future II</a><br><a title="Future III" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/futurethree.htm" target="_blank">Future III</a><br><a title="Conditionals" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/conditional.htm" target="_blank">Conditionals</a><br><a title="Verbomania I:  Conjugation drill" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/verbomania1.htm" target="_blank">Verbomania I: Conjugation drill</a><br><a title="Late elementary review I" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/lateelemreviewone.htm" target="_blank">Late elementary review I</a><br><a title="Late elementary review II" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/lateelemreviewtwo.htm" target="_blank">Late elementary review II</a><br><a title="Late Elementary Review III" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/lateelemreviewthree.htm" target="_blank">Late Elementary Review III</a><br><a title="Verbomania II:  Low Intermediate" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/interverbmania.htm" target="_blank">Verbomania II: Low Intermediate</a><br><a title="Verbomaia III:  Late Intermediate" href="http://www2.vmi.edu/academics/modl/bulger-barnettkb/verbomania3.htm" target="_blank">Verbomaia III: Late Intermediate</a> &nbsp;</p> 
+      </div> 
+      <div id="ctl00_pageContent_rightColumn"> 
+       <div id="content-2" class="column last"> 
+        <div id="ctl00_pageContent_relatedRight10737427146" class="mod"> 
+         <p>Col. Bulger-Barnett</p> 
+         <ul class="arrowlist"> 
+          <li><a title="Kathleen Bulger-Barnett, Ph.D." href="/Content.aspx?id=10737427145">Home</a></li> 
+          <li><a title="Courses" href="/Content.aspx?id=10737427147">Courses</a></li> 
+          <li><a title="VMI Spanish Drills" href="/Content.aspx?id=10737427151">VMI Spanish Drills</a></li> 
+          <li><a title="Links of Interest" href="/Content.aspx?id=10737427175">Links of Interest</a></li> 
+          <li><a title="Applications and Forms" href="/Content.aspx?id=10737427176">Applications &amp; Forms</a></li> 
+          <li><a title="Language Skills" href="/Content.aspx?id=10737427177">Language Skills</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

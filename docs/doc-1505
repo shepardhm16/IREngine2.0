@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <!-- BEGIN: writeHead() --> 
+  <title>Find Books - Mechanical Engineering - LibGuides at Virginia Military Institute</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="noarchive"> 
+  <!--AUTO GENERATED DUBLIN CORE METADATA--> 
+  <meta name="DC.Title" content="LibGuides: Mechanical Engineering: Find Books"> 
+  <meta name="DC.Creator" content="Janet Holly"> 
+  <meta name="DC.Subject" content="Engineering"> 
+  <meta name="DC.Description" content="This guide is designed as a starting point for doing engineering research using Preston Library's resources."> 
+  <meta name="DC.Publishers" content="Virginia Military Institute"> 
+  <meta name="DC.Rights" content="Copyright Virginia Military Institute 2016"> 
+  <meta name="DC.Language" content="en"> 
+  <meta name="DC.Identifier" scheme="URI" content="http://libguides.vmi.edu/c.php?g=395840&amp;p=2689795"> 
+  <meta name="DC.Date.Created" scheme="ISO8601" content="Oct 8, 2015"> 
+  <meta name="DC.Date.Modified" scheme="ISO8601" content="Mar 25, 2016"> 
+  <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <!--[if lt IE 9]> 
+				<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+		<![endif]--> 
+  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
+  <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+  <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
+  <style>/* =========================================== */
+                        /* bootstrap overrides */
+                        /* =========================================== */
+                        #s-lg-tabs-container .nav-tabs > li > a,
+                        #s-lg-tabs-container .nav-pills > li > a {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #577CBE;
+                            color: #fff;
+                            font-weight: bold;
+                            padding: 4px 15px;
+                        }
+                        #s-lg-tabs-container .nav-tabs {
+                            border-bottom: 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li#s-lg-admin-tab-add > a {
+                            -webkit-border-radius: 4px 4px 0 0;
+                            -moz-border-radius: 4px 4px 0 0;
+                            border-radius: 4px 4px 0 0;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a:hover,
+                        #s-lg-tabs-container .nav-pills > li > a:hover {
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            background-color: #70A1EB;
+                            color: #fff;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a,
+                        #s-lg-tabs-container .nav-pills > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > .s-lg-subtab-ul > .active > a {
+                            color: #fff;
+                            cursor: default;
+                            background-color: #70A1EB;
+                            border-bottom-color: transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > .active > a:hover, 
+                        #s-lg-tabs-container .nav-pills > .active > a:hover {
+                            color: #fff;
+                            cursor: pointer;
+                            background-color: #70A1EB;
+                            border: 1px solid transparent;
+                                -webkit-border-radius: 4px 4px 0 0;
+                                -moz-border-radius: 4px 4px 0 0;
+                                border-radius: 4px 4px 0 0;
+                            border-bottom-color: transparent;
+                            font-weight: bold;
+                        }
+                        #s-lg-tabs-container .nav .dropdown-toggle .caret {
+                            border-top-color: #e1e1e1;
+                        }
+                        
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 6px 4px 3px;
+                            border-left: 1px solid transparent;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 6px 4px 3px;
+                        }
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link:hover {
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 5px 4px 10px;
+                        }
+                        .nav-tabs > li > a.s-lg-tab-top-link {
+                            margin-right: 0px;
+                        }
+
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop {
+                            border-radius: 0 4px 0 0;
+                            padding: 4px 8px 4px 8px;
+                            border-left: 1px solid transparent;
+                            position: absolute;
+                            right: 0;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-drop:hover {
+                            border-radius: 0 4px 0 0;
+                            border-left: 1px solid #bbb;
+                            padding: 4px 8px 4px 8px;
+                        }
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link,
+                        #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover {
+                            width: 100%;
+                            float: left;
+                            border-radius: 4px 0 0 0;
+                            font-weight: bold;
+                            padding: 4px 15px 4px 15px;
+                        }#s-lg-guide-tabs-title-bar { border-top: 1px solid #70A1EB; }
+                    .s-lib-box {
+                        border-color: #cccccc;
+                        border-width: 1px;
+                        box-shadow: 0 8px 6px -6px #AAAAAA;border-radius: 4px 4px 4px 4px;
+                        background-color: #fff;
+                    }
+                    .s-lib-box-std .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    .s-lib-box .s-lib-box-title {
+                        background-color: #f1f1f1;background-image: none;
+                        color: #888;
+                        border-bottom: 1px solid #cccccc;;
+                        border-radius: 3px 3px 0px 0px;
+                    }
+                    .s-lib-box .s-lg-box-footer {
+                    border-radius: 0px 0px 3px 3px;
+                    }</style> 
+  <!-- BEGIN: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- END: CUSTOM HEAD SYSTEM JS/CSS --> 
+  <!-- BEGIN: CUSTOM HEAD GUIDE JS/CSS --> 
+  <!-- END: CUSTOM HEAD GUIDE JS/CSS --> 
+  <script src="http://libguides.vmi.edu/sa.php?site_id=807"></script> 
+  <script>
+			springSpace.Common = springSpace.Common || { };
+			
+			springSpace.Common.constant = {
+					PROCESSING: {
+						ACTION_DISPLAY_POLL: 159
+					}
+			};
+			springSpace.Common.baseURL = "http://libguides.vmi.edu/";
+			/*
+			springSpace.guidePublicObj = new springSpace.guidePublic.GuidePublic({
+				script_name: "/c.php",
+				guide_id: 395840,
+				page_id: 2689795,
+				constant: {
+					PROCESSING: {
+						
+					},
+					CONTENT: {
+						CONTENT_BOOKS: 5
+					}
+				}
+			});
+			*/
+			// Hide guide attributes and subjects/tags if theyre empty.
+			jQuery(function () {
+				//jQuery("#s-lg-guide-header-subjects").hide();
+				//jQuery("#s-lg-guide-header-tags").hide();
+			});
+			
+			handleScroll=function() {
+				var target_elt = "";
+				var anchor = window.location.hash.substring(1);
+				
+				if (jQuery.isNumeric(anchor)) {
+					xhr = jQuery.ajax({
+						async: false,
+						url: "/content_process.php",
+						type: "POST",
+						dataType: "json",
+						data: {
+							action: 562, 
+							anchor: anchor
+						},
+						success: function(response, textStatus, jqXHR) {
+							if ((response.data.box_id != 0) && jQuery("#s-lg-box-" + response.data.box_id)) {
+								target_elt = "#s-lg-box-" + response.data.box_id;
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) { 
+						
+						}
+					});
+				}
+				else if (false) {
+					target_elt = "#s-lg-page-section-2689795";
+				}
+				
+				if (target_elt != "") {
+					jQuery("html, body").animate({ scrollTop: jQuery(target_elt).offset().top }, 750);
+					if (jQuery(this).scrollTop() > 220) {
+						jQuery("#s-lib-scroll-top").fadeIn(750);
+					}
+				}
+			}
+	   </script> 
+  <script>
+			// Enable tooltips.
+			jQuery(function () {
+				try {
+					springSpace.UI.initPopOvers();
+				} catch (e) { }
+			});springSpace.springTrack.init({_st_site_id: '807',_st_guide_id: '395840',_st_page_id: '2689795'});
+			jQuery(function() {springSpace.springTrack.trackPage({_st_type_id: '1',_st_guide_id: '395840',_st_page_id: '2689795'});
+			});
+			jQuery(document).ready(function() {
+				handleScroll();
+			});
+	   </script> 
+  <!-- END: writeHead() --> 
+ </head> 
+ <body class="s-lg-guide-body"> 
+  <a id="s-lg-public-skiplink" class="alert-info" href="#s-lg-guide-main">Skip to main content</a> 
+  <!-- BEGIN: Page Header --> 
+  <div id="s-lib-banner" class="container s-lib-banner-public"> 
+   <a href="http://www.vmi.edu/Content.aspx?id=312" title="" target=""><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="//s3.amazonaws.com/libapps/sites/807/banner/library_banner.png"></a> 
+  </div> 
+  <!-- END: Page Header --> 
+  <!-- BEGIN: Guide Info Header --> 
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders"> 
+   <div id="s-lib-bc"> 
+    <ol id="s-lib-bc-list" class="breadcrumb"> 
+     <li id="s-lib-bc-customer"> <a title="Library" href="http://www.vmi.edu/Content.aspx?id=312">Library </a> </li> 
+     <li id="s-lib-bc-site"> <a title="LibGuides" href="http://libguides.vmi.edu">LibGuides </a> </li> 
+     <li id="s-lib-bc-guide"> <a title="Mechanical Engineering" href="http://libguides.vmi.edu/c.php?g=395840">Mechanical Engineering </a> </li> 
+     <li id="s-lib-bc-page" class="active">Find Books </li> 
+    </ol> 
+   </div> 
+   <div class="pull-right"> 
+    <div id="s-lg-guide-header-search"> 
+     <div id="s-lg-guide-search-box"> 
+      <form role="search" id="s-lg-guide-search-form" action="http://libguides.vmi.edu/srch.php" method="GET"> 
+       <div class="input-group input-group-sm"> 
+        <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words"> 
+        <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+        <input type="hidden" name="guide_id" value="395840"> 
+        <span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="s-lg-guide-header-info"> 
+    <h1 id="s-lg-guide-name">Mechanical Engineering: Find Books</h1> 
+    <div id="s-lg-guide-desc-container"> 
+     <span id="s-lg-guide-description">This guide is designed as a starting point for doing engineering research using Preston Library's resources.</span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Guide Info Header --> 
+  <div id="s-lg-tabs-container" class="container s-lib-side-borders pad-top-med"> 
+   <div id="s-lg-guide-tabs" class="tabs"> 
+    <ul class="nav nav-tabs split-button-nav"> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=395840&amp;p=2689787"> <span>Mechanical Engineering</span> </a> </li> 
+     <li role="presentation" class="active"> <a title="" class="active" href="/c.php?g=395840&amp;p=2689795"> <span>Find Books</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=395840&amp;p=2689797"> <span>Find Articles</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=395840&amp;p=2689799"> <span>Find Standards</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=395840&amp;p=2689801"> <span>Government Information</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=395840&amp;p=2689803"> <span>Interlibrary Loan</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=395840&amp;p=2689804"> <span>Citation Guides</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="/c.php?g=395840&amp;p=2698939"> <span>Professional Organization</span> </a> </li> 
+     <li role="presentation"> <a title="" class="" href="http://www.vmi.edu/content.aspx?id=312"> <span>Library Homepage</span> </a> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div id="s-lg-guide-tabs-title-bar" class="container s-lib-side-borders"></div> 
+  <!-- BEGIN: Guide Content --> 
+  <div id="s-lg-guide-main" class="container s-lib-main s-lib-side-borders"> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-126" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-1" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-9736959" class="s-lg-box-wrapper-9736959"> 
+       <div id="s-lg-box-8252813-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-8252813" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Tips for Getting Started </h2> 
+         <div id="s-lg-box-collapse-8252813"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-16583045" class="  clearfix"> 
+            <p>Begin your research by:</p> 
+            <ul> 
+             <li>finding an <strong>overview</strong> (book or article) on a new or complex topic</li> 
+             <li>finding <strong>authoritative</strong> information</li> 
+             <li>identifying <strong>keywords/subject headings</strong> to use in searching your topic</li> 
+             <li>limiting or expanding your topic</li> 
+             <li>locating a <strong>bibliography</strong> of sources to help you start your research.</li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-9708987" class="s-lg-box-wrapper-9708987"> 
+       <div id="s-lg-box-8229699-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-8229699" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Library of Congress Classification for Engineering </h2> 
+         <div id="s-lg-box-collapse-8229699"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-16529292" class="  clearfix"> 
+            <p>Browse the shelves by using these general call numbers:</p> 
+            <p><span style="font-size: small;">T -&nbsp;Technology (General)</span></p> 
+            <p><span style="font-size: small;">TA -&nbsp;Engineering - General, Civil</span></p> 
+            <p><span style="font-size: small;">TC -&nbsp;Hydraulic Engineering</span></p> 
+            <p><span style="font-size: small;">TD -&nbsp;Environmental Engineering</span></p> 
+            <p><span style="font-size: small;">TE -&nbsp;Highway/Road Engineering</span></p> 
+            <p><span style="font-size: small;">TF -&nbsp;Railroad Engineering</span></p> 
+            <p><span style="font-size: small;">TG -&nbsp;Bridge Engineering</span></p> 
+            <p><span style="font-size: small;">TH -&nbsp;Building Construction</span></p> 
+            <p><span style="font-size: small;">TJ - Mechanical Engineering</span></p> 
+            <p><span style="font-size: small;">TK - Electrical Engineering</span></p> 
+            <p><span style="font-size: small;">TL - Motor Vehicles/ Aeronautics</span></p> 
+            <p><span style="font-size: small;">TN - Mining Engineering/Metallurgy</span></p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-2" class="col-md-6"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-9709066" class="s-lg-box-wrapper-9709066"> 
+       <div id="s-lg-box-8229771-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-8229771" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Finding Books </h2> 
+         <div id="s-lg-box-collapse-8229771"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-16529483" class="  clearfix"> 
+            <p>Books are useful for background information and for getting an overview of your topic. While journal articles will have the latest research and developments, they are often focused on a very narrow aspect of a topic. So start your project by looking for books on your topic. Get an overview and learn about the terminology used to describe your topic. Once you have the "big picture" you can then use the engineering databases to find journal articles on your topic.</p> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-18849119" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268524" class=""> 
+               <a href="http://www.credoreference.com/advanced.do" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268524'});">Credo Reference </a> 
+               <div id="s-lg-database-desc-1268524" class="s-lg-database-desc">
+                Provides access to 100 reference books. Find information in encyclopedias, dictionaries, factbooks and more.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-18850596" class="s-lg-link-list s-lg-link-list-2">
+             <li class=""> 
+              <div id="s-lg-content-16530834" class=""> 
+               <span><a href="http://www.crcnetbase.com/page/engineering_ebooks" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '2',_st_content_id: '16530834'});">ENGnetBASE</a> </span>
+               <div id="s-lg-link-desc-16530834" class="s-lg-link-desc">
+                This eBook collection has grown to include over 2310 cutting-edge and bestselling references including the latest handbooks in mechanical engineering.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div>
+           <div class=""> 
+            <ul id="s-lg-link-list-19768885" class="s-lg-link-list s-lg-link-list-10">
+             <li class=""> 
+              <div id="s-lg-content-1268676" class=""> 
+               <a href="http://vmiezproxy.vmi.edu/login?url=http://www.oxfordreference.com/" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '16',_st_content_id: '1268676'});">Oxford Reference Online </a> 
+               <div id="s-lg-database-desc-1268676" class="s-lg-database-desc">
+                Best for: checking a fact or finding key, trusted information on a person, concept, or term, and conducting more comprehensive research on a specific topic, drawing from in-depth articles.
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="s-lg-box-wrapper-9708994" class="s-lg-box-wrapper-9708994"> 
+       <div id="s-lg-box-8229705-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-8229705" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Preston Library Catalog </h2> 
+         <div id="s-lg-box-collapse-8229705"> 
+          <div class="s-lib-box-content"> 
+           <div id="s-lg-content-16529377" class="  clearfix"> 
+            <p>Find books about mechanical engineering by using Preston Library's catalog.</p> 
+            <p>Here is the URL to the library catalog:&nbsp;<a href="http://vmi.worldcat.org/advancedsearch">http://vmi.worldcat.org/advancedsearch</a></p> 
+            <p>Tips for searching are:</p> 
+            <ul> 
+             <li>Keyword</li> 
+             <li>Subject Heading</li> 
+             <li>Title</li> 
+             <li>Limit by format, author, date, and more</li> 
+            </ul> 
+            <p><font size="3" style="font-size: small;"><font size="3" style="font-size: small;"><font size="3" style="font-size: small;">You can also browse the mechanical engineering section on the 400 level; consult the list of Library of Congress Classification for Engineering.</font></font></font></p> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="s-lg-col-3" class="col-md-3"> 
+     <div class="s-lg-col-boxes"> 
+      <div id="s-lg-box-wrapper-9709571" class="s-lg-box-wrapper-9709571"> 
+       <div id="s-lg-box-8230180-container" class="s-lib-box-container"> 
+        <div id="s-lg-box-8230180" class="s-lib-box s-lib-box-std"> 
+         <h2 class="s-lib-box-title">Reference Books </h2> 
+         <div id="s-lg-box-collapse-8230180"> 
+          <div class="s-lib-box-content"> 
+           <div class=""> 
+            <ul id="s-lg-link-list-18850465" class="s-lg-link-list s-lg-link-list-5">
+             <li class=""> 
+              <div id="s-lg-content-16530723" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-16530723" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/860718124" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '16530723'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=0191752304/LC.GIF&amp;client=springshare" title="A Dictionary of Mechanical Engineering" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/860718124" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '16530723'});"><span id="s-lg-book-title-16530723" class="s-lg-book-title">A Dictionary of Mechanical Engineering</span><span id="s-lg-book-author-16530723" class="s-lg-book-author"></span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: eBook
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 0191752304
+                </div>
+                <div class="s-lg-book-prop-pubdate">
+                 Publication Date: 2013
+                </div>
+                <div id="s-lg-book-desc-16530723" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-16530723" class="s-lg-link-desc">
+                  It covers all aspects of mechanical engineering, including thermodynamics, heat transfer, combustion, stress analysis, design, manufacturing, materials mechanics, dynamics, and vibrations.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-16536052" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-16536052" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/156799343" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '16536052'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780071428675/LC.GIF&amp;client=springshare" title="Marks' Standard Handbook for Mechanical Engineers" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/156799343" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '16536052'});"><span id="s-lg-book-title-16536052" class="s-lg-book-title">Marks' Standard Handbook for Mechanical Engineers</span> by <span id="s-lg-book-author-16536052" class="s-lg-book-author">Eugene A. Avallone; Theodore Baumeister; Ali Sadegh</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. TJ 151.A92 2006
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780071428675
+                </div>
+               </div> 
+              </div></li> 
+             <li class=""> 
+              <div id="s-lg-content-16530558" class="s-lg-book clearfix"> 
+               <div id="s-lg-book-cover-16530558" class="s-lg-book-cover">
+                <a id="book_0" href="http://vmi.worldcat.org/oclc/47880501" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '16530558'});"><img alt="" src="http://syndetics.com/index.aspx?isbn=9780124713703/LC.GIF&amp;client=springshare" title="Mechanical Engineer's Handbook" class="pull-left s-lg-book-cover-img-0"></a>
+               </div>
+               <div class="s-lg-book-props">
+                <a href="http://vmi.worldcat.org/oclc/47880501" target="_blank" onclick="return springSpace.springTrack.trackLink({link: this,_st_type_id: '3',_st_content_id: '16530558'});"><span id="s-lg-book-title-16530558" class="s-lg-book-title">Mechanical Engineer's Handbook</span> by <span id="s-lg-book-author-16530558" class="s-lg-book-author">Dan B. Marghitu; J. David Irwin (Contribution by)</span></a>
+                <div class="s-lg-book-prop-callno">
+                 Call Number: Ref. TJ 151.M396 2001
+                </div>
+                <div class="s-lg-book-prop-isbn">
+                 ISBN: 9780124713703
+                </div>
+                <div id="s-lg-book-desc-16530558" class="s-lg-book-desc">
+                 <div id="s-lg-link-desc-16530558" class="s-lg-link-desc">
+                  The Handbook is an essential, practical companion for all mechanical engineering students with core coverage of nearly all relevant courses included.
+                 </div>
+                </div>
+               </div> 
+              </div></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row s-lg-row"> 
+    <div id="s-lg-col-127" class="col-md-12"> 
+     <div class="s-lg-col-boxes"> 
+     </div> 
+    </div> 
+   </div> 
+   <ul id="s-lg-page-prevnext" class="pager s-lib-hide"> 
+    <li class="previous"> <a href="/c.php?g=395840&amp;p=2689787">&lt;&lt; <strong>Previous:</strong> Mechanical Engineering</a> </li> 
+    <li class="next"> <a href="/c.php?g=395840&amp;p=2689797"><strong>Next:</strong> Find Articles &gt;&gt;</a> </li> 
+   </ul> 
+  </div> 
+  <!-- END: Guide Content --> 
+  <!-- BEGIN: Page Footer --> 
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders"> 
+   <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix"> 
+    <ul id="s-lg-guide-header-attributes" class=""> 
+     <li id="s-lg-guide-header-updated" class="s-lg-h-separator"> <span class="s-lg-guide-label">Last Updated:</span> <span class="s-lg-text-greyout">Mar 25, 2016 12:53 PM</span> </li> 
+     <li id="s-lg-guide-header-url" class="s-lg-h-separator"> <span class="s-lg-guide-label">URL:</span> <span class="s-lg-text-greyout">http://libguides.vmi.edu/c.php?g=395840</span> </li> 
+     <li id="s-lg-guide-print-url"> <a href="javascript: window.print();"><i class="fa fa-print" title="Print Page"></i> Print Page</a> </li> 
+    </ul> 
+    <div id="s-lib-footer-login-link" class="pull-right pad-right-med"> 
+     <a href="https://vmi.libapps.com/libapps/login.php?target=admin_c.php%253Fg%253D395840%2526p%253D2689795&amp;site_id=807">Login to LibApps</a> 
+    </div> 
+   </div> 
+   <div class="pad-bottom-sm clearfix"> 
+    <div id="s-lib-footer-support-link" class="pull-right pad-right-med"> 
+     <a href="mailto:mullenam@vmi.edu">Report a problem.</a> 
+    </div> 
+    <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left"> 
+     <span class="s-lg-guide-label">Subjects: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/sb.php?subject_id=9747">Engineering</a></span> 
+    </div> 
+    <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med"> 
+     <span class="s-lg-guide-label">Tags: </span> 
+     <span class="s-lg-small bold"><a href="http://libguides.vmi.edu/srch.php?tag=engineering&amp;default_lg=1">engineering</a>, <a href="http://libguides.vmi.edu/srch.php?tag=mechanical engineering&amp;default_lg=1">mechanical engineering</a></span> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- END: Page Footer --> 
+  <div id="s-lib-scroll-top" title="Back to Top"> 
+   <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> 
+  </div> 
+  <div id="s-lib-alert" title=""> 
+   <div id="s-lib-alert-content"></div> 
+  </div> 
+  <!-- BEGIN: Custom Footer --> 
+  <!-- END: Custom Footer -->   
+ </body>
+</html>

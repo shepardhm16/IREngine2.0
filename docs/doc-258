@@ -1,0 +1,1012 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>Admissions - Virginia Military Institute - Acalog ACMS™</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/vmi/img/favicon/favicon.ico"> 
+  <meta name="description" content="Registrar functions include student services and academic records management, course scheduling, degree certification and diploma processing, registration, grading and evaluations, transcript processing, academic standards review, out processing, statistical reporting and support of ad hoc requests, FERPA compliance, continued development of technology and post-wide availability of data to the community.">
+  <meta name="keywords" content="registrar, catalog, academics, transcripts, records, registration, enrollment, advising, tuition, classes, courses, schedules">
+  <link href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/user-styles.css" rel="stylesheet" type="text/css"> 
+  <link href="css/public_custom.php" rel="stylesheet" type="text/css"> 
+  <link href="global_styles.css" rel="stylesheet" type="text/css"> 
+  <!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]--> 
+  <script src="/js/prototype.js"></script> 
+  <script src="/js/scriptaculous.js" type="text/javascript"></script> 
+  <script src="/js/Tooltip.js"></script> 
+  <script src="/js/highlight.js" type="text/javascript"></script> 
+  <script src="javascripts.js" type="text/javascript" language="Javascript"></script> 
+  <script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = true; var gatewayFeatureBackToTopText = true;</script> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs"> 
+  <link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/vmi/css/gateway/gateway-styles.css"> 
+  <script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script> 
+  <script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script> 
+  <!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]--> 
+ </head> 
+ <body> 
+  <noscript>
+   <p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p>
+  </noscript> 
+  <a href="#accesskeys" accesskey="k"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="The page uses Browser Access Keys to help with keyboard navigation. Click to learn more" style="height: 0px"></a>
+  <a href="#acalog-nav" accesskey="n"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a>
+  <a name="accesskeys"></a>
+  <div class="accesskeys"> 
+   <p>Different browsers use different keystrokes to activate accesskey shortcuts. Please reference the following list to use access keys on your system.</p> 
+   <dl> 
+    <dt>
+     Alt and the accesskey, for Internet Explorer on Windows
+    </dt> 
+    <dt>
+     Shift and Alt and the accesskey, for Firefox on Windows
+    </dt> 
+    <dt>
+     Shift and Esc and the accesskey, for Windows or Mac
+    </dt> 
+    <dt>
+     Ctrl and the accesskey, for the following browsers on a Mac: Internet Explorer 5.2, Safari 1.2, Firefox, Mozilla, Netscape 6+.
+    </dt> 
+   </dl> 
+   <p>We use the following access keys on our gateway</p> 
+   <dl> 
+    <dt>
+     n Skip to Navigation
+    </dt> 
+    <dt>
+     k Accesskeys description
+    </dt> 
+    <dt>
+     h Help
+    </dt> 
+   </dl> 
+  </div>
+  <table cellspacing="0" class="toplevel"> 
+   <tbody>
+    <tr> 
+     <td colspan="2" class="block_n2_and_content" id="acalog-header"></td> 
+    </tr> 
+    <tr class="acalog-block-n1"> 
+     <td class="block_n1_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n1_right"><span class="n1_header"> Virginia Military Institute</span> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_border_left">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_n2_and_content"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content"> 
+       <tbody>
+        <tr> 
+         <!-- Begin N3 --> 
+         <td class="block_date_outer_left" width="10">&nbsp;</td> 
+         <td class="block_date_inner" width="150"> 
+          <div align="center">
+           <span class="date">&nbsp; Apr 14, 2016 </span>
+          </div> </td> 
+         <td class="block_date_outer_right" width="10">&nbsp;</td> 
+         <td valign="top" class="block_n2_and_content"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2012-2013 Academic Catalogue</span>&nbsp;</span></td> 
+             <td class="block_n3_off block_n3_right" align="right"> 
+              <form name="select_catalog" method="post" action="/index.php" style="margin: 0px"> 
+               <table border="0" cellspacing="0" cellpadding="0"> 
+                <tbody>
+                 <tr valign="top"> 
+                  <td> <select tabindex="201" name="catalog" title="Select a Catalogue"> <option value="15">2015-2016 Academic Catalogue</option> <option value="11">2014-2015 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="5">2013-2014 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="1" selected>2012-2013 Academic Catalogue [ARCHIVED CATALOG]</option> <option value="17">2015 Summer Session Catalogue [ARCHIVED CATALOG]</option> <option value="21">2016 Summer Session Catalogue</option> </select> </td> 
+                  <td>&nbsp;&nbsp; <input type="submit" title="Select a Catalogue" name="sel_cat_submit" value="GO" tabindex="202"> &nbsp; </td> 
+                 </tr> 
+                </tbody>
+               </table> 
+              </form> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End N3. --> 
+        </tr> 
+        <tr> 
+         <!-- N2 goes here. --> 
+         <td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav"> <a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content"> 
+           <tbody>
+            <tr> 
+             <td class="block_n2_search"> 
+              <form name="n2_search" method="get" action="/search_advanced.php" onsubmit="return validateSearchOptions()"> 
+               <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="1"> 
+               <input type="hidden" title="Search Database" name="search_database" value="Search"> 
+               <input type="hidden" title="Search" name="search_db" value="Search"> 
+               <input type="hidden" title="cpage" name="cpage" value="1"> 
+               <input type="hidden" title="ecpage" name="ecpage" value="1"> 
+               <input type="hidden" title="ppage" name="ppage" value="1"> 
+               <input type="hidden" title="spage" name="spage" value="1"> 
+               <input type="hidden" title="tpage" name="tpage" value="1"> 
+               <span class="n2_search_header">Catalogue Search</span> 
+               <br> 
+               <span style="display: none;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location"> <option value="-1">Select an option</option> <option value="3">Courses</option> <option value="1">Programs</option> <option value="28">Hierarchy Items</option> <option value="30">Other Content</option> <option value="33" selected>Entire Catalogue</option> </select><br></span> 
+               <span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onfocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabindex="101"> <input type="submit" title="GO" value="GO" tabindex="103"><br></span> 
+               <span style="display: none;"><br><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1" id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br></span> 
+               <span class="n2_search"><a href="/search_advanced.php?catoid=1" class="navbar" tabindex="104">Advanced Search</a></span>
+               <br> 
+              </form> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+            <tr> 
+             <td nowrap> 
+              <table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links"> 
+               <tbody>
+                <tr> 
+                 <td id="acalog-navigation"> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/index.php?catoid=1" class="navbar" tabindex="105">Catalogue Home</a>
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=16" class="navbar" tabindex="106">Correspondence</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=13" class="navbar" tabindex="107">Institute Calendar 2012-2013</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=14" class="navbar" tabindex="108">The Mission</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=15" class="navbar" tabindex="109">The Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=4" class="navbar" tabindex="110">Admissions</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=17" class="navbar" tabindex="111">Costs and Payment Schedule</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=18" class="navbar" tabindex="112">Financial Aid</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=21" class="navbar" tabindex="113">The Academic Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=22" class="navbar" tabindex="114">The Co-Curricular Program</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=23" class="navbar" tabindex="115">Prizes, Medals, and Awards</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=27" class="navbar" tabindex="116">Institutional Information</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=19" class="navbar" tabindex="117">Reserve Officers Training Corps</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=44" class="navbar" tabindex="118">The Curricula</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=3" class="navbar" tabindex="119">Courses of Instruction</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=29" class="navbar" tabindex="120">Personnel of the Institute</a> 
+                  </div> 
+                  <div class="n2_links">
+                   &nbsp;&nbsp;
+                   <a href="/content.php?catoid=1&amp;navoid=56" class="navbar" tabindex="121">Statistics</a> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> </td> 
+            </tr> 
+            <tr> 
+             <td> 
+              <hr class="navbar"> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+         <!-- End of N2 --> 
+         <td valign="top" class="block_content_outer"> 
+          <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+           <tbody>
+            <tr> 
+             <td class="block_content" colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+               <tbody>
+                <tr> 
+                 <td> 
+                  <div class="help_block" style="float: right">
+                   <a href="help.php?catoid=1" onclick="javascript:acalogPopup('help.php?catoid=1', 'help', 770, 530, 'yes');return false;" class="help" tabindex="203" accesskey="h" target="_blank"><b>HELP</b></a>
+                  </div> <span class="acalog_archived_catalog"><span class="acalog_catalog_name">2012-2013 Academic Catalogue</span></span> <span class="n1_archived acalog-highlight-ignore" style="padding: 0px">[ARCHIVED CATALOG]</span><br> <h1 id="acalog-content"> Admissions </h1> 
+                  <div style="float: right">
+                   <a rel="nofollow" href="/content.php?catoid=1&amp;navoid=4&amp;print" onclick="acalogPopup('/content.php?catoid=1&amp;navoid=4&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+                  </div>
+                  <div class="acalog-social-media-links" style="float: right;"> 
+                  </div> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <hr> </td> 
+                </tr> 
+                <tr> 
+                 <td> 
+                  <table class="acalog-export-remove" border="0" cellspacing="0" cellpadding="0" width="100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="50%"> 
+                      <ul> 
+                       <li><a href="#Requirements">Requirements</a></li> 
+                       <li><a href="#Matriculation_Agreement">Matriculation Agreement</a></li> 
+                       <li><a href="#How_and_When_to_Apply">How and When to Apply</a></li> 
+                       <li><a href="#Processing_of_Applications">Processing of Applications</a></li> 
+                       <li><a href="#Advanced_Placement">Advanced Placement</a></li> 
+                       <li><a href="#Transfer_From_Another_College">Transfer From Another College</a></li> 
+                      </ul> </td> 
+                     <td width="50%"> 
+                      <ul> 
+                       <li><a href="#Applicants_Whose_First_Language_is_Not_English">Applicants Whose First Language is Not English</a></li> 
+                       <li><a href="#Immunizations">Immunizations</a></li> 
+                       <li><a href="#Computers">Computers</a></li> 
+                       <li><a href="#Readmission_of_Former_Cadets">Readmission of Former Cadets</a></li> 
+                       <li><a href="#Nondiscriminatory_Policy">Nondiscriminatory Policy</a></li> 
+                      </ul> </td> 
+                    </tr> 
+                   </tbody> 
+                  </table> 
+                  <hr> <h2><a name="Requirements"></a>Requirements</h2> <p><strong>General. </strong>The Institute seeks to admit young men and women who aspire to both an academic degree and a military commission as the hallmarks of a complete VMI education. Applicants are normally not less than sixteen (16) or more than twenty-two (22) years of age at matriculation and may not be married and/or the parent of a child. An age waiver may be granted for an applicant who has served on active duty in the armed forces, or if other circumstances dictate a waiver of the policy.</p> <p><strong>Medical.</strong> If an applicant is offered a Conditional Appointment on the basis of academic credentials presented, he or she must be approved medically to complete the reservation process and enroll. Cadet life is a rigorous four years of mental and physical challenges. Cadets must fully participate in all required activities including the intense fourth-class year, Institute and ROTC physical fitness tests, and mandatory physical education and ROTC courses. The Institute will evaluate each applicant’s medical and physical condition to ensure they can complete all elements of VMI’s rigorous co-curricular program. The specific program requirements are enumerated on the VMI Admissions website. All potential applicants should review them carefully. VMI will also consult DOD medical standards for reference, however, each application will be reviewed individually to ensure that the program requirements can be met and the prospective cadet can safely and successfully enroll at VMI.</p> <p>If the Institute Physician determines the applicant may not be able to meet the established program requirements, he will request more information from the applicant. If his concerns persist, he will forward the medical information to the Commandant of Cadets and the Head of the Department of Physical Education (Fitness Review Panel). Each member of the panel will submit a recommendation on eligibility to the Superintendent. The Superintendent’s decision will be final.</p> <p>Admission to VMI does not guarantee that a cadet will be eligible for commissioning. Only ROTC departments can determine eligibility for commissioning. Any questionable medical condition should be directed to the appropriate ROTC department.</p> <p><strong>Applicants are advised that failure to report previously existing medical conditions will be grounds for termination of their cadetship with forfeiture of appropriate tuition and fees. Cadets who become unable to participate fully in all aspects of cadet life will be evaluated for retention on a case by case basis by Institute officials.</strong></p> <p><strong>Academic Record.</strong> A college preparatory course comparable to the Commonwealth of Virginia’s Advanced Studies Program, or higher, is preferred. The applicant should present a secondary school record showing at least 16 academic units earned by the time of graduation.<strong> </strong>The 16 units must include<strong> at least four in English, two in algebra, and one in geometry.</strong> The distribution cited is desirable, but minor exceptions may be made if the record is otherwise sufficiently promising.</p> 
+                  <table border="0" cellspacing="0" cellpadding="0" width="70%"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="5%">&nbsp;</td> 
+                     <td width="59%"><strong>English</strong></td> 
+                     <td width="35%" style="text-align: right">4 units</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="5%">&nbsp;</td> 
+                     <td width="59%"><strong>Algebra</strong></td> 
+                     <td width="35%" style="text-align: right">2 units</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="5%">&nbsp;</td> 
+                     <td width="59%"><strong>Geometry</strong></td> 
+                     <td width="35%" style="text-align: right">1 units</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="5%">&nbsp;</td> 
+                     <td width="59%"><strong>Advanced mathematics</strong></td> 
+                     <td width="35%" style="text-align: right">1 units</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="5%">&nbsp;</td> 
+                     <td width="59%"><strong>Social studies</strong></td> 
+                     <td width="35%" style="text-align: right">3 units</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="5%">&nbsp;</td> 
+                     <td width="59%"><strong>Laboratory sciences</strong></td> 
+                     <td width="35%" style="text-align: right">3 units</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="5%">&nbsp;</td> 
+                     <td width="59%"><strong>Foreign language<br> </strong><strong><strong>(3 years of one, or two years of two each)</strong><br> </strong></td> 
+                     <td valign="top" width="35%" align="right" style="text-align: right">3-4 units</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="5%">&nbsp;</td> 
+                     <td width="59%"><strong>Electives</strong></td> 
+                     <td width="35%" style="text-align: right">2 units</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="5%">&nbsp;</td> 
+                     <td width="59%">&nbsp;</td> 
+                     <td width="35%">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="5%">&nbsp;</td> 
+                     <td width="59%"><strong>TOTAL ACADEMIC UNITS</strong></td> 
+                     <td width="35%" style="text-align: right">19-20 desirable</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <p>Equally important is the quality of the applicant’s record as measured by grades, class rank, scores on standardized tests of aptitude, and the school’s evaluation of leadership and academic promise. VMI has not set rigid minimum requirements in these respects, but in general it is expected that the applicant will rank in the top half of the class with grades substantially above passing and that College Board and other test scores will be above average or better.</p> <p><strong>Standardized Tests.</strong> The following standardized tests are required or recommended, as stated, for all applicants:</p> 
+                  <ol> 
+                   <li>REQUIRED: College Board Scholastic Aptitude Test (SAT I) or American College Testing Program (ACT).</li> 
+                   <li>REQUIRED: [if applicant’s first language (mother tongue) is not English]: College Board Test of English as a Foreign Language (TOEFL).</li> 
+                  </ol> <p>The SAT or ACT should be taken in the senior year no later than December. If they are taken after these dates, consideration of the application must depend on space availability when the scores are received.</p> <p>Prospective applicants are strongly encouraged to try the SAT and ACT in their junior year of high school and to repeat the test in their senior year, thereby enhancing the usefulness of the measurement.</p> <p>Information about the SAT or ACT may be obtained from the applicant’s high school guidance office. VMI’s code for the SAT is 5858. VMI’s code for the ACT is 4418.</p> <p><strong>Essay.</strong> Although an essay is not required, it is encouraged. The applicant may wish to submit a one-page essay on a topic of their choice or a graded essay from a high school class.</p> <p><strong>Extracurricular Achievements.</strong> Since the VMI cadet is being trained for leadership, extracurricular achievement indicative of leadership potential, physical and moral stamina, and adaptability to a disciplined environment is important as are significant academic honors. A partial list of significant achievements would include membership in student government organizations, the National Honor Society, editorship of student publications, athletic awards, significant civic or church work, and honors in such organizations as the Girl Scouts and Boy Scouts. Such achievements are not a substitute for academic qualifications, but they do represent an important supplement.</p> <p><strong>Character Recommendations. </strong>Satisfactory character and personality evaluations must be furnished by the secondary school or schools attended by the applicant unless precluded by school policy. One or two letters of recommendation may be helpful if written by persons who <strong>know the applicant well,</strong> especially if the writer’s relationship to the applicant has been that of teacher, employer, or leader in some significant activity, or if the writer is a VMI alumnus.</p> <p><strong>Interviews and Visits. It is strongly recommended, though not required, that applicants visit VMI for an interview and a tour of the post.</strong> Both usually can be accomplished within a morning or afternoon. The Admissions Office will arrange for interviews and tours as far as possible to suit the convenience of the applicant, who should cite a preferred date when writing for an appointment. Preferred times Mon. - Fri. are 9-11:30 a.m. and 1-3:30 p.m.</p> <p><strong>Summary.</strong> The purpose of entrance requirements is to protect the standards of the college and also the interests of the applicant, which are not served if the applicant is accepted into a program for which he or she is unprepared. All measurements (academic record, class rank, SAT/ACT, etc.) are correlated and weighed in the final determination of the applicant’s qualifications.</p> <h2><a name="Matriculation_Agreement"></a>Matriculation Agreement</h2> <p>Every cadet, upon matriculation, is required to sign the following pledge, which is binding upon the cadet from the day it is signed until all official connection with the Institute is severed:</p> <p>“I hereby engage to serve as a cadet in the Virginia Military Institute for the term for which I have entered, and I promise, on my honor, while I continue to be a member of the Corps of Cadets, never to lie, cheat, steal, nor tolerate those who do. I will, to the best of my ability, discharge all of my duties as a cadet with regularity and fidelity, and I will obey all the legal orders and constituted authority of the Institute. I further affirm that I am an unmarried person; that I am not a parent; and that never, during the term of my cadetship, will I join or affiliate with any secret society, fraternity, or sorority.”</p> <h2><a name="How_and_When_to_Apply"></a>How and When to Apply</h2> <p>Applications can be submitted electronically (<a target="_blank" href="http://www.vmi.edu/admissions">http://www.vmi.edu/admissions</a>) or in paper form. New cadets, whether firsttime freshmen or transfers, are enrolled only at the beginning of each new session in August. the application form and all required items for application must be received between September 1 and February 1 for those applying for regular decision. All applicants, including transfers, must submit the following items (additional items required for transfers will be explained when receipt of application is acknowledged):</p> 
+                  <ol> 
+                   <li>The completed application form.</li> 
+                   <li>Application fee of $40, this being a non-refundable fee.</li> 
+                   <li>An official transcript of the high school record.</li> 
+                   <li>Official Standardized test (SAT/ACT) scores.</li> 
+                   <li>Secondary School Report Form</li> 
+                   <li>Virginia Domicile Application Form (Virginia residents only)</li> 
+                  </ol> <h2><a name="Processing_of_Applications"></a>Processing of Applications</h2> <p><strong>Decisions.</strong> Applicants meeting the November 15 deadline for early decision will be notified no later than December 15. On a rolling basis, decisions will be made on all applications for regular decision and those applicants deferred from early acceptance. Although some outstanding applicants may be offered appointments during this initial review process, most applicants will be notified of a decision by 1 April. A waiting list may be necessary.</p> <p><strong>Reservations.</strong> Accepted applicants will be sent appointments which are tentative pending establishment of a reservation. A reservation requires approval of satisfactory medical and dental reports, a signed acceptance of the appointment, and payment of a $300 advance deposit. The advance deposit is deducted from the total charges for the first year of enrollment. It is refundable if requested in writing before May 1, or if the applicant is found physically disqualified.</p> <p><strong>Conditions. </strong>VMI reserves the right to cancel any appointment or reservation if the recipient is found to be physically disqualified or if a subsequent academic or conduct record is found unsatisfactory. Entrance requirements must be fully met before the date of matriculation. No one will be admitted on probation.</p> <h2><a name="Advanced_Placement"></a>Advanced Placement</h2> <p>Advanced placement is defined as the assignment of new cadets to advanced courses, with or without semester hours credit, for which they have qualified by one or more of the following means:</p> 
+                  <ol> 
+                   <li><strong>College Board Advanced Placement Examinations.</strong> The College Board offers Advanced Placement Examinations annually in May, each based on a typical college-level course. These examinations are designed for students who have had special secondary school preparation. Below are listed the AP Examinations VMI currently accepts for credit. Semester hour credit may be awarded for grades of 4 or 5 (honors and high honors), with placement credit for a score of 3, except as indicated below. Electives must be taken to fill the credit hour requirement.</li> 
+                  </ol> 
+                  <table border="0" cellspacing="0" cellpadding="0" width="80%" align="center"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="21%" colspan="3" style="text-align: center"><strong>College Board Advanced Placement Summary</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td width="21%" colspan="3" style="text-align: center">
+                      <hr> </td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%" style="text-align: left"><strong>AP<br> Examination</strong></td> 
+                     <td width="26%" style="text-align: center"><strong>VMI<br> Equivalent</strong></td> 
+                     <td width="15%" style="text-align: right"><strong>Credit <br> Hours</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td width="21%" colspan="3" style="text-align: center">
+                      <hr> </td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Art-Studio (Drawing/2-D/3-D)</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2165" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2165&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2165&amp;display_options[location]=tooltip&amp;show" id="tt777" target="_blank">FA 215</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2166" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2166&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2166&amp;display_options[location]=tooltip&amp;show" id="tt2372" target="_blank">FA 216</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">2</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Art History</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2167" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2167&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2167&amp;display_options[location]=tooltip&amp;show" id="tt9895" target="_blank">FA 251</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2168" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2168&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2168&amp;display_options[location]=tooltip&amp;show" id="tt9930" target="_blank">FA 252</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Biology</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=1851" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1851&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1851&amp;display_options[location]=tooltip&amp;show" id="tt4082" target="_blank">BI 101</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=1852" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1852&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1852&amp;display_options[location]=tooltip&amp;show" id="tt2016" target="_blank">BI 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">8***</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Chemistry</td> 
+                     <td width="26%" style="text-align: right">****</td> 
+                     <td width="15%" style="text-align: right">TBD</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Computer Science A</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2029" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2029&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2029&amp;display_options[location]=tooltip&amp;show" id="tt9395" target="_blank">CS 121</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Computer Science AB</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2029" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2029&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2029&amp;display_options[location]=tooltip&amp;show" id="tt8265" target="_blank">CS 121</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2030" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2030&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2030&amp;display_options[location]=tooltip&amp;show" id="tt6539" target="_blank">CS 122</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Calculus AB</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2380" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2380&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2380&amp;display_options[location]=tooltip&amp;show" id="tt925" target="_blank">MA 123</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Calculus BC</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2380" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2380&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2380&amp;display_options[location]=tooltip&amp;show" id="tt7530" target="_blank">MA 123</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2381" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2381&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2381&amp;display_options[location]=tooltip&amp;show" id="tt9373" target="_blank">MA 124</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Economics-Micro</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2054" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2054&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2054&amp;display_options[location]=tooltip&amp;show" id="tt9423" target="_blank">EC 201</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Economics-Macro</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2055" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2055&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2055&amp;display_options[location]=tooltip&amp;show" id="tt5590" target="_blank">EC 202</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">English Literature/Comp.</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2653" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2653&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2653&amp;display_options[location]=tooltip&amp;show" id="tt7311" target="_blank">WR 101</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2654" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2654&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2654&amp;display_options[location]=tooltip&amp;show" id="tt8134" target="_blank">WR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">English Language/Comp.</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2653" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2653&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2653&amp;display_options[location]=tooltip&amp;show" id="tt181" target="_blank">WR 101</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2654" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2654&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2654&amp;display_options[location]=tooltip&amp;show" id="tt7500" target="_blank">WR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">French-Language</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2180" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2180&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2180&amp;display_options[location]=tooltip&amp;show" id="tt1750" target="_blank">FR 101</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2181" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2181&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2181&amp;display_options[location]=tooltip&amp;show" id="tt5429" target="_blank">FR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">6*</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">French-Literature</td> 
+                     <td width="26%" style="text-align: right">TBD</td> 
+                     <td width="15%" style="text-align: right">TBD**</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">German-Language</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2202" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2202&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2202&amp;display_options[location]=tooltip&amp;show" id="tt7190" target="_blank">GR 101</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2203" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2203&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2203&amp;display_options[location]=tooltip&amp;show" id="tt8896" target="_blank">GR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">6*</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Government and Politics-US</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2302" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2302&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2302&amp;display_options[location]=tooltip&amp;show" id="tt6501" target="_blank">IS 210</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Government and Politics-Comp.</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2315" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2315&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2315&amp;display_options[location]=tooltip&amp;show" id="tt7643" target="_blank">IS 330</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">History-US</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2222" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2222&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2222&amp;display_options[location]=tooltip&amp;show" id="tt508" target="_blank">HI 205</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2223" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2223&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2223&amp;display_options[location]=tooltip&amp;show" id="tt7089" target="_blank">HI 206</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">History-European</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2220" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2220&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2220&amp;display_options[location]=tooltip&amp;show" id="tt8648" target="_blank">HI 104</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">3*****</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">History-World</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2220" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2220&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2220&amp;display_options[location]=tooltip&amp;show" id="tt1503" target="_blank">HI 104</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Latin-Literature</td> 
+                     <td width="26%" style="text-align: right">No VMI equivalent</td> 
+                     <td width="15%" style="text-align: right">N/A</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Physics B (Liberal Arts Major)</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2577" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2577&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2577&amp;display_options[location]=tooltip&amp;show" id="tt1063" target="_blank">PY 120</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2578" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2578&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2578&amp;display_options[location]=tooltip&amp;show" id="tt560" target="_blank">PY 121</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Physics C (All Curricula)</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2581" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2581&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2581&amp;display_options[location]=tooltip&amp;show" id="tt4699" target="_blank">PY 160</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2582" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2582&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2582&amp;display_options[location]=tooltip&amp;show" id="tt8094" target="_blank">PY 161</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">8</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Psychology</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2540" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2540&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2540&amp;display_options[location]=tooltip&amp;show" id="tt7303" target="_blank">PS 201</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Spanish-Language</td> 
+                     <td width="26%" style="text-align: right">
+                      <div style="display: inline">
+                       <a href="preview_course_nopop.php?catoid=1&amp;coid=2617" onclick="showCatalogData('1', '3', '2617', 'SP%20101', this, ''); return false;" target="_blank">SP 101</a>
+                      </div><span style="display: none !important">&nbsp;</span>-
+                      <div style="display: inline">
+                       <a href="preview_course_nopop.php?catoid=1&amp;coid=2618" onclick="showCatalogData('1', '3', '2618', 'SP%20102', this, ''); return false;" target="_blank">SP 102</a>
+                      </div><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">6*</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Spanish-Literature</td> 
+                     <td width="26%" style="text-align: right">TBD</td> 
+                     <td width="15%" style="text-align: right">TBD**</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">Statistics</td> 
+                     <td width="26%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2376" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2376&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2376&amp;display_options[location]=tooltip&amp;show" id="tt9277" target="_blank">MA 106</a><span style="display: none !important">&nbsp;</span> or <a href="preview_course_nopop.php?catoid=1&amp;coid=2377" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2377&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2377&amp;display_options[location]=tooltip&amp;show" id="tt1496" target="_blank">MA 108</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%" style="text-align: right">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="57%">&nbsp;</td> 
+                     <td width="26%">&nbsp;</td> 
+                     <td width="15%">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="21%" colspan="3"> <p>*Score of 3=Placement credit for 101 and 102; 4=Semester hour credit for 101 and 102 (6 credits); 5=Semester hour credit for 101/102 and 201/202 (12 credits).</p> <p>**TBD by interview with faculty member.</p> <p>***No credit for a score of 3 for biology majors.</p> <p>****Chemistry majors must take first-year chemistry; all others will receive credit depending upon score and curriculum.</p> <p>*****No credit for score of 3. Questions pertaining in International Baccalaureate or Advanced Placement Credit may be directed to VMI's Transfer Credit Coordinator, LTC Neil Whitmore at <a href="mailto:whitmorend@vmi.edu">whitmorend@vmi.edu</a> or 540-464-7039.</p> <p>Updated information pertaining to VMI's IB, AP and transfer credit practices may be found at <a target="_blank" href="http://www.vmi.edu/Admissions.aspx?id=226&amp;ekmensel=fb5%20d653b_20_0_226_4">http://www.vmi.edu/Admissions.aspx?id=226&amp;ekmensel=fb5 d653b_20_0_226_4</a>.</p> </td> 
+                    </tr> 
+                   </tbody> 
+                  </table> 
+                  <ol start="2"> 
+                   <li><strong>International Baccalaureate Courses.</strong> VMI recognizes the advanced level of academic preparation of students completing the IB Diploma or IB courses and encourages participation in the program. Academic credit and/or advanced placement is determined by the appropriate academic department head. Generally, semester hour credit may be awarded for exam scores of 5 or higher. Placement credit is awarded for scores of 4, except as indicated below. Electives must be taken to fill the credit hour requirement.</li> 
+                  </ol> 
+                  <table border="0" cellspacing="0" cellpadding="0" width="80%" align="center"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="20%" colspan="3" style="text-align: center"><strong>International Baccalaureate Summary </strong><br> H=Higher Level Exam, S=Standard Level Exam<br> 
+                      <hr> </td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%" style="text-align: left"><strong>IB&nbsp;<br> Examination</strong></td> 
+                     <td width="25%" style="text-align: center"><strong>VMI<br> Equivalent</strong></td> 
+                     <td width="14%" style="text-align: right"><strong>Credit <br> Hours</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td width="20%" colspan="3" style="text-align: center">
+                      <hr> </td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Art/Design (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2165" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2165&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2165&amp;display_options[location]=tooltip&amp;show" id="tt4760" target="_blank">FA 215</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2166" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2166&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2166&amp;display_options[location]=tooltip&amp;show" id="tt7818" target="_blank">FA 216</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">2</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Biology (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=1851" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1851&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1851&amp;display_options[location]=tooltip&amp;show" id="tt8932" target="_blank">BI 101</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=1852" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1852&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1852&amp;display_options[location]=tooltip&amp;show" id="tt3637" target="_blank">BI 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">8</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Business and Organization (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=1906" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1906&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1906&amp;display_options[location]=tooltip&amp;show" id="tt3993" target="_blank">BU 220</a><span style="display: none !important">&nbsp;</span>/<a href="preview_course_nopop.php?catoid=1&amp;coid=1907" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1907&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1907&amp;display_options[location]=tooltip&amp;show" id="tt4009" target="_blank">BU 230</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Chemistry (HL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=1942" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1942&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1942&amp;display_options[location]=tooltip&amp;show" id="tt9656" target="_blank">CH 137</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=1943" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1943&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1943&amp;display_options[location]=tooltip&amp;show" id="tt6640" target="_blank">CH 138</a><span style="display: none !important">&nbsp;</span> w/labs</td> 
+                     <td width="14%" style="text-align: right">8</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">General Chemistry (SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=1942" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1942&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1942&amp;display_options[location]=tooltip&amp;show" id="tt5483" target="_blank">CH 137</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=1943" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1943&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1943&amp;display_options[location]=tooltip&amp;show" id="tt8944" target="_blank">CH 138</a><span style="display: none !important">&nbsp;</span> w/labs&nbsp;</td> 
+                     <td width="14%" style="text-align: right">8</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Applied Chemistry (SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=1940" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1940&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1940&amp;display_options[location]=tooltip&amp;show" id="tt4686" target="_blank">CH 131</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=1941" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1941&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1941&amp;display_options[location]=tooltip&amp;show" id="tt7377" target="_blank">CH 132</a><span style="display: none !important">&nbsp;</span> w/labs</td> 
+                     <td width="14%" style="text-align: right">8</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Computing Studies (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2034" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2034&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2034&amp;display_options[location]=tooltip&amp;show" id="tt6093" target="_blank">CS 316</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Economics (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2054" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2054&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2054&amp;display_options[location]=tooltip&amp;show" id="tt2392" target="_blank">EC 201</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2055" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2055&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2055&amp;display_options[location]=tooltip&amp;show" id="tt9439" target="_blank">EC 202</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">6&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">English A1 (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2653" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2653&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2653&amp;display_options[location]=tooltip&amp;show" id="tt2130" target="_blank">WR 101</a><span style="display: none !important">&nbsp;</span>/<a href="preview_course_nopop.php?catoid=1&amp;coid=2654" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2654&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2654&amp;display_options[location]=tooltip&amp;show" id="tt9735" target="_blank">WR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">6****</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">English B (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2653" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2653&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2653&amp;display_options[location]=tooltip&amp;show" id="tt1950" target="_blank">WR 101</a><span style="display: none !important">&nbsp;</span>/<a href="preview_course_nopop.php?catoid=1&amp;coid=2654" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2654&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2654&amp;display_options[location]=tooltip&amp;show" id="tt2787" target="_blank">WR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">6****</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Pilot-English B (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2653" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2653&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2653&amp;display_options[location]=tooltip&amp;show" id="tt1285" target="_blank">WR 101</a><span style="display: none !important">&nbsp;</span>/<a href="preview_course_nopop.php?catoid=1&amp;coid=2654" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2654&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2654&amp;display_options[location]=tooltip&amp;show" id="tt6336" target="_blank">WR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">6****&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">French A1 (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2180" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2180&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2180&amp;display_options[location]=tooltip&amp;show" id="tt1751" target="_blank">FR 101</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2181" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2181&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2181&amp;display_options[location]=tooltip&amp;show" id="tt13" target="_blank">FR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">6*</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">French B (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2180" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2180&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2180&amp;display_options[location]=tooltip&amp;show" id="tt9727" target="_blank">FR 101</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2181" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2181&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2181&amp;display_options[location]=tooltip&amp;show" id="tt3931" target="_blank">FR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">6*</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Geography (HL)</td> 
+                     <td width="25%" style="text-align: right">Elective credit</td> 
+                     <td width="14%" style="text-align: right">3**</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Geography (SL)</td> 
+                     <td width="25%" style="text-align: right">N/A</td> 
+                     <td width="14%" style="text-align: right">0</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">German A1 (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2202" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2202&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2202&amp;display_options[location]=tooltip&amp;show" id="tt828" target="_blank">GR 101</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2203" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2203&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2203&amp;display_options[location]=tooltip&amp;show" id="tt1996" target="_blank">GR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">6*</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">German B (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2202" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2202&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2202&amp;display_options[location]=tooltip&amp;show" id="tt3852" target="_blank">GR 101</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2203" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2203&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2203&amp;display_options[location]=tooltip&amp;show" id="tt5854" target="_blank">GR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">6*</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">History (HL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2220" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2220&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2220&amp;display_options[location]=tooltip&amp;show" id="tt4536" target="_blank">HI 104</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">3****</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">History (SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2220" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2220&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2220&amp;display_options[location]=tooltip&amp;show" id="tt8680" target="_blank">HI 104</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">3*****</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Latin (HL/SL)</td> 
+                     <td width="25%" style="text-align: right">TBD</td> 
+                     <td width="14%" style="text-align: right">TBD***</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Mathematical Methods (SL)</td> 
+                     <td width="25%" style="text-align: right">Math Elective</td> 
+                     <td width="14%" style="text-align: right">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td valign="top" width="59%" align="left">Advanced Mathematics (SL)</td> 
+                     <td width="25%" style="text-align: right">Tentative: <a href="preview_course_nopop.php?catoid=1&amp;coid=2399" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2399&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2399&amp;display_options[location]=tooltip&amp;show" id="tt9914" target="_blank">MA 401</a><span style="display: none !important">&nbsp;</span> <br> (subject to review of of the Department Head)</td> 
+                     <td valign="top" width="14%" align="right">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Mathematical Studies (SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2379" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2379&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2379&amp;display_options[location]=tooltip&amp;show" id="tt2047" target="_blank">MA 114</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Mathematics (HL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2380" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2380&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2380&amp;display_options[location]=tooltip&amp;show" id="tt6530" target="_blank">MA 123</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2381" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2381&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2381&amp;display_options[location]=tooltip&amp;show" id="tt8602" target="_blank">MA 124</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Philosophy (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2534" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2534&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2534&amp;display_options[location]=tooltip&amp;show" id="tt3872" target="_blank">PH 308</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">3#</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Psychology (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2540" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2540&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2540&amp;display_options[location]=tooltip&amp;show" id="tt6878" target="_blank">PS 201</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Social Anthropology</td> 
+                     <td width="25%" style="text-align: right">Free Elective</td> 
+                     <td width="14%" style="text-align: right">3</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Spanish Ab Initio</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2617" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2617&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2617&amp;display_options[location]=tooltip&amp;show" id="tt4552" target="_blank">SP 101</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2618" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2618&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2618&amp;display_options[location]=tooltip&amp;show" id="tt4146" target="_blank">SP 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">6</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Spanish A1 (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2617" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2617&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2617&amp;display_options[location]=tooltip&amp;show" id="tt7268" target="_blank">SP 101</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2618" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2618&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2618&amp;display_options[location]=tooltip&amp;show" id="tt6578" target="_blank">SP 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">6*</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">Spanish B (HL/SL)</td> 
+                     <td width="25%" style="text-align: right"><a href="preview_course_nopop.php?catoid=1&amp;coid=2617" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2617&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2617&amp;display_options[location]=tooltip&amp;show" id="tt314" target="_blank">SP 101</a><span style="display: none !important">&nbsp;</span>-<a href="preview_course_nopop.php?catoid=1&amp;coid=2618" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2618&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2618&amp;display_options[location]=tooltip&amp;show" id="tt6394" target="_blank">SP 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="14%" style="text-align: right">6*</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">&nbsp;</td> 
+                     <td width="25%">&nbsp;</td> 
+                     <td width="14%">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="20%" colspan="3">Earned credit of additional subject areas will be evaluated for elective credit based on the topic area and earned score above 5.</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="59%">&nbsp;</td> 
+                     <td width="25%">&nbsp;</td> 
+                     <td width="14%">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="20%" colspan="3"> <p>* Scores of 5 or 6 (6 hours credit); 7 (12 hours credit)</p> <p>** For History/IS majors only</p> <p>***To be determined by modern languages department head review</p> <p>****Score of 5 (placement credit); 6 or 7 (semester hour credit); no credit for score of 4</p> <p>*****Score of 6 (placement credit); 7 (semester hour credit); no credit for score of 4 or 5</p> <p>#Score of 1-4 will get placement, 5-7 will get credit</p> <p>For more information, contact VMI's Transfer Coordinator.</p> </td> 
+                    </tr> 
+                   </tbody> 
+                  </table> 
+                  <ol start="3"> 
+                   <li><strong>Cambridge International Exams:</strong> <br> A Level Credit: Based on an evaluation of the 2012 Cambridge International Exam syllabi, the following VMI course equivalents are acceptable for credit for incoming Cambridge International A-Level transfer activity. A grade of “C” or better is required unless otherwise indicated.</li> 
+                  </ol> 
+                  <table border="0" cellspacing="0" cellpadding="0" width="80%" align="center"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="49%" colspan="4">
+                      <hr> </td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%"><strong>Subject Area</strong></td> 
+                     <td width="18%" style="text-align: center"><strong>Syllabus Code </strong></td> 
+                     <td width="19%"><strong>VMI Equivalent </strong></td> 
+                     <td width="15%"><strong>Credit Hours</strong></td> 
+                    </tr> 
+                    <tr> 
+                     <td width="49%" colspan="4">
+                      <hr> </td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">Accounting</td> 
+                     <td width="18%" style="text-align: center">9706</td> 
+                     <td width="19%">Business Elective</td> 
+                     <td width="15%">3 Credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">Applied Information and Communication Technology <br> CS Elective toward major or ITD-111 or CS-121 towards ITD minor</td> 
+                     <td valign="top" width="18%" style="text-align: center">9713</td> 
+                     <td width="19%">CS Elective</td> 
+                     <td valign="top" width="15%" align="left">3 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">Arabic</td> 
+                     <td width="18%" style="text-align: center">9680</td> 
+                     <td width="19%"><a href="preview_course_nopop.php?catoid=1&amp;coid=1828" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1828&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1828&amp;display_options[location]=tooltip&amp;show" id="tt3697" target="_blank">AR 101</a><span style="display: none !important">&nbsp;</span> &amp; <a href="preview_course_nopop.php?catoid=1&amp;coid=1829" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1829&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1829&amp;display_options[location]=tooltip&amp;show" id="tt4323" target="_blank">AR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%">6 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">Biology</td> 
+                     <td width="18%" style="text-align: center">9700</td> 
+                     <td width="19%"><a href="preview_course_nopop.php?catoid=1&amp;coid=1851" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1851&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1851&amp;display_options[location]=tooltip&amp;show" id="tt8700" target="_blank">BI 101</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%">4 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">Business Studies</td> 
+                     <td width="18%" style="text-align: center">9707</td> 
+                     <td width="19%">Business Elective</td> 
+                     <td width="15%">3 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">Chemistry<br> (No lab credit given)</td> 
+                     <td valign="top" width="18%" style="text-align: center">9701</td> 
+                     <td width="19%"><a href="preview_course_nopop.php?catoid=1&amp;coid=1943" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1943&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1943&amp;display_options[location]=tooltip&amp;show" id="tt4302" target="_blank">CH 138</a><span style="display: none !important">&nbsp;</span> &amp; <a href="preview_course_nopop.php?catoid=1&amp;coid=1943" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=1943&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=1943&amp;display_options[location]=tooltip&amp;show" id="tt1960" target="_blank">CH 138</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td valign="top" width="15%" align="left">6 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">Chinese</td> 
+                     <td width="18%" style="text-align: center">9715</td> 
+                     <td width="19%">The Appropriate Course of Modern Languages I&amp;II</td> 
+                     <td width="15%">6 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">Economics</td> 
+                     <td width="18%" style="text-align: center">9708</td> 
+                     <td width="19%"><a href="preview_course_nopop.php?catoid=1&amp;coid=2054" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2054&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2054&amp;display_options[location]=tooltip&amp;show" id="tt8391" target="_blank">EC 201</a><span style="display: none !important">&nbsp;</span> &amp; <a href="preview_course_nopop.php?catoid=1&amp;coid=2055" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2055&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2055&amp;display_options[location]=tooltip&amp;show" id="tt548" target="_blank">EC 202</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%">6 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">English - Language</td> 
+                     <td width="18%" style="text-align: center">8693</td> 
+                     <td width="19%"><a href="preview_course_nopop.php?catoid=1&amp;coid=2653" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2653&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2653&amp;display_options[location]=tooltip&amp;show" id="tt5781" target="_blank">WR 101</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%">3 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">French</td> 
+                     <td width="18%" style="text-align: center">9716</td> 
+                     <td width="19%"><a href="preview_course_nopop.php?catoid=1&amp;coid=2180" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2180&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2180&amp;display_options[location]=tooltip&amp;show" id="tt994" target="_blank">FR 101</a><span style="display: none !important">&nbsp;</span> &amp; <a href="preview_course_nopop.php?catoid=1&amp;coid=2181" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2181&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2181&amp;display_options[location]=tooltip&amp;show" id="tt4096" target="_blank">FR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%">6 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">German</td> 
+                     <td width="18%" style="text-align: center">9717</td> 
+                     <td width="19%"><a href="preview_course_nopop.php?catoid=1&amp;coid=2202" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2202&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2202&amp;display_options[location]=tooltip&amp;show" id="tt4396" target="_blank">GR 101</a><span style="display: none !important">&nbsp;</span> &amp;&nbsp;<a href="preview_course_nopop.php?catoid=1&amp;coid=2203" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2203&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2203&amp;display_options[location]=tooltip&amp;show" id="tt2172" target="_blank">GR 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%">6 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">History <br> (Must have a grade of B or better)</td> 
+                     <td valign="top" width="18%" style="text-align: center">9697</td> 
+                     <td width="19%">HI Elective</td> 
+                     <td valign="top" width="18%" align="left">3 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">Mathematics</td> 
+                     <td valign="top" width="18%" style="text-align: center">9709</td> 
+                     <td width="19%"><a href="preview_course_nopop.php?catoid=1&amp;coid=2380" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2380&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2380&amp;display_options[location]=tooltip&amp;show" id="tt2536" target="_blank">MA 123</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%">3 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">Physics</td> 
+                     <td valign="top" width="18%" style="text-align: center">9702</td> 
+                     <td width="19%"><a href="preview_course_nopop.php?catoid=1&amp;coid=2581" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2581&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2581&amp;display_options[location]=tooltip&amp;show" id="tt12" target="_blank">PY 160</a><span style="display: none !important">&nbsp;</span>/<a href="preview_course_nopop.php?catoid=1&amp;coid=2582" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2582&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2582&amp;display_options[location]=tooltip&amp;show" id="tt3547" target="_blank">PY 161</a><span style="display: none !important">&nbsp;</span>/<a href="preview_course_nopop.php?catoid=1&amp;coid=2579" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2579&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2579&amp;display_options[location]=tooltip&amp;show" id="tt2467" target="_blank">PY 155</a><span style="display: none !important">&nbsp;</span>/<a href="preview_course_nopop.php?catoid=1&amp;coid=2580" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2580&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2580&amp;display_options[location]=tooltip&amp;show" id="tt8215" target="_blank">PY 156</a><span style="display: none !important">&nbsp;</span> (labs)</td> 
+                     <td valign="top" width="15%" align="left">8 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">Psychology</td> 
+                     <td width="18%" style="text-align: center">9698</td> 
+                     <td width="19%"><a href="preview_course_nopop.php?catoid=1&amp;coid=2540" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2540&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2540&amp;display_options[location]=tooltip&amp;show" id="tt8505" target="_blank">PS 201</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%">3 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">Spanish</td> 
+                     <td width="18%" style="text-align: center">9719</td> 
+                     <td width="19%"><a href="preview_course_nopop.php?catoid=1&amp;coid=2617" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2617&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2617&amp;display_options[location]=tooltip&amp;show" id="tt6011" target="_blank">SP 101</a><span style="display: none !important">&nbsp;</span>&nbsp;and <a href="preview_course_nopop.php?catoid=1&amp;coid=2618" onclick="acalogPopup('preview_course.php?catoid=1&amp;coid=2618&amp;print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=1&amp;coid=2618&amp;display_options[location]=tooltip&amp;show" id="tt2871" target="_blank">SP 102</a><span style="display: none !important">&nbsp;</span></td> 
+                     <td width="15%">6 credits</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="47%">&nbsp;</td> 
+                     <td width="18%">&nbsp;</td> 
+                     <td width="19%">&nbsp;</td> 
+                     <td width="15%">&nbsp;</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="49%" colspan="4"> <p>All other A-Level exams will be evaluated by the appropriate department head at the time of application based on the current course content.</p> <p>AS Level Credit: Cadets who matriculate at VMI with Cambridge International AS-Level credit will be evaluated on a case-by-case basis by the academic department head which oversees the course content. Acceptable grades of B/C or better in AS level Cambridge International work may be eligible for placement credit based on the evaluation of the department head.</p> </td> 
+                    </tr> 
+                   </tbody> 
+                  </table> 
+                  <ol start="4"> 
+                   <li><strong>VMI Placement Examinations. </strong>All new cadets are tested for placement in the proper level math course. Cadets who have taken two or more years of a modern foreign language while in grades 9 through 12 are tested for language placement, regardless of their curricular choice. The test results, the high school record, foreign residency, and in some cases, a personal interview will all contribute to the recommendation for placement into an appropriate level course. It is possible for a cadet to place out of a portion or all of the language requirement. Placement credit means that a designated course does not have to be taken. However, semester credit hours are not awarded with placement credit and the required hours must be earned by taking elective courses.</li> 
+                   <li><strong>Dual Enrollment or Attendance at Another College. </strong>Subject to approval by appropriate curricular head, VMI will accept credits earned in another accredited college in advance of the applicant’s matriculation, provided the course grade has been at least a “C” or the equivalent. Applicants should get advanced approval of course selections from the VMI Admissions Office.</li> 
+                  </ol> <h2><a name="Transfer_From_Another_College"></a>Transfer From Another College</h2> <p>VMI welcomes applications from students wishing to transfer from another accredited college or university. The transfer policy may be summarized as follows:</p> 
+                  <ol> 
+                   <li><strong>Residence. </strong>VMI is a four year undergraduate experience and it is expected that all cadets complete a majority of their requirements in residence. Cadets matriculating with advanced standing credit will be credited with appropriate time reduction based on transferred activity, but must complete a minimum of four semesters and 50% of their academic activity in residence at VMI. Cadets matriculating with no advance standing credit must complete a minimum of <u>six</u> semesters or <u>75%</u> of their degree requirements in residence at VMI.</li> 
+                   <li><strong>Decisions. </strong>The VMI Admissions Committee determines whether or not the transfer applicant is qualified for admission. If admitted, the academic department heads determine the acceptability of courses taken at the previous institution(s).</li> 
+                   <li><strong>Secondary school record. </strong>All transfer applicants must submit an official transcript of their secondary school record. This should include standardized test scores (SAT or ACT). For those students whose first language is not English, the College Board Test of English as a Foreign Language (TOEFL) is required. Importance of the secondary school record will vary depending on how long the student has been enrolled in an accredited college program of study and its course content. In general, it is expected that the secondary school record will meet the VMI entrance standards. A one-page essay, on a topic of their choice, is optional for all students.</li> 
+                   <li><strong>The college record. </strong>Transfer applicants must submit official transcripts on ALL college work attempted. To be competitive for appointment, transfer students should have at least a “B” (3.2 on a 4.0 scale) cumulative quality point average on all courses attempted. In addition they must be in good standing with respect to their academic and conduct records and eligible to return to the college, which must be accredited.</li> 
+                   <li><strong>Credit transfer. </strong>Credit transfer will require a grade of “C” or better in the course without regard to grades achieved on other courses of the same sequence or the average grade for the sequence. Credit transfer will also require that content of the course be acceptable by the appropriate VMI curricular head toward fulfillment of baccalaureate degree requirements in that curriculum. Transfer courses that can be applied to degree requirements at VMI are determined by the curriculum selected. Transfer students are encouraged to review curriculum requirements in the VMI Catalogue to ensure appropriate course selection. No more than one-half of the total hours required for VMI graduation may be transferred. Quality points are not transferable. Quality points earned at other colleges before transfer to VMI are not counted in the computation of the 2.0 quality point average required for VMI graduation. <br> <p>Those students enrolled in another college must submit an official college transcript and catalogue in order to have these courses evaluated by the appropriate academic department head. Students enrolled in courses offered by the <strong>Virginia Community College System</strong> are directed to view the VCCS course listing in the VMI Transfer Guide to determine transferability of credits prior to enrolling in any course. Foreign students are encouraged to have their transcripts evaluated by a company providing foreign credential services to ensure the maximum number of credits transfer.</p> <p>All others should send a copy of the college catalogue with the course(s) you intend to take to the Transfer Coordinator, VMI Admissions Office, Lexington, VA 24450-0304. A summary report of transfer credit will be mailed to individuals after the applicant has been appointed.</p> </li> 
+                   <li><strong>Class standing. </strong>Transfer students are classified academically the same as entering first-time freshmen (fourth class) until they return for their second year at VMI. At that time they may request reclassification based on the total number of semester hours earned and prevailing academic standards for the upper classes.</li> 
+                   <li><strong>Waiver of transferable credits.</strong> An applicant may waive transferable credits and follow a regular fourth class (freshman) curriculum, but exercise of this option does not exempt the transfer from meeting all entrance standards for transfer applicants.</li> 
+                   <li><strong>ROTC credits. </strong>If the applicant is a transfer student and desires to pursue an Army commission, he/she can receive credit for the AROTC Basic Course (1st/2nd year) by completing one of the following: attending a four-week Leadership Training Camp at Ft. Knox, KY, having participated in a Junior ROTC program during high school or having been prior enlisted in which credit will be given on a case-by-case basis. Transfers may also arrange to take first and second-year Basic ROTC courses simultaneously at VMI if they lack credit for the first year. For additional information on each service's requirements, contact the individual ROTC offices.</li> 
+                   <li><strong>Matriculation of transfers.</strong> Accepted transfer applicants are matriculated only at the beginning of the academic year in August. Mid-year transfer is not possible.</li> 
+                  </ol> <h2><a name="Applicants_Whose_First_Language_is_Not_English"></a>Applicants Whose First Language is Not English</h2> <p>Applicants whose first language is not English must also take the Test of English as a Foreign Language (TOEFL). High school guidance counselors should be consulted for information. Outside the United States, American embassies, consulates, offices of the U.S. Information Service, or other educational agencies can provide information. If information is not locally available, foreign applicants should write to TOEFL, Educational Testing Service, Princeton, New Jersey 08540. Foreign applicants must present evidence of adequate financial resources.</p> <h2><a name="Immunizations"></a>Immunizations</h2> <p>The following immunizations are compulsory for entrance to VMI:</p> 
+                  <ol> 
+                   <li>Tetanus. After primary immunization, a booster must have been administered within six years of the date of matriculation in August. The booster should include pertussis.</li> 
+                   <li>Poliomyelitis.</li> 
+                   <li>Measles - Mumps - Rubella (MMR). Two immunizations are required. The first must have been administered <strong>after the first birthday; </strong>the second immunization<strong> no sooner than one month later and any time thereafter.</strong></li> 
+                   <li>Meningococcal Vaccination.&nbsp;</li> 
+                   <li>Hepatitis B (series of 3 vaccinations)&nbsp;</li> 
+                   <li>Varicella (chicken pox) - vaccination required if applicant has not had the chicken pox.</li> 
+                  </ol> <h2><a name="Computers"></a>Computers</h2> <p>VMI uses computers extensively in classes across the entire range of curricular offerings. Because substantial resources have been committed to the effective use of technology in teaching, communication, and information management across post, prospective cadets are required to have achieved basic competency in core computer skills and the following Microsoft Office applications: Word, Excel, Outlook, and PowerPoint. Individual departments may require competency at higher levels in additional areas or with particular software suites.</p> <p>In order to satisfy Institute-specific requirements regarding space efficiency, low power consumption, and portability, cadets are only authorized to bring laptop computers with them for use at VMI. Purchasing IT-approved, recommended laptop models will ensure prompt priority support and quick turn-around time for any parts ordered. All cadets benefit from the Institute’s Microsoft Campus Agreement, which allows cadets to used VMI-licensed Microsoft Windows and Office software on their laptops at no cost.</p> <p>The Barracks IT Help Desk is the central location for technical support for cadets. The Help Desk provides answers to technical questions, lost password assistance, troubleshooting, and repair for all cadet-owned computers. The Barracks Help Desk is open from Monday through Friday.</p> <p>VMI has furnished over 200 public computers for cadet use in its academic buildings, including the Barracks Study Room, a computer lab in the barracks (adjacent to the Barracks Help Desk) that is open 24 hours per day, seven days per week. Barracks rooms are configured to allow cadets access to the VMI network and the Internet via a wired connection only. VMI IT is expanding wireless connectivity throughout post, but wireless coverage is not currently provided inside the Barracks.</p> <p>For additional information regarding support of cadet-owned computers, please visit VMI’s Information Technology department at <a target="_blank" href="http://www.vmi.edu/IT-ProspectiveCadets">http://www.vmi.edu/IT-ProspectiveCadets</a>, or contact the IT Help Desk at <a href="mailto:help@vmi.edu">help@vmi.edu</a>.</p> <h2><a name="Readmission_of_Former_Cadets"></a>Readmission of Former Cadets</h2> <p>Cadets separated from the Corps by resignation, failure to pre-register, suspension, medical furlough, or failure of eligibility must apply to be readmitted. The readmission of any cadet is based on the merit of the application, and the likelihood for successful completion of the military and academic components of the program. A full assessment will be completed as to whether the cadet could safely return to fully participate in all academic and physical components of the VMI program, and successfully integrate into the VMI military and class structure. Cadets seeking readmission must be able to meet weight/body fat standards and be able to pass the VFT. Those not meeting standards will not be allowed to re-enroll.</p> <p><strong>VMI reserves the right to deny readmission to a cadet who has been separated from the Institute longer than two years, or if a cadet cannot successfully integrate into the Corps to complete the requirements as stated above. </strong></p> <p>For a complete outline of the readmission standards, deadlines and forms, see VMI's website at <a target="_blank" href="http://www.vmi.edu/readmin">www.vmi.edu/readmin</a>.</p> <p>Readmission Deadlines:</p> 
+                  <table border="0" cellspacing="0" cellpadding="0" width="100%"> 
+                   <tbody> 
+                    <tr> 
+                     <td width="5%">&nbsp;</td> 
+                     <td width="35%">Fall Semester:</td> 
+                     <td width="60%">June 1</td> 
+                    </tr> 
+                    <tr> 
+                     <td width="5%">&nbsp;</td> 
+                     <td width="35%">Spring Semester:</td> 
+                     <td width="60%">November 1</td> 
+                    </tr> 
+                   </tbody> 
+                  </table> <p>Completed applications and supporting paperwork must be submitted to the Registrar's Office, 303 Shell Hall by the designated deadline. All deadlines will be strictly enforced, and late applications will be considered for the next eligible semester based on the date of submission.</p> <p>Cadets dismissed for disciplinary reasons may petition for readmission after being absent from VMI for one full calendar year. The status will be reconsidered based on the presentation of new evidence or extenuating circumstances.</p> <h2><a name="Nondiscriminatory_Policy"></a>Nondiscriminatory Policy</h2> <p>Applicants are admitted entirely on the basis of their academic record, physical fitness/condition, and character without reference to national origin, creed, color, or gender. If you have questions regarding the admissions process, please contact the VMI Admissions Office, 800-767-4207.</p>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt777"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt2372"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt9895"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt9930"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt4082"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt2016"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt9395"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt8265"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt6539"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt925"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt7530"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt9373"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt9423"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt5590"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt7311"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt8134"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt181"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt7500"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt1750"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt5429"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt7190"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt8896"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt6501"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt7643"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt508"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt7089"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt8648"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt1503"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt1063"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt560"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt4699"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt8094"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt7303"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt9277"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt1496"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt4760"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt7818"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt8932"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt3637"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt3993"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt4009"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt9656"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt6640"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt5483"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt8944"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt4686"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt7377"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt6093"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt2392"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt9439"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt2130"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt9735"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt1950"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt2787"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt1285"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt6336"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt1751"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt13"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt9727"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt3931"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt828"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt1996"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt3852"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt5854"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt4536"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt8680"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt9914"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt2047"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt6530"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt8602"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt3872"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt6878"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt4552"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt4146"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt7268"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt6578"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt314"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt6394"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt3697"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt4323"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt8700"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt4302"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt1960"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt8391"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt548"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt5781"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt994"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt4096"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt4396"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt2172"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt2536"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt12"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt3547"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt2467"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt8215"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt8505"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt6011"></div>
+                  <div style="display: none; z-index: 1000;" class="tooltip for_tt2871"></div> </td> 
+                </tr> 
+               </tbody>
+              </table> <br>
+              <hr>
+              <div style="float: right">
+               &nbsp;
+               <a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | 
+               <a rel="nofollow" href="/content.php?catoid=1&amp;navoid=4&amp;print" onclick="acalogPopup('/content.php?catoid=1&amp;navoid=4&amp;print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a>
+              </div>
+              <div class="acalog-social-media-links" style="float: right;"> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+    <tr> 
+     <td class="block_footer_lb">&nbsp;&nbsp;&nbsp;</td> 
+     <td class="block_footer_rb"> 
+      <nobr>
+       All 
+       <a href="/misc/catalog_list.php?catoid=1" class="footer" tabindex="300">catalogues</a> © 2016 Virginia Military Institute.
+      </nobr> 
+      <nobr>
+       Powered by the 
+       <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.
+      </nobr> <br> <script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script> 
+      <nobr>
+       <a href="http://m.catalog.vmi.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.
+      </nobr><script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-NUMBER']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <script src="js/smlinks.js" type="text/javascript"></script>  
+ </body>
+</html>

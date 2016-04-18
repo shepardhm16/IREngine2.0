@@ -1,0 +1,442 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	Letters, Diaries, Manuscripts.  Regional and Local History Collections from the VMI Archives.
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="../../../master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="../../../royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="../../../royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="../../../App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="../../../App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="VMI, Shenandoah, Valley, Lexington, Virginia, history, letters, diaries, manuscripts, VMI, Archives;Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni">
+  <meta name="Description" content="Letters, Diaries, Manuscripts.  Local History Collections from the VMI Archives, with links to full text.">
+ </head> 
+ <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+ <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+ <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+ <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+ <!--[if (gt IE 9)|!(IE)]><!--> 
+ <body> 
+  <!--<![endif]--> 
+  <form method="post" action="/Archives/Manuscripts/Local_History_Manuscripts/" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYGHwAFD1NlYXJjaCBBcmNoaXZlcx4IQ3NzQ2xhc3MFDHNlYXJjaC1pbnB1dB4EXyFTQgICFgQeB29uRm9jdXMFhwFpZih0aGlzLnZhbHVlPT0nU2VhcmNoIEFyY2hpdmVzJyl7IHRoaXMudmFsdWU9Jyc7dGhpcy5zZXRBdHRyaWJ1dGUoJ2NsYXNzJywnc2VhcmNoLWlucHV0Jyk7fXRoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCAnKTseBm9uQmx1cgVSaWYodGhpcy52YWx1ZT09JycgfHwgdGhpcy52YWx1ZT09J1NlYXJjaCBBcmNoaXZlcycpe3RoaXMudmFsdWU9J1NlYXJjaCBBcmNoaXZlcyc7fWQCAw8QZBAVAw9BbGwgQ29sbGVjdGlvbnMbTGltaXQgdG8gSGlzdG9yaWNhbCBSb3N0ZXJzFExpbWl0IHRvIFBob3RvZ3JhcGhzFQMIQXJjaGl2ZXMRSGlzdG9yaWNhbFJvc3RlcnMGUGhvdG9zFCsDA2dnZ2RkAg8PDxYCHgdWaXNpYmxlaGRkAhMPZBYEAgEPDxYCHwdnZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfB2cWAgIBDw8WAh8CBSsvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvYXJjaGl2ZXMuanBnZGRkhw0XX0+UPnvROBOfMjI9m0fw2D6YvgdngsXw+d2sow0="> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B5C8BA68"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAY+vUjr1j0AS+RmKNe5dMMGtVqhg79+cCaf2Muxgy28w6wMjdzoH2mFn5U3q/4SBTQsdsny2l8+u+IRofGRns+zZyuT5vD0HGwUqcGq4GmYhFoal4uwfK6PKzS8I2qEQt4YSZmeWiCoA37jwGzCpuStQoWMOsJUaMGqf+a8vfAofw=="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="Search Archives" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='Search Archives'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='Search Archives'){this.value='Search Archives';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter"> <option value="Archives">All Collections</option> <option value="HistoricalRosters">Limit to Historical Rosters</option> <option value="Photos">Limit to Photographs</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+        <li><a href="/Archives/Digital_Collections_Site_Related/Digital_Collections_Overview/" target="_self">Digital Collections</a></li>
+        <li><a href="http://archivesspace.vmi.edu/" target="_blank">Archives Online Catalog</a></li>
+        <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">Quick Info: FAQs</a></li>
+        <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+        <li><a href="/Archives/Jackson/Stonewall_Jackson_Home/" target="_self">Stonewall Jackson</a></li>
+        <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+        <li><a href="/Archives/Images/Photos___Portraits_Home/" target="_self">Photos &amp; Portraits</a></li>
+        <li class="selected"><strong><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Letters, Diaries, Manuscripts</a></strong>
+         <ul>
+          <li><a href="/Archives/Manuscripts/VMI_History___Cadet_Life/" target="_self">VMI History &amp; Cadet Life</a></li>
+          <li><a href="/Archives/Manuscripts/Civil_War_Manuscripts/" target="_self">Civil War Manuscripts</a></li>
+          <li><a href="/Archives/Manuscripts/Military_History_Manuscripts/" target="_self">Military History Manuscripts</a></li>
+          <li class="selected"><strong><a href="/Archives/Manuscripts/Local_History_Manuscripts/" target="_self">Local History Manuscripts</a></strong></li>
+          <li><a href="/Archives/Manuscripts/Faculty___Alumni_Papers/" target="_self">Faculty &amp; Alumni Papers</a></li>
+         </ul></li>
+        <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Digital Exhibits Home</a></li>
+        <li><a href="http://digitalcollections.vmi.edu/cdm/landingpage/collection/p15821coll13" target="_blank">Military Oral History</a></li>
+        <li><a href="/Archives/Records/Official_Institute_Records_Home/" target="_self">VMI Records</a></li>
+        <li><a href="/Archives/Records/Records_Management/Records_Management/" target="_self">Records Management</a></li>
+        <li><a href="/Archives/About_the_VMI_Archives/About_the_VMI_Archives/" target="_self">About the Archives</a></li>
+       </ul>
+       <div id="ctl00_pageContent_taxonomyContentLeft3715">
+         Mary Laura Kludy
+        <br>Archives Assistant
+        <br>Ph: (540) 464-7516
+        <br>Fax: (540) 464-7089
+        <br>
+        <a title="archives@vmi.edu" href="mailto:archives@vmi.edu">archives@vmi.edu</a>
+        <br>Preston Library
+        <br>Lexington, Virginia 24450
+        <br>
+        <a title="Hours &amp; Visitor Info" href="/Archives/About_the_VMI_Archives/Hours___Visitor_Info/">Hours &amp; Visitor Info</a> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_pnlBreadcrumbs" class="breadcrumbs section"> 
+       <span id="ctl00_pageContent_breadCrumbs"><a target="_self" href="/archives/home/" title="">Archives</a> &gt; <a target="_self" href="/Archives/Manuscripts/Manuscripts_Home/" title="">Manuscripts</a> &gt; Local History Manuscripts</span> 
+      </div> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner"> 
+       <div id="sectionBranding"> 
+        <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/archives.jpg" style="width:700px;"> 
+        <hr> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column"> 
+       <h2>Letters, Diaries, Manuscripts.<br>Local &amp; Regional History;&nbsp;Miscellaneous Manuscripts</h2> 
+       <p>For detailed descriptive information about our manuscript holdings, please click on the collection title to see the full record in the <a title="VMI Archives Catalog " href="http://archivesspace.vmi.edu" target="_blank">VMI Archives Catalog </a></p> 
+       <p> Some collections are viewable online; these are labeled <font color="#ff0000">Online Access</font>. The catalog record will direct you to the online collection, when available.</p> 
+       <p> Questions or requests for digitization? <a href="mailto:archives@vmi.edu">Send us an email</a></p> 
+       <hr> 
+       <p><strong>Other Sections of the Guide: </strong><a title="Manuscripts Home" href="/Archives/Manuscripts/Manuscripts_Home/"><strong>Letters, Diaries, &amp; Manuscripts Home</strong></a></p> 
+       <ul class="arrowlist"> 
+        <li><strong>Lexington, Virginia Census &nbsp;</strong><span style="color: rgb(255, 0, 0);">Online Access</span><br>&nbsp;<strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/775" title="1860" target="_blank">1860</a></strong>&nbsp;and&nbsp;<strong><a href="http://archivesspace.vmi.edu/repositories/3/resources/776" title="1870" target="_blank">1870</a></strong>. Transcribed and annotated by Edwin. L. Dooley, Jr. </li> 
+        <li><strong><a title="Bank of Virginia document" href="http://archivesspace.vmi.edu/repositories/3/resources/141" target="_blank">Bank of Virginia document</a>. (MS 0057)</strong><br>One bank document, issued on August 4, 1840 from the Buchanan office of the Bank of Virginia to Jacob M. Ruff, Proctor of Washington College. The notice states that Ruff, as co-signer for J.W. Pettigrew who cannot make payment, is responsible for repaying the sum of $825.</li> 
+        <li><strong><a title="Alexander S. Brown letters" href="http://archivesspace.vmi.edu/repositories/3/resources/303" target="_blank">Alexander S. Brown letters</a>&nbsp;&nbsp;(MS&nbsp; 0217)</strong><br>Two letters from Washington College student Alexander S. Brown to his sister, dated 1846 September 20 &amp; 1848 September 7. The 1846 letter mentions the Cincinnati military class, in which Washington College students participated in military training conducted by VMI staff.</li> 
+        <li><strong><a title="Bushong Family Ledger" href="http://archivesspace.vmi.edu/repositories/3/resources/617">Bushong Family Ledger</a>&nbsp;&nbsp;(MS 0329)</strong><br>Ledger-daybook (7.5 in. x 6 in. x 3/4 in., ca. 252 pages) that belonged to the Bushong family of New Market, Virginia. First section contains entries (1843-1853) by Jacob Bushong; later entries (1879-1903) are by Jacob's grandson, William F. Bushong. Bulk contains listing of daily expenses; also included are recipes and misc. notes. The Bushong family owned the land on which the Battle of New Market took place (May 15, 1864); their farmhouse is preserved as part of the New Market Battlefield Historical Park.</li> 
+        <li><strong><a title="Charles Carroll documents" href="http://archivesspace.vmi.edu/repositories/3/resources/724" target="_blank">Charles Carroll documents</a>. &nbsp;&nbsp;(MS 0411).</strong><br>Miscellaneous financial papers (7 items, 1770-1826) of Charles Carroll of Carrollton, Maryland statesman, a member of the Continental Congress and signer of the Declaration of Independence. Included are receipts and other documents relating to business transactions.</li> 
+        <li><strong><a title="Chew Family Account book" href="http://archivesspace.vmi.edu/repositories/3/resources/440" target="_blank">Chew Family Account book</a>. (MS 0359)</strong><br>Account book (8 x 6 x 1/2 inches; ca. 154 p.) of unidentified member of the Chew family from the Shenandoah Valley region in Virginia. Entries (1834-1883); most pre-1860), include itemized accounts of customers for a variety of goods and services; including carpentry, shoemaking, hauling; list of expenses; notes about crops and cattle; clippings; recipe.</li> 
+        <li><strong><a title="Eliza Clinedinst Crim correspondence" href="http://archivesspace.vmi.edu/repositories/3/resources/318" target="_blank">Eliza Clinedinst Crim correspondence</a>&nbsp;&nbsp;(MS 0234)</strong><br>Correspondence and postcards (approximately 12 items) of Eliza Clinedinst Crim, "Mother of the New Market Corps." Mrs. Crim writes to Charles M. Wesson, James B. Baylor, and others; the letters contain reminiscences about the Battle of New Market and various VMI alumni. Also miscellaneous other items.</li> 
+        <li><strong><a title="College of Avranches scrapbook" href="http://archivesspace.vmi.edu/repositories/3/resources/402" target="_blank">College of Avranches scrapbook</a>&nbsp;&nbsp;(MS 0322)</strong><br>Scrapbook presented to the Virginia Military Institute by the students of the College of Avranches (France) "as a token of their gratitude to General Patton, the Liberator of Avranches." Contains drawings, photographs, postcards and maps detailing the history of the town from its founding through the end of World War II.</li> 
+        <li><strong><a title="Alfred duPont letter" href="http://archivesspace.vmi.edu/repositories/3/resources/383">Alfred duPont letter</a>&nbsp;&nbsp;(MS 0303)</strong><br>One letter (April 27, 1844) from Alfred V. DuPont to Captain Alfred Mordecai (U.S. Ordnance Dept) discussing the testing of an unspecified weapon.</li> 
+        <li><strong><a title="Charles M. Figgat collection" href="http://archivesspace.vmi.edu/repositories/3/resources/365" target="_blank">Charles M. Figgat collection</a>&nbsp;&nbsp;(MS 0283) </strong><br>Charles M. Figgat was the cashier at the Bank of Lexington who embezzled over $145,000 and fled on February 14, 1895. Figgat's actions forced the closure of the bank and adversely affected the local economy; VMI incurred significant losses. The collection contains a reward notice distributed after Figgat fled; 10 cancelled checks from local banks, 1870-1871, bearing Figgat's signature; and one petition to the Lexington school trustees endorsing Jacob Fuller for a teaching position, signed by Figgat and other citizens.</li> 
+        <li><a title="Giles Gunn Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/615" target="_blank" style="font-weight: bold;">Giles Gunn Papers</a><strong>&nbsp;&nbsp;(MS 0292)&nbsp; </strong><font color="#ff0000">Online Access</font><br>The collection consists of five letters, 1848-1854, written by Giles Gunn, a teacher from Connecticut who was working in Lexington, Virginia during the mid-nineteenth century. The letters are addressed to Gunn's family in Litchfield County, Connecticut. He describes his teaching duties, events at the Virginia Military Institute (Finals , 1848, including a description of the VMI band; the murder of cadet Thomas Blackburn, 1854), and life in Lexington (schools, religion, rumor of a slave uprising, 1851).</li> 
+        <li><strong><a title="Historic American Buildings Survey" href="http://archivesspace.vmi.edu/repositories/3/resources/376" target="_blank">Historic American Buildings Survey</a> for Lexington, Virginia&nbsp;&nbsp;(MS 0296)</strong><br>The collection includes plans, photographs and descriptive text documenting selected Lexington and Rockbridge Country (Virginia) buildings which were included in the Historic American Buildings Survey. The Survey was conducted under the auspices of the National Park Service and the original records are located in the Library of Congress. </li> 
+        <li><strong><a title="Mary Wilson Irwin sketchbooks" href="http://archivesspace.vmi.edu/repositories/3/resources/124" target="_blank">Mary Wilson Irwin sketchbooks</a>. (MS 0039)</strong>The collection consists of two sketchbooks (1897 &amp; 1914), ca. 20 pages each, containing pencil drawings by Mary Wilson Irwin. No information about the artist is available. Subjects include the Virginia Military Institute; Washington and Lee University; Lexington, Virginia scenes; children. Some drawings bear inscription "MWI" and/or short description.</li> 
+        <li><strong><a title="Thomas Johnson document" href="http://archivesspace.vmi.edu/repositories/3/resources/465" target="_blank">Thomas Johnson document</a>&nbsp;&nbsp;(MS 0385)</strong><br>One page manuscript, dated May 10, 1707, Augusta County, Virginia. The document is a handwritten version of a newspaper advertisement signed by Thomas Johnson; he requests help in locating two stray horses and offers a reward for their return.</li> 
+        <li><strong><a title="Jordan Family collection" href="http://archivesspace.vmi.edu/repositories/3/resources/320" target="_blank">Jordan Family collection</a>&nbsp;&nbsp;(MS 0238)</strong><br>Notebook, correspondence, and notes containing genealogical information about the John Jordan family of Lexington, Rockbridge County, Virginia. Jordan, a builder and brickmason active in Lexington during the early nineteenth century, was responsible for the construction of several of the town's most notable buildings. The collection also includes photographs of Col. John Jordan and his son John.</li> 
+        <li><strong><a title="Lee family documents" href="http://archivesspace.vmi.edu/repositories/3/resources/319" target="_blank">Lee family documents</a>&nbsp;&nbsp;(MS 0237)</strong><br>Miscellaneous papers (13 items) of Robert E. Lee and Mary Custis Lee, including 4 holograph Robert E. Lee letters; 4 other documents bearing Lee's signature; presentation and other items signed by Mrs. Lee; and one letter (1926) from Mrs. William B. Anderson to Sydney B. Williamson relating the history of a quilt made by Mrs. Lee.</li> 
+        <li><strong><a title="Lee-Jackson Foundation Collection" href="http://archivesspace.vmi.edu/repositories/3/resources/369" target="_blank">Lee-Jackson Foundation Collection</a>.&nbsp;&nbsp;(MS 0288)</strong><br>A collection of approximately 50 miscellaneous unrelated manuscripts (1744 - 1908; bulk 19th century), donated by the Lee-Jackson Foundation in conjunction with their gift of the Jackson Papers (MS #0102). The items, primarily autograph letters, were purchased at various times by the Foundation; many date from the Civil War or bear the signatures of Civil War era notables.</li> 
+        <li><strong><a title="Lexington Arsenal and Virginia Militia Records" href="http://archivesspace.vmi.edu/repositories/3/resources/607" target="_blank">Lexington Arsenal and Virginia Militia Records</a>&nbsp;&nbsp;(MS 0244)</strong>&nbsp;&nbsp;<font color="#ff0000">Online Access</font><br>An arsenal was completed at Lexington, Virginia in 1818 and some weapons and gunpowder were transferred there from the armory in Richmond. After the Virginia Military Institute was opened on the site of the arsenal in November 1839, the cadets served as guards for the arsenal, and regular troops were no longer stationed there. This collection contains 47 items, 1702-1839, concerning the operation of the Lexington Arsenal, various regiments of the Virginia Militia stationed in Lexington, and some militia records that pre-date the establishment of the arsenal. Documents include regimental returns, a register of the guard, garrison orders, accounts and payrolls, and appointment documents.</li> 
+        <li><strong><a title="Martin Family letters" href="http://archivesspace.vmi.edu/repositories/3/resources/237" target="_blank">Martin Family letters</a>.&nbsp;&nbsp;(MS 0157)</strong><br>Martin Family papers, 2 items. Letter from 14 year old Hattie to her mother Susan, of Winchester, VA, written while Hattie was visiting relatives in Lexington, Virginia (undated, ca. 1851); she sends general news of visit. Also letter (November 5, 1851) to Rev. John Martin from his father-in-law John Ruff, relating Lexington news; topics include street improvements.</li> 
+        <li><strong><a title="James M. Mason papers" href="http://archivesspace.vmi.edu/repositories/3/resources/489" target="_blank">James M. Mason papers</a>. &nbsp;&nbsp;(MS 0409)</strong><br>Correspondence (1831-1865, bulk 1831-1855; 7 items) of James M. Mason, United States legislator and Confederate diplomat. The collection consists of miscellaneous letters concerning personal financial matters and other personal business; one letter to Mr. Dallas, dated August 11, 1855, relates to presidential politics.</li> 
+        <li><strong><a title="McCormack, Rodney. Collection" href="http://archivesspace.vmi.edu/repositories/3/resources/742" target="_blank">McCormack, Rodney. Collection</a>. (MS 503)</strong> <br>McCormack (Class of 1957) was a collector who acquired VMI &amp; local ephemera, misc. documents etc. This collection 1 folder of items connected to Lexington/Rockbridge Co. history from various eras.</li> 
+        <li><strong><a title="McDonald Family letter" href="http://archivesspace.vmi.edu/repositories/3/resources/297" target="_blank">McDonald Family letter</a>&nbsp;&nbsp; (MS 0211)</strong><br>One letter dated November 8, 1886, to Cadet John A. McDonald VMI Class of 1889)&nbsp;from his sister, Annie. The letter contains primarily family news, but is difficult to read because of extensive water damage (this item was found in the VMI Barracks in 1936, during construction work).</li> 
+        <li><strong><a title="Daniel Morgan papers" href="http://archivesspace.vmi.edu/repositories/3/resources/487" target="_blank">Daniel Morgan papers</a>. &nbsp;&nbsp;(MS 0407)</strong><br>Miscellaneous papers, 1788-1800, of Virginia Revolutionary War soldier General Daniel Morgan. Includes document dated 5 August 1788 concerning issue of "lands set apart for the Continental Line of Virginia;" and various memoranda of agreement concerning land sold by Daniel.</li> 
+        <li><strong><a title="Price Family Account Book /Price's Artillery Company roster" href="http://archivesspace.vmi.edu/repositories/3/resources/421" target="_blank">Price Family Account Book /Price's Artillery Company roster</a>.&nbsp;&nbsp; (MS 0342)</strong>&nbsp;&nbsp;&nbsp;<font color="#ff0000">Online Access</font><br>Primarily account book of Shenadoah Valley farmers Jacob &amp; Berryman Price of New Market, Virginia, 1845-1874. Includes roster of the unit known as Price's Light Artillery, commanded by Captain Berryman Zirkle Price.</li> 
+        <li><strong><a title="Rockbridge County Sheriff's bond" href="http://archivesspace.vmi.edu/repositories/3/resources/125" target="_blank">Rockbridge County Sheriff's bond</a>. (MS 0051)</strong><br>Bond document, 1829, for Rockbridge County, Virginia Sheriff Joseph Allen. Signed by James McDowell and other citizens of the county.</li> 
+        <li><strong><a title="George W. Rosenberger papers" href="http://archivesspace.vmi.edu/repositories/3/resources/616">George W. Rosenberger papers</a>&nbsp;&nbsp;(MS 0387)</strong><br>George W. Rosenberger (1823-1902) was a farmer and cattle breeder in New Market, Shenandoah County, Virginia, and in Rockingham County, Virginia. His farm was active in the mid to late 19th century. The papers, (32 items, 1854-1884), consist of documents relating to the breeding and sale of cattle, 1854-1870's; Confederate government "tax in kind" assessment documents, 1864; miscellaneous Civil War documents; photographs; misc. other documents.</li> 
+        <li><strong><a title="John A. Saum account books and diary" href="http://archivesspace.vmi.edu/repositories/3/resources/463" target="_blank">John A. Saum account books and diary</a>&nbsp;&nbsp;(MS 0383)</strong><br>John Addison Saum, 1837-1878, of Edinburg, Shenandoah Co. Virginia.&nbsp; 3 notebooks, 1864-1880, containing financial accounts (business and personal), notes, and a few diary entries written by John A. Saum and his brother Joseph. The most notable diary entries are dated May-June 1864, including a very brief account of the Battle of New Market.</li> 
+        <li><strong><a title="Waller Family Papers" href="http://archivesspace.vmi.edu/repositories/3/resources/564" target="_blank">Waller Family Papers</a> (MS 0484)</strong>.&nbsp;<br>The collection contains correspondence (1821-1849) to and from various members of the William M. Waller family of Amherst County, Virginia.</li> 
+        <li><strong><a title="Weather Observation Reports, Lexington, Virginia" href="http://archivesspace.vmi.edu/repositories/3/resources/415" target="_blank">Weather Observation Reports, Lexington, Virginia</a>&nbsp;&nbsp;(MS 0335)</strong><br>Collection consists of forms filled in by official weather station observers at the Virginia Military Institute, where the local station&nbsp;was once&nbsp;located, 1904-1999. </li> 
+        <li><strong><a title="Wise Family letters" href="http://archivesspace.vmi.edu/repositories/3/resources/330" target="_blank">Wise Family letters</a>&nbsp;&nbsp;(MS #0248)</strong><br>Miscellaneous incoming and outgoing correspondence (13 items) of Henry Alexander Wise, Governor of Virginia from 1856-1860.&nbsp;Also included is one unrelated letter (1813 July 19) from George Wise to Tully Wise, in which he describes the destruction by the British of his Norfolk County, Virginia plantation.</li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

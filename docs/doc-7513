@@ -1,0 +1,447 @@
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+ <!--<![endif]-->
+ <head id="ctl00_Head1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>
+	175 Years at VMI
+</title>
+  <link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-335896034">
+  <script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1008700845"></script>
+  <link rel="shortcut icon" href="master/favicon.ico">
+  <link rel="apple-touch-icon" href="/core/images/ui/icons/Icon@2x.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/core/images/ui/icons/Icon-72@2x.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/core/images/ui/icons/iTunesArtwork@2x.png"> 
+  <!-- no media type for mobile devices that don't understand media types --> 
+  <link rel="stylesheet" type="text/css" href="/core/css/base.css"> 
+  <!-- screen styles for most modern browsers (except IE) that understand the query and min-width value --> 
+  <style type="text/css" media="screen and (min-width: 200px)">
+        <!--
+        @import url("/core/css/reset.css");
+        @import url("/core/css/webfonts.css");
+        @import url("/core/css/screen.css");
+        @import url("/core/css/contentEntry.css");
+        @import url("/core/menus/megaMenu/mega-menu.css");
+        @import url("/core/menus/slaveMenu/slave.css");
+        /*@import url("/core/css/fancybox-1.3.4.css");*/
+    	@import url("/core/css/jquery.fancybox.css");
+        @import url("/core/css/gallery.css");
+        -->
+    </style> 
+  <!-- send the desktop css to IE since it will fail the media query --> 
+  <!--[if IE]>
+  		<link rel="stylesheet" type="text/css" href="/core/css/webfonts.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/reset.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/screen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/contentEntry.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/megaMenu/mega-menu.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/menus/slaveMenu/slave.css" media="screen" /><link rel="stylesheet" type="text/css" href="/core/css/fancybox-1.3.4.css" /><link rel="stylesheet" type="text/css" href="/core/css/gallery.css" />
+  	<![endif]--> 
+  <!--[if IEMobile]>
+  		<link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="screen" />
+  	<![endif]--> 
+  <!-- fall back catch serves up handheld stylesheet --> 
+  <link href="/core/css/base.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 600px)">
+  <link href="/core/css/smartphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)"> 
+  <!-- Theme --> 
+  <link rel="stylesheet" media="print" href="/core/css/style-print.css"> 
+  <!-- Insert Javascript Links
+    ================================================================  --> 
+  <script src="/core/js/modernizr-2.6.2.min.js"></script> 
+  <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script> 
+  <script type="text/javascript" src="/core/js/picturefill.min.js"></script> 
+  <!-- Editable Region =
+    		We should leave a content placeholder, in case any specific code needs to be included on a template specific.
+    ================================================================  --> 
+ </head>
+ <body>
+  <div id="ctl00_customHeaderContent_pnlShareThisJS"> 
+   <script type="text/javascript">    var switchTo5x = true;</script> 
+   <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script> 
+   <script type="text/javascript">
+            stLight.options({
+                publisher: "03c9b078-3f08-43e7-ba08-62d11d97ada7",
+                onhover: false
+            });
+        </script> 
+  </div> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4121674-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script> 
+  <!-- the following added by DLS @ VMI 12/12/2013 --> 
+  <!-- basic stylesheet --> 
+  <link rel="stylesheet" href="royalslider/royalslider.css"> 
+  <!-- skin stylesheet (change it if you use another) --> 
+  <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+  <!-- Plugin requires jQuery 1.7+  --> 
+  <!-- If you already have jQuery on your page, you shouldn't include it second time. --> 
+  <!-- I found jquery being loaded later on this page so I am disabling this --> 
+  <!-- <script src='../royalslider/jquery-1.8.3.min.js'></script> --> 
+  <!-- Main slider JS script file --> 
+  <!-- Create it with slider online build tool for better performance. --> 
+  <script src="../royalslider/jquery.royalslider.min.js"></script> 
+  <!-- end addition by DLS @ VMI 12/12/2013 --> 
+  <link href="App_Themes/default/default.1.css" type="text/css" rel="stylesheet">
+  <link href="App_Themes/default/default.css" type="text/css" rel="stylesheet">
+  <meta name="Keywords" content="Virginia, Military, Institute, VMI, colleges, schools, education, citizen-soldier, post-secondary, academies, small, athletics, ROTC, navy, army, air force, marines, cadet, engineering, alumni, military college, military school, Lexington Virginia, corps of cadets, New Market, college, state college, keydets,liberal arts, lexington, ncaa div. 1, competitive, civilian, commission, barracks, science, co-ed, public, university, ethics, honor, character, responsibility, undergraduate, leaders">
+  <meta name="Description" content="VMI celebrated yesterday with a time capsule, a speech by Gov. Terry McAuliffe, and a parade."> 
+  <!--[if lt IE 7 ]> <body class="no-js ie6"> <![endif]--> 
+  <!--[if IE 7 ]>    <body class="no-js ie7"> <![endif]--> 
+  <!--[if IE 8 ]>    <body class="no-js ie8"> <![endif]--> 
+  <!--[if IE 9 ]>    <body class="no-js ie9"> <![endif]--> 
+  <!--[if (gt IE 9)|!(IE)]><!-->  
+  <!--<![endif]--> 
+  <form method="post" action="/content.aspx?id=10737431226" id="aspnetForm"> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034"> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYEAgEPZBYCAh8PZBYCAgEPDxYCHgdWaXNpYmxlZ2RkAgMQZGQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCDw8PFgIfAGhkZAITD2QWBgIBDw8WAh8AZ2RkAgMPDxYCHwBoZGQCBQ9kFgICAQ9kFgJmD2QWAmYPFgIfAGcWAgIBDw8WAh8DBTgvdXBsb2FkZWRJbWFnZXMvSW1hZ2VzL0hlYWRlcnMvY29tbXVuaWNhdGlvbnMuanBnP249ODMxOWRkZBF43VtKQIHtOOVOP1F5E04/p5/HOJeEp5GTJW9bm7R0"> 
+   </div> 
+   <div class="aspNetHidden"> 
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAATHI85R1nj0SVDB9lj7KBVItVqhg79+cCaf2Muxgy28w6Ld5e0tb35jjra3L8Dofk5aGpeLsHyujys0vCNqhELerBU1wPsxhqVye10/d+ZUIRGVfotTBVZMla9A5aFBP8E="> 
+   </div> 
+   <div id="container" class="side-column-left"> 
+    <div class="masthead"> 
+     <div class="inner section"> 
+      <span class="access"><a href="#mainContent">skip to content</a> </span> 
+      <a id="ctl00_lnkLogo" title="Back Home" class="logo" href="/"><img id="ctl00_imgLogo" src="/core/images/content/logo.jpg" alt="BackHome"></a> 
+      <div class="top-right"> 
+       <div id="ctl00_ctl30_pnlSearch" class="search last"> 
+        <fieldset> 
+         <input name="ctl00$ctl30$txtSearch" type="text" value="search vmi.edu" id="ctl00_ctl30_txtSearch" class="search-input" onfocus="if(this.value=='search vmi.edu'){ this.value='';this.setAttribute('class','search-input');}this.setAttribute('class','search-input ');" onblur="if(this.value=='' || this.value=='search vmi.edu'){this.value='search vmi.edu';}"> 
+         <select name="ctl00$ctl30$ddlSearchCatalogs" id="ctl00_ctl30_ddlSearchCatalogs" class="search-filter" style="display:none"> <option value="VMI">VMI</option> </select> 
+         <input type="submit" name="ctl00$ctl30$btnSearch" value="search" id="ctl00_ctl30_btnSearch" class="search-btn"> 
+        </fieldset> 
+       </div> 
+       <div class="utility column"> 
+        <ul class="hlist">
+         <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+         <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+         <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+        </ul>
+        <ul class="hlist">
+         <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+         <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+         <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+        </ul> 
+       </div> 
+       <a href="#menu" id="menu-button" class="button button-full">Menu</a> 
+      </div> 
+      <!-- close topright--> 
+     </div> 
+     <div class="nav-main"> 
+      <div class="inner clear section"> 
+       <ul id="nav-main" class="hlist section">
+        <li class="first"><a href="/VMI About/" target="_self">About</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>About Us</h5></li>
+            <li><a href="/Administration/Administration_Home/" target="_self">Administrative Offices</a></li>
+            <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+            <li><a href="/content.aspx?id=6489" target="_self">News, Photos, Videos</a></li>
+            <li><a href="/archives/home/" target="_self">VMI Archives</a></li>
+           </ul>
+           <ul>
+            <li><h5>Museums</h5></li>
+            <li><a href="/MuseumSystem/" target="_self">VMI Museum System</a></li>
+            <li><a href="/VMI_Museum/" target="_self">The VMI Museum</a></li>
+            <li><a href="/vmcw/" target="_self">New Market Battlefield</a></li>
+            <li><a href="http://www.stonewalljackson.org" target="_self">Stonewall Jackson House</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>For Visitors</h5></li>
+            <li><a href="/Content.aspx?id=7335" target="_self">Directions &amp; Map</a></li>
+            <li><a href="/Administration/Finance_Administration_Support/Human_Resources/Employment_Opportunities/" target="_self">Employment</a></li>
+            <li><a href="/Content.aspx?id=4294974236" target="_self">Parents &amp; Family</a></li>
+            <li><a href="/Leadership_and_Ethics/Conferences_and_Symposia/" target="_self">Conferences</a></li>
+            <li><a href="/Content.aspx?id=10737425131" target="_self">Chessie Nature Trail</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=10737427308" target="_self">MyVMI</a></li>
+            <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+            <li><a href="/Content.aspx?id=412" target="_self">Friendly URLs</a></li>
+            <li><a href="https://postview.vmi.edu/" target="_blank">Post View</a></li>
+            <li><a href="/Content.aspx?id=10737426128" target="_self">Health and Safety</a></li>
+            <li><a href="/IT/" target="_self">Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="/Content.aspx?id=10737431754" target="_self">Academics</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Areas of Study</h5></li>
+            <li><a href="/Content.aspx?id=64" target="_self">Majors &amp; Minors</a></li>
+            <li><a href="/content.aspx?id=78" target="_self">Arts &amp; Humanities</a></li>
+            <li><a href="/Content.aspx?id=4294974180" target="_self">Engineering</a></li>
+            <li><a href="/Content.aspx?id=10737430006" target="_self">Information &amp; Social Sciences</a></li>
+            <li><a href="/Content.aspx?id=10737430005" target="_self">Life Sciences</a></li>
+            <li><a href="/content.aspx?id=80" target="_self">Natural Sciences</a></li>
+            <li><a href="/content.aspx?id=4294972142" target="_self">ROTC</a></li>
+           </ul>
+           <ul>
+            <li><h5>Enrichment</h5></li>
+            <li><a href="/Content.aspx?id=4294974200" target="_self">Institute Honors Program</a></li>
+            <li><a href="/Content.aspx?id=4294969511" target="_self">International Programs</a></li>
+            <li><a href="/Content.aspx?id=10737420458" target="_self">Service Opportunities</a></li>
+            <li><a href="/Content.aspx?id=35855" target="_self">Summer Programs</a></li>
+            <li><a href="/Content.aspx?id=124" target="_self">Institute Writing Program</a></li>
+            <li><a href="/Content.aspx?id=10737420186" target="_blank">Research</a></li>
+           </ul>
+          </div>
+          <div class="clear">
+           <ul>
+            <li><h5>Support</h5></li>
+            <li><a href="/Content.aspx?id=10737421908" target="_self">Cadet Counseling</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="/Disabilities_Services/Disabilities_Services/" target="_self">Disabilities Services</a></li>
+            <li><a href="/Miller_Academic_Center/Home/" target="_self">Miller Academic Center</a></li>
+            <li><a href="/content.aspx?id=1104" target="_self">Advising</a></li>
+            <li><a href="/Content.aspx?id=10737425854" target="_self">Math Resource Center</a></li>
+            <li><a href="/Content.aspx?id=30509" target="_self">The Writing Center</a></li>
+           </ul>
+           <ul>
+            <li><h5>Resources</h5></li>
+            <li><a href="/Content.aspx?id=196" target="_self">Registrar</a></li>
+            <li><a href="/Content.aspx?id=222" target="_self">Financial Aid</a></li>
+            <li><a href="https://vmi.instructure.com/login" target="_blank">Canvas Login</a></li>
+            <li><a href="/Content.aspx?id=192" target="_self">Dean's Office</a></li>
+            <li><a href="/Career_Services/Home/" target="_self">Career Services</a></li>
+            <li><a href="http://www.vmi.bkstr.com" target="_blank">Bookstore</a></li>
+            <li><a href="/content.aspx?id=20367" target="_self">Cadet Computing</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li><a href="http://admissions.vmi.edu" target="_blank">Admissions</a></li>
+        <li><a href="/Content.aspx?id=10737431936" target="_self">Corps Life</a></li>
+        <li><a href="http://www.vmikeydets.com/" target="_blank">Athletics</a></li>
+        <li class="rt"><a href="/Content.aspx?id=312" target="_self">Library &amp; Archives</a>
+         <div class="sub">
+          <div class="clear">
+           <ul>
+            <li><h5>Preston Library</h5></li>
+            <li><a href="/Content.aspx?id=312" target="_self">Library Home</a></li>
+            <li><a href="/Content.aspx?id=6023" target="_self">Find Books</a></li>
+            <li><a href="/Content.aspx?id=20951" target="_self">Departments</a></li>
+            <li><a href="/Content.aspx?ekfrm=4294972067" target="_self">Media Equipment</a></li>
+            <li><a href="/Content.aspx?id=32199" target="_self">Technical Services</a></li>
+            <li><a href="/content.aspx?id=20929" target="_self">Visitor Information</a></li>
+           </ul>
+           <ul>
+            <li><h5>Archives</h5></li>
+            <li><a href="/archives/home/" target="_self">Archives Home</a></li>
+            <li><a href="/Archives/Exhibits/Digital_Exhibits_Home/" target="_self">Online Exhibits</a></li>
+            <li><a href="/Archives/FAQs/VMI_Archives_FAQs_Home/" target="_self">VMI History FAQs</a></li>
+            <li><a href="/Archives/Alumni/Genealogy___Alumni_Home/" target="_self">Genealogy &amp; Alumni</a></li>
+            <li><a href="/Archives/Manuscripts/Manuscripts_Home/" target="_self">Manuscripts</a></li>
+            <li><a href="/Archives/Civil_War/Civil_War_Resources_Home/" target="_self">Civil War &amp; New Market</a></li>
+           </ul>
+          </div>
+         </div></li>
+        <li class="rt last"><a href="/Campaign/10737427179/" target="_blank">Give</a></li>
+       </ul>
+       <a href="#nav-main" class="close-button">Close Menu</a> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- close masthead --> 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// --> 
+    <div class="content-wrapper section"> 
+     <div id="ctl00_pageContent_leftPanel"> 
+      <div class="section-banner" data-set="banner"></div> 
+      <div id="content-1" class="column"> 
+       <ul class="nav-section rule vlistnav-section rule vlist">
+        <li><a href="/Content.aspx?id=10737433233" target="_self">Communications &amp; Marketing</a></li>
+        <li><a href="/content.aspx?id=6489" target="_self">News and Features</a></li>
+        <li><a href="/Content.aspx?id=10737429364" target="_self">Construction News</a></li>
+        <li><a href="/Content.aspx?id=13209" target="_self">Institute Report</a></li>
+        <li><a href="/Content.aspx?id=10737419304" target="_self">Photos &amp; Videos</a></li>
+       </ul>
+       <div id="ctl00_pageContent_ctl02_pnlShareThis" class="shareThis mod"> 
+        <div class="share"> 
+         <span class="st_sharethis"></span> 
+         <span class="st_facebook"></span> 
+         <span class="st_twitter"></span> 
+         <span class="st_linkedin"></span> 
+         <span class="st_email"></span> 
+        </div> 
+       </div> 
+       <div id="ctl00_pageContent_taxonomyContentLeft4294970019"> 
+        <address><a href="mailto:bitherch@vmi.edu">Cindy Bither</a><br>Administrative Assistant<br>P: (540) 464-7207<br>F: (540) 464-7443<br><br>111 Smith Hall<br>Lexington, VA 24450 </address> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="inside-wrap section"> 
+      <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
+       <div class="append-wrap"> 
+        <div id="sectionBranding"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Images/Headers/communications.jpg?n=8319" style="width:700px;"> 
+         <hr> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="mainContent" class="main column clearfix"> 
+       <h1>175 Years at VMI</h1>
+       <p class="sub-header-italic">Institute Celebrates Founders Day with Time Capsule, Governor’s Speech, and Parade</p>
+       <table align="right" style="width: 70%;">
+        <tbody>
+         <tr>
+          <td><iframe width="500" height="281" src="//player.vimeo.com/video/111658858?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff?rel=0" class="bordered"></iframe> &nbsp;</td>
+         </tr>
+        </tbody>
+       </table>
+       <p>LEXINGTON, Va., Nov. 12, 2014 – On a mild and sun-filled day, Virginia Military Institute celebrated the 175th anniversary of its founding yesterday with the placement of a time capsule, a convocation speech by Gov. Terry McAuliffe, and a parade by the Corps of Cadets.</p>
+       <p>The day’s events began with a morning ceremony in LeJeune Hall, during which members of the Corps of Cadets placed items into a time capsule, which will be displayed in the VMI Museum until it is opened 50 years from now, in 2064. </p>
+       <div class="well">
+        <blockquote class="pull-right">
+         <p><strong>To Become a Citizen-Soldier:<br>Biographer Discusses Col. J.T.L. Preston on Founders Day</strong></p>
+         <p>LEXINGTON, Va., Nov. 12, 2014 – As part of the Founders Day ceremonies at Virginia Military Institute yesterday, author Randolph Shaffner visited post to discuss his new book, The Father of VMI: A Biography of Col. J.T.L. Preston, C.S.A.<br><br>Preston, a prominent 19th-century Lexington citizen, led an effort in the 1830s to have a state arsenal staffed by bored and ill-behaved young men transformed into a new kind of military school based on the Roman ideal of the citizen-soldier.<br><br>In his remarks, Shaffner noted that while Preston is well-known as the founder of VMI, and those in his inner circle have been the subject of many biographies, there has been very little written about him – and during his lifetime, that was just as Preston liked it, as the Lexington attorney was well-known for his eschewal of fame and even recognition.<br><br>Shaffner noted that Preston was ambitious almost from birth, graduating from Washington College, now Washington and Lee University, at the tender age of 17, and going on to study law at Yale College, now Yale University. In Lexington, he was known for his prodigious memory and high skill as a debater.<br><br>“Thoroughly trained in rhetoric and oratory, he could mold, sway, lead, pressure, and define almost any cause,” said Shaffner of Preston. “His friends knew him personally as a man of iron will, strong personality, high character, and lofty purposes.”<br><br>In cultivating such a character, Preston drew upon the model of Lucius Quintus Cincinnatus, a Roman who was twice called from his farm to serve his country in time of war, and George Washington, who himself had emulated Cincinnatus. <br><br>“Preston had Cincinnatus in mind when he defined VMI as something different from West Point,” said Shaffner. “The concept of the citizen-soldier was one that J.T.L. Preston adopted from his knowledge of early Roman history when he attempted to define VMI as we know it today.”<br><br>Shaffner noted that whereas the United States Military Academy has as its goal producing professional soldiers, the new school Preston was championing was designed to produce graduates who would be citizens first and soldiers second.<br><br>“As Preston defined it, VMI was the first school in the South to aim at defining moral and spiritual maturity under the military system of discipline,” said Shaffner.<br><br>“VMI lives as an embodiment of this man’s mind and heart.”<br><br>Copies of The Father of VMI: A Biography of Col. J.T.L. Preston, C.S.A. are available at the VMI museum shop and also at the museum shop at the Stonewall Jackson House.</p>
+         <small>–Mary Price</small>
+        </blockquote>&nbsp;
+       </div>
+       <p>Among the 22 items in the black plastic container are items reflective of cadet life today, including a 1st Class private belt buckle, the original VMI buckle in use since the 19th century; a class dyke belt buckle, which is worn by 4th class cadets, 3rd class cadets, and 2nd class privates; a Rat Bible; and the class year patches worn on the sleeves of cadet duty jackets.</p>
+       <p>Other notable items include a football from VMI’s first Southern Conference win, over Furman University in November 1931; a map of the George Washington National Forest, the location of the 4th Class field training exercises; and a room inspection or “bone sheet” familiar to generations of VMI alumni.</p>
+       <p>The time capsule, a project that has been in the works since the fall of 2013, is only the third such capsule known to be placed at VMI in the Institute’s nearly two centuries of existence. The first was placed at the foot of the statue Virginia Mourning Her Dead in 1903, and opened in 1932. The second, which is yet to be opened, was placed at the foot of the statue of Confederate Gen. Thomas J. “Stonewall” Jackson outside of barracks in 1989, when the Institute was celebrating its 150th anniversary.</p>
+       <p>“Time capsules seemed to address our need to remember the past and speak to the future at the same time,” noted Cadet Will Connerley, president of the Class of 2015, addressing a small crowd gathered in the foyer of LeJeune Hall for the placement ceremony.</p>
+       <p>In his remarks, Connerley pondered the adult lives yet to be lived by the cadets now enrolled at VMI.</p>
+       <p>“What do we wish to say to generations yet unborn?” asked Connerley rhetorically. “What will our legacy be, as represented by our time capsule? … When we return for our 50th reunion and open the capsule, we will have fulfilled in many yet unforeseen ways the promise of duty to country and service to our fellow man that awaits us.”</p>
+       <strong>‘Never Be Afraid to Fail’</strong>
+       <p>Speaking at an afternoon convocation in VMI’s Cameron Hall, McAuliffe urged the VMI Corps of Cadets to think big and take chances as they move Virginia’s economy into the 21st century.</p>
+       <p>McAuliffe, who is in his first year in office, told the audience of cadets, faculty, members of the Board of Visitors, and others that Virginia’s economy has been dependent on Department of Defense spending for many years, but that economic lifeblood is rapidly diminishing. </p>
+       <p>“We have to diversify [our economy],” said McAuliffe, noting that defense spending in the commonwealth has declined by over $9 billion in the past three years alone. If sequestration comes through as expected, he noted, $90 billion in defense spending will likely be cut.</p>
+       <p>In urging the cadets to reach for their goals, McAuliffe noted that his parents were too poor to send him to college, so he went to work sealing driveways at 14. Over the years, McAuliffe would find himself at the helm of many business ventures – and not all were destined to succeed.</p>
+       <p>“Never be afraid to fail,” the former chair of the Democratic National Committee counseled his cadet listeners. “Think big. Take chances.”</p>
+       <p>McAuliffe can’t be accused of giving advice he didn’t follow himself. By the time he was 30, McAuliffe had become the nation’s youngest bank chairman, and by 2009 he was leading Hillary Clinton’s campaign for the Democratic presidential nomination.</p>
+       <p>That same year, he noted, he met defeat in his first run for governor – but that didn’t stop him from running again.</p>
+       <p>“I wanted to take those big risks and big gambles, and you do, too,” said McAuliffe. “That’s why you came to VMI.”</p>
+       <p>In his remarks, delivered on Veterans Day – a holiday that was established well after VMI’s founding – McAuliffe also touched on veterans’ issues, specifically the need to end homelessness among veterans and the need for more health-care options for those who’ve served.</p>
+       <p>Pausing for emphasis before delivering the news, McAuliffe told his listeners that Virginia ranks last in the nation in its number of veterans’ hospitals per capita.</p>
+       <p>“[Veterans] have to wait too long and drive too far to get health care,” he stated. “We’re going to end that under my term as governor.”</p>
+       <p>Speaking to the cadets in the audience who are planning to commission in the armed services, McAuliffe pledged, “Your commonwealth is going to have your back while you’re in the service.”</p>
+       <p>Concluding his remarks, McAuliffe began to hint that he had a special gift to share with the cadets – and the Corps began to roar with anticipation, well knowing that the governor, as commander in chief, has the power to grant amnesty for penalty tours and confinements.</p>
+       <p>McAuliffe did grant amnesty – but only in exchange for a promise of hard work and dedication from the Corps.</p>
+       <p>“Never forget the legacy you are inheriting as the next generation of citizen-soldiers to graduate from this proud institution,” McAuliffe reminded the cadets.</p>
+       <strong>‘Look into the Future with Confidence’</strong>
+       <p>Celebrated each year since the Institute’s beginning, Founders Day marks the anniversary of a snowy Monday – Nov. 11, 1839 – when the first cadets arrived to relieve the command at what had been a state arsenal. </p>
+       <p>The new school’s success was far from certain, Gen. J.H. Binford Peay III, VMI superintendent, reminded his listeners at Tuesday’s convocation, as there had been an economic downturn in the late 1830s which dried up state funding.</p>
+       <p>The founders – Gen. Francis H. Smith, French engineer Claudius Crozet, and prominent Lexington attorney Col. J.T.L. Preston – were not to be deterred, Peay observed. </p>
+       <p>“But they persevered and they succeeded, and the Institute has moved on through many other financial crises … to reach a new level of excellence that even the forward-looking founders could never have imagined.”</p>
+       <p>Just as McAuliffe would go on to tell the cadets, the founders of VMI had thought big, and taken chances.</p>
+       <p>“All three men had one characteristic in common,” said Peay. “They looked into the future with confidence, not only for the new college which they had helped organize, but also for the nation.”</p>
+       <p><em>– Mary Price</em></p>
+       <p align="center">-VMI-</p> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="utility clearfix inner"> 
+     <ul class="hlist">
+      <li><a href="/Foundation/" target="_self" class="first">VMI Foundation</a></li>
+      <li><a href="/keydetclub/" target="_blank">Keydet Club</a></li>
+      <li class="last"><a href="http://www.vmialumni.org" target="_blank">Alumni</a></li>
+     </ul>
+     <ul class="hlist">
+      <li><a href="/_VMI/Tools/Webcams/2136/" target="_self">Webcams</a></li>
+      <li><a href="/content.aspx?id=454" target="_self">Directories</a></li>
+      <li class="last"><a href="/Content.aspx?id=10737427308" target="_self">My VMI</a></li>
+     </ul> 
+    </div> 
+    <footer class="site-footer clearfix"> 
+     <div id="ctl00_cbFooterRight" class="footer-right"> 
+      <p style="text-align: right;">&nbsp;<strong>RESOURCES</strong> &nbsp;</p> 
+      <p align="right"><a title="Title IX, Health, Welfare, and Safety" href="/Content.aspx?id=10737426128">Title IX, Health &amp; Safety</a> | <a href="/IT/" title="Information Technology">IT</a> | <a href="/content.aspx?id=316" title="A-Z Index">Site Index</a><br><a title="Parents and Family Landing" href="/Content.aspx?id=4294974236">Parents &amp; Families</a> | <a title="Cadet Life" href="/Content.aspx?id=10737423067">Cadets</a> |<a title="Non-discrimination Statement" href="http://staging.vmi.edu/Content.aspx?id=10737419939&amp;libID=10737419939"> Non-discrimination Statement</a> | <a href="http://staging.vmi.edu/WorkArea/DownloadAsset.aspx?id=39271&amp;libID=37719" title="Privacy Policy" target="_top">Privacy</a> &nbsp;</p> 
+      <p align="right"><br><strong>THE VMI PHILOSOPHY</strong></p> 
+      <p align="right">The VMI experience is framed by relevant education within a military environment. It’s an education that develops character, fosters a lifelong appreciation of physical fitness,engenders a sense of responsibility to others, and cultivates the ability to master adversity.</p> 
+     </div> 
+     <div id="ctl00_cbFooterLeft" class="footer-left"> 
+      <p align="left"><strong>VIRGINIA MILITARY INSTITUTE</strong><br>Lexington, Virginia 24450<br> General Information: <a href="tel:1+540-464-7230" class="button button-full button-chunky call-button">(540) 464-7230</a>&nbsp;<br>Admissions: <a href="mailto:admissions@vmi.edu">admissions@vmi.edu</a><br>&nbsp;<br></p> 
+      <div class="vlist">
+       <ul style="text-align: left;"> 
+        <a href="/rss/folder/905/" target="_blank"><img src="/uploadedImages/Images/icons/rss.png?n=8698" alt="News Feed" title="News Feed"></a> &nbsp;
+        <a href="http://www.facebook.com/pages/Virginia-Military-Institute/135020398504"><img src="/uploadedImages/Images/icons/facebook.png?n=3457" alt="facebook" title="Facebook"></a> &nbsp;
+        <a title="VMI You Tube Channel" href="http://www.youtube.com/channel/UCL2BP_NjEEWqGVBMVE6ozjQ" target="_blank"><img border="0" src="/uploadedImages/Images/icons/youtube.png?n=7302" alt="VMI You Tube Channel" title="VMI You Tube Channel"></a>&nbsp;
+        <a href="http://instagram.com/virginia_military_institute#" title="Instagram" target="_blank"><img border="0" title="Instagram" alt="Instagram" src="/uploadedImages/Images/icons/instagram-flat.png"></a>&nbsp;
+        <a title="twitter" href="https://twitter.com/vminews/" target="_blank"> <img src="/uploadedImages/Images/icons/twitter.png?n=68" alt="Twitter" title="Twitter"></a> &nbsp;
+        <a target="_blank" title="tumblr" href="http://vminews.tumblr.com"><img border="0" src="/uploadedImages/Images/icons/tumblr.png?n=834" alt="tumblr" title="tumblr"></a> &nbsp;
+        <a target="_blank" title="linkedin" href="https://www.linkedin.com/edu/school?id=20137&amp;trk=edu-ca-head-title"><img src="/uploadedImages/Images/icons/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+       </ul> &nbsp;
+      </div> 
+     </div> 
+    </footer> 
+   </div> 
+   <!-- end container --> 
+   <!-- Javascript at the bottom for fast page loading --> 
+   <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript">!window.jQuery && document.write(unescape('%3Cscript src="core/js/libs/min/jquery-1.7.2.js"%3E%3C/script%3E'))</script> 
+   <script src="/core/js/jquery.hoverIntent.minified.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/cufon/cufon.js" type="text/javascript" language="javascript"></script> 
+   <script type="text/javascript" language="javascript" src="/core/js/swipe.js"></script> 
+   <script language="javascript" src="/core/js/cycle/jquery.cycle.all.min.js" type="text/javascript"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.easing-1.3.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox.js"></script> 
+   <script type="text/javascript" src="/core/js/fancybox/jquery.fancybox-media.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.appendAround.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery.WSOL.Carousel.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-wsol-SectionNav-1.0.0.js"></script> 
+   <script type="text/javascript" src="/core/js/jquery-ui.min.js"></script> 
+   <script type="text/javascript" src="/core/js/fluidvids.min.js"></script> 
+   <!-- scripts concatenated and minified via ant build script--> 
+   <script src="/core/js/libs/jquery.prettify-1.0.0.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/plugins.js" type="text/javascript" language="javascript"></script> 
+   <script src="/core/js/scripts.js" type="text/javascript" language="javascript"></script> 
+   <!-- end concatenated and minified scripts--> 
+   <!--[if lt IE 7 ]>
+            <script src="/core/js/dd_belatedpng.js"></script>
+            <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+        <![endif]--> 
+   <script src="/core/js/shoppingCart.js"></script> 
+   <script type="text/javascript">
+            $('document').ready(function () {
+                CrossDomainShoppingCart.client.init();
+            });
+        </script> 
+   <script type="text/javascript" src="//use.typekit.com/zgz2ybz.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </form> 
+  <!-- the following Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <script type="text/javascript">
+            setTimeout(function () {var a = document.createElement("script");
+            var b = document.getElementsByTagName("script")[0];
+            a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0019/1570.js?" + Math.floor(new Date().getTime() / 3600000);
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)}, 1);
+         </script> 
+  <!-- the above Crazy Egg script was added 12/4/13 per K. Crossman --> 
+  <!-- the following SiteImprove script was added 1/16/2015 by David Somers --> 
+  <script type="text/javascript">
+            /*<![CDATA[*/
+            (function() {
+            var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+            sz.src = '//us2.siteimprove.com/js/siteanalyze_87775.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            })();
+            /*]]>*/
+            </script> 
+  <!-- the above SiteImprove script was added 1/16/2015 by David Somers -->   
+ </body>
+</html>

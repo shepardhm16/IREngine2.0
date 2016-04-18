@@ -1,0 +1,641 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head> 
+  <meta name="keywords" content="">
+  <meta name="description" content=""> 
+  <title>Ashleigh Smythe - Past Student Research - Hamilton College</title> 
+  <link type="text/css" href="styles/personaltemplate1.css" rel="stylesheet" media="screen"> 
+  <link type="text/css" href="styles/jquery-ui-1.8.16.custom.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/formstyle.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/cluetip.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/page.css" rel="stylesheet" media="screen"> 
+  <link type="text/css" href="styles/jqModal.css" rel="stylesheet" media="all"> 
+  <link type="text/css" href="styles/prettyPhoto.css" rel="stylesheet" media="all"> 
+  <script type="text/javascript" src="scripts/jquery/jquery.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/ui/1.8.4/js/jquery-ui-1.8.4.custom.min.js"></script> 
+  <script type="text/javascript" src="scripts/page.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jquery.cluetip.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqModal.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqDnR.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jqForms.min.js"></script> 
+  <script type="text/javascript" src="scripts/jquery/jQuery.prettyPhoto.min.js"></script> 
+  <script type="text/javascript" src="scripts/modules/multimedia.js"></script> 
+ </head> 
+ <body id="student1body" class="generic"> 
+  <script language="JavaScript" type="text/javascript">
+			<!--
+			$(document).ready(function() {
+				bodyHeight();
+				$(window).resize(bodyHeight);
+			});
+			bodyHeight = function() {
+				if($('body').height() < $(window).height()) $('body').height($(window).height());
+			};
+		// -->
+		</script> 
+  <div id="siteStructure"> 
+   <div id="siteHeader" class="pagecolumn"> 
+    <div id="719673A6-D849-772B-78137E28B676BC7D" class="sm-area"> 
+     <div id="AD479E7B-E44B-44EC-5C51B6294F0DDFB1" class="module full"> 
+      <div class="content  " style="text-align:center;"> 
+       <div class="modulecontent"> 
+        <h2>&nbsp;</h2> 
+        <h2>Past Student Research</h2> 
+        <p>&nbsp;</p> 
+        <!-- Import jQuery and SimpleModal source files --> 
+        <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+        <div id="newwindow" class="jqmDialog"> 
+         <a href="#" class="jqmdX jqmClose"></a> 
+         <div class="jqmdTL jqDrag">
+          <h3 class="jqmdTC" id="newwindow_title"></h3>
+         </div> 
+         <div class="lowerWindow"> 
+          <div class="jqmdMSG" id="newwindow_content"></div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="siteNav"> 
+    <div id="71967404-BD36-313B-FE27E841D8710FF9" class="sm-area"> 
+    </div> 
+   </div> 
+   <div id="pageContent"> 
+    <div id="left" class="pagecolumn"> 
+     <div id="71967440-E9D5-C21E-1BACA9C85CF22DD7" class="sm-area"> 
+      <div id="899C8388-C674-5109-89DE3ED9BAC3A1CD" class="module full"> 
+       <div class="content module-style-0 " style="text-align:center; margin-top:-80px;"> 
+        <div class="modulecontent"> 
+         <!-- insert menu here --> 
+         <h4 class="h4a"> &nbsp;</h4> 
+         <h4 class="h4a"> <a href="Default.asp">Home</a></h4> 
+         <h4 class="h4a"> <a href="news.asp">News</a></h4> 
+         <h4 class="h4a"> <a href="marine-nematode-research.asp">Marine Nematode Research</a></h4> 
+         <h4 class="h4a"> <a href="parasitology-research.asp">Parasitology Research</a></h4> 
+         <h4 class="h4a"> <a href="thesis-research.asp">Student Research</a></h4> 
+         <h4 class="h4a"> <a href="teaching.asp">Teaching</a></h4> 
+         <h4 class="h4a"> <a href="publications.asp">Publications</a></h4> 
+         <h4 class="h4a"> <a href="education2.asp">Education</a></h4> 
+         <h4 class="h4a"> <a href="http://www.vmi.edu/Content.aspx?id=10737425148&amp;libID=10737425142" target="_blank">VMI Biology</a><br> </h4> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="89D3F05D-D479-BA05-C7FFF9AA4CC6D675" class="module full"> 
+       <div class="content module-style-0 " style="text-align:center;"> 
+        <div class="modulecontent"> 
+         <h5> <span class="imagecaptions"> Ashleigh B. Smythe<br> Virginia Military Institute<br> Lexington, VA 24450<br> Office: 301 Maury-Brooke Hall<br> Office Phone: 540-464-7054<br> Email: <a href="mailto:smytheab@vmi.edu">smytheab@vmi.edu </a> </span> </h5> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="wideright" class="pagecolumn"> 
+     <div id="71967479-AE95-A645-7E5245EADB82E4FA" class="sm-area"> 
+      <div id="AD5AEF49-A780-4759-88DB7CE85FF70EA6" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h3> Past Senior Thesis and Independent Study Research Projects</h3> 
+         <p> Students in my laboratory have conducted a variety of research projects in the past.&nbsp; Below, grouped by category of research project, are the titles of previous projects conducted in my laboratory, with links to abstracts (coming soon!) describing their findings.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="ACBCAE51-E9EA-231B-347AD2D37A1F9DF8" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h4> Parasitology</h4> 
+         <p> 2012/2013 Ethan Ayres:&nbsp;&nbsp; A survey of helminth parasites of American mink (Neovison vison) from central New York. Abstract</p> 
+         <p> 2012/2013 Rebecca Knipp:&nbsp; Redescription of 2 nematode parasites of the Madagascar hissing cockroach (Gromphodorhina portantosa). Abstract</p> 
+         <p> 2012/2013 Matt Combs:&nbsp; Testing the effect of the nematode Heligosomoides bakeri on insulinitis in mice. Co-advisor David Gapp. Abstract</p> 
+         <p> 2011/2012 Jackie Specht:&nbsp;&nbsp; Description of a new nematode species from the order Monhysterida and its ecoogical relationship with the crayfish <em>Orconectes obscurus</em>. Abstract</p> 
+         <p> 2011/2012 Kristin Forgrave: Untangling the ecology, taxonomy and evolution of the <em>Chaetogaster limnaei</em> (Oligochaeta: Annelida) species complex.&nbsp; <a target="_top" href="forgrave-thesis-abstract.asp">Abstract</a></p> 
+         <p> 2011/2012 Christopher Kline: Identifying cryptic species of <em>Echinostoma</em> spp. using molecular data.&nbsp; <a target="_top" href="kline-thesis-abstract.asp">Abstract</a></p> 
+         <p> 2011/2012 Catie Torcivia, Helen Madsen and Jeannie Folan: A test of the hygeine hypothesis: alleviating the immune response to Type 1 Diabetes by infection with <em>Heligmosomoides bakeri</em>.&nbsp; Co-advisor David Gapp.</p> 
+         <p> 2010/2011 Annie Scott: Examining the Hygiene Hypothesis: The role of <em>Heligmosomoides bakeri</em> in modulating the immune response to type 1 diabetes.&nbsp; Co-advisor David Gapp.</p> 
+         <p> 2010/2011 Evan Taddeo: Determining the effects of gastrointestinal nematode <em>H. bakeri</em> infections on low-dose streptozotocin-induced insulinitis in mice. Co-advisor David Gapp.</p> 
+         <p> 2010/2011 Rem Myers: The influence of life cycles on the genetic diversity of trematoda.</p> 
+         <p> 2010/2011&nbsp; Ashlyn Razzo:&nbsp; Quantitative Analysis of muskrat parasite diversity in Central New York</p> 
+         <p> 2010/2011 Hannah&nbsp; Utley:&nbsp; Quantitative Analysis of muskrat parasite diversity in Central New York</p> 
+         <p> Fall 2010 Chris Kline:&nbsp; Independent study:&nbsp; Helminth parasites of the muskrat in central New York.</p> 
+         <p> Fall 2010 Lyle Cleary:&nbsp; Independent study:&nbsp; Helminth parasites of the muskrat in central New York.</p> 
+         <p> 2009/2010&nbsp; Caroline Krumholz:&nbsp; Building a relational database for the epidemiological examination of hookworm infection in China.&nbsp; Abstract.</p> 
+         <p> 2009/2010&nbsp; Alyssa Kanagaki:&nbsp; Scanning electron microscopy and quantitative analysis of muskrat parasite diversity in central New York.&nbsp; Abstract.</p> 
+         <p> 2009/2010&nbsp; Calvin Johnson:&nbsp; A survey of muskrat parasites in central New York.&nbsp; Abstract.</p> 
+         <p> 2009/2010&nbsp; Kelly Fitzsimmons:&nbsp; Patterns of leech parasitism on freshwater turtles in three upstate New York counties.&nbsp; Abstract.</p> 
+         <p> 2008/2009&nbsp; Maxwell Akuamoah-Boateng: A study of parasitic nematodes in the starfish <em>Brisinga tasmani</em>. Abstract.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="AD250384-B101-78C2-E80F54C5B52F14CB" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h4 class="h3c"> Marine nematode systematics</h4> 
+         <p> 2009/2010&nbsp; Ryan Walker-Gray:&nbsp; A molecular phylogeny of marine nematodes using 18s rDNA sequencing.&nbsp; Abstract.</p> 
+         <p> 2008/2009&nbsp; Alex Hodgens: Molecular phylogeny of Oncholaimidae (Nematoda).&nbsp; Abstract.</p> 
+         <p> 2008/2009&nbsp; David Moroney:&nbsp; A molecular phylogenetic analysis of Enoplidae (Nematoda).&nbsp; Abstract.</p> 
+         <p> 2007/2008 Matt Sharbaugh:&nbsp; Phylogenetic species delimitation in the marine nematode Proplatycoma fleurdelis collected from Florida and Belize. Abstract.</p> 
+         <p> 2007/2008 Dan Treichler: Exploring genetic variation in nematode DNA barcoding loci. Abstract.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="ACF11BEB-B821-D226-EEE02639D28A6A4D" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h4> Soil Nematode Ecology</h4> 
+         <p> 2011/2012 Dan Bruzzese: Garlic mustard (Alliaria petiolata) and its effects on the nematode community.&nbsp; Co-advisor Bill Pfitsch.&nbsp; <a target="_top" href="bruzzese-thesis.asp">Abstract.</a></p> 
+         <p> 2008/2009&nbsp; Caitlin McCormick:&nbsp; An ecological investigation of soil communities in the Rome Sand Plains.&nbsp; Co-advisor Bill Pfitsch.&nbsp;&nbsp; Abstract.</p> 
+         <p> 2009/2010&nbsp; Audrey Nebergall:&nbsp; The ecology of soil nematodes in the Rome Sand Plains.&nbsp; Co-advisor Bill Pfitsch.&nbsp;&nbsp; Abstract.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="ADCE0579-C293-BDF7-472656F21C4AC78B" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h4> Biochemistry and Chemistry</h4> 
+         <p> 2009/2010&nbsp; Gail M. Corneau:&nbsp; Seven-Membered and Sweet: Using Unnatural Carbohydrates as a Tool for Explorations of Antimicrobial Resistance in Staphylococcus Infections and Routes to Rational Antibiotic Design.&nbsp; Senior Fellowship, Advisor Nicole L. Snyder, Co-advisors Ashleigh Smythe and Michael McCormick.&nbsp; Abstract.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="068E40F4-B3E4-258B-232918B98C45FF06" class="module full"> 
+       <div class="content "> 
+        <div class="modulecontent"> 
+         <h4> Where are they now?</h4> 
+         <p> Click <a href="past-students.asp">here</a> to see what my former thesis research students are currently up to.</p> 
+         <!-- Import jQuery and SimpleModal source files --> 
+         <script language="javascript" type="text/javascript">
+				
+				$(document).ready(function() {
+					  //$('body').append($('.jqmWindow'))
+					  $('#newwindow').jqm({
+					    //trigger: '#newwindowTrigger',
+					    overlay: 60, /* 0-100 (int) : 0 is off/transparent, 100 is opaque */
+					    overlayClass: 'whiteOverlay',
+					    modal: true,
+					    onShow: showwinnewwindow,
+					    onHide: hidewinnewwindow})
+					    
+					    
+					    .draggable({handle:'.jqDrag'}) /* make dialog draggable, assign handle to title */
+					    ;
+					  				  
+					  $('#newwindow').resizable();
+					  
+					  
+					
+					jqAjaxForm = function(formid,options) {
+							if (!options) {
+								options = {target:'#newwindow_content'}
+							}
+							$('#'+formid).ajaxForm(options); 
+						 };
+					
+					
+					});
+					showwinnewwindow = function(hash) {
+							
+							$('#newwindow div.lowerWindow').height('auto');
+							$('#newwindow').width('auto').css('top',$(window).scrollTop()+30+'px').css('left',($(window).width()-$('#newwindow').width())/2);
+							hash.w.show();
+						};
+					hidewinnewwindow = function(hash) {
+							
+							if (typeof(CKEDITOR) != 'undefined') {CKEDITOR.instances = [];}
+							hash.w.hide();
+							hash.o.remove();
+						};
+			</script> 
+         <div id="newwindow" class="jqmDialog"> 
+          <a href="#" class="jqmdX jqmClose"></a> 
+          <div class="jqmdTL jqDrag">
+           <h3 class="jqmdTC" id="newwindow_title"></h3>
+          </div> 
+          <div class="lowerWindow"> 
+           <div class="jqmdMSG" id="newwindow_content"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="pageFooter">
+     The material on this personal site may not necessarily reflect the views of Virginia Military Institute.
+    </div> 
+   </div> 
+  </div>   
+ </body>
+</html>

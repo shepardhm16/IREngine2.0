@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta content="charset=utf-8"> 
+  <meta name="description" content="James Squire Student Project"> 
+  <meta name="keywords" content="Paul Kuwick, Tom Largi, James Squire, Jim Squire, Professor James Squire, VMI, Courses, Teaching, Personal, ECE"> 
+  <title>Optical Multiplexer</title> 
+  <link href="../../../squire.css" rel="stylesheet"> 
+  <link href="../student pages.css" rel="stylesheet"> 
+ </head> 
+ <body> 
+  <div class="center"> 
+   <h2>Optical Multiplexer</h2> 
+   <p>by Paul Kuwick and Tom Largi '05</p> 
+  </div> 
+  <div style="float:left"> 
+   <img src="Optical Multiplex.jpg" alt="students working on demonstration" style="margin-right:10px;"> 
+  </div> 
+  <div class="studentText"> 
+   <p>Frequency division multiplexing is a technique to combine multiple different signals onto a single communications line, such as on a computer network or telephone wire. Although the mathematical derivations are an advanced ECE concept, we created a microprocessor-controlled multimedia demonstration that intuitively shows how multiple signals can be combined, transmitted on a single channel, and then separated.</p> 
+   <p>Specifically, we programmed a microcontroller to control the individual notes played by a heavily-modified stripped electronic keyboard to recite the Top Gun theme. Electronic signals are also sent to two powerful lights to flash in synchronization to the audio sounds - blue that flashes with each bass note, and red that flashes to each melody note. The melody note light passes through a red chromatic filter, and the bass light passes through a blue filter. The lights are then combined using a half-silvered mirror. The combined signal is sent out of the transmitting unit using a 1" diameter acrylic light pipe. An individual will see each light blink in a different rhythmic pattern while viewing the combined signal of both lights on the single optical pipe. The audio signal is played on speakers to reinforce the concept of seeing two signals being multiplexed onto a single channel.</p> 
+   <p>The receiving unit, built of clear acrylic, takes the output of the pipe, and divides the combined signal into each of its original component parts using half-silvered mirrors and light filters, thus reinforcing the concept that two different signals can be combined onto a single line, then re-divided with no information loss.</p> 
+   <p>Steve Lee '02 initiated this project, however, he was unable to finish the project before he graduated. Cadets Paul Kuwik '05 and Tom Largi '05 finished his project with Major Squire as their academic advisor. The Kuwik and Largi received a Wetmore research grant to develop the project, and presented their work at the 2003 Virginia Military Institute Undergraduate Research Symposium. The demonstration has been accepted by the Western Virginia Museum of Science and will be displayed there in August of 2003.</p> 
+  </div> 
+  <p class="center"><a href="../student_pages.htm">Back</a></p>  
+ </body>
+</html>
