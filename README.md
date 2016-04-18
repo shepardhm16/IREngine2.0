@@ -9,6 +9,6 @@ Includes all of the source code for the CIS-443-01 IREngine project.
 4.)  John D'Antonio <br>
 <br><br>
 ###Revision History:<br>
-IREngine_2.0/master - Original files<br>
-IREngine_2.0/update - first update, not functioning<br>
-IREngine_2.0/IREngine2.3 - Contains all documents and TermTable; still needs indexing files<br>
+* IREngine_2.0/master - Original files<br>
+* IREngine_2.0/update - first update, not functioning<br>
+* IREngine_2.0/IREngine2.3 - Contains all documents and TermTable; still needs indexing files<br>
