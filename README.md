@@ -22,4 +22,4 @@
 Work off of the latest update, see what you can get done.
 
 
-<img src="http://www.mikechurch.com/wp-content/uploads/2012/08/vmi-logo.jpg" alt="VMI Logo" align="middle">
+<img src="http://www.mikechurch.com/wp-content/uploads/2012/08/vmi-logo.jpg" alt="VMI Logo" align="middle" width="200px" height="200px">
