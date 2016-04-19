@@ -44,7 +44,3 @@ Work off of the latest update, see what you can get done.
 3.)  We need to verify that all of the correct information is in each area of the workspace folder
 
 Work off of the latest update, see what you can get done.
-
-
-<center><img src="http://www.mikechurch.com/wp-content/uploads/2012/08/vmi-logo.jpg" alt="VMI Logo" width="200px" height="200px"></center>
-
