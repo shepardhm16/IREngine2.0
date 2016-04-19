@@ -48,7 +48,7 @@ public class TermTable {
 					token = StringUtility.refineToken(stemmer, st.nextToken());
 
 					if(token != null && token.length()>0 && table.contains(token) == false)
-						table.add(stemmer.toString());
+						table.add(token);
 				
 				}
 			} catch(FileNotFoundException ex) {

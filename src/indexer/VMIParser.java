@@ -21,9 +21,9 @@ public class VMIParser {
 	public static void main(String[] args) {
 
 		VMIParser parser = new VMIParser();
-		String dir = "./docs";
-		//parser.buildTermTable(dir);  // When running the parser.buildPostings(dir), comment this line out
-		parser.buildPostings(dir); // When running the parser.buildTermTable(dir), comment this line out
+		String dir = "./data/contents/all";
+		parser.buildTermTable(dir);  // When running the parser.buildPostings(dir), comment this line out
+		//parser.buildPostings(dir); // When running the parser.buildTermTable(dir), comment this line out
 		try {
 			parser.writeTermTableToFile();
 		} catch(IOException e) {

@@ -20,6 +20,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
+import static java.util.Arrays.sort;
 import java.util.StringTokenizer;
 
 import utility.FileNames;
@@ -35,6 +36,7 @@ public class PostingsBuilder {
 	BufferedWriter docPtrWriter = null;
 	BufferedWriter metaFileWriter = null;
 	TermTable table = null;
+        int termsInDocs[][] = null;
         
 	public PostingsBuilder() {
 		try {
@@ -106,7 +108,7 @@ public class PostingsBuilder {
 		
 		for(int i=0; i<docnames.length;i++)
 			docnames[i] = docs.get(i);
-		
+		termsInDocs = new int[docnames.length][];
 		while(termIdx < terms.length) {
 			postings = new ArrayList<Integer>();
 			docIdx = 0;
@@ -117,7 +119,8 @@ public class PostingsBuilder {
 			int ptr = 0;
 			
 			while(docIdx < docs.size()) {
-				try {
+                            ArrayList<Integer> tempTerms = new ArrayList<Integer>();	
+                            try {
 					text = new String(Files.readAllBytes(Paths.get(docs.get(docIdx))), StandardCharsets.UTF_8);
 					
 					st = new StringTokenizer(text, " ");
@@ -135,6 +138,7 @@ public class PostingsBuilder {
 						
 						int termID = Utility.search(table.getTermTable(), token);
 						if(termID != -1) {
+                                                        
 							if(termID==termIdx && postings.contains(docIdx) == false)
 								postings.add(docIdx);
 
@@ -148,6 +152,8 @@ public class PostingsBuilder {
                                                                  * increases the term frequency by one, and increases the TermTable's size by one.
                                                                  * If it is in the TermTable, then the TermFrequency is increased by one.
                                                                  */
+                                                            tempTerms.add(termID);
+                                                            
 								for(int i=0; i<=tlen;i++) {
 									if(t[i] == -1) {
 										t[i] = termID;
@@ -172,6 +178,13 @@ public class PostingsBuilder {
 				if(termIdx == 0) {
 					try {
 						// ??? See below
+                                            
+                                            termsInDocs[docIdx] =  new int[tempTerms.size()]; // Makes the first bracket the size of tempTerms
+                                            for (int n = 0; n < tempTerms.size(); n ++) {
+                                                termsInDocs[docIdx][n] = tempTerms.get(n);
+                                            }
+                                                sort(termsInDocs[docIdx]);
+                                                
 						writeIndexing(docIdx, dlen, tlen, t, tf, table);  // Write the docID, doc length, term length, term, and term frequency to the table
 						docptr[docIdx] = ptr;  // Sets the pointer in the docptr array
 						ptr += (1+1+1+2*(tlen));  //Increments the pointer in the index based on the term length

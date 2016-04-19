@@ -29,7 +29,7 @@ public class Utility {
 		return docs;
 	}
 
-	public static int search(String[] tree, String key) {
+	public static int search(String[] tree, String key) {  //Add a BS for Int
 		int low = 0;
 		int high = tree.length - 1;
 		int mid;
