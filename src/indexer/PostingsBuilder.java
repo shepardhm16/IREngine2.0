@@ -52,7 +52,6 @@ public class PostingsBuilder {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 	}
 
 	// close all files 
