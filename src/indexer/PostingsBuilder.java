@@ -88,7 +88,7 @@ public class PostingsBuilder {
 		String[] terms = table.getTermTable();
 		
 		ArrayList<String> docs = null;
-		ArrayList<String> docTitles = new ArrayList<String>();
+		//ArrayList<String> docTitles = new ArrayList<String>();
 
 		try {
 			docs = Utility.getAllDocuments(dir);
@@ -188,7 +188,7 @@ public class PostingsBuilder {
 						docptr[docIdx] = ptr;  // Sets the pointer in the docptr array
 						ptr += (1+1+1+2*(tlen));  //Increments the pointer in the index based on the term length
 						avgDocLen += dlen;  // Adds to the average document length
-						docTitles.add(text.substring(text.indexOf("<title>")+7, text.indexOf("</title>")));  // adds the title of the specific document to an array of document titles
+						//docTitles.add(text.substring(text.indexOf("<title>")+7, text.indexOf("</title>")));  // adds the title of the specific document to an array of document titles
 
 					} catch(IOException e){
 						e.printStackTrace();
@@ -219,7 +219,7 @@ public class PostingsBuilder {
 
 		try {
 			writeDocPtr(docptr);
-			writemetaFileWriter(docIdx, avgDocLen, docs, docTitles);
+			//writemetaFileWriter(docIdx, avgDocLen, docs, docTitles);
 			postingsWriter.close();
 			indexingWriter.close();
 			postingsTestWriter.close();
