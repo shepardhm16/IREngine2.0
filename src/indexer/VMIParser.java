@@ -89,4 +89,3 @@ public class VMIParser {
 		writer3.close();
 	}
 }
- 
