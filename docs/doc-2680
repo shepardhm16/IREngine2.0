@@ -392,7 +392,7 @@ Cannot be blank" class="design_textfield" id="Phone" onblur="design_validate_re(
                 </tr> 
                 <tr> 
                  <td valign="middle"><p align="left">Date of Event</p> </td> 
-                 <td valign="middle"><p align="left"><input ekv="0" type="hidden" name="Date_ofEvent" id="Date_ofEvent" value=""> <input type="hidden" name="Date_ofEvent_iso" id="Date_ofEvent_iso" value=""> &nbsp;<span class="dateClass ektronTextSmall" id="ID18A2E4" ektdesignns_name="Date_ofEvent" ektdesignns_nodetype="element" title="Date of the event" ektdesignns_validation="date-req" onblur="design_validate_re(/^([0-9]{4}\-(0[1-9]|1[0-2])\-(0[1-9]|[1-2][0-9]|3[0-1]))$/,this,'Cannot be blank');" ektdesignns_invalidmsg="Cannot be blank">[None]</span>&nbsp;<img src="/WorkArea/images/ui/icons/calendar.png" title="Select a Date" align="absmiddle" alt="Select a Date" style="cursor:pointer;" onclick="openDTselector('date', getFormElement(this).Date_ofEvent.value, 'ID18A2E4', obtainFormID(getFormElement(this)), 'Date_ofEvent', '/WorkArea/');">&nbsp;<img src="/WorkArea/images/ui/icons/calendarDelete.png" title="Delete the Date" align="absmiddle" alt="Delete the Date" style="cursor:pointer;" onclick="var oForm = getFormElement(this); clearDTvalue(oForm.Date_ofEvent, 'ID18A2E4', '[None]');"> &nbsp;</p> </td> 
+                 <td valign="middle"><p align="left"><input ekv="0" type="hidden" name="Date_ofEvent" id="Date_ofEvent" value=""> <input type="hidden" name="Date_ofEvent_iso" id="Date_ofEvent_iso" value=""> &nbsp;<span class="dateClass ektronTextSmall" id="ID14C1F8" ektdesignns_name="Date_ofEvent" ektdesignns_nodetype="element" title="Date of the event" ektdesignns_validation="date-req" onblur="design_validate_re(/^([0-9]{4}\-(0[1-9]|1[0-2])\-(0[1-9]|[1-2][0-9]|3[0-1]))$/,this,'Cannot be blank');" ektdesignns_invalidmsg="Cannot be blank">[None]</span>&nbsp;<img src="/WorkArea/images/ui/icons/calendar.png" title="Select a Date" align="absmiddle" alt="Select a Date" style="cursor:pointer;" onclick="openDTselector('date', getFormElement(this).Date_ofEvent.value, 'ID14C1F8', obtainFormID(getFormElement(this)), 'Date_ofEvent', '/WorkArea/');">&nbsp;<img src="/WorkArea/images/ui/icons/calendarDelete.png" title="Delete the Date" align="absmiddle" alt="Delete the Date" style="cursor:pointer;" onclick="var oForm = getFormElement(this); clearDTvalue(oForm.Date_ofEvent, 'ID14C1F8', '[None]');"> &nbsp;</p> </td> 
                 </tr> 
                 <tr> 
                  <td valign="middle"><p align="left">Time of Event<br>e.g. 0800-1000&nbsp;&nbsp;</p> </td> 
@@ -535,7 +535,7 @@ if (strError=='' && 'function' == typeof design_validateHtmlForm) {
 // --> 
 </script> 
         </div> 
-        <script id="EktronScriptBlockrpjjd" type="text/javascript">
+        <script id="EktronScriptBlockbglxw" type="text/javascript">
 	
 	Ektron.ready(function(event, eventName){
 var settings = 
@@ -570,7 +570,7 @@ try {
 	
 	
 	</script>
-        <script id="EktronScriptBlockhcglr" type="text/javascript">
+        <script id="EktronScriptBlockrabtq" type="text/javascript">
 	
 	Ektron.ready(function(event, eventName){
 Ektron.FormBlock.create(
@@ -588,7 +588,7 @@ Ektron.FormBlock.create(
 	
 	
 	</script>
-        <script id="EktronScriptBlockxytkj" type="text/javascript">
+        <script id="EktronScriptBlockqciwn" type="text/javascript">
 	
 	Ektron.ready(function(event, eventName){
 Ektron.Controls.FormBlock.Utility.RedirectLink.init();

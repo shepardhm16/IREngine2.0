@@ -9,6 +9,26 @@
 
 package indexer;
 
+// We need to create filename-docID pair (0=0, 1=1, 10=2, 100=3, ..)
+/* 
+read all filenames in the directory; 
+for (i = 0, to ..) {
+    string str  = docname[i];
+    docidx = i;
+    filenumber < 0;
+*/
+
+// Second Problem:
+/*
+http://staging.vmi.edu/contents/aspx.id...
+and
+http://www.vmi.edu/contents/aspx.id...
+
+If they have the same ID, then remove one of them, since they are the same document
+
+Also, for indexing, we may want to use active/selected menu's and description for indexing
+*/
+
 import java.io.BufferedWriter;
 import java.io.DataOutputStream;
 import java.io.FileNotFoundException;
@@ -38,7 +58,7 @@ public class PostingsBuilder {
 	TermTable table = null;
         int termsInDocs[][] = null;
         
-	public PostingsBuilder() {
+	public void init() {
 		try {
 			postingsWriter = new DataOutputStream(new FileOutputStream(FileNames.POSTINGS));
 			indexingWriter = new DataOutputStream(new FileOutputStream(FileNames.INDEXING));
@@ -267,7 +287,7 @@ public class PostingsBuilder {
 			} 
 		}
 	}
-
+        
 	public void writemetaFileWriter(int noOfDocs, long avgDocLen, ArrayList<String> docs,  ArrayList<String> docTitles)
 			throws IOException {
 
@@ -290,7 +310,7 @@ public class PostingsBuilder {
 		} 
 	}
 
-
+        
 	public void writeIndexing(int docID, int dlen, int tlen, int[] t, int[] tf, TermTable table) throws IOException {
 
 		indexingTestWriter.write("doc-id:" + docID + ", doc-length:" + dlen + ", term-length:" + tlen + ", terms[term:freq]-");
@@ -304,7 +324,7 @@ public class PostingsBuilder {
 			} 
 		}
 		indexingTestWriter.newLine();
-
+                
 		indexingWriter.writeInt(docID);
 		indexingWriter.writeInt(dlen);
 		indexingWriter.writeInt(tlen);

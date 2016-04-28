@@ -101,11 +101,11 @@
   <form method="post" action="/Conferences/STEM/STEM_Call_for_Presentations/" id="aspnetForm" onsubmit="if('undefined' == typeof Ektron || !Ektron.FormBlock || !typeof Ektron.FormBlock.validate  || Ektron.FormBlock.validate(this)){$ektron('.ektron-ui-form input[type=submit]').attr('disabled','disable');return true;}else{return false;}"> 
    <div class="aspNetHidden"> 
     <input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-569449246,-1939951303,-1080527330,-1687560804,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1008700845,-335896034,646551512,-1228755533,561009152,1762586108,1881432062,1080084488,-1562465382"> 
-    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQFgIeCG9uc3VibWl0BegBaWYoJ3VuZGVmaW5lZCcgPT0gdHlwZW9mIEVrdHJvbiB8fCAhRWt0cm9uLkZvcm1CbG9jayB8fCAhdHlwZW9mIEVrdHJvbi5Gb3JtQmxvY2sudmFsaWRhdGUgIHx8IEVrdHJvbi5Gb3JtQmxvY2sudmFsaWRhdGUodGhpcykpeyRla3Ryb24oJy5la3Ryb24tdWktZm9ybSBpbnB1dFt0eXBlPXN1Ym1pdF0nKS5hdHRyKCdkaXNhYmxlZCcsJ2Rpc2FibGUnKTtyZXR1cm4gdHJ1ZTt9ZWxzZXtyZXR1cm4gZmFsc2U7fWQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCDw8PFgIeB1Zpc2libGVoZGQCEw9kFgYCAQ8PFgIfCWdkZAIDDw8WAh8JaGRkAgUPZBYCAgEPZBYCZg9kFgJmDxYCHwlnFgICAQ8PFgIfAwU2L3VwbG9hZGVkSW1hZ2VzL0NvbmZlcmVuY2VzL1NURU0veWVsbG93LXJvYm90LWJsdWUuanBnZGRk83hXoTwubyp+KNyo5/kRuy7GNz96epsDGpC39VC6gPo="> 
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTcwNjMzNzU0D2QWAmYPZBYCAgMQFgIeCG9uc3VibWl0BegBaWYoJ3VuZGVmaW5lZCcgPT0gdHlwZW9mIEVrdHJvbiB8fCAhRWt0cm9uLkZvcm1CbG9jayB8fCAhdHlwZW9mIEVrdHJvbi5Gb3JtQmxvY2sudmFsaWRhdGUgIHx8IEVrdHJvbi5Gb3JtQmxvY2sudmFsaWRhdGUodGhpcykpeyRla3Ryb24oJy5la3Ryb24tdWktZm9ybSBpbnB1dFt0eXBlPXN1Ym1pdF0nKS5hdHRyKCdkaXNhYmxlZCcsJ2Rpc2FibGUnKTtyZXR1cm4gdHJ1ZTt9ZWxzZXtyZXR1cm4gZmFsc2U7fWQWCgIFDxYCHgRUZXh0BRBzaWRlLWNvbHVtbi1sZWZ0ZAIJDw8WAh4LTmF2aWdhdGVVcmwFAS9kFgJmDw8WAh4ISW1hZ2VVcmwFHS9jb3JlL2ltYWdlcy9jb250ZW50L2xvZ28uanBnZGQCCw9kFgJmD2QWAmYPZBYEAgEPDxYEHghDc3NDbGFzcwUMc2VhcmNoLWlucHV0HgRfIVNCAgIWBB4Hb25Gb2N1cwWGAWlmKHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpeyB0aGlzLnZhbHVlPScnO3RoaXMuc2V0QXR0cmlidXRlKCdjbGFzcycsJ3NlYXJjaC1pbnB1dCcpO310aGlzLnNldEF0dHJpYnV0ZSgnY2xhc3MnLCdzZWFyY2gtaW5wdXQgJyk7HgZvbkJsdXIFUGlmKHRoaXMudmFsdWU9PScnIHx8IHRoaXMudmFsdWU9PSdzZWFyY2ggdm1pLmVkdScpe3RoaXMudmFsdWU9J3NlYXJjaCB2bWkuZWR1Jzt9ZAIDDxAPZBYCHgVzdHlsZQUMZGlzcGxheTpub25lEBUBA1ZNSRUBA1ZNSRQrAwFnZGQCDw8PFgIeB1Zpc2libGVoZGQCEw9kFgYCAQ8PFgIfCWdkZAIDDw8WAh8JaGRkAgUPZBYCAgEPZBYCZg9kFgJmDxYCHwlnFgICAQ8PFgIfAwUwL3VwbG9hZGVkSW1hZ2VzL0NvbmZlcmVuY2VzL1NURU0vU1RFTTIwMTYoMSkuanBnZGRkS5WaL1EIzZjA7y7poU9JUM+n/rrLsoRK1o+JeGFk5nc="> 
    </div> 
    <div class="aspNetHidden"> 
     <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="65E7F3AF"> 
-    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAASnGqRHNS+zMS8dqQ/YnqMeHVykfir7QAt7ooM8ffZZ72SJ6JjhK5zO8yTA+moYWv6tPUWcfG20m3dd15ZfyINT+R3EpjKnpjjai82PoBVufsnqYuwgjCtSjz5q9ITsCek="> 
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAQ11Zwt/zBuRk7DxwxLch47HVykfir7QAt7ooM8ffZZ72SJ6JjhK5zO8yTA+moYWv6tPUWcfG20m3dd15ZfyINTDj+qf3j2X2wQUzaJ4mnoe9Zjb6TvNSBfTrsyC04H2m0="> 
    </div> 
    <div id="container" class="side-column-left"> 
     <div class="masthead"> 
@@ -283,7 +283,7 @@
       <div id="ctl00_pageContent_sectionbanner" class="section-banner" data-set="banner"> 
        <div class="append-wrap"> 
         <div id="sectionBranding"> 
-         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Conferences/STEM/yellow-robot-blue.jpg" style="width:700px;"> 
+         <img id="ctl00_pageContent_ctl01_imgBanner" src="/uploadedImages/Conferences/STEM/STEM2016(1).jpg" style="width:700px;"> 
          <hr> 
         </div> 
        </div> 
@@ -298,7 +298,7 @@
          <input type="hidden" name="EktFormTitle" value="STEM Call for Presentations"> 
          <input type="hidden" name="EktFormDescription" value="Call for Presentations for STEM Conference"> 
          <input type="hidden" name="EktFormLang" value="1033"> 
-         <input type="hidden" name="EktFormPublishDate" value="11/3/2015 9:34:58 AM"> 
+         <input type="hidden" name="EktFormPublishDate" value="4/26/2016 1:52:10 PM"> 
          <p align="center"><strong>VMI 2015 STEM Conference<br>Hands-on&nbsp;STEM:&nbsp; Technology and Integrated Project-based Learning<br>Presentation/Workshop RFP</strong> <strong><em>Due by July 10, 2015</em></strong></p> 
          <table border="1"> 
           <tbody> 
@@ -484,7 +484,7 @@ if (strError=='' && 'function' == typeof design_validateHtmlForm) {
 // --> 
 </script> 
         </div> 
-        <script id="EktronScriptBlockqwgcq" type="text/javascript">
+        <script id="EktronScriptBlockwhgco" type="text/javascript">
 	
 	Ektron.ready(function(event, eventName){
 var settings = 
@@ -519,7 +519,7 @@ try {
 	
 	
 	</script>
-        <script id="EktronScriptBlockdcqsy" type="text/javascript">
+        <script id="EktronScriptBlocklrong" type="text/javascript">
 	
 	Ektron.ready(function(event, eventName){
 Ektron.FormBlock.create(
@@ -537,7 +537,7 @@ Ektron.FormBlock.create(
 	
 	
 	</script>
-        <script id="EktronScriptBlockjsnst" type="text/javascript">
+        <script id="EktronScriptBlockpfyhv" type="text/javascript">
 	
 	Ektron.ready(function(event, eventName){
 Ektron.Controls.FormBlock.Utility.RedirectLink.init();

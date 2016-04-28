@@ -27,8 +27,8 @@ public class FileContentsWriter {
                 }
         }
         try {
-            
-            writer[0].write(text);
+            if(tag.equalsIgnoreCase("body"))
+                writer[0].write(text);
         } catch (IOException e) {}
     }
     

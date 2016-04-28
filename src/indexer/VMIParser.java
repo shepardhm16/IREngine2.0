@@ -17,6 +17,7 @@ import utility.FileNames;
 public class VMIParser {
 	TermTable termTable = new TermTable();
 	PostingsBuilder postings = new PostingsBuilder();
+        Indexer indexer = new Indexer();
 
 	public static void main(String[] args) {
 
@@ -24,6 +25,7 @@ public class VMIParser {
 		String dir = "./data/contents/all";
 		parser.buildTermTable(dir);  // When running the parser.buildPostings(dir), comment this line out
 		parser.buildPostings(dir); // When running the parser.buildTermTable(dir), comment this line out
+                parser.buildIndexing();
 		try {
 			parser.writeTermTableToFile();
 		} catch(IOException e) {
@@ -39,8 +41,16 @@ public class VMIParser {
 	}
 	
 	public void buildPostings(String dir) {
+                postings.init();
 		postings.build(dir, this.termTable);
 		postings.finalize();
+		
+	}
+        
+        public void buildIndexing() {
+            indexer.init();
+            indexer.build(this.termTable);
+            indexer.finalize();
 		
 	}
 	

@@ -12,18 +12,18 @@
   <link rel="stylesheet" href="/web/jquery/css/1.8.24_themes_base_jquery-ui.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <link rel="stylesheet" href="/web/bootstrap-accessibility-plugin/css/bootstrap-accessibility_1.0.3.css"> 
-  <link rel="stylesheet" href="/web/css1.12.14/springshare.public.min.css"> 
+  <link rel="stylesheet" href="/web/css1.12.16/springshare.public.min.css"> 
   <!--[if lt IE 9]> 
-					<link rel="stylesheet" href="/web/css1.12.14/springshare.public.ie8hacks.css" /> 
+					<link rel="stylesheet" href="/web/css1.12.16/springshare.public.ie8hacks.css" /> 
 			<![endif]--> 
-  <link rel="stylesheet" href="/web/css1.12.14/springshare.common.min.css"> 
+  <link rel="stylesheet" href="/web/css1.12.16/springshare.common.min.css"> 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
   <script type="text/javascript" src="/web/jquery/js/1.12.1_jquery.min.js"></script> 
   <script type="text/javascript" src="/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
   <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="/web/bootstrap-accessibility-plugin/js/bootstrap-accessibility_1.0.3.min.js"></script> 
-  <script type="text/javascript" src="/web/js1.12.14/springshare.common.min.js"></script> 
-  <script type="text/javascript" src="/web/js1.12.14/springshare.public.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.16/springshare.common.min.js"></script> 
+  <script type="text/javascript" src="/web/js1.12.16/springshare.public.min.js"></script> 
   <!-- BEGIN: CUSTOM HEAD JS/CSS --> 
   <!-- END: CUSTOM HEAD JS/CSS --> 
   <script>
@@ -268,23 +268,6 @@
       <div class="txt pad-top-sm"> 
        <div class="s-lib-featured-profile-container"> 
         <div class="s-lib-featured-profile-image">
-         <a href="/prf.php?account_id=69649"><img src="//s3.amazonaws.com/libapps/accounts/69649/profiles/59213/Aufmuth_Joe2015copy.jpg" alt="Profile Image"></a> 
-        </div> 
-        <div class="s-lib-profile-div s-lib-featured-profile-name">
-         Joe Aufmuth 
-        </div> 
-       </div> 
-       <div class="s-lib-featured-profile-container"> 
-        <div class="s-lib-featured-profile-image">
-         <a href="/prf.php?account_id=9776"><img src="//s3.amazonaws.com/libapps/accounts/9776/profiles/6960/Maderik_Rachel2015_sm.jpg" alt="Profile Image"></a> 
-        </div> 
-        <div class="s-lib-profile-div s-lib-featured-profile-name">
-         Rachel Maderik 
-        </div> 
-       </div>
-       <div class="s-lib-featured-profile-spacer clearfix"></div> 
-       <div class="s-lib-featured-profile-container"> 
-        <div class="s-lib-featured-profile-image">
          <a href="/prf.php?account_id=8880"><img src="//s3.amazonaws.com/libapps/accounts/8880/profiles/6101/HollyJanet2015__cropped_3_.jpg" alt="Profile Image"></a> 
         </div> 
         <div class="s-lib-profile-div s-lib-featured-profile-name">
@@ -293,10 +276,27 @@
        </div> 
        <div class="s-lib-featured-profile-container"> 
         <div class="s-lib-featured-profile-image">
-         <a href="/prf.php?account_id=9777"><img src="//s3.amazonaws.com/libapps/accounts/9777/profiles/6961/MajBrickler_2011rFxV3sml.png" alt="Profile Image"></a> 
+         <a href="/prf.php?account_id=69649"><img src="//s3.amazonaws.com/libapps/accounts/69649/profiles/59213/Aufmuth_Joe2015copy.jpg" alt="Profile Image"></a> 
         </div> 
         <div class="s-lib-profile-div s-lib-featured-profile-name">
-         Michael Brickler 
+         Joe Aufmuth 
+        </div> 
+       </div>
+       <div class="s-lib-featured-profile-spacer clearfix"></div> 
+       <div class="s-lib-featured-profile-container"> 
+        <div class="s-lib-featured-profile-image">
+         <a href="/prf.php?account_id=1984"><img src="//s3.amazonaws.com/libapps/accounts/1984/profiles/1895/Mullen_am_headshot.jpg" alt="Profile Image"></a> 
+        </div> 
+        <div class="s-lib-profile-div s-lib-featured-profile-name">
+         Accacia Mullen 
+        </div> 
+       </div> 
+       <div class="s-lib-featured-profile-container"> 
+        <div class="s-lib-featured-profile-image">
+         <a href="/prf.php?account_id=9776"><img src="//s3.amazonaws.com/libapps/accounts/9776/profiles/6960/Maderik_Rachel2015_sm.jpg" alt="Profile Image"></a> 
+        </div> 
+        <div class="s-lib-profile-div s-lib-featured-profile-name">
+         Rachel Maderik 
         </div> 
        </div> 
       </div>
