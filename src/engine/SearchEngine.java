@@ -43,7 +43,7 @@ public class SearchEngine {
 
 	QueryProcessor processor = new QueryProcessor();
 	TermTable termTable = new TermTable();
-	int [] docpointer = new int[9];
+	int [] docpointer = null;
 	int noOfDocs = 0;
 	float avgDocLength = 0;
 	RandomAccessFile postingsFile = null;
