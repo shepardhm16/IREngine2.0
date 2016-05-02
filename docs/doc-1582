@@ -28,19 +28,19 @@
   <meta property="og:type" content="website">
   <link href="//fonts.googleapis.com/css?family=Droid+Sans:regular,bold&amp;subset=latin" rel="stylesheet" type="text/css">
   <!-- Custom Font -->
-  <link rel="stylesheet" href="/css/main.css?4a573a1">
-  <!--[if IE 6]><link rel="stylesheet" href="/css/ie6.css?4a573a1" /><![endif]-->
-  <!--[if IE 7]><link rel="stylesheet" href="/css/ie7.css?4a573a1" /><![endif]-->
+  <link rel="stylesheet" href="/css/main.css?ddf5b22">
+  <!--[if IE 6]><link rel="stylesheet" href="/css/ie6.css?ddf5b22" /><![endif]-->
+  <!--[if IE 7]><link rel="stylesheet" href="/css/ie7.css?ddf5b22" /><![endif]-->
   <script src="/js/jquery.1.9.1.min.js"></script>
   <script src="/js/jquery-ui-features.min.js"></script>
-  <script defer src="/js/main.js?4a573a1"></script>
+  <script defer src="/js/main.js?ddf5b22"></script>
   <style></style>
   <script type="text/javascript" charset="utf-8">
             document.write('<style type="text/css">.hide { display: none; }</style>');
             document.write('<style type="text/css">.hideNoscript { display: block; }</style>');
         </script>
  </head>
- <body data-group="A">
+ <body data-group="B">
   <!-- DataLayer -->
   <script type="text/javascript">
                 window.dataLayer = window.dataLayer || [];
@@ -422,9 +422,9 @@
         <div class="col-2">
          <span class="headline"><a href="https://www.statista.com/chartoftheday/" title=""> Recent Infographics </a></span>
          <ol>
-          <li><a href="https://www.statista.com/chart/4710/where-the-worlds-fake-goods-originate/"> Where The World's Fake Goods Originate </a></li>
-          <li><a href="https://www.statista.com/chart/4712/celebrity-deaths-bbc-prince/"> Unusual Uptake in Celebrity Deaths in 2016 </a></li>
-          <li><a href="https://www.statista.com/chart/4700/britains-monarchy_-more-popular-than-ever/"> Britain's Monarchy: More Popular Than Ever </a></li>
+          <li><a href="https://www.statista.com/chart/4760/housing-costs-renters-more-worried-than-homeowners/"> Housing Costs: Renters More Worried Than Homeowners </a></li>
+          <li><a href="https://www.statista.com/chart/4351/twitter-user-growth/"> Twitter Struggles to Reignite Its Growth Engine </a></li>
+          <li><a href="https://www.statista.com/chart/4753/the-countries-with-the-highest-self-employment-rates/"> The Countries With The Highest Self-Employment Rates </a></li>
           <li class="all"><a href="https://www.statista.com/chartoftheday/"> All Infographics </a></li>
          </ol>
         </div>
@@ -485,7 +485,7 @@
      <div class="box">
       <div id="mainSearch" class="animated fadeInUp ">
        <form id="mainSearchForm" method="get" role="search" action="https://www.statista.com/search/">
-        <input id="mainq" type="text" name="q" value="" placeholder="Search in our statistics database with over 1,000,000 statistics..." maxlength="1024">
+        <input id="mainq" type="text" name="q" value="" placeholder="Search among 1,000,000 statistics" maxlength="1024">
         <input id="mainsearchsubmit" type="submit" value="Search">
        </form>
       </div>
@@ -595,14 +595,14 @@
       <div class="box">
        <div class="frontPadRight">
         <div id="infographicSlider" class="royalSlider rsUni">
-         <a class="rsContent" href="https://www.statista.com/chart/4724/a-terrible-year-for-celebrity-deaths/" data-rsbigimg="http://cdn5.statista.com/images/infografik/small/4724_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg" src="http://cdn5.statista.com/images/infografik/small/4724_n.jpg" width="355" height="253" alt="Infographic - A terrible year for celebrity deaths"><img class="rsTmb" src="http://cdn1.statista.com/images/infografik/sushiTeaser/4724_s.jpg" width="100" height="71" alt=""></a>
-         <a class="rsContent" href="https://www.statista.com/chart/4734/the-most-powerful-earthquakes-in-history/" data-rsbigimg="http://cdn4.statista.com/images/infografik/small/4734_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn4.statista.com/images/infografik/small/4734_n.jpg" width="355" height="253" alt="Infographic - The Most Powerful Earthquakes In History"><img class="rsTmb hideNoscript" src="http://cdn4.statista.com/images/infografik/sushiTeaser/4734_s.jpg" width="100" height="71" alt=""></a>
-         <a class="rsContent" href="https://www.statista.com/chart/4718/danger-pay/" data-rsbigimg="http://cdn5.statista.com/images/infografik/small/4718_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn5.statista.com/images/infografik/small/4718_n.jpg" width="355" height="253" alt="Infographic - Where to go to get Paid for Dangerous Assignments"><img class="rsTmb hideNoscript" src="http://cdn5.statista.com/images/infografik/sushiTeaser/4718_s.jpg" width="100" height="71" alt=""></a>
-         <a class="rsContent" href="https://www.statista.com/chart/4721/the-highest-paying-companies-in-america/" data-rsbigimg="http://cdn5.statista.com/images/infografik/small/4721_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn5.statista.com/images/infografik/small/4721_n.jpg" width="355" height="253" alt="Infographic - The Highest-Paying Companies In America"><img class="rsTmb hideNoscript" src="http://cdn5.statista.com/images/infografik/sushiTeaser/4721_s.jpg" width="100" height="71" alt=""></a>
-         <a class="rsContent" href="https://www.statista.com/chart/4725/world-press-freedom-visualised/" data-rsbigimg="http://cdn5.statista.com/images/infografik/small/4725_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn5.statista.com/images/infografik/small/4725_n.jpg" width="355" height="253" alt="Infographic - World press freedom visualised"><img class="rsTmb hideNoscript" src="http://cdn5.statista.com/images/infografik/sushiTeaser/4725_s.jpg" width="100" height="71" alt=""></a>
-         <a class="rsContent" href="https://www.statista.com/chart/4726/the-irish-government-pays-millions-towards-funerals/" data-rsbigimg="http://cdn5.statista.com/images/infografik/small/4726_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn5.statista.com/images/infografik/small/4726_n.jpg" width="355" height="253" alt="Infographic - The Irish government pays millions towards funerals "><img class="rsTmb hideNoscript" src="http://cdn4.statista.com/images/infografik/sushiTeaser/4726_s.jpg" width="100" height="71" alt=""></a>
-         <a class="rsContent" href="https://www.statista.com/chart/4728/the-top-10-most-cited-reasons-for-needing-a-holiday/" data-rsbigimg="http://cdn5.statista.com/images/infografik/small/4728_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn5.statista.com/images/infografik/small/4728_n.jpg" width="355" height="253" alt="Infographic - The top 10 most cited reasons for needing a holiday"><img class="rsTmb hideNoscript" src="http://cdn5.statista.com/images/infografik/sushiTeaser/4728_s.jpg" width="100" height="71" alt=""></a>
-         <a class="rsContent" href="https://www.statista.com/chart/4730/iphone-sales-since-2007/" data-rsbigimg="http://cdn3.statista.com/images/infografik/small/4730_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn3.statista.com/images/infografik/small/4730_n.jpg" width="355" height="253" alt="Infographic - The iPhone Growth Story May Be Coming to an End"><img class="rsTmb hideNoscript" src="http://cdn3.statista.com/images/infografik/sushiTeaser/4730_s.jpg" width="100" height="71" alt=""></a>
+         <a class="rsContent" href="https://www.statista.com/chart/4760/housing-costs-renters-more-worried-than-homeowners/" data-rsbigimg="http://cdn3.statista.com/images/infografik/small/4760_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg" src="http://cdn3.statista.com/images/infografik/small/4760_n.jpg" width="355" height="253" alt="Infographic - Housing Costs: Renters More Worried Than Homeowners"><img class="rsTmb" src="http://cdn4.statista.com/images/infografik/sushiTeaser/4760_s.jpg" width="100" height="71" alt=""></a>
+         <a class="rsContent" href="https://www.statista.com/chart/4351/twitter-user-growth/" data-rsbigimg="http://cdn5.statista.com/images/infografik/small/4351_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn5.statista.com/images/infografik/small/4351_n.jpg" width="355" height="253" alt="Infographic - Twitter Struggles to Reignite Its Growth Engine"><img class="rsTmb hideNoscript" src="http://cdn3.statista.com/images/infografik/sushiTeaser/4351_s.jpg" width="100" height="71" alt=""></a>
+         <a class="rsContent" href="https://www.statista.com/chart/4753/the-countries-with-the-highest-self-employment-rates/" data-rsbigimg="http://cdn3.statista.com/images/infografik/small/4753_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn3.statista.com/images/infografik/small/4753_n.jpg" width="355" height="253" alt="Infographic - The Countries With The Highest Self-Employment Rates"><img class="rsTmb hideNoscript" src="http://cdn5.statista.com/images/infografik/sushiTeaser/4753_s.jpg" width="100" height="71" alt=""></a>
+         <a class="rsContent" href="https://www.statista.com/chart/4754/muesli-is-toast/" data-rsbigimg="http://cdn5.statista.com/images/infografik/small/4754_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn5.statista.com/images/infografik/small/4754_n.jpg" width="355" height="253" alt="Infographic - Muesli is toast!"><img class="rsTmb hideNoscript" src="http://cdn5.statista.com/images/infografik/sushiTeaser/4754_s.jpg" width="100" height="71" alt=""></a>
+         <a class="rsContent" href="https://www.statista.com/chart/4755/how-the-public-feels-about-the-junior-doctors-walk-out/" data-rsbigimg="http://cdn5.statista.com/images/infografik/small/4755_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn5.statista.com/images/infografik/small/4755_n.jpg" width="355" height="253" alt="Infographic - How the public feels about the junior doctors' walk out"><img class="rsTmb hideNoscript" src="http://cdn1.statista.com/images/infografik/sushiTeaser/4755_s.jpg" width="100" height="71" alt=""></a>
+         <a class="rsContent" href="https://www.statista.com/chart/4756/brits-love-obama-but-not-his-brexit-butt-in/" data-rsbigimg="http://cdn5.statista.com/images/infografik/small/4756_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn5.statista.com/images/infografik/small/4756_n.jpg" width="355" height="253" alt="Infographic - Brits love Obama but not his Brexit butt-in"><img class="rsTmb hideNoscript" src="http://cdn5.statista.com/images/infografik/sushiTeaser/4756_s.jpg" width="100" height="71" alt=""></a>
+         <a class="rsContent" href="https://www.statista.com/chart/4743/the-cities-where-rent-swallows-your-salary/" data-rsbigimg="http://cdn2.statista.com/images/infografik/small/4743_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn2.statista.com/images/infografik/small/4743_n.jpg" width="355" height="253" alt="Infographic - The Cities Where Rent Swallows Your Salary"><img class="rsTmb hideNoscript" src="http://cdn2.statista.com/images/infografik/sushiTeaser/4743_s.jpg" width="100" height="71" alt=""></a>
+         <a class="rsContent" href="https://www.statista.com/chart/4744/german-troops-missions-international/" data-rsbigimg="http://cdn4.statista.com/images/infografik/small/4744_n.jpg" data-rsw="397" data-rsh="282"><img class="rsImg hideNoscript" src="http://cdn4.statista.com/images/infografik/small/4744_n.jpg" width="355" height="253" alt="Infographic - German Armed Forces Taking Part in International Missions"><img class="rsTmb hideNoscript" src="http://cdn4.statista.com/images/infografik/sushiTeaser/4744_s.jpg" width="100" height="71" alt=""></a>
         </div>
        </div>
       </div>
@@ -646,9 +646,9 @@
             <div class="statTitle">
              Instagram accounts with the most followers worldwide 2016
             </div></li>
-           <li><a href="/statistics/264810/number-of-monthly-active-facebook-users-worldwide/" title="Number of monthly active Facebook users worldwide as of 4th quarter 2015 (in millions)"><span> Number of monthly active Facebook users worldwide as of 4th quarter 2015 (in millions) </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="264810" data-src="http://static5.statista.com/Statistic/260000/264810-blank-100.png">
+           <li><a href="/statistics/264810/number-of-monthly-active-facebook-users-worldwide/" title="Number of monthly active Facebook users worldwide as of 1st quarter 2016 (in millions)"><span> Number of monthly active Facebook users worldwide as of 1st quarter 2016 (in millions) </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="264810" data-src="http://static5.statista.com/Statistic/260000/264810-blank-100.png">
             <div class="statTitle">
-             Facebook: number of monthly active users worldwide 2008-2015
+             Facebook: number of monthly active users worldwide 2008-2016
             </div></li>
           </ul>
           <div class="center">
@@ -657,29 +657,29 @@
          </div>
          <div id="recentStats" class="tabContent">
           <ul class="statListNew withIcon">
-           <li><a href="/statistics/419982/honda-car-sales-in-denmark/" title="Number of Honda cars sold in Denmark from 2009 to 2015"><span> Number of Honda cars sold in Denmark from 2009 to 2015 </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="419982" data-src="http://static2.statista.com/Statistic/415000/419982-blank-100.png">
+           <li><a href="/statistics/424133/brazil-growth-forecast-telecom-sevices/" title="Forecast of telecom services spending growth in Brazil from 2015 to 2019"><span> Forecast of telecom services spending growth in Brazil from 2015 to 2019 </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="424133" data-src="http://static5.statista.com/Statistic/420000/424133-blank-100.png"><span class="premiumOverlay">+</span>
             <div class="statTitle">
-             Honda car sales in Denmark 2009-2015
+             Spending growth forecast telecom services Brazil 2015-2019
             </div></li>
-           <li><a href="/statistics/419981/volvo-car-sales-in-denmark/" title="Number of Volvo cars sold in Denmark from 2009 to 2015"><span> Number of Volvo cars sold in Denmark from 2009 to 2015 </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="419981" data-src="http://static3.statista.com/Statistic/415000/419981-blank-100.png">
+           <li><a href="/statistics/284857/total-unemployment-benefits-paid-in-the-us/" title="Total monthly unemployment insurance benefits paid in the United States between 2015 and 2016 (in billion U.S. dollars)"><span> Total monthly unemployment insurance benefits paid in the United States between 2015 and 2016 (in billion U.S. dollars) </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="284857" data-src="http://static5.statista.com/Statistic/280000/284857-blank-100.png">
             <div class="statTitle">
-             Volvo car sales in Denmark 2009-2015
+             Total unemployment benefits paid in the U.S., 2015-2016
             </div></li>
-           <li><a href="/statistics/419980/chevrolet-car-sales-in-denmark/" title="Number of Chevrolet cars sold in Denmark from 2009 to 2015"><span> Number of Chevrolet cars sold in Denmark from 2009 to 2015 </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="419980" data-src="http://static2.statista.com/Statistic/415000/419980-blank-100.png">
+           <li><a href="/statistics/216778/monthly-percentage-of-change-in-personal-consumption-expenditures-in-the-us/" title="Monthly percentage of change in personal consumption expenditure (PCE) in the United States from March 2015 to March 2016"><span> Monthly percentage of change in personal consumption expenditure (PCE) in the United States from March 2015 to March 2016 </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="216778" data-src="http://static5.statista.com/Statistic/215000/216778-blank-100.png">
             <div class="statTitle">
-             Chevrolet car sales in Denmark 2009-2015
+             U.S. personal consumption expenditure - monthly percentage of change 2015/16
             </div></li>
-           <li><a href="/statistics/419979/mazda-car-sales-in-denmark/" title="Number of Mazda cars sold in Denmark from 2009 to 2015"><span> Number of Mazda cars sold in Denmark from 2009 to 2015 </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="419979" data-src="http://static5.statista.com/Statistic/415000/419979-blank-100.png">
+           <li><a href="/statistics/216773/monthly-percentage-of-change-in-the-disposable-personal-income-in-the-us/" title="Monthly percentage of change in disposable personal income (DPI) in the United States from March 2015 to March 2016"><span> Monthly percentage of change in disposable personal income (DPI) in the United States from March 2015 to March 2016 </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="216773" data-src="http://static5.statista.com/Statistic/215000/216773-blank-100.png">
             <div class="statTitle">
-             Mazda car sales in Denmark 2009-2015
+             U.S. disposable personal income - monthly percentage of change 2015/16
             </div></li>
-           <li><a href="/statistics/226896/trade-revenue-of-cars-in-china-by-month/" title="Retail trade revenue of cars in China from March 2015 to March 2016 (in billion yuan)"><span> Retail trade revenue of cars in China from March 2015 to March 2016 (in billion yuan) </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="226896" data-src="http://static5.statista.com/Statistic/225000/226896-blank-100.png"><span class="premiumOverlay">+</span>
+           <li><a href="/statistics/216765/monthly-percentage-of-change-in-the-personal-income-in-the-us/" title="Monthly percentage of change in personal income in the United States from March 2015 to March 2016"><span> Monthly percentage of change in personal income in the United States from March 2015 to March 2016 </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="216765" data-src="http://static5.statista.com/Statistic/215000/216765-blank-100.png">
             <div class="statTitle">
-             Retail sales of cars in China by month March 2016
+             U.S. personal income - monthly percentage of change March 2016
             </div></li>
-           <li><a href="/statistics/419976/fiat-car-sales-in-denmark/" title="Number of Fiat cars sold in Denmark from 2009 to 2015"><span> Number of Fiat cars sold in Denmark from 2009 to 2015 </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="419976" data-src="http://static5.statista.com/Statistic/415000/419976-blank-100.png">
+           <li><a href="/statistics/423250/brazil-telecom-services-spending-forecast/" title="Forecast of telecom services spending in Brazil from 2013 to 2019 (in billion U.S. dollars)"><span> Forecast of telecom services spending in Brazil from 2013 to 2019 (in billion U.S. dollars) </span></a><img src="http://cdn2.statista.com/static/icons/blank.gif" width="1" height="1" class="floatLeft tn table lazy" data-id="423250" data-src="http://static4.statista.com/Statistic/420000/423250-blank-100.png"><span class="premiumOverlay">+</span>
             <div class="statTitle">
-             Fiat car sales in Denmark 2009-2015
+             Telecom services spending forecast Brazil 2013-2019
             </div></li>
           </ul>
           <div class="center">
@@ -705,7 +705,7 @@
        <div class="subBox frontPadRight">
         <div class="imgLeft hideMobile">
          <img src="http://cdn5.statista.com/static/img/statistic/Statistics-Uptodate.jpg" alt="Always up-to-date" style="display: inline-block" class="floatLeft colorRotation" width="164" height="114">
-         <span class="calCurContainer"><span class="calCurMonth">Apr</span><span class="calCurDay">26</span></span>
+         <span class="calCurContainer"><span class="calCurMonth">Apr</span><span class="calCurDay">30</span></span>
          <div class="clear"></div>
         </div>
         <div class="imgLeftDesc">
@@ -1061,7 +1061,7 @@
    </div>
   </div>
   <div class="skyscraper hidePrint">
-   <a href="/banner/track/56fbbe96cc0f23189ce6641a/http_--connected-consumergfkcom-/" rel="nofollow" target="_blank" title="GfK"><img src="http://static5.statista.com/ads/56fbbe96cc0f23189ce6641a.gif" height="600"></a>
+   <a href="/banner/track/56b200c5898d7617f8b346c3/http_--hubsly-h020sm70/" rel="nofollow" target="_blank" title="The Art of Data Visualisation by Prezi"><img src="http://static5.statista.com/ads/56b200c5898d7617f8b346c3.jpg" height="600"></a>
   </div>
   <div class="youtubeLayer fadeIn hideNoscript hideMobile">
    <div class="layerHolder hide">
@@ -1268,7 +1268,7 @@ $('#topicinfoboxImg').bind('inview', function (event, visible, visiblePartX, vis
 
                                     _gaq.push(['_setCustomVar',2,'loggedIn','16',2 ]);
                                 
-                                 _gaq.push(['_setCustomVar',1,'testGroup','A', 1 ]);
+                                 _gaq.push(['_setCustomVar',1,'testGroup','B', 1 ]);
                     
                                                     
                                 $('.btn.publicationRights').on('click',function(event) {

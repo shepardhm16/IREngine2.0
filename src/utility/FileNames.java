@@ -18,7 +18,7 @@ public class FileNames {
 	public final static String POSTINGSPTR = "./data/dictionary/postingsPointer";
 	public final static String METAFILE = "./data/metainfo";
 	
-        public static String[] DIRS = {"all", "h1", "h2", "h3", "h4", "sub-header", "title", "selected"};//, "decription"};
+        public static String[] DIRS = {"all", "h1", "h2", "h3", "h4", "sub-header", "title", "selected", "decription"};
         
 }
 
