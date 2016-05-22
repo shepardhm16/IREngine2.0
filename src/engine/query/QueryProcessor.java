@@ -21,7 +21,7 @@ public class QueryProcessor {
 	public final static int BOOL_OR = 1; 
 	final static int BOOL_AND = 2;
 
-	public int[] getPostings(TermTable table, RandomAccessFile postingFile, int[] qt, int[] qtf, int[] docpointer) {
+	public int[] getPostings(TermTable table, RandomAccessFile postingFile, int[] qt, int[] qtf) {
 		int[][] postings = new int[qt.length][];
 
 		for(int i=0; i<qt.length;i++) {
@@ -51,7 +51,7 @@ public class QueryProcessor {
 		if(qt.length==1)
 			return postings[0];
 		
-		return mergeResult(postings, QueryProcessor.BOOL_OR);
+		return mergeResult(postings, QueryProcessor.BOOL_AND);
 
 	}
 	
@@ -81,7 +81,8 @@ public class QueryProcessor {
 						temp.add(data[i][j]);
 					} else {
 						if(temp.contains(data[i][j]) == true)
-							merged.add(data[i][j]);
+							if(merged.contains(data[i][j]) == false)
+                                                            merged.add(data[i][j]);
 						else if(merged.contains(data[i][j]))
 							merged.remove(data[i][j]);
 					}

@@ -38,16 +38,16 @@ public class SearchEngine {
 	public static final int W_BM15 = 1006;
 	public static final int W_BM25 = 1007;
 
-	private static int weightingOptions = SearchEngine.W_BOOL;
+	private static int weightingOptions = SearchEngine.W_BM25;
 	private static boolean indexingOptions = false;
 
 	QueryProcessor processor = new QueryProcessor();
 	TermTable termTable = new TermTable();
-	int [] docpointer = null;
+	int [][] docpointer = null;
 	int noOfDocs = 0;
 	float avgDocLength = 0;
 	RandomAccessFile postingsFile = null;
-	RandomAccessFile indexingFile = null;
+	RandomAccessFile[] indexingFile = null;
 	Ranking ranking = null;
 	String[] docFileNames = null;
 	String[] docTitles = null;
@@ -110,16 +110,7 @@ public class SearchEngine {
 			}   
 			bufferedReader.close();
 
-
-			fileReader = new FileReader(FileNames.DOCPTR);
-			bufferedReader = new BufferedReader(fileReader);
-			idx = 0;
-			while((line = bufferedReader.readLine()) != null) {
-				if(line.trim().length()<1) break;
-				docpointer[idx] = Integer.parseInt(line);
-				idx++;
-			}   
-			bufferedReader.close();
+                        
 
 			fileReader = new FileReader(FileNames.METAFILE);
 			bufferedReader = new BufferedReader(fileReader);
@@ -133,6 +124,21 @@ public class SearchEngine {
 			}
 
 			bufferedReader.close();
+                        
+                        docpointer = new int [FileNames.DIRS.length][noOfDocs];
+                        for(int i=0; i<FileNames.DIRS.length;i++) {
+                            fileReader = new FileReader(FileNames.DOCPTR + "-" +FileNames.DIRS[i]);
+                            bufferedReader = new BufferedReader(fileReader);
+                            idx = 0;
+                            while((line = bufferedReader.readLine()) != null) {
+                                    if(line.trim().length()<1) break;
+                                    docpointer[i][idx] = Integer.parseInt(line.trim());
+                                    idx++;
+                            }   
+                            bufferedReader.close();
+                        }
+                        
+                        
 
 		} catch(FileNotFoundException ex) {
 			System.out.println("Unable to open file: " + ex.getMessage());
@@ -141,10 +147,13 @@ public class SearchEngine {
 			System.out.println("Error reading file'");                  
 
 		}
-
+                
 		try {
 			postingsFile = new RandomAccessFile(FileNames.POSTINGS, "r");
-			indexingFile = new RandomAccessFile(FileNames.INDEXING, "r");
+                        indexingFile = new RandomAccessFile[FileNames.DIRS.length];
+                        for(int i=0; i<FileNames.DIRS.length;i++)
+                            indexingFile[i] = new RandomAccessFile(FileNames.INDEXING+"-"+FileNames.DIRS[i], "r");
+                        
 			ranking = new Ranking(termTable, noOfDocs, avgDocLength, docpointer, indexingFile);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -192,13 +201,14 @@ public class SearchEngine {
 		if(qt[0] == -1)
 			return HtmlGenerator.getNoResultFound(query); 
 		else {
-			int result[] = processor.getPostings(termTable,postingsFile, qt, qtf, docpointer);
-
+			int result[] = processor.getPostings(termTable,postingsFile, qt, qtf);
+                        SearchEngine.weightingOptions = W_BM25;
 			if(SearchEngine.weightingOptions == SearchEngine.W_BOOL) {
 				for (int i=0 ; i<result.length;i++) {
 					rank.add(new Pair(result[i], 0));
 				}
 			} else {
+                            
 				for (int i=0 ; i<result.length;i++) {
 					rank.add(new Pair(result[i], ranking.getScore(result[i], qt, qtf, 
 							weightingOptions, indexingOptions, docTitles)));
@@ -214,7 +224,13 @@ public class SearchEngine {
 			 *    second-line: Document Description (100 characters) (font-size:14px;color:#333)
 			 *    third-line: Score (red color;font-weight:bold;font-size:12px)
 			 */
-			return HtmlGenerator.getSearchResult(rank, this.docFileNames, this.docTitles);
+                        int aaaa= 0;
+                        for(Pair p: rank) {
+                            if(aaaa++>10) break;
+                            System.out.println("[Results]" + p.docID + ": " + p.getScore());
+                        }
+			return "";
+                        //return HtmlGenerator.getSearchResult(rank, this.docFileNames, this.docTitles);
 		}
 
 

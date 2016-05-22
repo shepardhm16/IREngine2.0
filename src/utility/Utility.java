@@ -28,6 +28,15 @@ public class Utility {
 		});
 		return docs;
 	}
+        
+        public static ArrayList<String> getAllDocuments2(String dir) throws IOException {
+		ArrayList<String> docs2 = new ArrayList<String>();
+
+		Files.walk(Paths.get(dir)).forEach(filePath -> {
+				docs2.add(filePath.toString());
+		});
+		return docs2;
+	}
 
 	public static int search(String[] tree, String key) {  //Add a BS for Int
 		int low = 0;
@@ -44,6 +53,20 @@ public class Utility {
 		return -1;
 	}
 
+        public static int search(int[] tree, int key) {  //Add a BS for Int
+		int low = 0;
+		int high = tree.length - 1;
+		int mid;
+		int v;
+		while (low <= high) {
+			mid = (low + high) / 2;
+			if      (key<tree[mid]) high = mid - 1;
+			else if (key > tree[mid]) low = mid + 1;
+			else return mid;
+		}
+		return -1;
+	}
+        
 	public static void createDirectory(String path) {
 		File theDir = new File(path);
 

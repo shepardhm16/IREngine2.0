@@ -25,13 +25,14 @@ public class VMIParser {
 	public static void main(String[] args) {
 
 		VMIParser parser = new VMIParser();
-		String dir = "./data/contents/all";
+		String dir = "./data/contents/all"; //might be ./docs/
 		parser.buildTermTable(dir);  // When running the parser.buildPostings(dir), comment this line out
+                dir = "./docs/";
 		//parser.buildPostings(dir); // When running the parser.buildTermTable(dir), comment this line out
                 parser.buildIndexing();
 		try {
 			parser.writeTermTableToFile();
-		} catch(IOException e) {
+		} catch(Exception e) {
 			System.out.println("Cannot Open File to Write!!!");
 		}
 		

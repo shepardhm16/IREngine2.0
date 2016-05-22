@@ -4,12 +4,12 @@
   <script type="text/javascript" src="http://smallcontent.ebsco-content.com/interfacefiles/16.1.0.155.1/javascript/json2/json2.js"></script> 
   <script type="text/javascript" src="http://smallcontent.ebsco-content.com/interfacefiles/16.1.0.155.1/javascript/polyfill/sessionStorage.js"></script> 
   <script type="text/javascript">
-						var obj = {"sid":"ebd521b2-1e1d-48e9-a6d6-fe1cc2b9ef28@sessionmgr105","access_token":"AxcaJtyD_5mkHPoHg8DKP43yAT4S-4rF8aHjWjBmoXjyt9zVUvXwMiSZcxpVGO6Jlmz6HL2XwJTlxSgI88hzfdeYva2eFHHokq3TVQH7LddbbxWtm1XXp8CXqUa7w_VbmqPHeo7BoZ6RRFbLNjstTtP_A4wiHjMxkfwEUmpNAXx8Ey7lU6hS8P1BFJbF67cFxvQAJWpYoe3CZnY9bmAAMi7Q05SUqFAFae6Ct571ripbX8r2JNHItNjEtzPK4pCr8Gmlk8XyCgjnDdCV8m1tjzDpe6etE7Yj-AfdY7WOcTl_hklb8G_aTDUu6ktcDjTvlptntSN-fHIJlaUAb1h6O6aJzRWtrRGATHnbuFfPWnparA25VbyF-CTa9kgG","token_type":"Bearer","expires_in":"15m","refresh_token":"AxczX0jfMuUUGqjjR1skmuvO0nmQOYrF8aHjWjBmoXjyqA3mWcoNejDXQdG9wsu0ZyOtDhVEejrbyGTooOQeu6FsD-moQ7wr9LescTYxONY8enuWkURM4Tt2J394gEn_PuM2FJYfmusvzfsWOfNB71jpNqYtgI6T4-7XWp_SYUIW6m7K6PlTi1Xlw8NcyuwrjfI3Tl_izZm5pVAD9ZvH3I0gcfpkJrEyro7ArMVesjabX0HXcqA4tySXYLa27E8--9znRM9pATe63C20iVi1oEwsy21_7hO5wm4KQBYaxdrOeZkp588kDGeIw3Lycl5W34C_Efl0XdpzHbcZNruKpDlUktpMO4550V1p2AkIC9vjVXVVnlolQ1XVRtNi8Of9QsDIbRIAvL4","user_number":-16638051,"locale":"en","notify_trial_cust":false,"referrer_token":""};
+						var obj = {"sid":"360b8b5d-8fae-4f2c-a041-6ef9a00484ad@sessionmgr4002","access_token":"Axf_EYln4NtI4gbeayopJilL0e0lUIrF8aHjWjBmoXjyt1wWNGGmKu7s67PSqDN01_1srtsPgF-F-5OJfiiLXJ6d548YrhYBugSYPsB81exsE5GwYhUYF_mqntWhfQyqbRnQjgEKsnetWvHXwYK1MPHxmH0NyNqRPKryjBa5isi3bDhJvaMa7RUvQalDwgXqDR-1dqfldco_8OkaFVqMRF76Ky0XbfOQlJTLIVNWGbwFbod8v9Dk7RGYUjvLx9DqGm74I_UvvH66K308UD1Uz0AEXmdVTNaFM-abaNrAmEfbUdp_lj3yO4AZks7o7kH4f72prFHFUeqFWPOEIIQAWMGv1Nl7oh2kTaWHebKwkwz0J9_txLPsXk82p4EHB5c","token_type":"Bearer","expires_in":"15m","refresh_token":"Axe5ja5b51cNQnxoSeFjKXs6xdDQe4rF8aHjWjBmoXjyqHGXUfWeeNVugMuj-esAj6At9aG4UsP7WzxC9dOySzMdwEjc1PVaFEEB5J8k3ZkGxKT-qSNKob9iVinDFQ8WjOmz4bcMyF-g5yTy1Elvq-1zncYxBuN4nRko2nTTGergA0NsuKEGS9B5sNE_tb4soiZgI_xJfR6h0Nrc20MbXY4eHJbG1eq74qVXOXSwWRXwtUbRiKwuimIPU8BqTYEFEZrA4gsTLeBzJL8kkra2AKu_6eN8FOXEjaGYmLn6MqOHBKKmDT3eiSu0fyVCCdsw352MlSrM579A86TBSNJqQWrfJXqyOfLWJdqJGESrmFDJegqzagV6FY_LA9YKcjfnBfrFfA2-PDFoZw","user_number":-24955172,"locale":"en","notify_trial_cust":false,"referrer_token":""};
 						var localTime = new Date();
 						obj.client_create_time = localTime.getTime();
 						window.onload = function () {
 							sessionStorage.setItem('buzz', JSON.stringify(obj));
-							window.location.replace('ehost/search/advanced?sid=ebd521b2-1e1d-48e9-a6d6-fe1cc2b9ef28%40sessionmgr105&vid=0&hid=110&preview=false');
+							window.location.replace('ehost/search/advanced?sid=360b8b5d-8fae-4f2c-a041-6ef9a00484ad%40sessionmgr4002&vid=0&hid=4114&preview=false');
 						};
 					</script>
  </head>

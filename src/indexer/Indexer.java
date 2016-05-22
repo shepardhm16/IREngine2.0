@@ -190,7 +190,7 @@ public class Indexer {
                 }
                
 		try {
-			 writeDocPtr(docptr);
+			writeDocPtr(docptr);
 			writemetaFileWriter(docIdx, avgDocLen);
 			for(int i=0; i<FileNames.DIRS.length;i++) {
                             indexingWriter[i].close();
